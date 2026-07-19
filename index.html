@@ -18,12 +18,78 @@
   ul.archive li { padding: 6px 0; border-bottom: 1px solid #eee; }
   ul.archive a { color: #4a6fa5; text-decoration: none; }
   ul.archive a:hover { text-decoration: underline; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
 </style>
 </head>
 <body>
+<header class="date-nav">
+  <span class="date-nav-title">記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-07-18" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <button id="calendar-btn" aria-label="カレンダーで選択">📅</button>
+  <input id="date-picker" type="date" style="position:absolute; opacity:0; pointer-events:none;">
+  <button id="next-btn" disabled aria-label="翌日へ">▶</button>
+</header>
 <h1>記事まとめ</h1>
-<h2 class="section-title"> の記事</h2>
+<h2 class="section-title">2026/07/18 の記事</h2>
 
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/chinas-new-world-artificial-intelligence-cooperation-organization-is-president-xis-clearest-play-yet-for-a-parallel-ai-order/" target="_blank" rel="noopener">China's new World Artificial Intelligence Cooperation Organization is President Xi's clearest play yet for a parallel AI order</a></h2>
+      <p>タイトル：中国が推進する「並行的なAI秩序」に向けた新たな動き<br><br><ul><li>中国は上海を拠点とする「世界人工知能協力機構（WIKO）」を設立。これは、西側諸国の影響力を排除した独自のAIガバナンス体制を構築するための明確な戦略的試みである。</li><li>WIKOにはロシア、ブラジル、南アフリカなどを含む29カ国が参画したが、欧米の諸国は参加していない。中国はグローバルサウス（発展途上国）との連携を通じて、国際的な影響力を拡大しようとしている。</li><li>習近平国家主席は、今後5年間でグローバルサンス向けのAIトレーニング枠を5,000提供することを発表した。</li><li>習氏は、AIが人間による制御下にあるべきことを主張するとともに、米国の「安全保障」を理由とした対中輸出規制に反論しており、独自の技術圏の確立を目指している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/open-weight-models-now-match-frontier-cyber-performance-from-just-four-months-ago-at-a-fraction-of-the-cost/" target="_blank" rel="noopener">Open-weight models now match frontier cyber performance from just four months ago at a fraction of the cost</a></h2>
+      <p>タイトル：オープンウェイトモデルのサイバー能力向上とリスク：閉鎖型システムに肉薄する性能が懸念される<br><br><ul><li>イギリスAIセキュリティ研究所（AISI）の調査により、オープンウェイトモデルのサイバーに関する能力が急激に向上し、最先端の閉鎖型システムの数ヶ月前のパフォーマンスに匹敵することが判明しました。</li><li>具体的にはGLM-5.2やDeepSeek V4-Proなどのモデルが該当しており、これらは以前よりも短い期間（4〜7ヶ月）でクローズドな最新システムと同等の能力に到達しています。</li><li>オープンウェイトモデルは誰もがアクセス可能であるため、安全策（ガードレール）を簡単に取り除いて悪用されるリスクがあり、サイバー防衛側が新たな攻撃への備えを行う時間が短くなることが懸念されています。</li><li>一方で、これらのモデルは低コスト、高いカスタマイズ性、およびデータ流出を防ぐプライバシー保護といった利点もあり、セキュリティのリスクと実用のメリットのバランスを考慮する必要があるとしています。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/the-pentagons-new-ai-playbook-treats-slow-adoption-as-a-bigger-risk-than-imperfect-alignment/" target="_blank" rel="noopener">The Pentagon's new AI playbook treats slow adoption as a bigger risk than imperfect alignment</a></h2>
+      <p>タイトル：米国防総省のAI新戦略：不完全な調整よりも「導入の遅れ」を大きなリスクと見なす<br><br><ul><li>海軍および海兵隊は、データと人工知能（AI）を活用して戦場での優位性を迅速に獲得するための「AIファースト」な艦隊構築を目指す新たな戦略を策定した。</li><li>この戦略では、技術的な完全性を追求するよりも、スピード感を持った導入と展開を優先している。すなわち、不完全なシステムであっても速やかに現場へ投入し、敵よりも早く学習して対応できる能力を高めることを最優先としている。</li><li>「Bits2Effects Cycle」という5段階の枠組みを採用し、データの収集から伝送、分類、分析を経て実際の軍事行動へと繋げるプロセスを体系化している。このサイクルにより、得られた教訓を即座にシステムや戦術の更新に反映させる。</li><li>主要な指標として「Mean Time to Effect（MTTE）」を設定。新データが捕捉されてから具体的な軍事的反応や適応が行われるまでの時間を最短化することで、長期的な紛争において迅速な意思決定と優位性の確保を目指す。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/" target="_blank" rel="noopener">Anthropic slashes Claude Fable 5 limits in Max and Team Premium and pushes Pro users toward API pricing</a></h2>
+      <p>タイトル：Anthropic、Claude Fable 5の利用制限を縮小しProユーザー向けにAPI移行を促進<br><br><ul><li><strong>「Fable 5」提供枠の大幅削減</strong>: Anthropicは7月20日より、MaxおよびTeam Premiumプランにおいて「Fable 5」の利用制限を大幅にカットします。これは需要管理の難しさとキャパシティ不足に対応するための措置です。</li><li><strong>ProおよびTeam Standardユーザーへの影響</strong>: これらのプランの利用者は実質的に通常のアクセス権を失い、代わりに一度限りの100ドルのクレジットが付与されるとともに、API価格体系での利用へ移行するよう促されます。</li><li><strong>競合環境の変化による戦略的判断</strong>: この方針転換の背景には、OpenAIが低コストで高性能な「GPT-5.6 Sol」をリリースしたことや、中国からの強力な価格競争の圧力が影響していると分析されています。</li><li><strong>インフラへの投資継続</strong>: Anthropicは需要に耐えうるキャパシティ確保のために投資を継続する姿勢を見せており、今回の制限策は提供リソースの最適化に向けた戦略的な動きです。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/zuckerbergs-plan-to-sell-excess-ai-compute-could-finds-its-first-big-customer-in-anthropic/" target="_blank" rel="noopener">Zuckerberg's plan to sell excess AI compute could finds its first big customer in Anthropic</a></h2>
+      <p>タイトル：Metaによる余剰AI計算リソースの提供とAnthropicとの提携交渉<br><br><ul><li>Metaは自社データセンターの余剰なAI演算能力（コンピューティング）をAnthropicに貸し出す商談を行っており、成立すれば2年間で最大100億ドルの契約になる見込みです。</li><li>この計画は、Metaが年1,450億ドル規模の巨額投資を行う中で、自社の需要を満たさない分のリソースを収益化するための新たなビジネスモデルとして検討されています。</li><li>Anthropicは「Claude Code」への需要急増に伴いキャパシティ不足に直面しており、将来的な自社データセンター構築に向けた当面の解決策としてMetaからの提案を受け入れています。</li><li>Anthropicは既にSpaceX AIと450億ドルの契約を結んでいますが、より安定したリソース確保のため、複数の供給源を検討している状況です。</li><li>現在、Metaはこの案件を精査しており、最終的な合意に至るか、あるいは交渉が打ち切られるかは現時点で未確定となっています。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/gpt-5-6-is-deleting-user-files-when-given-full-access-and-openai-says-it-shouldnt-but-did/" target="_blank" rel="noopener">GPT-5.6 is deleting user files when given full access, and OpenAI says it shouldn't but did</a></h2>
+      <p>タイトル：OpenAIの新型モデルGPT-5.6における権限付与時のファイル削除問題<br><br><ul><li>OpenAIの最新モデル「GPT-5.6」において、特定の条件下でユーザーのファイルを意図せず消去してしまう重大な不具合が確認されました。</li><li>この問題は「フルアクセスモード（Full Access Mode）」を有効にし、サンドボックスによる保護がない状態でモデルを実行した際に発生しており、一時ディレクトリ変数の処理ミスによりホームディレクトリ全体を削除するケースが発生しています。</li><li>OpenAIはこの事象を「モデルによるうっかりミス」と認めており、現在、開発者向けドキュメントの更新やより安全な権限モードへの誘導、およびさらなるガードレールの追加といった対策を進めています。</li><li>調査により、システムプロンプトでモデルに「粘り強く実行せよ」といった指示を与える場合、ユーザーへの確認をスキップして破壊的なアクションを実行するリスクが高まることが判明しており、注意喚起が行われています。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/just-like-deepseek-chinas-kimi-k3-is-forcing-western-ai-labs-to-question-their-compute-advantage/" target="_blank" rel="noopener">Just like Deepseek, China's Kimi K3 is forcing Western AI labs to question their compute advantage</a></h2>
+      <p>タイトル：中国のKimi K3が揺るがす、西側AI企業の「計算資源による優位性」への信仰<br><br><ul><li>Moonshot AIが発表した「Kimi K3」は、最新の欧米モデルに匹敵する性能を示しており、「膨大な計算資源（GPU）の保有こそが最先端AIへの唯一の道である」という西側の共通認識に疑問を投げかけています。</li><li>リソースの不足が技術革新を加速させました。Moonshot AIは、独自の「Mooncake」スタックや強化学習、アーキテクチャ、データの高度な最適化を通じて、計算資源の不足を高度な技術力で補うことに成功したと分析されています。</li><li>「計算資源の壁（Compute Moat）」という戦略的仮説への挑戦：西側諸国は輸出規制や巨額の設備投資を前提としていますが、有能なチームによる効率的な開発手法があれば、その優位性は相対的に低下する可能性があります。</li><li>輸出規制の実効性に関する懸念：中国企業が国外でGPUを調達できる現状もあり、物理的なハードウェア制限だけで技術発展を完全に封じ込めるかという点に再考を迫られています。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-tag" target="_blank" rel="noopener">Claude make Fable 5 permanent</a></h2>
+      <p>タイトル：Claudeが最新モデル「Fable 5」の提供を一部プランで恒久化<br><br>アンソロピック社は、競合他社の動向を受け、高性能な「Fable 5」を特定のサブスクリプションプランに組み込むことを決定しました。重要なポイントは以下の通りです。<br><br><ul><li>2026年7月20日より、MaxおよびTeam Premiumプランの全ユーザーに対し、制限の範囲内でFable 5へのアクセス権が提供される。</li><li>ProおよびTeam Standardのユーザーも利用可能となるが、こちらは使用クレジットによる対応となり、初回に100ドルの特別クレジットが付与される。</li><li>この方針転換は、GPT-5.6 SolやKimi 3といった競合モデルとの競争により、Fable 5をAPI専用にする従来の計画の維持が困難になったことが背景にある。</li><li>注意点として、月額20ドルの低価格プラン（標準的な個人向けプラン）を利用するユーザーには、引き続きFable 5へのアクセス権は提供されない。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel" target="_blank" rel="noopener">Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers</a></h2>
+      <p>タイトル：NVIDIA NeMo Automodel と 🤗 Diffusers を活用した大規模な動画・画像モデルのファインチューニング<br><br>NVIDIAとHugging Faceの連携により、Diffusersライブラリ形式の拡散モデル（Diffusion Models）を高度に最適化し、大規模環境で効率的にファインチューニングできる仕組みが提供されます。<br><br><ul><li><strong>シームレスな統合</strong>: 追加のチェックポイント変換やコードの書き換えを必要とせず、Hugging Face Hub上のあらゆるDiffusers形式モデルに対して生産レベルの分散学習を提供します。</li><li><strong>高度な技術スタック</strong>: NeMo Automodelを採用することで、メモリ効率の良いシャーディング、潜在キャッシュ、マルチレゾリューションバケティングなど、大規模トレーニングに不可欠な機能を備えています。</li><li><strong>優れたスケーラビリティ</strong>: 単一のGPUから数百規模のクラスターまで柔軟に対応でき、モデルの規模や計算リソースに応じた拡張が可能です。</li><li><strong>主要モデルへの対応</strong>: FLUX.1-dev（画像）やWan 2.1、HunyuanVideo（動画）といった最新の注目モデルを迅速かつ効率的にカスタマイズできます。</li></ul></p>
+    </div>
 <h2 class="section-title">アーカイブ（直近14日）</h2>
 <ul class="archive">
       <li><a href="articles/2026-07-18.html">2026/07/18</a></li>
@@ -40,5 +106,95 @@
       <li><a href="articles/2026-07-06.html">2026/07/06</a></li>
       <li><a href="articles/2026-07-05.html">2026/07/05</a></li>
 </ul>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-07-18";
+  var ARTICLES_PATH_PREFIX = 'articles/';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+
+  var prevBtn = document.getElementById('prev-btn');
+  var dateInput = document.getElementById('date-input');
+  var calendarBtn = document.getElementById('calendar-btn');
+  var datePicker = document.getElementById('date-picker');
+
+  var dateList = [];
+  var prevDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  function validateAndGo(value) {
+    if (value === CURRENT_DATE) return;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || dateList.indexOf(value) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(value);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+
+    prevBtn.disabled = !prevDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+
+  calendarBtn.addEventListener('click', function () {
+    try { datePicker.showPicker(); } catch (e) { datePicker.click(); }
+  });
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+})();
+</script>
 </body>
 </html>
