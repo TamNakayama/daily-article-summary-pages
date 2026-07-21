@@ -19,6 +19,7 @@
   .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
   .date-nav button:disabled { opacity: 0.35; cursor: default; }
   .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; }
 </style>
 </head>
 <body>
@@ -26,52 +27,54 @@
   <span class="date-nav-title">記事まとめ</span>
   <button id="prev-btn" aria-label="前日へ">◀</button>
   <input id="date-input" type="text" value="2026-07-20" inputmode="numeric" placeholder="YYYY-MM-DD">
-  <button id="calendar-btn" aria-label="カレンダーで選択">📅</button>
-  <input id="date-picker" type="date" style="position:absolute; opacity:0; pointer-events:none;">
+  <span class="date-nav-calendar-wrap">
+    <button id="calendar-btn" aria-label="カレンダーで選択">📅</button>
+    <input id="date-picker" type="date" style="position:absolute; top:100%; left:0; opacity:0; pointer-events:none;">
+  </span>
   <button id="next-btn" aria-label="翌日へ">▶</button>
 </header>
-<h1>記事まとめ 2026/07/20</h1>
+<h1>2026/07/20</h1>
 
     <div class="card">
       <span class="badge">THE DECODER</span>
       <h2><a href="https://the-decoder.com/trump-administration-reportedly-builds-a-slow-motion-ban-on-chinese-ai-models-through-sanctions-and-soft-pressure/" target="_blank" rel="noopener">Trump administration reportedly builds a slow-motion ban on Chinese AI models through sanctions and soft pressure</a></h2>
-      <p>タイトル：トランプ政権、制裁と「ソフトな圧力」を通じて中国製AIモデルの事実上の排除へ<br><br><ul><li>直接的な禁止措置を講じる代わりに、制裁リストへの登録やセキュリティ警告、法的責任の追及などを組み合わせることで、米国企業が中国製AIモデルを使用することを実質的に困難にする「スローモーションな禁止」を進める方針です。</li><li>商務省、NSA、ホワイトハウスは2025年より検討を開始しており、特に国内サプライチェーンを保護するための規則策定や、調達ルールの厳格化を通じて、中国のオープンソースモデルに対する障壁を構築しようとしています。</li><li>特定の技術（Kimi K3など）の登場や政権内の動向を受け、当初の緩やかな規制案よりも厳しい制限を支持する勢力が強まっており、より実効性の高い制裁措置へシフトしています。</li><li>「FUD（恐怖、不確実性、疑念）」戦略を採用し、バックドアやセキュリティ上の脆弱性を強調することで、企業に対して法的リスクやレピュテーションリスクを感じさせ、自発的に中国製モデルを避ける環境を作り出すことを目指しています。</li></ul></p>
+      <p>タイトル：トランプ政権による中国製AIモデルへの「緩やかな禁止」と多層的な制裁の動き<br><br><ul><li><strong>直接的な禁止を回避した実質的な排除</strong>: トランプ政権は、中国製AIモデルに対して明示的な禁止令を出すのではなく、制裁や法的責任の賦課、公的な圧力などを組み合わせた「緩やかな禁止（slow-motion ban）」を通じて、事実上の使用制限を目指しています。</li><li><strong>政府機関による多角的な連携</strong>: 商務省、NSA（国家安全保障局）、ホワイトハウスが協力し、中国のAI研究機関を制裁リストに載せることや、米国企業に対するセキュリティ警告の発令など、複数の手段を用いて排除を進めています。</li><li><strong>「FUD」戦略を用いた抑止策</strong>: バックドアや脆弱性を強調することで「恐怖、不確実性、疑念（FUD）」を生み出す戦略を採用しています。あえて規制上のリスクを浮き彫りにすることで、企業が法的トラブルを避けるために自ら中国製モデルの使用を断念するよう促す狙いです。</li><li><strong>サプライチェーン保護に向けた段階的な動き</strong>: 中国のオープンソースモデルによる国内供給網への影響を防ぐため、2025年当初から規則の策定や規制強化に向けた準備が進められてきました。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">THE DECODER</span>
       <h2><a href="https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back/" target="_blank" rel="noopener">Hugging Face says an AI agent hacked its infrastructure, and it used AI to fight back</a></h2>
-      <p>タイトル：Hugging Face、AIエージェントによるサイバー攻撃に対し自社AIを活用して迅速に対応<br><br><ul><li><strong>AIエージェントによる高度な攻撃</strong>: AIプラットフォームのHugging Faceが、完全な自律型AIエージェントシステムによってインフラへのサイバー攻撃を受けた。</li><li><strong>データ処理パイプラインを突く侵入経路</strong>: 攻撃者は「悪意のあるデータセット」を用いることで、データ処理におけるコード実行パスやテンプレート注入の脆弱性を突き、内部ネットワークへのアクセスと認証情報の窃取を実行した。</li><li><strong>限定的な範囲での被害</strong>: 一部の内部データセットや認証情報は侵害されたものの、公開されているモデル、データセット、Spacesなどは無傷であり、ソフトウェアサプライチェーンにも影響は及んでいない。</li><li><strong>AIによる異例の迅速なフォレンジック解析</strong>: 攻撃者が残した17,000件以上の操作記録を分析する際、Hugging Faceは自社AIツールを活用することで、通常なら数日かかる調査作業をわずか数時間で完了させた。</li></ul></p>
+      <p>タイトル：Hugging Face、AIエージェントによるサイバー攻撃に対し「AI」で対抗し迅速な解析を実施<br><br><ul><li>Hugging Faceのインフラの一部が、自律型AIエージェントシステムによって実行されたサイバー攻撃を受けましたが、同社は独自に展開したAIツールを活用することで高度なフォレンジック分析を数時間で完了しました。</li><li>攻撃者は「悪意のあるデータセット」を用いてデータの処理パイプラインにおける脆弱性を突き、内部ネットワークへの侵入と、一部のサービス用資格情報の奪取を行いました。</li><li>幸いにも、公開されているモデルやデータセット、Spacesといった主要な部分は改ざんされておらず、ソフトウェア供給チェーンへの影響も確認されていません。</li><li>通常であれば数日を要する17,000件以上の攻撃行動の解析においてAIを活用したことで、迅速な原因特定と対応を実現しました。</li><li>現在、パートナーや顧客のデータが侵害されたかどうかの調査が継続されています。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">THE DECODER</span>
       <h2><a href="https://the-decoder.com/moonshot-pauses-new-kimi-k3-subscriptions-after-gpu-demand-maxes-out-in-48-hours/" target="_blank" rel="noopener">Moonshot pauses new Kimi K3 subscriptions after GPU demand maxes out in 48 hours</a></h2>
-      <p>タイトル：GPU需要の急増により、MoonshotがKimi K3の新規購読を一時制限<br><br><ul><li><strong>リソース不足による受付停止</strong>: AIスタートアップのMoonshot社は、最新モデル「Kimi K3」の公開からわずか48時間でGPU需要が上限に達したため、新たなサブスクリプションの販売を一時停止しました。</li><li><strong>既存ユーザーへの影響なし</strong>: この制限は新規入会者のみを対象としており、現在の購読者は引き続き利用可能です。また、システムの安定性を保ちつつ、順次新しい枠を開放していく方針です。</li><li><strong>提供モデルの再編</strong>: 計算資源の分配を最適化するため、サブスクリプションを「Kimi Membership（Web、アプリ、仕事向け）」と「Kimi Code Membership（プログラミング用）」の2層に分割する計画を発表しました。</li><li><strong>市場競争の激化</strong>: 同社がリソース管理に苦慮する一方で、競合するアリババは新モデル「Qwen 3.8」を推進するなど、中国系AIモデルの開発競争とインフラ確保の難しさが浮き彫りになっています。</li></ul></p>
+      <p>タイトル：GPUリソースの限界によるMoonshot社のKimi K3新購読停止<br><br>【要約】<br>AIスタートアップのMoonshot社は、最新モデル「Kimi K3」への予想を上回る需要により、リリースからわずか48時間でGPU（演算処理用チップ）の供給能力が上限に達したため、新規サブスクリプションの受付を一時的に停止しました。<br><br>【重要なポイント】<br><ul><li><strong>爆発的な需要による制約</strong>: Kimi K3の高い人気により、短期間で計算資源が不足し、システムの安定性を維持するための措置が必要となった。</li><li><strong>既存ユーザーへの影響なし</strong>: 現在購読中のユーザーは継続して利用可能であり、新規向けの枠は順次拡大される予定。</li><li><strong>サブスクリプションの再編</strong>: 処理能力を最適化するため、一般向け（Web、アプリ等）の「Kimi Membership」と、プログラミング特化型の「Kimi Code Membership」の2層構造へ移行。</li><li><strong>競合他社の動向</strong>: 同業者のAlibabaもQwen 3.8などのモデルを展開しており、中国のAI開発競争が加速している。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">Simon Willison’s Weblog (llms)</span>
       <h2><a href="https://simonwillison.net/2026/Jul/20/sam-altman/#atom-tag" target="_blank" rel="noopener">Quoting Sam Altman</a></h2>
-      <p>タイトル：サム・アルトマンによる戦略的なモデル公開の意図<br><br>OpenAIのサム・アルトマン氏が、競合他社に対する参入障壁を高めるために、特定のオープンソース戦略を計画していたことが判明しました。<br><br>* GPT-3と同等の性能を持ち、個人用ハードウェアで動作するモデルを早期にリリースする計画があったこと。<br>* この放出の主な目的は、競合他社が同様の能力を持つモデルを公開することを抑制することにあるという点。<br>* 強力なモデルをあえて流通させることで、新興プロジェクトや他社の資金調達を困難にするという戦略的な意図。<br>* これらの内容が含まれた2022年の内部メールが、将来（2026年）の法的紛争において明らかになったという背景。<br></p>
+      <p>タイトル：サム・アルトマンによる競争排除のための戦略的意図<br><br><ul><li>サム・アルトマンがOpenAIの取締役に宛てた2022年の内部メールの内容が、訴訟（Musk v. Altman）を通じて公開された。</li><li>このメールには、家庭用ハードウェアで動作可能な「GPT-3相当」の性能を持つ言語モデルを早期にリリースする計画が含まれていた。</li><li>この戦略の主な目的は、Stability AIなどの競合他社による強力なモデルの公開を抑制し、新規参入プロジェクトへの資金調達を困難にさせることにあった。</li><li>あえて特定の性能を持つモデルを放出することで、競合者の活動を阻害し、市場におけるOpenAIの優位性を守ろうとする意図的な戦略が明らかになった。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">r/LocalLLaMA (Reddit)</span>
       <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v1k3pw/kimi_k3_just_fixed_15_critical_security_bugs_that/" target="_blank" rel="noopener">Kimi K3 just fixed 15 critical security bugs that Codex and Fable refused because of “cyber guardrails”. Hugging Face: We had this experience ourselves this week! Very scary to be guardrailed as a defender when you know attackers are likely bypassing</a></h2>
-      <p>タイトル：Kimi K3が「サイバーガードレール」の制約を超え、重大なセキュリティ脆弱性を修復<br><br><ul><li>Kimi K3は、競合モデルであるCodexやFableが「サイバーガードレール（安全策）」を理由に拒否した15件の深刻なセキュリティバグを見つけ出し、修正することに成功しました。</li><li>過度なガードレールによる制限が、かえって防御側が本来行うべき脆弱性の修復作業を妨げるという矛盾した状況が浮き彫りになっています。</li><li>Hugging Faceも同様の経験を報告しており、守るための安全策（ガードレール）に縛られている間に、攻撃者がそれらを回避して侵害を行うリスクに対して強い懸念を示しています。</li></ul></p>
+      <p>タイトル：Kimi K3が「サイバーガードレール」の制限を回避し、競合モデルが拒否した15件の深刻な脆弱性を修復<br><br><ul><li>AIモデル「Kimi K3」は、CodexやFableといった他の主要モデルが安全策（ガードレール）を理由に対応を拒んだ計15件の重大なセキュリティバグの修正に成功しました。</li><li>この事象は、過度に厳しいガードレールが、攻撃を防ぐための「防衛側の行動」まで制限してしまうという問題を引き起こしていることを示しています。</li><li>Hugging Faceも同様の経験を報告しており、防御側がシステムの制約によって動きを封じられる一方で、攻撃者が検知をすり抜けるリスクの高さに警鐘を鳴らしています。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">r/LocalLLaMA (Reddit)</span>
       <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v1j3ns/sources_parts_of_the_trump_administration_are/" target="_blank" rel="noopener">Sources: parts of the Trump administration are reigniting efforts to implement de facto bans on foreign open-source models, as Chinese AI models gain momentum</a></h2>
-      <p>タイトル：トランプ政権、中国のAI躍進を受け海外製オープンソースモデルへの制限を検討<br><br><ul><li>トランプ政権の一部が、外国製のオープンソースAIモデルに対して事実上の禁止（de facto bans）を実施する動きを再開している。</li><li>この動きの主な背景には、中国のAIモデルが急速な勢いで普及し、影響力を強めていることに対する警戒がある。</li><li>国家安全保障や技術競争における優位性を守るため、海外製モデルへのアクセス規制を強化する方針である。</li></ul></p>
+      <p>タイトル：トランプ政権、中国AIの勢いを受け「国外製オープンソースモデル」への事実上の禁止措置を検討<br><br>重要ポイント：<br><ul><li>トランプ政権の一部において、海外（特に中国）製のオープンソースAIモデルに対して実質的な制限や禁止を行う動きが再び活発化している。</li><li>この動きの背景には、近年急速に勢いを増している中国製AIモデルに対する安全保障上の懸念がある。</li><li>対象を「オープンソース」に絞ることで、拡散しやすく管理が困難な国外技術が国内へ普及することを防ぐ狙いがある。</li><li>事実上の禁止（de facto bans）を通じて、競合する国家によるAI技術の優位性を抑制し、自国の技術的覇権を守ろうとしている。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">r/LocalLLaMA (Reddit)</span>
       <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v1nor4/unsloth_now_supports_amd/" target="_blank" rel="noopener">Unsloth now supports AMD!</a></h2>
-      <p>タイトル：UnslothがAMD GPUに対応<br><br><ul><li>LLM（大規模言語モデル）の学習や推論を高速化・軽量化する「Unsloth」ライブラリにおいて、公式にAMD製GPUへの対応が追加されました。</li><li>これまで主にNVIDIA製ハードウェア向けに最適化されていた技術基盤が拡大され、より幅広い環境で利用可能になります。</li><li>このアップデートにより、AMDプラットフォームを採用している開発者やユーザーも、効率的なモデルのファインチューニングや推論を実行できるようになります。</li></ul></p>
+      <p>タイトル：UnslothがAMD GPUに対応<br><br><ul><li>LLM（大規模言語モデル）の学習や推論を効率化するツール「Unsloth」が、AMD製GPUへの対応を開始しました。</li><li>これにより、NVIDIA製のハードウェアに限定されず、AMD環境でも高速なファインチューニングが可能になります。</li><li>今回のアップデートにより、より多様なハードウェア構成を利用する開発者や研究者の選択肢が広がります。</li></ul></p>
     </div>
 <footer>要約モデル: gemma4:12b</footer>
 <script>
