@@ -1,0 +1,27 @@
+# 開発環境設定
+.vscode/
+.idea/
+
+# 環境変数ファイル
+.env
+.env.local
+
+# ビルド成果物
+dist/
+build/
+*.log
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Temporary
+_bak/
+*.bak
+
+.DS_Store
