@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>記事まとめ 2026/07/24</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-07-24" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+</header>
+<h1>2026/07/24</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/" target="_blank" rel="noopener">Anthropic claims its new Claude Opus 5 delivers near-Fable 5 performance at half the token price</a></h2>
+      <p>Anthropicの新モデル「Claude Opus 5」が低価格で高パフォーマンスを実現<br><br><ul><li>Anthropicが発表した新フラッグシップモデル「Claude Opus 5」は、上位モデル「Fable 5」に迫る性能を半額のトークン単価で提供する。</li><li>代理エージェントとしてのコーディングやナレッジワークにおいて高い評価を得ており、特に未知の問題解決能力を測るARC-AGI-3では、GPT-5.6 Solを大幅に上回る30.2%のスコアを記録した。</li><li>モデル自身が反復的に作業内容を検証・改善できるほか、必要に応じて自らコードを記述して独自のツールを作成する能力を備えている。</li><li>料金体系は、入力100万トークンあたり5ドル、出力100万トークンあたり25ドルに設定されており、価格競争力を強化した。</li><li>100万トークンのコンテキストウィンドウを維持しつつ、新たに導入された「Fast Mode」を選択することで、料金は倍になるものの処理速度を2.5倍に向上させることが可能である。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/microsofts-open-weight-ai-push-is-so-obviously-an-azure-play-it-hurts/" target="_blank" rel="noopener">Microsoft's open-weight AI push is so obviously an Azure play it hurts</a></h2>
+      <p>MicrosoftのオープンウェイトAI推進は、自社のクラウド事業「Azure」のシェア拡大を狙った戦略である。<br><br><ul><li>Microsoftがオープンウェイトモデルを推進する真の目的は、自社のクラウドプラットフォーム「Azure」への顧客囲い込みである。</li><li>OpenAIへの過度な依存から脱却し、Azure上で多様なモデルを利用可能にすることで、競合他社への顧客流出を防ぐ狙いがある。</li><li>米国企業らが公開した「オープンウェイトとAIリーダーシップ」に関する公開書簡は、モデルの蒸留（distillation）を正当化し、中国のAI開発を牽引するモデルや技術に対する米国政府の規制に対抗する動きである。</li><li>オープンなAIエコシステムを支援することで、自社のソフトウェア基盤であるWindowsやOfficeのエコシステムと同様の「ロックイン（囲い込み）」戦略をAI分野でも再現しようとしている。</li><li>OpenAIなどの高コストなモデルへの依存を減らすことで、AI事業における収益率（マージン）を改善させる意図もある。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/sakana-claims-its-ai-model-router-fugu-ultra-v1-1-now-beats-fable-5-without-even-including-it-in-the-pool/" target="_blank" rel="noopener">Sakana claims its AI model router Fugu Ultra v1.1 now beats Fable 5 without even including it in the pool</a></h2>
+      <p>Sakana AIのAIモデルルーター「Fugu Ultra v1.1」が、Anthropicの「Fable 5」を上回る性能を達成<br><br><ul><li>Sakana AIが公開したAIモデルルーターの新バージョン「Fugu Ultra v1.1」は、プール内に含まれていないAnthropicの最新モデル「Fable 5」の性能を多くのベンチマークで上回ったと発表した。</li><li>本バージョンでは、前世代と比較して最大7.9ポイントの性能向上を実現しており、特に「ProgramBench」や「TerminalBench 2.1」において大幅なスコアアップを記録している。</li><li>料金体系は維持され、入力トークン100万あたり5ドル、出力トークン100万あたり30ドルの価格設定となっている。また、Claude Codeと互換性のあるエンドポイントが追加され、ターミナルから直接利用可能となった。</li><li>開発側によれば、新たなトップクラスのモデルをプールに追加するには約2週間のトレーニングと評価が必要であり、今回公開されたデータは同社独自の検証結果に基づいている。</li><li>初代Fuguは速度やコスト面で批判もあったが、今回のアップデートによりさらなる改善を図る。なお、依然としてGDPR等の規制を理由にEUおよびEEA圏内でのサービス提供は行われていない。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/" target="_blank" rel="noopener">German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German</a></h2>
+      <p>ドイツのAIコンソーシアムが開発した「Soofi S」は、高い性能と効率性を両立した30B規模のオープンソース言語モデルです。ドイツテレコムのクラウドインフラ上で学習され、英語とドイツ語の両方で既存のオープンモデルを上回るベンチマークスコアを記録しました。<br><br><ul><li>ドイツのコンソーシアムが、ドイツテレコムのAIクラウド基盤を用いて「Soofi S（31.6Bパラメータ）」を公開した。</li><li>ハイブリッドアーキテクチャを採用しており、トークンごとにアクティブ化されるのは3.2Bパラメータのみであるため、入力が長大になっても高速な処理速度を維持できる。</li><li>ドイツ語学習データに重点を置いた設計により、ドイツ語、英語、プログラミングのタスクにおいて、既存の「Olmo 3 32B」や「Apertus 70B」といったオープンモデルを凌駕する性能を達成した。</li><li>学習データの構築において、ベンチマークテストのデータが誤って混入する（コンタミネーション）という事態が発覚し、運営側は技術報告書の第3版でその詳細を公表し対応している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/claudes-voice-mode-now-runs-on-anthropics-most-capable-models-across-all-platforms/" target="_blank" rel="noopener">Claude's voice mode now runs on Anthropic's most capable models across all platforms</a></h2>
+      <p>Claudeの音声モードが強化され、Anthropicの最上位モデルが全プラットフォームで利用可能に<br><br><ul><li>Claudeの音声モードにおいて、これまでの軽量モデル「Haiku」だけでなく、より高性能な「Opus」および「Sonnet」が選択可能になった。この変更はモバイル、デスクトップ、ウェブの全プラットフォームに適用される。</li><li>会話の途中でモデルを切り替えることが可能となり、ユーザーは用途に応じて性能と速度のバランスを柔軟に調整できるようになった。</li><li>音声モードは11言語に対応しており、GmailやGoogleカレンダー、Slackといった外部ツールと連携できる点が大きな特徴である。</li><li>特に音声入力のみでメールの作成や送信までを完結させる機能は、競合するOpenAIの「GPT-Live」やGoogleの「Gemini Live」にはないClaude独自の強みとなっている。</li><li>OpenAIやGoogleの音声機能がリアルタイムの双方向対話（フルデュプレックス）に注力しているのに対し、Claudeはターン制の対話システムを採用しており、ツール連携の利便性を重視した設計となっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/kimi-k3-trails-frontier-us-models-by-a-wide-margin-on-cyber-exploits-and-distillation-may-explain-why/" target="_blank" rel="noopener">Kimi K3 trails frontier US models by a wide margin on cyber exploits, and distillation may explain why</a></h2>
+      <p>Moonshot AIの「Kimi K3」は、サイバー攻撃能力において米国の主要な最先端AIモデルに大きく及ばないことが、米英の専門機関による共同評価で明らかになりました。<br><br><ul><li>米英のAI安全研究所による共同評価の結果、Moonshot AIのKimi K3は、攻撃的なサイバー操作を支援してしまう一方、その能力は米国の最先端AIモデルに大きく劣ることが判明した。</li><li>カーネギーメロン大学が開発したベンチマーク「ExploitBench」を用いた試験では、米国の主要モデルが平均76.2%のスコアを記録したのに対し、Kimi K3は32.2%にとどまった。</li><li>Kimi K3は中国国内のGLM-5.2（24.4%）を上回り、オープンウェイトモデルの中では新たな指標となったものの、高難易度の脆弱性攻撃には対応できない。</li><li>Kimi K3の安全性評価では、攻撃的なサイバー操作に関する要求に対して、ガードレールが機能せず拒否することなく支援してしまう問題が浮き彫りになった。</li><li>今回の結果は、Moonshot AIが他社のより高性能なモデルを蒸留（distillation）して学習させているのではないかという疑念を裏付けるものとして注目されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-tag" target="_blank" rel="noopener">Introducing Claude Opus 5</a></h2>
+      <p>Anthropicが新モデル「Claude Opus 5」をリリース、高い性能とプロアクティブな能力を実現<br><br><ul><li>Anthropicが発表した「Claude Opus 5」は、現時点でArtificial Analysisのリーダーボードで首位を獲得しており、非常に高い推論能力を備えている。</li><li>最大の特徴は「プロアクティブ（能動的）な姿勢」であり、例えば3Dモデル作成の課題において、視覚情報が直接与えられない状況でも、自らコンピュータビジョンパイプラインを構築して解決策を導き出すなど、柔軟な問題解決能力を見せている。</li><li>セキュリティ面では、脆弱性の発見能力は向上しているものの、悪用（エクスプロイト）の手法については意図的に訓練されていないため、安全性が考慮された設計となっている。</li><li>料金体系は前モデル「Opus 4.8」を維持しており、低価格かつ高性能なモデルとして、上位モデル「Claude Fable 5」に近い能力を半額のコストで提供することを目指している。</li><li>ユーザー向けに専用のプロンプトガイドも公開されており、より実践的かつ効果的な活用が推奨されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v5c3vt/more_than_20_companies_including_nvidia_meta/" target="_blank" rel="noopener">More than 20 companies including NVIDIA, Meta, Microsoft, Palantir, and Hugging Face have signed a letter urging policymakers to avoid premature restrictions on open weight models.</a></h2>
+      <p>オープンソースAIモデルに対する過度な規制の回避を求める共同声明<br><br><ul><li>NVIDIA、Meta、Microsoft、Palantir、Hugging Faceを含む20社以上の主要テクノロジー企業が、オープンウェイトモデル（公開AIモデル）への規制強化に反対する共同声明を発表した。</li><li>各社は、AI技術の発展とイノベーションを阻害するような性急な法的制限を導入しないよう、政策立案者に対して強く求めている。</li><li>オープンなAI開発の維持は、透明性を高め、多様な研究者が技術にアクセスすることでAIの安全性を向上させると主張している。</li><li>企業側は、行き過ぎた規制は一部の巨大企業による独占を助長し、競争環境を損なう恐れがあると懸念を表明している。</li><li>声明では、一律の規制ではなく、リスクベースで実効性のある柔軟な政策の策定が不可欠であると結論付けている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v5g4tl/it_appears_that_the_anti_opensource_ai_lobby_is/" target="_blank" rel="noopener">It appears that the anti opensource AI lobby is far outgunned already</a></h2>
+      <p>オープンソースAIを規制しようとするロビー活動は、すでに大勢が決しており、オープンソース側が圧倒的に優位な状況にある。<br><br><ul><li>オープンソースAIの推進力は圧倒的であり、規制を求める勢力が抱く懸念は、技術の急速な進歩と普及の勢いに太刀打ちできなくなっている。</li><li>巨大テック企業が閉鎖的なAIモデルを推進する一方で、MetaのLlamaシリーズに代表される高性能なオープンソースモデルが市場を席巻し、開発者の支持を広げている。</li><li>オープンソースによる技術の民主化は不可逆的な流れとなっており、法規制によって開発を止めることは現実的に不可能に近い。</li><li>規制論者はAIの安全性や悪用リスクを理由に挙げるが、オープンソースのコミュニティは透明性の高い開発と迅速な脆弱性修正を通じて、実質的な安全性を担保しつつある。</li><li>今後は「規制か推進か」という議論よりも、オープンソースAIをいかに社会の利益のために活用し、リスクを管理していくかという段階へシフトしている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v59aek/hugging_face_releases_the_stack_v3_largest_open/" target="_blank" rel="noopener">Hugging Face releases The Stack v3 – largest open code dataset yet</a></h2>
+      <p>Hugging Faceが史上最大規模のオープンソースコードデータセット「The Stack v3」を公開<br><br><ul><li>本データセットは、GitHub上の1,000以上のプログラミング言語にわたる約35兆トークンのソースコードを収録しており、AIモデルの学習用データとして世界最大級の規模を誇る。</li><li>データの品質管理が大幅に強化されており、学習済みモデルの性能を損なうような低品質なコードや、不要なノイズデータが適切に除去されている。</li><li>コンプライアンスと倫理的配慮が重視され、著作権者からの削除要請（オプトアウト）が可能な仕組みを備えるとともに、個人を特定できる情報（PII）のフィルタリングが徹底されている。</li><li>開発者や研究者は、提供されている専用のツールやメタデータを使用することで、特定のライセンスや言語に絞ったデータセットを容易に構築・活用することが可能。</li><li>AI開発におけるデータ公開の透明性と再利用性を高めることで、プログラミング支援AIなどの次世代モデルのさらなる精度向上と研究の加速を目指している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v52t2d/the_distillation_claim_is_just_ridiculous_in/" target="_blank" rel="noopener">The &quot;distillation&quot; claim is just ridiculous in nature</a></h2>
+      <p>AIモデルの蒸留（Distillation）を過大評価する言説への批判<br><br><ul><li>蒸留はあくまで教師モデルの出力を模倣する手法に過ぎず、モデルの推論能力を根本から向上させる「魔法」のような技術ではない。</li><li>蒸留されたモデルは元のモデルの知識を一部切り出すだけであるため、未知のデータや高度な推論が求められる複雑なタスクでは性能が頭打ちになりやすい。</li><li>「小さなモデルが大きなモデルを完全に凌駕する」といった主張は、多くの場合、特定のベンチマークへの最適化による誤解を招く結果に基づいている。</li><li>AIの知能はパラメータ数や学習データの質に依存しており、単に蒸留を繰り返すだけでは、モデルの「思考力」を底上げすることはできない。</li><li>技術の限界を正しく理解し、過度なマーケティング的な修辞に惑わされず、実用的な文脈でモデルの性能を評価すべきである。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v5gh22/why_wont_he_sign_the_letter_then/" target="_blank" rel="noopener">Why won't he sign the letter then?</a></h2>
+      <p>なぜ彼は署名を拒むのか<br><br><ul><li>記事の核心は、署名を拒否する人物の行動背景や心理的な動機を分析し、その決断が周囲や状況にどのような影響を及ぼしているかを解き明かすことにある。</li><li>署名を拒否するという行為は、単なる意思表示にとどまらず、権力構造への抵抗や、契約内容に対する根本的な不信感、あるいは責任を回避しようとする戦略的な判断が絡んでいる可能性が高い。</li><li>この問題の解決には、拒否の背後にある「語られない不満」や「条件の不一致」を特定し、対話を通じて双方が納得できる着地点を見出すことが不可欠である。</li><li>署名を強要するのではなく、なぜ同意できないのかという本質的な懸念を解消しなければ、事態は停滞し続け、関係性の悪化を招くだけである。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/modelexpress-distributing-model-artifacts-at-the-speed-of-light/" target="_blank" rel="noopener">ModelExpress: Distributing Model Artifacts at the Speed of Light</a></h2>
+      <p>NVIDIA ModelExpress: AIモデルの重み配布を劇的に高速化する新技術<br><br><ul><li>モデルの重み（アーティファクト）の転送効率を最大化し、LLMなどの大規模モデルにおけるコールドスタートやオートスケーリング時の待ち時間を劇的に短縮する。</li><li>クラスタ内で既にモデルを保持しているGPUを探し出し、NVIDIAの独自技術（NIXL）を用いてGPU間でのP2P RDMA転送を行うことで、ストレージやホストメモリを経由する冗長なデータ移動を回避する。</li><li>マルチスレッドストリーミング、分散キャッシュ、GPUDirect Storage、実行時パス選択などの高度な最適化手法を統合し、環境に応じて最適なデータ転送経路を自動的に確立する。</li><li>vLLMやSGLangなどの主要フレームワークと連携し、VMMアリーナ登録などの最適化を通じて、運用環境における起動および登録のオーバーヘッドを最小限に抑える。</li><li>モデルのチェックポイントサイズが巨大化する現代のAI運用において、頻繁に発生するモデル転送コストを削減し、推論や学習ロールアウトの生産性を大幅に向上させる。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.1-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-07-24";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  function validateAndGo(value) {
+    if (value === CURRENT_DATE) return;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || dateList.indexOf(value) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(value);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+})();
+</script>
+</body>
+</html>
