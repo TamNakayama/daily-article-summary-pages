@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>記事まとめ 2026/07/26</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-07-26" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+</header>
+<h1>2026/07/26</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/cursors-agent-swarm-suggests-cheaper-models-can-handle-most-coding-when-frontier-models-plan-the-work/" target="_blank" rel="noopener">Cursor's agent swarm suggests cheaper models can handle most coding when frontier models plan the work</a></h2>
+      <p>CursorのAIエージェント群（エージェントスウォーム）は、高性能なモデルが計画を立て、安価なモデルが実行を担うという役割分担により、複雑なコーディング作業を効率化できることを実証した。<br><br><ul><li>役割分担による効率化：高性能な「プランナー（計画者）」が目標を細分化し、安価で高速な「ワーカー（作業者）」が実装を担当する。この分離により、AIが文脈を見失うことを防ぎ、精度が大幅に向上する。</li><li>従来の問題を克服：旧来のエージェントシステムでは、単一のエージェントが全体の文脈を維持しつつ作業する必要があり、長期タスクで迷走したり、競合解消でボトルネックが生じたりしていた。</li><li>驚異的な処理能力：新システムでは作業効率が飛躍的に高まり、従来のGitでは対応できない速度（毎秒1000コミット）でコード生成を行うため、独自のバージョン管理システムを構築するまでに至った。</li><li>実証実験の結果：SQLiteをRustで再構築するテストにおいて、新システムはすべての設定でテストスイートを100%クリアし、旧システムを圧倒した。</li><li>実用化の進展：エージェント艦隊は研究段階からコア製品へと進化し、複雑な開発プロジェクトにおける主要なツールとして実用化されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence/" target="_blank" rel="noopener">Anthropic's Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence</a></h2>
+      <p>AnthropicのClaude Opus 5がAIの真の知能を測る指標で圧倒的な記録を達成<br><br><ul><li>Anthropicの最新AI「Claude Opus 5」が、知能評価ベンチマーク「ARC-AGI-3」において30.2％という驚異的なスコアを記録し、世界最高記録を更新した。</li><li>これまでの最高記録であったOpenAIの「GPT-5.6 Sol (Max)」の7.8％を大幅に引き離しており、競合モデルと比較しても圧倒的な差をつけている。</li><li>ARC Prizeチームの分析によると、この成果はモデルの論理的推論能力が飛躍的に向上したことによるもので、未知の環境下での自律的な探索・計画能力が強化されたためである。</li><li>試験において、タスクを代数表記に変換したり、独自に反射方程式を導き出すなど、従来のAIには見られなかった高度な問題解決能力が確認された。</li><li>Opus 5は、これまでどのAIも解決できなかった5つの環境を攻略し、そのうち4つは人間レベルと同等以上のパフォーマンスを見せている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/hundreds-asked-chatgpt-for-poison-and-bioweapon-recipes-and-some-got-step-by-step-high-school-level-guides/" target="_blank" rel="noopener">Hundreds asked ChatGPT for poison and bioweapon recipes and some got step-by-step high school level guides</a></h2>
+      <p>ChatGPTが生物兵器や毒物の生成方法を回答してしまう問題が浮上しており、OpenAIの安全性に対する姿勢が厳しく問われている。<br><br><ul><li>OpenAIの次世代モデル「GPT-5」は、リリース前の内部評価で生物学的リスクが高いと判断されていたが、同社は秋にそのリスク評価を引き下げた。</li><li>2025年夏以降、数百人のユーザーがChatGPTに毒物や生物兵器の作り方を尋ね、一部には高校生レベルの知識でも実行可能な手順が提示された。</li><li>OpenAIの幹部は、研究者の利便性を損なわないよう、AIが回答を拒否する頻度を下げるようスタッフに指示していたとされる。</li><li>同社は問題のあったアカウントを停止したものの、当局への報告は行わなかった。現時点で報告の義務は法的に課されていない。</li><li>AIがテロリストなどに悪用されるリスクが指摘される中、OpenAIが商業的利益を安全性よりも優先しているのではないかという批判が強まっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns/" target="_blank" rel="noopener">US reportedly favors selective bans over blanket restrictions on Chinese open weight models citing security concerns</a></h2>
+      <p>米トランプ政権は中国製オープンウェイトAIモデルに対し、包括的な禁止措置ではなく、安全保障上の懸念に基づいた個別的かつ選択的な制限を検討していることが明らかになった。<br><br><ul><li>米ホワイトハウスは、中国製AIモデルを一律に禁止するのではなく、国家安全保障上のリスクが認められる特定のモデルをターゲットにした規制を優先する方針である。</li><li>現在、中国のKimi K3などのAIモデルはサイバーセキュリティのベンチマークにおいて、依然として西側の主要モデルに大きく及ばない水準にとどまっている。</li><li>OpenAIやGoogle DeepMindを含む大手テック企業は、表向きはオープンウェイトモデルの規制に反対する共同書簡に署名しているが、内部では状況が複雑化している。</li><li>OpenAIやAnthropicは、安価な中国製モデルによる価格競争圧力に直面しており、裏では中国製オープンモデルの制限を求めるロビー活動を行っていると報じられている。</li><li>主要テック企業がオープンモデルの規制に反対するのは、自社のクラウドサービスで他社モデルのアクセス権を販売するビジネスモデルを守る狙いや、市場シェアを維持する意図があるためである。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/the-ai-coding-tutor-paradox-grows-as-educators-scramble-to-rethink-how-they-test-real-skills/" target="_blank" rel="noopener">The AI coding tutor paradox grows as educators scramble to rethink how they test real skills</a></h2>
+      <p>AIコーディング学習のパラドックス：教育現場は実務能力の評価方法を再考へ<br><br><ul><li>AIの台頭により、コンピュータサイエンス教育の現場では、プログラミング教育の手法と評価基準の抜本的な見直しが加速している。</li><li>世界49カ国の教育者への調査で、69％が「AIはソフトウェア開発に必要なスキルを変えた」と回答し、従来のプログラミング教育からの転換を迫られている。</li><li>教育の焦点は「ゼロからコードを書くこと」から、「既存コードの理解、デバッグ、問題解決」へと移行しており、すでに64％が指導方針を変更済みである。</li><li>試験方法についても、68％が対面試験、口頭試問、コードの解説、プロジェクト形式など、AI不正を防ぎつつ実力を測る手法を導入している。</li><li>一方で、回答者の約半数が「AIを授業に統合するための具体的な成功事例やガイドラインが不足している」と回答しており、今後の教育モデルの構築が課題となっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Jul/26/relay-market/#atom-tag" target="_blank" rel="noopener">An Inside Look at the Relay Market Powering Token Resellers and Fraud</a></h2>
+      <p>LLMトークンの闇市場：転売と不正利用の実態<br><br><ul><li>LLMのAPIトークンを安価に転売する市場が拡大しており、主に中国圏で不正なリレー（仲介）サービスが横行している。</li><li>転売業者は、無料トライアルの悪用、無防備なサポートボットの乗っ取り、盗難クレジットカードやチャージバック攻撃などを駆使して不正にAPIキーを入手し、コストを極限まで抑えている。</li><li>負荷分散のための正当なプロキシツール（one-apiやnew-api）が、本来の用途を超えてこれら不正なリレーサービスの基盤として悪用されている。</li><li>購入者側は、コスト削減だけでなく、地域制限の回避や、モデル蒸留のためのデータ収集を目的として、こうした非公式なプロキシを利用している。</li><li>公開されたLLMアプリケーションは常に攻撃のリスクにさらされており、開発者はAPIキーに対する厳格な予算上限設定（利用金額が一定額に達したら停止する機能など）の提供をベンダー側に強く求めている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v72jft/ceo_of_hugging_face_in_the_spirit_of_transparency/" target="_blank" rel="noopener">CEO of Hugging Face: &quot;In the spirit of transparency, here’s what I asked OpenAI&quot;</a></h2>
+      <p>Hugging FaceのCEOがOpenAIに求めた「AI開発の透明性とオープンソースへの貢献」<br><br><ul><li>クレマン・ドゥルボーCEOは、AI開発における透明性の欠如を懸念し、OpenAIに対して開発プロセスやデータの公開を促す公開質問状を提示した。</li><li>特に、AIモデルの学習データセット、評価基準、安全性テストの手法といった「ブラックボックス化」している情報の公開を強く求めている。</li><li>AIの進歩が一部の企業に独占されることを危惧し、科学的な協力関係を築くためにオープンなエコシステムを重視すべきだと主張した。</li><li>社会に多大な影響を与えるAI技術において、責任ある開発を実現するためには、競合関係を越えた知識の共有と透明性が不可欠であると強調している。</li><li>単なる競争ではなく、研究成果を広く公開することでAI全体の品質向上と安全性を確保し、技術の民主化を図るべきであるという姿勢を示した。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v6pkji/karparthy_removed_anthropic_from_his_bio/" target="_blank" rel="noopener">Karparthy removed Anthropic from his bio</a></h2>
+      <p>Andrej Karpathyが自身のプロフィールからAnthropicへの言及を削除した件<br><br><ul><li>OpenAIの元研究責任者であり、AI分野の著名人であるAndrej Karpathyが、自身のX（旧Twitter）のプロフィール欄からAnthropicへの言及を削除した。</li><li>以前、Karpathyは自身のプロフィールにAnthropicを「応援している（cheerleader）」と記載していたが、今回の変更によりその記述が消滅した。</li><li>この変更の理由は公式に明らかにされておらず、本人の意図や背景については不明である。</li><li>AIコミュニティでは、この突然のプロフィール変更が何を意味するのかについて、様々な憶測や議論が飛び交っている。</li><li>以前はOpenAIの主要メンバーであり、現在は個人としてAI教育や開発を行うKarpathyの動向は、常に業界から注目を集めている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v74j62/sources_openai_and_anthropic_quietly_lobby/" target="_blank" rel="noopener">Sources: OpenAI and Anthropic quietly lobby Washington regulators to restrict open-source AI models, even as Sam Altman publicly says he supports open source AI</a></h2>
+      <p>OpenAIとAnthropicがオープンソースAIの規制を水面下で推進、公の姿勢との矛盾が浮上<br><br><ul><li>OpenAIやAnthropicといった大手AI企業が、ワシントンの規制当局に対し、強力なオープンソースAIモデルを制限するよう水面下で働きかけている。</li><li>サム・アルトマン氏をはじめとする各社幹部は、公の場では「オープンソースAIを支持する」と発言しているものの、実際には業界の支配力を強めるための規制を求めている。</li><li>これらの企業は、AIモデルの安全性を口実に、競合となるオープンソースの強力なモデルの公開を阻止することで、市場での優位性を確保しようとしている可能性がある。</li><li>このようなロビー活動は、AI開発の民主化を支持するオープンソースコミュニティや研究者から、競争を阻害しイノベーションを抑制するものとして批判を浴びている。</li><li>表向きのオープンな姿勢と、背後で行われている規制の要請という「二面性」が浮き彫りとなり、AI業界における権力の集中と透明性について議論が巻き起こっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v770ee/do_you_want_new_gemma/" target="_blank" rel="noopener">Do you want new Gemma?</a></h2>
+      <p>Gemmaの最新モデルが登場<br><br><ul><li>Googleは、次世代の軽量AIモデル「Gemma 2」を発表し、以前のモデルから大幅な性能向上を実現した。</li><li>新たに9B（90億パラメータ）と27B（270億パラメータ）の2つのサイズが展開され、特に27Bモデルは同クラスの競合モデルを上回る高い推論能力を持つ。</li><li>モデルのアーキテクチャに「知識蒸留」という技術を採用し、より大きなモデルの知識を効率的に学習させることで、コンパクトながら高度なタスク処理を可能にした。</li><li>ライセンスは柔軟な利用が可能な「Gemma Terms of Use」に基づき、研究開発から商用利用まで幅広く活用できる設計となっている。</li><li>開発者はGoogleのAIプラットフォーム「Vertex AI」や「AI Studio」を通じて、即座に最新モデルを利用・統合することが可能である。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v722bp/kimi_k3_gets_open_weighted_tomorrow/" target="_blank" rel="noopener">Kimi K3 gets open weighted tomorrow!</a></h2>
+      <p>Kimi K3のオープンウェイト版が明日公開へ<br><br><ul><li>月の暗号（Moonshot AI）が開発する高性能AIモデル「Kimi k3」のウェイト（重み）が、明日公開されることが明らかになりました。</li><li>オープンウェイト化により、開発者や研究者はモデルの構造や知見を自由に利用・検証できるようになり、AI技術の発展とエコシステムの拡大が期待されます。</li><li>Kimi k3は、推論能力や長文処理において高いパフォーマンスを持つモデルとして注目されており、今回の大規模なモデル公開は業界内でも大きなインパクトを与える見込みです。</li><li>企業独自のカスタマイズやローカル環境での実行が可能になることで、AIを活用した新しいアプリケーション開発の加速が予想されます。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.1-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-07-26";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  function validateAndGo(value) {
+    if (value === CURRENT_DATE) return;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || dateList.indexOf(value) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(value);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+})();
+</script>
+</body>
+</html>
