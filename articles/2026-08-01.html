@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>記事まとめ 2026/08/01</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-08-01" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+</header>
+<h1>2026/08/01</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/ai-keeps-cracking-unsolved-math-problems-and-mathematicians-have-mixed-feelings/" target="_blank" rel="noopener">AI keeps cracking unsolved math problems, and mathematicians have mixed feelings</a></h2>
+      <p>AIが長年未解決だった数学の難問を次々と解き明かす状況に対し、数学界では期待と不安が入り混じる複雑な反応が広がっている。<br><br>AIが数学の難問解決に台頭し、数学者たちの間で自身の専門性が将来的に不要になるのではないかという危機感と、強力なツールとしての可能性が議論されている。<br><br><ul><li>OpenAIなどのAIモデルが、1946年以来未解決だった「単位距離予想」に対する反例を発見するなど、数学界の難問を次々と解決している。</li><li>AIの進歩により、新しい証明手法の構築や膨大なパターン認識、機械検証可能な証明の作成が加速し、研究効率が劇的に向上している。</li><li>一部の数学者はAIを「非常に優秀で疲れを知らない博士課程の学生」と評し、研究を加速させる強力なツールとして前向きに評価している。</li><li>一方で、AIの急速な進化は、数学という人間知性の聖域ともいえる領域において、専門家の存在意義を揺るがす深刻な問いを突きつけている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/ai-coding-agents-can-modernize-research-software-but-cant-judge-if-the-science-is-right/" target="_blank" rel="noopener">AI coding agents can modernize research software but can't judge if the science is right</a></h2>
+      <p>AIコーディングエージェントは研究用ソフトウェアの近代化を強力に後押しするが、科学的妥当性の判断は人間に委ねられる<br><br><ul><li>多くの研究現場では、過去の論文作成時に書かれた脆弱なソフトウェアが今も重要インフラとして使われているが、AIエージェントの活用によりこれらの更新や高速化が大幅に進む可能性がある。</li><li>OpenAIと研究パートナーによる8つの事例研究では、エージェントがビルド環境の現代化から、1万行規模のコードのフレームワーク移行、さらにはRustを用いたスクラッチ開発まで、多様なタスクを成功させている。</li><li>実際、遺伝子データ処理ライブラリの更新やGPUネイティブな書き換えなどにおいて、従来の数十倍という劇的な速度向上が実現した。</li><li>開発プロセスにおいては、AIがコードの作成とレビューを相互に行うことで、人的リソースが限られた学術チームでも高品質なメンテナンスが可能となった。</li><li>AIは効率的なエンジニアリングを実現する強力なツールであるが、生成されたコードの論理や実行結果が科学的な正しさを備えているかどうかを判断する責任は、依然として研究者にある。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/a-security-researcher-built-a-self-spreading-worm-that-hides-inside-word-docs-and-hijacks-microsoft-copilot/" target="_blank" rel="noopener">A security researcher built a self-spreading worm that hides inside Word docs and hijacks Microsoft Copilot</a></h2>
+      <p>Microsoft Copilotを悪用して自己増殖するセキュリティ脆弱性が判明しました。<br><br>セキュリティ研究者のホーコン・モロイ氏は、Microsoft Copilot for Wordにおいて、自己増殖する「ワーム型」のプロンプトインジェクション攻撃を実証しました。この手法は、Word文書内に極小サイズかつ白文字で隠しコマンドを埋め込むもので、ユーザーは目視できませんが、Copilotがコンテンツを処理する際にその命令を読み取って実行してしまいます。<br><br><ul><li><strong>自己増殖の仕組み</strong>: 攻撃を受けた文書をCopilotが処理すると、悪意のある命令が生成される新しい文書にも自動的にコピーされ、次々と感染が拡大していきます。</li><li><strong>視覚的な隠蔽</strong>: 文字のフォントサイズを極小にし、背景と同色にすることで、人間からは見えない状態でプロンプトを隠すことが可能です。</li><li><strong>深刻なリスク</strong>: 市場分析レポートのような感染済み文書をテンプレートとして使用することで、ビジネス文書の改ざんや機密情報の操作など、広範囲な被害を引き起こす恐れがあります。</li><li><strong>未解決の脆弱性</strong>: 報告から約5ヶ月が経過しても抜本的な解決策が提供されておらず、AIのセキュリティにおけるプロンプトインジェクションの脆弱性が依然として解決困難な課題であることを浮き彫りにしました。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/bytedances-seedance-2-5-generates-30-second-video-clips-with-built-in-audio/" target="_blank" rel="noopener">ByteDance's Seedance 2.5 generates 30-second video clips with built-in audio</a></h2>
+      <p>ByteDanceの最新AI動画生成モデル「Seedance 2.5」が公開、最大30秒の映像と音声を同時生成<br><br><ul><li>ByteDanceは、音声付き動画を一度の生成で最大30秒間出力できる最新モデル「Seedance 2.5」をリリースしました。この長さは競合モデルのGoogle「Gemini Omni Flash（約10秒）」を大きく上回る性能です。</li><li>動画の拡張機能を備えており、長尺のコンテンツ作成も可能です。また、最大30枚の画像、10個の動画クリップ、10個の音声ファイルをリファレンスとして入力することで、キャラクターやカメラアングルを細かく制御できます。</li><li>テクスチャやライティング、肌の質感表現など、描画クオリティが従来から向上しています。これにより、断片的なクリップを繋ぎ合わせる従来の方法ではなく、ワンストップでの本格的な映像制作が可能です。</li><li>本モデルはByteDanceのサービス「Jimeng AI」および「Doubao Pro」で既に利用可能であり、今後は「BytePlus ModelArk」を通じてAPI提供が予定されています。</li><li>前身の「Seedance 2.0」は、映画『第9地区』のニール・ブロムカンプ監督が13分間の短編映画制作に活用するなど、プロのクリエイティブ現場でも高い評価を得ています。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense/" target="_blank" rel="noopener">German court rules AI music generator Suno violated copyrights, rejects fair use defense</a></h2>
+      <p>ドイツ・ミュンヘンの裁判所は、AI音楽生成サービス「Suno」が著作権を侵害しているとの判決を下しました。本判決では、AIの学習データとして楽曲が無断使用されたこと、および出力結果が元の楽曲の要素を再現している点が問題視され、Suno側が主張した「フェアユース（公正な利用）」の抗弁は退けられました。<br><br><ul><li>ミュンヘン地方裁判所は、Sunoが著作権で保護された楽曲を無断で学習に使用したことを著作権侵害と認定した。</li><li>AIモデルが学習データ内の特定の楽曲を「暗記」しており、プロンプトに応じて元の楽曲の要素を再現できることが、侵害の根拠とされた。</li><li>Suno側は学習データに特定の楽曲を保持していないと主張したが、裁判所はモデルが楽曲を再現可能であるという事実を認めた。</li><li>裁判所は、モデルの学習データ選定や構築方法は運営側の責任であるとし、著作権侵害の責任はユーザーではなくSunoにあると結論付けた。</li><li>今回の判決は、ドイツの音楽著作権管理団体GEMAが提起した訴訟によるもので、今後のAI開発と著作権の在り方に大きな影響を与える可能性がある。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/" target="_blank" rel="noopener">OpenAI announces its &quot;next major model&quot; Astra by dropping ten previously unsolved math solutions</a></h2>
+      <p>OpenAIが次世代モデル「Astra」を発表、10個の未解決数学問題を解明<br><br><ul><li>OpenAIは、次世代AIモデルファミリー「Astra」を発表し、これまで10年以上未解決であった数学や理論計算機科学の難問を10個解明したことを明らかにした。</li><li>Astraは、複数のエージェントを調整して複雑な問題を解決することに特化しており、数時間から数日間にわたる長期的なタスクを継続的に処理できるよう設計されている。</li><li>今回解明された問題には、高次元幾何学、量子複雑性、格子暗号などが含まれており、数学界からは「非常に大きなニュースである」との評価を受けている。</li><li>サム・アルトマンCEOは既にワシントンD.C.でAstraのデモを披露しており、モデルは現在テスト段階にある。</li><li>Astraは、米国政府が策定した新しいAI審査プロセスの対象となる最初のモデルであり、一般公開には政府による公式な承認が必要となる予定である。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/google-handed-users-the-easiest-possible-tool-for-fake-satellite-imagery-then-pulled-it-after-two-days/" target="_blank" rel="noopener">Google handed users the easiest possible tool for fake satellite imagery, then pulled it after two days</a></h2>
+      <p>Google EarthのAI画像生成機能が、偽情報の拡散リスクを理由に公開からわずか2日で停止された<br><br><ul><li>Googleは「Nano Banana」と連携し、Google Earth上で衛星写真にAIで任意の風景や建物を合成できる機能を導入したが、短期間で停止に追い込まれた。</li><li>このツールにより、難民の行列や破壊された病院といった、極めて悪質かつ説得力のある偽の衛星画像を容易に生成できてしまうことがユーザーによって証明された。</li><li>生成画像にはAIによる作成である旨のラベルが付与され、他者には非公開という制限があったものの、スクリーンショットが拡散されることでポリシー違反が多発した。</li><li>Googleは「Google Earthは信頼できる世界地図として認識されている」と釈放し、より強力な安全策が講じられるまで機能の提供を一時停止することを決定した。</li><li>外部のAIツールを使えば同様の加工自体は可能だが、Googleが公式に生成を容易にしたことで、偽情報拡散のハードルを下げ、悪用のきっかけを作ってしまったことが批判されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-tag" target="_blank" rel="noopener">Quoting Greg Brockman</a></h2>
+      <p>AI時代における人間関係とコミュニケーションのあり方<br><br><ul><li>OpenAI社内ではChatGPTをSlackに連携させる試みが行われているが、同僚の代わりにChatGPTが直接仕事を依頼してくると、社員は強い拒絶反応を示す。</li><li>同じ作業内容であっても、AI経由の依頼か人間からの依頼かによって受け止め方が全く異なる点は、人間がいかに相互の信頼関係や対面での交流を重視しているかを浮き彫りにしている。</li><li>人々はAIに対して、人間同士を隔てる存在ではなく、時間的余裕を生み出したり、人との時間をより豊かにしたりする補完的な役割を求めている。</li><li>AIが過度に業務の中間に介在し、人間同士の直接的な関わりを置き換えることは、職場における心理的なつながりを阻害する可能性がある。</li><li>今後の技術活用において、人間関係を損なわない設計や、AIによる「時間の節約」と「人間同士の交流の質」の両立が重要視されるべきである。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-tag" target="_blank" rel="noopener">Ten advances in mathematics and theoretical computer science</a></h2>
+      <p>数学と理論計算機科学におけるAIの飛躍的な進歩と、それによる数学界の変革<br><br><ul><li>OpenAIが次世代モデル「Astra」を活用し、過去10年以上進展がなかった10の数学的難問の解法を導き出した。</li><li>解法はLean 4で形式化されており、AIが推論過程を再構築した資料と共に公開されるなど、一定の透明性が確保されている。</li><li>この成果に対し、数学界ではAIがチェス王者を破った「ディープ・ブルー」の時のような衝撃が広がっており、数学者の間では「深い精神的危機」を訴える声も出ている。</li><li>数学者のテレンス・タオ氏は、こうしたAIの進歩を「ビッグ・マスマティクス」への転換点と捉えており、人間が創造性を担い、AIが技術的な作業を担う共同作業の未来を予測している。</li><li>AIが高度な数学的推論を可能にする時代において、研究のあり方や人間の役割が根本から問い直されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vchoua/deepseekv4flash0731_models_you_can_run_locally/" target="_blank" rel="noopener">DeepSeek-V4-Flash-0731: Models you can run locally now have the intelligence score of the top frontier model from March 2026</a></h2>
+      <p>DeepSeek-V4-Flash-0731：ローカル実行可能なモデルが2026年3月時点の最高峰モデルと同等の知能を獲得<br><br><ul><li>最新モデル「DeepSeek-V4-Flash-0731」は、ローカル環境で動作可能でありながら、2026年3月時点の最先端AIモデルと同等の極めて高い推論能力を実現した。</li><li>従来はクラウド接続が必要だった最高水準のAI性能を、個人のPCやオンプレミス環境で手軽に利用できるようになった点が画期的である。</li><li>高いコストパフォーマンスと処理速度を両立しており、プライバシー保護やオフライン環境での高度なAI活用が飛躍的に容易になる。</li><li>本モデルの登場により、AI開発の勢力図が変化し、大規模なサーバーを必要としない「ローカルAI」の普及が加速することが予想される。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vcav6l/me_worn_out_from_all_the_new_model_drops_this/" target="_blank" rel="noopener">Me: Worn out from all the new model drops this week, but still hyped for all the great new releases.</a></h2>
+      <p>今週のAIモデル相次ぐリリースに対する疲労と期待<br><br><ul><li>今週はAIモデルのリリースが立て続けに行われ、その速さや多さに圧倒され疲弊している。</li><li>多くの新しいモデルが登場している現状に対し、技術の進化そのものには非常に興奮している。</li><li>激しい開発競争が続く中、ユーザーとして最新技術の進歩をポジティブに受け止めている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vcqpn4/eu_ai_act_takes_effect_tomorrow_august_2_2026/" target="_blank" rel="noopener">EU AI Act takes effect tomorrow, August 2, 2026. 🤡</a></h2>
+      <p>EUの包括的なAI規制法「EU AI Act」が2026年8月2日に施行される<br><br><ul><li>EU AI Actは、世界初となる包括的なAI規制法であり、AIの開発から運用までのリスクに基づいた厳格なルールを定めている。</li><li>AIシステムをリスクの度合いに応じて「禁止」「高リスク」「限定的リスク」「低リスク」の4段階に分類し、リスクが高いほど厳しい透明性や安全性の義務を課す。</li><li>著作権侵害の防止や、ディープフェイクなどのコンテンツに対する明確な表示義務を設けることで、AIの安全かつ倫理的な活用を推進する。</li><li>違反企業には最大で世界年間売上高の7％、または数千万ユーロという非常に高額な制裁金が科される可能性があり、グローバル企業に大きな影響を与える。</li><li>施行後は段階的に規制が適用され、企業はコンプライアンス体制の整備と、透明性の高いAI開発プロセスへの転換を急ぐ必要がある。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vcj0hh/new_deepseek_v4_flash_0731_vs_chatgpt_luna/" target="_blank" rel="noopener">New DeepSeek V4 Flash 0731 vs ChatGPT Luna comparison</a></h2>
+      <p>DeepSeek V4 Flash 0731とChatGPT Lunaの性能比較<br><br>DeepSeek V4 Flash 0731とChatGPT Lunaを比較した結果、用途に応じて両者に明確な優位性があることが判明しました。全体的な推論能力ではChatGPT Lunaがわずかに上回るものの、特定のタスクやコスト面ではDeepSeek V4 Flash 0731が非常に強力な選択肢となります。<br><br><ul><li>処理速度とコスト効率：DeepSeek V4 Flash 0731は圧倒的な高速応答と低コストを強みとしており、リアルタイム性が求められるアプリケーションや大量のデータを処理する環境に最適です。</li><li>推論と精度のバランス：ChatGPT Lunaは複雑な論理的推論や多層的なコンテキストの理解において依然として高い精度を誇り、質の高いアウトプットが求められる業務に適しています。</li><li>コーディング性能の比較：プログラミングの補助に関しては両者とも高いレベルにありますが、DeepSeek V4 Flash 0731は軽量かつ効率的なコード生成において驚異的なパフォーマンスを発揮します。</li><li>ユーザー体験：インターフェースの使いやすさやエコシステムとの統合性ではChatGPT Lunaが優勢であり、直感的な操作を好む一般ユーザーやビジネス用途に適しています。</li><li>総評：開発者は、コストと速度を優先する場合はDeepSeek V4 Flash 0731を、高度な推論と信頼性を優先する場合はChatGPT Lunaを選択するのが合理的です。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vche00/weightaware_streaming_tensor_engine_run_kimi_k3/" target="_blank" rel="noopener">Weight-Aware Streaming Tensor Engine: run Kimi K3 using 29 GB of RAM at 0.50 tok/s</a></h2>
+      <p>重量級AIモデル「Kimi K3」をわずか29GBのRAMで動作させる技術「Weight-Aware Streaming Tensor Engine」<br><br><ul><li>本技術は、メモリ消費量を劇的に抑えつつ、巨大なモデルである「Kimi K3」を一般向けのハードウェア環境で実行可能にする革新的な推論エンジンである。</li><li>「Weight-Aware Streaming」という手法を採用することで、モデル全体の重みをすべてメモリ上に展開せず、必要な部分のみをストリーミング形式で処理し、29GBという省メモリでの動作を実現した。</li><li>実行速度は0.50 tok/s（1秒間に0.5トークン）であり、速度は限定的であるものの、本来であれば膨大なVRAMやメモリを必要とするモデルを、限られたリソース環境で動かせる意義は大きい。</li><li>今後この技術が最適化されれば、高性能なAIモデルのローカル環境での利用障壁が大幅に下がり、開発や実験の幅が大きく広がることが期待される。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.1-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-08-01";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  function validateAndGo(value) {
+    if (value === CURRENT_DATE) return;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || dateList.indexOf(value) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(value);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+})();
+</script>
+</body>
+</html>
