@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>記事まとめ 2026/08/03</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-08-03" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+</header>
+<h1>2026/08/03</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/alibabas-new-qwen-model-is-also-taking-your-job-but-this-time-its-great/" target="_blank" rel="noopener">Alibaba's new Qwen model is also taking your job, but this time it's great</a></h2>
+      <p>Alibabaの新型AI「Qwen」が提唱する、AIと労働のポジティブな関係性<br><br><ul><li>Alibabaは、新型AI「Qwen 3.8」のプロモーションにおいて、AIによる「雇用の代替」を脅威としてではなく、人間が趣味の時間を楽しむための「自由の獲得」としてポジティブに表現する戦略をとっている。</li><li>従来のAI企業が「雇用が消滅する」という恐怖を煽るメッセージ戦略をとってきたのに対し、Alibabaは真逆のアプローチで差別化を図っており、この手法は公開企業として世論に受け入れられやすい側面がある。</li><li>OpenAIやAnthropicといった競合他社も、最近では同様にソフトなトーンへメッセージをシフトさせている。</li><li>現時点では、AIが労働市場全体や生産性に劇的な影響を与えているという明確な証拠は乏しく、Alibabaの主張はAIの影響を単純化しすぎているという批判的な側面もある。</li><li>AIが経済や労働に与える影響については依然として不透明だが、少なくとも金融市場ではAIの導入が大きな関心事として先行している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/ibm-finds-92-of-companies-hit-by-ai-security-breaches-lacked-basic-access-controls/" target="_blank" rel="noopener">IBM finds 92% of companies hit by AI security breaches lacked basic access controls</a></h2>
+      <p>IBM：AIセキュリティ侵害を受けた企業の92%で基本的なアクセス制御が欠如<br><br><ul><li>AI関連のセキュリティ事故が発生した企業の92%において、基本的なアクセス制御が適切に導入されていなかったことがIBMの報告書（2026年版）により判明した。</li><li>侵入経路の多くはモデルそのものの脆弱性ではなく、APIの乗っ取りや関連アプリケーション、クラウド設定の不備といった基本的な管理不足に起因している。</li><li>AIが関与する侵害事故の被害額は平均533万ドルに上り、AIを含まない一般的なデータ侵害（平均470万ドル）よりも被害が大きくなる傾向がある。</li><li>攻撃者がAIを悪用したケースでは被害額が604万ドルまで跳ね上がる一方、AIを使用しない攻撃では503万ドルにとどまっており、AIの活用が被害の深刻化を招いている。</li><li>今回の結果は、高度な攻撃手法を警戒する以前に、企業はまずシステムの基本的なセキュリティ設定を徹底することが最優先の対策であることを示唆している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/interpol-says-ai-has-become-the-core-operational-driver-of-cybercrime-across-africa/" target="_blank" rel="noopener">Interpol says AI has become the &quot;core operational driver of cybercrime&quot; across Africa</a></h2>
+      <p>インターポール（国際刑事警察機構）の報告書によると、アフリカ大陸においてAIはサイバー犯罪の「中核的な推進力」となっており、被害額の急増など深刻な事態を招いている。<br><br><ul><li>アフリカで報告されるサイバー犯罪の55％にAIが関与しており、2025年を境にAIは犯罪遂行に不可欠なツールへと変化した。</li><li>犯罪による経済的損失は、2024年の1億9200万ドルから4億8400万ドルへと1年で2倍以上に急増している。</li><li>犯行グループは、標的の調査からフィッシング詐欺、恐喝、生体認証を突破するための合成ID作成に至るまで、攻撃の全段階でAIを自動化ツールとして悪用している。</li><li>ディープフェイクを用いたデジタル恐喝の事例は約60万件にのぼり、手口の巧妙化が浮き彫りとなっている。</li><li>インターポールは2025年以降、国際的な連携捜査を通じて1500人以上の逮捕と1億ドル以上の押収に成功しているが、依然として対策が急務となっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/chinas-minimax-h3-is-the-first-open-model-to-top-an-ai-video-ranking/" target="_blank" rel="noopener">China's MiniMax H3 is the first open model to top an AI video ranking</a></h2>
+      <p>中国のAI企業MiniMaxが公開した動画生成モデル「H3」が、オープンモデルとして初めてAI動画ランキングで首位を獲得しました。<br><br><ul><li>MiniMaxが公開した330億パラメーターの動画生成モデル「H3」が、Artificial Analysisの動画生成ランキングにおいて、動画編集部門で1位、テキストからの動画生成で2位、画像からの動画生成で3位を記録しました。</li><li>H3はテキスト、画像、動画、音声を統合して処理し、4～15秒間のステレオ音声付き動画を生成可能です。プロンプトには最大9枚の参照画像や動画、音声クリップを組み込めます。</li><li>モデルの重みは公開されましたが、2K解像度の生成モジュールや、プロンプトを構造化する「H3-Context-IR」は非公開であり、ローカル実行時の解像度は最大768pに制限されます。</li><li>ライセンス面では、年商2,000万ドル（約29億円）未満の企業に限り商用利用が許可されており、特定のキャラクターやビジュアルスタイルに合わせた微調整（ファインチューニング）が可能です。</li><li>同日、ByteDanceも独自の動画生成モデル「Seedance 2.5」を発表しました。こちらは最長30秒の動画を音付きで生成できるクローズドなモデルとなっています。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/unicorn-pelican-middle-earth-openai-co-founder-karpathy-is-looking-for-the-next-ai-vibe-test/" target="_blank" rel="noopener">Unicorn, pelican, Middle-earth: OpenAI co-founder Karpathy is looking for the next AI vibe test</a></h2>
+      <p>Andrej Karpathy氏が、AIの空間推論能力を評価する新しい「バイブ・チェック（直感的な評価指標）」として、小説を3D空間へと変換する実験を行いました。<br><br><ul><li>Anthropicに所属するKarpathy氏は、AIモデル「Claude Opus 5」を使い、『ロード・オブ・ザ・リング』の冒頭文をブラウザ上で動作する3Dシーンへと変換させました。</li><li>わずか2時間・約10ドルのコストで5,500行のコードが生成され、モデルが自律的にオブジェクトの配置やアニメーション処理を行いました。</li><li>この試みは、従来の「ペリカンが自転車に乗る絵を描く」といった定型的なテストに代わる、AIの生成能力や空間的理解を試す新しい指標となる可能性を示しています。</li><li>AIが生成した成果物には一部誤りも存在しますが、Karpathy氏はこれを厳格なベンチマークではなく、AIの創造的ポテンシャルを測るための遊び心ある評価手法として提唱しています。</li><li>今後、このような手法が発展すれば、ユーザーの要望に応じて即座に独自のゲームワールドや3D環境を構築するサービスの実現が期待されます。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/two-teams-solved-the-same-quantum-crypto-problem-using-gpt-5-6-just-three-hours-apart/" target="_blank" rel="noopener">Two teams solved the same quantum crypto problem using GPT-5.6 just three hours apart</a></h2>
+      <p>量子暗号の難問、AIを活用して2チームがわずか3時間の差で同時解決<br><br><ul><li>2026年8月、MITの学生とUCサンタバーバラ・UCLAの研究者チームが、それぞれ独立して「複製不可能な暗号」に関する量子暗号の難問を解決し、ほぼ同時に論文を公開した。</li><li>両チームともOpenAIの「GPT-5.6 Sol Ultra」を利用しており、AIが科学研究のプロセスを根本的に変容させている現状が浮き彫りとなった。</li><li>難問に直面した際、まずAIに解決策を求めることが研究の第一歩となっており、研究手法が短期間で劇的に変化している。</li><li>AIの活用により数学や科学の進歩が加速する一方で、研究者からは「個人のアイデンティティや独創性の喪失」を危惧する声も上がっている。</li><li>同一の高性能モデルを誰もが利用できる時代において、「何をもって独自の発見とみなすか」という定義が、今後の科学界の大きな問いとなっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/alibabas-open-weight-qwen3-8-max-takes-on-long-horizon-ai-tasks-with-2-4-trillion-parameters/" target="_blank" rel="noopener">Alibaba’s open-weight Qwen3.8-Max takes on long-horizon AI tasks with 2.4 trillion parameters</a></h2>
+      <p>Alibabaの巨大モデル「Qwen3.8-Max」が長期間の自律タスク遂行能力を実現<br><br><ul><li>Alibabaは、2.4兆個のパラメータを持つ最新の言語モデル「Qwen3.8-Max」を発表した。単発の応答ではなく、数日間かけて複雑なタスクを完遂することに特化して設計されている。</li><li>実証実験では、ソフトウェアの自律構築、学術論文の再現・改善、シミュレーション上でのEC事業運営といった高度なタスクを、人間による介入なしで成功させた。</li><li>モデル構成は950億個のパラメータをクエリごとにアクティブ化する仕組みを採用しており、内部ベンチマークでは欧米のトップモデルに匹敵する性能を記録した。</li><li>従来のMaxクラスとは異なり、本モデルはウェイト（重み）が公開される予定となっており、AI開発のオープン化を大きく前進させる。</li><li>すでにAlibabaのプラットフォーム上で一部提供が開始されており、今後数週間以内にオープンウェイトでの一般公開が予定されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-tag" target="_blank" rel="noopener">Don't be a meat proxy</a></h2>
+      <p>AIの出力をそのまま他者に転送する「肉のプロキシ（Meat Proxy）」になるな<br><br><ul><li>AIを単なるコピー＆ペーストのツールとして使い、思考を介さずに情報を流すだけの存在になってはいけません。</li><li>AIが生成した回答をそのまま鵜呑みにせず、必ず自分で読み込み、内容を理解し、検証するプロセスを挟むことが不可欠です。</li><li>情報を発信する際は、AIの出力をそのまま使うのではなく、自分自身の言葉で書き直すことが重要です。</li><li>自分の言葉で再構築する行為こそが、AI時代において人間が発揮できる真の価値（付加価値）となります。</li><li>批判的な思考と責任ある情報発信を怠ることは、単なる情報の伝達係（プロキシ）へと自己を貶める行為です。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-tag" target="_blank" rel="noopener">Quoting David Crawshaw's prompt</a></h2>
+      <p>デビッド・クローショーが提唱する「自律的なソフトウェア更新」のプロンプト<br><br><ul><li>ソフトウェアの保守業務を自動化するため、夜間に実行されるcronジョブに特定のプロンプトを組み込む手法が提案されている。</li><li>プロンプトの内容は、上流（upstream）からの変更をフェッチし、ローカルの変更をリベース（再適用）した上で、動作確認まで自動で行い最新版へ置き換えるというもの。</li><li>開発ツールはオープンソースであるべきという思想に基づき、AIによる自律的なアップデートプロセスを日常的な運用に組み込む概念が示されている。</li><li>このアプローチは、人間が手作業で行っていたルーチン的なメンテナンス作業をAIエージェントに代替させ、常に最新のコードベースを維持することを目的としている。</li><li>サイモン・ウィリソンが自身のブログでこのプロンプトを紹介しており、AIと開発エージェントの活用がソフトウェア開発の自動化を加速させる可能性を示唆している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-tag" target="_blank" rel="noopener">Devtools must be open source (exe.dev)</a></h2>
+      <p>開発ツール（Devtools）はオープンソースであるべきだ：LLMが変えるソフトウェアとの向き合い方<br><br><ul><li>LLMの登場により、これまで専門家でも困難だった「オープンソースコードの調査と改変」のハードルが劇的に下がり、本来のオープンソースの理想が実現可能な現実となった。</li><li>従来は、ツールの仕組みを理解したり、環境構築をして修正を加えたりすることには多大な時間と労力が必要であり、多くのユーザーは他者の貢献に頼るしかなかった。</li><li>現在はLLMに「GitHubからクローンして動作を解説せよ」「チェックアウトしてビルドせよ」と指示するだけで済み、環境構築やコード読解の摩擦がほぼゼロになった。</li><li>今後は、複雑なビルド工程が不要になることで、ユーザーが日常的に利用するソフトウェアに対して自ら修正を加える動きが一般化していく可能性がある。</li><li>オープンソースであることは、単に公開されているだけでなく、LLMという強力なツールを介して「誰でも中身を把握・修正できる」という実利的な自由をユーザーに提供する。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1ve0psn/qwen3827b_announced_alongside_qwen38max/" target="_blank" rel="noopener">Qwen3.8-27B announced alongside Qwen3.8-Max</a></h2>
+      <p>Qwen3.8-27BおよびQwen3.8-Maxの発表<br><br><ul><li>Qwenシリーズの最新モデルとして、高性能な「Qwen3.8-27B」と最上位モデルである「Qwen3.8-Max」が同時に発表されました。</li><li>Qwen3.8-27Bは、270億のパラメータを持ちながら、高い推論能力と効率的な処理を両立させた汎用性の高いモデルです。</li><li>Qwen3.8-Maxは、複雑なタスクや高度な論理的推論において優れたパフォーマンスを発揮する、シリーズ最高峰のスペックを備えています。</li><li>本リリースにより、AI開発者や企業は用途に応じて、軽量で扱いやすいモデルから高性能モデルまでを柔軟に選択できるようになりました。</li><li>アリババグループ傘下のQwenチームによる今回のアップデートは、最新の言語処理技術をさらに推し進め、業界全体のAI活用を促進するものです。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1ve4uoe/daniel_han_of_unsloth_validates_qwen3827b_will/" target="_blank" rel="noopener">Daniel Han of Unsloth validates Qwen3.8-27B will run only 17GB VRAM</a></h2>
+      <p>UnslothのDaniel Han氏がQwen2.5-32B（Qwen3.8-27B）をわずか17GBのVRAMで実行可能であることを実証<br><br><ul><li>Unslothの最適化技術を活用することで、Qwen2.5-32Bモデルを非常に低いVRAM使用量（17GB）で動作させることに成功した。</li><li>通常、これほどの規模のモデルを動かすには多くのメモリを必要とするが、推論および量子化技術の工夫により大幅な軽量化を実現している。</li><li>コンシューマー向けのグラフィックボード（RTX 3090や4090など）でも十分に動作可能な水準であり、AIモデルのアクセシビリティが向上した。</li><li>今回の検証は、大規模言語モデルのローカル環境での活用において、ハードウェアの制限を克服する重要なステップとなる。</li><li>実装の詳細や具体的な最適化手法については、Unslothが公開している最新のドキュメントやリポジトリから確認が可能である。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1veipya/the_chinese_labs_everyone_lumps_together_are/" target="_blank" rel="noopener">The Chinese labs everyone lumps together are making four pretty different bets. I work at one of them.</a></h2>
+      <p>中国のAI研究機関が描く4つの異なる成長戦略<br><br>中国のAI研究機関は一括りにされがちだが、実際にはそれぞれ独自の戦略に基づいて技術開発を進めている。著者が所属する機関の視点も交え、その多様なアプローチを以下にまとめる。<br><br><ul><li>汎用AI（AGI）の追求：一部の機関は、スケーリング法則を重視し、GPT-4のような巨大で汎用的なモデルを構築して、あらゆる領域での圧倒的な能力獲得を目指している。</li><li>特定用途への特化：別のグループは、汎用的な知能よりも、科学研究、医療、自動運転といった特定の産業ニーズに深く適応した高効率なモデルの開発にリソースを集中させている。</li><li>オープンソースによるエコシステム構築：多くの企業が競争力を高めるためにオープンソース化を進めており、開発者コミュニティを囲い込むことで、自社のフレームワークを業界標準にしようと試みている。</li><li>政府・国家戦略との連動：一部の機関は、国家の優先事項やインフラ課題の解決を最優先課題としており、収益性よりも社会的な制御や安全性の確保を重視した開発体制をとっている。</li></ul><br>これらの機関は、単に米国の後を追っているわけではなく、中国独自の市場環境や規制状況に適応しながら、それぞれ異なる「勝機」を模索している。<br></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1ve1mvh/minimaxh3_now_on_huggingface/" target="_blank" rel="noopener">MiniMax-H3 now on huggingface</a></h2>
+      <p>MiniMax-H3がHugging Faceで利用可能に<br><br><ul><li>最新のAIモデル「MiniMax-H3」が、開発者プラットフォームであるHugging Face上で公開され、誰でもアクセス可能となった。</li><li>本モデルは高い推論能力と処理効率を両立しており、自然言語処理タスクにおいて優れたパフォーマンスを発揮する。</li><li>開発者や研究者はHugging Faceを通じてモデルの重みや関連ドキュメントに直接アクセスでき、自身のプロジェクトへの統合が容易になる。</li><li>AIコミュニティにおけるオープンな技術共有を促進し、多様なアプリケーション開発や研究の加速が期待される。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vehn87/i_cannot_believe_ive_got_deepseekv4flash0731_a/" target="_blank" rel="noopener">I CANNOT believe I've got DeepSeek-V4-Flash-0731, a frontier model, running on my home PC. Insane!</a></h2>
+      <p>自宅のPCで最先端AIモデル「DeepSeek-V4-Flash-0731」を動かせた驚きと衝撃<br><br><ul><li>最先端のフロンティアモデルである「DeepSeek-V4-Flash-0731」が、特別なサーバー環境ではなく一般的な家庭用PCで動作した。</li><li>以前は大規模な計算リソースが必要だった高性能AIが、個人のPC環境でも手軽に実行可能になったことは技術的に画期的である。</li><li>高い推論能力を持つモデルがローカル環境で稼働することで、プライバシーの保護や低遅延なAI利用など、活用の幅が大きく広がる可能性がある。</li><li>今回の事象は、AI技術の民主化と軽量化が急速に進んでいることを象徴しており、AI開発の歴史において重要な転換点といえる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/how-to-run-isolated-tenant-kubernetes-clusters-on-shared-gpu-infrastructure/" target="_blank" rel="noopener">How to Run Isolated Tenant Kubernetes Clusters on Shared GPU Infrastructure</a></h2>
+      <p>共有GPUインフラ上で分離されたテナントKubernetesクラスターを運用する方法<br><br>本記事では、KAI SchedulerとvClusterを組み合わせることで、単一の物理GPUリソースを共有しつつ、各チームが完全に独立したKubernetesクラスターを運用する手法を提案しています。これにより、ハードウェアを物理的に分割することなく、チームごとの自律性と計算リソースの効率的な共有を両立できます。<br><br><ul><li>物理GPUを共有しながら、論理的に分離された「仮想クラスター（vCluster）」を各チームに提供し、高いリソース効率とチームごとの自律性を実現します。</li><li>KAI Schedulerを活用することで、階層的かつトポロジーを意識したGPUスケジューリングが可能となり、チームごとのクォータ管理や動的なリソース割り当てを最適化します。</li><li>各チームのクラスターには独自の制御プレーン（APIサーバーやRBAC、CRDなど）が提供されるため、他のチームとの設定衝突を回避し、安全なマルチテナント環境を構築できます。</li><li>本手法はNVIDIA GPU Operatorとシームレスに統合されており、小規模から数千ノード規模の環境まで拡張して運用することが可能です。</li><li>チームごとに専用のクラスターを構築する際のハードウェアコストと、単一クラスターを管理する際の運用の複雑さという、両方の課題を解決する実用的なソリューションです。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage/" target="_blank" rel="noopener">NVIDIA Vera Storage Benchmarks: Faster Encryption, Compression, Integrity Checking, and Recovery for AI-Native Storage </a></h2>
+      <p>NVIDIA Veraストレージプロセッサ：AIネイティブストレージにおける暗号化、圧縮、整合性チェック、復旧の高速化<br><br><ul><li>NVIDIAの新型ストレージプロセッサ「Vera（BlueField-4 STX）」は、88個のArmv9.2コアを搭載し、AIワークロードに最適化された高いストレージ処理能力を実現する。</li><li>従来のx86 CPUと比較し、暗号化で最大1.43倍、リード・ソロモン復号で最大3.26倍、CRC32C整合性チェックで最大3.67倍という大幅な性能向上を達成した。</li><li>圧縮・解凍処理においても最大3.29倍の高速化を実現し、データ管理負荷の高いAIネイティブな環境での効率的なデータフローを支える。</li><li>単一のCPUアーキテクチャに機能を統合することで、CPU消費電力や冷却要件を抑えつつ、より多くの同時エージェント実行とデータ処理を可能にする。</li><li>エージェント型AIにおいて、KVキャッシュやツール実行などで頻発するストレージ処理のオーバーヘッドを削減し、システム全体の運用密度と効率を劇的に高める。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.1-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-08-03";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  function validateAndGo(value) {
+    if (value === CURRENT_DATE) return;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || dateList.indexOf(value) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(value);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+})();
+</script>
+</body>
+</html>
