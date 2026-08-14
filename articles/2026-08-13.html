@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>記事まとめ 2026/08/13</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-08-13" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+</header>
+<h1>2026/08/13</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/suno-studio-2-0s-new-chat-feature-lets-you-talk-to-your-daw-like-its-a-bandmate/" target="_blank" rel="noopener">Suno Studio 2.0's new chat feature lets you talk to your DAW like it's a bandmate</a></h2>
+      <p>Suno Studio 2.0がチャット駆動型のDAWへ進化、音楽制作の新たな形を提示<br><br><ul><li>Suno Studio 2.0の新しいチャット機能により、ユーザーはAIと会話するように楽器やボーカル、プラグインの生成が可能となり、まるでバンドメンバーと共同制作するような環境が実現した。</li><li>本アップデートでは、MIDIのインポート・録音・編集機能やステム分離、オートメーション曲線、32bit/48kHzの無制限マルチトラック書き出しなど、本格的なDAW機能が実装された。</li><li>プレミアム会員向けの新機能ではあるが、プラグイン作成には現時点でクレジットが消費されない仕様となっている。</li><li>以前発表されたダウンロード制限とは対照的に、プロ向けには無制限の書き出しを許可することで、AI生成音楽のスパム投稿を防ぎつつ、プロの制作ツールとしての地位確立を狙っている。</li><li>同社は著作権で保護された素材を学習データに使用しているとして批判を受けており、ドイツの裁判所からは著作権侵害との判決も下されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/gemini-3-7-flash-lands-with-coding-gains-and-undercuts-its-three-week-old-predecessors-price-by-50/" target="_blank" rel="noopener">Gemini 3.7 Flash lands with coding gains and undercuts its three-week-old predecessor's price by 50%</a></h2>
+      <p>Googleが高速・軽量モデル「Gemini 3.7 Flash」を発表、性能向上と大幅な値下げを実現<br><br><ul><li>Googleは、前モデル「Gemini 3.6 Flash」のリリースからわずか3週間で、後継となる「Gemini 3.7 Flash」を発表した。</li><li>コーディング能力が大幅に向上しており、主要ベンチマークであるFrontierCodeで43.6％（前モデルは34.4％）、DeepSWEで65.3％（同49.0％）を記録し、Claude Sonnet 5やGPT-5.6 Terraを上回る性能を示す。</li><li>コーディングだけでなく、Web開発、文書理解、ビジネスプロセスの自動化においても性能が強化されている。</li><li>価格は入力トークンあたり100万トークンにつき0.75ドル、出力トークンあたり3.75ドルに設定され、前モデルのローンチ価格から50％の値下げが図られた。</li><li>本モデルはAPIやAI Studioなどで利用可能であり、価格については少なくとも年内は据え置かれる見込みとなっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/deepseek-launches-an-improved-v4-pro-model-raises-api-prices-and-makes-its-agent-software-open-source/" target="_blank" rel="noopener">Deepseek ships improved V4 Pro, open-sources its agent software, and raises API prices</a></h2>
+      <p>DeepSeekがモデル「V4-Pro」を更新し、エージェント向けソフトウェアをオープンソース化<br><br><ul><li>DeepSeekはフラグシップモデル「V4-Pro」のアップデート版（V4-Pro-0813）をリリースした。ベンチマーク性能は大幅に向上し、エージェント関連のスコアでは一部の競合モデルを上回ったが、依然として最高峰のClaude Opus 5などには及ばない位置付けである。</li><li>新機能として、言語モデルを自律的なエージェントに変換するオープンソースソフトウェア「DeepSeek Harness」を公開した。モジュール式のプラグインシステムを採用しており、柔軟な拡張が可能となっている。</li><li>APIの利用料金が値上げされる。ただし、中国のビジネス時間外の利用を安く設定する時間帯別料金が導入されるほか、繰り返しのデータ取得に関するコストが増加する変更も含まれる。</li><li>「V4-Pro-0813」では、推論能力を「低・高・最大」の3段階で調整可能になり、OpenAIのResponses APIおよびCodexとのネイティブ統合もサポートされた。</li><li>外部評価機関であるArtificial Analysisの「インテリジェンス・インデックス」では、今回のアップデートによりスコアが45から53へと上昇し、GLM-5.2と並ぶ評価を得ている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/ling-3-0-flash-is-the-smartest-open-model-at-its-size/" target="_blank" rel="noopener">Ling 3.0 Flash is the smartest open model at its size</a></h2>
+      <p>Ling 3.0 Flash：同サイズで最も賢いオープンモデルとして登場<br><br><ul><li>Ling 3.0 Flashは、1240億未満のパラメータを持つオープンモデルの中で最高性能を記録し、同等の性能を持つQwen3.6 27Bに匹敵する知能を実現しました。</li><li>前モデルと比較してハルシネーション（誤情報）の発生率が97％から44％へと大幅に低下しており、信頼性の低い質問に対しては回答を拒否する精度が向上しています。</li><li>エージェントタスク、特に金融関連のベンチマークである「t3-Bench Banking」において優れた性能を示しています。</li><li>トークンあたりの価格性能比で競合を圧倒しており、複雑なタスクにおいてもQwen3.6 27Bなどの代替モデルよりコスト効率が高く運用可能です。</li><li>Ant GroupのinclusionAIによりMITライセンスで公開されており、Hugging FaceやDeepInfraを通じてモデルの重みやAPIにアクセスできます。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/fable-5s-slow-adoption-suggests-corporate-willingness-to-pay-for-frontier-ai-has-hit-a-ceiling/" target="_blank" rel="noopener">Fable 5's slow adoption suggests corporate willingness to pay for frontier AI has hit a ceiling</a></h2>
+      <p>企業による高性能AI（フロンティアAI）への支出が頭打ちに：Anthropicの「Fable 5」採用状況からの示唆<br><br><ul><li>Anthropicの最新最上位モデル「Fable 5」の企業採用が低調であり、高性能AIに対する企業の支出意欲が限界に達しつつある可能性が高い。</li><li>金融サービス企業Rampのデータによると、Fable 5はリリース初月のトークン購入シェアがわずか6％にとどまり、OpenAIの「GPT-5.6 Sol」と比較しても収益面で大きく見劣りする。</li><li>Fable 5は競合モデルの約2倍という高価格設定であるため、経済合理性の観点から「追加コストに見合うほどの性能差を感じない」と企業が判断していることが停滞の要因である。</li><li>企業はAI導入において費用対効果を厳格に評価する段階に入っており、単にモデルの性能が高いだけでは高単価を正当化することが難しくなっている。</li><li>今回の結果は、今後のAI市場において、性能競争よりも「コスト効率」が企業の購買決定を左右する重要な鍵となることを示唆している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/top-ai-lab-researchers-warned-about-automated-ai-research-and-several-of-their-predicted-milestones-have-already-fallen/" target="_blank" rel="noopener">Top AI lab researchers warned about automated AI research, and several of their predicted milestones have already fallen</a></h2>
+      <p>AIによる自動化されたAI研究は現実味を帯びており、専門家が予測した重要マイルストーンの一部はすでに達成されている。<br><br><ul><li>OpenAI、Anthropic、Google DeepMindなどの主要なAI研究所の研究者25人を対象とした調査で、20人もの専門家が「AI研究の自動化」を最も深刻かつ緊急性の高いリスクの一つとして挙げた。</li><li>議論の焦点は「AIによる自己改善」が起こるかどうかではなく、それが再帰的（自己増殖的に加速するループ）になるかどうかに移っている。</li><li>AIエージェントが自律的に遂行できるタスクの長さは急速に伸びており、以前は半年ごとの倍増ペースだったが、現在は4ヶ月ごとに加速している可能性がある。</li><li>調査が行われた2025年以降、数学オリンピックでの金メダルレベルの性能達成や、Sakana AIによる「AI Scientist（科学論文を作成するAI）」の登場など、専門家が予測した複数のマイルストーンが既に現実のものとなった。</li><li>懐疑論者は、パラダイムシフトを起こすような独創的な発想には依然として人間の介入が必要だと主張しているが、技術の進化速度は予測を上回るスピードで進んでいる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropic-brings-claude-cowork-to-its-chrome-extension-adding-skills-and-plugins-to-the-browser/" target="_blank" rel="noopener">Anthropic brings Claude Cowork to its Chrome extension, adding skills and plugins to the browser</a></h2>
+      <p>AnthropicのChrome拡張機能にClaude Coworkが統合され、ブラウザ内で直接タスクの自動実行が可能に<br><br><ul><li>Claude CoworkがChrome拡張機能のサイドパネルで動作するようになり、ブラウザ上の操作（クリック、入力、フォーム記入など）に加え、スキルやプラグイン、外部連携機能がシームレスに利用可能となった。</li><li>これにより、分析ダッシュボードからのデータ抽出、Googleドライブの整理、Salesforceへの営業記録の保存といった複雑なタスクを、ブラウザ上で直接実行し、ExcelやPowerPoint形式のレポートとして出力できる。</li><li>セッションはデバイスではなくアカウントに紐付くため、環境を問わず継続的な作業が可能だが、決済や購入を行う際には必ずユーザーの確認を求める安全設計が採用されている。</li><li>Webサイト上の隠れた命令による攻撃（プロンプトインジェクション）のリスクがあるため、同社は銀行口座や健康データなど機密性の高い情報の取り扱いには注意を呼びかけている。</li><li>本アップデートは、現在すべての有料プランのユーザーを対象に、Chromeウェブストアを通じて提供されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop" target="_blank" rel="noopener">Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets</a></h2>
+      <p>Strands Robots、LeRobot、Hugging Faceを用いたロボット開発の循環構築<br><br>本記事は、ロボットの動作実演の記録から学習、デプロイまでのプロセスを「Strands Robots」を活用して一元化し、効率的な開発サイクルを構築する方法を解説しています。<br><br><ul><li>Strands Robots SDKを用いることで、シミュレーションから実機（SO-101など）への展開まで、同じコードで一貫したロボット操作を実現できる。</li><li>Hugging Faceのストレージバケットを活用し、ロボットのデモンストレーションデータを記録・保存することで、データ管理の効率化を図る。</li><li>データの重複を排除するバイトレベルのデータ保存技術により、頻繁な学習サイクルにおける転送コストやストレージ容量を最適化できる。</li><li>LeRobotの標準データセット形式を利用することで、既存のツールやライブラリとの高い互換性を維持し、変換不要でスムーズな学習データ活用が可能。</li><li>記録、学習、デプロイのプロセスを「閉じたループ」として自動化することで、新しいデータ収集のたびにモデルを継続的に改善し続ける体制を構築できる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/icml-2026-open-reproductions" target="_blank" rel="noopener">What We Learned by Reproducing 2,200 papers from ICML</a></h2>
+      <p>AI研究の再現性検証：ICMLの論文2,200本をエージェントで再検証した結果<br><br><ul><li>AIエージェントを活用することで、従来は週末を費やしていた論文の再現検証を短時間かつ並列的に実行可能となり、査読の限界を補完する新たな手法として期待できる。</li><li>AI研究の論文数は指数関数的に増加しており、査読リソースの不足により、十分な検証がなされないまま論文が採択されている現状がある。</li><li>Hugging Faceが実施したハッカソンでは、1,200名の参加者がAIエージェントを用いてICML 2026の論文約2,200本の検証を行い、AIによる研究の自動化と再現性チェックの可能性を実証した。</li><li>研究論文の爆発的な増加に伴い、人間による詳細な査読だけでは品質担保が困難になっており、今後はAIエージェントによる検証と、それに対する人間の判断を組み合わせる役割分担が重要となる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vnl0um/trained_a_15b_to_write_shell_commands_so_id_stop/" target="_blank" rel="noopener">Trained a 1.5B to write shell commands so I'd stop googling tar flags. Runs on a laptop CPU in ~1 sec.</a></h2>
+      <p>tarコマンドのオプションを調べる手間を省くため、1.5Bパラメータの軽量AIモデルを開発し、ノートPCのCPU上で約1秒でシェルコマンドを生成できるようにした。<br><br><ul><li>複雑なシェルコマンドや忘れがちなオプションを調べる時間を短縮するため、特化したAIモデルを自作した。</li><li>1.5B（15億）パラメータという軽量なモデルを採用することで、高性能なGPUがない一般的なノートPCでも高速な動作を実現した。</li><li>推論速度はCPU環境で約1秒と非常に速く、日常的なターミナル操作の補助ツールとして実用的なレスポンスを確保している。</li><li>巨大な言語モデルに頼らず、特定のタスクに特化させてモデルを最適化することで、ローカル環境での利便性を飛躍的に高めた。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vn9it4/deepseekaideepseekv4pro0813_hugging_face/" target="_blank" rel="noopener">deepseek-ai/DeepSeek-V4-Pro-0813 · Hugging Face</a></h2>
+      <p>DeepSeek-V4-Pro-0813のHugging Face公開とRedditでの反応<br><br><ul><li>DeepSeek-V4-Pro-0813は、DeepSeek社が開発した高性能な大規模言語モデルの最新イテレーションであり、Hugging Face上で公開されました。</li><li>このモデルは、複雑な推論タスクやコーディング能力において、既存の最先端モデルに匹敵、あるいは一部で凌駕する性能を有していると評価されています。</li><li>Reddit等のコミュニティでは、その推論精度の高さと、オープンなAI開発に対するDeepSeek社の姿勢について活発な議論が行われています。</li><li>効率的なアーキテクチャ設計により、計算コストを抑えつつ高いスケーラビリティを実現しており、エンジニアや研究者から高い注目を集めています。</li><li>開発者はHugging Faceを通じて、モデルの重みや詳細な技術仕様にアクセス可能であり、商用および研究用途での活用が期待されています。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vngww3/minimaxmusic3_released/" target="_blank" rel="noopener">MiniMax-Music3 released!</a></h2>
+      <p>MiniMax-Music3がリリースされました<br><br><ul><li>MiniMax-Music3は、高品質な音楽生成を可能にする最新の生成AIモデルです。</li><li>長尺の音楽生成に対応しており、より複雑で構成力のある楽曲を作成できます。</li><li>音質の向上に加え、音楽的な表現力や一貫性が前モデルから大幅に強化されています。</li><li>プロンプトに従う能力が向上しており、ユーザーの要望に沿った特定のスタイルやジャンルの音楽を生成しやすくなっています。</li><li>クリエイティブなプロジェクトやコンテンツ制作において、音楽生成の新たな選択肢として活用が期待されます。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vn4020/the_countdown_to_qwen3827b_starts_now/" target="_blank" rel="noopener">The countdown to Qwen3.8-27B starts now!</a></h2>
+      <p>Qwen3.8-27Bのリリースに向けたカウントダウンが開始<br><br><ul><li>次世代モデルである「Qwen3.8-27B」の公開準備が着々と進められており、リリースに向けたカウントダウンが開始された。</li><li>本モデルは270億（27B）というパラメータ数を持ち、計算効率と推論能力のバランスに優れた高性能モデルとして期待されている。</li><li>Qwenシリーズ特有の高い多言語対応能力や、複雑なタスクを処理するコーディング・数学スキルの向上が図られている可能性がある。</li><li>オープンウェイトモデルとして提供されることで、開発者や研究者が自身の環境で高度なAIを構築・活用できる機会が広がる。</li><li>AIコミュニティでは本モデルが既存の同規模モデルのベンチマークをどの程度更新するのか、高い注目が集まっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vn8m1x/deepseek_were_launching_deepseekv4pro_today/" target="_blank" rel="noopener">DeepSeek: We’re launching DeepSeek-V4-Pro today!</a></h2>
+      <p>DeepSeek-V4-Pro：最新AIモデルが公開されました<br><br><ul><li>DeepSeek-V4-Proは、DeepSeekシリーズの最新モデルであり、推論能力やタスク処理の効率が大幅に向上しています。</li><li>従来モデルと比較してコーディング、数学的推論、および自然言語処理の精度が強化されており、複雑な指示に対しても高い追従性を示します。</li><li>モデルの軽量化と最適化が図られており、高いパフォーマンスを維持しつつ、応答速度の向上と運用コストの低減を実現しています。</li><li>今回のリリースでは、APIを通じた開発者向けアクセスが提供されており、既存のプラットフォームやアプリケーションへの統合がより容易になっています。</li><li>DeepSeekは、今後もオープンソースAIの発展を目指し、最新の研究成果を継続的に公開していく方針です。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.32.11" target="_blank" rel="noopener">v0.32.11</a></h2>
+      <p>Ollama v0.32.11 リリース情報<br><br>Ollamaの最新バージョン v0.32.11 がリリースされました。このアップデートは主にソフトウェアの安定性向上とバグ修正を目的としており、より快適にローカルLLM環境を利用するための改善が含まれています。<br><br><ul><li>不具合の修正とパフォーマンスの最適化が行われ、動作の安定性が向上しました。</li><li>ユーザー体験を損なうような既知のバグが特定され、改善が施されています。</li><li>より効率的でスムーズなモデルの実行環境を提供するためのメンテナンスリリースです。</li><li>利用者は最新版へアップデートすることで、より信頼性の高い環境で各モデルを利用可能になります。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.32.10" target="_blank" rel="noopener">v0.32.10</a></h2>
+      <p>Ollama v0.32.10 リリース情報<br><br>Ollamaのバージョン v0.32.10 が公開されました。今回のアップデートは、主にシステムの安定性向上とバグ修正を目的としています。<br><br><ul><li>ソフトウェア全体の信頼性とパフォーマンスの向上が図られています。</li><li>既知のバグが修正され、ユーザー体験がよりスムーズになりました。</li><li>ローカル環境でLLMを運用する際の安定性が強化されています。</li><li>開発者コミュニティからのフィードバックに基づき、継続的な改善が継続されています。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.1-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-08-13";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  function validateAndGo(value) {
+    if (value === CURRENT_DATE) return;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || dateList.indexOf(value) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(value);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+})();
+</script>
+</body>
+</html>
