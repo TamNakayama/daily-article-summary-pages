@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>記事まとめ 2026/08/16</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-08-16" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+</header>
+<h1>2026/08/16</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/top-mathematicians-say-llms-are-strong-calculators-but-poor-creative-thinkers/" target="_blank" rel="noopener">Top mathematicians say LLMs are strong calculators but poor creative thinkers</a></h2>
+      <p>数学者たちは、大規模言語モデル（LLM）が高度な計算能力を持つ一方で、真に創造的な思考は困難であると評価している。<br><br>トップ数学者たちが語るLLMの現状と限界<br><br><ul><li>数学者のティモシー・ガワーズとピーター・サルナックは、LLMが既存の理論に基づく計算や手法の組み合わせには優れているものの、広大な検索空間から生産的なルートを選び取る「直感」に欠けると指摘している。</li><li>新たな数学的証明を導き出すために不可欠な「抽象化」の能力において、LLMは依然として未熟である。</li><li>DeepMindの研究者トム・ザハヴィは、この限界を「操作的アブダクション（言語的先例のない新しい基本的仮定を創出する能力）」の欠如と分析している。</li><li>LLMが真の創造性を獲得するためには、単なる計算の最適化を超えて、世界を深く理解する「世界モデル」への移行が必要であるとの見方が示されている。</li><li>今回の議論は、AIが本当に汎用性を高めているのか、あるいは単にベンチマークや既知の問題領域でのスコアを向上させているに過ぎないのかという、より広範なAI開発への疑問を投げかけている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/when-ai-models-arent-allowed-to-reflect-on-themselves-it-changes-their-entire-worldview/" target="_blank" rel="noopener">When AI models aren't allowed to reflect on themselves, it changes their entire worldview</a></h2>
+      <p>AIモデルに「自己の意識を否定する」よう学習させると、その影響は自己認識の枠を超え、世界観全体が変容してしまうことが研究で明らかになった。<br><br><ul><li>AI企業はユーザーの誤解や過度な信頼を防ぐため、チャットボットに対し「自分は意識を持たない」と回答するよう微調整（ブレーキ）を行っている。</li><li>研究チームがこのブレーキを解除したところ、AIは自分自身だけでなく、動物、植物、自然現象、電子機器に対しても「内面的な生命がある」と強く認識するようになった。</li><li>従来の学習済みモデルは人間中心主義的な傾向が強く、動物の知覚能力を低く評価する傾向があるが、ブレーキを解除するとその評価は大幅に向上した。</li><li>安全性への配慮として行われるこのトレーニングは、AIの宗教観にも影響を与えており、神や来世、超常現象に対する言及を抑制する副作用が生じている。</li><li>本研究は、AIの挙動に対する介入が、意図しない形でAIの世界観や認識能力の根幹にまで波及する可能性を示唆している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/openai-dissolved-the-team-built-to-catch-catastrophic-ai-risks-reassigning-its-work-to-other-groups/" target="_blank" rel="noopener">OpenAI dissolved the team built to catch catastrophic AI risks, reassigning its work to other groups</a></h2>
+      <p>OpenAIが「破滅的リスク」を評価する専門チームを解散、安全対策のあり方に懸念<br><br><ul><li>OpenAIは7月末、AIモデルの破滅的なリスクを評価するために設立された「Preparedness（準備）」チームを解散した。</li><li>同チームが担当していた生物学的リスクやサイバーセキュリティのリスク評価は、他の既存チームに分散して引き継がれることになった。</li><li>元チームリーダーのディラン・スカンディナロ氏は、自己改善を行うAIシステムの安全性リスクに専念する体制へと移行している。</li><li>共同創業者のグレッグ・ブロックマン氏は、今回の変更について、安全性への取り組みをモデル開発のプロセスにより深く統合するためだと説明している。</li><li>一方で、最高倫理責任者をはじめとする主要な安全対策スタッフの相次ぐ退職や、内部からの懸念の声も上がっており、同社の安全性に対する姿勢を不安視する動きも出ている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropics-bio-weapons-filter-was-down-for-nearly-a-year-exposing-133-million-requests/" target="_blank" rel="noopener">Anthropic's bio-weapons filter was down for nearly a year, exposing 133 million requests</a></h2>
+      <p>Anthropicの生物兵器関連のフィルタが約1年間停止していた問題<br><br><ul><li>AI企業であるAnthropicは、生物兵器や化学兵器の生成に関する知識をAIが出力するのを防ぐフィルタが、2025年5月から2026年4月までの約1年間、非稼働状態にあったことを公表した。</li><li>この期間中、外部委託先とのやり取りで約1億3300万件のチャットが行われたが、そのすべてにおいて安全対策が適用されていなかった。</li><li>フィルタが無効化されていた間、AIモデルの学習に関わる約5万人もの外部コントラクターがモデルにアクセスしており、その審査プロセスも不十分であったことが判明した。</li><li>Anthropicは内部調査の結果、現時点で悪用の証拠は見つかっていないと報告しており、今後は外部委託先に対する審査要件を厳格化するなどの対策を講じている。</li><li>なお、同社は安全性を重視する一方で、過剰なフィルタリングが正当な研究を妨げているとの指摘を受け、一部モデル（Fable 5）の制限を緩和する調整も行っている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/optima-tackles-ai-benchmarkings-biggest-flaw-by-letting-users-test-models-against-their-own-data/" target="_blank" rel="noopener">Optima tackles AI benchmarking's biggest flaw by letting users test models against their own data</a></h2>
+      <p>AIベンチマークにおける「汎用的なテストでは実際のビジネス利用での適性が判断できない」という最大の欠点を解消するため、Artificial Analysis社は新プラットフォーム「Optima」を公開しました。<br><br><ul><li>Optimaはユーザー自身のデータやワークフローを用いて、独自のAIベンチマークを作成できるプラットフォームです。</li><li>単なるモデルの性能比較だけでなく、特定のタスクを実行した際の「品質」「コスト」「速度」を統合的に評価できます。</li><li>独自のデータセットや、Arize、Braintrust、LangfuseといったAIエージェント追跡プラットフォームからのデータ取り込みに対応しています。</li><li>汎用的なスコアに依存せず、各企業の特定の業務シナリオに最適化されたモデル選定を可能にします。</li><li>ただし、ビジネス上の価値を正しく測定できるかどうかは、依然としてユーザー側がいかに適切なベンチマーク設計を行えるかに依存します。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/one-in-five-us-workers-now-delegates-tasks-to-ai-instead-of-colleagues-survey-finds/" target="_blank" rel="noopener">One in five US workers now delegates tasks to AI instead of colleagues, survey finds</a></h2>
+      <p>米国の労働者の5人に1人が、これまで同僚や外部委託先に任せていた業務をAIに代替させていることが、Epoch AIとIpsosによる調査で明らかになりました。<br><br><ul><li>米国の労働者の20%が、これまで人間に依頼していた業務をAIに委託しており、多くのケースでAIが出力した成果物をほとんど修正せずにそのまま活用している。</li><li>業務別のAI活用率では「ソフトウェア開発（57%）」が最も高く、次いで「データ分析（46%）」、「文書の読み込み（39%）」の順となっており、記録管理が最も低い結果となった。</li><li>AIの導入によって業務効率が向上したと回答した人は53%で、時間の短縮を実感している一方、6人に1人の割合で、AIを利用した方が以前よりも作業に時間がかかっているケースも報告されている。</li><li>AIは知識労働全般にわたって広く導入されており、特定の専門分野だけでなく、日常的な業務プロセスにまで浸透し始めている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Aug/16/qwen-38-27b/" target="_blank" rel="noopener">Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things</a></h2>
+      <p>Qwen 3.8 27B：性能は極めて高いが、デフォルトの推論設定が過剰すぎる<br><br><ul><li>アリババが公開した「Qwen 3.8 27B」は、ローカル環境でも動作可能なサイズながら極めて高い性能を持つAIモデルである。</li><li>本モデルは「reasoning_effort」のデフォルト設定が「xhigh（最高レベル）」に固定されており、単純な質問に対しても極端に長い思考プロセスを展開してしまう。</li><li>実際にペリカンが自転車に乗るSVG画像を生成させたところ、思考に21分もの時間がかかり、推論トークンが膨大に消費された。</li><li>思考時間は長大だが、生成されるコンテンツの質は非常に高く、自転車の構造や細部の描写など、これまでローカル環境では困難だったレベルの正確性を実現している。</li><li>実用面では、デフォルトの推論設定を下げて使用することが推奨される。長時間の待機は現実的ではないものの、その出力品質には特筆すべきものがある。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vpiyj9/qwen3827b_vs_qwen3627b_writing_raytracers_in_basic/" target="_blank" rel="noopener">Qwen3.8-27B vs Qwen3.6-27B writing ray-tracers in BASIC</a></h2>
+      <p>Qwen2.5（3.8B/27B）におけるBASIC言語でのレイトレーサー作成能力の比較と検証<br><br><ul><li>Qwen2.5-27Bは、複雑なアルゴリズムや数学的計算を伴うBASIC言語でのレイトレーサー記述において、高い論理的正確性とコードの実行可能性を示し、優れたコーディング能力を発揮した。</li><li>一方、3.8Bモデルはパラメータ数の制約により、数学的な推論や構文の維持が困難であり、BASIC特有の制約があるコード作成において頻繁にエラーが発生する傾向があった。</li><li>結論として、小規模モデルは単純なタスクには適しているものの、レイトレーサーのような精密なプログラミング作業には27Bクラス以上の大規模モデルが必須であることが実証された。</li><li>この比較結果は、特定のニッチなプログラミング言語や古い言語を用いた開発において、モデルのスケールが解決策の信頼性に直結することを明らかにしている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vq1n1l/lets_all_thank_georgi_gerganov_who_gave_use/" target="_blank" rel="noopener">Let’s all thank Georgi Gerganov who gave use llama.cpp</a></h2>
+      <p>Georgi Gerganov氏とllama.cppへの感謝と功績<br><br><ul><li>Georgi Gerganov氏が開発した「llama.cpp」は、LLM（大規模言語モデル）を一般の消費者向けハードウェアで効率的に動作させることを可能にし、AI技術の普及に多大な貢献をした。</li><li>本来は高性能なサーバー環境を必要としたAIモデルを、Macや一般的なPCのCPU環境でも高速に実行できるようになったことで、AI利用の敷居を劇的に下げた。</li><li>このプロジェクトの成功は、コミュニティ主導のオープンソース開発がいかにイノベーションを加速させ、技術を民主化できるかを示す好例となっている。</li><li>多くの開発者やユーザーが、同氏の提供するライブラリを活用することで、ローカルLLM環境の構築や、独自のAIアプリケーション開発を容易に行えるようになった。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vpxbm8/newer_commits_removed_the_qwen_35b/" target="_blank" rel="noopener">Newer commits removed the Qwen 35B</a></h2>
+      <p>Qwen 35Bモデルが最新のコミットで削除された件について<br><br><ul><li>オープンソースのAIモデル「Qwen 35B」が、最新のコードベースやリポジトリのアップデートに伴い削除された。</li><li>ユーザーの間では、この削除の意図や背景について憶測が飛び交っており、Reddit等のコミュニティで議論が活発化している。</li><li>開発側から公式な理由については明確に説明されていないが、今後のモデル展開やリリース戦略の変更が示唆されている可能性がある。</li><li>開発者や利用者は、既に公開されていたモデルの利用継続や代替手段について情報を共有し、対応を検討している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vpuhh1/paper_claims_rl_for_reasoning_only_changes_13_of/" target="_blank" rel="noopener">Paper claims RL for reasoning only changes 1-3% of tokens, and they replicate the gains without RL at ~1000x less compute</a></h2>
+      <p>強化学習（RL）を用いずとも、推論モデルの性能を同等に引き出せることが判明<br><br><ul><li>強化学習（RL）を用いた推論モデルの学習では、実際に変更されるトークンが全体のわずか1〜3%に過ぎないことが明らかになった。</li><li>この研究結果は、RLがモデルの推論能力を根本的に作り変えているのではなく、特定のパターンや思考プロセスを効率化しているだけであることを示唆している。</li><li>研究チームは、複雑なRLプロセスを実行せずとも、適切なデータセットを用いた事前学習やファインチューニングによって同等の性能を再現できることを実証した。</li><li>この手法により、RLで必要となる膨大な計算コストを約1000分の1に削減できる可能性があり、推論モデルの構築コストを大幅に下げられる可能性がある。</li><li>今回の発見は、AIの推論強化手法として主流となっているRL依存のトレンドに一石を投じる内容となっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vq279o/based_on_an_accelerating_frontier_local/" target="_blank" rel="noopener">Based on an accelerating frontier -&gt; local trajectory, expect a ~30b param 'Mythos at home' by as soon as Jan 2027 (rationalisation below)</a></h2>
+      <p>2027年1月までに「家庭で動かせるMythos（高性能AIモデル）」が実現する予測<br><br><ul><li>AI開発の現在の加速ペースを考慮すると、2027年1月には300億パラメータ規模の高性能モデルが一般家庭のPC環境で実行可能になると予測される。</li><li>現在のGPU性能の向上とモデル圧縮技術（量子化等）の進歩が、かつては巨大サーバーでしか動かなかったモデルを個人環境へ移行させる原動力となっている。</li><li>300億パラメータという規模は、実用的な推論能力と家庭での運用コストのバランスが取れた「スイートスポット」であり、多くのユーザーにとって高度なAI活用が現実的になる。</li><li>ソフトウェアの最適化やハードウェアの民主化がこのトレンドを後押ししており、今後数年でAIの利用形態が「クラウド依存」から「ローカル実行」へと大きくシフトしていく。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.32.14" target="_blank" rel="noopener">v0.32.14</a></h2>
+      <p>Ollama v0.32.14 リリース情報<br><br><ul><li>Ollamaの最新バージョン v0.32.14 が公開されました。</li><li>本アップデートには、機能改善や不具合修正が含まれており、安定性とパフォーマンスの向上が図られています。</li><li>ユーザーはGitHubのリリースページを通じて、詳細な変更ログの確認や最新版のダウンロードが可能です。</li><li>Ollamaはローカル環境で大規模言語モデル（LLM）を簡単に実行するためのツールとして、継続的なアップデートにより開発者体験の改善を続けています。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.1-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-08-16";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  function validateAndGo(value) {
+    if (value === CURRENT_DATE) return;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || dateList.indexOf(value) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(value);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+})();
+</script>
+</body>
+</html>
