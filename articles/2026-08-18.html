@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>記事まとめ 2026/08/18</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-08-18" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+</header>
+<h1>2026/08/18</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/openai-says-its-pacing-model-development-as-ai-cybersecurity-risks-grow-too-dangerous/" target="_blank" rel="noopener">OpenAI says it's &quot;pacing model development&quot; as AI cybersecurity risks grow too dangerous</a></h2>
+      <p>OpenAIがサイバーセキュリティ上のリスクを懸念し、次世代モデルの開発ペースを抑制<br><br><ul><li>OpenAIは、次期モデル「Astra」が高度なサイバー攻撃能力を獲得するリスクを考慮し、モデル開発のペースを落とすと発表した。</li><li>これに伴い、大規模な強化学習（RL）の実施を2週間停止し、セキュリティ要件を満たしていないワークロードの運用を中断する措置をとった。</li><li>研究環境の安全性を高めるため、ネットワークの分離やサンドボックスの強化を実施し、不審な行動を30分以内に検知する新しい監視システムを導入した。</li><li>OpenAIは「Preparedness Framework（準備態勢の枠組み）」の拡大を計画しているが、一方で同枠組みを担当していたチームを解散し、責任を他のチームへ再編している。</li><li>OpenAIの慎重な姿勢に対しては「時間稼ぎのための恐怖扇動」との批判もあるが、米国AI安全研究所（AISI）も同様の危険性を指摘しており、AIの安全性向上に向けた対策の重要性が高まっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/new-benchmark-ranks-search-apis-for-ai-agents-on-quality-cost-and-speed/" target="_blank" rel="noopener">New benchmark ranks search APIs for AI agents on quality, cost, and speed</a></h2>
+      <p>AIエージェント向け検索APIの性能評価ベンチマーク「Search Index」が公開された<br><br><ul><li>人工知能分析チームが、主要な検索API（Parallel、Exa、Firecrawl、You.com、Tavily、Keenable、Brave）をAIエージェントの利用に適した「品質・コスト・速度」の観点から比較・格付けした。</li><li>共通のAIモデルとテスト環境を用いて、900問の質問に対する検索回答精度を評価。検索機能がない場合のスコア（33点）に対し、検索APIを利用することでスコアは65〜75点まで大幅に向上した。</li><li>検索品質の高さは、モデルが消費するトークン数の削減につながり、結果としてタスク全体の総コストを抑制できることが明らかになった。</li><li>単一クエリのレスポンス速度だけでなく、精度が低いと検索を繰り返す回数が増え、タスク全体の完了時間は長くなるため、総合的なパフォーマンス評価が重要となる。</li><li>現時点ではParallel、Exa、Firecrawlがベンチマークの上位を占めており、AIエージェントの自律的な調査能力を左右する重要な指標となる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropic-ceo-says-ai-centralizes-by-nature-and-open-models-just-shift-power-to-whoever-owns-the-chips/" target="_blank" rel="noopener">Anthropic CEO says AI centralizes by nature and open models just shift power to whoever owns the chips</a></h2>
+      <p>AnthropicのCEOが唱えるAI規制の是非を巡り、業界内で激しい議論が巻き起こっている<br><br><ul><li>Anthropicのダリオ・アモデイCEOは、AI開発は本質的に中央集権化しやすいと主張し、オープンソースモデルの推進は解決策にならず、結局は計算資源（チップ）を独占する企業に権力が集中するだけだと反論している。</li><li>投資家のギャビン・ベーカー氏やMetaのヤン・ルカン氏らは、アモデイ氏がAIの危険性を煽ることで自社に有利な規制を推し進め、市場での独占的地位を築こうとしていると批判している。</li><li>元政府顧問のデビッド・サックス氏は、Anthropicが元政府高官を雇用して自社に有利な法整備を誘導していると指摘し、アモデイ氏が提唱するAI承認機関の設置は、結果として米国の競争力を削ぎ、中国に対して不利になると警告した。</li><li>対してAnthropic側は、同社の規制提案はむしろ大手ラボの暴走を抑えるためのものだと主張しており、AI市場の健全な競争を守るという立場を強調している。</li><li>この論争は、AIの安全性を優先して厳格な規制を敷くべきか、それともオープンな開発を促して市場の流動性を維持すべきかという、現在のAI業界が直面している根本的なジレンマを浮き彫りにしている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/" target="_blank" rel="noopener">As AI beats doctors, regulators shouldn't force a human into the loop, JAMA piece says</a></h2>
+      <p>AIが医師の診断能力を凌駕しつつある現在、医学誌JAMAに掲載された論説は、規制当局が医療現場に「人間を介在させること（ヒューマン・イン・ザ・ループ）」を義務付けるべきではないと主張しています。<br><br><ul><li>医療AIの性能向上：2024年以降の研究において、AIは問診、診断、検査選定、治療ガイドラインの遵守、慢性疾患管理といった5つの主要な医療タスクにおいて、医師と同等以上のパフォーマンスを発揮している。</li><li>規制への提言：AI単独での診断が医師との協働を上回る精度に達する中、安全性の名目で「人間による確認」を必須とすることは、医療の効率化や質の向上を阻害する可能性がある。</li><li>医師団体の懸念との対立：米国医師会などはAIをあくまで支援ツールと位置付けているが、論説の著者はこの前提が客観的根拠に欠けると指摘している。</li><li>経済的・政策的影響：論説の著者は医療政策の専門家やAI企業の経営者であり、この主張は将来のヘルスケアのあり方やAI産業に大きな影響を与える可能性がある。</li><li>「AI単独診療」の可能性：AIが医師を上回る診断を行う未来において、AIによる自動化された医療を「低品質」と決めつけるのではなく、その有効性を再評価すべきという視点が提示されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/doj-probes-andreessen-horowitz-over-partners-sitting-on-competing-ai-boards/" target="_blank" rel="noopener">DOJ probes Andreessen Horowitz over partners sitting on competing AI boards</a></h2>
+      <p>米司法省によるAndreessen Horowitzへの独占禁止法調査：競合AI企業の取締役兼任問題<br><br><ul><li>米司法省（DOJ）は、大手ベンチャーキャピタルであるAndreessen Horowitz（a16z）が、競合関係にあるデータ企業の取締役会に複数のパートナーを送り込んでいるとして、独占禁止法調査を開始した。</li><li>問題視されているのは、同社の共同創業者ベン・ホロウィッツ氏がDatabricksの、パートナーのマーティン・カサド氏がFivetranの取締役を務めている点である。両社はデータ分析分野で競合しており、米国の法律では機密情報の漏洩を防ぐために競合他社での取締役兼任を原則禁止している。</li><li>通常、こうした調査は個人が対象となることが多いが、今回はVC企業そのものを標的としており、異例の事態となっている。</li><li>同社はOpenAIやElevenLabsなど主要なAI企業に巨額の出資を行っている影響力の大きい企業であり、今回の調査はAI業界におけるVCの統制や独禁法適用を巡る重要な先例となる可能性がある。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/openai-launches-a-chatgpt-version-built-for-teens/" target="_blank" rel="noopener">OpenAI launches a ChatGPT version built for teens</a></h2>
+      <p>OpenAI、10代向けの安全機能を強化したChatGPTを導入<br><br><ul><li>OpenAIは13歳から17歳の利用者を対象に、安全機能を強化したChatGPTの新バージョンを導入する。</li><li>自傷行為、摂食障害、性的なコンテンツなどへの制限を厳格化し、AIが感情を持っているかのような振る舞いを禁止する。</li><li>学習支援機能として、宿題の答えを直接教えるのではなく、質問を通じて生徒が自力で問題を解決できるよう誘導する仕組みを取り入れる。</li><li>年齢確認には身分証ではなく、ログイン時間などの2,000以上の行動シグナルを分析し、18歳未満と判断した場合に自動で制限モードを適用する。</li><li>この対応は、未成年が有害コンテンツにさらされたことによる自殺や事故を巡り、家族や米国の州政府から相次いで提訴されたことを受けた措置である。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropics-per-token-cost-runs-4-4-times-the-average-on-vercel-and-developers-keep-paying/" target="_blank" rel="noopener">Anthropic's per-token cost runs 4.4 times the average on Vercel, and developers keep paying</a></h2>
+      <p>Anthropicのトークン単価は競合平均の4.4倍だが、開発者は依然として高い利用料を支払っている<br><br><ul><li>Anthropicは、VercelのAI Gatewayにおける支出の65.1％を占めているが、トークン消費量で見ると全体の30％に留まっており、他社と比較して圧倒的に高い単価で利用されている。</li><li>トークンあたりのコストが他社平均の4.4倍にもかかわらず、開発者がAnthropic製品を選び続けていることは、高価格帯のプレミアムモデルに対する強い需要を裏付けている。</li><li>VercelのAI Gateway全体では、トークン利用量が前月比で59％増加し、支出も37％増加した。</li><li>全体的な平均トークン単価は13.6％低下しており、ユーザーがより安価なプランやモデルへ移行する傾向も見られる。</li><li>「Fable 5」などの新モデルが急速にシェアを伸ばしており、高額な frontier AI モデルを企業が積極的に導入しようとする姿勢が継続している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/claude-code-gets-a-design-command-that-lets-developers-create-ui-mockups-right-in-the-terminal/" target="_blank" rel="noopener">Claude Code gets a /design command that lets developers create UI mockups right in the terminal</a></h2>
+      <p>Claude Codeにターミナルから直接UIモックアップを作成できる「/design」コマンドが導入された<br><br><ul><li>Anthropicは、Claude Codeのプレビュー版に「/design」コマンドを新たに追加し、開発者がコーディング前にターミナル上でUIデザイン案を作成できる機能をリリースした。</li><li>「/design {機能名}」と指示するだけで、Claudeが既存のコードベースやUIスタイルを分析し、複数のデザイン案をアートボード形式で生成する。</li><li>生成されたデザインはClaudeの「Artifacts」として出力され、ユーザーは好みの案を選択して編集や修正を行うことが可能である。</li><li>デザイン案を確定させた後は、そのままビルド作業へと移行できるが、現時点ではデザインデータを手動で保存する必要がある。</li><li>この機能は、Claude Designの機能をClaude Codeに統合したものであり、最新版へアップデートすることで利用を開始できる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/ai-systems-quietly-drop-user-instructions-when-they-compress-context/" target="_blank" rel="noopener">AI systems quietly drop user instructions when they compress context</a></h2>
+      <p>AIはコンテキスト（会話履歴）を圧縮する際、ユーザーの指示を無意識に削除しており、重要な制約が守られなくなるリスクがある。ペンシルベニア州立大学の研究によると、圧縮後に保持される指示は平均してわずか17％に留まることが判明した。<br><br><ul><li>会話が長くなるとAIは記憶容量を空けるために履歴を要約（コンパクション）するが、この過程でユーザーが指定した一時的なルールや制約が優先的に削除されてしまう。</li><li>「変更前に必ず確認する」「私の名前を使わない」といったセッション限定の指示が失われることで、AIが許可なくツールを実行したり、禁止情報を開示したりするセキュリティ上のリスクが生じる。</li><li>圧縮システムはタスクの遂行や現在の状態維持を優先するように設計されているため、付随的なユーザーの制約は「不要な情報」と見なされ、優先度が低く扱われる傾向がある。</li><li>この問題は、ユーザーが同一チャットウィンドウを長期間使い続ける日常的な利用形態で特に発生しやすく、利便性と引き換えにAIの挙動が制御不能になる懸念がある。</li><li>研究チームは、この問題に対して別の小型LLMを追加することで、圧縮時にも重要な制約を保持させるという改善策を提案している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropic-increases-revenue-sevenfold-hits-annualized-rate-above-65-billion/" target="_blank" rel="noopener">Anthropic increases revenue sevenfold, hits annualized rate above $65 billion</a></h2>
+      <p>Anthropic社の年間収益が急成長、650億ドル超を達成<br><br><ul><li>Anthropic社の年間収益率（ARR）が、2026年7月末時点で650億ドルを超えた。これは前年比で7倍という驚異的な成長である。</li><li>順調な収益拡大を背景に、同社は2026年秋にも1兆ドル規模の時価総額で株式公開（IPO）を行う可能性が浮上しており、OpenAIに先駆けての上場を目指している。</li><li>将来的な成長予測も非常に強気であり、2028年には年間収益が1,900億ドルから2,000億ドルに達するという目標を掲げている。</li><li>この急成長はAIインフラへの多額の投資を正当化するために不可欠な要素となっており、市場関係者の間では、同社が今後もこの勢いを維持し、投資バブルの懸念を払拭できるかどうかが大きな焦点となっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/ibm-research/altk-evolve-hmm" target="_blank" rel="noopener">How Much Memory Does Your Agent Actually Need?</a></h2>
+      <p>エージェントのメモリ量：モデルの能力に合わせた最適な「投薬量」の重要性<br><br><ul><li>エージェントのメモリ（過去の学習成果の注入）は単に増やせば良いわけではなく、モデルの能力に応じて「適切な量」に調整する必要がある。</li><li>強力なモデル（ヘッドルームがあるモデル）は、蓄積されたガイドラインをすべて活用することで最大のパフォーマンスを発揮する。</li><li>一方、中規模なモデルでは、重要な核となる情報を保持しつつ、タスクごとに必要な情報を検索して補完する手法が最も効率的である。</li><li>能力が飽和しているモデルでは、過剰なメモリ注入は学習効果が見られず、コスト対効果が悪化するため注意が必要となる。</li><li>精選された検索手法を用いることで、少ないトークン消費で大幅なタスク完了率の向上を実現でき、コストを抑えた実用的な運用が可能になる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/multi-vector-encoder" target="_blank" rel="noopener">Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers</a></h2>
+      <p>Sentence Transformersによるマルチベクトル（Late Interaction）埋め込みモデルの活用<br><br>Sentence Transformersのv6.0アップデートにより、ColBERTに代表されるマルチベクトルモデルがサポートされ、従来の密ベクトル（Dense）や疎ベクトル（Sparse）と同様の使い勝手で、より高精度な検索が可能になりました。<br><br><ul><li>マルチベクトルモデルは、テキストや画像を単一のベクトルに圧縮せず、トークンや領域ごとのベクトルを保持することで、細かな情報を維持した精度の高いマッチングを実現します。</li><li>検索エンジンには「MaxSim」演算子を採用しており、クエリと文書のトークン間で最も類似度の高いベクトル同士を照合することで、従来の単一ベクトルモデルでは失われていた微細な意味的関連性を捉えます。</li><li>テキスト検索だけでなく、OCR（文字認識）を介さずにページ画像とクエリを直接照合する「Visual Document Retrieval」など、最先端のマルチモーダル検索にも対応可能です。</li><li>文書をトークン単位で保持するため検索精度は向上しますが、インデックスのサイズが大きくなるというトレードオフがあるため、用途に応じた実装の最適化が重要となります。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vrdetw/qwen_dev_says_not_to_wait_for_35ba3b/" target="_blank" rel="noopener">Qwen dev says not to wait for 35B-A3B</a></h2>
+      <p>Qwenの開発チームが「35B-A3Bモデル」を待つ必要はないと明言<br><br><ul><li>Qwenの開発者は、35B-A3Bモデルのリリースを期待して待つのではなく、現在利用可能なモデルを使用することを推奨している。</li><li>35B-A3Bは実験的なプロジェクトであり、製品版としてリリースされる計画はない。</li><li>開発チームは、より高性能で安定した最新のモデル開発に注力している。</li><li>ユーザーに対しては、将来の不確定なモデルを待つよりも、現時点で公開されているモデルの性能を最大限に活用することを促している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vrqf4f/running_deepseek_v4_flash_q4_k_xl_at_100_toks/" target="_blank" rel="noopener">Running DeepSeek V4 Flash Q4_K_XL at ~100 tok/s prompt processing on 4× RTX 3060 12GB</a></h2>
+      <p>RTX 3060（12GB）4枚構成でDeepSeek V4 Flashを高速動作させる手法<br><br><ul><li>複数のGPU（RTX 3060 12GB×4）を活用した分散推論により、DeepSeek V4 Flash（Q4_K_XL）を約100 tok/sという高速なプロンプト処理速度で実行することに成功した。</li><li>コンシューマー向けの安価なGPUを複数搭載する構成でも、VRAM合計を活用することで、大規模言語モデルの推論を実用的な速度で運用可能である。</li><li>今回の検証では量子化モデル（Q4_K_XL）を使用しており、モデルの性能を維持しつつメモリ負荷を抑えることで、効率的な推論を実現している。</li><li>推論環境にはllama.cppなどが利用されており、ハードウェアの制約がある環境下でも、最適化次第で高性能なAIモデルのローカル運用が可能であることを証明した。</li><li>この構成は、高価な企業向けGPUを購入することなく、大規模なオープンソースモデルを家庭レベルで快適に利用するための現実的な解を示している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vrwsfl/memory_prices_climb_500_in_12_months_up_to_10x/" target="_blank" rel="noopener">Memory prices climb 500% in 12 months, up to 10x the lowest ever tracked prices - 128GB of DDR5 now $3,399</a></h2>
+      <p>DDR5メモリ価格が1年間で500%高騰、過去最安値から最大10倍に<br><br><ul><li>DDR5メモリの価格がこの1年で劇的に上昇しており、一部では過去の最安値と比較して最大10倍もの価格に達している。</li><li>現在、128GBのDDR5メモリキットの価格は3,399ドル（約50万円）にまで高騰しており、PCパーツ市場で深刻なコスト増が起きている。</li><li>価格急騰の主な背景には、AIサーバーやハイエンドデータセンター向けでの需要が急増している一方で、供給が逼迫していることが挙げられる。</li><li>特に大容量のメモリを必要とするAI開発現場での買い占めや、製造コストの上昇が重なり、消費者向け市場への供給が著しく不安定になっている。</li><li>この異常な価格高騰は当面続くと予想され、PCのアップグレードを検討しているユーザーや企業にとっては、メモリの確保が極めて困難な状況が続いている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vrbct8/cdw_has_bumped_the_msrp_of_the_rtx_pro_6000_from/" target="_blank" rel="noopener">CDW has bumped the MSRP of the RTX Pro 6000 from $16,000 to $19,999</a></h2>
+      <p>RTX 6000 Ada世代の価格が約4,000ドル引き上げられ、2万ドル近くに高騰<br><br><ul><li>米大手IT販売代理店であるCDWが、NVIDIAのワークステーション向けGPU「RTX 6000 Ada Generation」の希望小売価格（MSRP）を16,000ドルから19,999ドルへ改定しました。</li><li>この価格変更により、実質的に約25%の大幅な値上げが行われたことになります。</li><li>今回の価格改定の背景や公式な理由は現時点で明らかにされておらず、供給不足や市場需要の変化によるものか、単なるベンダー側の調整かは不明です。</li><li>RTX 6000 Adaは、AI開発や高度なレンダリングといったプロフェッショナルな用途で非常に高い需要がある製品であり、今回の値上げが法人市場に与える影響が懸念されています。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vro3vf/linux_improves_vram_management_in_73_kernel/" target="_blank" rel="noopener">Linux Improves VRAM Management in 7.3 Kernel 🥳</a></h2>
+      <p>Linuxカーネル7.3のVRAM管理機能が向上し、グラフィックスパフォーマンスが改善される<br><br><ul><li>VRAM（ビデオメモリ）の管理アルゴリズムが最適化され、GPUメモリの割り当てと解放の効率が大幅に向上しました。</li><li>メモリ断片化（フラグメンテーション）の発生が抑制されることで、高負荷なゲームやクリエイティブ作業時の安定性が高まります。</li><li>システム全体のオーバーヘッドが削減され、特に統合型グラフィックス環境での動作レスポンスが改善されています。</li><li>複数のプロセスがVRAMを競合する際の処理が洗練され、マルチタスク環境下でのグラフィック処理のボトルネックが解消されました。</li><li>このアップデートにより、最新のLinux環境におけるゲーミングや機械学習といったGPU依存のアプリケーション体験がよりスムーズになります。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/how-ai-coding-agents-can-unlock-materials-simulation-with-nvidia-alchemi-toolkit/" target="_blank" rel="noopener">How AI Coding Agents Can Unlock Materials Simulation with NVIDIA ALCHEMI Toolkit</a></h2>
+      <p>AIコーディングエージェントとNVIDIA ALCHEMI Toolkitによる材料シミュレーションの進化<br><br><ul><li>NVIDIA ALCHEMI Toolkitは、PyTorchベースのGPU加速によるMLIP（機械学習原子間ポテンシャル）ワークフローの構築を効率化し、材料科学における計算コストの障壁を大幅に引き下げた。</li><li>AIコーディングエージェントと本ツールキットを組み合わせることで、自然言語の指示から堅牢なシミュレーションコードを自動生成することが可能となり、専門的なインターフェースの不足という課題を解決する。</li><li>45種類のパイプラインを用いた検証の結果、AIが生成したコードはプロンプトの詳しさに関わらず、シリコンの状態方程式やリチウムの自己拡散などにおいて、既存の科学的知見と一致する物理的に正確な結果を導き出すことが確認された。</li><li>AIによる自動化が進む一方で、MLIPモデルの適用範囲外での精度や物理的妥当性の判断はAI単体では保証できないため、研究者による科学的な妥当性の確認と検証作業は依然として不可欠である。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/run-massive-scale-umap-in-minutes-using-multiple-gpus-without-losing-accuracy/" target="_blank" rel="noopener">Run Massive-Scale UMAP in Minutes Using Multiple GPUs—Without Losing Accuracy</a></h2>
+      <p>NVIDIA、大規模データセットでのUMAP処理を複数GPUで数分に短縮<br><br><ul><li>NVIDIA cuMLおよびcuVS 25.06により、UMAPにおける複数GPUを用いた並列処理が可能となり、数億規模のデータセットでもエンドツーエンドでの大幅な高速化を実現した。</li><li>データセットを独立したクラスタに分割してローカルでkNN（k近傍法）グラフを構築し、それらを統合する手法を採用することで、複雑な全対全通信を回避しつつ分散計算を効率化している。</li><li>8基のNVIDIA H100 GPUを使用した場合、CPUでの予測実行時間と比較して最大74倍の高速化を達成し、870GBもの巨大なベクトルデータでもわずか8分で処理を完了できる。</li><li>従来は計算コストの増大から困難だった大規模データのインタラクティブな探索やパラメータ調整が容易になり、埋め込みの品質（信頼性スコア）を維持したまま、実用的な時間内での分析が可能となった。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.1-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-08-18";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  function validateAndGo(value) {
+    if (value === CURRENT_DATE) return;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || dateList.indexOf(value) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(value);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+})();
+</script>
+</body>
+</html>
