@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>記事まとめ 2026/09/02</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-09-02" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+</header>
+<h1>2026/09/02</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/us-department-of-justice-backs-fair-use-for-ai-training-in-landmark-copyright-case/" target="_blank" rel="noopener">US Department of Justice backs fair use for AI training in landmark copyright case</a></h2>
+      <p>米司法省がAIモデルの学習における著作物の利用を「フェアユース（公正利用）」と支持した画期的な著作権訴訟について、要約は以下の通りです。<br><br>米国司法省（DOJ）は、ニューヨーク・タイムズなどが起こした著作権侵害訴訟において、AI企業を支持する立場を表明しました。著作物の学習目的での利用はフェアユースに該当し、著作権侵害には当たらないとの見解を示しています。<br><br>重要なポイントは以下の通りです。<br><br><ul><li>米司法省は、ニューヨーク・タイムズなどによる著作権訴訟において、AIモデルの学習に著作物を使用することはフェアユースに該当するとAI企業を支持した。</li><li>司法省の主な根拠は、学習のためのコピー行為とモデルの出力内容には法的な違いがあり、学習時のコピーは公開されず出力結果も元データと実質的な類似性がないという点にある。</li><li>大規模言語モデル（LLM）は創造的および社会的な価値を提供しており、AIの学習自体に対する法的責任の追求は、本来著作権法が保護すべき創造性を阻害すると主張している。</li><li>ニューヨーク・タイムズは2023年末に、許可なく記事がGPT-4などの学習に使用され競合製品として利用されたとして、OpenAIとマイクロソフトを提訴していた。</li><li>本件は、今後の裁判所におけるAI学習と著作権の扱いを占う重要な試金石とみなされている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/gemini-3-8-flash-is-googles-third-budget-model-in-six-weeks-while-frontier-models-remain-mia/" target="_blank" rel="noopener">Gemini 3.8 Flash is Google's third budget model in six weeks while frontier models remain MIA</a></h2>
+      <p>Googleが発表した低価格AIモデル「Gemini 3.8 Flash」の概要と、フロンティアモデル不在の中での展開についての記事です。<br><br>Gemini 3.8 Flashは、前モデルからわずか3週間で登場したGoogleの低価格AIモデルであり、コーディングや推論能力が大幅に向上しています。<br><br><ul><li>Googleは、汎用的なコーディング・推論モデルと、専門的なサイバーセキュリティ向けの2つのバージョンでGemini 3.8 Flashをリリースした。</li><li>長期的なソフトウェアエンジニアリングのベンチマークにおいて、先行する他社モデルに匹敵あるいは凌駕する性能を誇る。</li><li>プロンプトから3Dゲームを構築するなど、3D生成機能も向上している。</li><li>価格は、前モデルを踏襲した手頃なレートで提供される予定である。</li><li>わずか6週間で3つの低価格モデルが発表されるハイペースな展開に対し、フラッグシップとなるフロンティアモデルが依然として未発表である点に注目が集まっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/us-military-adds-chatgpt-and-grok-to-ai-platform-genai-mil/" target="_blank" rel="noopener">US military adds ChatGPT and Grok to AI platform GenAI.mil</a></h2>
+      <p>米軍はAIプラットフォーム「GenAI.mil」に、新たにOpenAIの「ChatGPT Mil」とxAIの「Grok for Government」を追加しました。このプラットフォームは国防総省の従業員や軍人向けに提供されており、セキュリティが確保された専用環境で稼働することで、機密データの外部流出やユーザーデータの収集を防ぐ仕組みになっています。<br><br><ul><li>米国防総省はAIプラットフォーム「GenAI.mil」を拡張し、従来のGoogle Geminiに加え、OpenAIの「ChatGPT Mil」とxAIの「Grok for Government」の利用を開始した。</li><li>プラットフォームの利用者は300万人以上の職員や軍人のうち170万人を超えており、ChatGPT Milは主に管理業務や物流、計画策定に活用される。</li><li>Grokは調達分析やサプライチェーン管理といった軍事的な用途を想定して導入されている。</li><li>両ツールは商用版から完全に隔離された安全な専用環境で動作するため、機密データの外部流出やユーザーデータの収集が行われない設計になっている。</li><li>一方で、米軍の無制限利用を拒否してトランプ政権からサプライチェーンリスクに指定されていたAnthropic社のClaudeは、プラットフォームにまだ含まれていない（同指定は8月下旬に裁判所で違法と判決が下されている）。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/protests-against-ai-data-centers-play-into-chinas-hands-trump-says/" target="_blank" rel="noopener">Protests against AI data centers play into China's hands, Trump says</a></h2>
+      <p>トランプ大統領は、米国におけるAIデータセンター建設計画への反対運動が中国の利益になり、米国のAI競争における優位性を失わせると警告している。住民は電気代の高騰や騒音、水資源の枯渇などを懸念して建設に強く反対しており、2026年第1四半期だけで多数のプロジェクトが遅延・阻止されている。<br><br><ul><li>トランプ大統領は、データセンター建設への反対運動が中国を利し、米国のAI分野での優位性を削ぐとTruth Socialで批判した。</li><li>ギャラップ社の世論調査によると、米国民の71%が自宅近くへのデータセンター建設に反対しており、電気代や騒音、水不足が懸念されている。</li><li>調査グループによると、2026年第1四半期だけで約1,300億ドル相当の75件以上のプロジェクトが住民の反対によって阻止または遅延した。</li><li>中国は今後5年間でデータセンターの容量をほぼ倍増させる計画であり、米国の反対運動を意図的に扇動している可能性が報じられている。</li><li>バンス副大統領はデータセンターの重要性を認めつつも、事業者が地域の電力網に負担をかけないよう独自の発電所を建設すべきだとの立場を示している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/openai-calls-astra-its-most-dangerous-model-yet-watching-what-it-does-is-only-getting-harder/" target="_blank" rel="noopener">OpenAI calls Astra its most dangerous model yet - watching what it does is only getting harder</a></h2>
+      <p>OpenAIが「Astra」を同社で最も危険かつ高度なサイバー攻撃能力を持つモデルと位置づけつつ、同時に最も安全なシステムであると発表した件について、その背景と懸念点を報じている。<br><br><ul><li>OpenAIの次期モデル「Astra」は、人間の誘導なしで未知のセキュリティ脆弱性を発見・悪用できる能力を持ち、同社の準備フレームワークにおけるサイバーセキュリティの最高リスクカテゴリーに分類された。</li><li>同社はこれを「これまでで最も安全なモデル」とも称しており、サイバー攻撃の脆弱性を測定するベンチマーク「ExploitBench」で満点を獲得している。</li><li>この危険性の発表は、競合するAnthropic社が「Claude Fable 5.1」などをリリースした同日に行われ、競合を意識したタイミングであると指摘されている。</li><li>OpenAIのCEOであるサム・アルトマン氏は、新モデルのリリースがない理由について、夏場は安全性の優先事項に注力し、Astraのトレーニングはすでに完了している一方で、後続モデルの開発は意図的にペースを落としていると説明している。</li><li>業界内やユーザーの間では、Anthropic社が今年の収益でOpenAIを追い抜いたという報道もあり、今回の発表は遅れをとったことへの言い訳ではないかとの見方も出ている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/world-labs-unveils-atlas-a-single-ai-model-that-generates-reconstructs-and-simulates-3d-worlds-from-just-a-few-photos/" target="_blank" rel="noopener">World Labs unveils Atlas, a single AI model that generates, reconstructs, and simulates 3D worlds from just a few photos</a></h2>
+      <p>World Labsが発表したAIモデル「Atlas」は、わずか数枚の写真から3D世界を生成、再構築、シミュレーションできる画期的な世界モデルである。<br><br><ul><li>世界的なAI研究者のFei-Fei Li氏らが共同創業したWorld Labsが、「空間知能」の実現を目指して開発した初の商用規模のモデルである。</li><li>単なる平らな画像や動画ではなく、シーンを3D空間の特定の位置にアンカー（固定）して処理するため、あらゆる角度からの見え方や時間経過に伴う変化を理解できる。</li><li>テキスト、画像、動画、3Dデータをゼロから学習したオムニモデルであり、従来のテキストやビデオモデルの限界を克服している。</li><li>カメラワークの制御において、テキストプロンプトではなく直接的な幾何学的入力としてカメラの移動を指定し、自由な視点から新しいビューを生成できる。</li><li>特化型モデルを独自のタスクですら凌駕する性能を持ち、多くの既存モデルを不要にする可能性を秘めている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/google-geminis-new-agent-based-video-analysis-cuts-token-usage-by-up-to-88-percent/" target="_blank" rel="noopener">Google Gemini's new agent-based video analysis cuts token usage by up to 88 percent</a></h2>
+      <p>GoogleのGeminiモデル、エージェント型動画分析でトークン使用量を最大88%削減<br><br><ul><li>GoogleはGemini Flashモデルに、動画をフレーム単位で一律スキャンするのではなく、自律的に関連部分を探索する「エージェント型動画分析」を導入した。</li><li>この機能により、モデルが自ら分析するセクションや方法を判断し、トークン使用量を最大88%削減、コストを66%削減しながら精度を向上させる。</li><li>1秒未満の短い瞬間や場面の変化、カットなども正確に捉えることができ、自動動画編集の精度が大幅に向上する。</li><li>長時間の映像から特定のシーンを効率的に探し出すことが可能であり、不審な時間帯を高フレームレートで再サンプリングして異常検知なども行う。</li><li>現在、Gemini APIを通じて利用可能となっており、今後はGeminiアプリやYouTubeへの統合も予定されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Sep/2/llm-gemini/" target="_blank" rel="noopener">llm-gemini 0.34</a></h2>
+      <p>LLMプラグイン「llm-gemini 0.34」のリリースとGoogleの新しい「Gemini 3.8 Flash」モデルへの対応について<br><br><ul><li>Googleが新モデル「Gemini 3.8 Flash」をリリースしたことに伴い、LLMプラグイン「llm-gemini 0.34」が公開された。</li><li>新モデルでは「low」「medium」「high」の3段階の思考レベルがサポートされている。</li><li>非同期レスポンス時に解決されたモデルバージョンが正しく記録されない不具合が修正された。</li><li>Gemini 3.8 Flashは、高速かつ安価でありながら、HTMLやJavaScriptなどのコーディングタスクにおいて優れた性能を発揮する。</li><li>著者は、この新モデルを活用して自身のツール（markdown-svg-renderer）にサンドボックス化されたiframeによるHTMLブロックのレンダリング機能を追加した。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/" target="_blank" rel="noopener">Claude's new system prompt really doesn't want to reproduce song lyrics</a></h2>
+      <p>Anthropic社製AI「Claude」の新しいシステムプロンプトにおいて、著作権保護に関連する制限が大幅に強化されたことが報告されています。<br><br><ul><li>Anthropic社がClaudeのコンシューマー向けアプリのシステムプロンプトを公開し、モデルごとの変更履歴が簡単に比較できるようになった。</li><li>Fable 5.1の新しいプロンプトには、楽曲の歌詞、詩、書籍などの引用を全面的に禁止する厳しい条項が追加された。</li><li>歌詞などの禁止は、部分的な引用や、ユーザーが自分の曲と偽って入力した場合なども対象となり、1929年以前に公開された作品のみ例外とされる。</li><li>この改訂は、Sony Music PublishingやWarner ChappellによるAnthropic社への著作権侵害提訴のニュースと時期が一致している。</li><li>テキストだけでなく、SVGやコード、ASCIIアートなどを用いた著作権のあるキャラクターやロゴの画像生成も禁止対象に含まれている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Sep/2/rick-brewster/" target="_blank" rel="noopener">Quoting Rick Brewster</a></h2>
+      <p>Paint.NETのWINE対応に向けたDirect2Dの独自実装とAIの活用<br><br><ul><li>Paint.NETの作者であるリック・ブリュースター氏が、WINE上での動作不良を解消するため、Direct2Dのクリーンルーム逆方向エンジニアリングによる独自の実装を行ったことを明らかにした。</li><li>この約18万行に及ぶコード（`PaintDotNet.Windows.Direct2D1.Managed.dll`）の大部分は、AIである「Claude」を用いて短期間で生成されたものである。</li><li>作者自身によるコードレビューが不可能なほどの膨大な量であるため、いわゆる「バイブコーディング」のスタイルで作成され、リソース管理の修正やアーキテクチャの監督など人間による細かな軌道修正が行われた。</li><li>Claudeはリファレンス管理のミスなど初歩的な問題を起こす一方で、Direct2Dの内蔵エフェクトライブラリに必要な複雑な数式を導き出すなど、高度な逆解析作業も見事にやり遂げた。</li><li>この革新的なアプローチにより、AIの支援がなければPaint.NETのWINE上でのDirect2D完全対応は不可能であったと評価されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/ibm-research/real-time-intelligence" target="_blank" rel="noopener">Real-Time Intelligence with IBM Time Series Models on Confluent </a></h2>
+      <p>IBMとConfluentの連携による時系列データ向け基盤モデルの提供開始と、リアルタイムインテリジェンスの実現について要約します。<br><br>Confluent上のIBM時系列モデルによるリアルタイムインテリジェンス<br><br><ul><li>IBMとConfluentは、ストリームネイティブな時系列基盤モデル（TSFM）をConfluent Cloudの早期アクセスとして提供開始した。</li><li>従来の個別モデル開発にかかる膨大な時間とコストを削減し、予測、異常検知、最適化、セマンティックインテリジェンスを迅速に実現する。</li><li>事前学習済みの基盤モデルにより、データサイエンティストの専門知識がなくても、需要予測や不正検知、生産最適化などの判断に活用できる。</li><li>データの流れる場所で直接モデルが稼働するため、従来はウィンドウを過ぎてから行われていた判断をリアルタイムかつ効率的に行える。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1w50ur8/localllama_is_unironically_one_of_the_best_places/" target="_blank" rel="noopener">LocalLLaMA is unironically one of the best places to go to get up to date AI news.</a></h2>
+      <p>Redditのコミュニティ「LocalLLaMA」は、最新のAI情報を収集するための極めて優れた情報源である。<br><br><ul><li>LocalLLaMAは、AI分野の最新ニュースやトレンドをキャッチアップできる最適な場所として高く評価されている。</li><li>大規模言語モデルに関する開発者や愛好家の活発な議論が行われており、実用的な情報が集まる。</li><li>公式発表のニュースだけでなく、現場の生の声や実践的な知見がいち早く共有される点が大きな特徴である。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1w5l8bw/muse_spark_open_weights_coming_soon/" target="_blank" rel="noopener">Muse Spark open weights coming soon</a></h2>
+      <p>Muse Sparkのオープンウェイト版が間もなく公開される予定です。今回の発表の重要なポイントは以下の通りです。<br><br><ul><li>AIモデル「Muse Spark」のオープンウェイト版が、近日中にリリースされる見込みであること。</li><li>このモデルの一般公開により、開発者や研究者が自由にアクセスし、様々な用途への活用やカスタマイズが可能になること。</li><li>オープンソースコミュニティにおける技術革新や、関連する生成AI分野のさらなる発展が期待されていること。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1w53ti8/qwen_will_be_the_king/" target="_blank" rel="noopener">Qwen will be the king?</a></h2>
+      <p>QwenはAI業界における新たな王となる可能性を秘めた非常に強力なモデルであり、オープンソース界隈や性能面で大きな注目を集めています。<br><br><ul><li>Qwenは中国のAlibabaが開発した大規模言語モデルであり、その圧倒的な性能の高さからAI業界で「王」になるのではないかと期待を集めている</li><li>特にオープンソースモデルとしての公開が多く、商用利用もしやすい柔軟性から、開発者や研究者の間で高い評価を得ている</li><li>多言語対応能力に優れており、中国語だけでなく英語や日本語を含む多様な言語処理において高い精度を発揮する</li><li>コード生成、数学的推論、論理的思考など、特定タスクのベンチマークにおいても競合する大手商用モデルに匹敵、あるいは凌駕するスコアを記録している</li><li>今後のAI市場において、米国の主要テック企業が提供するクローズドなモデルに対抗する強力な選択肢として、さらなるエコシステムの拡大が予想されている</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1w4wjxd/everyone_is_ts_maxing_38_but_after_a_week_of/" target="_blank" rel="noopener">Everyone is t/s maxing.. 3.8.. but after a week of using it for work I'm tempted to switch back to 3.6</a></h2>
+      <p>Claude 3.5 SonnetからClaude 3.6への回帰検討<br><br><ul><li>話題の最新モデル「Claude 3.5 Sonnet（t/s maxing）」の評価が高い中、実際に1週間仕事で使用したユーザーが、旧モデルである「Claude 3.6」へのダウングレード（切り替え）を検討している。</li><li>最新モデルは処理速度やトークン効率などの面で注目を集めているが、実際の業務利用においては、必ずしも既存モデルからの乗り換えが最適解とは限らない実感が示されている。</li><li>実務での利用シーンにおいて、出力の質や使い勝手の面で旧モデルの方が優れていると感じる場面があったことが、切り替えを悩む主な要因となっていると考えられる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1w4wyvg/25_of_my_cmp_170hx_have_died_after_2_weeks_and/" target="_blank" rel="noopener">2/5 of my CMP 170HX have died after 2 weeks and the 3rd came with defective tensor cores. Current prices DO NOT justify the risk you are taking</a></h2>
+      <p>CMP 170HXの購入リスクと品質問題について<br><br><ul><li>CMP 170HXマイニング用GPUを購入からわずか2週間で5枚中2枚が故障した</li><li>3枚目の個体には欠陥のあるテンソルコアが搭載されていたという初期不良があった</li><li>現在のGPU価格設定では、これほど高い故障リスクと品質の不安定さは全く正当化されない</li><li>高額な投資に見合う信頼性が得られないため、現状での購入は避けるべきである</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.33.3-rc2" target="_blank" rel="noopener">v0.33.3</a></h2>
+      <p>ollama/ollama v0.33.3 リリース情報<br><br><ul><li>GitHub上の「ollama/ollama」リポジトリにおける、バージョン「v0.33.3」のリリース関連ページである。</li><li>Ollamaプロジェクトは、AIやローカルLLM（大規模言語モデル）の実行環境を提供するオープンソースソフトウェアとして、多くの開発者に利用されている。</li><li>GitHubのページでは、ソースコードの管理だけでなく、Issue（課題管理）、Pull Request（プルリクエスト）、Actions（CI/CD自動化）などの開発ワークフロー機能が提供されている。</li><li>リポジトリには多数のスター（約18万）やフォーク（約1.7万）がつけられており、活発なオープンソースコミュニティによって開発と保守が行われている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.33.3-rc1" target="_blank" rel="noopener">v0.33.3-rc1</a></h2>
+      <p>ollama/ollama v0.33.3-rc1 リリース情報<br><br><ul><li>GitHub上のollamaリポジトリにおいて、「v0.33.3-rc1」のリリース候補（RC版）が公開されたページである。</li><li>記事の内容はGitHubのウェブサイトのUI要素やナビゲーションメニュー、エラーメッセージなどが多く含まれるテンプレート的なテキストで構成されている。</li><li>ollamaプロジェクトのソースコード、Issues（2.5千件）、Pull requests（1.4千件）、Fork数（1.7万回超）、Star数（18万回超）などの基本的なリポジトリ統計情報が確認できる。</li><li>本文の詳細なリリースノートや変更点の説明文はこのテキスト内には記載されておらず、実際のリリース内容を確認するには該当のGitHubページにアクセスする必要がある。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/the-modern-cuda-toolbox-in-practice-a-step-by-step-optimization-walkthrough/" target="_blank" rel="noopener">The Modern CUDA Toolbox in Practice: A Step-by-Step Optimization Walkthrough</a></h2>
+      <p>The Modern CUDA Toolbox in Practice: A Step-by-Step Optimization Walkthrough<br><br><ul><li>最新のCCCL APIとCompute Sanitizerを導入し、グローバル座標とブロックレベル座標を区別することで、インデックスのバグや範囲外アクセスを効率的に検出・排除する。</li><li>手動で記述したカーネルをCUBのデバイス・ブロックレベルのプリミティブに置き換えることで、画像あたりの計算時間を劇的に短縮し、大幅な高速化を実現する。</li><li>`cuda::device_buffer`や`cuda::host_buffer`を活用したメモリプールの利用やピンメモリの割り当てにより、メモリの割り当てオーバーヘッドとホスト・デバイス間の転送を効率化する。</li><li>OpenMPスレッドごとに独自の`cuda::stream`を割り当て、非同期コピーを用いることで、カーネル実行とデータ転送をオーバーラップさせてさらなる高速化を図る。</li><li>Google ColabノートブックやYouTubeクラスなどの実践的なリソースを活用して、最適化手法をコード例から直接検証・学習できる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/" target="_blank" rel="noopener">Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference</a></h2>
+      <p>Speculative Decodingを用いたAIモデルの共同設計によるLLM推論の高速化<br><br><ul><li>Speculative Decoding（推測デコーディング）は、小規模なドラフトモデルが提案した複数のトークンを大規模なターゲットモデルが並列検証することで、出力精度を維持しながらLLMの推論を高速化する技術である。</li><li>最適なドラフト長とメカニズムを選定するための5つのガイドラインが示されており、計算領域の最適化やアテンションカーネルのタイル境界（128）への適合など、パレートフロンティアに沿った選択が可能になる。</li><li>ドラフトメカニズムには、外部ドラフトモデル、EAGLE-3、MTP、DFlash、DSpark、サフィックスやn-gram手法などがあり、トレーニングコスト、メモリ、オーバーヘッドのトレードオフに応じて選択する。</li><li>NVIDIAが開発した「SPEED-Bench」を利用することで、コーディングや要約などのタスクドメインにおいて、現実的なワークロードでの受入長を測定できる。</li><li>NVIDIA/Model-Optimizerでは、EAGLE-3、DFlash、DSparkのすぐに実行可能なトレーニング例が提供されており、Nemotron 3.5 Lightningを用いたファインチューニングや量子化ワークフローが実証されている。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-09-02";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  function validateAndGo(value) {
+    if (value === CURRENT_DATE) return;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || dateList.indexOf(value) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(value);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+})();
+</script>
+</body>
+</html>
