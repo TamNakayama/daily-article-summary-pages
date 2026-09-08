@@ -1,0 +1,74 @@
+[
+  {
+    "id": "3d53de0e-c1c5-8191-abf3-f6c2de724905",
+    "title": "How AI wiped out an entire industry in Nairobi",
+    "site": "THE DECODER",
+    "published": "2026-09-07T13:18:57.000Z",
+    "fetched": "2026-09-08T07:00:24.925Z",
+    "summary": "AIがナイロビで一つの産業を消し去った経緯\n\n- ChatGPTをはじめとするAI技術の登場により、ケニアの学術論文代筆という大規模なギグワーク産業が崩壊的な打撃を受けた。\n- かつてナイロビ単独で4万人以上の人々が従事していた学術代筆の仕事は、AIの登場により需要と価格が急落した。\n- この影響は学術代筆に留まらず、データアノテーション、文字起こし、コンテンツモデレーションといった他のオンラインギグワークにも及んでいる。\n- 現在、この分野に残る仕事は、AIが生成したテキストを剽窃チェックシステムを通過させるように「人間化（humanizer）」する作業が中心となっている。\n- 専門家たちは、AIによる職の消滅の傾向は、銀行、会計、エンジニア、建築家など、あらゆる専門職分野に広がると警鐘を鳴らしている。",
+    "url": "https://the-decoder.com/how-ai-wiped-out-an-entire-industry-in-nairobi/"
+  },
+  {
+    "id": "3d53de0e-c1c5-81c8-b28a-ef68f78e6b52",
+    "title": "At UBS, AI skills are now a condition for landing a job",
+    "site": "THE DECODER",
+    "published": "2026-09-07T13:13:38.000Z",
+    "fetched": "2026-09-08T07:00:59.831Z",
+    "summary": "UBS、AIスキルが就職の必須条件に\n\n- スイスの巨大銀行UBSが、2027年入職予定のジュニアバンカーに対し、AIスキルを就職の前提条件とするようになり、業界での注目を集めている。\n- 応募者は、AIを活用して業務の成果や効率をどのように改善できるかを提示する必要があり、面接においてもAIの使用方法が問われる。\n- この動きは、銀行業界全体で財務分析、リサーチ、クライアントプレゼンテーションといった定型的なジュニア業務の自動化が加速しているため、主要銀行の間で広がっている。\n- 同様の傾向はスペインのサンタンデール銀行など他行でも確認されており、金融機関におけるAIリテラシーの高さが急速に求められる時代になっている。",
+    "url": "https://the-decoder.com/at-ubs-ai-skills-are-now-a-condition-for-landing-a-job/"
+  },
+  {
+    "id": "3d53de0e-c1c5-81ad-a091-deda1c44bed4",
+    "title": "OpenAI reports AI \"research interns\" and warns about its own pace at the same time",
+    "site": "THE DECODER",
+    "published": "2026-09-07T13:05:22.000Z",
+    "fetched": "2026-09-08T07:01:38.873Z",
+    "summary": "OpenAI、AIの自己改善の急速な進化を報告しつつ、その危険性についても警鐘を鳴らす\n\n- OpenAIは、AIが自律的にモデル開発を推進する「再帰的自己改善（RSI）」の段階に急速に到達していることを示す内部データおよび論文を発表しました。\n- 企業は、人間が基本的な指示を与えるだけで、経験豊富な研究者が何日もかかるタスクをこなせる「自動化された研究インターン」の達成をマイルストーンとして報告しています。\n- コーディングエージェントの活用により研究効率が劇的に向上しており、従来の研究者と比較しても、トークン出力量が過去数ヶ月で124倍に増大したといった具体的な使用データが示されています。\n- 一方で、チーフサイエンティストのジャクブ・パチョツキ氏を含む社内専門家は、これらの自律的なAIシステムが非常に強力になりすぎていること、そして、現在、これらのシステムを十分に制御する方法はどの研究室も確立できていないという警告を発しています。\n- 報告された全てのデータはOpenAI内部の測定に基づいたものであり、外部による独立した検証は受けていないことが強調されています。",
+    "url": "https://the-decoder.com/openai-reports-ai-research-interns-and-warns-about-its-own-pace-at-the-same-time/"
+  },
+  {
+    "id": "3d53de0e-c1c5-81f1-82f1-f8fd03819737",
+    "title": "New York City bans AI tools from public schools through eighth grade",
+    "site": "THE DECODER",
+    "published": "2026-09-07T13:00:03.000Z",
+    "fetched": "2026-09-08T07:02:15.131Z",
+    "summary": "ニューヨーク市、公立学校のAI使用に厳しい規制を導入\n\nニューヨーク市は、児童生徒のAIへの依存や独立した思考力の低下を防ぐため、公立学校におけるAIツールの使用について段階的かつ厳しい規制を導入することを発表しました。これは、テクノロジー産業の主張する「AI教育の不可避性」の流れに逆行する措置です。\n\n- 規制の適用範囲は、小学校を通じて8年生（中学校最高学年）までの公立学校全体に及ぶ。\n- 個人のスクリーン（デバイス）の使用は、3年生まで厳しく禁止される。\n- どの学年においても、いわゆる「コンパニオンチャットボット」の使用が全面的に禁止される。\n- 中学生については、AI利用を含むスクリーンタイムを1日最大45分に制限することが推奨されている。\n- 教員によるAI利用は、授業の準備（レッスン作成など）に限定され、生徒の採点業務への利用は認められない。\n\n今後、教師、政治家、専門家、労働組合代表からなるタスクフォースが、この規制の根拠となる報告書を2027年4月までにまとめ、今後の学校におけるAI政策の指針とする予定です。この規制は、学生の「認知的放棄」（思考をソフトウェアに頼りすぎる状態）という懸念に対応するものです。",
+    "url": "https://the-decoder.com/new-york-city-bans-ai-tools-from-public-schools-through-eighth-grade/"
+  },
+  {
+    "id": "3d53de0e-c1c5-815c-aeed-e800cae66a6c",
+    "title": "Qwen-Drive 1.0 tells you why it brakes, just don't expect the explanation to match the maneuver",
+    "site": "THE DECODER",
+    "published": "2026-09-07T12:15:54.000Z",
+    "fetched": "2026-09-08T07:02:54.669Z",
+    "summary": "Qwen-Drive 1.0：なぜブレーキをかけたかを説明するが、その理由は行動と一致しない可能性も\n\n- AlibabaのQwen-Drive 1.0は、単一のAIモデルとして、環境の空間認識、交通に関する質問への回答、ルート計画の3つの機能を統合的に処理します。\n- 従来の自動運転モデルが抱えていた「3次元空間の理解不足」と「一般知識の忘却（破局的忘却）」の問題を解決するために設計されました。\n- モデルは、基盤となる大規模言語モデル（Qwen3.5-4B）に加えて、空間認識のための専門モジュールを2つ組み込むことで、知識の広さと専門性の両立を実現しています。\n- 精度面では、シミュレーションにおける車線逸脱率を24%から12%に大幅に低減させるなどの高い改善を達成しています。\n- 特徴的なのは、車がブレーキをかけた際にその理由を説明する点ですが、その説明が実際の運転行動と論理的に一致しない場合があるというユーモラスな側面を持っています。",
+    "url": "https://the-decoder.com/qwen-drive-1-0-tells-you-why-it-brakes-just-dont-expect-the-explanation-to-match-the-maneuver/"
+  },
+  {
+    "id": "3d53de0e-c1c5-81c6-95ae-fc03da6f2da1",
+    "title": "Research acceleration: The view inside OpenAI",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-09-06T23:57:40.000Z",
+    "fetched": "2026-09-08T07:03:27.404Z",
+    "summary": "OpenAI内部から見た研究加速の様相\n \n - OpenAIの研究開発は、AGI（汎用人工知能）の究極目標である「再帰的自己改善（RSI）」に焦点を当てて加速しています。\n - 現在のAI研究トレンドは「エージェント的エンジニアリング」が中心であり、研究チームはコーディングエージェントを本格的に活用しています。\n - 2026年後半にかけて、一人当たりのAI支出が劇的に増加した背景には、内部従業員が新モデル「GPT-6 Astra」にアクセス可能になったことが挙げられます。\n - 記事からは、OpenAI内部で高性能なAIエージェントを用いた高度な開発が進んでいる様子がうかがえ、この技術が今後の研究活動を牽引していることが示唆されています。",
+    "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/"
+  },
+  {
+    "id": "3d53de0e-c1c5-81c6-884e-f089d276c621",
+    "title": "MiniCPM5-2B Release Day",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-07T13:43:45.000Z",
+    "fetched": "2026-09-08T07:04:01.651Z",
+    "summary": "MiniCPM5-2B Release Day\n\nMiniCPM5-2Bという新しいAIモデルがリリースされ、コミュニティ（Redditなど）で注目を集めていることを伝える記事です。本モデルは、そのコンパクトなサイズながら高い性能を特徴としており、幅広い開発者やユーザーにとって利用機会が拡大することが期待されます。\n\n- MiniCPM5-2Bの正式リリースに伴い、AIコミュニティ全体で大きな注目が集まっている。\n- 本モデルの最大の特徴は、高性能を維持しつつ、非常に軽量なサイズ（2Bなど）を実現した点であり、デバイス上での実行や多様な用途への導入が期待できる。\n- Redditなどのプラットフォームを通じて、初期のユーザーレビューや開発者からのフィードバックが活発に行われており、コミュニティ主導での情報共有が進んでいる。\n- モデルがオープンな形で提供されている場合、幅広い開発者や研究者が自由に利用・カスタマイズできるため、AI分野でのイノベーションが促進される見込みである。\n- このリリースは、AIモデルの利用ハードルを下げ、より多くの人々が最新のAI技術を日常的なアプリケーションやローカル環境で試せる機会を提供するものである。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9skjz/minicpm52b_release_day/"
+  },
+  {
+    "id": "3d53de0e-c1c5-81b4-9664-ef99d645e377",
+    "title": "9 easy steps for llama.cpp, a local model, Freecad (and pi coding agent) to generate solid objects that sound mechanically good and can be also be 3D printed/milled",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-07T12:45:58.000Z",
+    "fetched": "2026-09-08T07:04:27.816Z",
+    "summary": "AIを活用した「音よく動く」「製造可能な」固体オブジェクトの設計プロセス\n\n- 本記事は、大規模言語モデル（LLM）である`llama.cpp`やPiコーディングエージェントといったAIツールを、CADソフトウェアであるFreeCADと連携させることで、機械的に実用的な立体物（ソリッドオブジェクト）を設計する具体的な9つのステップを紹介しています。\n- 主要なポイントは、従来のCAD設計にAIのアイデア出し能力とコーディング能力を組み合わせる点にあり、単なる「デザイン」ではなく、「機能性（メカニカルに良いか）」と「製造可能性（3Dプリント/マシニング）」を同時に満たすオブジェクト生成を目指します。\n- AIエージェントがユーザーの要求（例：「この機構を設計してほしい」）を受け取り、FreeCAD内で動作に必要なパラメータや設計コードを生成し、設計プロセス全体を支援します。\n- この組み合わせにより、複雑な機構設計や、実世界の制約（物理的な動作や材料の制限）を考慮した、洗練された工業製品のプロトタイプを、極めて効率的に作成することが可能になります。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9r73k/9_easy_steps_for_llamacpp_a_local_model_freecad/"
+  }
+]
