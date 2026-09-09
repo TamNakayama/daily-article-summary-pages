@@ -1,0 +1,128 @@
+[
+  {
+    "id": "3d63de0e-c1c5-81d7-8507-db5837e7a873",
+    "title": "OpenAI researcher allegedly pressured mathematician to drop Anthropic co-author from math breakthrough paper",
+    "site": "THE DECODER",
+    "published": "2026-09-08T19:23:04.000Z",
+    "fetched": "2026-09-09T00:01:11.719Z",
+    "summary": "OpenAI研究者が数学者に対し、ナビゲーション・ストークス方程式の画期的な論文から競合他社Anthropicの共同執筆者を外すよう圧力をかけた疑惑が浮上した。\n\n- 数学者のトリスタン・バックマスター氏によると、AIモデルを活用してナビ・ストークス方程式の研究を進めたところ、OpenAIから圧力を受けたと主張している。\n- OpenAI側は、プロジェクトの全ドラフトがCodexにアップロードされていたことを背景に、自社内モデルが同様の約100ページの証明を生成したと主張した。\n- バックマスター氏によれば、OpenAIのブベック氏が、共同執筆者のレヴェント・アルポゲ氏がAnthropicに勤務していることを理由に、著者から外すよう2度にわたって要求したという。\n- バックマスター氏がこれを拒否した際、ブベック氏から「なぜ自分のキャリアを台無しにするのか？」と問い詰められたとされている。\n- 一方、OpenAIは独自にナビ・ストークス方程式の解決結果を発表し、約1万台のAIエージェントを使用し88時間で証明を生成したとしている。",
+    "url": "https://the-decoder.com/openai-researcher-allegedly-pressured-mathematician-to-drop-anthropic-co-author-from-math-breakthrough-paper/"
+  },
+  {
+    "id": "3d63de0e-c1c5-8103-9f94-f154860a1baa",
+    "title": "Patagonia has what AI data centers want, including no resistance so far",
+    "site": "THE DECODER",
+    "published": "2026-09-08T15:16:47.000Z",
+    "fetched": "2026-09-09T00:01:19.628Z",
+    "summary": "アルゼンチンのパタゴニア地方が、豊富なエネルギー資源や広大な土地、冷涼な気候、そして住民からの反対運動がほとんどないという利点を活かし、大規模なAIデータセンターの新たな建設候補地として注目を集めています。\n\n- パタゴニア地方は、水力・風力発電、シェールガスなどの豊富なエネルギーと広大な土地、冷涼な気候を備えており、AIデータセンターの誘致を進めている。\n- 現地電力会社パンパ・エネ尔ギ社やポーランドのグリーン・キャピタル社が大規模なデータセンターの建設計画を進めており、OpenAIも計画に関心を示している。\n- アルゼンチンでは大規模施設がまだ少ないため、米国のようなサーバーファームに対する強い反対運動が今のところ起きていない。\n- 計画地周辺に暮らす先住民マプチェ族との過去の対立や、送電インフラの整備コスト、海底ケーブルの敷設、2027年の大統領選挙後の投資環境の安定性などには懸念が残されている。",
+    "url": "https://the-decoder.com/patagonia-has-what-ai-data-centers-want-including-no-resistance-so-far/"
+  },
+  {
+    "id": "3d63de0e-c1c5-8182-b034-c78dafd7d93d",
+    "title": "ASML locks in TSMC, Samsung, and Intel while Huawei races to break its grip",
+    "site": "THE DECODER",
+    "published": "2026-09-08T15:11:59.000Z",
+    "fetched": "2026-09-09T00:01:27.080Z",
+    "summary": "ASMLがTSMCやサムスンなどの主要半導体メーカーと最新技術の導入で合意し、中国ファーウェイが同社の支配からの脱却を急ぐ動向\n\n- ASMLは、サムスンやTSMCなど主要チップメーカーから、最新の「High-NA EUV」露光技術を導入する確約を得た。\n- サムスンは2028年、TSMCは2030年から量産に利用する予定であり、インテルはすでに導入済みである。\n- この協力体制の核となるのは、フォトマスクを従来の6インチから12インチへ移行するという技術革新である。\n- マスクの大型化により、1回の露光でより広い面積を処理でき、High-NAマシンのスループットを40%向上させることが可能になる。\n- 最先端AIチップの製造に不可欠なEUV技術でASMLが独占的な地位を維持する一方、中国はファーウェイの主導のもとで脱依存を目指している。",
+    "url": "https://the-decoder.com/asml-locks-in-tsmc-samsung-and-intel-while-huawei-races-to-break-its-grip/"
+  },
+  {
+    "id": "3d63de0e-c1c5-817c-8d1e-ed5338c9823f",
+    "title": "Meta drops AI usage from engineer performance reviews after \"tokenmaxxing\" backfires",
+    "site": "THE DECODER",
+    "published": "2026-09-08T14:27:40.000Z",
+    "fetched": "2026-09-09T00:01:34.786Z",
+    "summary": "Metaは、エンジニアの業績評価基準からAIツールの利用量を廃止しました。評価基準にAIの利用が含まれていたことで、評価を上げるためにAIトークンを過剰に消費する「トークンマキシング」と呼ばれる現象が発生し、コストの高騰を招いたためです。\n\n- Metaは、エンジニアのパフォーマンス評価からAIの利用状況（ダッシュボードやトークンカウンター）を除外した\n- 評価基準にAI利用があったことで、社内のリーダーボードで良く見せようとAIトークンを大量消費する「トークンマキシング」が横行した\n- 社内のAI利用コストは2026年に数十億ドル規模に達する見込みであり、今後は品質、スピード、複雑性が評価の対象となる\n- Metaは2027年からAI利用に予算枠を設け、一元管理するダッシュボードを導入する予定である\n- 同時に、自律型AIエージェント「Hatch」のテストも進めているが、プライバシーの懸念から従業員の間で反発も起きている",
+    "url": "https://the-decoder.com/meta-drops-ai-usage-from-engineer-performance-reviews-after-tokenmaxxing-backfires/"
+  },
+  {
+    "id": "3d63de0e-c1c5-81cd-b547-ec76cf51ed60",
+    "title": "Mistral AI raises 3 billion euros in Europe's largest-ever tech funding round despite lagging behind rivals",
+    "site": "THE DECODER",
+    "published": "2026-09-08T07:45:41.000Z",
+    "fetched": "2026-09-09T00:01:42.274Z",
+    "summary": "Mistral AIがヨーロッパのテック企業として過去最大の資金調達を実施し、企業価値が21億ユーロ規模に到達\n\n- フランスのAIスタートアップ「Mistral AI」がシリーズDラウンドで3十億ユーロを調達し、ヨーロッパのテック企業による資金調達として過去最高を記録した。\n- これにより同社の企業価値は約210億ユーロ（約120億ユーロからほぼ倍増）に達した。今回のラウンドはサムスン電子が主導し、EQT傘下のScaleup Europe FundやPSG Equityなどが共同リードしたほか、BlackRockやルクセンブルク大公国なども新たに参加している。\n- MistralのAIモデル（Mistral Medium 3.5など）の性能は、中国のオープンモデルや米国のクローズドモデルの後塵を拝している。\n- それにもかかわらず大型資金調達に成功した背景には、エアバス、HSBCなどの欧州企業を顧客に持ち、米国製AIへの依存を減らしたい欧州市場の需要を取り込んでいるエンタープライズ戦略がある。",
+    "url": "https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals/"
+  },
+  {
+    "id": "3d63de0e-c1c5-81cb-a3f2-ff39e447b106",
+    "title": "On the Navier–Stokes Millennium Prize Problem",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-09-08T23:55:12.000Z",
+    "fetched": "2026-09-09T00:01:50.371Z",
+    "summary": "OpenAIの未公開モデルによるナビ・ストークス方程式の解決と盗用疑惑\n\n- OpenAIの未公開AIモデルが、数学の難問である「ナビ・ストークス方程式の存在と滑らかさ」の解決に成功した。\n- NYUの数学者トリスタン・バックマスターらは約1年間の研究成果をAnthropicのClaudeやCodexに入力していたが、その直後にOpenAIが類似のアプローチで短期間に解決を発表したため、情報の不正利用や盗用の疑いが持たれている。\n- トリスタンらはOpenAI側に対し、プロンプトの送信時期やCodex上のユーザーデータが学習に利用されたかについて説明を求めたが、明確な回答は得られなかった。\n- OpenAI側は、競合関係にあるAnthropicに所属する共同研究者のレヴェント・アルポゲを除外して論文を執筆するよう提案するなど、複雑な人間関係や競争が生じている。\n- OpenAIの検証によると、AIエージェントは約88時間で問題の解決に至り、その後別のモデルによる形式化と検証に17時間を要したとしている。",
+    "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/"
+  },
+  {
+    "id": "3d63de0e-c1c5-81ab-bd6c-dde686b86b17",
+    "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+    "site": "Hugging Face Blog",
+    "published": "2026-09-08T14:23:07.000Z",
+    "fetched": "2026-09-09T00:01:57.921Z",
+    "summary": "AIの安全性アライメントにおいて、トピック全体ではなく、特定の文脈やポリシーに応じて有害なサブセットのみを正確に拒否する「狭小境界セーフティ（Narrow-boundary safety）」の重要性について解説している。\n\n- 従来の安全性調整は「武器」や「政治」といったトピック単位で一律に拒否するため、安全な質問まで巻き込んで拒否してしまう課題がある。\n- 実際の導入現場では、同じトピック内でも教育目的の回答やファクト確認は許可しつつ、悪意ある操作やハルシネーションなどは拒否するといった柔軟な境界設定が求められる。\n- LlamaGuard-3などの既存のトピックレベルのガードモデルでは、こうしたデプロイごとの細かいポリシーの違いに対応できない。\n- 新しい研究論文では、トピック全体ではなく特定のポリシーに反する有害なサブセットのみを拒否し、それ以外に適切に応答するための「Boundary-Aware Self-Distillation」というアプローチが提案されている。",
+    "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom"
+  },
+  {
+    "id": "3d63de0e-c1c5-81ba-b2dd-f9de23b30692",
+    "title": "OpenAI alleged of stealing mathematicians work",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-08T14:12:10.000Z",
+    "fetched": "2026-09-09T00:02:06.804Z",
+    "summary": "OpenAIが数学者の著作物を無断で使用したとして告発される\n\n- OpenAI社がAIモデルの訓練において、数学者たちの著作物を許可なく使用した疑いで告発されている。\n- 告発者側は、AI開発におけるデータ収集の正当性や著作権の扱いについて厳格な姿勢を示している。\n- この問題は、急速に発展する生成AI業界全体における著作権侵害や知的財産の保護を巡る議論を再び加速させている。\n- 今後、AI企業による学習データの透明性確保や、クリエイターや研究者への適切な権利保護のあり方に大きな影響を与える可能性がある。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wapjaw/openai_alleged_of_stealing_mathematicians_work/"
+  },
+  {
+    "id": "3d63de0e-c1c5-81fb-b903-c51880e1fefc",
+    "title": "WSJ: Unregulated Open-Weight AI Is an Invitation to Disaster",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-08T00:19:38.000Z",
+    "fetched": "2026-09-09T00:02:14.242Z",
+    "summary": "WSJ：規制のないオープンウェイトAIは災害への招待状\n\n- オープンウェイトAIモデルは誰でも自由に改変・利用できるため、悪意ある行為者による悪用のリスクが極めて高い。\n- 規制当局や開発企業はオープン性のメリットを重視しているが、安全対策が不十分なまま流通すれば、深刻な被害をもたらす危険性がある。\n- AIの安全性を確保するためには、技術のオープン化に何らかの法的規制や厳格な管理体制を導入することが不可欠である。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa9309/wsj_unregulated_openweight_ai_is_an_invitation_to/"
+  },
+  {
+    "id": "3d63de0e-c1c5-8165-81f1-d54b204da466",
+    "title": "DeepSeek Flash 4.1 is already being tested via API and rolling out.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-08T12:31:05.000Z",
+    "fetched": "2026-09-09T00:02:22.401Z",
+    "summary": "DeepSeek Flash 4.1のAPIテストと順次提供開始について\n\n- DeepSeekの新型モデルと見られる「DeepSeek Flash 4.1」が、すでにAPIを通じてテスト段階に入っている。\n- 現在、一部のユーザーや環境に向けて順次ロールアウト（展開）が進められている状況である。\n- 詳細なスペックや公式の全体リリース日は不明だが、今後のAI市場における処理速度やコストパフォーマンスへの影響が注目されている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wan3nl/deepseek_flash_41_is_already_being_tested_via_api/"
+  },
+  {
+    "id": "3d63de0e-c1c5-81ef-a5c6-e2598c3b7ba6",
+    "title": "Qwen/Qwen-Drive-1.0-4B · Hugging Face",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-08T17:27:16.000Z",
+    "fetched": "2026-09-09T00:02:29.576Z",
+    "summary": "Qwen/Qwen-Drive-1.0-4B · Hugging Face\n\n- Qwen/Qwen-Drive-1.0-4Bは、Hugging Face上で公開されているAIモデルおよび関連リソースのページである。\n- 「Qwen」シリーズに関連するモデルであり、自然言語処理や関連するAIタスクへの活用が期待される。\n- Hugging Faceのプラットフォーム上では、モデルの概要、利用方法、ライセンス情報などが提供されている。\n- 開発者や研究者が自身のプロジェクトへ組み込むためのウェイトやコード、ドキュメントにアクセス可能である。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wauxg9/qwenqwendrive104b_hugging_face/"
+  },
+  {
+    "id": "3d63de0e-c1c5-8182-9e58-f14b290fbea0",
+    "title": "GPU guide (GB per dollar, bandwidth)",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-08T14:37:52.000Z",
+    "fetched": "2026-09-09T00:02:36.852Z",
+    "summary": "GPUのコストパフォーマンスとメモリ帯域幅のガイド\n\n- グラフィックボード（GPU）の選択において、価格あたりの容量（GB per dollar）はコストパフォーマンスを評価する重要な指標である。\n- メモリ帯域幅（Bandwidth）はデータ転送速度を左右し、特に大規模なAIモデルの学習や推論処理の速度に直結する。\n- 用途に応じて、安価で大容量なモデルを選ぶべきか、あるいは高速な帯域幅を持つハイエンドモデルを選ぶべきかが変わる。\n- 限られた予算内で最大のパフォーマンスを引き出すためには、価格、VRAM容量、帯域幅のバランスを比較検討することが不可欠である。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1waq7hu/gpu_guide_gb_per_dollar_bandwidth/"
+  },
+  {
+    "id": "3d63de0e-c1c5-817d-a8bf-c86acbb49492",
+    "title": "v0.34.0-rc2",
+    "site": "Ollama Blog",
+    "published": "2026-09-08T23:27:20.000Z",
+    "fetched": "2026-09-09T00:02:44.081Z",
+    "summary": "Ollama v0.34.0-rc2 リリース情報\n\n- GitHub上の「ollama/ollama」リポジトリにおける、バージョン「v0.34.0-rc2」のリリースぺージに関する内容である。\n- Ollamaプロジェクトはオープンソースとして開発されており、多くのスター（180k）やフォーク（17.8k）を獲得している。\n- リポジトリページでは、コード、Issues（2.5k）、Pull requests（1.5k）、Actionsなどの開発者向け機能にアクセスできる。\n- 閲覧時にはGitHubアカウントでのサインイン状態やセッションに関するアラートが表示される場合がある。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc2"
+  },
+  {
+    "id": "3d63de0e-c1c5-8183-8787-d59640584726",
+    "title": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-09-08T12:00:00.000Z",
+    "fetched": "2026-09-09T00:02:51.557Z",
+    "summary": "NVIDIAによるCUDA Rustの発表とGPUカーネル開発における2つのアプローチ\n\n- NVIDIAは2026年9月、コンパイル時のメモリ安全性と高いパフォーマンスを両立するため、RustによるネイティブなGPUプログラミングへの本格的な参入を発表した。\n- GPUカーネル記述のアプローチとして、カスタムコンパイラバックエンドによりPTXへ直接コンパイルする「cuda-oxide」と、安定版Rustでタイルベースのプログラミングを可能にする「cutile-rs」の2つのトラックを提供する。\n- 「cuda-oxide」はDisjointSliceと起動コントラクトを使用し、「cutile-rs」はテンソル分割と所有権を活用することで、どちらのプロジェクトもコンパイル時にメモリ安全性を強制する。\n- 「cutile-rs」はすでにcrates.ioで公開されており、HuggingFaceのGrout推論エンジンやmistral.rsで活用されている一方、「cuda-oxide」は初期のアルファ段階にある。\n- NVIDIAは、フロントエンドの選択によって他のエコシステムが制限されないよう、CUDA Rust、CUDA C++、CUDA Python間での言語間相互運用性をサポートする計画である。",
+    "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/"
+  }
+]
