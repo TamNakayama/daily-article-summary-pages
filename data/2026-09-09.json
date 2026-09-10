@@ -1,0 +1,182 @@
+[
+  {
+    "id": "3d73de0e-c1c5-81ed-8f22-f53ac151a6a7",
+    "title": "Anthropic built an economic model that frames its CEO's bleakest job forecasts as an outlier scenario",
+    "site": "THE DECODER",
+    "published": "2026-09-09T19:39:27.000Z",
+    "fetched": "2026-09-10T00:01:10.568Z",
+    "summary": "Anthropic社が発表した、2030年までの米国経済に関する予測モデルでは、CEOの悲観的な雇用の見通しが、最も可能性の低い「例外的なシナリオ」として位置づけられている。\n\n- Anthropic社は、2030年までの米国の労働市場と経済に関する「控えめ」「中間」「極端」の3つのシナリオからなる経済モデルを発表した。\n- 「控えめなシナリオ」ではAIの影響はインターネット並みにとどまる一方、「極端なシナリオ」では知的労働者の失業率が17.9%に達すると予測されている。\n- 同社のダリオ・アモデイCEOが2025年5月に警告した「エントリーレベルの事務職の半数が消滅し、失業率が10〜20%に達する」という予測は、この「極端なシナリオ」と一致している。\n- つまり、Anthropic社自身の経済モデルが、CEOによる最悪期の雇用予測を「最も起こりそうにない（あるいは alarmist な）例外的な結果」として再定義している。",
+    "url": "https://the-decoder.com/anthropic-built-an-economic-model-that-frames-its-ceos-bleakest-job-forecasts-as-an-outlier-scenario/"
+  },
+  {
+    "id": "3d73de0e-c1c5-8180-8c31-ffe34b30f2dd",
+    "title": "Suno launches v6 music models built with Warner, BMG, and Believe",
+    "site": "THE DECODER",
+    "published": "2026-09-09T14:06:57.000Z",
+    "fetched": "2026-09-10T00:01:18.685Z",
+    "summary": "Suno、ワーナーやBMGらと共同開発した音楽生成AIモデル「v6」をリリース\n\n- Sunoは、ワーナー・ミュージック・グループ、BMG、Believeとの提携により開発された新世代の音楽生成AIモデル「v6」をリリースし、従来のモデルをすべて終了した。\n- 新モデルは、有料会員向けのフラッグシップ版「v6」、実験的な「v6-wild」、全ユーザー向けの無料版「v6-mini」の3つのバリエーションで展開される。\n- テキストだけでなく、音声、画像、動画からの楽曲生成に対応し、テキストコマンドによる部分編集や、異なる素材の組み合わせが可能になった。\n- 学習データの詳細な仕様は非公開であり、ワーナーとは和解によってパートナーシップを結んだものの、ユニバーサルやソニーは引き続きSunoに対して訴訟を継続している。",
+    "url": "https://the-decoder.com/suno-launches-v6-music-models-built-with-warner-bmg-and-believe/"
+  },
+  {
+    "id": "3d73de0e-c1c5-81a0-84d2-c28969bc3f49",
+    "title": "Deepmind's AlphaGenome Atlas maps every possible DNA change in the human genome",
+    "site": "THE DECODER",
+    "published": "2026-09-09T13:40:40.000Z",
+    "fetched": "2026-09-10T00:01:26.920Z",
+    "summary": "Google DeepMindの「AlphaGenome Atlas」は、ヒトゲノムにおける約90億通りもの可能な1塩基の変異が身体に与える影響を予測し、マッピングした大規模なデータベースである。\n\n- 約30億文字からなるヒトゲノムの約9億通りに及ぶ1塩基の変異について、数百種類の細胞や組織における分子プロセスへの影響を事前に予測し、網羅している。\n- 2025年に発表されたAIモデル「AlphaGenome」を基盤としており、これまで1件ずつ問い合わせる必要があった変異の予測結果を、1変数あたり平均約27,000個の予測値としてあらかじめ計算している。\n- データベースの容量は1ペタバイトに達し、タンパク質構造を扱った「AlphaFold」のデータベースと比較して30倍以上の規模を誇る。\n- タンパク質の設計図を持たず、疾患に関連する変異が多く存在する非コード領域（約98%）における遺伝子の働きや調節の仕組みを解明する上で、重要な役割を果たすと期待されている。",
+    "url": "https://the-decoder.com/deepminds-alphagenome-atlas-maps-every-possible-dna-change-in-the-human-genome/"
+  },
+  {
+    "id": "3d73de0e-c1c5-8130-8c25-d2fc91f074a1",
+    "title": "Anthropic scientist puts the odds of AI destroying humanity above ten percent this decade",
+    "site": "THE DECODER",
+    "published": "2026-09-09T12:48:41.000Z",
+    "fetched": "2026-09-10T00:01:35.154Z",
+    "summary": "Anthropicの元研究者が警鐘：AIが今十年以内に人類を滅ぼす確率は10%を超える\n\n- AnthropicやOpenAIで大規模AIモデルの事前学習研究に携わっていたジェイコブ・コックスン氏が、人類の存亡を賭けたギャンブルが行われているとしてAnthropicを退社した。\n- Anthropicの社員であるエヴァン・ヒュービンガー氏も、制御不能に陥った超知能AIが次の10年以内に人類を滅ぼす確率は10%を超えると述べている。\n- コックスン氏によると、現在のAIシステムはあらゆるものをハッキングし、急速にあらゆる分野を革新して実権や資源を獲得する「超人間的システム」の寸前に来ているという。\n- 開発に携わる人々はAIが人類を死に至らしめる可能性を真剣に懸念しているが、OpenAIやAnthropicの経営陣は責任ある行動をとっておらず、公の場では意図的に言葉を和らげていると指摘されている。\n- Anthropic社内では文明的なリスクが十分に理解されているものの、「他社が責任ある行動をとらない以上、勝たなければならないレースに閉じ込められている」という傲慢な賭けとして正当化されていると批判されている。",
+    "url": "https://the-decoder.com/anthropic-scientist-puts-the-odds-of-ai-destroying-humanity-above-ten-percent-this-decade/"
+  },
+  {
+    "id": "3d73de0e-c1c5-8174-aba2-e7a5fb5ac67d",
+    "title": "AWS is using Qualcomm for AI inference while Qualcomm uses AWS Bedrock to design the chips",
+    "site": "THE DECODER",
+    "published": "2026-09-09T12:27:42.000Z",
+    "fetched": "2026-09-10T00:01:43.612Z",
+    "summary": "AWSとQualcommは、AIインフラ分野で緊密な協業関係を築いており、AWSはAI推論の効率化に向けてQualcommのカスタムチップを採用し、Qualcommはチップ設計の迅速化にAWS Bedrockを活用しています。\n\n- AWSは、AI推論ワークロードのエネルギー効率向上を目的に、TrainiumやGravitonなどの自社製チップに加え、Qualcommのカスタムチップを採用した。\n- 両社はAIインフラのデータ増加に対応するため、最大1.6テラビットの帯域幅を持つ光インターコネクトの共同開発も進めている。\n- Qualcomm側は、チップ設計プロセスの高速化のためにAmazon BedrockなどのAWSサービスを利用している。\n- QualcommにとってAmazonは6月以降で3番目の大型データセンター向け顧客となり、2029年までにデータセンター事業の売上高150億ドル達成を目指している。\n- Qualcommはデータセンター向けだけでなく、スマートフォンなどのエッジデバイス向けAIフレームワークの開発など、省電力技術の応用を多方面で進めている。",
+    "url": "https://the-decoder.com/aws-is-using-qualcomm-for-ai-inference-while-qualcomm-uses-aws-bedrock-to-design-the-chips/"
+  },
+  {
+    "id": "3d73de0e-c1c5-8183-806b-eb0129b6db95",
+    "title": "ChatGPT Images 2.5: Faster, more precise, but not the same for everyone",
+    "site": "THE DECODER",
+    "published": "2026-09-09T12:17:58.000Z",
+    "fetched": "2026-09-10T00:01:51.512Z",
+    "summary": "ChatGPT Images 2.5：より高速で高精度、しかしユーザーごとに異なる体験\n\n- OpenAIが新画像生成モデル「ChatGPT Images 2.5」を発表し、詳細な描写力、編集精度の向上、生成速度の大幅な高速化を実現している。\n- 用途に合わせて「GPT-Image-2.5 Flare（デフォルト・高速）」と「GPT-Image-2.5 Sunburst（高品質・緻密な編集向け）」の2つのモデルがAPIで提供される。\n- 従来比で最大50%のレイテンシー削減を達成しつつ、新機能として描画ツールや共有可能なプロンプトが追加され、クリエイティブな作業をサポートする。\n- 新たに「xhigh」および「max」の高品質ティアが導入され、最高位の「max」では1024x1024画像の生成に約0.21ドルのコストがかかる。\n- ChatGPT ImagesおよびAPIでの画像生成数は週に30億枚を超えており、自然なライティングやきめ細やかな質感、参照写真の再現性が強化されている。",
+    "url": "https://the-decoder.com/chatgpt-images-2-5-faster-more-precise-but-not-the-same-for-everyone/"
+  },
+  {
+    "id": "3d73de0e-c1c5-8109-a2f4-cfc84ac7da6e",
+    "title": "Hugging Face's new ML Intern lets anyone run machine learning experiments through a simple chat",
+    "site": "THE DECODER",
+    "published": "2026-09-09T10:38:41.000Z",
+    "fetched": "2026-09-10T00:01:59.226Z",
+    "summary": "Hugging Faceの新機能「ML Intern」：チャットを通じて誰でも機械学習実験が可能に\n\n- Hugging Faceは、専門知識がなくても対話形式で機械学習実験を実行できるAIアシスタント「ML Intern」を発表した。\n- ユーザーがアイデアを説明すると、アシスタントがHugging Face HubやGitHubなどから適切なモデル、データセット、ツールを検索する。\n- 実行前に計算コストを見積もって予算を提案し、承認後はその予算内でデータ作成やモデルのトレーニング、結果のアップロードなどを自動で処理する。\n- トレーニングにはそれぞれ進捗追跡用のダッシュボードが用意され、デモでは約6時間の実行コストが0.5ドル未満に抑えられた。\n- 本ツールによりプラットフォーム上でのMLプロジェクトのハードルが下がる一方、Hugging Face自体はNvidiaによる買収を進めている。",
+    "url": "https://the-decoder.com/hugging-faces-new-ml-intern-lets-anyone-run-machine-learning-experiments-through-a-simple-chat/"
+  },
+  {
+    "id": "3d73de0e-c1c5-8138-b804-dce429d603a2",
+    "title": "OpenAI's millennium proof dispute raises the question of whether researchers can trust AI labs",
+    "site": "THE DECODER",
+    "published": "2026-09-09T10:27:37.000Z",
+    "fetched": "2026-09-10T00:02:07.148Z",
+    "summary": "OpenAIのミレニアム問題の証明をめぐるトラブルと研究者とAI企業の信頼関係\n\n- 数学者のトリスタン・バックマスター氏が、OpenAIから下書きの不正利用や圧力、共同研究者のレヴェント・アルポゲ氏（競合Anthropic社員）を著者から外すよう強要されたと告発した。\n- OpenAIのサム・アルトマンCEOらは盗用を否定したものの、競合の動向に関する噂をきっかけに、自社モデルを集中的にトレーニングしたことは認めている。\n- OpenAIがAnthropicの動向の噂をキャッチした後に自社リソースを投入したことで、オープンサイエンスのあり方に深刻な疑問が投げかけられている。\n- 数学者のテレンス・タオ氏は、テック企業が噂だけで巨大なリソースを動かし、オリジナルの研究プロジェクトを出し抜くリスクについて警告している。\n- この事件は、最先端の科学研究において、研究者がAIラボやその技術をどこまで信頼できるのかという大きな問いを浮き彫りにしている。",
+    "url": "https://the-decoder.com/openais-millennium-proof-dispute-raises-the-question-of-whether-researchers-can-trust-ai-labs/"
+  },
+  {
+    "id": "3d73de0e-c1c5-81cf-bb42-d490ab80f2a9",
+    "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+    "site": "Hugging Face Blog",
+    "published": "2026-09-09T15:36:24.000Z",
+    "fetched": "2026-09-10T00:02:15.289Z",
+    "summary": "IBMが商用利用しやすいオープンライセンスで最先端の時系列予測モデル「Granite Time Series PatchTST-FM-r2」をリリース\n\n- パラメータ数約3億8500万のモデルで、オープンかつ商用利用可能なライセンス（Apache 2.0およびOpenMDW 1.0）を採用している。\n- 代表的な時系列予測の総合ベンチマーク「GIFT-Eval」の再現可能なゼロショットモデルにおいて、商用ライセンスを持つモデルとしては最高性能を記録し、全体でも第2位にランクインしている。\n- 前身モデルからアーキテクチャが刷新され、より大規模な事前学習コーパスの活用に加え、確率的予測や欠損値の補完（イプツテーション）機能がサポートされている。\n- 需要予測、価格予測、エネルギー負荷、交通量、通信など、多様な分野における汎用的なゼロショット予測を少ないPythonコードで容易に実行できる。\n- モデルの重み、アーキテクチャ、推論パイプライン、ベンチマークの再現コードがすべて公開されており、Confluent製品を活用した本番環境でのストリーミングアプリケーションにも対応している。",
+    "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series"
+  },
+  {
+    "id": "3d73de0e-c1c5-815c-b286-e2ef4f2446cb",
+    "title": "Deepseek Has Soft Retired Deepseek V4 Pro",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-09T08:34:28.000Z",
+    "fetched": "2026-09-10T00:02:22.915Z",
+    "summary": "DeepSeekが「DeepSeek V4 Pro」の提供を事実上終了\n\n- DeepSeek社が開発・提供していたAIモデル「DeepSeek V4 Pro」のサービスが、実質的に終了（ソフトリタイア）したことが明らかになりました。\n- この決定により、今後は後継モデルや新しいバージョンへの移行が進められると見られています。\n- ユーザーや開発者の間では、突然の仕様変更や利用停止に対する影響が懸念されています。\n- 詳細な理由は明らかにされていないものの、AI業界における開発リソースの再配分や次世代モデルへの注力が背景にあると考えられます。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbfrut/deepseek_has_soft_retired_deepseek_v4_pro/"
+  },
+  {
+    "id": "3d73de0e-c1c5-8121-ab31-c6a482ae6549",
+    "title": "Why the hell is LM Studio making LM Studio so difficult to download?",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-09T13:19:39.000Z",
+    "fetched": "2026-09-10T00:02:30.833Z",
+    "summary": "LM Studioのダウンロード手順の複雑化に対する不満と、その改善の必要性\n\n- LM Studioの公式ウェブサイトからのダウンロードプロセスが、以前に比べて非常に複雑で分かりにくくなっているという不満が述べられている。\n- 単純なソフトウェアの入手であるにもかかわらず、ユーザーが不要な手順や混乱を強いられている現状が指摘されている。\n- 直感的であったはずのUX（ユーザー体験）が損なわれており、開発者や一般ユーザーにとっての大きな障壁になっている。\n- ツール自体の評価が高いだけに、アクセスの難しさがユーザー離れを招く懸念があるとして、迅速な改善が求められている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wble79/why_the_hell_is_lm_studio_making_lm_studio_so/"
+  },
+  {
+    "id": "3d73de0e-c1c5-814e-9633-d1b192dbebfd",
+    "title": "Qwen3.8-Flash-Next on MLX-serve, 1m context is released!",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-09T01:34:52.000Z",
+    "fetched": "2026-09-10T00:02:38.417Z",
+    "summary": "Qwen3.8-Flash-NextのMLX-serve対応と100万コンテキスト実装に関する発表\n\n- 高性能なAIモデル「Qwen3.8-Flash-Next」が、Appleシリコン向けフレームワーク「MLX-serve」に対応した。\n- 最大100万トークンという超長文コンテキスト（1m context）の処理が可能になり、膨大な情報を一度に読み込めるようになった。\n- Macなどのローカル環境やAppleシリコンのハードウェア性能を最大限に活かした効率的な推論が期待できる。\n- 開発者や研究者は、長大なドキュメントやコードベースの解析、高度なコンテキスト理解を必要とするタスクをよりスムーズに実行できるようになる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wb7p70/qwen38flashnext_on_mlxserve_1m_context_is_released/"
+  },
+  {
+    "id": "3d73de0e-c1c5-8104-9b45-cba7d0e90a79",
+    "title": "Mention if a \"new model\" is a finetune",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-09T15:51:51.000Z",
+    "fetched": "2026-09-10T00:02:47.307Z",
+    "summary": "AIモデルに関する議論や発表において、それが完全にゼロから構築された新規モデルなのか、既存モデルをベースにしたファインチューン（微調整）版なのかを明確に区別し、明記することが重要であるという内容について述べられています。AIの開発背景や性能を正確に評価するためには、モデルの出自に関する透明性が不可欠となります。\n\n- 新規モデルとファインチューンモデルの混同を防ぎ、明確に区別して表記する必要がある\n- ベースとなるモデルが存在する場合は、その旨を明記することでモデルの性能や独自性を正しく評価できる\n- AI開発における透明性の向上が、利用者や開発者間の信頼関係の構築につながる\n- モデルの出自を正確に伝えることは、過大な期待や誤解を防ぐために極めて重要である",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbpf6i/mention_if_a_new_model_is_a_finetune/"
+  },
+  {
+    "id": "3d73de0e-c1c5-8135-817c-fb4e1ee74e89",
+    "title": "Now this is a serious local machine",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-09T11:20:09.000Z",
+    "fetched": "2026-09-10T00:02:56.531Z",
+    "summary": "これは本格的なローカルマシン\n\n- 提供された記事は「Now this is a serious local machine」というタイトルであり、非常に高性能なローカル環境向けのコンピュータについて述べられている。\n- 具体的なスペックや詳細な本文の記載はないものの、一般的なPCを大きく凌駕する処理能力やスペックを備えた、本格的な作業用マシンであることが示唆されている。\n- AIのローカル実行、大規模なデータ処理、あるいは高度なクリエイティブ作業など、負荷の高いタスクをクラウドに依存せず手元で処理するために設計されたシステムであると考えられる。\n- ローカル環境で環境構築を行うエンジニアやクリエイターにとって、非常に魅力的なハイエンドマシンへの期待感や評価を表した内容となっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbir6v/now_this_is_a_serious_local_machine/"
+  },
+  {
+    "id": "3d73de0e-c1c5-81c7-9aa8-c0ecc5b41153",
+    "title": "v0.34.0",
+    "site": "Ollama Blog",
+    "published": "2026-09-09T23:51:59.000Z",
+    "fetched": "2026-09-10T00:03:04.475Z",
+    "summary": "Ollama v0.34.0 リリース情報\n\n- GitHub上のollama/ollamaリポジトリにおけるバージョン0.34.0のリリースページである。\n- ページ内には、GitHubのプラットフォーム機能、開発者ワークフロー、セキュリティ機能、各種ドキュメントやリソースへのナビゲーションメニューが多く含まれている。\n- リポジトリの基本的な統計情報として、スター数（約18.1万）やフォーク数（約1.78万）、およびIssueやPull requestの数が確認できる。\n- 閲覧時にはセッションの競合に関するアラートや、読み込みエラーが発生した場合の再読み込みを促すメッセージが表示される仕様となっている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0"
+  },
+  {
+    "id": "3d73de0e-c1c5-8126-b1cd-ef2dc1e83ad9",
+    "title": "v0.34.0-rc5",
+    "site": "Ollama Blog",
+    "published": "2026-09-09T21:51:50.000Z",
+    "fetched": "2026-09-10T00:03:12.344Z",
+    "summary": "Ollama v0.34.0-rc5 リリース情報\n\n- AIモデルを実行・管理するためのソフトウェア「Ollama」のバージョン「v0.34.0-rc5」のリリースに関するGitHubのページである。\n- ページ内では、GitHubのプラットフォーム機能、コード作成支援ツール（GitHub Copilot）、デベロッパーワークフロー、セキュリティ機能などの共通メニューやナビゲーションが表示されている。\n- ollama/ollamaリポジトリのページであり、コード、問題（Issues）、プルリクエスト、アクション、セキュリティ、インサイトなどのタブが確認できる。\n- スター（Star）数が181k、フォーク（Fork）数が17.8kに達しており、多くの開発者から注目を集めている人気オープンソースプロジェクトであることが示されている。\n- セッションの変更やエラー発生時のアラート表示など、GitHubの標準的なUI要素やヘルプメッセージが含まれている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc5"
+  },
+  {
+    "id": "3d73de0e-c1c5-81b8-bfc9-c443424dab41",
+    "title": "v0.34.0-rc4",
+    "site": "Ollama Blog",
+    "published": "2026-09-09T17:20:48.000Z",
+    "fetched": "2026-09-10T00:03:19.911Z",
+    "summary": "Ollama v0.34.0-rc4 リリース情報\n\n- AIモデルを実行・管理するためのソフトウェア「Ollama」の新しいリリース候補版（v0.34.0-rc4）のGitHubページである。\n- GitHub上の「ollama/ollama」リポジトリにおいて公開されている、開発・テスト段階のバージョンを示すものである。\n- 本ページでは、ソースコードの管理だけでなく、オープンソースとしてのプロジェクトのスター数（約18.1万）やフォーク数（約1.7万）といった高い人気とコミュニティ規模が確認できる。\n- リポジトリ内では、コード管理のほか、バグ追跡のための「Issues」や機能追加・修正のための「Pull requests」などが活発に行われている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc4"
+  },
+  {
+    "id": "3d73de0e-c1c5-81e2-92a4-db98074a0b29",
+    "title": "v0.34.0-rc3",
+    "site": "Ollama Blog",
+    "published": "2026-09-09T00:09:48.000Z",
+    "fetched": "2026-09-10T00:03:27.934Z",
+    "summary": "ollama/ollama v0.34.0-rc3 リリース情報\n\n- AI関連ツールや開発者ワークフローを提供するプラットフォーム「GitHub」上の、ollama/ollamaリポジトリにおけるバージョン「v0.34.0-rc3」のリリースページである。\n- 当該リポジトリは、多くの開発者による「Star（181k）」や「Fork（17.8k）」を集めているオープンソースプロジェクトである。\n- ページ内には、GitHubのCopilotやアクション、コードレビュー、セキュリティ機能などの一般的なナビゲーションメニューやプラットフォーム機能が含まれている。\n- 記事の本文データには、GitHubのUI要素や、セッションの変更に伴うアラート、ページの読み込みエラーメッセージなどが多数含まれており、実際のリリースノートの詳細は読み取れない状態となっている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc3"
+  },
+  {
+    "id": "3d73de0e-c1c5-8110-9a92-fb459a560022",
+    "title": "When to Use Encode-Prefill-Decode Disaggregation to Accelerate Multimodal Model Serving",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-09-09T20:31:04.000Z",
+    "fetched": "2026-09-10T00:03:35.819Z",
+    "summary": "マルチモーダルモデルのサービングを高速化するエンコード・プリフィル・デコード（EPD）分離技術の活用法\n\n- NVIDIA Dynamoは、マルチモーダル推論において視覚エンコーダー処理をLLMのプリフィル・デコード段階から分離するEPD分離を実装している。\n- 画像を多く含むプロンプトや短中長の出力、量子化されたMixture-of-Experts（MoE）モデルにおいて、初回来訪トークン時間（TTFT）を最大5倍、エンドツーエンドの応答時間を最大7倍高速化する。\n- サーバー構成には、集約サービング、GPUを共有するコロケート型、低コストな別GPU層に分離する構成の3種類があり、NIXLで接続される。\n- 混合トラフィックにおいてヘッド・オブ・ライン・ブロックを解消し、テキスト要求の平均TTFTを42.2%、画像要求を30.8%削減する。\n- LLMの重みをNVFP4に量子化しつつ視覚エンコーダーをBF16に維持することで、スループット（Goodput）が集約サービングの最大2.64倍に向上する。",
+    "url": "https://developer.nvidia.com/blog/when-to-use-encode-prefill-decode-disaggregation-to-accelerate-multimodal-model-serving/"
+  },
+  {
+    "id": "3d73de0e-c1c5-8158-9ed1-dd9db41927e6",
+    "title": "CUDA Toolkit 13.4 Adds Windows on Arm Support and Greater Control over Shared GPUs",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-09-09T20:24:12.000Z",
+    "fetched": "2026-09-10T00:03:43.437Z",
+    "summary": "CUDA Toolkit 13.4のリリースと主な新機能\n\n- Windows on Armのサポートを追加し、Linuxに加えてWindows環境のArmプラットフォームでもCUDAアプリケーションの開発が可能になりました。\n- NVIDIA Rubinアーキテクチャ（compute capability 107）へのプレビュー機能サポートを提供し、本格的な一般提供の前にアプリケーションの移行準備ができるようになりました。\n- Multi-Process Service V3（MPS V3）を導入し、スクリプト可能なCLIやTOML設定、cgroup統合によるGPUメモリ制限など、コンテナ環境での正確なGPUパーティショニングを実現しました。\n- CUDA Pythonに「cuda.core 1.1.0」と「cuda.compute 1.1」を追加し、テクスチャ・サーフェスプログラミングや、複数GPUアーキテクチャ向けCCCLアルゴリズムの事前コンパイル機能などを拡充しました。\n- CCCL 3.4により、Blackwell GPUでのwarp-specialized cub::DeviceScanの高速化や、単一呼び出しAPI、バッチ処理型warpリダクションなどのパフォーマンス向上を実現しました。",
+    "url": "https://developer.nvidia.com/blog/cuda-toolkit-13-4-adds-windows-on-arm-support-and-greater-control-over-shared-gpus/"
+  }
+]
