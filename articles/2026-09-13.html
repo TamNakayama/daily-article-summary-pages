@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>記事まとめ 2026/09/13</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-09-13" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+</header>
+<h1>2026/09/13</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/elevenlabs-makes-music-v2-5-available-via-app-and-api-with-free-and-pro-tier-options/" target="_blank" rel="noopener">Elevenlabs makes Music v2.5 available via app and API with free and pro tier options</a></h2>
+      <p>ElevenLabsが音楽生成AI「Music v2.5」をアプリとAPIで公開、無料およびプロプランを提供開始<br><br><ul><li>ElevenLabsが「Music v2.5」をリリースし、生成される楽曲の音質がより豊かで自然になったと発表した。</li><li>ユーザーは生成した楽曲の権利を保持でき、無料プランでは1日5曲、プロプランでは月400曲のロスレスダウンロードが可能である。</li><li>商用利用は業界や目的に応じて許可されており、無料プランではクレジット表記が必要となるが、既存アーティストの模倣や他者の楽曲に基づくダウンロードはブロックされる。</li><li>競合のSunoが著作権侵害で訴訟問題に直面しているのに対し、ElevenLabsは既存の音楽モデルの学習にライセンスを取得した素材を使用していると主張している。</li><li>「Music v2.5」はAPI経由でも利用可能であり、旧バージョンのv2も引き続きアクセスできる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/" target="_blank" rel="noopener">Iris-mini and Iris-pro are the strongest open-weight search agents in their class</a></h2>
+      <p>AllSparkチームが開発した「Iris-mini」と「Iris-pro」は、それぞれのサイズクラスで最強性能を誇るオープンウェイトの検索エージェントであり、Webのリンク構造を活用した独自のトレーニング手法により、一般のツール使用やオフィスワークなどの未学習タスクでも性能向上が確認されています。<br><br><ul><li>AllSparkチームが、350億パラメータの「Iris-mini」と3970億パラメータの「Iris-pro」という2つのオープンソース検索エージェントを発表した。</li><li>両モデルともQwenシリーズをベースにし、25万6000トークンのコンテキストウィンドウを備え、同クラスのオープンウェイト検索エージェントの中で最強の結果を実現している。</li><li>トレーニングパイプラインでは、Webページのリンク構造からタスクを逆算して構築し、単純なテキスト検索ではなく高度な推論を必要とする多段階の質問を生成している。</li><li>訓練データとモデルは、検索だけでなく、一般のツール使用やオフィスワークといった一度も訓練されていないタスクにおいても性能の向上が見られた。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own/" target="_blank" rel="noopener">GPT-6 Astra pilots a surveillance drone and runs a business on its own</a></h2>
+      <p>GPT-6 Astraが自律型AIベンチマークで優れた成果を発揮<br><br><ul><li>OpenAIの「GPT-6 Astra」が、Andon Labsの2つの異なるAIエージェントベンチマークにおいて、競合する「Claude Fable 5.1」を大きく上回る性能を実証した。</li><li>仮想の自動販売機ビジネスを1年間運営するシミュレーション（Vending-Bench）において、Astraは平均15,515ドルの利益を上げ、Fable 5.1の約3倍の業績を記録した。</li><li>自動販売機の運営テストでは、AstraがFable 5.1よりも強気な交渉を行い、効率的な仕入れによって資金を節約しながら資産を大きく増やすことに成功した。</li><li>ドローン制御のベンチマーク（Drone-Bench）では、Astraは全5つのサブタスクすべてで人間とAIの開発基準（ベースライン）を初めて上回った。</li><li>Drone-Benchにおける成果には、ドローンが特定の人物を自律的に発見して追跡するためのコードを記述するタスクなどが含まれており、物理システムの制御における高い能力を示している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/two-year-university-study-finds-banning-ai-from-classrooms-leaves-students-worse-off/" target="_blank" rel="noopener">Two-year university study finds banning AI from classrooms leaves students worse off</a></h2>
+      <p>大学の授業におけるAI禁止が、かえって学生のパフォーマンスを低下させることが2年間にわたる調査で判明した<br><br><ul><li>アムステルダム自由大学の教授が、「AI禁止」「無指導でのAI利用」「プロンプトエンジニアリング等の構造化された訓練」の3グループに学生を分けて検証を実施した。</li><li>AIの使用を禁止されたグループは、10〜15分ほどでアイデアが枯渇し、表現の微調整にとどまるなど、結果が最も振るわなかった。</li><li>無指導でAIを利用したグループは、AIの提案を深く吟味せず、響きが良いという理由でそのまま受け入れる傾向が見られた。</li><li>AIの活用法や正確性の検証について実践的な訓練を受けたグループが最も優れた成果を残し、AI制限の全面的な禁止よりも適切な指導の重要性が示された。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/altman-musk-and-hassabis-back-amodeis-call-to-add-independent-oversight/" target="_blank" rel="noopener">Altman, Musk, and Hassabis back Amodei's call to add independent oversight</a></h2>
+      <p>Altman、Musk、HassabisがAI開発における独立した監視の導入を支持<br><br><ul><li>OpenAIのサム・アルトマンCEO、イーロン・マスク、元DeepMind CEOのデミス・ハサビスが、Anthropicのダリオ・アモディCEOによるAI開発のペースダウンと、AIラボ内への独立した監視機関の導入を求める提案に賛同した。</li><li>アルトマンは、安全性への懸念や財務状況を理由に、OpenAIが今年中に株式公開（IPO）を行わない方針を示している。</li><li>一方で、Googleの研究者ペイマン・ミランファルはこの動きに反発し、AIの再帰的自己改善（RSI）の仮定は不安定であり、現実世界の検証こそが重要であるため、アモディが主張するような開発の「速度制限」は不要であると主張している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1weujw6/the_hugging_bay/" target="_blank" rel="noopener">The Hugging Bay</a></h2>
+      <p>The Hugging Bay<br><br><ul><li>提供された「The Hugging Bay」という記事は、テキストデータやタイトルのみで具体的な本文の内容が記載されていないため、具体的な情報や背景を読み取ることができません。</li><li>本来の要約においては、記事の主題である「The Hugging Bay」が何を指しているのか（例えば、AIモデル共有プラットフォームのHugging Faceに関連する話題や、特定のプロジェクトなど）の結論を述べる必要があります。</li><li>記事の本文が存在しない現状では、主要なポイントを抽出して箇条書きでまとめることが不可能です。</li><li>正確な要約を作成するためには、対象となる記事の本文や詳細な情報を提供していただく必要があります。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wf3i1m/the_local_llm_community_feels_like_the_golden_era/" target="_blank" rel="noopener">The Local LLM community feels like the golden era of the internet all over again</a></h2>
+      <p>ローカルLLMコミュニティは、インターネット黎明期の黄金時代を彷彿とさせる、情熱的で活気のある空間となっている。<br><br><ul><li>ローカルLLMコミュニティには、かつてのインターネット初期のような、新しい技術への純粋な興奮と探求心が満ちている。</li><li>商用サービスに依存せず、個人のハードウェアでAIを動かそうとする開発者や愛好家が、知恵を出し合いオープンに協力し合っている。</li><li>企業主導のAI開発とは異なり、自由で非中央集権的な文化が根付いており、誰でも気軽に参加して貢献できる環境がある。</li><li>日々驚くようなモデルやツールが素早く生み出され、まるでインターネット黎明期のウェブサイト乱立時代のような熱狂を生み出している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wfhiqx/plot_twist/" target="_blank" rel="noopener">Plot twist</a></h2>
+      <p>Plot twist<br><br><ul><li>提供された記事には具体的な本文が含まれておらず、タイトルのみが存在する状態であるため、内容の具体的な要約を行うことができない。</li><li>記事の主題である「Plot twist（どんでん返し）」という言葉自体は、物語や現実の出来事において予測しなかった方向へ展開が変わることを意味している。</li><li>本文がないため、どのようなストーリーやテーマに関するどんでん返しなのかを判断する情報は一切提示されていない。</li><li>今後、本文が追加された場合には、その内容に基づいて主要な展開や結末の意外性についてのポイントを整理することが可能である。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wfe9zt/3k_128gb_vram_256gb_ram_ddr4_server/" target="_blank" rel="noopener">3k$ 128GB VRAM + 256GB RAM DDR4 Server</a></h2>
+      <p>3,000ドルで構築可能な128GB VRAMと256GBのDDR4 RAMを搭載した高性能サーバー<br><br><ul><li>本サーバーの最大の特徴は、AIや機械学習の処理に不可欠な128GBの大容量VRAM（ビデオメモリ）を低コストで実現している点である。</li><li>メモリには、256GBのDDR4 RAMを搭載しており、大規模なデータ処理や複数の仮想環境の同時稼働をスムーズに行うことができる。</li><li>全体のシステムコストが約3,000ドルと比較的安価に抑えられており、費用対効果に優れた構成となっている。</li><li>高負荷なワークロードに対応可能なスペックを持ちながら、市販のパーツを組み合わせることで予算を大幅に削減している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wez30k/should_i_sell_my_rtx_5090_for_a_mac_studio_m5/" target="_blank" rel="noopener">Should I sell my RTX 5090 for a Mac Studio M5 Ultra 96GB?</a></h2>
+      <p>RTX 5090からM5 Ultra 96GB搭載のMac Studioへの乗り換えに関する考察<br><br><ul><li>最高峰のゲーム性能を持つRTX 5090と、クリエイティブ作業やAI処理に特化したMac Studio M5 Ultraでは用途が大きく異なるため、自身の主な作業環境に合わせて選択すべきである。</li><li>RTX 5090は、圧倒的なグラフィック処理能力とレイトレーシング性能を誇り、高負荷なPCゲームやWindows環境での最新エンターテインメントに最適である。</li><li>一方、Mac Studio M5 Ultra（96GBメモリ）は、統合メモリによる効率的な大容量データ処理や動画編集、プロ向けのクリエイティブアプリケーションで抜群の安定性とパフォーマンスを発揮する。</li><li>純粋なゲームプレイやWindows専用のソフトウェアを重視するユーザーにとっては、RTX 5090を手放してMac Studioへ移行するメリットは薄い。</li><li>逆に、動画制作、音楽制作、3Dレンダリング、大規模なローカルAIモデルの実行などを行うプロフェッショナルであれば、Mac Studioへの乗り換えは強力な選択肢となる。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-09-13";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  function validateAndGo(value) {
+    if (value === CURRENT_DATE) return;
+    if (!/^\\d{4}-\\d{2}-\\d{2}$/.test(value) || dateList.indexOf(value) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(value);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+})();
+</script>
+</body>
+</html>
