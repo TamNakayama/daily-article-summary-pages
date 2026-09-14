@@ -1,0 +1,92 @@
+[
+  {
+    "id": "3db3de0e-c1c5-8167-be2d-dbbe75247d80",
+    "title": "Elevenlabs makes Music v2.5 available via app and API with free and pro tier options",
+    "site": "THE DECODER",
+    "published": "2026-09-13T13:40:36.000Z",
+    "fetched": "2026-09-14T00:01:09.707Z",
+    "summary": "ElevenLabsが音楽生成AI「Music v2.5」をアプリとAPIで公開、無料およびプロプランを提供開始\n\n- ElevenLabsが「Music v2.5」をリリースし、生成される楽曲の音質がより豊かで自然になったと発表した。\n- ユーザーは生成した楽曲の権利を保持でき、無料プランでは1日5曲、プロプランでは月400曲のロスレスダウンロードが可能である。\n- 商用利用は業界や目的に応じて許可されており、無料プランではクレジット表記が必要となるが、既存アーティストの模倣や他者の楽曲に基づくダウンロードはブロックされる。\n- 競合のSunoが著作権侵害で訴訟問題に直面しているのに対し、ElevenLabsは既存の音楽モデルの学習にライセンスを取得した素材を使用していると主張している。\n- 「Music v2.5」はAPI経由でも利用可能であり、旧バージョンのv2も引き続きアクセスできる。",
+    "url": "https://the-decoder.com/elevenlabs-makes-music-v2-5-available-via-app-and-api-with-free-and-pro-tier-options/"
+  },
+  {
+    "id": "3db3de0e-c1c5-815a-89b9-ca3e6956c35b",
+    "title": "Iris-mini and Iris-pro are the strongest open-weight search agents in their class",
+    "site": "THE DECODER",
+    "published": "2026-09-13T12:58:18.000Z",
+    "fetched": "2026-09-14T00:01:17.306Z",
+    "summary": "AllSparkチームが開発した「Iris-mini」と「Iris-pro」は、それぞれのサイズクラスで最強性能を誇るオープンウェイトの検索エージェントであり、Webのリンク構造を活用した独自のトレーニング手法により、一般のツール使用やオフィスワークなどの未学習タスクでも性能向上が確認されています。\n\n- AllSparkチームが、350億パラメータの「Iris-mini」と3970億パラメータの「Iris-pro」という2つのオープンソース検索エージェントを発表した。\n- 両モデルともQwenシリーズをベースにし、25万6000トークンのコンテキストウィンドウを備え、同クラスのオープンウェイト検索エージェントの中で最強の結果を実現している。\n- トレーニングパイプラインでは、Webページのリンク構造からタスクを逆算して構築し、単純なテキスト検索ではなく高度な推論を必要とする多段階の質問を生成している。\n- 訓練データとモデルは、検索だけでなく、一般のツール使用やオフィスワークといった一度も訓練されていないタスクにおいても性能の向上が見られた。",
+    "url": "https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/"
+  },
+  {
+    "id": "3db3de0e-c1c5-815f-9756-c8ce45075927",
+    "title": "GPT-6 Astra pilots a surveillance drone and runs a business on its own",
+    "site": "THE DECODER",
+    "published": "2026-09-13T10:52:16.000Z",
+    "fetched": "2026-09-14T00:01:25.083Z",
+    "summary": "GPT-6 Astraが自律型AIベンチマークで優れた成果を発揮\n\n- OpenAIの「GPT-6 Astra」が、Andon Labsの2つの異なるAIエージェントベンチマークにおいて、競合する「Claude Fable 5.1」を大きく上回る性能を実証した。\n- 仮想の自動販売機ビジネスを1年間運営するシミュレーション（Vending-Bench）において、Astraは平均15,515ドルの利益を上げ、Fable 5.1の約3倍の業績を記録した。\n- 自動販売機の運営テストでは、AstraがFable 5.1よりも強気な交渉を行い、効率的な仕入れによって資金を節約しながら資産を大きく増やすことに成功した。\n- ドローン制御のベンチマーク（Drone-Bench）では、Astraは全5つのサブタスクすべてで人間とAIの開発基準（ベースライン）を初めて上回った。\n- Drone-Benchにおける成果には、ドローンが特定の人物を自律的に発見して追跡するためのコードを記述するタスクなどが含まれており、物理システムの制御における高い能力を示している。",
+    "url": "https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own/"
+  },
+  {
+    "id": "3db3de0e-c1c5-8168-a930-d234840d7a05",
+    "title": "Two-year university study finds banning AI from classrooms leaves students worse off",
+    "site": "THE DECODER",
+    "published": "2026-09-13T09:27:01.000Z",
+    "fetched": "2026-09-14T00:01:33.106Z",
+    "summary": "大学の授業におけるAI禁止が、かえって学生のパフォーマンスを低下させることが2年間にわたる調査で判明した\n\n- アムステルダム自由大学の教授が、「AI禁止」「無指導でのAI利用」「プロンプトエンジニアリング等の構造化された訓練」の3グループに学生を分けて検証を実施した。\n- AIの使用を禁止されたグループは、10〜15分ほどでアイデアが枯渇し、表現の微調整にとどまるなど、結果が最も振るわなかった。\n- 無指導でAIを利用したグループは、AIの提案を深く吟味せず、響きが良いという理由でそのまま受け入れる傾向が見られた。\n- AIの活用法や正確性の検証について実践的な訓練を受けたグループが最も優れた成果を残し、AI制限の全面的な禁止よりも適切な指導の重要性が示された。",
+    "url": "https://the-decoder.com/two-year-university-study-finds-banning-ai-from-classrooms-leaves-students-worse-off/"
+  },
+  {
+    "id": "3db3de0e-c1c5-81dc-b297-f708e83749c9",
+    "title": "Altman, Musk, and Hassabis back Amodei's call to add independent oversight",
+    "site": "THE DECODER",
+    "published": "2026-09-13T08:53:00.000Z",
+    "fetched": "2026-09-14T00:01:40.530Z",
+    "summary": "Altman、Musk、HassabisがAI開発における独立した監視の導入を支持\n\n- OpenAIのサム・アルトマンCEO、イーロン・マスク、元DeepMind CEOのデミス・ハサビスが、Anthropicのダリオ・アモディCEOによるAI開発のペースダウンと、AIラボ内への独立した監視機関の導入を求める提案に賛同した。\n- アルトマンは、安全性への懸念や財務状況を理由に、OpenAIが今年中に株式公開（IPO）を行わない方針を示している。\n- 一方で、Googleの研究者ペイマン・ミランファルはこの動きに反発し、AIの再帰的自己改善（RSI）の仮定は不安定であり、現実世界の検証こそが重要であるため、アモディが主張するような開発の「速度制限」は不要であると主張している。",
+    "url": "https://the-decoder.com/altman-musk-and-hassabis-back-amodeis-call-to-add-independent-oversight/"
+  },
+  {
+    "id": "3db3de0e-c1c5-81b8-950e-fbd86568dce9",
+    "title": "The Hugging Bay",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-13T01:46:47.000Z",
+    "fetched": "2026-09-14T00:01:47.954Z",
+    "summary": "The Hugging Bay\n\n- 提供された「The Hugging Bay」という記事は、テキストデータやタイトルのみで具体的な本文の内容が記載されていないため、具体的な情報や背景を読み取ることができません。\n- 本来の要約においては、記事の主題である「The Hugging Bay」が何を指しているのか（例えば、AIモデル共有プラットフォームのHugging Faceに関連する話題や、特定のプロジェクトなど）の結論を述べる必要があります。\n- 記事の本文が存在しない現状では、主要なポイントを抽出して箇条書きでまとめることが不可能です。\n- 正確な要約を作成するためには、対象となる記事の本文や詳細な情報を提供していただく必要があります。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1weujw6/the_hugging_bay/"
+  },
+  {
+    "id": "3db3de0e-c1c5-8195-8806-e67de5742dcd",
+    "title": "The Local LLM community feels like the golden era of the internet all over again",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-13T09:56:52.000Z",
+    "fetched": "2026-09-14T00:01:55.805Z",
+    "summary": "ローカルLLMコミュニティは、インターネット黎明期の黄金時代を彷彿とさせる、情熱的で活気のある空間となっている。\n\n- ローカルLLMコミュニティには、かつてのインターネット初期のような、新しい技術への純粋な興奮と探求心が満ちている。\n- 商用サービスに依存せず、個人のハードウェアでAIを動かそうとする開発者や愛好家が、知恵を出し合いオープンに協力し合っている。\n- 企業主導のAI開発とは異なり、自由で非中央集権的な文化が根付いており、誰でも気軽に参加して貢献できる環境がある。\n- 日々驚くようなモデルやツールが素早く生み出され、まるでインターネット黎明期のウェブサイト乱立時代のような熱狂を生み出している。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf3i1m/the_local_llm_community_feels_like_the_golden_era/"
+  },
+  {
+    "id": "3db3de0e-c1c5-81df-a23b-c6b0530870ce",
+    "title": "Plot twist",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-13T19:41:28.000Z",
+    "fetched": "2026-09-14T00:02:03.222Z",
+    "summary": "Plot twist\n\n- 提供された記事には具体的な本文が含まれておらず、タイトルのみが存在する状態であるため、内容の具体的な要約を行うことができない。\n- 記事の主題である「Plot twist（どんでん返し）」という言葉自体は、物語や現実の出来事において予測しなかった方向へ展開が変わることを意味している。\n- 本文がないため、どのようなストーリーやテーマに関するどんでん返しなのかを判断する情報は一切提示されていない。\n- 今後、本文が追加された場合には、その内容に基づいて主要な展開や結末の意外性についてのポイントを整理することが可能である。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfhiqx/plot_twist/"
+  },
+  {
+    "id": "3db3de0e-c1c5-811d-8c15-d8035aeb78a8",
+    "title": "3k$ 128GB VRAM + 256GB RAM DDR4 Server",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-13T17:42:07.000Z",
+    "fetched": "2026-09-14T00:02:11.204Z",
+    "summary": "3,000ドルで構築可能な128GB VRAMと256GBのDDR4 RAMを搭載した高性能サーバー\n\n- 本サーバーの最大の特徴は、AIや機械学習の処理に不可欠な128GBの大容量VRAM（ビデオメモリ）を低コストで実現している点である。\n- メモリには、256GBのDDR4 RAMを搭載しており、大規模なデータ処理や複数の仮想環境の同時稼働をスムーズに行うことができる。\n- 全体のシステムコストが約3,000ドルと比較的安価に抑えられており、費用対効果に優れた構成となっている。\n- 高負荷なワークロードに対応可能なスペックを持ちながら、市販のパーツを組み合わせることで予算を大幅に削減している。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfe9zt/3k_128gb_vram_256gb_ram_ddr4_server/"
+  },
+  {
+    "id": "3db3de0e-c1c5-8103-bcf3-eda74ea440aa",
+    "title": "Should I sell my RTX 5090 for a Mac Studio M5 Ultra 96GB?",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-13T05:38:49.000Z",
+    "fetched": "2026-09-14T00:02:18.987Z",
+    "summary": "RTX 5090からM5 Ultra 96GB搭載のMac Studioへの乗り換えに関する考察\n\n- 最高峰のゲーム性能を持つRTX 5090と、クリエイティブ作業やAI処理に特化したMac Studio M5 Ultraでは用途が大きく異なるため、自身の主な作業環境に合わせて選択すべきである。\n- RTX 5090は、圧倒的なグラフィック処理能力とレイトレーシング性能を誇り、高負荷なPCゲームやWindows環境での最新エンターテインメントに最適である。\n- 一方、Mac Studio M5 Ultra（96GBメモリ）は、統合メモリによる効率的な大容量データ処理や動画編集、プロ向けのクリエイティブアプリケーションで抜群の安定性とパフォーマンスを発揮する。\n- 純粋なゲームプレイやWindows専用のソフトウェアを重視するユーザーにとっては、RTX 5090を手放してMac Studioへ移行するメリットは薄い。\n- 逆に、動画制作、音楽制作、3Dレンダリング、大規模なローカルAIモデルの実行などを行うプロフェッショナルであれば、Mac Studioへの乗り換えは強力な選択肢となる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wez30k/should_i_sell_my_rtx_5090_for_a_mac_studio_m5/"
+  }
+]
