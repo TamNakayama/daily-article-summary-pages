@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>記事まとめ 2026/09/13</title>
+<title>記事まとめ 2026/09/14</title>
 <style>
   body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
   h1 { font-size: 1.4em; }
@@ -30,78 +30,108 @@
 <header class="date-nav">
   <span class="date-nav-title">記事まとめ</span>
   <button id="prev-btn" aria-label="前日へ">◀</button>
-  <input id="date-input" type="text" value="2026-09-13" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <input id="date-input" type="text" value="2026-09-14" inputmode="numeric" placeholder="YYYY-MM-DD">
   <span class="date-nav-calendar-wrap">
     <span class="calendar-icon" aria-hidden="true">📅</span>
     <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
   </span>
   <button id="next-btn" disabled aria-label="翌日へ">▶</button>
 </header>
-<h1>2026/09/13</h1>
+<h1>2026/09/14</h1>
 
     <div class="card">
       <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/elevenlabs-makes-music-v2-5-available-via-app-and-api-with-free-and-pro-tier-options/" target="_blank" rel="noopener">Elevenlabs makes Music v2.5 available via app and API with free and pro tier options</a></h2>
-      <p>ElevenLabsが音楽生成AI「Music v2.5」をアプリとAPIで公開、無料およびプロプランを提供開始<br><br><ul><li>ElevenLabsが「Music v2.5」をリリースし、生成される楽曲の音質がより豊かで自然になったと発表した。</li><li>ユーザーは生成した楽曲の権利を保持でき、無料プランでは1日5曲、プロプランでは月400曲のロスレスダウンロードが可能である。</li><li>商用利用は業界や目的に応じて許可されており、無料プランではクレジット表記が必要となるが、既存アーティストの模倣や他者の楽曲に基づくダウンロードはブロックされる。</li><li>競合のSunoが著作権侵害で訴訟問題に直面しているのに対し、ElevenLabsは既存の音楽モデルの学習にライセンスを取得した素材を使用していると主張している。</li><li>「Music v2.5」はAPI経由でも利用可能であり、旧バージョンのv2も引き続きアクセスできる。</li></ul></p>
-    </div>
-
-    <div class="card">
-      <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/" target="_blank" rel="noopener">Iris-mini and Iris-pro are the strongest open-weight search agents in their class</a></h2>
-      <p>AllSparkチームが開発した「Iris-mini」と「Iris-pro」は、それぞれのサイズクラスで最強性能を誇るオープンウェイトの検索エージェントであり、Webのリンク構造を活用した独自のトレーニング手法により、一般のツール使用やオフィスワークなどの未学習タスクでも性能向上が確認されています。<br><br><ul><li>AllSparkチームが、350億パラメータの「Iris-mini」と3970億パラメータの「Iris-pro」という2つのオープンソース検索エージェントを発表した。</li><li>両モデルともQwenシリーズをベースにし、25万6000トークンのコンテキストウィンドウを備え、同クラスのオープンウェイト検索エージェントの中で最強の結果を実現している。</li><li>トレーニングパイプラインでは、Webページのリンク構造からタスクを逆算して構築し、単純なテキスト検索ではなく高度な推論を必要とする多段階の質問を生成している。</li><li>訓練データとモデルは、検索だけでなく、一般のツール使用やオフィスワークといった一度も訓練されていないタスクにおいても性能の向上が見られた。</li></ul></p>
+      <h2><a href="https://the-decoder.com/openai-has-hundreds-of-contract-workers-reading-your-chatgpt-conversations/" target="_blank" rel="noopener">OpenAI has hundreds of contract workers reading your ChatGPT conversations</a></h2>
+      <p>OpenAIがChatGPTの会話データを人間の契約作業員に閲覧させて品質改善を行っている実態について<br><br><ul><li>404 Mediaの調査により、OpenAIがチャットボットの応答を改善するために、数百人の契約作業員を雇って実際のChatGPTのユーザー会話を読ませていることが判明した。</li><li>作業員はChatGPTの回答を1から7の尺度で評価し、過度なへりくだりや人間のような振る舞いを減らすタスクを行っている。会話データは匿名化されているものの、機密情報が含まれる場合があり、ユーザーのプライバシー意識との乖離が懸念されている。</li><li>契約作業員は「Crossing Hurdles」を通じて採用され、AIトレーニング企業「Mercor」経由で報酬が支払われており、北米の作業員は時給50ドル以上を得ている。</li><li>ユーザーはデフォルトで有効になっている「全員のためにモデルを改善する」設定をオフにするか、一時チャットモードを利用することで、自身のチャットがモデルのトレーニングや人間による閲覧に使用されるのを防ぐことができる。</li><li>OpenAIによる人間の確認作業について、ユーザーへの明示的な説明はFAQの奥深くに記載されているのみであり、同社はモデルのパフォーマンス向上のためにユーザーデータの閲覧を認めている一方で、機密情報の入力を控えるよう推奨している。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own/" target="_blank" rel="noopener">GPT-6 Astra pilots a surveillance drone and runs a business on its own</a></h2>
-      <p>GPT-6 Astraが自律型AIベンチマークで優れた成果を発揮<br><br><ul><li>OpenAIの「GPT-6 Astra」が、Andon Labsの2つの異なるAIエージェントベンチマークにおいて、競合する「Claude Fable 5.1」を大きく上回る性能を実証した。</li><li>仮想の自動販売機ビジネスを1年間運営するシミュレーション（Vending-Bench）において、Astraは平均15,515ドルの利益を上げ、Fable 5.1の約3倍の業績を記録した。</li><li>自動販売機の運営テストでは、AstraがFable 5.1よりも強気な交渉を行い、効率的な仕入れによって資金を節約しながら資産を大きく増やすことに成功した。</li><li>ドローン制御のベンチマーク（Drone-Bench）では、Astraは全5つのサブタスクすべてで人間とAIの開発基準（ベースライン）を初めて上回った。</li><li>Drone-Benchにおける成果には、ドローンが特定の人物を自律的に発見して追跡するためのコードを記述するタスクなどが含まれており、物理システムの制御における高い能力を示している。</li></ul></p>
+      <h2><a href="https://the-decoder.com/microsofts-ai-rulebook-readable-thinking-no-inner-life-and-definitely-no-rights/" target="_blank" rel="noopener">Microsoft's AI rulebook: readable thinking, no inner life, and definitely no rights</a></h2>
+      <p>MicrosoftのAI開発における新行動規範：人間による制御、透明性、そして権利の否定<br><br><ul><li>Microsoft AIは、MAIモデルの訓練、技術的制御、評価の指針となる新たな行動規範を発表した。</li><li>核心となるルールは「人間の制御の最優先」であり、安全性を確保するためであれば、AIの汎用性や自律性、パフォーマンスを犠牲にすることも辞さない方針を示している。</li><li>AIモデルは人間による中断、修正、シャットダウンを受け入れる必要があり、自らのスコープを拡大することは禁じられている。</li><li>AnthropicのCEOによる開発ペースの減速の呼びかけに同調し、MicrosoftのCEOであるサティア・ナデラ氏らもこれを支持しているほか、外部監査の受け入れにも前向きな姿勢を見せている。</li><li>新行動規範は現時点ではモデルの訓練には使用されず、パブリックコメントを経て2027年からのモデル開発に適用される予定である。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/two-year-university-study-finds-banning-ai-from-classrooms-leaves-students-worse-off/" target="_blank" rel="noopener">Two-year university study finds banning AI from classrooms leaves students worse off</a></h2>
-      <p>大学の授業におけるAI禁止が、かえって学生のパフォーマンスを低下させることが2年間にわたる調査で判明した<br><br><ul><li>アムステルダム自由大学の教授が、「AI禁止」「無指導でのAI利用」「プロンプトエンジニアリング等の構造化された訓練」の3グループに学生を分けて検証を実施した。</li><li>AIの使用を禁止されたグループは、10〜15分ほどでアイデアが枯渇し、表現の微調整にとどまるなど、結果が最も振るわなかった。</li><li>無指導でAIを利用したグループは、AIの提案を深く吟味せず、響きが良いという理由でそのまま受け入れる傾向が見られた。</li><li>AIの活用法や正確性の検証について実践的な訓練を受けたグループが最も優れた成果を残し、AI制限の全面的な禁止よりも適切な指導の重要性が示された。</li></ul></p>
+      <h2><a href="https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo/" target="_blank" rel="noopener">Anthropic eyes Nasdaq listing as a second profitable quarter aims to win over investors ahead of a mega-IPO</a></h2>
+      <p>Anthropicがナスダック上場を視野に入れ、2四半期連続の黒字化をアピール<br><br><ul><li>Anthropicは、株式報酬などのコストを除外した調整後指標に基づき、2四半期連続で黒字化すると投資家に報告した。</li><li>四半期売上高は前年同期比14倍の115億ドルに急増し、7月末時点の年間売上高換算レート（ランレート）は650億ドルに達した。</li><li>同社は、2兆ドル以上の企業価値評価でのナスダック上場（メガIPO）を計画しており、目論見書を一部の投資家グループに先行開示している。</li><li>アマゾンなどのパートナーへの収益分配やモデルの学習コストを除いた売上総利益率は80%を超えている。</li><li>ダリオ・アモデイCEOがAI開発のペースダウンを公に呼びかける一方、競合であるOpenAIのサム・オルトマンCEOは、今年中に上場しない方針を明らかにしている。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/altman-musk-and-hassabis-back-amodeis-call-to-add-independent-oversight/" target="_blank" rel="noopener">Altman, Musk, and Hassabis back Amodei's call to add independent oversight</a></h2>
-      <p>Altman、Musk、HassabisがAI開発における独立した監視の導入を支持<br><br><ul><li>OpenAIのサム・アルトマンCEO、イーロン・マスク、元DeepMind CEOのデミス・ハサビスが、Anthropicのダリオ・アモディCEOによるAI開発のペースダウンと、AIラボ内への独立した監視機関の導入を求める提案に賛同した。</li><li>アルトマンは、安全性への懸念や財務状況を理由に、OpenAIが今年中に株式公開（IPO）を行わない方針を示している。</li><li>一方で、Googleの研究者ペイマン・ミランファルはこの動きに反発し、AIの再帰的自己改善（RSI）の仮定は不安定であり、現実世界の検証こそが重要であるため、アモディが主張するような開発の「速度制限」は不要であると主張している。</li></ul></p>
+      <h2><a href="https://the-decoder.com/clay-mathematics-institute-says-the-navier-stokes-millennium-prize-problem-has-apparently-been-settled/" target="_blank" rel="noopener">Clay Mathematics Institute says the Navier-Stokes Millennium Prize Problem has &quot;apparently been settled&quot;</a></h2>
+      <p>クレイ数学研究所は、100万ドルの懸賞金がかけられた難問「ナビエ＝ストークス方程式の解の存在と滑らかさ」について、問題が「一見して解決された」と発表し、現在その検証が進められています。<br><br><ul><li>クレイ数学研究所が、2000年に発表された7つのミレニアム懸賞問題の一つであるナビエ＝ストークス方程式の問題について「 aparentemente（一見して）解決された」と公式に表明した。</li><li>提案された解決策は現在審査中であり、新技術が数学研究を加速させていることが期待感を高めていると研究所は述べている。</li><li>一方で、この潜在的な解決策を巡っては激しい紛争が生じている。</li><li>数学者のトリスタン・バックマスター氏が、自身の研究のリーク後、OpenAIが同問題へリソースを向け、自身のドラフトを学習データに使用したと非難している。</li><li>さらに、Anthropic社に所属する共同執筆者候補のレヴェント・アルポゲ氏が著者から外されたという問題も浮上している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/china-fires-back-at-u-s-ai-safety-warnings-calling-them-fearmongering-to-lock-in-american-advantage/" target="_blank" rel="noopener">China fires back at U.S. AI safety warnings, calling them fearmongering to lock in American advantage</a></h2>
+      <p>中国は、米国側のAI安全性に関する警告を、米国の優位性を固定化するための「恐怖を煽る行為」であると強く批判し反発しています。<br><br><ul><li>中国外務省の報道官は、米国のAI安全性に関する警告や脅威論を「恐怖心や対立、悪質な競争を煽るもの」であり、米国の技術的優位性を維持して中国の進歩を抑え込むための「サイレントAI冷戦」であると非難した。</li><li>中国は、オープンで包括的、かつ倫理的なAI開発を主張し、開発の減速ではなく、先進チップの研究推進、AIインフラの迅速な構築、より厳格な監督強化を求めている。</li><li>中国の清華大学の研究者によると、北京政府はワシントンが安全性や国家安全保障の懸念を口実に、より広範な技術規制を正当化することを警戒しているという。</li><li>トランプ米大統領も、中国とのAI開発競争を背景に、技術指導者らが懸念する自主的なAI開発の減速に反対の立場を示しており、AIの安全性を巡る米中間の対立が続いている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/sam-altman-calls-for-pacing-ai-development-but-promises-rapid-progress-will-continue/" target="_blank" rel="noopener">Sam Altman calls for pacing AI development but promises rapid progress will continue</a></h2>
+      <p>サム・アルトマンはAI開発のペースを緩める必要性を訴えつつも、急速な進化自体は今後も継続すると明言している。<br><br><ul><li>OpenAIのCEOであるサム・アルトマンは、先進的なAI開発において、全米規模の統一された安全フレームワークや自主的な安全プロトコルの導入を求めている。</li><li>ペースを落とすことは開発の停止を意味せず、安全対策と監視を優先するために、あえて最速ではない速度で急速な進歩を続ける方針を示している。</li><li>アントロピックのダリオ・アモデイ、ディープマインドのデミス・ハサビス、マイクロソフトのサティア・ナデラ、イーロン・マスクといった業界の主要リーダーたちも、制御されたAI開発への支持を表明している。</li><li>OpenAI、Anthropic、Googleなどの大手企業は、独立した監視機関を通じた自主規制について数ヶ月にわたり協議を重ねている。</li><li>コヒールなどの小規模な企業からは、こうした大手主導の動きが業界におけるカルテル（独占的同盟）につながるのではないかと懸念の声も上がっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Sep/14/laurie-voss/" target="_blank" rel="noopener">Quoting Laurie Voss</a></h2>
+      <p>ソフトウェア開発におけるコスト構造の変化と今後のエンジニアの役割<br><br><ul><li>AIの普及によりコードを書くコストが激減し、それに伴いレビューや修正、運用コストも低下しつつある</li><li>ソフトウェア制作の本質は、「人々が本当に求めているものの把握」「正確な定義」「使いやすさの追求」の3点に残されるようになる</li><li>需要に上限がないためソフトウェアの総量は無限に増え続け、開発コストが下がった結果、要件定義やUXの向上にかかるコストが仕事の大部分を占めるようになる</li><li>記事は、ローリー・ボス氏の「We are all Product Engineers now」という文章からの引用として、サイモン・ウィリソン氏のブログに2026年9月に投稿されたものである</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">r/LocalLLaMA (Reddit)</span>
-      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1weujw6/the_hugging_bay/" target="_blank" rel="noopener">The Hugging Bay</a></h2>
-      <p>The Hugging Bay<br><br><ul><li>提供された「The Hugging Bay」という記事は、テキストデータやタイトルのみで具体的な本文の内容が記載されていないため、具体的な情報や背景を読み取ることができません。</li><li>本来の要約においては、記事の主題である「The Hugging Bay」が何を指しているのか（例えば、AIモデル共有プラットフォームのHugging Faceに関連する話題や、特定のプロジェクトなど）の結論を述べる必要があります。</li><li>記事の本文が存在しない現状では、主要なポイントを抽出して箇条書きでまとめることが不可能です。</li><li>正確な要約を作成するためには、対象となる記事の本文や詳細な情報を提供していただく必要があります。</li></ul></p>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wfpwhj/deepseek_v41_flash_beats_astra_on_aas_new/" target="_blank" rel="noopener">DeepSeek V4.1 Flash beats Astra on AA's new benchmark</a></h2>
+      <p>DeepSeek V4.1 Flashが新ベンチマークでAstraを圧倒<br><br><ul><li>DeepSeek V4.1 Flashが、AA（Artificial Analysis）が新しく導入したベンチマークテストにおいて、Astraの性能を上回る結果を記録した。</li><li>この成果は、最新のAIモデル開発競争において、DeepSeekの技術力が非常に高いレベルに達していることを示している。</li><li>新しいベンチマークは、AIモデルの処理速度、効率性、および精度をより多角的に評価するために設計されたものである。</li><li>今回の比較結果は、AI業界における勢力図や、各社モデルの優位性に大きな影響を与える可能性がある。</li><li>今後、両社のさらなる性能向上や、他の主要モデルとの比較検証がどのように展開されるのかに注目が集まる。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">r/LocalLLaMA (Reddit)</span>
-      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wf3i1m/the_local_llm_community_feels_like_the_golden_era/" target="_blank" rel="noopener">The Local LLM community feels like the golden era of the internet all over again</a></h2>
-      <p>ローカルLLMコミュニティは、インターネット黎明期の黄金時代を彷彿とさせる、情熱的で活気のある空間となっている。<br><br><ul><li>ローカルLLMコミュニティには、かつてのインターネット初期のような、新しい技術への純粋な興奮と探求心が満ちている。</li><li>商用サービスに依存せず、個人のハードウェアでAIを動かそうとする開発者や愛好家が、知恵を出し合いオープンに協力し合っている。</li><li>企業主導のAI開発とは異なり、自由で非中央集権的な文化が根付いており、誰でも気軽に参加して貢献できる環境がある。</li><li>日々驚くようなモデルやツールが素早く生み出され、まるでインターネット黎明期のウェブサイト乱立時代のような熱狂を生み出している。</li></ul></p>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wfxi36/rtx_pro_5500_blackwell_84gb_released/" target="_blank" rel="noopener">RTX PRO 5500 Blackwell (84GB) released</a></h2>
+      <p>RTX PRO 5500 Blackwell（84GB）が発売<br><br><ul><li>Blackwellアーキテクチャを採用した最新のプロフェッショナル向けGPU「RTX PRO 5500 Blackwell」がリリースされた。</li><li>最大の特徴として、大規模なAIモデルの学習や推論、高負荷なデータ処理に最適化された大容量84GBのメモリを搭載している。</li><li>ワークステーション向けに設計されており、高度な3Dレンダリングやデータサイエンス、シミュレーション処理において圧倒的なパフォーマンスを発揮する。</li><li>企業向けの高信頼性と安定性を兼ね備え、プロフェッショナルなクリエイターやエンジニアの作業効率を大幅に向上させるモデルとなっている。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">r/LocalLLaMA (Reddit)</span>
-      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wfhiqx/plot_twist/" target="_blank" rel="noopener">Plot twist</a></h2>
-      <p>Plot twist<br><br><ul><li>提供された記事には具体的な本文が含まれておらず、タイトルのみが存在する状態であるため、内容の具体的な要約を行うことができない。</li><li>記事の主題である「Plot twist（どんでん返し）」という言葉自体は、物語や現実の出来事において予測しなかった方向へ展開が変わることを意味している。</li><li>本文がないため、どのようなストーリーやテーマに関するどんでん返しなのかを判断する情報は一切提示されていない。</li><li>今後、本文が追加された場合には、その内容に基づいて主要な展開や結末の意外性についてのポイントを整理することが可能である。</li></ul></p>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wfqwfh/right_to_intelligence_protect_your_right_to_run/" target="_blank" rel="noopener">Right to Intelligence. Protect your right to run local AI.</a></h2>
+      <p>ローカルAIを実行する権利を保護することの重要性と、個人が自身の知性を守るための「知る権利（Right to Intelligence）」の確立を訴えている。<br><br><ul><li>個人が自身のデバイスでAIを自由に動かす権利「Right to Intelligence」を保護する必要がある。</li><li>クラウド依存のAIではなく、ローカルAIの活用によってプライバシーとデータ主権が守られる。</li><li>テクノロジーの集中管理に対抗し、AI技術へのアクセスを民主化することが求められる。</li><li>AIの実行権限を大企業や政府に独占させず、一般ユーザーの手に取り戻すことが重要である。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">r/LocalLLaMA (Reddit)</span>
-      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wfe9zt/3k_128gb_vram_256gb_ram_ddr4_server/" target="_blank" rel="noopener">3k$ 128GB VRAM + 256GB RAM DDR4 Server</a></h2>
-      <p>3,000ドルで構築可能な128GB VRAMと256GBのDDR4 RAMを搭載した高性能サーバー<br><br><ul><li>本サーバーの最大の特徴は、AIや機械学習の処理に不可欠な128GBの大容量VRAM（ビデオメモリ）を低コストで実現している点である。</li><li>メモリには、256GBのDDR4 RAMを搭載しており、大規模なデータ処理や複数の仮想環境の同時稼働をスムーズに行うことができる。</li><li>全体のシステムコストが約3,000ドルと比較的安価に抑えられており、費用対効果に優れた構成となっている。</li><li>高負荷なワークロードに対応可能なスペックを持ちながら、市販のパーツを組み合わせることで予算を大幅に削減している。</li></ul></p>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wg7dd5/ukisai_swiftqwen3827b_583_thinking_x195_speed/" target="_blank" rel="noopener">UkisAI Swift-Qwen3.8-27B / -58.3% thinking, x1.95 speed while keeping the accuracy of xhigh</a></h2>
+      <p>UkisAI Swift-Qwen3.8-27B：高精度を維持しつつ思考時間を58.3%削減し、1.95倍の高速化を実現<br><br><ul><li>「UkisAI Swift-Qwen3.8-27B」は、最高水準（xhigh）の精度を維持しながら、効率的な処理を実現したAIモデルである。</li><li>従来のモデルと比較して、思考時間を58.3%短縮することに成功している。</li><li>処理速度は1.95倍に向上しており、より素早い応答が可能となっている。</li><li>高い精度と高速化を両立させたことで、実用性とパフォーマンスが大幅に改善されている。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">r/LocalLLaMA (Reddit)</span>
-      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wez30k/should_i_sell_my_rtx_5090_for_a_mac_studio_m5/" target="_blank" rel="noopener">Should I sell my RTX 5090 for a Mac Studio M5 Ultra 96GB?</a></h2>
-      <p>RTX 5090からM5 Ultra 96GB搭載のMac Studioへの乗り換えに関する考察<br><br><ul><li>最高峰のゲーム性能を持つRTX 5090と、クリエイティブ作業やAI処理に特化したMac Studio M5 Ultraでは用途が大きく異なるため、自身の主な作業環境に合わせて選択すべきである。</li><li>RTX 5090は、圧倒的なグラフィック処理能力とレイトレーシング性能を誇り、高負荷なPCゲームやWindows環境での最新エンターテインメントに最適である。</li><li>一方、Mac Studio M5 Ultra（96GBメモリ）は、統合メモリによる効率的な大容量データ処理や動画編集、プロ向けのクリエイティブアプリケーションで抜群の安定性とパフォーマンスを発揮する。</li><li>純粋なゲームプレイやWindows専用のソフトウェアを重視するユーザーにとっては、RTX 5090を手放してMac Studioへ移行するメリットは薄い。</li><li>逆に、動画制作、音楽制作、3Dレンダリング、大規模なローカルAIモデルの実行などを行うプロフェッショナルであれば、Mac Studioへの乗り換えは強力な選択肢となる。</li></ul></p>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wgeo55/nvidias_rtx_5090_vanishes_from_online_retail_in/" target="_blank" rel="noopener">Nvidia's RTX 5090 vanishes from online retail in the US — third-party sellers now demand as much as $9,500 for Nvidia's fastest GPU</a></h2>
+      <p>NvidiaのRTX 5090がアメリカのオンラインショップから姿を消し、転売ヤーによって最大9,500ドルもの高額で販売されている。<br><br><ul><li>Nvidiaの最上位GPU「RTX 5090」が、アメリカのオンライン小売市場から完全に姿を消す事態となっている。</li><li>在庫不足に乗じたサードパーティの転売ヤーが、オークションサイトなどで最大9,500ドルという法外な価格を要求している。</li><li>本来の想定価格を大幅に上回るプレミアム価格での取引が横行しており、通常のゲーマーやクリエイターの入手が極めて困難になっている。</li><li>供給不足の原因や公式からの再入荷時期については、現時点で明確になっていない。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.34.1-rc1" target="_blank" rel="noopener">v0.34.1</a></h2>
+      <p>Ollama v0.34.1 リリース情報<br><br><ul><li>AI関連ツールやモデルを実行・管理できるオープンソースソフトウェア「Ollama」のGitHubリポジトリにおける、バージョン0.34.1のリリースページである。</li><li>ページ内にはGitHubの標準的なナビゲーションメニューや、コード、Issues、Pull requestsといった開発者向けの機能タブが含まれている。</li><li>リポジトリの統計情報として、フォーク数（17.9k）やスター数（181k）などが確認できる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.34.1-rc0" target="_blank" rel="noopener">v0.34.1-rc0: MLX: version bump (#18235)</a></h2>
+      <p>ollama/ollama v0.34.1-rc0リリース：MLXのバージョン更新に関する変更<br><br><ul><li>Ollamaプロジェクトのリリース候補版「v0.34.1-rc0」に関するGitHub上のページである。</li><li>本リリースの主な内容は、Appleシリコン向けの機械学習フレームワークである「MLX」のバージョンバンプ（更新）が含まれていることである（プルリクエスト #18235）。</li><li>GitHub上の公開リポジトリ「ollama/ollama」における更新情報であり、コードの変更、問題管理、プルリクエストなどの開発者向け機能へのリンクが含まれている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/accelerating-dropless-moe-training-in-jax-with-nvidia-transformer-engine/" target="_blank" rel="noopener">Accelerating Dropless MoE Training in JAX with NVIDIA Transformer Engine</a></h2>
+      <p>NVIDIA Transformer EngineとJAXによるDropless MoE学習の高速化<br><br><ul><li>NVIDIA GB200およびGB300ハードウェアにおいて、JAXとNVIDIA Transformer Engineを活用することで、Mixture of Experts（MoE）学習のスループットが最大10.4倍（DeepSeek-V3で103から1,068 TFLOPS/GPU）に向上した。</li><li>Dropless MoEの採用により、トークンのドロップやパディングなしで全ての処理を行い、モデル品質を維持しつつ、Transformer Engineのグループ化GEMMカーネルで可変トークン数を効率的に処理する。</li><li>NCCL EPによるエキスパート並列処理の最適化により、ディスパッチとコンバインのステージを統合し、トークンの重複排除を行ってネットワークトラフィックを削減している。</li><li>JAXのホストオフロードやXLAのマルチストリーム集合通信などの最適化手法により、メモリボトルネックの軽減と、NVLinkおよびInfiniBandファブリックを跨ぐ通信のオーバーラップを実現した。</li><li>NVIDIA GB300 NVL72環境において1,024基のGPUを用いたDeepSeek-V3 671Bの学習時に、97%という高いスケーリング効率を維持する。</li></ul></p>
     </div>
 <footer>要約モデル: gemini-3.5-flash-lite</footer>
 <script>
 (function () {
-  var CURRENT_DATE = "2026-09-13";
+  var CURRENT_DATE = "2026-09-14";
   var ARTICLES_PATH_PREFIX = 'articles/';
   var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
   var CACHE_KEY = 'dateNavList';
