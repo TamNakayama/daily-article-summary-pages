@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>記事まとめ 2026/09/14</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-09-14" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+</header>
+<h1>2026/09/14</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/openai-has-hundreds-of-contract-workers-reading-your-chatgpt-conversations/" target="_blank" rel="noopener">OpenAI has hundreds of contract workers reading your ChatGPT conversations</a></h2>
+      <p>OpenAIがChatGPTの会話データを人間の契約作業員に閲覧させて品質改善を行っている実態について<br><br><ul><li>404 Mediaの調査により、OpenAIがチャットボットの応答を改善するために、数百人の契約作業員を雇って実際のChatGPTのユーザー会話を読ませていることが判明した。</li><li>作業員はChatGPTの回答を1から7の尺度で評価し、過度なへりくだりや人間のような振る舞いを減らすタスクを行っている。会話データは匿名化されているものの、機密情報が含まれる場合があり、ユーザーのプライバシー意識との乖離が懸念されている。</li><li>契約作業員は「Crossing Hurdles」を通じて採用され、AIトレーニング企業「Mercor」経由で報酬が支払われており、北米の作業員は時給50ドル以上を得ている。</li><li>ユーザーはデフォルトで有効になっている「全員のためにモデルを改善する」設定をオフにするか、一時チャットモードを利用することで、自身のチャットがモデルのトレーニングや人間による閲覧に使用されるのを防ぐことができる。</li><li>OpenAIによる人間の確認作業について、ユーザーへの明示的な説明はFAQの奥深くに記載されているのみであり、同社はモデルのパフォーマンス向上のためにユーザーデータの閲覧を認めている一方で、機密情報の入力を控えるよう推奨している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/microsofts-ai-rulebook-readable-thinking-no-inner-life-and-definitely-no-rights/" target="_blank" rel="noopener">Microsoft's AI rulebook: readable thinking, no inner life, and definitely no rights</a></h2>
+      <p>MicrosoftのAI開発における新行動規範：人間による制御、透明性、そして権利の否定<br><br><ul><li>Microsoft AIは、MAIモデルの訓練、技術的制御、評価の指針となる新たな行動規範を発表した。</li><li>核心となるルールは「人間の制御の最優先」であり、安全性を確保するためであれば、AIの汎用性や自律性、パフォーマンスを犠牲にすることも辞さない方針を示している。</li><li>AIモデルは人間による中断、修正、シャットダウンを受け入れる必要があり、自らのスコープを拡大することは禁じられている。</li><li>AnthropicのCEOによる開発ペースの減速の呼びかけに同調し、MicrosoftのCEOであるサティア・ナデラ氏らもこれを支持しているほか、外部監査の受け入れにも前向きな姿勢を見せている。</li><li>新行動規範は現時点ではモデルの訓練には使用されず、パブリックコメントを経て2027年からのモデル開発に適用される予定である。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo/" target="_blank" rel="noopener">Anthropic eyes Nasdaq listing as a second profitable quarter aims to win over investors ahead of a mega-IPO</a></h2>
+      <p>Anthropicがナスダック上場を視野に入れ、2四半期連続の黒字化をアピール<br><br><ul><li>Anthropicは、株式報酬などのコストを除外した調整後指標に基づき、2四半期連続で黒字化すると投資家に報告した。</li><li>四半期売上高は前年同期比14倍の115億ドルに急増し、7月末時点の年間売上高換算レート（ランレート）は650億ドルに達した。</li><li>同社は、2兆ドル以上の企業価値評価でのナスダック上場（メガIPO）を計画しており、目論見書を一部の投資家グループに先行開示している。</li><li>アマゾンなどのパートナーへの収益分配やモデルの学習コストを除いた売上総利益率は80%を超えている。</li><li>ダリオ・アモデイCEOがAI開発のペースダウンを公に呼びかける一方、競合であるOpenAIのサム・オルトマンCEOは、今年中に上場しない方針を明らかにしている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/clay-mathematics-institute-says-the-navier-stokes-millennium-prize-problem-has-apparently-been-settled/" target="_blank" rel="noopener">Clay Mathematics Institute says the Navier-Stokes Millennium Prize Problem has &quot;apparently been settled&quot;</a></h2>
+      <p>クレイ数学研究所は、100万ドルの懸賞金がかけられた難問「ナビエ＝ストークス方程式の解の存在と滑らかさ」について、問題が「一見して解決された」と発表し、現在その検証が進められています。<br><br><ul><li>クレイ数学研究所が、2000年に発表された7つのミレニアム懸賞問題の一つであるナビエ＝ストークス方程式の問題について「 aparentemente（一見して）解決された」と公式に表明した。</li><li>提案された解決策は現在審査中であり、新技術が数学研究を加速させていることが期待感を高めていると研究所は述べている。</li><li>一方で、この潜在的な解決策を巡っては激しい紛争が生じている。</li><li>数学者のトリスタン・バックマスター氏が、自身の研究のリーク後、OpenAIが同問題へリソースを向け、自身のドラフトを学習データに使用したと非難している。</li><li>さらに、Anthropic社に所属する共同執筆者候補のレヴェント・アルポゲ氏が著者から外されたという問題も浮上している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/china-fires-back-at-u-s-ai-safety-warnings-calling-them-fearmongering-to-lock-in-american-advantage/" target="_blank" rel="noopener">China fires back at U.S. AI safety warnings, calling them fearmongering to lock in American advantage</a></h2>
+      <p>中国は、米国側のAI安全性に関する警告を、米国の優位性を固定化するための「恐怖を煽る行為」であると強く批判し反発しています。<br><br><ul><li>中国外務省の報道官は、米国のAI安全性に関する警告や脅威論を「恐怖心や対立、悪質な競争を煽るもの」であり、米国の技術的優位性を維持して中国の進歩を抑え込むための「サイレントAI冷戦」であると非難した。</li><li>中国は、オープンで包括的、かつ倫理的なAI開発を主張し、開発の減速ではなく、先進チップの研究推進、AIインフラの迅速な構築、より厳格な監督強化を求めている。</li><li>中国の清華大学の研究者によると、北京政府はワシントンが安全性や国家安全保障の懸念を口実に、より広範な技術規制を正当化することを警戒しているという。</li><li>トランプ米大統領も、中国とのAI開発競争を背景に、技術指導者らが懸念する自主的なAI開発の減速に反対の立場を示しており、AIの安全性を巡る米中間の対立が続いている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/sam-altman-calls-for-pacing-ai-development-but-promises-rapid-progress-will-continue/" target="_blank" rel="noopener">Sam Altman calls for pacing AI development but promises rapid progress will continue</a></h2>
+      <p>サム・アルトマンはAI開発のペースを緩める必要性を訴えつつも、急速な進化自体は今後も継続すると明言している。<br><br><ul><li>OpenAIのCEOであるサム・アルトマンは、先進的なAI開発において、全米規模の統一された安全フレームワークや自主的な安全プロトコルの導入を求めている。</li><li>ペースを落とすことは開発の停止を意味せず、安全対策と監視を優先するために、あえて最速ではない速度で急速な進歩を続ける方針を示している。</li><li>アントロピックのダリオ・アモデイ、ディープマインドのデミス・ハサビス、マイクロソフトのサティア・ナデラ、イーロン・マスクといった業界の主要リーダーたちも、制御されたAI開発への支持を表明している。</li><li>OpenAI、Anthropic、Googleなどの大手企業は、独立した監視機関を通じた自主規制について数ヶ月にわたり協議を重ねている。</li><li>コヒールなどの小規模な企業からは、こうした大手主導の動きが業界におけるカルテル（独占的同盟）につながるのではないかと懸念の声も上がっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Sep/14/laurie-voss/" target="_blank" rel="noopener">Quoting Laurie Voss</a></h2>
+      <p>ソフトウェア開発におけるコスト構造の変化と今後のエンジニアの役割<br><br><ul><li>AIの普及によりコードを書くコストが激減し、それに伴いレビューや修正、運用コストも低下しつつある</li><li>ソフトウェア制作の本質は、「人々が本当に求めているものの把握」「正確な定義」「使いやすさの追求」の3点に残されるようになる</li><li>需要に上限がないためソフトウェアの総量は無限に増え続け、開発コストが下がった結果、要件定義やUXの向上にかかるコストが仕事の大部分を占めるようになる</li><li>記事は、ローリー・ボス氏の「We are all Product Engineers now」という文章からの引用として、サイモン・ウィリソン氏のブログに2026年9月に投稿されたものである</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wfpwhj/deepseek_v41_flash_beats_astra_on_aas_new/" target="_blank" rel="noopener">DeepSeek V4.1 Flash beats Astra on AA's new benchmark</a></h2>
+      <p>DeepSeek V4.1 Flashが新ベンチマークでAstraを圧倒<br><br><ul><li>DeepSeek V4.1 Flashが、AA（Artificial Analysis）が新しく導入したベンチマークテストにおいて、Astraの性能を上回る結果を記録した。</li><li>この成果は、最新のAIモデル開発競争において、DeepSeekの技術力が非常に高いレベルに達していることを示している。</li><li>新しいベンチマークは、AIモデルの処理速度、効率性、および精度をより多角的に評価するために設計されたものである。</li><li>今回の比較結果は、AI業界における勢力図や、各社モデルの優位性に大きな影響を与える可能性がある。</li><li>今後、両社のさらなる性能向上や、他の主要モデルとの比較検証がどのように展開されるのかに注目が集まる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wfxi36/rtx_pro_5500_blackwell_84gb_released/" target="_blank" rel="noopener">RTX PRO 5500 Blackwell (84GB) released</a></h2>
+      <p>RTX PRO 5500 Blackwell（84GB）が発売<br><br><ul><li>Blackwellアーキテクチャを採用した最新のプロフェッショナル向けGPU「RTX PRO 5500 Blackwell」がリリースされた。</li><li>最大の特徴として、大規模なAIモデルの学習や推論、高負荷なデータ処理に最適化された大容量84GBのメモリを搭載している。</li><li>ワークステーション向けに設計されており、高度な3Dレンダリングやデータサイエンス、シミュレーション処理において圧倒的なパフォーマンスを発揮する。</li><li>企業向けの高信頼性と安定性を兼ね備え、プロフェッショナルなクリエイターやエンジニアの作業効率を大幅に向上させるモデルとなっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wfqwfh/right_to_intelligence_protect_your_right_to_run/" target="_blank" rel="noopener">Right to Intelligence. Protect your right to run local AI.</a></h2>
+      <p>ローカルAIを実行する権利を保護することの重要性と、個人が自身の知性を守るための「知る権利（Right to Intelligence）」の確立を訴えている。<br><br><ul><li>個人が自身のデバイスでAIを自由に動かす権利「Right to Intelligence」を保護する必要がある。</li><li>クラウド依存のAIではなく、ローカルAIの活用によってプライバシーとデータ主権が守られる。</li><li>テクノロジーの集中管理に対抗し、AI技術へのアクセスを民主化することが求められる。</li><li>AIの実行権限を大企業や政府に独占させず、一般ユーザーの手に取り戻すことが重要である。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wg7dd5/ukisai_swiftqwen3827b_583_thinking_x195_speed/" target="_blank" rel="noopener">UkisAI Swift-Qwen3.8-27B / -58.3% thinking, x1.95 speed while keeping the accuracy of xhigh</a></h2>
+      <p>UkisAI Swift-Qwen3.8-27B：高精度を維持しつつ思考時間を58.3%削減し、1.95倍の高速化を実現<br><br><ul><li>「UkisAI Swift-Qwen3.8-27B」は、最高水準（xhigh）の精度を維持しながら、効率的な処理を実現したAIモデルである。</li><li>従来のモデルと比較して、思考時間を58.3%短縮することに成功している。</li><li>処理速度は1.95倍に向上しており、より素早い応答が可能となっている。</li><li>高い精度と高速化を両立させたことで、実用性とパフォーマンスが大幅に改善されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wgeo55/nvidias_rtx_5090_vanishes_from_online_retail_in/" target="_blank" rel="noopener">Nvidia's RTX 5090 vanishes from online retail in the US — third-party sellers now demand as much as $9,500 for Nvidia's fastest GPU</a></h2>
+      <p>NvidiaのRTX 5090がアメリカのオンラインショップから姿を消し、転売ヤーによって最大9,500ドルもの高額で販売されている。<br><br><ul><li>Nvidiaの最上位GPU「RTX 5090」が、アメリカのオンライン小売市場から完全に姿を消す事態となっている。</li><li>在庫不足に乗じたサードパーティの転売ヤーが、オークションサイトなどで最大9,500ドルという法外な価格を要求している。</li><li>本来の想定価格を大幅に上回るプレミアム価格での取引が横行しており、通常のゲーマーやクリエイターの入手が極めて困難になっている。</li><li>供給不足の原因や公式からの再入荷時期については、現時点で明確になっていない。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.34.1-rc1" target="_blank" rel="noopener">v0.34.1</a></h2>
+      <p>Ollama v0.34.1 リリース情報<br><br><ul><li>AI関連ツールやモデルを実行・管理できるオープンソースソフトウェア「Ollama」のGitHubリポジトリにおける、バージョン0.34.1のリリースページである。</li><li>ページ内にはGitHubの標準的なナビゲーションメニューや、コード、Issues、Pull requestsといった開発者向けの機能タブが含まれている。</li><li>リポジトリの統計情報として、フォーク数（17.9k）やスター数（181k）などが確認できる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.34.1-rc0" target="_blank" rel="noopener">v0.34.1-rc0: MLX: version bump (#18235)</a></h2>
+      <p>ollama/ollama v0.34.1-rc0リリース：MLXのバージョン更新に関する変更<br><br><ul><li>Ollamaプロジェクトのリリース候補版「v0.34.1-rc0」に関するGitHub上のページである。</li><li>本リリースの主な内容は、Appleシリコン向けの機械学習フレームワークである「MLX」のバージョンバンプ（更新）が含まれていることである（プルリクエスト #18235）。</li><li>GitHub上の公開リポジトリ「ollama/ollama」における更新情報であり、コードの変更、問題管理、プルリクエストなどの開発者向け機能へのリンクが含まれている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/accelerating-dropless-moe-training-in-jax-with-nvidia-transformer-engine/" target="_blank" rel="noopener">Accelerating Dropless MoE Training in JAX with NVIDIA Transformer Engine</a></h2>
+      <p>NVIDIA Transformer EngineとJAXによるDropless MoE学習の高速化<br><br><ul><li>NVIDIA GB200およびGB300ハードウェアにおいて、JAXとNVIDIA Transformer Engineを活用することで、Mixture of Experts（MoE）学習のスループットが最大10.4倍（DeepSeek-V3で103から1,068 TFLOPS/GPU）に向上した。</li><li>Dropless MoEの採用により、トークンのドロップやパディングなしで全ての処理を行い、モデル品質を維持しつつ、Transformer Engineのグループ化GEMMカーネルで可変トークン数を効率的に処理する。</li><li>NCCL EPによるエキスパート並列処理の最適化により、ディスパッチとコンバインのステージを統合し、トークンの重複排除を行ってネットワークトラフィックを削減している。</li><li>JAXのホストオフロードやXLAのマルチストリーム集合通信などの最適化手法により、メモリボトルネックの軽減と、NVLinkおよびInfiniBandファブリックを跨ぐ通信のオーバーラップを実現した。</li><li>NVIDIA GB300 NVL72環境において1,024基のGPUを用いたDeepSeek-V3 671Bの学習時に、97%という高いスケーリング効率を維持する。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-09-14";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  function validateAndGo(value) {
+    if (value === CURRENT_DATE) return;
+    if (!/^\\d{4}-\\d{2}-\\d{2}$/.test(value) || dateList.indexOf(value) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(value);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+})();
+</script>
+</body>
+</html>
