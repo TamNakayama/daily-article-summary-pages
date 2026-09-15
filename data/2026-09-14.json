@@ -1,0 +1,137 @@
+[
+  {
+    "id": "3dc3de0e-c1c5-8109-bc92-cf2d1ec57a04",
+    "title": "OpenAI has hundreds of contract workers reading your ChatGPT conversations",
+    "site": "THE DECODER",
+    "published": "2026-09-14T17:15:28.000Z",
+    "fetched": "2026-09-15T00:01:12.498Z",
+    "summary": "OpenAIがChatGPTの会話データを人間の契約作業員に閲覧させて品質改善を行っている実態について\n\n- 404 Mediaの調査により、OpenAIがチャットボットの応答を改善するために、数百人の契約作業員を雇って実際のChatGPTのユーザー会話を読ませていることが判明した。\n- 作業員はChatGPTの回答を1から7の尺度で評価し、過度なへりくだりや人間のような振る舞いを減らすタスクを行っている。会話データは匿名化されているものの、機密情報が含まれる場合があり、ユーザーのプライバシー意識との乖離が懸念されている。\n- 契約作業員は「Crossing Hurdles」を通じて採用され、AIトレーニング企業「Mercor」経由で報酬が支払われており、北米の作業員は時給50ドル以上を得ている。\n- ユーザーはデフォルトで有効になっている「全員のためにモデルを改善する」設定をオフにするか、一時チャットモードを利用することで、自身のチャットがモデルのトレーニングや人間による閲覧に使用されるのを防ぐことができる。\n- OpenAIによる人間の確認作業について、ユーザーへの明示的な説明はFAQの奥深くに記載されているのみであり、同社はモデルのパフォーマンス向上のためにユーザーデータの閲覧を認めている一方で、機密情報の入力を控えるよう推奨している。",
+    "url": "https://the-decoder.com/openai-has-hundreds-of-contract-workers-reading-your-chatgpt-conversations/"
+  },
+  {
+    "id": "3dc3de0e-c1c5-8154-8885-d4e647a28ce5",
+    "title": "Microsoft's AI rulebook: readable thinking, no inner life, and definitely no rights",
+    "site": "THE DECODER",
+    "published": "2026-09-14T15:52:51.000Z",
+    "fetched": "2026-09-15T00:01:21.893Z",
+    "summary": "MicrosoftのAI開発における新行動規範：人間による制御、透明性、そして権利の否定\n\n- Microsoft AIは、MAIモデルの訓練、技術的制御、評価の指針となる新たな行動規範を発表した。\n- 核心となるルールは「人間の制御の最優先」であり、安全性を確保するためであれば、AIの汎用性や自律性、パフォーマンスを犠牲にすることも辞さない方針を示している。\n- AIモデルは人間による中断、修正、シャットダウンを受け入れる必要があり、自らのスコープを拡大することは禁じられている。\n- AnthropicのCEOによる開発ペースの減速の呼びかけに同調し、MicrosoftのCEOであるサティア・ナデラ氏らもこれを支持しているほか、外部監査の受け入れにも前向きな姿勢を見せている。\n- 新行動規範は現時点ではモデルの訓練には使用されず、パブリックコメントを経て2027年からのモデル開発に適用される予定である。",
+    "url": "https://the-decoder.com/microsofts-ai-rulebook-readable-thinking-no-inner-life-and-definitely-no-rights/"
+  },
+  {
+    "id": "3dc3de0e-c1c5-8187-8b63-cd69157dffbc",
+    "title": "Anthropic eyes Nasdaq listing as a second profitable quarter aims to win over investors ahead of a mega-IPO",
+    "site": "THE DECODER",
+    "published": "2026-09-14T15:46:45.000Z",
+    "fetched": "2026-09-15T00:01:29.571Z",
+    "summary": "Anthropicがナスダック上場を視野に入れ、2四半期連続の黒字化をアピール\n\n- Anthropicは、株式報酬などのコストを除外した調整後指標に基づき、2四半期連続で黒字化すると投資家に報告した。\n- 四半期売上高は前年同期比14倍の115億ドルに急増し、7月末時点の年間売上高換算レート（ランレート）は650億ドルに達した。\n- 同社は、2兆ドル以上の企業価値評価でのナスダック上場（メガIPO）を計画しており、目論見書を一部の投資家グループに先行開示している。\n- アマゾンなどのパートナーへの収益分配やモデルの学習コストを除いた売上総利益率は80%を超えている。\n- ダリオ・アモデイCEOがAI開発のペースダウンを公に呼びかける一方、競合であるOpenAIのサム・オルトマンCEOは、今年中に上場しない方針を明らかにしている。",
+    "url": "https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo/"
+  },
+  {
+    "id": "3dc3de0e-c1c5-81c3-a6c9-f4a80eb5775d",
+    "title": "Clay Mathematics Institute says the Navier-Stokes Millennium Prize Problem has \"apparently been settled\"",
+    "site": "THE DECODER",
+    "published": "2026-09-14T13:01:26.000Z",
+    "fetched": "2026-09-15T00:01:37.570Z",
+    "summary": "クレイ数学研究所は、100万ドルの懸賞金がかけられた難問「ナビエ＝ストークス方程式の解の存在と滑らかさ」について、問題が「一見して解決された」と発表し、現在その検証が進められています。\n\n- クレイ数学研究所が、2000年に発表された7つのミレニアム懸賞問題の一つであるナビエ＝ストークス方程式の問題について「 aparentemente（一見して）解決された」と公式に表明した。\n- 提案された解決策は現在審査中であり、新技術が数学研究を加速させていることが期待感を高めていると研究所は述べている。\n- 一方で、この潜在的な解決策を巡っては激しい紛争が生じている。\n- 数学者のトリスタン・バックマスター氏が、自身の研究のリーク後、OpenAIが同問題へリソースを向け、自身のドラフトを学習データに使用したと非難している。\n- さらに、Anthropic社に所属する共同執筆者候補のレヴェント・アルポゲ氏が著者から外されたという問題も浮上している。",
+    "url": "https://the-decoder.com/clay-mathematics-institute-says-the-navier-stokes-millennium-prize-problem-has-apparently-been-settled/"
+  },
+  {
+    "id": "3dc3de0e-c1c5-81ba-b056-fa7b9d01d1ab",
+    "title": "China fires back at U.S. AI safety warnings, calling them fearmongering to lock in American advantage",
+    "site": "THE DECODER",
+    "published": "2026-09-14T12:20:22.000Z",
+    "fetched": "2026-09-15T00:01:45.272Z",
+    "summary": "中国は、米国側のAI安全性に関する警告を、米国の優位性を固定化するための「恐怖を煽る行為」であると強く批判し反発しています。\n\n- 中国外務省の報道官は、米国のAI安全性に関する警告や脅威論を「恐怖心や対立、悪質な競争を煽るもの」であり、米国の技術的優位性を維持して中国の進歩を抑え込むための「サイレントAI冷戦」であると非難した。\n- 中国は、オープンで包括的、かつ倫理的なAI開発を主張し、開発の減速ではなく、先進チップの研究推進、AIインフラの迅速な構築、より厳格な監督強化を求めている。\n- 中国の清華大学の研究者によると、北京政府はワシントンが安全性や国家安全保障の懸念を口実に、より広範な技術規制を正当化することを警戒しているという。\n- トランプ米大統領も、中国とのAI開発競争を背景に、技術指導者らが懸念する自主的なAI開発の減速に反対の立場を示しており、AIの安全性を巡る米中間の対立が続いている。",
+    "url": "https://the-decoder.com/china-fires-back-at-u-s-ai-safety-warnings-calling-them-fearmongering-to-lock-in-american-advantage/"
+  },
+  {
+    "id": "3dc3de0e-c1c5-819f-b8d5-f2b40259ec24",
+    "title": "Sam Altman calls for pacing AI development but promises rapid progress will continue",
+    "site": "THE DECODER",
+    "published": "2026-09-14T09:39:59.000Z",
+    "fetched": "2026-09-15T00:01:53.438Z",
+    "summary": "サム・アルトマンはAI開発のペースを緩める必要性を訴えつつも、急速な進化自体は今後も継続すると明言している。\n\n- OpenAIのCEOであるサム・アルトマンは、先進的なAI開発において、全米規模の統一された安全フレームワークや自主的な安全プロトコルの導入を求めている。\n- ペースを落とすことは開発の停止を意味せず、安全対策と監視を優先するために、あえて最速ではない速度で急速な進歩を続ける方針を示している。\n- アントロピックのダリオ・アモデイ、ディープマインドのデミス・ハサビス、マイクロソフトのサティア・ナデラ、イーロン・マスクといった業界の主要リーダーたちも、制御されたAI開発への支持を表明している。\n- OpenAI、Anthropic、Googleなどの大手企業は、独立した監視機関を通じた自主規制について数ヶ月にわたり協議を重ねている。\n- コヒールなどの小規模な企業からは、こうした大手主導の動きが業界におけるカルテル（独占的同盟）につながるのではないかと懸念の声も上がっている。",
+    "url": "https://the-decoder.com/sam-altman-calls-for-pacing-ai-development-but-promises-rapid-progress-will-continue/"
+  },
+  {
+    "id": "3dc3de0e-c1c5-81c4-906f-ca91f4bde50f",
+    "title": "Quoting Laurie Voss",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-09-14T14:34:29.000Z",
+    "fetched": "2026-09-15T00:02:01.181Z",
+    "summary": "ソフトウェア開発におけるコスト構造の変化と今後のエンジニアの役割\n\n- AIの普及によりコードを書くコストが激減し、それに伴いレビューや修正、運用コストも低下しつつある\n- ソフトウェア制作の本質は、「人々が本当に求めているものの把握」「正確な定義」「使いやすさの追求」の3点に残されるようになる\n- 需要に上限がないためソフトウェアの総量は無限に増え続け、開発コストが下がった結果、要件定義やUXの向上にかかるコストが仕事の大部分を占めるようになる\n- 記事は、ローリー・ボス氏の「We are all Product Engineers now」という文章からの引用として、サイモン・ウィリソン氏のブログに2026年9月に投稿されたものである",
+    "url": "https://simonwillison.net/2026/Sep/14/laurie-voss/"
+  },
+  {
+    "id": "3dc3de0e-c1c5-8157-b56b-ebeeb22a8786",
+    "title": "DeepSeek V4.1 Flash beats Astra on AA's new benchmark",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-14T01:37:44.000Z",
+    "fetched": "2026-09-15T00:02:09.269Z",
+    "summary": "DeepSeek V4.1 Flashが新ベンチマークでAstraを圧倒\n\n- DeepSeek V4.1 Flashが、AA（Artificial Analysis）が新しく導入したベンチマークテストにおいて、Astraの性能を上回る結果を記録した。\n- この成果は、最新のAIモデル開発競争において、DeepSeekの技術力が非常に高いレベルに達していることを示している。\n- 新しいベンチマークは、AIモデルの処理速度、効率性、および精度をより多角的に評価するために設計されたものである。\n- 今回の比較結果は、AI業界における勢力図や、各社モデルの優位性に大きな影響を与える可能性がある。\n- 今後、両社のさらなる性能向上や、他の主要モデルとの比較検証がどのように展開されるのかに注目が集まる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfpwhj/deepseek_v41_flash_beats_astra_on_aas_new/"
+  },
+  {
+    "id": "3dc3de0e-c1c5-8116-9793-c1982ca066c9",
+    "title": "RTX PRO 5500 Blackwell (84GB) released",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-14T08:19:57.000Z",
+    "fetched": "2026-09-15T00:02:18.335Z",
+    "summary": "RTX PRO 5500 Blackwell（84GB）が発売\n\n- Blackwellアーキテクチャを採用した最新のプロフェッショナル向けGPU「RTX PRO 5500 Blackwell」がリリースされた。\n- 最大の特徴として、大規模なAIモデルの学習や推論、高負荷なデータ処理に最適化された大容量84GBのメモリを搭載している。\n- ワークステーション向けに設計されており、高度な3Dレンダリングやデータサイエンス、シミュレーション処理において圧倒的なパフォーマンスを発揮する。\n- 企業向けの高信頼性と安定性を兼ね備え、プロフェッショナルなクリエイターやエンジニアの作業効率を大幅に向上させるモデルとなっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfxi36/rtx_pro_5500_blackwell_84gb_released/"
+  },
+  {
+    "id": "3dc3de0e-c1c5-81a5-920b-f71553d3525d",
+    "title": "Right to Intelligence. Protect your right to run local AI.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-14T02:24:07.000Z",
+    "fetched": "2026-09-15T00:02:27.403Z",
+    "summary": "ローカルAIを実行する権利を保護することの重要性と、個人が自身の知性を守るための「知る権利（Right to Intelligence）」の確立を訴えている。\n\n- 個人が自身のデバイスでAIを自由に動かす権利「Right to Intelligence」を保護する必要がある。\n- クラウド依存のAIではなく、ローカルAIの活用によってプライバシーとデータ主権が守られる。\n- テクノロジーの集中管理に対抗し、AI技術へのアクセスを民主化することが求められる。\n- AIの実行権限を大企業や政府に独占させず、一般ユーザーの手に取り戻すことが重要である。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfqwfh/right_to_intelligence_protect_your_right_to_run/"
+  },
+  {
+    "id": "3dc3de0e-c1c5-817b-b188-df2e4663d25d",
+    "title": "UkisAI Swift-Qwen3.8-27B / -58.3% thinking, x1.95 speed while keeping the accuracy of xhigh",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-14T15:57:17.000Z",
+    "fetched": "2026-09-15T00:02:34.838Z",
+    "summary": "UkisAI Swift-Qwen3.8-27B：高精度を維持しつつ思考時間を58.3%削減し、1.95倍の高速化を実現\n\n- 「UkisAI Swift-Qwen3.8-27B」は、最高水準（xhigh）の精度を維持しながら、効率的な処理を実現したAIモデルである。\n- 従来のモデルと比較して、思考時間を58.3%短縮することに成功している。\n- 処理速度は1.95倍に向上しており、より素早い応答が可能となっている。\n- 高い精度と高速化を両立させたことで、実用性とパフォーマンスが大幅に改善されている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wg7dd5/ukisai_swiftqwen3827b_583_thinking_x195_speed/"
+  },
+  {
+    "id": "3dc3de0e-c1c5-81b9-a219-eb9c7f384a76",
+    "title": "Nvidia's RTX 5090 vanishes from online retail in the US — third-party sellers now demand as much as $9,500 for Nvidia's fastest GPU",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-14T20:12:31.000Z",
+    "fetched": "2026-09-15T00:02:42.254Z",
+    "summary": "NvidiaのRTX 5090がアメリカのオンラインショップから姿を消し、転売ヤーによって最大9,500ドルもの高額で販売されている。\n\n- Nvidiaの最上位GPU「RTX 5090」が、アメリカのオンライン小売市場から完全に姿を消す事態となっている。\n- 在庫不足に乗じたサードパーティの転売ヤーが、オークションサイトなどで最大9,500ドルという法外な価格を要求している。\n- 本来の想定価格を大幅に上回るプレミアム価格での取引が横行しており、通常のゲーマーやクリエイターの入手が極めて困難になっている。\n- 供給不足の原因や公式からの再入荷時期については、現時点で明確になっていない。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wgeo55/nvidias_rtx_5090_vanishes_from_online_retail_in/"
+  },
+  {
+    "id": "3dc3de0e-c1c5-81e4-9d8e-ca4b0467b7f0",
+    "title": "v0.34.1",
+    "site": "Ollama Blog",
+    "published": "2026-09-14T22:14:03.000Z",
+    "fetched": "2026-09-15T00:02:49.923Z",
+    "summary": "Ollama v0.34.1 リリース情報\n\n- AI関連ツールやモデルを実行・管理できるオープンソースソフトウェア「Ollama」のGitHubリポジトリにおける、バージョン0.34.1のリリースページである。\n- ページ内にはGitHubの標準的なナビゲーションメニューや、コード、Issues、Pull requestsといった開発者向けの機能タブが含まれている。\n- リポジトリの統計情報として、フォーク数（17.9k）やスター数（181k）などが確認できる。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc1"
+  },
+  {
+    "id": "3dc3de0e-c1c5-8191-9248-f26fa18c2b88",
+    "title": "v0.34.1-rc0: MLX: version bump (#18235)",
+    "site": "Ollama Blog",
+    "published": "2026-09-14T16:49:46.000Z",
+    "fetched": "2026-09-15T00:02:57.502Z",
+    "summary": "ollama/ollama v0.34.1-rc0リリース：MLXのバージョン更新に関する変更\n\n- Ollamaプロジェクトのリリース候補版「v0.34.1-rc0」に関するGitHub上のページである。\n- 本リリースの主な内容は、Appleシリコン向けの機械学習フレームワークである「MLX」のバージョンバンプ（更新）が含まれていることである（プルリクエスト #18235）。\n- GitHub上の公開リポジトリ「ollama/ollama」における更新情報であり、コードの変更、問題管理、プルリクエストなどの開発者向け機能へのリンクが含まれている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc0"
+  },
+  {
+    "id": "3dc3de0e-c1c5-814a-b57b-e8ad062e07d6",
+    "title": "Accelerating Dropless MoE Training in JAX with NVIDIA Transformer Engine",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-09-14T16:39:15.000Z",
+    "fetched": "2026-09-15T00:03:05.273Z",
+    "summary": "NVIDIA Transformer EngineとJAXによるDropless MoE学習の高速化\n\n- NVIDIA GB200およびGB300ハードウェアにおいて、JAXとNVIDIA Transformer Engineを活用することで、Mixture of Experts（MoE）学習のスループットが最大10.4倍（DeepSeek-V3で103から1,068 TFLOPS/GPU）に向上した。\n- Dropless MoEの採用により、トークンのドロップやパディングなしで全ての処理を行い、モデル品質を維持しつつ、Transformer Engineのグループ化GEMMカーネルで可変トークン数を効率的に処理する。\n- NCCL EPによるエキスパート並列処理の最適化により、ディスパッチとコンバインのステージを統合し、トークンの重複排除を行ってネットワークトラフィックを削減している。\n- JAXのホストオフロードやXLAのマルチストリーム集合通信などの最適化手法により、メモリボトルネックの軽減と、NVLinkおよびInfiniBandファブリックを跨ぐ通信のオーバーラップを実現した。\n- NVIDIA GB300 NVL72環境において1,024基のGPUを用いたDeepSeek-V3 671Bの学習時に、97%という高いスケーリング効率を維持する。",
+    "url": "https://developer.nvidia.com/blog/accelerating-dropless-moe-training-in-jax-with-nvidia-transformer-engine/"
+  }
+]
