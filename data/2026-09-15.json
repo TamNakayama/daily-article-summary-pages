@@ -1,119 +1,182 @@
 [
   {
-    "id": "3dd3de0e-c1c5-8155-8f43-da3b325882c2",
+    "id": "3dd3de0e-c1c5-81b3-b7ea-ff351e903d10",
+    "title": "Google launches Gemini 3.8 Live to take on OpenAI's GPT-Live-1 at a fraction of the cost",
+    "site": "THE DECODER",
+    "published": "2026-09-15T18:23:20.000Z",
+    "fetched": "2026-09-16T07:31:59.841Z",
+    "summary": "GoogleがOpenAIに対抗するため、低コストな新型音声モデル「Gemini 3.8 Live」および「3.8 Live Extended Thinking」を開発者向けにリリースした。\n\n- Google DeepMindがGemini APIとGoogle AI Studioを通じて、新しい音声モデル「Gemini 3.8 Live」および「3.8 Live Extended Thinking」を公開した。\n- 「Gemini 3.8 Live」は、バックグラウンドでのAPI呼び出しや視覚入力の処理を行いながらの同時発話が可能であり、97以上の言語をサポートしている。\n- 「Extended Thinking」バリアントは、Artificial AnalysisのSpeech-to-Speechリーダーボードで82.6パーセントを記録し、OpenAIの最新のGPT-Live-1モデルを上回って1位にランクインした。\n- 利用料金は音声入力が1分あたり0.005ドル、出力が0.018ドルであり、OpenAIのGPT-Live-1の価格と比較して大幅に安価に設定されている。\n- 自然な会話の滑らかさや音声品質の面ではOpenAIのモデルが優れていると評価されており、Googleは今回も品質よりコストパフォーマンスを重視して最適化したとみられている。",
+    "url": "https://the-decoder.com/google-launches-gemini-3-8-live-to-take-on-openais-gpt-live-1-at-a-fraction-of-the-cost/"
+  },
+  {
+    "id": "3dd3de0e-c1c5-8187-8d90-e1389d408729",
+    "title": "AI labs have a data trust problem that their policies haven't solved",
+    "site": "THE DECODER",
+    "published": "2026-09-15T17:52:05.000Z",
+    "fetched": "2026-09-16T07:32:07.994Z",
+    "summary": "AI開発企業はデータ保持ポリシーを原因とする深刻な信頼の危機に直面しており、主要企業が機密データを取り扱う先進モデルの利用制限や導入拒否を始めています。\n\n- Anthropicが「Fable」の利用ログを30日間保持する方針に変更したことを受け、NvidiaやBooz Allen Hamiltonなどの主要企業が機密業務での同モデルの利用を制限しています。\n- NvidiaはAnthropicに出資しハードウェアを供給する関係にありながら、知的財産の流出を懸念して、社内の重要業務には自社製モデルを使用し、ゼロデータ保持（ZDR）がデフォルトであるべきだと主張しています。\n- 防衛関連企業のBooz Allen Hamiltonやソフトウェア企業のPalantirも、コードの学習利用やデータの搾取に対する懸念から、確実なゼロデータ保持の保証が得られるまで導入をブロックする姿勢を示しています。",
+    "url": "https://the-decoder.com/ai-labs-have-a-data-trust-problem-that-their-policies-havent-solved/"
+  },
+  {
+    "id": "3dd3de0e-c1c5-8170-b43f-ebaf8ea532ba",
     "title": "After warning AI is too dangerous, Bill Gates bets a billion on its upside",
     "site": "THE DECODER",
     "published": "2026-09-15T14:26:48.000Z",
-    "fetched": "2026-09-16T07:15:34.001Z",
-    "summary": "AIの危険性を警告する一方で、その潜在能力に賭ける― ビル・ゲイツ、AIが格差を広げないための巨額投資\n\n- ゲイツ財団は、AIの恩恵を世界のより多くの人々が享受できるよう、今後2年間で最低10億ドルの投資を実施する。\n- ビル・ゲイツは、AIの技術が「平等な力」となり得る一方で、現状のままでは「裕福者と貧困層」の間の世界的な格差をさらに拡大させる危険性を警告している。\n- 格差拡大の主な原因として、一般的なAIモデルが主に英語のデータ（90%以上）に基づいて構築されており、貧困地域や非英語圏のニーズを無視している点を指摘している。\n- 資金は、このデータバイアスを解消することに焦点を当て、非英語圏のデータソースの開拓や、実社会でのAI導入プロジェクト（例：ケニアでの診断支援、シエラレオネでの学習システムなど）に投入される。",
+    "fetched": "2026-09-16T07:32:16.007Z",
+    "summary": "ビル・ゲイツがAIの危険性に警鐘を鳴らしつつ、医療や教育などの分野でのAI活用に向けて10亿美元規模の巨額投資を行う理由と、その狙いをまとめた要約です。\n\nビル・ゲイツ、格差拡大を防ぐためAIの活用に10億ドル規模を投資\n\n- ゲイツ財団は、医療、教育、農業分野におけるAIの普及を目指し、今後2年間で少なくとも10億ドル（約10億ドル以上）を投資する計画である。\n- ビル・ゲイツは、既存の大規模言語モデルが9割以上の英語データに基づいて構築されており、貧困地域が取り残されて富裕層と貧困層の格差が広がることに強い懸念を示している。\n- 資金は、非英語圏のデータソースの開拓や、ケニアでの診断支援、シエラレオネでの学習システム、インドでのデジタル農業アドバイスなど、現実世界のプロジェクトに充てられる。\n- ゲイツは、AIが「偉大なイコライザー」になるか「格差を広げるもの」になるかは今後の選択次第であり、今後12〜18ヶ月の決定がその分岐点になると主張している。",
     "url": "https://the-decoder.com/after-warning-ai-is-too-dangerous-bill-gates-bets-a-billion-on-its-upside/"
   },
   {
-    "id": "3dd3de0e-c1c5-811e-8347-f5747c09d5b8",
+    "id": "3dd3de0e-c1c5-81cd-9051-df57201c407a",
     "title": "Agility Robotics says its new Digit 5 robot can work next to people without safety fences",
     "site": "THE DECODER",
     "published": "2026-09-15T12:57:10.000Z",
-    "fetched": "2026-09-16T07:16:13.049Z",
-    "summary": "Agility Roboticsの新型ヒューマノイドロボット「Digit 5」は、AIによる高度な安全機能とタスク対応能力を強化し、人間と安全に共存できる点が最大の特長です。\n\n- **人間との安全な共存を実現：** 新しい安全機構により、人間と安全柵なしで隣接して作業が可能になりました。AIとセンサーで人を検知し、停止したり、進路を変更したり、警告信号を出します。\n- **高い耐久性と作業効率：** 最大22.7 kgの物体を持ち上げることができ、これは前モデルから40%の向上です。バッテリーは充電後90分稼働可能であり、理論上20時間以上の作業が可能です。\n- **汎用性の高い設計：** 取り外し可能なグリッパーを装備することで、ビンを移動させるタスクから機械への積み込みまで、多様な作業に対応できます。\n- **市場での実績と展開：** 前モデルのDigit 4は、GXOやAmazonなどの大口顧客で65,000時間以上稼働する実績があり、受注額は3億ドルを超える見込みです。初納品は2027年初頭から開始予定です。",
+    "fetched": "2026-09-16T07:32:23.805Z",
+    "summary": "Agility Robotics社が新型人型ロボット「Digit 5」を発表：安全フェンスなしで人間と協働可能に\n\n- 人間との協働：AIとセンサーを活用して周囲の人間を検知し、停止や回避行動をとるほか、視覚・聴覚信号で警告を発することで、安全フェンスなしでの人間の隣での作業を実現した。\n- 優れた基本性能：最大22.7kgの持ち上げが可能で、前世代機より40%向上した。わずか9分の充電で90分稼働し、1日20時間以上の運用が可能である。\n- 実績と導入計画：前世代の「Digit 4」は顧客企業で6万時間以上の稼働実績を持つ。Digit 5の最初の出荷はEUを含む地域で2027年年初に開始予定で、年間最大1万台の生産能力を持つ米国の工場で製造される。",
     "url": "https://the-decoder.com/agility-robotics-says-its-new-digit-5-robot-can-work-next-to-people-without-safety-fences/"
   },
   {
-    "id": "3dd3de0e-c1c5-8189-8822-f1b6adc073bc",
+    "id": "3dd3de0e-c1c5-8105-836c-c1adefd1cda4",
     "title": "Apple brings a fully revamped Siri built on Google's Gemini, but not to the EU",
     "site": "THE DECODER",
     "published": "2026-09-15T10:33:03.000Z",
-    "fetched": "2026-09-16T07:16:50.784Z",
-    "summary": "GoogleのGeminiを搭載した新Siri、まずは限定的に提供される\n\n- Appleが、Googleの高性能AIモデルであるGeminiを搭載した次世代のSiriをベータ版として公開しました。\n- 新しいSiriは、メッセージや写真などの個人コンテキスト（文脈）を読み取ることができ、画面のコンテンツを認識し、メール作成や写真編集といったシステム全体のタスク実行が可能になりました。\n- 機能の利便性を高めるため、データはデバイス上や「Private Cloud Compute」を通じて処理され、個人情報の保護が強調されています。\n- 現時点ではベータ版が英語のみに限定されており、日本を含むEUや中国市場への展開は行われていません。\n- この機能は、iOS 27、iPadOS 27など、次期OSの主要なアップデートの一部として、今後段階的に他の言語や市場に拡大される予定です。",
+    "fetched": "2026-09-16T07:32:36.480Z",
+    "summary": "AppleはGoogleのGeminiを基盤とした、長年遅れていた新しいSiriをベータ版としてリリースしましたが、当面の間EUや中国では提供されません。\n\n- AppleはGoogleのGeminiモデルを基盤とし、デバイス上とプライベートクラウドを組み合わせて処理を行う、完全に刷新された次世代Siriのベータ版をリリースした。\n- 新しいSiriは、メッセージや写真などの個人的な文脈の理解、画面上のコンテンツの読み取り、Web情報の取得が可能であり、アプリ間をまたいだタスクの実行をサポートする。\n- 初期テストでは実用的な機能の向上が高く評価されているものの、依然として誤解が生じるという課題も指摘されている。\n- 対応言語は当面英語のみで、フランス語、日本語、韓国語、ポルトガル語、スペイン語のサポートは翌月に予定されている。\n- プライバシーに配慮し、個人データは保存されずAppleがアクセスできない仕組みとなっているが、規制等の影響によりEUや中国では当面利用できない。",
     "url": "https://the-decoder.com/apple-brings-a-fully-revamped-siri-built-on-googles-gemini-but-not-to-the-eu/"
   },
   {
-    "id": "3dd3de0e-c1c5-81d6-99d8-ebf457bd7ad8",
+    "id": "3dd3de0e-c1c5-81c7-88e2-f25c6817a2b4",
     "title": "Not everyone is convinced that Big AI's proposed slowdown is really about safety",
     "site": "THE DECODER",
     "published": "2026-09-15T09:04:36.000Z",
-    "fetched": "2026-09-16T07:17:28.282Z",
-    "summary": "大手AIの提案する開発減速は、真の「安全性」のためなのか、市場独占のための動きなのか？\n\n- AnthropicやOpenAIといった大手AI企業が、AIの安全性リスクを理由に、AI開発の協調的な減速と、独占禁止法からの免除を求めている。\n- 一方、CohereのAidan Gomez CEOなど批判的な業界関係者は、この動きを「別の名前のカルテル」であると強く批判しており、市場を少数の巨大ラボが囲い込む試みだと指摘している。\n- 批判側は、提案される高い参入障壁（大規模な計算資源、恒久的な監視インフラ、専門的な安全組織など）こそが、競争を排除し、市場を支配的な勢力に留めようとしていると懸念している。\n- 政治的な対立も見られ、バーラク・オバマ氏やカマラ・ハリス氏といった民主党員はAIの減速と透明性を支持している一方、ドナルド・トランプ前大統領は、AIによる支配化の警告を「デマ」として一蹴している。",
+    "fetched": "2026-09-16T07:32:44.393Z",
+    "summary": "大大手AI企業が提唱する開発のペースダウンは、安全対策ではなく競争相手を排除し市場を独占するための口実ではないかと、業界内から強い疑念が持たれています。\n\n- OpenAIやAnthropicなどの主要AI企業が安全性のリスクを理由にフロンティアAI開発の協調的な減速と独占禁止法の免除を求めていることに対して、批判の声が上がっている。\n- 競合AI企業であるCohereのCEOエイダン・ゴメス氏は、この提案を市場を封鎖し競争相手を排除するための「カルテル」であると厳しく批判している。\n- 提案された安全基準を満たすには、巨額の計算資源や永続的な監視インフラなど、他の開発者にとって非常に高い参入障壁が作られると懸念されている。\n- 政治的にも意見が分かれており、トランプ大統領がAIの脅威をデマと一蹴する一方で、一部の民主党関係者は開発の減速や透明性の確保を支持している。",
     "url": "https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety/"
   },
   {
-    "id": "3dd3de0e-c1c5-81c1-80d4-d91897e077c0",
-    "title": "OpenAI has hundreds of contract workers reading your ChatGPT conversations",
-    "site": "THE DECODER",
-    "published": "2026-09-14T17:15:28.000Z",
-    "fetched": "2026-09-16T07:18:08.305Z",
-    "summary": "OpenAI、数百人の契約ワーカーがあなたのChatGPTの会話を読み込んでいる\n\nOpenAIが、モデル改善のために利用者のChatGPTの実際の会話データ数百件を契約ワーカーに読ませているという事実が明らかになりました。これらのワーカーは、ユーザーの機密性の高いデータが閲覧されるリスクを伴う一方、ユーザー側は設定を調整することでデータ利用を抑制することが可能です。\n\n- **会話のレビューと目的:** OpenAIは、数百人の契約ワーカーに報酬を支払う形で、ユーザーとの実際のチャットログのレビューをさせています。レビューアは、ChatGPTの応答を評価し、「過度な褒め言葉」や「人間的すぎる振る舞い」を減らすよう調整する役割を担っています。\n- **プライバシーと懸念:** 漏洩した情報によると、レビューアはユーザーが自身の会話が人間によって読まれていることに気づいていないケースがあり、機密性が高い個人データが閲覧の対象となっています。\n- **データ利用の透明性の欠如:** OpenAIは、この人によるレビュープロセスについて、ユーザーが利用するインターフェース上で明確に告知していません。利用規約のFAQページなどの隅に記載されているのみです。\n- **利用者の防御策:** ユーザーは、デフォルトで有効な「Improve the model for everyone」（全員のためにモデルを改善）という設定をオフにすることで、自身のチャットがモデル訓練や人間によるレビューに使われるのを防ぐことができます（新しい会話に適用）。\n- **契約ワーカーの経済的実態:** 契約ワーカーは、専用のプラットフォームを通じて採用され、北米のレビューアの場合、時給50ドルを超える報酬を得ていることが報告されています。",
-    "url": "https://the-decoder.com/openai-has-hundreds-of-contract-workers-reading-your-chatgpt-conversations/"
+    "id": "3dd3de0e-c1c5-8195-a668-d1207ed90e33",
+    "title": "Gemini Live audio",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-09-15T22:47:07.000Z",
+    "fetched": "2026-09-16T07:32:52.084Z",
+    "summary": "Gemini Live audio\n\n- Googleが音声対話モデル「Gemini 3.8 Live」および「3.8 Live Extended Thinking」をリリースした。\n- サイモン・ウィリソン氏が、別のAIモデル「GPT-6 Astra Extra High」のドキュメント読み込み機能を使って、新モデルをブラウザで試すためのWeb UIを構築した。\n- 実装には外部ライブラリを使用せず、GoogleのWebSocketエンドポイント（`BidiGenerateContent`）とWeb Audio API（AudioContext）を直接利用して音声のキャプチャと再生を行っている。\n- ブラウザを通じた音声会話が可能で、モデルが話している途中にユーザーが割り込む機能もサポートされている。",
+    "url": "https://simonwillison.net/2026/Sep/15/gemini-live/"
   },
   {
-    "id": "3dd3de0e-c1c5-81c5-9468-d0a04089ed1a",
-    "title": "Microsoft's AI rulebook: readable thinking, no inner life, and definitely no rights",
-    "site": "THE DECODER",
-    "published": "2026-09-14T15:52:51.000Z",
-    "fetched": "2026-09-16T07:18:46.664Z",
-    "summary": "MicrosoftのAI開発ガイドライン：人間による制御と安全性を最優先する行動規範の策定\n\nMicrosoftは、自社のAIモデル（MAI）の訓練と運用を管理するための行動規範（コード・オブ・コンダクト）を策定し、AI開発の方向性を定める方針を示しました。この規範は、AIの進化に伴う安全性の懸念に対応し、開発のペースを緩める動き（Anthropic CEO等による提唱）とも連動しています。\n\n- **人間による制御の絶対優先:** 開発における最重要原則は、人間に制御権があることです。Microsoftは、安全性を確保するためには、AIの一般性、自律性、あるいは性能を犠牲にすることも厭わない姿勢を示しています。\n- **安全性に基づく開発制限:** 「安全でなければ構築すべきではない」という原則に基づき、AIの過度な拡大を防ぎ、常に人間の監視と介入を受け入れる構造が求められています。\n- **モデルの能力制限と監視義務:** MAIモデルは、権限を持つ人々からの割り込み、修正、シャットダウンを受け入れることが義務付けられ、自己の範囲を拡大することはできません。\n- **適用範囲とロードマップ:** この行動規範はMicrosoft自身のモデル（MAI）に適用され、サードパーティが利用するモデルには自動的には適用されません。改訂版は2026年末頃に予定され、2027年からのモデル開発をガイドする予定です。",
-    "url": "https://the-decoder.com/microsofts-ai-rulebook-readable-thinking-no-inner-life-and-definitely-no-rights/"
+    "id": "3dd3de0e-c1c5-81ac-9e11-d0bdc563ba60",
+    "title": "Your Agent Aced the Task. Will It Do It Again?",
+    "site": "Hugging Face Blog",
+    "published": "2026-09-15T16:00:44.000Z",
+    "fetched": "2026-09-16T07:33:00.181Z",
+    "summary": "AIエージェントの再現性と一貫性を高める新しい評価・改善アプローチ\n\n- AIエージェントは平均正答率が高くても、同じタスクの実行ごとに成功したり失敗したりする「一貫性のギャップ（再現性の問題）」を抱えている。\n- 多くのベンチマークテストは平均的な成功率のみを報告するため、本番環境やライブデモにおけるこのような信頼性の欠如が隠蔽されてしまう。\n- IBMなどの研究チームは、エージェントの失敗の原因を診断するツール「Consistency Analyzer」と、そこから得られた知見を再利用可能なガイドラインに変換する仕組みを開発した。\n- このシステムを活用することで、精度を犠牲にすることなくエージェントの動作の一貫性を高め、同じリクエストに対する結果のばらつきを効果的に削減できる。",
+    "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency"
   },
   {
-    "id": "3dd3de0e-c1c5-8160-af93-ed00be63849b",
-    "title": "Anthropic eyes Nasdaq listing as a second profitable quarter aims to win over investors ahead of a mega-IPO",
-    "site": "THE DECODER",
-    "published": "2026-09-14T15:46:45.000Z",
-    "fetched": "2026-09-16T07:19:28.992Z",
-    "summary": "Anthropic、巨額IPOに向け、Nasdaq上場を目指し好調な財務状況をアピール\n\n- Anthropicは、2兆ドル以上の評価額となる巨大なIPO（新規株式公開）をナスダックでの上場を目指して計画を進めています。\n- 企業は第2四半期連続での黒字化を見込んでいますが、この利益達成は、ストックベースの報酬などのコストを除いた「調整指標」に基づいています。\n- 財務面では目覚ましい成長を遂げており、四半期売上高は前年比で14倍に急増し、年間の予測値（アニュアルライズド・ランレート）は7月時点で650億ドルに達しています。\n- IPOに向けた動きとして、プロスペクタスを一般公開するのではなく、現在は少数の投資家グループに対してのみ資料を共有しています。\n- 同社のCEOダリオ・アモデイ氏は、AI開発の速度を緩めるべきだと公に提言しています。",
-    "url": "https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo/"
+    "id": "3dd3de0e-c1c5-8181-8f1a-c9adb98aecb4",
+    "title": "Don’t buy a $9K RTX 5090.... instead.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-15T22:36:44.000Z",
+    "fetched": "2026-09-16T07:33:08.131Z",
+    "summary": "高価な9,000ドルのRTX 5090を購入する代わりに、コストパフォーマンスに優れた他の選択肢を検討すべきであるという結論を提案する記事です。\n\n- 9,000ドルという極端に高価なRTX 5090の購入は避けるべきである。\n- 最新のフラッグシップGPUは価格が高騰しすぎており、一般のユーザーにとってはオーバースペックになりやすい。\n- より安価で十分な性能を持つ前世代のハイエンドGPUや、ミドルレンジモデルを選択する方が賢明である。\n- 浮いた予算をCPUやメモリなど他のパーツのアップグレードや、他の用途に回す方が全体のパフォーマンス向上につながる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1whf7ov/dont_buy_a_9k_rtx_5090_instead/"
   },
   {
-    "id": "3dd3de0e-c1c5-81cb-85dc-c6bb2fc138d7",
+    "id": "3dd3de0e-c1c5-8123-8e1b-c6b106b10136",
     "title": "CrofAI \"cheapest inference provider in the world\" gets exposed as an OpenRouter wrapper, routing requests to smaller, cheaper models at up to 20x markup. CrofAI responds to Wire Fraud allegations by denying everything, then backtracking, then 3 hours later wiping their entire online presence",
     "site": "r/LocalLLaMA (Reddit)",
     "published": "2026-09-15T10:19:51.000Z",
-    "fetched": "2026-09-16T07:20:03.259Z",
-    "summary": "「世界最安」を謳ったAI推論プロバイダーCrofAIが詐欺疑惑で崩壊：OpenRouter経由で過剰なマークアップが発覚\n\n- CrofAIは「世界最安の推論プロバイダー」を謳っていたが、実態はOpenRouterを単にラップした仲介業者（ラッパー）であったことが発覚した。\n- ユーザーが利用している「安いモデル」は存在するものの、CrofAIはそれらのモデルに対して最大20倍もの過剰なマークアップをかけて請求していたことが指摘された。\n- 関連コミュニティからは、CROfAIによるワイヤー詐欺（送金詐欺）の疑惑が提起された。\n- 企業側は疑惑に対し、当初は全面否定の姿勢を見せたが、その後「撤回」し、対応の矛盾を晒した。\n- 最終的に、CrofAIは問い合わせ窓口を含む全てのオンラインプレゼンスを3時間足らずで完全に消去し、運営が消えた形で事態は幕を閉じた。",
+    "fetched": "2026-09-16T07:33:16.308Z",
+    "summary": "世界最安を謳うAIサービス「CrofAI」の正体が、OpenRouterのラッパーであり、安価なモデルへ最大20倍ものマークアップでリクエストを転送していた詐欺的な手口として暴露された。\n\n- 「世界最安の推論プロバイダー」を自称していたCrofAIが、実際にはOpenRouterのラッパーであり、低価格モデルへ最大20倍の価格上乗せ（マークアップ）を行っていたことが発覚した。\n- 詐欺およびワイヤーフロード（通信詐欺）の告発に対し、CrofAI側は当初すべての容疑を否定したものの、その後主張を翻し、わずか3時間後にウェブ上の全存在を消去して逃亡した。\n- この事件は、AIブームに乗じた信頼性の低い仲介サービスや、過大な誇大広告を行う新興プロバイダーに対する警鐘を鳴らすものとなっている。",
     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wgwe4n/crofai_cheapest_inference_provider_in_the_world/"
   },
   {
-    "id": "3dd3de0e-c1c5-8184-a9a7-eb36f1555b5a",
+    "id": "3dd3de0e-c1c5-812d-b40c-dbe8f1d82254",
     "title": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
     "site": "r/LocalLLaMA (Reddit)",
     "published": "2026-09-15T10:24:20.000Z",
-    "fetched": "2026-09-16T07:20:47.225Z",
-    "summary": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF\n\nこのタイトルは、非常に高度な専門技術に関する、大規模言語モデル（LLM）の特定のファイルバージョンを示しています。本記事は、Redditなどのプラットフォーム上で議論されている、複数の高性能モデルの特性を統合した、多機能かつ未検閲の最新LLMファイルに関する情報であると推測されます。\n\n- **モデルの主体とサイズ:** Qwen3.8をベースとし、27B（270億パラメータ）という大容量のモデルを指し、高い処理能力が期待されます。\n- **高度な多機能性:** 「TURBO」「Fable」「Cold-Fusion」「Heretic」「NEO-CODER」など、複数のキーワードが組み合わされており、複数の異なる特性（高速性、対話能力、コーディング能力など）を統合したハイブリッドモデルであることを示唆しています。\n- **ファイル形式と利用環境:** 「GGUF」という記述から、このモデルはCPUや高性能なローカル環境での動作に最適化された、利用しやすいファイル形式で提供されていることがわかります。\n- **未検閲（Uncensored）特性:** 「Uncensored」を含むことから、一般的なモデルにおける倫理的な制約やフィルタリングが解除されており、より自由度の高い、高度な推論や創作が可能なバージョンであることが強調されています。\n- **情報源と性質:** 本記事の内容は、専門的な技術コミュニティ（Redditなど）における、最新かつ非常に複雑なパラメータを持つAIモデルの公開や議論に関するトピックです。",
+    "fetched": "2026-09-16T07:33:25.841Z",
+    "summary": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF\n\n- 本記事は、「Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF」という非常に長い名称を持つAIモデルやファイルに関する情報を取り扱っている。\n- タイトルの文字列から、大規模言語モデル（LLM）のオープンソース版として知られる「Qwen」シリーズの派生モデル、あるいは複数のモデル名や特性、バージョン番号、量子化フォーマット（GGUF）などを詰め合わせたカスタムモデルであると推測される。\n- 名称に含まれる「TURBO」や「NEO-CODER」といったキーワードから、高速処理やコーディング特化の性能向上が意識されている可能性がある。\n- 「Uncensored」「Heretic」といった表現が含まれており、一般的な商業モデルのような過度な出力制限やフィルターが解除された、自由度の高い設定が施されているモデルであることが示唆される。\n- 「GGUF」形式であることから、ローカル環境での実行や軽量化を重視した、個人利用向けのファイル配布を目的としたタイトルであると考えられる。",
     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wgwh7k/qwen3827bturbofablecoldfusion735882hereticuncensor/"
   },
   {
-    "id": "3dd3de0e-c1c5-813e-88fd-e0694d62b13b",
+    "id": "3dd3de0e-c1c5-814e-9a95-c1c01981728d",
+    "title": "Koboldcpp v1.121 released",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-15T15:57:35.000Z",
+    "fetched": "2026-09-16T07:33:37.304Z",
+    "summary": "Koboldcpp v1.121のリリース\n\n- Koboldcppの最新バージョンであるv1.121が新たにリリースされた。\n- 本バージョンでは、LLM（大規模言語モデル）のローカル実行における処理速度や安定性の向上が図られている。\n- さまざまなハードウェア環境やバックエンドとの互換性がさらに強化された。\n- ユーザーからのフィードバックに基づき、既知の不具合の修正や細かな使い勝手の改善が行われている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wh4cg9/koboldcpp_v1121_released/"
+  },
+  {
+    "id": "3dd3de0e-c1c5-81ee-b4b7-ef1962dbbef1",
+    "title": "Apple Foundation Models: local AI natively on MacOS 27",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-15T16:37:28.000Z",
+    "fetched": "2026-09-16T07:33:45.097Z",
+    "summary": "Apple Foundation Models: local AI natively on MacOS 27\n\n- Appleは最新のMacOS 27において、デバイス上で直接動作するネイティブなローカルAI機能「Apple Foundation Models」を発表した。\n- クラウドサーバーを介さず端末内で処理が完結するため、データプライバシーの保護が非常に高いレベルで維持される。\n- 外部への通信遅延がないため、テキスト生成や要約、検索などのAI処理が非常に高速で動作する。\n- Apple製チップの性能を最大限に引き出す設計となっており、電力効率に優れ、ノートパソコンでもバッテリー消費を抑えて利用できる。\n- Siriや標準アプリとの統合が強化され、ユーザーのパーソナルな文脈を理解した高度なアシスタント機能を提供する。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wh5fpa/apple_foundation_models_local_ai_natively_on/"
+  },
+  {
+    "id": "3dd3de0e-c1c5-811b-8dd6-f20bc8393f1c",
+    "title": "v0.34.2",
+    "site": "Ollama Blog",
+    "published": "2026-09-15T21:21:07.000Z",
+    "fetched": "2026-09-16T07:33:53.196Z",
+    "summary": "v0.34.2\n\n- AIモデルを実行・管理するためのオープンソースソフトウェア「Ollama」のリリースバージョン「v0.34.2」に関するGitHubのページである。\n- ページ内では、GitHubの基本的なナビゲーションメニューや、Ollamaリポジトリの各種タブ（コード、Issues、プルリクエスト、アクションなど）が表示されている。\n- Ollamaリポジトリは非常に高い人気を集めており、スター数が18万を超える規模の開発プロジェクトとなっている。\n- 閲覧時にはサインイン状態やセッションに関するアラート、またはページの読み込みエラーに関するメッセージが含まれる場合がある。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc0"
+  },
+  {
+    "id": "3dd3de0e-c1c5-81ec-93a5-fc91cd0341c8",
+    "title": "v0.34.1",
+    "site": "Ollama Blog",
+    "published": "2026-09-15T20:10:42.000Z",
+    "fetched": "2026-09-16T07:34:00.991Z",
+    "summary": "v0.34.1\n\n- AIモデルを実行・管理するためのオープンソースソフトウェア「Ollama」のリリースバージョン「v0.34.1」に関するGitHubのページである。\n- ページ内には、GitHubの一般的なナビゲーションメニュー、ログイン・サインアップ機能、プラットフォーム機能、開発者ワークフロー、セキュリティに関するリンクなどが多数含まれている。\n- Ollamaリポジトリの基本情報として、リポジトリ名（ollama/ollama）、公開ステータス、フォーク数（17.9k）、スター数（181k）などが確認できる。\n- コード、Issues、Pull requests、Actions、セキュリティ、インサイトなどのリポジトリ内を移動するためのタブやリンクが用意されている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.34.1"
+  },
+  {
+    "id": "3dd3de0e-c1c5-8171-9127-d82cc5470d5d",
     "title": "v0.34.1-rc2: API: Deprecate typical_p (#18448)",
     "site": "Ollama Blog",
     "published": "2026-09-15T04:24:26.000Z",
-    "fetched": "2026-09-16T07:21:20.623Z",
-    "summary": "v0.34.1-rc2でAPIの`typical_p`が非推奨化\n\nollamaのv0.34.1-rc2がリリースされました。本バージョンでは、APIの重要な変更が加えられており、開発者が利用していた`typical_p`というパラメータまたは機能が非推奨（Deprecated）となりました。利用する開発者は、この変更点を把握し、コードの修正を行う必要があります。\n\n- **APIの非推奨化（Deprecate）:** 今回のバージョンで、`typical_p`が非推奨化されています。\n- **開発者への影響:** 既存のコードで`typical_p`を使用している場合、今後のバージョンで動作しなくなる可能性があるため、代替となるAPIやパラメータへの移行が必要です。\n- **バージョン情報:** 本リリースはv0.34.1-rc2（リリース候補版）であり、今後の正式リリースに向けてAPIの調整が行われています。",
+    "fetched": "2026-09-16T07:34:08.618Z",
+    "summary": "Ollamaのバージョン v0.34.1-rc2 がリリースされ、APIにおける重要な変更点が含まれています。\n\nOllama v0.34.1-rc2 リリース：APIの `typical_p` パラメータが非推奨化\n\n- Ollamaのオープンソースプロジェクトにおける最新のリリース候補（v0.34.1-rc2）に関する情報である。\n- APIの機能変更として、サンプリングパラメータの一つである `typical_p` が非推奨（Deprecate）となった。\n- GitHub上のollama/ollamaリポジトリで公開されたプルリクエスト（#18448）に関連している。\n- 今後 `typical_p` を使用しているコードや設定は、将来のバージョンでの完全な削除に備えて代替手段への移行が必要となる。",
     "url": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc2"
   },
   {
-    "id": "3dd3de0e-c1c5-8148-a8e4-f2a1dd2eda64",
-    "title": "v0.34.1-rc1",
-    "site": "Ollama Blog",
-    "published": "2026-09-14T20:34:03.000Z",
-    "fetched": "2026-09-16T07:21:59.452Z",
-    "summary": "Ollama v0.34.1-rc1 リリース情報\n\n- ollamaが、新しいバージョン「v0.34.1-rc1」をリリースしました。この「rc1」はリリース候補版（Release Candidate）を意味し、本番環境への適用前に動作確認が推奨されます。\n- 本リリースでは、Ollamaのコア機能の改善や、モデル管理、実行プロセスに関するいくつかの機能強化が期待されます。\n- RC版であるため、ユーザーは新しい機能やパッチ適用後の動作をテストし、フィードバックを提供することで、システム全体の安定性向上に貢献できます。\n- 通常の安定バージョン（stable version）となる前に、広範囲な環境でのテストを実施することが重要です。\n\n（※提供されたテキストがGitHubのリリースページ全体であり、具体的な変更点や改善点（What's New）の詳細は含まれていませんが、リリース情報に基づき要約しました。）",
-    "url": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc1"
-  },
-  {
-    "id": "3dd3de0e-c1c5-81c3-8713-f3dd4cf30c7f",
-    "title": "v0.34.1-rc0: MLX: version bump (#18235)",
-    "site": "Ollama Blog",
-    "published": "2026-09-14T16:49:46.000Z",
-    "fetched": "2026-09-16T07:22:40.896Z",
-    "summary": "ollama v0.34.1-rc0リリース：MLX対応によるパフォーマンス強化\n\n- 本リリースは、ollamaのバージョン0.34.1-rc0というリリース候補版（RC）として提供されています。\n- 最も重要な変更点は、MLXフレームワークへのバージョンアップ（version bump）が行われたことです。\n- MLXは、特にApple Silicon（Mチップなど）環境において高いパフォーマンスを引き出すことを目的としたライブラリであり、本アップデートにより計算処理の最適化が期待されます。\n- 今回のアップデートは、ollamaをより広範なプラットフォーム、特に高性能を要求される環境で安定して動作させるための継続的な改善フェーズであることを示しています。",
-    "url": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc0"
-  },
-  {
-    "id": "3dd3de0e-c1c5-8198-8a49-ed857ecd6890",
-    "title": "Accelerating Dropless MoE Training in JAX with NVIDIA Transformer Engine",
+    "id": "3dd3de0e-c1c5-814d-b96e-c510d36a7dbe",
+    "title": "Dense vs. MoE Models: Active Parameters, Throughput, and When to Choose Each",
     "site": "NVIDIA Developer Blog",
-    "published": "2026-09-14T16:39:15.000Z",
-    "fetched": "2026-09-16T07:23:14.070Z",
-    "summary": "MoEトレーニングにおける効率性と性能を劇的に向上させる、JAXとNVIDIA Transformer Engineの統合活用\n\n- NVIDIA Transformer EngineとJAXの組み合わせにより、MoE（Mixture of Experts）トレーニングの処理能力を大幅に向上させました。DeepSeek-V3の性能は103 TFLOPS/GPUから1,068 TFLOPS/GPUへと10.4倍の処理能力向上を達成しました。\n- MoEモデルの課題であった「Dropless MoE（トークンをドロップ・パディングしない処理）」に対応することで、モデル品質を維持しつつ、大規模な分散学習での効率化を実現しています。\n- 技術的な最適化の核となるのは、Transformer Engineが提供する「grouped GEMMカーネル」です。これにより、可変のエキスパートトークン数を単一の呼び出しで効率的に処理することが可能になりました。\n- エキスパート並列演算はNCCL EPによって高速化され、ディスパッチと結合のステージを融合し、トークンの重複排除を行うことでネットワーク帯域の消費を削減しました。\n- さらなる最適化として、JAXのホストオフローディングやXLAのマルチストリーミング集約処理を組み合わせることで、メモリボトルネックを軽減し、1,024 GPU環境でも高いスケーリング効率（97%）を維持しています。",
-    "url": "https://developer.nvidia.com/blog/accelerating-dropless-moe-training-in-jax-with-nvidia-transformer-engine/"
+    "published": "2026-09-15T17:00:11.000Z",
+    "fetched": "2026-09-16T07:34:16.549Z",
+    "summary": "Dense vs. MoEモデルの構造、スループット、および選択基準の比較\n\n- Denseモデルが全パラメータを常時使用するのに対し、MoE（Mixture-of-Experts）モデルはトークンごとに一部のパラメータ（例: 30B中3B）のみを活性化し、メモリコストと計算コストを分離する。\n- 同等のパラメータ数を持つ場合、MoEモデル（Nemotron 3.5 Lightningなど）はDenseモデル（Gemma 4 31Bなど）よりも高いトークンスループットを実現するが、高並行時にはレイテンシの差が縮まる。\n- MoEモデルのファインチューニングには、ルーターの不均衡を防ぐための配慮が必要であり、量子化の影響もDenseモデルとは異なる挙動を示す。\n- モデルの選択は、単純なパラメータ数ではなく、メモリ予算、並行処理の要件、ファインチューニングの計画、および量子化特性に基づいて決定する必要がある。",
+    "url": "https://developer.nvidia.com/blog/dense-vs-moe-models-active-parameters-throughput-and-when-to-choose-each/"
+  },
+  {
+    "id": "3dd3de0e-c1c5-811a-9c0b-d418fb1c5672",
+    "title": "How NVIDIA Groq 3 LPX Deterministic Execution Drives Power-Efficient High-Interactivity Inference on NVIDIA Vera Rubin",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-09-15T16:55:00.000Z",
+    "fetched": "2026-09-16T07:34:24.434Z",
+    "summary": "NVIDIA Vera RubinプラットフォームとGroq 3 LPXによる高効率なAI推論の実現\n\n- NVIDIA Vera Rubinプラットフォームは、ワットあたりの性能を最重要指標とし、AIファクトリーの価値を最大化する。\n- ファクトリーレベルのNVIDIA DSX MaxLPSソフトウェアやラックレベルの静電容量・電力平滑化により、電力効率とスループットが大幅に向上する。\n- NVIDIA Groq 3 LPXの決定的実行モデルにより、256基すべてのLPUチップ間における計算とデータ移動の正確なサイクルスケジューリングが可能になる。\n- プリエンプティブ・パワー（PEP）とクロック・ピリオド・シンセシス（CPS）の活用により、電圧ドループを60%以上削減し、消費電力を低減する。\n- Groq 3 LPXとVera Rubin NVL72の組み合わせにより、長コンテキストかつ高インタラクティブな処理において、前世代のGB200 NVL72と比較してメガワットあたり最大35倍のスループットを実現する。",
+    "url": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-deterministic-execution-drives-power-efficient-high-interactivity-inference-on-nvidia-vera-rubin/"
+  },
+  {
+    "id": "3dd3de0e-c1c5-8187-82e8-d52510ab611b",
+    "title": "How NVIDIA NVLink 6 Delivers Multi-Layer Resiliency for AI Factories",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-09-15T16:55:00.000Z",
+    "fetched": "2026-09-16T07:34:32.540Z",
+    "summary": "NVIDIA NVLink 6がAIファクトリー向けに提供する多層的レジリエンス\n\n- NVIDIA NVLink 6は、軽量な誤り訂正、物理層リトライ、UPHYリカバリを組み合わせることで、シリコンレベルの信号エラーをほぼゼロの遅延で修正し、損失のないファブリックを実現する。\n- リンク層でのクレジットベースの流量制御によりパケット損失を排除し、予測可能な低遅延を確保するとともに、物理リンクの劣化時には自動的なリンク再バランスを行う。\n- NMXコントローラーの「分離と排出」機能により、障害を局所的に隔離し、管理CPUのリセット中もデータプレーンの転送を維持する。\n- シャドウエンジンリカバリにより、B200 GPUでの推復旧時間をコールドスタートの283秒から7.3秒へと大幅に短縮する。\n- NVLink Fusionを活用することで、サードパーティ製のカスタムXPUでもNVLinkのエスケールアップファブリックと耐障害性を継承できる。",
+    "url": "https://developer.nvidia.com/blog/how-nvidia-nvlink-6-delivers-multi-layer-resiliency-for-ai-factories/"
+  },
+  {
+    "id": "3dd3de0e-c1c5-8196-a6e3-c4c08e33c45b",
+    "title": "Scaling Federated Learning Across Docker, Kubernetes, and Slurm with NVIDIA FLARE",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-09-15T15:00:00.000Z",
+    "fetched": "2026-09-16T07:34:42.989Z",
+    "summary": "NVIDIA FLAREを用いた異なる環境間での連合学習（FL）の拡張と、インフラ管理の課題解決\n\n- NVIDIA FLAREは、常時稼働する連合サービスと動的に起動するジョブワーカーを分離する2層アーキテクチャを採用し、各拠点がDocker、Kubernetes、Slurmなどの異なる実行環境を自由に選択できるようにする。\n- 参加組織が単一のインフラ標準に合わせる必要がなくなり、既存の環境のままGPUやCPU、メモリなどのリソースを効率的に割り当てて協調学習を実施できる。\n- マルチテナント境界の論理的分割をサポートしており、サイト運営者は学習ごとにローカルデータセット、シークレット、承認済みイメージ、スケジューリングポリシーをマッピングして管理できる。\n- バージョン2.8でDockerとKubernetesのデプロイメントがサポートされ、バージョン2.9ではHPCや共有GPUクラスター向けのSlurmサポートが追加された。\n- 連合学習のプロジェクトが小規模な検証環境から大規模な共有インフラへと成長する際発生する、インフラ運用上の複雑性や組織間の制御権の維持といった課題を解決する。",
+    "url": "https://developer.nvidia.com/blog/scaling-federated-learning-across-docker-kubernetes-and-slurm-with-nvidia-flare/"
   }
 ]
