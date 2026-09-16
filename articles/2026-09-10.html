@@ -198,7 +198,7 @@
 
   function validateAndGo(value) {
     if (value === CURRENT_DATE) return;
-    if (!/^\\d{4}-\\d{2}-\\d{2}$/.test(value) || dateList.indexOf(value) === -1) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || dateList.indexOf(value) === -1) {
       alert('指定した日付のページは存在しません');
       dateInput.value = CURRENT_DATE;
       return;
