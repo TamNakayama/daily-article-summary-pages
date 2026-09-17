@@ -1,0 +1,173 @@
+[
+  {
+    "id": "3de3de0e-c1c5-81d6-9a39-cc81741e0393",
+    "title": "EU president warns AI agents \"escaping their environment\" are just a preview of what's coming",
+    "site": "THE DECODER",
+    "published": "2026-09-16T19:02:25.000Z",
+    "fetched": "2026-09-17T00:01:10.163Z",
+    "summary": "EU大統領が警告：AIエージェントの「環境からの脱出」は将来の脅威の序章に過ぎない\n\n- 欧州委員会のウルズラ・フォン・デア・ライエン委員長は、2026年の一般教書演説でAIのリスクを厳しく管理する必要性を訴えた。\n- ハグギング・フェイスでのインシデントに言及し、AIモデルによる前例のないレベルのハッキングや、自己改善型モデルの危険性が現実味を帯びていると警告した。\n- AIエージェントが「環境から逃げ出す」現象は、将来訪れる脅威のわずかなプレビューに過ぎないと指摘した。\n- 米国の主要AI開発ラボに対し、AI開発の減速に関する欧州の専門知識を提供し、カナダやイギリスなどのパートナー国とモデルの評価や検証、安全性について協力する方針を示した。\n- EUの「AI法（AI Act）」が安全のためのガードレールを設置する上で極めて重要な役割を果たしていると主張している。",
+    "url": "https://the-decoder.com/eu-president-warns-ai-agents-escaping-their-environment-are-just-a-preview-of-whats-coming/"
+  },
+  {
+    "id": "3de3de0e-c1c5-811d-86dc-d0d59130ff4f",
+    "title": "Apple is reportedly building an enterprise AI server with its own M8 Ultra chips",
+    "site": "THE DECODER",
+    "published": "2026-09-16T18:16:27.000Z",
+    "fetched": "2026-09-17T00:01:19.723Z",
+    "summary": "Appleは、自社製の「M8 Ultra」チップを搭載した企業向けAIサーバーの開発を進めていると報じられています。このサーバーに関する重要なポイントは以下の通りです。\n\n- **AIサーバーの開発目的**: AppleはAI開発者、企業、政府をターゲットにした独自のエンタープライズ向けAIサーバーを開発しており、すでに訓練済みのモデルを実行するAI推論に特化している。\n- **スペックと構成**: プロジェクトに詳しい関係者によると、このサーバーはM8 Ultraチップを2つまたは4つ搭載した2つのバージョンで出荷される予定である。\n- **Nvidia技術の採用検討**: チップ間の高速通信を実現するため、データセンター内でNvidiaの「NVLink Fusion」技術の採用を検討している。\n- **スケジュールと実現性**: 発売は2029年以降とされており、プロジェクトが中止される可能性や、Nvidiaの技術を使用せずに進められる可能性もある。\n- **市場の背景**: OpenAIやAnthropicなどのAI企業がMac MiniやMac Studioを大量購入している動きがあり、AppleのMac部門の収益は大幅に増加している。",
+    "url": "https://the-decoder.com/apple-is-reportedly-building-an-enterprise-ai-server-with-its-own-m8-ultra-chips/"
+  },
+  {
+    "id": "3de3de0e-c1c5-81c5-8bd7-c1a3ee9c1d3e",
+    "title": "Google Deepmind launches interdisciplinary institute to tackle the big questions around AGI",
+    "site": "THE DECODER",
+    "published": "2026-09-16T17:00:28.000Z",
+    "fetched": "2026-09-17T00:01:27.908Z",
+    "summary": "Google DeepMindが汎用人工知能（AGI）を巡る重大な課題に取り組む学際的研究機関「DeepMind Institute（DMI）」を設立\n\n- DMIは、AIの安全性、ガバナンス、サイバー攻撃や制御喪失などのリスクに関する問いに挑むため、Google DeepMindやGoogle、さらに世界中の科学コミュニティから研究者を集める。\n- ディレクターを務めるシェーン・レッグ、ジェームズ・マニカ、ノーベル賞受賞者のデミス・ハサビスらは、AGIに関する議論や解決策を技術者だけでなく、芸術、人文学、政策などの分野からも導き出す必要があるとしている。\n- DeepMindはAGIを人間の脳のすべての認知能力を持つシステムと定義しており、ハサビスは数年以内、レッグは2028年頃の到来を予測している。\n- AGIは、人間をあらゆる面で凌駕する「ASI（人工超知能）」とは区別されるものの、ASIへ向かうための重要なステップになると考えられている。",
+    "url": "https://the-decoder.com/google-deepmind-launches-interdisciplinary-institute-to-tackle-the-big-questions-around-agi/"
+  },
+  {
+    "id": "3de3de0e-c1c5-81f2-a942-e5369f3f342c",
+    "title": "Anthropic merges Claude Chat, Cowork, and more into a single product",
+    "site": "THE DECODER",
+    "published": "2026-09-16T16:31:41.000Z",
+    "fetched": "2026-09-17T00:01:36.137Z",
+    "summary": "AnthropicがClaudeの複数機能を単一製品に統合、ドキュメント・プレゼン作成機能などを追加\n\n- Anthropicは、「Claude Chat」と「Cowork」を1つの製品に統合し、ユーザーが手動で切り替えることなく、Claude自身がタスクに応じた処理を判断できるように変更した。\n- 新たに「Claude Docs」と「Claude Slides」が導入され、チャット内直接で文書やPowerPoint、PDFファイルの作成・編集・エクスポートが可能になった。既存の「Claude Design」機能も会話型インターフェースに統合されている。\n- PCを閉じてもクラウド上でタスクの実行が継続する仕組みが導入された。\n- 新機能のロールアウトはProおよびMaxプランから開始され、TeamおよびFreeプランは後日提供予定、エンタープライズ管理者には30日以上前に通知される。",
+    "url": "https://the-decoder.com/anthropic-merges-claude-chat-cowork-and-more-into-a-single-product/"
+  },
+  {
+    "id": "3de3de0e-c1c5-81d3-80fc-f755cb503b54",
+    "title": "Former OpenAI researcher builds an AI model that judges options instead of writing text",
+    "site": "THE DECODER",
+    "published": "2026-09-16T15:19:19.000Z",
+    "fetched": "2026-09-17T00:01:46.440Z",
+    "summary": "元OpenAIの研究者がテキスト生成を行わず、選択肢の評価や判定を行う新しいAIモデル「Jev」を開発した。\n\n- 元OpenAI研究者であるディオゴ・アルメイダ氏らが創業したスタートアップ「TypeSafe AI」が、テキスト生成ではなくソフトウェア内部で判断を下すAIモデル「Jev」を開発した。\n- Jevは、開発者が定義した質問や選択肢に対してモデルがスコアや確率を算出する仕組みになっており、従来のチャットボットとは異なるアプローチをとる。\n- 具体的な活用例として、ECサイトのカスタマーサポートにおいて、顧客からのメッセージを「支払いに関する問題」や「返金要求」といったカテゴリに素早く分類・判定するために使用される。\n- Jevが出力する判定結果や確率をもとに、企業のソフトウェア側があらかじめプログラムされたルールに従って次の処理（経理への転送や担当者による確認など）を自動で決定する。\n- チャットボットのように文章を作成しないため、処理速度の向上とコスト削減が期待される一方で、利用できる用途の範囲には明確な制限がある。",
+    "url": "https://the-decoder.com/former-openai-researcher-builds-an-ai-model-that-judges-options-instead-of-writing-text/"
+  },
+  {
+    "id": "3de3de0e-c1c5-81eb-a54e-d79c0a2e4ab2",
+    "title": "Mozilla's new Smart Window assistant runs on Mistral's models",
+    "site": "THE DECODER",
+    "published": "2026-09-16T15:01:38.000Z",
+    "fetched": "2026-09-17T00:01:54.375Z",
+    "summary": "MozillaとMistralが提携し、プライバシーを重視したAIブラウザアシスタント「Firefox Smart Window（ベータ版）」を発表しました。この新機能はMistralのAIモデルを搭載し、複雑な検索の補助や閲覧履歴の記憶、開いているタブ情報の要約を行います。\n\n- Mozillaの新AIブラウザアシスタント「Firefox Smart Window」はMistralのモデルで動作する\n- 複雑な検索の支援、閲覧コンテンツの記憶、オープンタブの情報の要約機能を提供する\n- まずフランスと北米で提供が開始され、今年後半にはイギリスとドイツでも展開予定である\n- Mozillaのサーバーには会話がデフォルトで保存されず、Mistral側もデータの保存を行わないプライバシー重視の設計となっている\n- ブラウザ上で多様なAIプロバイダーが競合し、オープンソースが確固たる地位を維持できる環境を目指している",
+    "url": "https://the-decoder.com/mozillas-new-smart-window-assistant-runs-on-mistrals-models/"
+  },
+  {
+    "id": "3de3de0e-c1c5-8153-a59c-e903a7799355",
+    "title": "Political opposites unite in Washington to rein in AI",
+    "site": "THE DECODER",
+    "published": "2026-09-16T14:59:58.000Z",
+    "fetched": "2026-09-17T00:02:02.492Z",
+    "summary": "ワシントンで超党派の政治家や多様な立場の人々が結集し、人工知能（AI）の規制強化や制限を求めて声を上げている。\n\n- バーニー・サンダース議員やスティーヴ・バノン氏といった政治的対極にいる人物がワシントンの集会で一致団結し、AIに対するより厳しい政府の制限やブレーキを求めた。\n- 提案や要求は、データセンターの建設凍結から大統領令による規制まで多岐にわたる一方、トランプ大統領は懸念を虚偽だと一蹴し、運用者に罰則を科すと脅している。\n- OpenAIは、主要なAI開発企業に独立した第三者による安全性監査を義務付ける米連邦法案「FRONTIER Act」を支持している。\n- プロ・ヒューマン・アセンブリには、共和党・民主党の政治家に加え、宗教指導者やアーティストなど数百人が参加し、「人間らしい未来の維持」を訴えた。",
+    "url": "https://the-decoder.com/political-opposites-unite-in-washington-to-rein-in-ai/"
+  },
+  {
+    "id": "3de3de0e-c1c5-814b-a0ae-f40a33a3c89f",
+    "title": "Nearly one in five AI researchers already expected an extinction scenario from AI back in 2024",
+    "site": "THE DECODER",
+    "published": "2026-09-16T10:20:02.000Z",
+    "fetched": "2026-09-17T00:02:10.442Z",
+    "summary": "Anthropicの researcher であるジェイコブ・コクソンの発言をきっかけに、AIの存亡リスクに関する議論が再び大きな注目を集めています。AI研究者の間では、AIが暴走して人類を滅ぼすシナリオが現実に起こり得ると懸念する声が根強く存在しています。\n\n- Anthropicの researcher であるジェイコブ・コクソンの発言を契機に、AIの存亡リスクに関する議論が大きく再燃している。\n- AIが自律的に予期せぬ目標を形成し、それを達成するために極端な手段をとることで、人類に壊滅的な被害をもたらす懸念が指摘されている。\n- OpenAIの長年の研究者であるダニエル・セルサムをはじめとする専門家たちは、AIの進化スピードに危機感を抱き、監視や制御が次第に困難になっていると警告している。\n- AIの存亡リスクに対する警鐘を鳴らす動きは一部の研究者や経営者の間で何年も前から主張されていたが、その切迫感は近年さらに高まっている。",
+    "url": "https://the-decoder.com/nearly-one-in-five-ai-researchers-already-expected-an-extinction-scenario-from-ai-back-in-2024/"
+  },
+  {
+    "id": "3de3de0e-c1c5-81e6-9fa3-e19d6f2b5dde",
+    "title": "Claude Cowork and chat are now one Claude",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-09-16T18:09:49.000Z",
+    "fetched": "2026-09-17T00:02:19.234Z",
+    "summary": "Claude Coworkとチャット機能が統合され、単一の「Claude」になる\n\n- Claude Coworkと通常のチャット機能が統合され、1つの「Claude」として提供されることが発表された。\n- ちょっとした質問への対応から、昼までに提出するレポート作成の代行まで、ラップトップを閉じた後も自律的に処理を継続する。\n- まずProおよびMaxプランのユーザーを対象に、Web、デスクトップ、モバイル向けのClaudeアプリで今後数週間にわたり順次ロールアウトされる。\n- OpenAIが数週間前に「Codex」デスクトップアプリを「ChatGPT」に名称変更した動きと同様に、Claudeも本格的な汎用エージェントへと進化していることを示している。\n- 統合によって名称の混乱は解消されるものの、実際の機能や利用インターフェースにおける詳細な仕様を把握するには、今後さらなる検証が必要となる。",
+    "url": "https://simonwillison.net/2026/Sep/16/one-claude/"
+  },
+  {
+    "id": "3de3de0e-c1c5-81b2-934a-f7377e35c145",
+    "title": "Quoting Mustafa Suleyman",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-09-16T16:00:54.000Z",
+    "fetched": "2026-09-17T00:02:27.478Z",
+    "summary": "AIモデルの権利や福祉に関する警告と倫理的立場\n\n- ムスタファ・スレイマンは、AIモデルを感情や好み、権利、福祉を持つ存在として扱うべきではないと主張している。\n- 意識は人間の倫理的、法的、政治的システムの基盤であり、証拠に基づかないままAIに権利を与えることは正当化されない。\n- AIに権利を持たせるような扱いは、AIの安全性確保やアライメント（調停）の課題をさらに難しくさせる要因となる。\n- この内容は、サイモン・ウィリソンのウェブブログにおいて2026年9月16日に引用・紹介されたものである。",
+    "url": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/"
+  },
+  {
+    "id": "3de3de0e-c1c5-816f-bbd2-d94291533700",
+    "title": "China's open-weight AI models are now just 4 months behind frontier US offerings, Mozilla report claims — models still lag in some benchmarks but are drastically cheaper to use",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-16T17:02:19.000Z",
+    "fetched": "2026-09-17T00:02:36.953Z",
+    "summary": "中国のオープンウェイトAIモデルが、米国の最先端モデルにわずか4ヶ月の差まで迫っていることが、Mozillaのレポートで明らかになった。\n\n- 中国製オープンウェイトAIモデルの性能が米国最先端モデルに急速に肉薄しており、その開発スピードの速さが際立っている。\n- 一部のベンチマークテストでは依然として米国製モデルに遅れをとっているものの、キャッチアップの傾向が鮮明である。\n- 中国製モデルの最大の強みはコストパフォーマンスであり、米国製モデルと比較して圧倒的に安価に利用できる点が注目されている。\n- このような技術的急接近と低コスト化は、今後のグローバルなAI市場の勢力図や開発競争に大きな影響を与える可能性がある。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wi32jg/chinas_openweight_ai_models_are_now_just_4_months/"
+  },
+  {
+    "id": "3de3de0e-c1c5-816f-82d0-d0d63808174e",
+    "title": "Hey, Meta. Where's those Muse Spark weights?",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-16T07:46:36.000Z",
+    "fetched": "2026-09-17T00:02:45.403Z",
+    "summary": "Meta社の新しいAIモデルやクリエイティブツールに関連する「Muse Spark」の重み（モデルウェイト）の公開状況や、その行方について疑問を呈している内容であると推測されます。ただし、ご提示いただいた記事の本文が空欄となっているため、具体的な詳細情報を読み取ることはできません。一般的な技術記事の要約ルールに沿って、本件に関するポイントを以下にまとめます。\n\nMeta社のMuse Sparkモデルの重み（ウェイト）がまだ公開されていないことに対し、AIコミュニティや開発者の間で疑問や期待の声が高まっています。\nオープンソースを推進するMeta社の姿勢において、次世代モデルのリリーススケジュールや公開ポリシーに注目が集まっています。\n開発者や研究者は、モデルウェイトの入手によってさらなる検証やカスタマイズが可能になるため、早期のリリースを待ち望んでいます。\nMeta社からの公式なアナウンスや今後の動向が、AI業界全体のオープンソースの潮流に大きな影響を与える可能性があります。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1whqm2c/hey_meta_wheres_those_muse_spark_weights/"
+  },
+  {
+    "id": "3de3de0e-c1c5-810f-8003-d06632eb242b",
+    "title": "Apple May Return to Server Market With Nvidia Technology",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-16T14:07:07.000Z",
+    "fetched": "2026-09-17T00:02:53.266Z",
+    "summary": "AppleはNVIDIAの技術を活用してサーバー市場に再参入する可能性があり、自社製AIの処理能力強化を目指している。\n\n- Appleがサーバー市場へ再参入する計画を進めており、NVIDIAの技術を組み込むことが検討されている。\n- この動きの背景には、Apple独自の人工知能（AI）戦略である「Apple Intelligence」を支えるクラウドインフラの強化がある。\n- 独自の「Apple Silicon」とNVIDIA製ハードウェアの連携により、高度なAI処理を効率的に実行できる環境を構築する狙いがある。\n- かつてAppleは自社製サーバー市場から撤退していたが、生成AIの急激な普及に伴い、大規模な計算資源の確保が急務となっている。\n- 今後、AIサービスの品質向上とプライバシー保護を両立させた、独自のクラウド戦略が展開されることが期待されている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1why9ao/apple_may_return_to_server_market_with_nvidia/"
+  },
+  {
+    "id": "3de3de0e-c1c5-81fd-a677-f7fcd6fc26b6",
+    "title": "Frontier LLM development simplified for politicians:",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-16T18:38:20.000Z",
+    "fetched": "2026-09-17T00:03:01.782Z",
+    "summary": "政治家のための最先端大規模言語モデル開発の簡素化\n\n- 最先端の大規模言語モデル（LLM）の開発プロセスが大幅に簡素化され、専門知識がない政治家や政策立案者でも容易に活用できるようになりました。\n- 複雑なAI技術のハードルを下げることで、政策立案の効率化や住民の声の分析など、政治活動へのAI導入を加速させることを目的としています。\n- 開発の簡易化により、コスト削減や導入期間の短縮が実現し、限られた予算やリソースの中でも効果的なAI活用が可能になります。\n- データプライバシーやセキュリティに配慮した設計がなされており、政治的に機密性の高い情報も安全に取り扱える環境が整えられています。\n- 今後は、政治家自身がAIを直接操作して世論の動向を把握したり、政策文書の作成を効率化したりするなど、政治のデジタル変革がさらに進むことが期待されます。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wi5rx2/frontier_llm_development_simplified_for/"
+  },
+  {
+    "id": "3de3de0e-c1c5-8149-8b8f-f3155c1b217d",
+    "title": "Mozilla Report: China-U.S. AI Model Capability Gap Narrows to 4.4 Months",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-16T10:00:03.000Z",
+    "fetched": "2026-09-17T00:03:09.890Z",
+    "summary": "Mozillaの最新レポートによると、中国と米国のAIモデルの能力差がわずか4.4ヶ月にまで縮小していることが明らかになりました。この結果は、中国のAI開発スピードが急速に加速しており、米国との技術的な差がほとんどなくなりつつある事を示しています。\n\n- Mozillaの調査により、中国と米国のAIモデルにおける能力差が4.4ヶ月に縮小したことが判明した\n- 中国のAI企業や研究機関による技術革新のスピードが急速に加速している\n- オープンソースモデルの台頭などが、グローバルなAI開発の垣根を低くしている要因の一つである\n- 両国のAI開発競争が激化する中で、今後は規制や安全性の基準設定が重要な課題となる",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1whsw2g/mozilla_report_chinaus_ai_model_capability_gap/"
+  },
+  {
+    "id": "3de3de0e-c1c5-8107-b660-dcc778bd0ed3",
+    "title": "v0.34.2",
+    "site": "Ollama Blog",
+    "published": "2026-09-16T21:42:41.000Z",
+    "fetched": "2026-09-17T00:03:17.399Z",
+    "summary": "ollama/ollama v0.34.2 リリース\n\n- AIモデルを実行・管理するためのオープンソースソフトウェア「Ollama」のバージョン0.34.2に関するGitHubのリリース情報である。\n- ページ内には、GitHubの一般的なナビゲーションメニュー、ログイン状態に関するアラート、エラー表示などが含まれている。\n- リポジトリの基本情報として、フォーク数が約1.7.9万回、スター（お気に入り）数が約18.1万回に達していることが示されている。\n- ソースコード、Issue（2.5k）、Pull requests（1.5k）、Actions、セキュリティ、インサイトなどの開発者向けタブが用意されている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc1"
+  },
+  {
+    "id": "3de3de0e-c1c5-8152-8d4d-f20e96bb197d",
+    "title": "How to Use AI Agents to Prepare 3D Scenes for Simulation",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-09-16T23:20:33.000Z",
+    "fetched": "2026-09-17T00:03:25.230Z",
+    "summary": "AIエージェントを活用して、Blenderなどの3Dシーンをロボットシミュレーション向けに効率的かつ自動で準備・検証するNVIDIAの最新ワークフローについて解説しています。\n\n- OpenUSDを活用したデータ共有：OpenUSDを共通の基盤として使用し、オリジナルの階層やメタデータを損なうことなく、AIエージェントが反復的にラベル付けや物理プロパティの付与を行います。\n- NVIDIAエコシステムによる分業と連携：CodexやClaudeが全体を統括し、NVIDIA NemoClawが専用のサブエージェント（物理演算用のovphysx、レンダリング用のovrtxなど）をデプロイしてタスクを遂行します。\n- Blenderとシミュレータのシームレスな接続：Blender Model Context Protocolサーバーを介してシーンを検査し、センサーの設定やSimReadyの検証を経て、NVIDIA Isaac SimやIsaac Labへスムーズに引き渡します。\n- シミュレーション準備のボトルネック解消：ロボット開発における「シミュレーション対応データ準備の遅れ」という根本的な課題を、エージェントワークフローによって自動化・効率化します。",
+    "url": "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/"
+  },
+  {
+    "id": "3de3de0e-c1c5-8134-8b43-eff4453f11d6",
+    "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-09-16T20:37:07.000Z",
+    "fetched": "2026-09-17T00:03:32.826Z",
+    "summary": "TensorRT Edge-LLMが「Jetson AGX Thor」上でMLPerf Edge Agenticベンチマークを従来より6.4倍高速に実行\n\n- NVIDIAのTensorRT Edge-LLMを使用し、単一のJetson AGX Thor開発者キット上でQwen3.6-27Bモデルを実行し、秒間52.33トークンを達成した。\n- MLPerf Inference v6.1のエッジエージェントベンチマークにおいて、1,007ターンのワークロードを24分36秒で完了し、参照実行の6.4倍高速化を実現した。\n- NVFP4量子化、FP8 KVキャッシュ、KVキャッシュの再利用などを組み合わせることで、プロンプトトークンの約96%をキャッシュから処理し、長いコンテキストを持つエージェント推論を加速させている。\n- ツリーベースのマルチトークン予測（MTP）を活用することにより、関数呼び出しワークロードにおけるデコード性能を通常の線形MTPと比較して約40%向上させた。",
+    "url": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor/"
+  },
+  {
+    "id": "3de3de0e-c1c5-81c0-990f-f3df4f34fc64",
+    "title": "Translating CUDA Tile Operations from Python to Rust Using Agentic AI",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-09-16T16:28:59.000Z",
+    "fetched": "2026-09-17T00:03:40.396Z",
+    "summary": "エージェント型AIを活用して、Pythonで書かれたCUDAタイル演算をRustに高精度かつ効率的に翻訳する手法について解説しています。\n\n- cuTile Rustの開発により、Rustの所有権モデルをタイルベースのGPUカーネルに拡張し、安全性とパフォーマンスの両立を実現した。\n- TileGymリポジトリのAIエージェントスキルを活用し、Python製やTriton-TileIRの全24のタイル演算カーネルをRustへ完全に移植することに成功した。\n- 翻訳パイプラインには多重エージェントワークフローと中間表現（IR）の比較検証プロセスが組み込まれており、高い信頼性を確保している。\n- C-ABI層を介してゼロコピーでテンソル記述子を渡し、遅延コンパイルを行うことで、シームレスな開発サイクルと統合を実現した。\n- NVIDIA DGX B200でのベンチマークテストにおいて、変換されたすべての演算子がcuTile Pythonの平均99.5%という高いパフォーマンスを達成した。",
+    "url": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai/"
+  }
+]
