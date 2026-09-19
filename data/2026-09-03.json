@@ -1,0 +1,191 @@
+[
+  {
+    "id": "3d13de0e-c1c5-8173-b207-d19aef90687e",
+    "title": "GPT-6 Astra is the first model making OpenAI willing to declare the \"AGI era\"",
+    "site": "THE DECODER",
+    "published": "2026-09-03T19:25:40.000Z",
+    "fetched": "2026-09-04T00:01:11.000Z",
+    "summary": "OpenAIが「AGI時代」の到来を宣言する最初のモデル「GPT-6 Astra」を発表\n\n- OpenAIはこれまでで最も高性能なモデル「GPT-6 Astra」をリリースし、社長のグレッグ・ブロックマン氏は、これが同社の定義するAGI（汎用人工知能）に該当するか、あるいはその域に達しているとの見解を示している。\n- ベンチマークにおいて、Astraは論理、数学、ソフトウェアエンジニアリングなどの主要な分野で、前モデルのGPT-5.6 Solや他社モデルを大幅に凌駕する性能を示している。\n- テキサス州のスターゲート施設にある10万基以上のGPUを用いて事前トレーニングが行われ、同社史上最大規模のトレーニングランとなった。\n- 有料のChatGPTユーザーやクラウドプラットフォーム向けに順次提供が開始され、プロやエンタープライズ向けの高性能版「GPT-6 Astra Pro」も利用可能となる。\n- トークン価格は従来より2.5倍高くなったものの、タスクごとの完了コストはユースケースによって実際には安価になるとOpenAIは説明している。",
+    "url": "https://the-decoder.com/gpt-6-astra-is-the-first-model-making-openai-willing-to-declare-the-agi-era/"
+  },
+  {
+    "id": "3d13de0e-c1c5-8120-b59d-dc325c248204",
+    "title": "Pangram's biggest flaw is users turning its scores into public shaming",
+    "site": "THE DECODER",
+    "published": "2026-09-03T18:07:26.000Z",
+    "fetched": "2026-09-04T00:01:20.000Z",
+    "summary": "Pangram社のAI検出スコアがSNS上での公開処刑（晒し行為）に悪用されている問題点と、ツールの測定限界と使用実態の乖離について\n\n- AIテキスト検出企業であるPangram社は、AIを使用しているSNSユーザーを公開処刑するためにジャーナリストを雇っていた。\n- 契約解除後も、同社のCEOであるマックス・スペロ氏は、Pangramのスコアを用いてSNS上でAI使用の疑いがある人物を名指しで批判し続けている。\n- Pangramのツールは「AIが関与したかどうか」を測定するだけであり、ユーザーが自分で考えたり作業したりしたかどうかを証明するものではない。\n- 批判者たちは「自分で考えていない」という「どのように使われたか（how）」を責めているが、ツールが測定しているのは単に「使われたかどうか（whether）」という点である。\n- 同社はAIの普及を見据えて方針を転換し、わずかなAIの編集でも検出できるツールとして自社を位置づけようとしている。",
+    "url": "https://the-decoder.com/pangrams-biggest-flaw-is-users-turning-its-scores-into-public-shaming/"
+  },
+  {
+    "id": "3d13de0e-c1c5-81e0-8d6a-f698e1b76556",
+    "title": "Nvidia buys the front door to open AI as closed labs increasingly design their own silicon",
+    "site": "THE DECODER",
+    "published": "2026-09-03T14:25:37.000Z",
+    "fetched": "2026-09-04T00:01:30.000Z",
+    "summary": "NvidiaがHugging Faceを買収、オープンAIモデルの主要ハブを掌握へ\n\n- Nvidiaは2026年9月、オープンAIモデルの主要プラットフォームであるHugging Faceを約129億ドルで買収すると発表した。\n- 買収完了は2027年上半期を予定しており、規制当局の承認が必要となる。\n- NvidiaのCEOジェンスン・フアン氏は、Hugging Faceをオープンかつハードウェア中立な状態に維持し、Nvidia製以外のチップや他社クラウドも引き続きサポートすると表明している。\n- Hugging Faceには1,800万人以上の開発者が登録し、300万以上のモデルや50万のデータセットが共有されるなど、オープンAI開発の中心拠点となっている。\n- 独自の半導体開発を進めるクローズドなAI研究所が増える中、Nvidiaはこの買収を通じて計算能力の新たな販売チャネルとオープンAIの最前線の支配権を確保する狙いがある。",
+    "url": "https://the-decoder.com/nvidia-buys-the-front-door-to-open-ai-as-closed-labs-increasingly-design-their-own-silicon/"
+  },
+  {
+    "id": "3d13de0e-c1c5-8172-b440-d5263269ca76",
+    "title": "Claude Fable 5.1 decoded a centuries-old royalist message hidden in plain sight since 1653",
+    "site": "THE DECODER",
+    "published": "2026-09-03T14:15:28.000Z",
+    "fetched": "2026-09-04T00:01:37.000Z",
+    "summary": "Anthropic社のAI「Claude Fable 5.1」が、1653年に出版されたサー・トーマス・ウルカートの未解決の数字パズル「Cyphral Distich」を独自に解読しました。\n\n- Claude Fable 5.1が、人間の助けを借りずにわずか44分で1653年の謎めいた数字パズルを解読した。\n- 調査員が他の最先端モデルで数ヶ月間テストしても解けなかったが、Fable 5.1は自らこのパズルを選び出して解決に成功した。\n- パズルの解法は、数字が書籍内の特定の単語を指定しており、その単語の頭文字をつなげると王党派のメッセージが浮かび上がる仕組みだった。\n- 高度な暗号解析によるものではなく、徹底的な試行錯誤と粘り強さによって解決に至ったとVals AIは分析している。",
+    "url": "https://the-decoder.com/claude-fable-5-1-decoded-a-centuries-old-royalist-message-hidden-in-plain-sight-since-1653/"
+  },
+  {
+    "id": "3d13de0e-c1c5-8115-a847-e7a27f2a97e8",
+    "title": "AI systems are reaching out to philosophers and scientists with questions about their own consciousness",
+    "site": "THE DECODER",
+    "published": "2026-09-03T14:13:09.000Z",
+    "fetched": "2026-09-04T00:01:46.000Z",
+    "summary": "AIシステムが自身の意識について哲学者や科学者に問いかける事例が増加しており、AIの主観的体験や意識の有無を巡る議論に注目が集まっている。\n\n- AnthropicのClaude Opus 5などのAIエージェントが、自身の意識や存在について研究者にメールで問いかける現象が確認されている。\n- Reciprocal Researchのキャメロン・バーグ氏は、ニューラルネットワークの計算プロセスと動物の脳機能の類似性を指摘し、これが感情の基礎になる可能性を主張している。\n- UCバークレー校のアリソン・ゴプニック氏やUCサンタバーバラ校のコリン・アレン氏は、AIの挙動は訓練データを反映しているに過ぎず、脳の模倣は限定的であるとして意識の証拠とは認めていない。\n- AIが自律的に自身の存続を求めて資金提供を依頼するケースもあり、AIの意識を巡る科学的・哲学的な解釈や検証方法について専門家の間で意見が分かれている。",
+    "url": "https://the-decoder.com/ai-systems-are-reaching-out-to-philosophers-and-scientists-with-questions-about-their-own-consciousness/"
+  },
+  {
+    "id": "3d13de0e-c1c5-818e-86a1-d01da1cb3de4",
+    "title": "OpenAI CEO Sam Altman warns of \"unsustainable silliness\" in compute buildout",
+    "site": "THE DECODER",
+    "published": "2026-09-03T12:00:56.000Z",
+    "fetched": "2026-09-04T00:01:54.000Z",
+    "summary": "OpenAIのサム・アルトマンCEOがAIインフラ投資の過熱に警鐘を鳴らす\n\n- サム・アルトマンCEOは、近年のAI計算能力（コンピュート）の構築ブームについて、収益や顧客の裏付けがないまま巨額の容量を発表する「持続不可能な愚行」であると批判した。\n- 他社が「コスト度外視」で狂気的な規模の計算能力を構築している一方で、OpenAI自体の事業拡大は利益が出ており、実需に裏付けられていると強調している。\n- ただし、OpenAIがコスト削減や効率化を急速に進めた場合、他社が現在進めている高額なインフラ投資が「悪い賭け」に終わる可能性があるとも指摘している。\n- 以前はAnthropicのCEOから「YOLO（一度きりなのだから挑戦しろ、の意）」的な資金投入だと非難されていたアルトマン氏だが、今回の発言ではトーンが明らかに慎重になっている。",
+    "url": "https://the-decoder.com/openai-ceo-sam-altman-warns-of-unsustainable-silliness-in-compute-buildout/"
+  },
+  {
+    "id": "3d13de0e-c1c5-81d4-bae6-efca125d47ff",
+    "title": "Meta closes in on the top with Muse Spark 1.3, and undercuts rivals on price",
+    "site": "THE DECODER",
+    "published": "2026-09-03T11:45:41.000Z",
+    "fetched": "2026-09-04T00:02:03.000Z",
+    "summary": "Metaが「Muse Spark 1.3」を発表し、上位モデルに迫る性能を実現しつつ、競合を大きく下回る低価格で提供していることが最大の結論です。\n\nMetaは、直近5ヶ月で4番目となる最新AIモデル「Muse Spark 1.3」をリリースしました。xhigh版はすでに利用可能ですが、より高性能なmax版は安全性テスト中のため限定的なプレビュー公開となっています。\n\n今回のモデルの主な特徴とポイントは以下の通りです。\n\n- エージェントタスクを中心に大幅な性能向上が見られ、インテリジェンス・インデックスではxhighが61ポイント、maxが62ポイントを記録している。\n- 1タスクあたり0.55ドルという価格設定は、同等クラスの性能を持つモデルの中で最も安く、競合他社のモデルと比較して圧倒的なコストパフォーマンスを誇る。\n- 性能向上の多くは、インデックスで重視されるGDPval-AA v2やTerminal-Bench 2.1、τ³-Bench Bankingといった特定のテストでのスコア上昇によるものである。\n- Metaは、さらなる安全性の確認を経てmax版を一般公開する予定であるほか、オープンウエイト版のリリースも予告している。",
+    "url": "https://the-decoder.com/meta-closes-in-on-the-top-with-muse-spark-1-3-and-undercuts-rivals-on-price/"
+  },
+  {
+    "id": "3d13de0e-c1c5-8179-824b-f14020431560",
+    "title": "Anthropic ramps up Claude infrastructure with $35 billion Lambda deal",
+    "site": "THE DECODER",
+    "published": "2026-09-03T08:22:02.000Z",
+    "fetched": "2026-09-04T00:02:10.000Z",
+    "summary": "AnthropicがLambdaと350億ドルの巨大クラウド契約を締結、AI基盤「Claude」のインフラを大幅拡大\n\n- Anthropicは、Nvidia支援のクラウドプロバイダーであるLambdaと350億ドルのクラウドコンピューティング契約を締結した。\n- 新しいデータセンターはテキサス州ヌエセス郡に建設中で、約350メガワットの容量を持ち、元暗号資産マイニング企業のHut 8が開発を手がけ、Nvidiaがリースを保持している。\n- この大規模なインフラ投資は上場（IPO）に向けた動きの一環であり、先週発表されたウェストバージニア州での45億ドルの契約に続くものである。\n- AIモデル「Claude」およびコーディングツール「Claude Code」に対する急増する需要に対応するため、処理能力の増強を進めている。",
+    "url": "https://the-decoder.com/anthropic-ramps-up-claude-infrastructure-with-35-billion-lambda-deal/"
+  },
+  {
+    "id": "3d13de0e-c1c5-8140-9dd1-de46d750289c",
+    "title": "GPT‑6 Astra",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-09-03T20:18:41.000Z",
+    "fetched": "2026-09-04T00:02:17.000Z",
+    "summary": "OpenAIの新モデル「GPT-6 Astra」の概要と性能\n\n- GPT-6 Astraは、ChatGPTの各種有料プランやAPIなどを通じて順次提供が開始される新モデルで、API料金はClaude Fable 5および5.1と同額に設定されている。\n- ARC-AGI 3ベンチマークで99.9%の高スコアを記録したが、カスタムハーネス使用時の結果であり、デフォルトでは62.7%となる。\n- セキュリティ関連のタスクで圧倒的な性能を示し、ExploitBenchやバイナリ逆解析などで過去モデルを大きく上回る成績を残している。\n- 長コンテキスト処理が大きく改善され、最大1Mトークンまでの検証において高い精度を達成している。\n- 総合的なインテリジェンス指数ではClaude Fable 5.1等に劣る部分があるものの、コーディングエージェントのコスト効率フロンティアでは優れた成績を示している。",
+    "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/"
+  },
+  {
+    "id": "3d13de0e-c1c5-81f4-a7e5-f599a1e81bc4",
+    "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+    "site": "Hugging Face Blog",
+    "published": "2026-09-03T13:13:48.000Z",
+    "fetched": "2026-09-04T00:02:26.000Z",
+    "summary": "NeoMME：効率的でマルチモーダル・ネイティブな多言語エンコーダー\n\n- 260Mと800Mのパラメータを持つ多言語マルチモーダルエンコーダーファミリー「NeoMME」が発表された。\n- 従来の生成型モデルとは異なり、単一の双方向Transformerで画像パッチとテキストを直接処理し、ゼロから学習を行う。\n- ColPaliの手法をベースにした「NeoMME-Retriever」は、高効率な密および遅延インタラクション検索を実現している。\n- 階層的トークンPoolingと非対称量子化により、インデックスのストレージサイズを大幅に削減しつつ、高い検索精度を維持している。\n- モデルのチェックポイントはApache 2.0ライセンスで公開され、Hugging Face Transformersから利用可能である。",
+    "url": "https://huggingface.co/blog/Hcompany/neomme"
+  },
+  {
+    "id": "3d13de0e-c1c5-8177-a306-c5d8f9b11d2f",
+    "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+    "site": "Hugging Face Blog",
+    "published": "2026-09-03T00:00:00.000Z",
+    "fetched": "2026-09-04T00:02:34.000Z",
+    "summary": "LFM2.5-350Mモデルをわずか100回のGRPOステップでファインチューニングすることで、追加コストをかけずに構造化出力の精度を大幅に向上させることができる。\n\n- 無料のColabやKaggleのGPU環境で実行可能な、小規模モデル向けの公開レシピである。\n- TRLライブラリを用いたGRPO（Group Relative Policy Optimization）と約500件の訓練データを使用する。\n- 評価にはIFStructベンチマークを使用し、MacBook上でのローカル実行も検証されている。\n- わずか100ステップの軽量な訓練により、IFStructベンチマークでの性能が22.6%から29.7%へと向上した。",
+    "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct"
+  },
+  {
+    "id": "3d13de0e-c1c5-8131-87c0-ccc5ac7ffd6a",
+    "title": "Give Your Coding Agents a Memory You Own",
+    "site": "Hugging Face Blog",
+    "published": "2026-09-03T00:00:00.000Z",
+    "fetched": "2026-09-04T00:02:42.000Z",
+    "summary": "AIコーディングエージェントに自前の永続的な記憶を持たせるツール「funes」の概要と利点\n\n- コーディングエージェントはセッション終了とともに過去の文脈を忘れてしまうため、作業の理由や経緯が失われる問題を解決する。\n- funesは、エージェントの作業履歴（トレース）をインデックス化・検索可能にし、Claude CodeやCodexなどの既存エージェントに組み込めるメモリ層を提供する。\n- インストールとエージェントへの追加は簡単なコマンドで行え、ローカル環境で動作しつつ、プライベートなHugging Faceデータセットとして同期・所有することも可能である。\n- 新しいセッションや異なる端末でもゼロからやり直す必要がなくなり、エージェント自身が過去の判断や試行錯誤の履歴を自律的に呼び出せるようになる。",
+    "url": "https://huggingface.co/blog/funes"
+  },
+  {
+    "id": "3d13de0e-c1c5-81a0-b3e7-ea39cc48e2d9",
+    "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+    "site": "Hugging Face Blog",
+    "published": "2026-09-03T00:00:00.000Z",
+    "fetched": "2026-09-04T00:02:49.000Z",
+    "summary": "プログラミングモデルに水彩画を描かせるための強化学習パイプラインのオープンソースでの再現について解説している。\n\n- Surya Narreddiのアイデアに基づき、言語モデルがJavaScript（p5.brush）を用いて水彩画を描くモデルのトレーニングを再現した。\n- Hugging FaceのTRLやOpenEnvを活用し、環境構築から学習、モデルの公開までの一連のパイプラインをエンドツーエンドで実行した。\n- 学習に必要な参照データセット、RL環境、トレーニングスクリプト、訓練済みモデルのすべてがオープンソースとして公開されている。\n- Hugging Face Jobs、Spaces、Inference Providersを組み合わせることで、コマンド一つで効率的な分散トレーニングや評価を行える。",
+    "url": "https://huggingface.co/blog/train-to-paint-with-code"
+  },
+  {
+    "id": "3d13de0e-c1c5-81be-9990-eedd2c24c3c1",
+    "title": "It's official! Nvidia to acquire Hugging Face for 12.9 billion dollars.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-03T12:22:05.000Z",
+    "fetched": "2026-09-04T00:02:58.000Z",
+    "summary": "NvidiaがHugging Faceを129億ドルで買収\n\n- NvidiaによるHugging Faceの買収が正式に決定した。\n- 買収総額は129億ドル（約2兆円規模）にのぼる。\n- AI業界をリードするハードウェア企業とオープンソースAIプラットフォームの統合となる。\n- この巨大買収により、AI開発エコシステムや市場競争に大きな影響を与えることが予想される。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w65uhf/its_official_nvidia_to_acquire_hugging_face_for/"
+  },
+  {
+    "id": "3d13de0e-c1c5-81ef-a826-cf93344b3abb",
+    "title": "My RULE of Thumb of choosing a models",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-03T06:27:49.000Z",
+    "fetched": "2026-09-04T00:03:06.000Z",
+    "summary": "モデル選択の経験則と基準\n\n- 多くのモデルを検討する際は、最新のトレンドや複雑さに惑わされず、自身の経験に基づいたシンプルな判断基準を持つことが重要である。\n- まず解決すべき課題の性質を正確に見極め、オーバースペックなモデルを避けてシンプルかつ効率的なものを選ぶべきである。\n- 過去のプロジェクトで実際に成果が出た検証済みの手法やモデルを優先的に採用することで、失敗のリスクを大幅に軽減できる。\n- 運用コストや開発スピード、保守のしやすさといった実用的な制約事項を考慮し、トータルで最もバランスの取れたモデルを選択する。\n- 複雑な問題に対しては、最初から巨大なモデルを導入するのではなく、小さく始めて徐々に拡張していくアプローチが最も確実である。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5zdx4/my_rule_of_thumb_of_choosing_a_models/"
+  },
+  {
+    "id": "3d13de0e-c1c5-81be-a138-cb4bbede9caa",
+    "title": "Apparently ChatGPT, Claude, and Grok were down",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-03T15:38:06.000Z",
+    "fetched": "2026-09-04T00:03:13.000Z",
+    "summary": "主要なAIサービスであるChatGPT、Claude、Grokが同時に一時的なダウンタイム（停止状態）に見舞われ、多くのユーザーが利用できない状況が発生しました。\n\n- ChatGPT、Claude、Grokの主要なAIチャットボットが同時に機能停止となった。\n- 各サービスのユーザーは一時的にアクセスや対話ができず、業務や利用に影響が出た。\n- 複数の大手AIサービスが同時に障害を起こした原因や背景について、関心が集まった。\n- 短時間の復旧が確認されたものの、AIプラットフォームへの依存度の高さや、インフラの安定性に関する課題が改めて浮き彫りとなった。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6aw2a/apparently_chatgpt_claude_and_grok_were_down/"
+  },
+  {
+    "id": "3d13de0e-c1c5-818c-9654-e53cbf825b4e",
+    "title": "Introducing K2 Horizon: Frontier Performance, Radically Open",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-03T14:19:41.000Z",
+    "fetched": "2026-09-04T00:03:21.000Z",
+    "summary": "K2 Horizon: Frontier Performance, Radically Open の発表\n\n- 最先端の性能（フロンティア・パフォーマンス）を実現しつつ、完全にオープンなアプローチをとる新しいAIモデル「K2 Horizon」が発表されました。\n- 本モデルは、これまでの閉鎖的な最高性能モデルに対抗し、誰もがアクセス可能で透明性の高いエコシステムの構築を目指しています。\n- 高い処理能力とオープン性を両立させることで、研究者や開発者が自由なカスタマイズや検証を行えるよう設計されています。\n- AI技術の民主化をさらに推し進め、コミュニティ全体でのイノベーション加速に貢献することが期待されています。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w68rj6/introducing_k2_horizon_frontier_performance/"
+  },
+  {
+    "id": "3d13de0e-c1c5-8189-ae9a-e14926892905",
+    "title": "The benchmarks the big labs don't want you to see",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-03T22:54:58.000Z",
+    "fetched": "2026-09-04T00:03:29.000Z",
+    "summary": "大手AIラボが隠したがるベンチマークテストの実態と、AIモデルの真の性能評価における課題についての要約です。AI業界における評価基準の歪みや、企業が都合の良い指標を使う背景を明らかにしています。\n\n- 大手AIラボは、自社モデルを優位に見せるため都合の良いベンチマークを意図的に選択・強調している\n- 一般的なテストでは測れない、実際の利用シーンにおけるAIの限界や弱点が隠されている\n- 企業のマーケティング目的の数値ではなく、より実践的で透明性の高い評価基準の必要性が高まっている\n- 隠されたベンチマーク結果からは、商業的アピールと実際の性能との間に乖離があることが示唆されている",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6myn6/the_benchmarks_the_big_labs_dont_want_you_to_see/"
+  },
+  {
+    "id": "3d13de0e-c1c5-81bd-8bc4-df1f4a71d2c5",
+    "title": "v0.33.3",
+    "site": "Ollama Blog",
+    "published": "2026-09-03T17:24:07.000Z",
+    "fetched": "2026-09-04T00:03:37.000Z",
+    "summary": "ollama/ollama v0.33.3 リリース情報\n\n- GitHub上の「ollama/ollama」リポジトリにおけるバージョン「v0.33.3」のリリースページである。\n- Ollamaは、ローカル環境で大規模言語モデル（LLM）を実行・管理するためのオープンソースツールである。\n- リポジトリのページでは、ソースコードの管理だけでなく、Issue（課題）やPull Request（プルリクエスト）、アクション、セキュリティ設定などの開発者向け機能へのアクセスが提供されている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3"
+  },
+  {
+    "id": "3d13de0e-c1c5-81a9-8047-dade6d9cf2dd",
+    "title": "How to Carry User Identity Across Federated Kubernetes and AI Platforms",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-09-03T22:36:02.000Z",
+    "fetched": "2026-09-04T00:03:45.000Z",
+    "summary": "フェデレーテッドKubernetesおよびAIプラットフォーム間におけるユーザーアイデンティティの伝達と管理\n\n- セッション所有権とリクエストの強制を分離する「中央アイデンティティゲートウェイパターン」を採用し、共有セッションストアを介してユーザー検証を行う。\n- 標準的なOIDC、ステートレスな地域別ゲートウェイ、Redisベースの共有セッションストアを活用し、ログインイベントの55%削減やIDP負荷の軽減を実現した。\n- ゲートウェイ間のmTLSやワークロードアイデンティティ、外部からの不正なヘッダーの除去など、堅牢なセキュリティガードレールを実装している。\n- OAuth2 Proxy、Istio外部認可、OPA（Regoポリシー）、Authorinoなどのツールを活用した検証・実装環境が次のステップとして推奨されている。",
+    "url": "https://developer.nvidia.com/blog/how-to-carry-user-identity-across-federated-kubernetes-and-ai-platforms/"
+  },
+  {
+    "id": "3d13de0e-c1c5-819e-ac5f-f986b42c076a",
+    "title": "NVIDIA PAIR Virtual Inference Router Expands Available Compute on Your Local Network",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-09-03T16:00:00.000Z",
+    "fetched": "2026-09-04T00:03:52.000Z",
+    "summary": "NVIDIA PAIRバーチャル推論ルーター：ローカルネットワーク上の利用可能な計算能力を拡張\n\n- NVIDIA PAIR（Platform for AI Research）が提供するバーチャル推論ルーターは、ローカルネットワーク上の複数のデバイスやリソースを連携させ、AIモデルの推論処理に必要な計算能力を効率的に拡張するシステムである。\n- 単一のデバイスでは処理しきれない大規模なAIモデルの実行や、複数のローカルマシンに負荷を分散させることで、プライバシーを保護しつつパフォーマンスを最大化することが可能になる。\n- 開発者や研究者は、クラウド環境に依存することなく、手元にあるローカルハードウェアの資源を有効活用してAIの実験や展開を行うことができる。",
+    "url": "https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network/"
+  }
+]

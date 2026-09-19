@@ -1,0 +1,137 @@
+[
+  {
+    "id": "3ce3de0e-c1c5-812a-a7c2-ff8205dfc185",
+    "title": "Bank of England chief warns that inflated AI valuations and rising leverage could trigger the next financial crisis",
+    "site": "THE DECODER",
+    "published": "2026-08-31T18:01:21.000Z",
+    "fetched": "2026-09-01T00:01:10.000Z",
+    "summary": "イングランド銀行総裁のアンドリュー・ベイリー氏は、G20財務相宛ての書簡で、過熱するAI関連の株価評価と市場のレバレッジの拡大が、次の金融危機を引き起こす可能性があると警告しました。\n\n- イングランド銀行総裁のアンドリュー・ベイリー氏が、AIの過大な評価額や市場のレバレッジ上昇、最先端AIモデルによるサイバーリスクが世界金融システムの新たな脅威になるとG20財務相に警告した。\n- 多くの投資家が借入金（レバレッジ）を利用してAI関連の投機を行っており、レバレッジ型ETFやヘッジフラットの動向が市場間の連鎖的な混乱を招きやすい状況にある。\n- AI企業や巨大テック企業（ハイパースケーラー）の間で複雑なクロス投資の網が広がっており、主要なAI企業の失速が他のテック大手や広範な市場全体を引きずり下ろす危険性が指摘されている。",
+    "url": "https://the-decoder.com/bank-of-england-chief-warns-that-inflated-ai-valuations-and-rising-leverage-could-trigger-the-next-financial-crisis/"
+  },
+  {
+    "id": "3ce3de0e-c1c5-81b5-95d9-fd49dc958dcb",
+    "title": "Instagram admits users often can't tell AI profiles from real people",
+    "site": "THE DECODER",
+    "published": "2026-08-31T17:27:43.000Z",
+    "fetched": "2026-09-01T00:01:19.000Z",
+    "summary": "InstagramにおけるAIプロフィールの増加と、ユーザーが人間と区別できなくなっている現状についての発表です。Meta社は透明性を高めるため、対策や新しいラベルの導入を進めています。\n\nInstagramにおけるAIプロフィール対策の要約は以下の通りです。\n\n- Instagramは、ユーザーがAIプロフィールと本物の人間を区別できず混乱していることを認めました。\n- ユーザーからの不満の声を受け、従来の「AIクリエーター」タグを廃止し、新たに「AI生成プロフィール」という分かりやすいラベルへ変更します。\n- 新しいラベルを付けないAIアカウントは、検索結果やおすすめ機能における表示のリーチが制限される仕組みになります。\n- ただし、単に制作ツールとしてAIを活用しているだけのクリエーターにはこのラベルは不要であり、規程に沿ってオプトインすればこれまで通りのリーチを維持できます。\n- ソーシャルメディア全体でAI生成コンテンツや偽のアカウントが急増しており、プラットフォーム側での適切な表示や管理の重要性が増しています。",
+    "url": "https://the-decoder.com/instagram-admits-users-often-cant-tell-ai-profiles-from-real-people/"
+  },
+  {
+    "id": "3ce3de0e-c1c5-81a0-8380-f0474081469b",
+    "title": "OpenAI says its ChatGPT ad business hits a $1 billion annual run rate",
+    "site": "THE DECODER",
+    "published": "2026-08-31T15:24:59.000Z",
+    "fetched": "2026-09-01T00:01:26.000Z",
+    "summary": "OpenAIのChatGPT広告事業が年間換算売上高（ランレート）10億ドル規模に到達\n\n- OpenAIは、ChatGPTの広告事業が開始から約200日足らずで年間換算売上高10億ドルに達したと発表し、これを事業の多角化を示す成果としてアピールしている。\n- 同社は大型IPOを控えており、8,520億ドルという巨額の企業評価を正当化するため、法人向け顧客やサブスクリプション、API利用料に続く新たな収益源として広告事業を急成長させている。\n- ChatGPTの広告は現在40か国以上で展開されており、インド、ヨーロッパ、中東、北アフリカではセルフサービス型オプションの提供が新たに開始された。\n- 広告は無料ユーザーおよびGoプランのユーザーに対して表示される仕様となっており、明確なラベリングが行われるほか、回答への影響排除やプライバシー保護が強調されている。",
+    "url": "https://the-decoder.com/openai-says-its-chatgpt-ad-business-hits-a-1-billion-annual-run-rate/"
+  },
+  {
+    "id": "3ce3de0e-c1c5-8196-8f7d-c76060a1860c",
+    "title": "China's CXMT makes its first HBM3E chips, closing the AI memory gap",
+    "site": "THE DECODER",
+    "published": "2026-08-31T15:17:31.000Z",
+    "fetched": "2026-09-01T00:01:34.000Z",
+    "summary": "中国の半導体大手CXMTが初のHBM3Eチップの少量生産を開始、AIメモリのギャップ縮小へ\n\n- 中国の主要メモリメーカーである長辛メモリテクノロジーズ（CXMT）が、AIプロセッサに不可欠なHBM3Eチップの少量生産を初めて開始した。\n- サムスン、SKハイニックス、マイクロンなどの業界トップ企業がすでにHBM4を量産しているため、CXMTの技術水準は1世代遅れている状況にある。\n- アリババのT-Headやカンブリコンがこのメモリのテストを実施しており、2027年からの製品への搭載を計画している。\n- 米国の輸出規制によって先進的なHBMチップの購入が制限される中、今回の動きは中国独自のAIチップ開発におけるハードルの一つを軽減する可能性がある。\n- 半導体分析企業SemiAnalysisによれば、CXMTは技術的に3〜5年遅れており、6月時点の良品歩留まりは約25%と低迷している。",
+    "url": "https://the-decoder.com/chinas-cxmt-makes-its-first-hbm3e-chips-closing-the-ai-memory-gap/"
+  },
+  {
+    "id": "3ce3de0e-c1c5-812e-b7b3-c87282114903",
+    "title": "ChatGPT now faces stricter EU oversight as a very large search engine",
+    "site": "THE DECODER",
+    "published": "2026-08-31T14:31:37.000Z",
+    "fetched": "2026-09-01T00:01:41.000Z",
+    "summary": "ChatGPTがEUのデジタルサービス法（DSA）における「超大型検索エンジン」に指定され、より厳しい規制の対象となります。\n\n- 欧州委員会は、ウェブ検索機能を持ちEU域内の月間利用者が45万人を超えるChatGPTを、超大型検索エンジンに初めて指定した。\n- RedditとRobloxも、ユーザー同士がコンテンツを共有できる「超大型オンラインプラットフォーム」に再指定された。\n- 指定された3つのサービスは、2026年12月末までの4か月以内に、違法コンテンツ、未成年への危険、選挙介入などのリスク評価といった厳しい義務への対応が求められる。\n- 欧州委員会は、アイルランドやオランダの当局と協力して監査権限を強化し、サービスに対する監視を厳格化する。\n- 新たな要件には研究者へのデータアクセス提供が含まれているが、システム的リスクを評価するために訓練データやモデルの重みまで対象とすべきかについては、法専門家の間でも議論が分かれている。",
+    "url": "https://the-decoder.com/chatgpt-now-faces-stricter-eu-oversight-as-a-very-large-search-engine/"
+  },
+  {
+    "id": "3ce3de0e-c1c5-814f-b817-c03b255c3f53",
+    "title": "OpenAI starts charging some customers only when its AI actually works",
+    "site": "THE DECODER",
+    "published": "2026-08-31T14:28:14.000Z",
+    "fetched": "2026-09-01T00:01:49.000Z",
+    "summary": "OpenAIがAIが実際に成果を出した時のみ課金する成果報酬型モデルのテストを開始\n\n- OpenAIは、カスタマーサポートの対応など、AIがタスクを正常に完了した場合にのみ大口顧客から料金を徴収する新しい課金モデルの導入を進めている。\n- 高い運用コストを背景に、AI業界やSalesforceなどのソフトウェアベンダーの間で、従来の定額制や従量課金制から、成果や顧客の利益に直結した価格設定への移行が進んでいる。\n- SierraやFin、Cognitionなどの新興企業はすでに、人間が介入せずタスクを完了した場合のみの課金や、結果が出ない場合の返金保証といった成果連動型の仕組みを取り入れている。\n- 成果報酬型モデルの最大の課題は「AIによる成功の定義と因果関係の証明」であり、明確なルールがないと、良い結果が本当にAIによるものか証明することが難しい。",
+    "url": "https://the-decoder.com/openai-starts-charging-some-customers-only-when-its-ai-actually-works/"
+  },
+  {
+    "id": "3ce3de0e-c1c5-81dd-bc14-cf3102927059",
+    "title": "OpenClaw 2.0 brings simplified setup, a rebuilt browser app, and multiplayer sessions",
+    "site": "THE DECODER",
+    "published": "2026-08-31T10:46:04.000Z",
+    "fetched": "2026-09-01T00:01:57.000Z",
+    "summary": "OpenClaw 2.0のリリース：セットアップの簡素化、ブラウザアプリの刷新、マルチプレイセッションの導入\n\n- OpenClaw 2.0は、1万6,000件以上のプルリクエストを経てリリースされた同プロジェクト史上最大のアップデートです。\n- セットアップが大幅に簡素化され、PC上の既存リソース（APIキーやChatGPT・Claudeのサブスクリプション、ローカルモデルなど）を自動検出し、初期設定の手間を削減します。\n- ブラウザアプリがゼロから再構築され、即座に会話を開始できるほか、進捗状況を表示する「セッションレール」や、エージェントを中断せずに質問できるコンパニオンスレッドが追加されました。\n- 「Shared Cloud Sessions（共有クラウドセッション）」機能により、複数のユーザーが同じタスクを共同で作業し、チームメンバーを進行中の作業に引き入れたりタスクを割り当てたりすることが可能です。",
+    "url": "https://the-decoder.com/openclaw-2-0-brings-simplified-setup-a-rebuilt-browser-app-and-multiplayer-sessions/"
+  },
+  {
+    "id": "3ce3de0e-c1c5-8124-92b8-e1f25085bd12",
+    "title": "OpenAI and rival AI labs are buying tens of thousands of Mac minis to train computer-use agents",
+    "site": "THE DECODER",
+    "published": "2026-08-31T08:55:12.000Z",
+    "fetched": "2026-09-01T00:02:06.000Z",
+    "summary": "OpenAIをはじめとするAI企業が、パソコンの操作を自律的に行う「コンピューター・ユース・エージェント」の訓練用に、数万台規模のMac miniやMac Studioを購入している。\n\n- OpenAIやAnthropicなどの主要なAIラボが、複数ステップの複雑なタスクを自律処理するエージェントの訓練にMac製品を活用している。\n- Appleの強力なチップや統合メモリ、優れた冷却性能が長時間のAI処理に適している一方、高性能モデルはメモリ不足により数ヶ月間品薄状態が続いている。\n- 大手ラボだけでなく、オープンソースソフト「Exo」を用いた複数Macのクラスター化や、Apple製ハードに特化したクラウドサービス「Mount Thor」が登場するなど、ローカルAI環境としての利用が拡大している。\n- こうしたAI開発での需要増加やローカルAIとしての人気を背景に、Appleの6月四半期のMac売上高は前年同期比約29%増の104億ドルに急増している。",
+    "url": "https://the-decoder.com/openai-and-rival-ai-labs-are-buying-tens-of-thousands-of-mac-minis-to-train-computer-use-agents/"
+  },
+  {
+    "id": "3ce3de0e-c1c5-81d2-bf4d-ee3da6a72555",
+    "title": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp · Hugging Face",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-31T10:13:34.000Z",
+    "fetched": "2026-09-01T00:02:14.000Z",
+    "summary": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp · Hugging Face\n\n- Hugging Faceプラットフォーム上で公開された、deepseek-aiによる新しいAIモデルに関するページである。\n- モデル名に含まれる「Flash」や「Vision」という名称から、高速な処理能力や画像認識（ビジョン）機能を備えた実験的モデル（Exp）であると推測される。\n- 機械学習や自然言語処理の分野で注目を集めるDeepSeekシリーズの関連モデルとして、開発者や研究者の間で共有・検証が行われている。\n- Hugging Faceのコミュニティを通じて、モデルの重みデータや利用方法、詳細な仕様などの情報が順次提供されている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w39i6r/deepseekaideepseekv4flashvisionexp_hugging_face/"
+  },
+  {
+    "id": "3ce3de0e-c1c5-81aa-adc4-cd4883250287",
+    "title": "Could this affect M5 Ultra price/availability?",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-31T06:43:28.000Z",
+    "fetched": "2026-09-01T00:02:21.000Z",
+    "summary": "AppleのM5 Ultraチップは、サプライチェーンや製造プロセスの影響により、価格の高騰や発売時期の遅延が生じる可能性がある。\n\n- M5 Ultraチップの価格と入手に影響を与える可能性が懸念されている。\n- 高度な半導体製造プロセスを採用することで、生産コストが増加する可能性がある。\n- サプライチェーンの制約が、製品の供給量や発売スケジュールに影響を及ぼす恐れがある。\n- プロセッサの性能向上が期待される一方で、ユーザーの購入コストに直接反映されるかが注目されている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w35sc1/could_this_affect_m5_ultra_priceavailability/"
+  },
+  {
+    "id": "3ce3de0e-c1c5-81bc-9b14-ee4cddc1857a",
+    "title": "GLM 5.3 and GLM 5.3 Flash ran locally on RTX PRO 6000 WS and built a penthouse using BlenderMCP",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-31T17:32:42.000Z",
+    "fetched": "2026-09-01T00:02:29.000Z",
+    "summary": "RTX PRO 6000 WS上でローカル動作する「GLM 5.3」および「GLM 5.3 Flash」を活用し、BlenderMCPを組み合わせてペントハウスを自動構築することに成功した。AIモデルのローカル環境での高い性能と、3Dモデリングツール連携の可能性を示す事例である。\n\n- 高性能なAIモデル「GLM 5.3」と軽量・高速な「GLM 5.3 Flash」を、RTX PRO 6000 WS環境にてローカルで実行。\n- AIと3Dモデリングツールを連携させる「BlenderMCP」を活用。\n- プロンプトの指示に基づき、AIがBlender上でペントハウス（高級マンションの最上階）の3D空間を自動構築。\n- クラウドに依存せず、ハイエンドなワークステーション上で高度な生成AIと3D制作ワークフローが完結することを示した。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3kppp/glm_53_and_glm_53_flash_ran_locally_on_rtx_pro/"
+  },
+  {
+    "id": "3ce3de0e-c1c5-819f-8b4a-c0951c6041c0",
+    "title": "What are your hopes for the new Mistral?",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-31T15:36:31.000Z",
+    "fetched": "2026-09-01T00:02:37.000Z",
+    "summary": "新しいMistralに対する期待と展望\n\n- 新モデルの性能向上に対する高い期待が寄せられている\n- オープンソースおよび商用利用における柔軟性への関心が高い\n- 推論速度の高速化やコスト効率の改善が求められている\n- 開発者コミュニティの間で新たな機能や活用事例についての議論が活発化している",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3hcab/what_are_your_hopes_for_the_new_mistral/"
+  },
+  {
+    "id": "3ce3de0e-c1c5-812e-8ee1-c7a332516f7e",
+    "title": "vote for the Qwen 3.8",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-31T12:27:50.000Z",
+    "fetched": "2026-09-01T00:02:45.000Z",
+    "summary": "Qwen 3.8への投票を呼びかける概要\n\n- Qwen 3.8の評価やサポートを目的とした投票キャンペーンに関する内容である。\n- AIモデルとしてのQwenシリーズの性能や期待値の高さを背景にしている。\n- ユーザーや開発者コミュニティに対して、積極的な参加を促している。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3cbei/vote_for_the_qwen_38/"
+  },
+  {
+    "id": "3ce3de0e-c1c5-81a3-84fa-e6df37cbeca6",
+    "title": "Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-08-31T16:30:00.000Z",
+    "fetched": "2026-09-01T00:02:52.000Z",
+    "summary": "Claude ScienceにおけるNVIDIA BioNeMo NIMマイクロサービスの実行と、タンパク質構造予測ワークフローの統合について解説した記事である。\n\n- NVIDIA BioNeMo Agent Toolkitは、生命科学モデルやワークフローをAIエージェントが呼び出し可能なスキルへとパッケージ化し、Claude ScienceおよびNVIDIA NIMマイクロサービスと統合することで、タンパク質構造予測の自動化を実現する。\n- Seh1単量体とSeh1-C1HCX1異質二量体の予測ベンチマークでは、複数配列アラインメント（MSA）を入力した際、OpenFold3とBoltz-2の双方が高い界面信頼性（iPTM 0.85および0.82）を達成した。\n- 一方、MSA入力がない場合、スコアはそれぞれ0.14と0.19へと急激に低下し、進化的なアラインメントが界面予測において不可欠な要素であることを実証した。\n- 構造重ね合わせ解析により、パートナーが存在する場合にSeh1の折り畳みが再構築されるのではなく完成されることが示され、両モデル共にC1HCX1のβストランドを独立して同じ位置に配置した。\n- 開発者はGitHub上でBioNeMo Agent Toolkitを探索し、このワークフローを他の単量体や複合体の解析にも応用することが可能である。",
+    "url": "https://developer.nvidia.com/blog/run-nvidia-bionemo-nim-microservices-for-protein-structure-prediction-in-claude-science/"
+  },
+  {
+    "id": "3ce3de0e-c1c5-8112-86b9-c2801a82d347",
+    "title": "Scale AV Perception Across Vehicle Platforms with NVIDIA Omniverse NuRec",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-08-31T16:00:00.000Z",
+    "fetched": "2026-09-01T00:03:00.000Z",
+    "summary": "NVIDIA Omniverse NuRecを活用した自動運転（AV）の認識モデル開発とデータ拡張効率化\n\n- NVIDIA Omniverse NuRecは、3Dガウシアン・スプラッティングを用いて現実の走行シーンを再構築し、異なる車両構成（車種やセンサー配置）に応じた新しいカメラ視点をレンダリングする技術である。\n- 車種変更に伴うセンサー位置や画角の違いに対し、実世界のデータ収集・アノテーションを毎回行うことなく、効率的に合成データを作成して認識モデルの精度（適合率と再現率）を向上させることができる。\n- Hugging Faceで公開されている「Physical AI NuRec Dataset」には、6つのカメラ視点でキャプチャされた約1,500件以上のニューラル再構築シーンが含まれており、サンプルターゲットリグ等を利用して開発を開始できる。\n- NVIDIA Harmonizerと組み合わせることで、レンダリングされたフレームの時系列の一貫性を保った後処理が可能となり、開発ワークフローを効率化するエージェントスキルが提供されている。\n- 自動運転の開発プログラムでは、NuRecでレンダリングされた合成データを用いてトレーニングを行うことで、新しい車種におけるオブジェクト検出精度においてゼロショットベースラインに対する優位性が確認されている。",
+    "url": "https://developer.nvidia.com/blog/scale-av-perception-across-vehicle-platforms-with-nvidia-omniverse-nurec/"
+  }
+]

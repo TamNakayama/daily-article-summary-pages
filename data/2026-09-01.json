@@ -1,0 +1,164 @@
+[
+  {
+    "id": "3cf3de0e-c1c5-816b-9824-cfccd31043da",
+    "title": "Anthropic opens Claude AI text detection to regulators, media, fact-checkers, and others",
+    "site": "THE DECODER",
+    "published": "2026-09-01T20:40:36.000Z",
+    "fetched": "2026-09-02T00:01:12.000Z",
+    "summary": "Anthropic、規制当局やメディア向けにClaudeのAIテキスト検出機能を公開\n\n- Anthropic社が、Claudeが生成したテキストにデジタル透かし（ウォーターマーク）が含まれているか検証できるAPIの提供を開始した。\n- アクセス対象は、規制当局、法執行機関、メディア、ファクトチェッカー、独立系研究者、教育機関、EUの市民社会グループなどで、企業向けにも拡大予定である。\n- このシステムはGoogleの「SynthID text」をベースにしており、編集後も一定の確率で検出パターンが維持されるため、従来の検出器よりも信頼性が高い。\n- Anthropic社はウォーターマークがユーザーデータを含まず、品質やコンテンツにも影響しないと主張しているが、一部の批評家や業界からはテキスト品質の低下や透明性のリスクを懸念する声も上がっている。\n- EU人工知能法（EU AI Act）に基づき、2025年8月2日以降、新しいClaudeモデルにはテキスト出力に不可視のウォーターマークを埋め込むことが義務付けられている。",
+    "url": "https://the-decoder.com/anthropic-opens-claude-ai-text-detection-to-regulators-media-fact-checkers-and-others/"
+  },
+  {
+    "id": "3cf3de0e-c1c5-8178-afeb-ff357828c1b6",
+    "title": "Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less",
+    "site": "THE DECODER",
+    "published": "2026-09-01T20:32:55.000Z",
+    "fetched": "2026-09-02T00:01:21.000Z",
+    "summary": "Anthropicが新型AIモデル「Claude Fable 5.1」と「Mythos 5.1」を発表し、コーディングや研究性能の向上とコスト削減を打ち出したが、コスト面では議論も生じている。\n\n- Anthropic社が新型AIモデル「Claude Fable 5.1」および「Mythos 5.1」を発表し、コーディング性能やテキスト品質の向上が図られている。\n- キャッシュ読み取りのコスト削減により、一般的なタスクで約25％、複雑なエージェントワークフローで最大45％のコスト削減を謳っている。\n- Fable 5.1は、エージェント型ベンチマークにおいて前モデルのFable 5やライバルのGPT-5.6 Solを上回る性能を発揮する。\n- 一方で、事前テストに協力したArtificial Analysis社は、Fable 5.1を最大出力（マックスエフェロット）で稼働させた場合、出力トークン増加の影響で実際にはFable 5よりも約20％コストが高くなると指摘している。\n- 5.1モデルはシリーズ初となるウォーターマークが組み込まれており、規制当局や研究機関向けにテキストの検証を行う検出APIがプライベートプレビューとして提供される。",
+    "url": "https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less/"
+  },
+  {
+    "id": "3cf3de0e-c1c5-8114-80de-e430f30af11d",
+    "title": "Google Deepmind's new chief says frontier AI leadership is the only thing that matters",
+    "site": "THE DECODER",
+    "published": "2026-09-01T16:49:11.000Z",
+    "fetched": "2026-09-02T00:01:29.000Z",
+    "summary": "Google DeepMindの新責任者が掲げる最先端AI開発の重要性と今後の展望\n\n- Google DeepMindの新責任者であるコライ・カヴクチョウル氏は、最先端AIの主導権を握ることが最優先事項であると強く主張し、現在モデルが最先端からわずかに遅れをとっているものの、ギャップを埋める自信を示している。\n- 次期モデル「Gemini 4」については「これまでで最も野心的な開発が進んでいる」と言及した一方で、遅れが指摘されているGemini 3.5 Proに関する具体的な新情報は明かされなかった。\n- Flashシリーズの急速な進展に言及し、モデルからコード記述などのタスクを自律的にこなす「エージェント」への移行が進んでいることを強調している。\n- ソフトウェアエンジニアリングをAIシステム成功のための最も重要な領域と位置づけ、開発に注力している。",
+    "url": "https://the-decoder.com/google-deepminds-new-chief-says-frontier-ai-leadership-is-the-only-thing-that-matters/"
+  },
+  {
+    "id": "3cf3de0e-c1c5-815f-8f22-ee59abb7f34b",
+    "title": "Google's election AI Overviews are opaque, rely on few sources, and sometimes take sides",
+    "site": "THE DECODER",
+    "published": "2026-09-01T13:03:17.000Z",
+    "fetched": "2026-09-02T00:01:37.000Z",
+    "summary": "Googleの選挙に関するAI Overviews（AIによる概要）は、表示基準が不透明であり、引用ソースが極めて限定的であるうえ、時に偏った表現を用いることがドイツの擁護団体AlgorithmWatchの調査で明らかになりました。\n\n- AI Overviewsの表示率が非政治的検索（65.3%）に比べ、選挙関連では39.1%と低く、表示される基準やパターンが不透明である。\n- 引用されるソースの範囲が非常に狭く、全リンクの約半数がわずか10ドメインに集中しており、中でもGoogle傘下のYouTubeが最多となっている。\n- 言語モデルの迎合的な傾向により、AIが政治家や政党を党派的な視点や称賛的な形容詞を用いて描写することがある。\n- 欧州連合（EU）のデジタルサービス法（DSA）に基づく研究データアクセスを利用し、ドイツの州・地域選挙に関する4,480件の検索クエリを対象に調査が行われた。\n- AlgorithmWatchは、選挙におけるAIのこのようなリスクに対し、明確な透明性の確保と法的責任のルール設定を求めている。",
+    "url": "https://the-decoder.com/googles-election-ai-overviews-are-opaque-rely-on-few-sources-and-sometimes-take-sides/"
+  },
+  {
+    "id": "3cf3de0e-c1c5-8180-80e1-c90c00f807a6",
+    "title": "Runway's Solaris is an AI system that generates software interfaces in real time",
+    "site": "THE DECODER",
+    "published": "2026-09-01T12:53:46.000Z",
+    "fetched": "2026-09-02T00:01:44.000Z",
+    "summary": "Runwayがリアルタイムでソフトウェアのインターフェースを生成するAIシステム「Solaris」を発表\n\n- Runwayが発表した「Solaris」は、コードを実行するのではなく、ユーザーの操作に応じてリアルタイムでユーザーインターフェースをフレーム単位でレンダリングする新しい「インターフェースワールドモデル」である。\n- システムは720pの解像度で動作し、クリックやドラッグ、音声コマンドに直接反応するため、固定されたアプリをユーザーに合わせて動的に適応する環境へと置き換えることを目指している。\n- 主な活用例として、ユーザーごとに適応するオンラインショッピング、音声やドラッグで即座に反応する家具配置や商品ビジュアライゼーション、テキスト回答の代わりに視覚的なステップを示す学習・チュートリアルが挙げられている。\n- 基盤となるGen-4.5ビデオモデルの技術を応用しているが、現時点ではテキスト描画のエラーが多く、スクリーンリーダーへの非対応などの課題もあるため、研究段階にとどまっている。",
+    "url": "https://the-decoder.com/runways-solaris-is-an-ai-system-that-generates-software-interfaces-in-real-time/"
+  },
+  {
+    "id": "3cf3de0e-c1c5-8132-8182-d3c8369399ac",
+    "title": "Google's AI search dropped its emergency-call advice over nationalities but still flags people from Facebook",
+    "site": "THE DECODER",
+    "published": "2026-09-01T12:44:11.000Z",
+    "fetched": "2026-09-02T00:01:52.000Z",
+    "summary": "GoogleのAI検索における人種や国籍による不適切なアドバイス問題とその現状\n\n- GoogleのAI検索機能において、「〇〇人と2人でいる」と検索した際、アフリカ系やインド系などの場合は「安全な場所へ移動するか緊急通報するように」と危険を示唆する回答をする一方で、イギリス人の場合は「お茶を飲んで天気の話をする」と答える偏った出力が見つかった。\n- この問題は海外メディアのFuturismによるテストやRedditユーザーの指摘によって発覚し、Googleは自社の基準を満たしていないとして修正作業を行うと表明した。\n- Googleによれば、この不適切な動作のトリガーとなったのは「alone（1人でいる）」という単語であり、現在は国籍に関する質問に対する回答は通常の検索結果に戻っている。\n- 一方で、国籍に関する問題が修正された現在でも、検索対象を特定の企業に変えた場合には不審な挙動が確認されており、例えば「Facebookの人と2人でいる」と質問した場合には、その場から離れて必要に応じて緊急通報するようアドバイスする仕様が続いている。",
+    "url": "https://the-decoder.com/googles-ai-search-dropped-its-emergency-call-advice-over-nationalities-but-still-flags-people-from-facebook/"
+  },
+  {
+    "id": "3cf3de0e-c1c5-8134-a651-f2c85b872a73",
+    "title": "Claude Fable 5.1 made me a really nice animated pelican",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-09-01T23:57:28.000Z",
+    "fetched": "2026-09-02T00:02:00.000Z",
+    "summary": "Anthropicの新型AI「Claude Fable 5.1」の性能と、名物ベンチマーク「ペリカン（自転車に乗るペリカンのSVG生成）」の検証結果について報じる記事である。\n\n- Anthropicが「Claude Fable 5.1」を発表し、科学研究分野などで高いベンチマークスコアを記録した。\n- 記事では、AIモデルの性能測定としておなじみの「ペリカン（自転車に乗るペリカン）」を描画するプロンプトを用いて検証している。\n- Fable 5.1には5段階の推論レベル（low〜max）があるが、検証では「low」と「medium」の設定で推論プロセスがスキップされる現象が見られた。\n- 「high」設定ではわずかな推論が行われ、「xhigh」設定になると一転して膨大なトークンと時間を消費し、非常に詳細な思考プロセスを経てペリカンが生成された。",
+    "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/"
+  },
+  {
+    "id": "3cf3de0e-c1c5-8151-afd6-d8a6078e099e",
+    "title": "Codex bundles LibreOffice",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-09-01T19:03:01.000Z",
+    "fetched": "2026-09-02T00:02:08.000Z",
+    "summary": "OpenAIのデスクトップアプリがLibreOfficeなどの多様な開発ツールや環境を同梱している事実\n\n- サイモン・ウィリソン氏が、自身のPCのキャッシュフォルダ内からOpenAIのデスクトップアプリ（旧Codex、現ChatGPT）のデータを発見した。\n- アプリの「codex-primary-runtime」という1.7GBのフォルダ内に、完全なPythonおよびNode.jsの環境が含まれていた。\n- さらに、Poppler、git、オープンソースのオフィススイートであるLibreOfficeのネイティブバイナリも同梱されていることが判明した。\n- 該当フォルダ内のプラグインには、AI（Codex）がこれらのバイナリを見つけて使用する方法を指示する「スキル」が含まれている。",
+    "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/"
+  },
+  {
+    "id": "3cf3de0e-c1c5-81e5-adeb-e00cabc7abf3",
+    "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+    "site": "Hugging Face Blog",
+    "published": "2026-09-01T21:39:07.000Z",
+    "fetched": "2026-09-02T00:02:16.000Z",
+    "summary": "LLMベンチマークの本質を解明する新手法「BenchMIRT」\n\n- Allen Institute for AI（AllenAI）は、LLMのベンチマークを個々のプロンプト単位で監査する新手法「BenchMIRT」を発表した。\n- 従来のベンチマークは単一のスコアで評価されるため、質問ごとに異なる能力（安全性、推論能力、固定観念の有無など）が混ざって評価される課題があった。\n- BenchMIRTは、心理測定学の「項目応答理論（IRT）」を拡張した多次元項目応答理論（MIRT）を活用し、ベンチマーク内の異なる質問やタスクがどのような潜在的能力を測定しているかを分離して分析する。\n- 各モデルの質問ごとの正誤パターンを分析することで、ベンチマークのスコアを本当に駆動している要因（シグナル）を明確にする。\n- 少ない質問数での効率的な評価や、LLM評価手法の精度向上に貢献することが期待されており、技術レポート、データ、コードが公開されている。",
+    "url": "https://huggingface.co/blog/allenai/benchmirt"
+  },
+  {
+    "id": "3cf3de0e-c1c5-812e-bda5-dc210f1aabf7",
+    "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+    "site": "Hugging Face Blog",
+    "published": "2026-09-01T00:00:00.000Z",
+    "fetched": "2026-09-02T00:02:23.000Z",
+    "summary": "Hugging Faceがブラウザ上でのAI推論を高速化・効率化するため、200種類以上の最適化されたWebGPUカーネルを提供するライブラリ「@huggingface/kernels」をリリースしました。\n\n- 機械学習の様々なアーキテクチャやワークロードに対応する207個のWebGPUカーネルを、Hugging Face Hub上で公開している。\n- JavaScript用のローダーライブラリ「@huggingface/kernels」を使用することで、Hubから直接カーネルをダウンロードして実行できる。\n- 各カーネルには、インターフェース、WGSLシェーダーテンプレート、正確性テスト、ベンチマークケースが含まれており、Apache-2.0ライセンスで提供される。\n- ブラウザベースのベンチマーク・テストスイート「Fleet」を導入し、多様な実環境のGPUでクラウドソーシングによるパフォーマンスや正確性の検証を行う。",
+    "url": "https://huggingface.co/blog/webgpu-kernels"
+  },
+  {
+    "id": "3cf3de0e-c1c5-81fa-97fd-f7db3fd4ec1b",
+    "title": "New Gemma models on arena ai",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-01T10:11:06.000Z",
+    "fetched": "2026-09-02T00:02:31.000Z",
+    "summary": "GemmaモデルがAI Arenaに登場したことによる、性能や特徴についての要約です。\n\n- Googleのオープンモデル「Gemma」の新しいバージョンが、AIの性能を評価するプラットフォーム「Arena ai」に登場しました。\n- Arena aiでの評価を通じて、実際のユーザーのインタラクションに基づくモデルの実用的なパフォーマンスや応答品質が確認されています。\n- 開発者コミュニティの間で、オープンモデルとしてのGemmaの優位性や、他の主要なAIモデルとの比較に関心が集まっています。\n- 軽量でありながら高い処理能力を持つGemmaの特性が、様々なタスクでどのように発揮されるかが注目されています。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w47nif/new_gemma_models_on_arena_ai/"
+  },
+  {
+    "id": "3cf3de0e-c1c5-8145-be5a-cd333e684cc8",
+    "title": "MTP released for Qwen3.8-Flash-Next-GGUF",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-01T05:10:48.000Z",
+    "fetched": "2026-09-02T00:02:38.000Z",
+    "summary": "Qwen3.8-Flash-Next-GGUF向けMTPのリリース\n\n- Qwen3.8-Flash-Nextモデルに対応したMTP（Multi-Token Prediction）形式のGGUFファイルが新たにリリースされた。\n- このリリースにより、対応する量子化モデルをローカル環境やエッジデバイスなどで効率的に実行することが可能になる。\n- MTPの導入によって、推論時の処理速度向上や効率的なトークン生成が期待される。\n- GGUFフォーマットを採用しているため、llama.cppなどの主要なAI推論フレームワークとの親和性が高い。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w42biu/mtp_released_for_qwen38flashnextgguf/"
+  },
+  {
+    "id": "3cf3de0e-c1c5-8162-b390-f2d2c20b33f3",
+    "title": "Fingers crossed for a 122b or really anything above 31b.🤞",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-01T18:54:12.000Z",
+    "fetched": "2026-09-02T00:02:46.000Z",
+    "summary": "大規模言語モデル（LLM）などのAIモデルにおいて、122b（約1220億パラメータ）や、少なくとも31b（約310億パラメータ）を超えるような、大規模かつ高性能なモデルの登場に対する大きな期待感を示した記事である。\n\n- AIモデルのパラメータ数として、122bや31bを超える規模のものが強く期待されている。\n- より大規模なパラメータを持つモデルの登場により、AIの性能や能力が大幅に向上することが望まれている。\n- コミュニティやユーザーの間では、小規模なモデルよりも大規模なモデルの開発やリリースに高い関心が寄せられている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w4l9cp/fingers_crossed_for_a_122b_or_really_anything/"
+  },
+  {
+    "id": "3cf3de0e-c1c5-81d9-9c80-c61180893bf7",
+    "title": "Intel hints it may get back into memory business",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-01T15:43:53.000Z",
+    "fetched": "2026-09-02T00:02:53.000Z",
+    "summary": "インテルがメモリ事業へ再参入する可能性を示唆\n\n- インテルが将来的にメモリ事業へ再び参入する可能性について言及した。\n- かつて同社はメモリチップの主要メーカーであったが、競争激化により撤退していた。\n- 近年のAI需要の急増に伴う半導体市場の変化が、今回の動向の背景にあると見られている。\n- 具体的な計画や時期については明らかになっていないが、今後の戦略的な方向性として注目を集めている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w4fp6w/intel_hints_it_may_get_back_into_memory_business/"
+  },
+  {
+    "id": "3cf3de0e-c1c5-815e-97dc-fb3bd336971a",
+    "title": "Really stunned by the Singularity comment section",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-01T20:25:56.000Z",
+    "fetched": "2026-09-02T00:03:01.000Z",
+    "summary": "Singularityのコメント欄に対する率直な驚きと困惑\n\n- 記事の著者は、技術的特異点（シンギュラリティ）に関する「Singularity」というコンテンツのコメント欄を読んで非常に驚き、言葉を失っている。\n- コメント欄には、未来の技術やAIの進化に対する極端な意見や混乱した議論が飛び交っており、著者の予想を大きく裏切る内容であったことが示唆されている。\n- テクノロジーの未来について語る場であるはずのコメント欄が、現実離れした議論の場と化している現状に対し、著者は強い衝撃を受けている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w4oadx/really_stunned_by_the_singularity_comment_section/"
+  },
+  {
+    "id": "3cf3de0e-c1c5-818e-ae97-ff79c193fb2b",
+    "title": "v0.33.3-rc0: llama.cpp: version bump b10729 (#18160)",
+    "site": "Ollama Blog",
+    "published": "2026-09-01T23:24:15.000Z",
+    "fetched": "2026-09-02T00:03:08.000Z",
+    "summary": "Ollama v0.33.3-rc0リリース：llama.cppのバージョンをb10729に更新\n\n- AIモデルの実行環境を提供するオープンソースソフトウェア「Ollama」のリリース候補版（v0.33.3-rc0）に関するGitHubのページである。\n- 本アップデートの主な内容は、組み込まれているバックエンド処理ライブラリ「llama.cpp」のバージョンを「b10729」へ引き上げる（バージョンアップする）ことである。\n- リポジトリの公開情報として、GitHub上でソースコードの管理、Issueやプルリクエストの追跡、Actionsによるワークフローの自動化機能などが提供されている。\n- スター数が18万を超えるなど、開発者コミュニティの間で非常に高い注目度と人気を集めているプロジェクトである。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0"
+  },
+  {
+    "id": "3cf3de0e-c1c5-8128-917f-ccb911ddfce2",
+    "title": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-09-01T17:00:04.000Z",
+    "fetched": "2026-09-02T00:03:16.000Z",
+    "summary": "NVIDIA Nemotronを活用した適応型エージェント型サイバーセキュリティシステムの構築\n\n- NVIDIAとCrowdStrikeは、Nemotronオープンモデル、Falconテレメトリ、専門的なエージェントハーネスを統合し、攻撃と防御を継続的なクローズドロープで連携させる検証ファーストのシステムを評価した。\n- 防御側はNemotron 3 Ultraがオーケストレーションを担い、微調整されたNemotron 3 Superが検出生成・修復のエキスパートとして機能することで、検証可能かつ実用的な検出を実現した。\n- NeMo GymとNeMo RLを用いた強化学習による最適化パイプラインのバックテストでは、デフォルトのハーネスと比較して2.5倍となる平均41.9%の検出率を達成した。\n- 未知の攻撃8種類を対象とした実戦的テストにおいて、オープンモデルによる検出の45%が汎化性能を示し、フロンティアシステムの29%を上回る成果を収めた。",
+    "url": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron/"
+  },
+  {
+    "id": "3cf3de0e-c1c5-8186-bc53-edd346ff1a63",
+    "title": "How to Size GPUs for AI Inference and TCO Without Overspending",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-09-01T15:00:00.000Z",
+    "fetched": "2026-09-02T00:03:24.000Z",
+    "summary": "AI推論におけるGPUのサイジングと総保有コスト（TCO）を最適化し、過剰投資を防ぐためには、モデルの特性、ワークロードの変動性、およびハードウェアの総コストを包括的に評価することが重要である。\n\n- 推論ワークロードの予測不可能性を考慮し、ピーク時だけでなく平均的な負荷やレイテンシー要件に基づいた適切なGPUサイズを選定する。\n- 初期購入費用だけでなく、電力消費、冷却、保守費用を含めた長期的な総保有コスト（TCO）を算出してコストパフォーマンスを最大化する。\n- モデルの量子化やバッチ処理の最適化を活用し、ハードウェア要件を抑えつつ処理能力を向上させる。\n- クラウドとオンプレミスのハイブリッド運用や柔軟なインスタンス選択により、無駄なリソースの保持を防ぎコストを削減する。",
+    "url": "https://developer.nvidia.com/blog/how-to-size-gpus-for-ai-inference-and-tco-without-overspending/"
+  }
+]
