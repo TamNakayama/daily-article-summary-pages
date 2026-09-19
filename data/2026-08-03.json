@@ -1,0 +1,155 @@
+[
+  {
+    "id": "3b23de0e-c1c5-81ff-9d88-dadcfc49c07e",
+    "title": "Alibaba's new Qwen model is also taking your job, but this time it's great",
+    "site": "THE DECODER",
+    "published": "2026-08-03T17:12:23.000Z",
+    "fetched": "2026-08-04T00:01:13.000Z",
+    "summary": "Alibabaの新型AI「Qwen」が提唱する、AIと労働のポジティブな関係性\n\n- Alibabaは、新型AI「Qwen 3.8」のプロモーションにおいて、AIによる「雇用の代替」を脅威としてではなく、人間が趣味の時間を楽しむための「自由の獲得」としてポジティブに表現する戦略をとっている。\n- 従来のAI企業が「雇用が消滅する」という恐怖を煽るメッセージ戦略をとってきたのに対し、Alibabaは真逆のアプローチで差別化を図っており、この手法は公開企業として世論に受け入れられやすい側面がある。\n- OpenAIやAnthropicといった競合他社も、最近では同様にソフトなトーンへメッセージをシフトさせている。\n- 現時点では、AIが労働市場全体や生産性に劇的な影響を与えているという明確な証拠は乏しく、Alibabaの主張はAIの影響を単純化しすぎているという批判的な側面もある。\n- AIが経済や労働に与える影響については依然として不透明だが、少なくとも金融市場ではAIの導入が大きな関心事として先行している。",
+    "url": "https://the-decoder.com/alibabas-new-qwen-model-is-also-taking-your-job-but-this-time-its-great/"
+  },
+  {
+    "id": "3b23de0e-c1c5-8182-a43b-c61eaaa714d7",
+    "title": "IBM finds 92% of companies hit by AI security breaches lacked basic access controls",
+    "site": "THE DECODER",
+    "published": "2026-08-03T15:47:08.000Z",
+    "fetched": "2026-08-04T00:01:25.000Z",
+    "summary": "IBM：AIセキュリティ侵害を受けた企業の92%で基本的なアクセス制御が欠如\n\n- AI関連のセキュリティ事故が発生した企業の92%において、基本的なアクセス制御が適切に導入されていなかったことがIBMの報告書（2026年版）により判明した。\n- 侵入経路の多くはモデルそのものの脆弱性ではなく、APIの乗っ取りや関連アプリケーション、クラウド設定の不備といった基本的な管理不足に起因している。\n- AIが関与する侵害事故の被害額は平均533万ドルに上り、AIを含まない一般的なデータ侵害（平均470万ドル）よりも被害が大きくなる傾向がある。\n- 攻撃者がAIを悪用したケースでは被害額が604万ドルまで跳ね上がる一方、AIを使用しない攻撃では503万ドルにとどまっており、AIの活用が被害の深刻化を招いている。\n- 今回の結果は、高度な攻撃手法を警戒する以前に、企業はまずシステムの基本的なセキュリティ設定を徹底することが最優先の対策であることを示唆している。",
+    "url": "https://the-decoder.com/ibm-finds-92-of-companies-hit-by-ai-security-breaches-lacked-basic-access-controls/"
+  },
+  {
+    "id": "3b23de0e-c1c5-8144-84b0-d1bbcc5f54f8",
+    "title": "Interpol says AI has become the \"core operational driver of cybercrime\" across Africa",
+    "site": "THE DECODER",
+    "published": "2026-08-03T15:00:28.000Z",
+    "fetched": "2026-08-04T00:01:33.000Z",
+    "summary": "インターポール（国際刑事警察機構）の報告書によると、アフリカ大陸においてAIはサイバー犯罪の「中核的な推進力」となっており、被害額の急増など深刻な事態を招いている。\n\n- アフリカで報告されるサイバー犯罪の55％にAIが関与しており、2025年を境にAIは犯罪遂行に不可欠なツールへと変化した。\n- 犯罪による経済的損失は、2024年の1億9200万ドルから4億8400万ドルへと1年で2倍以上に急増している。\n- 犯行グループは、標的の調査からフィッシング詐欺、恐喝、生体認証を突破するための合成ID作成に至るまで、攻撃の全段階でAIを自動化ツールとして悪用している。\n- ディープフェイクを用いたデジタル恐喝の事例は約60万件にのぼり、手口の巧妙化が浮き彫りとなっている。\n- インターポールは2025年以降、国際的な連携捜査を通じて1500人以上の逮捕と1億ドル以上の押収に成功しているが、依然として対策が急務となっている。",
+    "url": "https://the-decoder.com/interpol-says-ai-has-become-the-core-operational-driver-of-cybercrime-across-africa/"
+  },
+  {
+    "id": "3b23de0e-c1c5-81ed-971d-eb129b86555b",
+    "title": "China's MiniMax H3 is the first open model to top an AI video ranking",
+    "site": "THE DECODER",
+    "published": "2026-08-03T13:52:29.000Z",
+    "fetched": "2026-08-04T00:01:41.000Z",
+    "summary": "中国のAI企業MiniMaxが公開した動画生成モデル「H3」が、オープンモデルとして初めてAI動画ランキングで首位を獲得しました。\n\n- MiniMaxが公開した330億パラメーターの動画生成モデル「H3」が、Artificial Analysisの動画生成ランキングにおいて、動画編集部門で1位、テキストからの動画生成で2位、画像からの動画生成で3位を記録しました。\n- H3はテキスト、画像、動画、音声を統合して処理し、4～15秒間のステレオ音声付き動画を生成可能です。プロンプトには最大9枚の参照画像や動画、音声クリップを組み込めます。\n- モデルの重みは公開されましたが、2K解像度の生成モジュールや、プロンプトを構造化する「H3-Context-IR」は非公開であり、ローカル実行時の解像度は最大768pに制限されます。\n- ライセンス面では、年商2,000万ドル（約29億円）未満の企業に限り商用利用が許可されており、特定のキャラクターやビジュアルスタイルに合わせた微調整（ファインチューニング）が可能です。\n- 同日、ByteDanceも独自の動画生成モデル「Seedance 2.5」を発表しました。こちらは最長30秒の動画を音付きで生成できるクローズドなモデルとなっています。",
+    "url": "https://the-decoder.com/chinas-minimax-h3-is-the-first-open-model-to-top-an-ai-video-ranking/"
+  },
+  {
+    "id": "3b23de0e-c1c5-816f-89d3-fb9cfc9220d4",
+    "title": "Unicorn, pelican, Middle-earth: OpenAI co-founder Karpathy is looking for the next AI vibe test",
+    "site": "THE DECODER",
+    "published": "2026-08-03T12:07:31.000Z",
+    "fetched": "2026-08-04T00:01:49.000Z",
+    "summary": "Andrej Karpathy氏が、AIの空間推論能力を評価する新しい「バイブ・チェック（直感的な評価指標）」として、小説を3D空間へと変換する実験を行いました。\n\n- Anthropicに所属するKarpathy氏は、AIモデル「Claude Opus 5」を使い、『ロード・オブ・ザ・リング』の冒頭文をブラウザ上で動作する3Dシーンへと変換させました。\n- わずか2時間・約10ドルのコストで5,500行のコードが生成され、モデルが自律的にオブジェクトの配置やアニメーション処理を行いました。\n- この試みは、従来の「ペリカンが自転車に乗る絵を描く」といった定型的なテストに代わる、AIの生成能力や空間的理解を試す新しい指標となる可能性を示しています。\n- AIが生成した成果物には一部誤りも存在しますが、Karpathy氏はこれを厳格なベンチマークではなく、AIの創造的ポテンシャルを測るための遊び心ある評価手法として提唱しています。\n- 今後、このような手法が発展すれば、ユーザーの要望に応じて即座に独自のゲームワールドや3D環境を構築するサービスの実現が期待されます。",
+    "url": "https://the-decoder.com/unicorn-pelican-middle-earth-openai-co-founder-karpathy-is-looking-for-the-next-ai-vibe-test/"
+  },
+  {
+    "id": "3b23de0e-c1c5-81b4-80f7-c324e88b463e",
+    "title": "Two teams solved the same quantum crypto problem using GPT-5.6 just three hours apart",
+    "site": "THE DECODER",
+    "published": "2026-08-03T10:49:58.000Z",
+    "fetched": "2026-08-04T00:01:57.000Z",
+    "summary": "量子暗号の難問、AIを活用して2チームがわずか3時間の差で同時解決\n\n- 2026年8月、MITの学生とUCサンタバーバラ・UCLAの研究者チームが、それぞれ独立して「複製不可能な暗号」に関する量子暗号の難問を解決し、ほぼ同時に論文を公開した。\n- 両チームともOpenAIの「GPT-5.6 Sol Ultra」を利用しており、AIが科学研究のプロセスを根本的に変容させている現状が浮き彫りとなった。\n- 難問に直面した際、まずAIに解決策を求めることが研究の第一歩となっており、研究手法が短期間で劇的に変化している。\n- AIの活用により数学や科学の進歩が加速する一方で、研究者からは「個人のアイデンティティや独創性の喪失」を危惧する声も上がっている。\n- 同一の高性能モデルを誰もが利用できる時代において、「何をもって独自の発見とみなすか」という定義が、今後の科学界の大きな問いとなっている。",
+    "url": "https://the-decoder.com/two-teams-solved-the-same-quantum-crypto-problem-using-gpt-5-6-just-three-hours-apart/"
+  },
+  {
+    "id": "3b23de0e-c1c5-81af-b17e-e0d93fd9d22e",
+    "title": "Alibaba’s open-weight Qwen3.8-Max takes on long-horizon AI tasks with 2.4 trillion parameters",
+    "site": "THE DECODER",
+    "published": "2026-08-03T10:48:50.000Z",
+    "fetched": "2026-08-04T00:02:04.000Z",
+    "summary": "Alibabaの巨大モデル「Qwen3.8-Max」が長期間の自律タスク遂行能力を実現\n\n- Alibabaは、2.4兆個のパラメータを持つ最新の言語モデル「Qwen3.8-Max」を発表した。単発の応答ではなく、数日間かけて複雑なタスクを完遂することに特化して設計されている。\n- 実証実験では、ソフトウェアの自律構築、学術論文の再現・改善、シミュレーション上でのEC事業運営といった高度なタスクを、人間による介入なしで成功させた。\n- モデル構成は950億個のパラメータをクエリごとにアクティブ化する仕組みを採用しており、内部ベンチマークでは欧米のトップモデルに匹敵する性能を記録した。\n- 従来のMaxクラスとは異なり、本モデルはウェイト（重み）が公開される予定となっており、AI開発のオープン化を大きく前進させる。\n- すでにAlibabaのプラットフォーム上で一部提供が開始されており、今後数週間以内にオープンウェイトでの一般公開が予定されている。",
+    "url": "https://the-decoder.com/alibabas-open-weight-qwen3-8-max-takes-on-long-horizon-ai-tasks-with-2-4-trillion-parameters/"
+  },
+  {
+    "id": "3b23de0e-c1c5-8149-b77b-e4f59165efd3",
+    "title": "Don't be a meat proxy",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-08-03T23:45:04.000Z",
+    "fetched": "2026-08-04T00:02:12.000Z",
+    "summary": "AIの出力をそのまま他者に転送する「肉のプロキシ（Meat Proxy）」になるな\n\n- AIを単なるコピー＆ペーストのツールとして使い、思考を介さずに情報を流すだけの存在になってはいけません。\n- AIが生成した回答をそのまま鵜呑みにせず、必ず自分で読み込み、内容を理解し、検証するプロセスを挟むことが不可欠です。\n- 情報を発信する際は、AIの出力をそのまま使うのではなく、自分自身の言葉で書き直すことが重要です。\n- 自分の言葉で再構築する行為こそが、AI時代において人間が発揮できる真の価値（付加価値）となります。\n- 批判的な思考と責任ある情報発信を怠ることは、単なる情報の伝達係（プロキシ）へと自己を貶める行為です。",
+    "url": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-tag"
+  },
+  {
+    "id": "3b23de0e-c1c5-812d-8dae-e3e208ceea9f",
+    "title": "Quoting David Crawshaw's prompt",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-08-03T16:15:27.000Z",
+    "fetched": "2026-08-04T00:02:21.000Z",
+    "summary": "デビッド・クローショーが提唱する「自律的なソフトウェア更新」のプロンプト\n\n- ソフトウェアの保守業務を自動化するため、夜間に実行されるcronジョブに特定のプロンプトを組み込む手法が提案されている。\n- プロンプトの内容は、上流（upstream）からの変更をフェッチし、ローカルの変更をリベース（再適用）した上で、動作確認まで自動で行い最新版へ置き換えるというもの。\n- 開発ツールはオープンソースであるべきという思想に基づき、AIによる自律的なアップデートプロセスを日常的な運用に組み込む概念が示されている。\n- このアプローチは、人間が手作業で行っていたルーチン的なメンテナンス作業をAIエージェントに代替させ、常に最新のコードベースを維持することを目的としている。\n- サイモン・ウィリソンが自身のブログでこのプロンプトを紹介しており、AIと開発エージェントの活用がソフトウェア開発の自動化を加速させる可能性を示唆している。",
+    "url": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-tag"
+  },
+  {
+    "id": "3b23de0e-c1c5-8184-874c-d3f9f84761da",
+    "title": "Devtools must be open source (exe.dev)",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-08-03T15:30:38.000Z",
+    "fetched": "2026-08-04T00:02:28.000Z",
+    "summary": "開発ツール（Devtools）はオープンソースであるべきだ：LLMが変えるソフトウェアとの向き合い方\n\n- LLMの登場により、これまで専門家でも困難だった「オープンソースコードの調査と改変」のハードルが劇的に下がり、本来のオープンソースの理想が実現可能な現実となった。\n- 従来は、ツールの仕組みを理解したり、環境構築をして修正を加えたりすることには多大な時間と労力が必要であり、多くのユーザーは他者の貢献に頼るしかなかった。\n- 現在はLLMに「GitHubからクローンして動作を解説せよ」「チェックアウトしてビルドせよ」と指示するだけで済み、環境構築やコード読解の摩擦がほぼゼロになった。\n- 今後は、複雑なビルド工程が不要になることで、ユーザーが日常的に利用するソフトウェアに対して自ら修正を加える動きが一般化していく可能性がある。\n- オープンソースであることは、単に公開されているだけでなく、LLMという強力なツールを介して「誰でも中身を把握・修正できる」という実利的な自由をユーザーに提供する。",
+    "url": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-tag"
+  },
+  {
+    "id": "3b23de0e-c1c5-81fc-acce-c2e4ddc2700f",
+    "title": "Qwen3.8-27B announced alongside Qwen3.8-Max",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-03T02:21:49.000Z",
+    "fetched": "2026-08-04T00:02:36.000Z",
+    "summary": "Qwen3.8-27BおよびQwen3.8-Maxの発表\n\n- Qwenシリーズの最新モデルとして、高性能な「Qwen3.8-27B」と最上位モデルである「Qwen3.8-Max」が同時に発表されました。\n- Qwen3.8-27Bは、270億のパラメータを持ちながら、高い推論能力と効率的な処理を両立させた汎用性の高いモデルです。\n- Qwen3.8-Maxは、複雑なタスクや高度な論理的推論において優れたパフォーマンスを発揮する、シリーズ最高峰のスペックを備えています。\n- 本リリースにより、AI開発者や企業は用途に応じて、軽量で扱いやすいモデルから高性能モデルまでを柔軟に選択できるようになりました。\n- アリババグループ傘下のQwenチームによる今回のアップデートは、最新の言語処理技術をさらに推し進め、業界全体のAI活用を促進するものです。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ve0psn/qwen3827b_announced_alongside_qwen38max/"
+  },
+  {
+    "id": "3b23de0e-c1c5-810c-902d-f01278dd5ac9",
+    "title": "Daniel Han of Unsloth validates Qwen3.8-27B will run only 17GB VRAM",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-03T05:55:11.000Z",
+    "fetched": "2026-08-04T00:02:44.000Z",
+    "summary": "UnslothのDaniel Han氏がQwen2.5-32B（Qwen3.8-27B）をわずか17GBのVRAMで実行可能であることを実証\n\n- Unslothの最適化技術を活用することで、Qwen2.5-32Bモデルを非常に低いVRAM使用量（17GB）で動作させることに成功した。\n- 通常、これほどの規模のモデルを動かすには多くのメモリを必要とするが、推論および量子化技術の工夫により大幅な軽量化を実現している。\n- コンシューマー向けのグラフィックボード（RTX 3090や4090など）でも十分に動作可能な水準であり、AIモデルのアクセシビリティが向上した。\n- 今回の検証は、大規模言語モデルのローカル環境での活用において、ハードウェアの制限を克服する重要なステップとなる。\n- 実装の詳細や具体的な最適化手法については、Unslothが公開している最新のドキュメントやリポジトリから確認が可能である。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ve4uoe/daniel_han_of_unsloth_validates_qwen3827b_will/"
+  },
+  {
+    "id": "3b23de0e-c1c5-8168-8117-f7f88ed5eeb6",
+    "title": "The Chinese labs everyone lumps together are making four pretty different bets. I work at one of them.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-03T16:42:42.000Z",
+    "fetched": "2026-08-04T00:02:52.000Z",
+    "summary": "中国のAI研究機関が描く4つの異なる成長戦略\n\n中国のAI研究機関は一括りにされがちだが、実際にはそれぞれ独自の戦略に基づいて技術開発を進めている。著者が所属する機関の視点も交え、その多様なアプローチを以下にまとめる。\n\n- 汎用AI（AGI）の追求：一部の機関は、スケーリング法則を重視し、GPT-4のような巨大で汎用的なモデルを構築して、あらゆる領域での圧倒的な能力獲得を目指している。\n- 特定用途への特化：別のグループは、汎用的な知能よりも、科学研究、医療、自動運転といった特定の産業ニーズに深く適応した高効率なモデルの開発にリソースを集中させている。\n- オープンソースによるエコシステム構築：多くの企業が競争力を高めるためにオープンソース化を進めており、開発者コミュニティを囲い込むことで、自社のフレームワークを業界標準にしようと試みている。\n- 政府・国家戦略との連動：一部の機関は、国家の優先事項やインフラ課題の解決を最優先課題としており、収益性よりも社会的な制御や安全性の確保を重視した開発体制をとっている。\n\nこれらの機関は、単に米国の後を追っているわけではなく、中国独自の市場環境や規制状況に適応しながら、それぞれ異なる「勝機」を模索している。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1veipya/the_chinese_labs_everyone_lumps_together_are/"
+  },
+  {
+    "id": "3b23de0e-c1c5-81b0-b738-d585183bf8f3",
+    "title": "MiniMax-H3 now on huggingface",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-03T03:06:38.000Z",
+    "fetched": "2026-08-04T00:02:59.000Z",
+    "summary": "MiniMax-H3がHugging Faceで利用可能に\n\n- 最新のAIモデル「MiniMax-H3」が、開発者プラットフォームであるHugging Face上で公開され、誰でもアクセス可能となった。\n- 本モデルは高い推論能力と処理効率を両立しており、自然言語処理タスクにおいて優れたパフォーマンスを発揮する。\n- 開発者や研究者はHugging Faceを通じてモデルの重みや関連ドキュメントに直接アクセスでき、自身のプロジェクトへの統合が容易になる。\n- AIコミュニティにおけるオープンな技術共有を促進し、多様なアプリケーション開発や研究の加速が期待される。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ve1mvh/minimaxh3_now_on_huggingface/"
+  },
+  {
+    "id": "3b23de0e-c1c5-81c9-b79b-d16b984fb657",
+    "title": "I CANNOT believe I've got DeepSeek-V4-Flash-0731, a frontier model, running on my home PC. Insane!",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-03T16:04:04.000Z",
+    "fetched": "2026-08-04T00:03:07.000Z",
+    "summary": "自宅のPCで最先端AIモデル「DeepSeek-V4-Flash-0731」を動かせた驚きと衝撃\n\n- 最先端のフロンティアモデルである「DeepSeek-V4-Flash-0731」が、特別なサーバー環境ではなく一般的な家庭用PCで動作した。\n- 以前は大規模な計算リソースが必要だった高性能AIが、個人のPC環境でも手軽に実行可能になったことは技術的に画期的である。\n- 高い推論能力を持つモデルがローカル環境で稼働することで、プライバシーの保護や低遅延なAI利用など、活用の幅が大きく広がる可能性がある。\n- 今回の事象は、AI技術の民主化と軽量化が急速に進んでいることを象徴しており、AI開発の歴史において重要な転換点といえる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vehn87/i_cannot_believe_ive_got_deepseekv4flash0731_a/"
+  },
+  {
+    "id": "3b23de0e-c1c5-8141-850d-ed5965bbe8f4",
+    "title": "How to Run Isolated Tenant Kubernetes Clusters on Shared GPU Infrastructure",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-08-03T16:00:00.000Z",
+    "fetched": "2026-08-04T00:03:15.000Z",
+    "summary": "共有GPUインフラ上で分離されたテナントKubernetesクラスターを運用する方法\n\n本記事では、KAI SchedulerとvClusterを組み合わせることで、単一の物理GPUリソースを共有しつつ、各チームが完全に独立したKubernetesクラスターを運用する手法を提案しています。これにより、ハードウェアを物理的に分割することなく、チームごとの自律性と計算リソースの効率的な共有を両立できます。\n\n- 物理GPUを共有しながら、論理的に分離された「仮想クラスター（vCluster）」を各チームに提供し、高いリソース効率とチームごとの自律性を実現します。\n- KAI Schedulerを活用することで、階層的かつトポロジーを意識したGPUスケジューリングが可能となり、チームごとのクォータ管理や動的なリソース割り当てを最適化します。\n- 各チームのクラスターには独自の制御プレーン（APIサーバーやRBAC、CRDなど）が提供されるため、他のチームとの設定衝突を回避し、安全なマルチテナント環境を構築できます。\n- 本手法はNVIDIA GPU Operatorとシームレスに統合されており、小規模から数千ノード規模の環境まで拡張して運用することが可能です。\n- チームごとに専用のクラスターを構築する際のハードウェアコストと、単一クラスターを管理する際の運用の複雑さという、両方の課題を解決する実用的なソリューションです。",
+    "url": "https://developer.nvidia.com/blog/how-to-run-isolated-tenant-kubernetes-clusters-on-shared-gpu-infrastructure/"
+  },
+  {
+    "id": "3b23de0e-c1c5-81b7-b7f1-c900d09fb1ef",
+    "title": "NVIDIA Vera Storage Benchmarks: Faster Encryption, Compression, Integrity Checking, and Recovery for AI-Native Storage ",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-08-03T16:00:00.000Z",
+    "fetched": "2026-08-04T00:03:23.000Z",
+    "summary": "NVIDIA Veraストレージプロセッサ：AIネイティブストレージにおける暗号化、圧縮、整合性チェック、復旧の高速化\n\n- NVIDIAの新型ストレージプロセッサ「Vera（BlueField-4 STX）」は、88個のArmv9.2コアを搭載し、AIワークロードに最適化された高いストレージ処理能力を実現する。\n- 従来のx86 CPUと比較し、暗号化で最大1.43倍、リード・ソロモン復号で最大3.26倍、CRC32C整合性チェックで最大3.67倍という大幅な性能向上を達成した。\n- 圧縮・解凍処理においても最大3.29倍の高速化を実現し、データ管理負荷の高いAIネイティブな環境での効率的なデータフローを支える。\n- 単一のCPUアーキテクチャに機能を統合することで、CPU消費電力や冷却要件を抑えつつ、より多くの同時エージェント実行とデータ処理を可能にする。\n- エージェント型AIにおいて、KVキャッシュやツール実行などで頻発するストレージ処理のオーバーヘッドを削減し、システム全体の運用密度と効率を劇的に高める。",
+    "url": "https://developer.nvidia.com/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage/"
+  }
+]

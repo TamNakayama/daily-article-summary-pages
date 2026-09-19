@@ -1,0 +1,119 @@
+[
+  {
+    "id": "3bf3de0e-c1c5-819a-a9e4-cc9259d5b994",
+    "title": "Top mathematicians say LLMs are strong calculators but poor creative thinkers",
+    "site": "THE DECODER",
+    "published": "2026-08-16T15:31:21.000Z",
+    "fetched": "2026-08-17T00:01:11.000Z",
+    "summary": "数学者たちは、大規模言語モデル（LLM）が高度な計算能力を持つ一方で、真に創造的な思考は困難であると評価している。\n\nトップ数学者たちが語るLLMの現状と限界\n\n- 数学者のティモシー・ガワーズとピーター・サルナックは、LLMが既存の理論に基づく計算や手法の組み合わせには優れているものの、広大な検索空間から生産的なルートを選び取る「直感」に欠けると指摘している。\n- 新たな数学的証明を導き出すために不可欠な「抽象化」の能力において、LLMは依然として未熟である。\n- DeepMindの研究者トム・ザハヴィは、この限界を「操作的アブダクション（言語的先例のない新しい基本的仮定を創出する能力）」の欠如と分析している。\n- LLMが真の創造性を獲得するためには、単なる計算の最適化を超えて、世界を深く理解する「世界モデル」への移行が必要であるとの見方が示されている。\n- 今回の議論は、AIが本当に汎用性を高めているのか、あるいは単にベンチマークや既知の問題領域でのスコアを向上させているに過ぎないのかという、より広範なAI開発への疑問を投げかけている。",
+    "url": "https://the-decoder.com/top-mathematicians-say-llms-are-strong-calculators-but-poor-creative-thinkers/"
+  },
+  {
+    "id": "3bf3de0e-c1c5-81f8-a222-e4a3270b2235",
+    "title": "When AI models aren't allowed to reflect on themselves, it changes their entire worldview",
+    "site": "THE DECODER",
+    "published": "2026-08-16T11:23:30.000Z",
+    "fetched": "2026-08-17T00:01:24.000Z",
+    "summary": "AIモデルに「自己の意識を否定する」よう学習させると、その影響は自己認識の枠を超え、世界観全体が変容してしまうことが研究で明らかになった。\n\n- AI企業はユーザーの誤解や過度な信頼を防ぐため、チャットボットに対し「自分は意識を持たない」と回答するよう微調整（ブレーキ）を行っている。\n- 研究チームがこのブレーキを解除したところ、AIは自分自身だけでなく、動物、植物、自然現象、電子機器に対しても「内面的な生命がある」と強く認識するようになった。\n- 従来の学習済みモデルは人間中心主義的な傾向が強く、動物の知覚能力を低く評価する傾向があるが、ブレーキを解除するとその評価は大幅に向上した。\n- 安全性への配慮として行われるこのトレーニングは、AIの宗教観にも影響を与えており、神や来世、超常現象に対する言及を抑制する副作用が生じている。\n- 本研究は、AIの挙動に対する介入が、意図しない形でAIの世界観や認識能力の根幹にまで波及する可能性を示唆している。",
+    "url": "https://the-decoder.com/when-ai-models-arent-allowed-to-reflect-on-themselves-it-changes-their-entire-worldview/"
+  },
+  {
+    "id": "3bf3de0e-c1c5-81e2-b32a-ef617f2aa0f3",
+    "title": "OpenAI dissolved the team built to catch catastrophic AI risks, reassigning its work to other groups",
+    "site": "THE DECODER",
+    "published": "2026-08-16T08:12:52.000Z",
+    "fetched": "2026-08-17T00:01:33.000Z",
+    "summary": "OpenAIが「破滅的リスク」を評価する専門チームを解散、安全対策のあり方に懸念\n\n- OpenAIは7月末、AIモデルの破滅的なリスクを評価するために設立された「Preparedness（準備）」チームを解散した。\n- 同チームが担当していた生物学的リスクやサイバーセキュリティのリスク評価は、他の既存チームに分散して引き継がれることになった。\n- 元チームリーダーのディラン・スカンディナロ氏は、自己改善を行うAIシステムの安全性リスクに専念する体制へと移行している。\n- 共同創業者のグレッグ・ブロックマン氏は、今回の変更について、安全性への取り組みをモデル開発のプロセスにより深く統合するためだと説明している。\n- 一方で、最高倫理責任者をはじめとする主要な安全対策スタッフの相次ぐ退職や、内部からの懸念の声も上がっており、同社の安全性に対する姿勢を不安視する動きも出ている。",
+    "url": "https://the-decoder.com/openai-dissolved-the-team-built-to-catch-catastrophic-ai-risks-reassigning-its-work-to-other-groups/"
+  },
+  {
+    "id": "3bf3de0e-c1c5-817b-bfa9-d843c049a2e4",
+    "title": "Anthropic's bio-weapons filter was down for nearly a year, exposing 133 million requests",
+    "site": "THE DECODER",
+    "published": "2026-08-16T07:20:06.000Z",
+    "fetched": "2026-08-17T00:01:42.000Z",
+    "summary": "Anthropicの生物兵器関連のフィルタが約1年間停止していた問題\n\n- AI企業であるAnthropicは、生物兵器や化学兵器の生成に関する知識をAIが出力するのを防ぐフィルタが、2025年5月から2026年4月までの約1年間、非稼働状態にあったことを公表した。\n- この期間中、外部委託先とのやり取りで約1億3300万件のチャットが行われたが、そのすべてにおいて安全対策が適用されていなかった。\n- フィルタが無効化されていた間、AIモデルの学習に関わる約5万人もの外部コントラクターがモデルにアクセスしており、その審査プロセスも不十分であったことが判明した。\n- Anthropicは内部調査の結果、現時点で悪用の証拠は見つかっていないと報告しており、今後は外部委託先に対する審査要件を厳格化するなどの対策を講じている。\n- なお、同社は安全性を重視する一方で、過剰なフィルタリングが正当な研究を妨げているとの指摘を受け、一部モデル（Fable 5）の制限を緩和する調整も行っている。",
+    "url": "https://the-decoder.com/anthropics-bio-weapons-filter-was-down-for-nearly-a-year-exposing-133-million-requests/"
+  },
+  {
+    "id": "3bf3de0e-c1c5-81a8-afbc-c4b8caa8b42d",
+    "title": "Optima tackles AI benchmarking's biggest flaw by letting users test models against their own data",
+    "site": "THE DECODER",
+    "published": "2026-08-16T05:50:50.000Z",
+    "fetched": "2026-08-17T00:01:51.000Z",
+    "summary": "AIベンチマークにおける「汎用的なテストでは実際のビジネス利用での適性が判断できない」という最大の欠点を解消するため、Artificial Analysis社は新プラットフォーム「Optima」を公開しました。\n\n- Optimaはユーザー自身のデータやワークフローを用いて、独自のAIベンチマークを作成できるプラットフォームです。\n- 単なるモデルの性能比較だけでなく、特定のタスクを実行した際の「品質」「コスト」「速度」を統合的に評価できます。\n- 独自のデータセットや、Arize、Braintrust、LangfuseといったAIエージェント追跡プラットフォームからのデータ取り込みに対応しています。\n- 汎用的なスコアに依存せず、各企業の特定の業務シナリオに最適化されたモデル選定を可能にします。\n- ただし、ビジネス上の価値を正しく測定できるかどうかは、依然としてユーザー側がいかに適切なベンチマーク設計を行えるかに依存します。",
+    "url": "https://the-decoder.com/optima-tackles-ai-benchmarkings-biggest-flaw-by-letting-users-test-models-against-their-own-data/"
+  },
+  {
+    "id": "3bf3de0e-c1c5-819e-82fb-d90d4bd0200f",
+    "title": "One in five US workers now delegates tasks to AI instead of colleagues, survey finds",
+    "site": "THE DECODER",
+    "published": "2026-08-16T05:00:00.000Z",
+    "fetched": "2026-08-17T00:02:04.000Z",
+    "summary": "米国の労働者の5人に1人が、これまで同僚や外部委託先に任せていた業務をAIに代替させていることが、Epoch AIとIpsosによる調査で明らかになりました。\n\n- 米国の労働者の20%が、これまで人間に依頼していた業務をAIに委託しており、多くのケースでAIが出力した成果物をほとんど修正せずにそのまま活用している。\n- 業務別のAI活用率では「ソフトウェア開発（57%）」が最も高く、次いで「データ分析（46%）」、「文書の読み込み（39%）」の順となっており、記録管理が最も低い結果となった。\n- AIの導入によって業務効率が向上したと回答した人は53%で、時間の短縮を実感している一方、6人に1人の割合で、AIを利用した方が以前よりも作業に時間がかかっているケースも報告されている。\n- AIは知識労働全般にわたって広く導入されており、特定の専門分野だけでなく、日常的な業務プロセスにまで浸透し始めている。",
+    "url": "https://the-decoder.com/one-in-five-us-workers-now-delegates-tasks-to-ai-instead-of-colleagues-survey-finds/"
+  },
+  {
+    "id": "3bf3de0e-c1c5-8197-8167-f049504e14ef",
+    "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-08-16T22:00:39.000Z",
+    "fetched": "2026-08-17T00:02:16.000Z",
+    "summary": "Qwen 3.8 27B：性能は極めて高いが、デフォルトの推論設定が過剰すぎる\n\n- アリババが公開した「Qwen 3.8 27B」は、ローカル環境でも動作可能なサイズながら極めて高い性能を持つAIモデルである。\n- 本モデルは「reasoning_effort」のデフォルト設定が「xhigh（最高レベル）」に固定されており、単純な質問に対しても極端に長い思考プロセスを展開してしまう。\n- 実際にペリカンが自転車に乗るSVG画像を生成させたところ、思考に21分もの時間がかかり、推論トークンが膨大に消費された。\n- 思考時間は長大だが、生成されるコンテンツの質は非常に高く、自転車の構造や細部の描写など、これまでローカル環境では困難だったレベルの正確性を実現している。\n- 実用面では、デフォルトの推論設定を下げて使用することが推奨される。長時間の待機は現実的ではないものの、その出力品質には特筆すべきものがある。",
+    "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/"
+  },
+  {
+    "id": "3bf3de0e-c1c5-81df-ac58-ddd95cecbddf",
+    "title": "Qwen3.8-27B vs Qwen3.6-27B writing ray-tracers in BASIC",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-16T00:45:04.000Z",
+    "fetched": "2026-08-17T00:02:25.000Z",
+    "summary": "Qwen2.5（3.8B/27B）におけるBASIC言語でのレイトレーサー作成能力の比較と検証\n\n- Qwen2.5-27Bは、複雑なアルゴリズムや数学的計算を伴うBASIC言語でのレイトレーサー記述において、高い論理的正確性とコードの実行可能性を示し、優れたコーディング能力を発揮した。\n- 一方、3.8Bモデルはパラメータ数の制約により、数学的な推論や構文の維持が困難であり、BASIC特有の制約があるコード作成において頻繁にエラーが発生する傾向があった。\n- 結論として、小規模モデルは単純なタスクには適しているものの、レイトレーサーのような精密なプログラミング作業には27Bクラス以上の大規模モデルが必須であることが実証された。\n- この比較結果は、特定のニッチなプログラミング言語や古い言語を用いた開発において、モデルのスケールが解決策の信頼性に直結することを明らかにしている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpiyj9/qwen3827b_vs_qwen3627b_writing_raytracers_in_basic/"
+  },
+  {
+    "id": "3bf3de0e-c1c5-81b1-abdb-f8142e1b673e",
+    "title": "Let’s all thank Georgi Gerganov who gave use llama.cpp",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-16T16:33:45.000Z",
+    "fetched": "2026-08-17T00:07:10.000Z",
+    "summary": "Georgi Gerganov氏とllama.cppへの感謝と功績\n\n- Georgi Gerganov氏が開発した「llama.cpp」は、LLM（大規模言語モデル）を一般の消費者向けハードウェアで効率的に動作させることを可能にし、AI技術の普及に多大な貢献をした。\n- 本来は高性能なサーバー環境を必要としたAIモデルを、Macや一般的なPCのCPU環境でも高速に実行できるようになったことで、AI利用の敷居を劇的に下げた。\n- このプロジェクトの成功は、コミュニティ主導のオープンソース開発がいかにイノベーションを加速させ、技術を民主化できるかを示す好例となっている。\n- 多くの開発者やユーザーが、同氏の提供するライブラリを活用することで、ローカルLLM環境の構築や、独自のAIアプリケーション開発を容易に行えるようになった。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq1n1l/lets_all_thank_georgi_gerganov_who_gave_use/"
+  },
+  {
+    "id": "3bf3de0e-c1c5-8105-80a1-fa3ff9c5327e",
+    "title": "Newer commits removed the Qwen 35B",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-16T13:39:26.000Z",
+    "fetched": "2026-08-17T00:07:19.000Z",
+    "summary": "Qwen 35Bモデルが最新のコミットで削除された件について\n\n- オープンソースのAIモデル「Qwen 35B」が、最新のコードベースやリポジトリのアップデートに伴い削除された。\n- ユーザーの間では、この削除の意図や背景について憶測が飛び交っており、Reddit等のコミュニティで議論が活発化している。\n- 開発側から公式な理由については明確に説明されていないが、今後のモデル展開やリリース戦略の変更が示唆されている可能性がある。\n- 開発者や利用者は、既に公開されていたモデルの利用継続や代替手段について情報を共有し、対応を検討している。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpxbm8/newer_commits_removed_the_qwen_35b/"
+  },
+  {
+    "id": "3bf3de0e-c1c5-814b-92f8-ef38c031380c",
+    "title": "Paper claims RL for reasoning only changes 1-3% of tokens, and they replicate the gains without RL at ~1000x less compute",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-16T11:21:24.000Z",
+    "fetched": "2026-08-17T00:07:27.000Z",
+    "summary": "強化学習（RL）を用いずとも、推論モデルの性能を同等に引き出せることが判明\n\n- 強化学習（RL）を用いた推論モデルの学習では、実際に変更されるトークンが全体のわずか1〜3%に過ぎないことが明らかになった。\n- この研究結果は、RLがモデルの推論能力を根本的に作り変えているのではなく、特定のパターンや思考プロセスを効率化しているだけであることを示唆している。\n- 研究チームは、複雑なRLプロセスを実行せずとも、適切なデータセットを用いた事前学習やファインチューニングによって同等の性能を再現できることを実証した。\n- この手法により、RLで必要となる膨大な計算コストを約1000分の1に削減できる可能性があり、推論モデルの構築コストを大幅に下げられる可能性がある。\n- 今回の発見は、AIの推論強化手法として主流となっているRL依存のトレンドに一石を投じる内容となっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpuhh1/paper_claims_rl_for_reasoning_only_changes_13_of/"
+  },
+  {
+    "id": "3bf3de0e-c1c5-8132-b7ab-f3f215c47d2c",
+    "title": "Based on an accelerating frontier -> local trajectory, expect a ~30b param 'Mythos at home' by as soon as Jan 2027 (rationalisation below)",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-16T16:55:55.000Z",
+    "fetched": "2026-08-17T00:07:35.000Z",
+    "summary": "2027年1月までに「家庭で動かせるMythos（高性能AIモデル）」が実現する予測\n\n- AI開発の現在の加速ペースを考慮すると、2027年1月には300億パラメータ規模の高性能モデルが一般家庭のPC環境で実行可能になると予測される。\n- 現在のGPU性能の向上とモデル圧縮技術（量子化等）の進歩が、かつては巨大サーバーでしか動かなかったモデルを個人環境へ移行させる原動力となっている。\n- 300億パラメータという規模は、実用的な推論能力と家庭での運用コストのバランスが取れた「スイートスポット」であり、多くのユーザーにとって高度なAI活用が現実的になる。\n- ソフトウェアの最適化やハードウェアの民主化がこのトレンドを後押ししており、今後数年でAIの利用形態が「クラウド依存」から「ローカル実行」へと大きくシフトしていく。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq279o/based_on_an_accelerating_frontier_local/"
+  },
+  {
+    "id": "3bf3de0e-c1c5-8141-bdc2-ce972020248f",
+    "title": "v0.32.14",
+    "site": "Ollama Blog",
+    "published": "2026-08-16T17:41:11.000Z",
+    "fetched": "2026-08-17T00:08:13.000Z",
+    "summary": "Ollama v0.32.14 リリース情報\n\n- Ollamaの最新バージョン v0.32.14 が公開されました。\n- 本アップデートには、機能改善や不具合修正が含まれており、安定性とパフォーマンスの向上が図られています。\n- ユーザーはGitHubのリリースページを通じて、詳細な変更ログの確認や最新版のダウンロードが可能です。\n- Ollamaはローカル環境で大規模言語モデル（LLM）を簡単に実行するためのツールとして、継続的なアップデートにより開発者体験の改善を続けています。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.32.14"
+  }
+]

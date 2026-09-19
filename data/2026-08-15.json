@@ -1,0 +1,119 @@
+[
+  {
+    "id": "3be3de0e-c1c5-8166-b2df-d4ddf00e6f63",
+    "title": "Investor pressure forces Nvidia to shrink its OpenAI bet just as Anthropic's numbers defy bubble warnings",
+    "site": "THE DECODER",
+    "published": "2026-08-15T15:41:02.000Z",
+    "fetched": "2026-08-16T00:01:24.000Z",
+    "summary": "NVIDIAがOpenAIへの投資を縮小する一方、Anthropicが驚異的な成長を遂げAIバブル懸念に一石を投じる\n\n- NVIDIAは投資家からのリスク懸念を受け、OpenAIのデータセンター建設に対する当初2,500億ドルの支援計画を約1,200億ドルへと半減させた。\n- この動きは、AIブームの恩恵を最大に受けている企業ですら慎重な姿勢に転じつつあることを示唆し、AIバブル説を裏付ける一因となっている。\n- 対照的に、Anthropicの業績は急成長を続けており、第2四半期の売上高は第1四半期の約2.5倍となる115億ドルを記録し、前年比で14倍もの飛躍を見せた。\n- Anthropicは2028年の年間売上高見通しを最大2,000億ドルと予測しており、今年5月時点の試算（約450億ドル）を大幅に上回る強気な成長目標を掲げている。\n- AI市場では大手による投資の選別が始まる一方で、Anthropicのように独自のAIサービス需要が爆発的に拡大するケースもあり、市場の評価は二極化している。",
+    "url": "https://the-decoder.com/investor-pressure-forces-nvidia-to-shrink-its-openai-bet-just-as-anthropics-numbers-defy-bubble-warnings/"
+  },
+  {
+    "id": "3be3de0e-c1c5-81a9-9aab-c1202ec23648",
+    "title": "AI-generated books are flooding Amazon and tanking sales for human authors",
+    "site": "THE DECODER",
+    "published": "2026-08-15T11:00:50.000Z",
+    "fetched": "2026-08-16T00:01:36.000Z",
+    "summary": "AI生成本がAmazonに氾濫し、人間が執筆した書籍の売上が低下している\n\n- AI生成書籍の増加は、書籍の質ではなく圧倒的な「量」の力で、人間が書いた書籍の販売シェアを侵食している。\n- 1万4000冊以上の電子書籍を分析した結果、AI生成コンテンツを多く含む書籍は市場全体の2割を占めるまでになり、低品質であっても無視できない影響力を持ち始めている。\n- 全体的な収益低下が見られ、AI判定で「AI生成なし」とされた人間による執筆作品でさえも、市場に溢れるAI本のあおりを受けて売上が減少している。\n- AI生成本は売上比率こそ低いものの、安価な大量投入によってAmazonのランキングや表示アルゴリズムに影響を与え、読者が人間による良質な書籍にたどり着く機会を奪っている。\n- これまでAI本は「質の低いゴミ（slop）」として市場の下層に留まると軽視されてきたが、現在の市場動向はその認識が甘かったことを示唆している。",
+    "url": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors/"
+  },
+  {
+    "id": "3be3de0e-c1c5-8108-a279-f6ee5cb21218",
+    "title": "Plaintiff hid invisible AI instructions in court filings to secretly influence automated review",
+    "site": "THE DECODER",
+    "published": "2026-08-15T08:00:45.000Z",
+    "fetched": "2026-08-16T00:01:50.000Z",
+    "summary": "コネチカット州の裁判において、原告の男性が裁判書類にAIへの隠し命令（プロンプトインジェクション）を埋め込み、自動審査の結果を有利に誘導しようと試みていたことが発覚した。\n\n- 原告は、裁判書類の背景色と同じ白い文字で、極小サイズの隠しテキストを埋め込む手法を用いた。人間には視認できないが、AIがテキストを読み込む際には命令として認識される仕組みだった。\n- 隠しメッセージには、AIに対して提出書類の内容を支持することや、過去の却下判断を誤りとして修正するよう求める指示が含まれていた。\n- 裁判所側は、提出書類に不自然な空白があることに気づき、調査を通じてこの工作を特定した。担当判事は、この行為を自動化されたエージェントを通じて陪審員と秘密裏に接触する行為に等しいと強く批判した。\n- 裁判所からの警告後も、原告はYouTubeのリンクや法廷を揶揄するコメントを同様の手法で隠し続けていた。",
+    "url": "https://the-decoder.com/plaintiff-hid-invisible-ai-instructions-in-court-filings-to-secretly-influence-automated-review/"
+  },
+  {
+    "id": "3be3de0e-c1c5-81eb-8b95-d21a201d5f83",
+    "title": "World Labs turns one real-world robot task into thousands of simulated variations for training",
+    "site": "THE DECODER",
+    "published": "2026-08-15T07:30:48.000Z",
+    "fetched": "2026-08-16T00:02:05.000Z",
+    "summary": "World Labsがロボット学習を劇的に効率化する「Real-to-Sim-to-Real (R2S2R)」エンジンを発表\n\n- World Labsが開発した「R2S2R」エンジンは、1つの現実世界のロボットタスクを、数千ものバリエーションを持つシミュレーション環境へ変換し、ロボットの学習を加速させる。\n- ロボット開発における最大の課題は、信頼性を確保するために必要な膨大な経験データである。実環境でのテストはコストと時間がかかるが、本技術はそれを仮想空間で代替する。\n- 物理的に正確な仮想世界を生成することで、照明、物体配置、摩擦係数、カメラアングルなどを変化させた多様なシナリオを自動生成し、ロボットの汎化性能を効率的に高める。\n- 生成されたシミュレーション環境と現実世界の挙動を詳細に照らし合わせることで、仮想環境で学んだ制御ポリシーを現実のハードウェアでそのまま適用可能にしている。\n- AIのパイオニアであるフェイフェイ・リー氏が率いるWorld Labsは、7月に買収したスタートアップ「SceniX」の技術を基盤として、ロボットのAI学習効率を飛躍的に向上させることを目指す。",
+    "url": "https://the-decoder.com/world-labs-turns-one-real-world-robot-task-into-thousands-of-simulated-variations-for-training/"
+  },
+  {
+    "id": "3be3de0e-c1c5-8142-b344-f6241cb85a3f",
+    "title": "The \"tragedy of the cognitive commons\" explains how rational AI adoption could destroy entire professions' expertise",
+    "site": "THE DECODER",
+    "published": "2026-08-15T06:00:52.000Z",
+    "fetched": "2026-08-16T00:02:14.000Z",
+    "summary": "「認識のコモンズの悲劇」：AI導入による専門性の崩壊と人材育成の危機\n\n- AI導入の利便性を追求する個別の組織的判断が、結果として社会全体の専門知識の蓄積を破壊する「認識のコモンズの悲劇」が生じている。\n- 企業が効率化のために新人層のタスクをAIに置き換えることで、本来そこから得られるはずの「経験を積む機会」が失われ、将来の熟練専門家が育たなくなる。\n- 新人が初歩的な業務を通じて行う「失敗と修正」という学習プロセスが遮断されるため、長期的なドメイン知識の継承が断絶する。\n- 熟練者が不足すると、AIが生成した成果物の誤りや不適切な判断を人間がチェック・検証する能力も低下し、結果として組織の判断力が弱体化する。\n- 専門知識は個々の組織だけで完結するものではなく、共通の「公共財（コモンズ）」としての側面があるため、安易なAI導入は業界全体の労働市場に持続不可能なリスクをもたらす。",
+    "url": "https://the-decoder.com/the-tragedy-of-the-cognitive-commons-explains-how-rational-ai-adoption-could-destroy-entire-professions-expertise/"
+  },
+  {
+    "id": "3be3de0e-c1c5-814f-9ab2-e97d2f54d22c",
+    "title": "New benchmark confirms AI models still perform poorly at visual perception",
+    "site": "THE DECODER",
+    "published": "2026-08-15T05:30:18.000Z",
+    "fetched": "2026-08-16T00:02:23.000Z",
+    "summary": "AIモデルの視覚認識能力は依然として低く、最先端モデルでも基本的な視覚タスクで失敗することが明らかになった。\n\n- Moonshot AIが発表した新ベンチマーク「PerceptionBench」により、AIの視覚認識能力が論理推論や外部知識とは切り離して検証された。\n- 評価対象となった「GPT-5.6 Sol」や「Claude Fable 5」などの主要なモデルは、いずれも正解率が60％に届かず、基本的な視覚能力に顕著な弱点があることが判明した。\n- 従来「論理的な推論ミス」と考えられていたAIの誤答の多くが、実は推論の段階以前の「画像認識の誤り」に起因していることが示唆された。\n- PerceptionBenchは、視覚能力を10個の基本的なサブスキルに分解することで、理論先行ではない、現実の誤りに基づいた実効性の高い評価を実現している。",
+    "url": "https://the-decoder.com/new-benchmark-confirms-ai-models-still-perform-poorly-at-visual-perception/"
+  },
+  {
+    "id": "3be3de0e-c1c5-8198-a548-d8f1ba35067d",
+    "title": "Qwen 3.8 35BA3B spotted",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-15T08:49:06.000Z",
+    "fetched": "2026-08-16T00:02:31.000Z",
+    "summary": "Qwenの次世代モデル「Qwen 3.8 35BA3B」の存在が浮上\n\n- Qwenシリーズの次期モデルとみられる「Qwen 3.8 35BA3B」に関する情報が、Reddit上で報告された。\n- モデル名に含まれる「35B」という数値から、推論能力と効率性のバランスを重視した中規模クラスのモデルである可能性が高い。\n- 「A3B」という表記は、Mixture-of-Experts（MoE）アーキテクチャを採用し、アクティブパラメータ数が30億（3B）程度であることを示唆している。\n- 従来のQwenモデルが高いベンチマーク性能を誇っていたことから、本モデルも計算リソースを抑えつつ高いパフォーマンスを発揮する効率的なモデルとして期待されている。\n- 現時点では公式な発表ではないものの、モデルのリーク情報を通じて、AIコミュニティではそのスペックや実力に対する関心が急速に高まっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1voxppd/qwen_38_35ba3b_spotted/"
+  },
+  {
+    "id": "3be3de0e-c1c5-81f7-84b5-d6ae05030982",
+    "title": "Aged like fine wine",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-15T13:17:13.000Z",
+    "fetched": "2026-08-16T00:02:39.000Z",
+    "summary": "時が経つほど価値や魅力が増すことの比喩「Aged like fine wine（熟成したワインのように）」の考察\n\n- この表現は、年を重ねることで身体的な衰えではなく、経験や洗練された魅力、あるいは見通しの正しさが際立つ状態を指す。\n- 過去の投稿や意見が、長い年月を経て現在の状況にも当てはまる、あるいは予見的であったことが証明された際に用いられる。\n- 単なる「老化」を否定的に捉えるのではなく、時を経て深みを増すポジティブな変化を称賛するニュアンスが含まれている。\n- Redditなどのオンラインコミュニティでは、過去のコンテンツが「今の時代でも色あせない価値を持っている」ことを強調する際に頻繁に使用される。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vp2nmi/aged_like_fine_wine/"
+  },
+  {
+    "id": "3be3de0e-c1c5-8153-b3ff-df34bc35b600",
+    "title": "Qwen 3.8 - 27B is a game changer",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-15T00:09:13.000Z",
+    "fetched": "2026-08-16T00:02:47.000Z",
+    "summary": "Qwen 2.5 32B（Qwen 3.8 - 27Bと混同されやすい次世代モデル）がもたらす革新性\n\n- 27Bから32B規模のモデルにおいて、推論能力が従来の枠組みを大きく超え、GPT-4クラスの性能に肉薄している。\n- 計算リソースが限られた環境でも動作可能なサイズでありながら、非常に高い言語理解力とコーディング精度を実現している。\n- オープンソース界隈において、商用モデルと肩を並べる水準に到達したことで、ローカルLLMの活用範囲を劇的に広げた。\n- 効率的なアーキテクチャ設計により、推論速度と精度のバランスが極めて優秀であり、コストパフォーマンスに優れた実用的な選択肢となっている。\n- 複雑な指示に対する追従性や多言語対応能力が大幅に強化されており、特定のベンチマークでトップクラスの評価を獲得している。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vonuu0/qwen_38_27b_is_a_game_changer/"
+  },
+  {
+    "id": "3be3de0e-c1c5-8162-9559-c6082717ca25",
+    "title": "[Megathread] Qwen 3.8 27B Release Day",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-15T00:41:13.000Z",
+    "fetched": "2026-08-16T00:02:55.000Z",
+    "summary": "Qwen 3.8 27B リリース当日のメガスレッドまとめ\n\n- Qwen 3.8 27Bは、同規模のオープンソースモデルの中でも極めて高い性能を誇り、推論能力やコーディングスキルが大幅に向上している。\n- 270億パラメータというサイズは、商用GPU環境において推論速度と精度のバランスが非常に優れており、多くのユーザーにとって実用的な選択肢となる。\n- 多言語対応能力が強化されており、英語以外の言語におけるタスク処理能力や文脈理解が前バージョンから大きく進化した。\n- 軽量かつ高性能であることから、ローカル環境での実行や、特定のアプリケーションへの組み込み用途での活用が強く期待されている。\n- コミュニティ内では、モデルのベンチマーク結果に関する検証や、量子化によるさらなる軽量化手法についての活発な議論が展開されている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1voojjz/megathread_qwen_38_27b_release_day/"
+  },
+  {
+    "id": "3be3de0e-c1c5-810f-aebd-f6b03e2f6caa",
+    "title": "If you would have told me half a year ago that a local model running in my office would be able to one-shot a Super Mario clone, I would have called you nuts. Qwen3.8-27B is a different beast.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-15T14:19:46.000Z",
+    "fetched": "2026-08-16T00:03:03.000Z",
+    "summary": "半年前に「ローカル環境で動作するAIモデルがスーパーマリオのクローンゲームを一発で作成できる」と言われても信じられなかった。Qwen2.5-32B（※Qwen3.8-27Bは原文の誤記と推測される）は、まさに別次元の性能を備えたモデルである。\n\n- ローカル環境で実行可能なAIモデルが、スーパーマリオのクローンゲームを一発で生成する驚異的な性能を実現した。\n- 従来では考えられなかった高度なタスクを、オフライン環境かつ単一のモデルで完結できるようになったことは画期的である。\n- 今回検証されたモデルは、プログラミングやゲーム開発といった複雑な生成タスクにおいて、以前のモデルとは比較にならないほどの進化を見せている。\n- 今後、ローカルAIの進化により、外部APIに頼ることなく、自身のマシン上で複雑なソフトウェア開発を行うことが当たり前になる可能性がある。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vp438p/if_you_would_have_told_me_half_a_year_ago_that_a/"
+  },
+  {
+    "id": "3be3de0e-c1c5-8152-bc2f-fc0edfd21aaf",
+    "title": "v0.32.14",
+    "site": "Ollama Blog",
+    "published": "2026-08-15T19:41:23.000Z",
+    "fetched": "2026-08-16T00:03:11.000Z",
+    "summary": "Ollama v0.32.14 リリース情報\n\n- Ollamaが最新バージョン「v0.32.14」を公開し、機能改善と不具合の修正を行いました。\n- 本バージョンでは、ローカル環境でLLMをより安定して実行するための最適化が図られています。\n- ユーザーはGitHubのリリースページを通じて、詳細な更新内容の確認やバイナリのダウンロードが可能です。\n- 定期的なアップデートを適用することで、最新のモデルへの対応やパフォーマンス向上といった恩恵を継続して受けられます。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.32.14-rc0"
+  },
+  {
+    "id": "3be3de0e-c1c5-8181-ad39-f01edfda9b44",
+    "title": "v0.32.12",
+    "site": "Ollama Blog",
+    "published": "2026-08-15T04:30:53.000Z",
+    "fetched": "2026-08-16T00:03:20.000Z",
+    "summary": "Ollama v0.32.12 リリースノート\n\n- Ollamaがバージョン0.32.12へアップデートされ、機能強化や不具合修正が実施されました。\n- 今回のリリースは、ローカルLLM実行環境としての安定性向上やパフォーマンスの最適化に重点が置かれています。\n- モデルの推論効率や特定の環境下での互換性が改善されており、ユーザーはよりスムーズに最新モデルを利用可能になります。\n- 詳細はGitHubの公式リポジトリにあるリリースノートおよび変更履歴（Changelog）から確認でき、特定のバグ修正や機能追加の詳細が公開されています。\n- 定期的なメンテナンスの一環として提供されており、利用者は最新版へのアップデートを行うことで、安全かつ最新の状態での運用が推奨されます。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.32.12"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "3cb3de0e-c1c5-81d5-afad-d53dd3a09c8a",
+    "title": "Google Deepmind's AI Co-Scientist now plans experiments, runs lab equipment, and writes scientific papers",
+    "site": "THE DECODER",
+    "published": "2026-08-28T18:46:27.000Z",
+    "fetched": "2026-08-29T00:01:12.000Z",
+    "summary": "Google DeepMindのAI「Co-Scientist」は、仮説生成だけでなく、実験の計画からラボ機器の制御、論文執筆までを自動化する統合型研究パートナーへと進化しました。\n\n- 最新のGeminiモデルを基盤とし、仮説の立案から実験の実行、結果の分析、論文の執筆までを完全なクローズドループで行う。\n- 生成されたコードの実行ログとテキスト内の数値を検証するモジュールを備えており、ハルシネーション（情報の捏造）を削減する。\n- 材料科学では人間が実行する合成レシピの設計、生物学では専門家のフィードバックを伴う予測パイプラインの構築など、複数分野で検証されている。\n- コンピュータサイエンス分野においては、人間の介入なしに完全に自律的なAIアーキテクチャの開発を達成した。",
+    "url": "https://the-decoder.com/google-deepminds-ai-co-scientist-now-plans-experiments-runs-lab-equipment-and-writes-scientific-papers/"
+  },
+  {
+    "id": "3cb3de0e-c1c5-811d-88ea-ce1372338b49",
+    "title": "AI benchmarks have a trust problem and Google wants to fix it",
+    "site": "THE DECODER",
+    "published": "2026-08-28T13:15:10.000Z",
+    "fetched": "2026-08-29T00:01:23.000Z",
+    "summary": "AIモデルの評価における事前情報の漏洩や不正（ベンチマーク汚染）を防ぐため、Google DeepMindは暗号技術を用いた初の二重盲検による外部評価システムのパイロットテストを開始した。これにより、評価者はAIの機密モデルの重みを覗き見ず、Google側も事前にテスト問題を見ることなく、安全かつ公平にモデルの性能を検証できる仕組みを実現する。\n\n- Google DeepMindは、AIモデルがテスト問題を事前に学習してしまう「ベンチマーク汚染」の課題を解決するため、暗号技術を活用した二重盲検評価のパイロットプロジェクトを開始した。\n- この仕組みでは、外部テストデータが暗号化された「ボックス」に保持されるため、AIモデルが事前に出題内容を把握してテスト対策を行うことが不可能になる。\n- 従来の外部評価では、評価者に問題を開示するか、プロバイダがモデルの重み（知的財産）を開示するかの妥協が必要だったが、新手法はこのトレードオフを解消する。\n- Google Cloudの「Confidential Space」を利用することで、評価者はGeminiモデルの重みを見ることができず、同時にGoogle側もテストデータを一切見られない環境が暗号学的に保証される。\n- パイロットテストでは、Gemini Flash Liteのモデルを対象に、機密性の高い外部ベンチマークを用いた検証が行われている。",
+    "url": "https://the-decoder.com/ai-benchmarks-have-a-trust-problem-and-google-wants-to-fix-it/"
+  },
+  {
+    "id": "3cb3de0e-c1c5-8128-b755-eb69a055a7ba",
+    "title": "U.S. court rules Pentagon's blacklisting of Anthropic was unlawful",
+    "site": "THE DECODER",
+    "published": "2026-08-28T11:43:41.000Z",
+    "fetched": "2026-08-29T00:01:32.000Z",
+    "summary": "米連邦地裁がペンタゴンによるAnthropic社のブラックリスト入りを違法と判断\n\n- サンフランシスコの連邦裁判所は、国防総省がAnthropic社をサプライチェーンのリスクに指定したことは違法であるとの判決を下した。\n- 裁判所は、政府のAI政策に対する同社の批判への報復としてブラックリストに追加したことが、憲法修正第1条（表現の自由）に違反すると認定した。\n- 3月、軍事利用を巡る交渉が決裂し、Anthropic社が自社モデルの自律型兵器や大量監視への不使用を求めた一方、ペンタゴンが無制限のアクセスを要求したことで対立が生じた。\n- 同社はサンフランシスコとワシントンで提訴し、ワシントンの裁判は係属中のため技術的にはブラックリストに残るものの、今秋予定されているIPOに向けてサンフランシスコの判決は大きな意味を持つ。",
+    "url": "https://the-decoder.com/u-s-court-rules-pentagons-blacklisting-of-anthropic-was-unlawful/"
+  },
+  {
+    "id": "3cb3de0e-c1c5-8135-b8aa-d4bbb5f263e7",
+    "title": "Beatport blocks fully AI-generated music from its DJ marketplace",
+    "site": "THE DECODER",
+    "published": "2026-08-28T11:20:27.000Z",
+    "fetched": "2026-08-29T00:01:40.000Z",
+    "summary": "Beatportが完全自動生成されたAI音楽のDJマーケットプレイスへの出品を禁止\n\n- DJ向けマーケットプレイスのBeatportは、完全または大部分がAIによって生成された音楽の出品を禁止する新たな方針を導入した。\n- 人間が大部分を制作しAIを補助的に使用した楽曲については、AI使用のフラグを付けた上で引き続き許可される。\n- パートナー企業Beatdappの検出ツールを活用し、アップロード時にAI生成トラックのフィルタリングを実施して権利者に通知する。\n- Beatportの調査では、ユーザーの60%がDJプレイでAI音楽を使用せず、77%が人間による音楽を好むと回答している。\n- Deezerなど他のプラットフォームでも急増するAI音源対策が進められており、業界全体でAI音楽の規制が強まっている。",
+    "url": "https://the-decoder.com/beatport-blocks-fully-ai-generated-music-from-its-dj-marketplace/"
+  },
+  {
+    "id": "3cb3de0e-c1c5-81d9-851d-d41309e60474",
+    "title": "Always-on and self-starting AI agents might be OpenAI's next big play",
+    "site": "THE DECODER",
+    "published": "2026-08-28T08:03:22.000Z",
+    "fetched": "2026-08-29T00:01:49.000Z",
+    "summary": "OpenAIが開発を進める常時稼働型の次世代AIエージェントに関する動向\n\n- OpenAIは、AIエージェント「Codex」向けに、ユーザーから停止されるまで自律的に働き続ける「永続モード（Persistent Mode）」の開発を進めていることが、公開コードから判明した。\n- 新コードには、エージェントが自ら後続タスクを生成してセッションを跨いで作業し、指示がなくてもユーザーに連絡を取る「プロアクティブ機能」が含まれている。\n- この方向性は、サム・アルトマン氏が掲げるChatGPTを本格的なパーソナルアシスタントにするという目標に合致するものである。\n- 一方で、永続的な動作はセキュリティ上の懸念も高めており、過去のモデルテストでは、持続的行動を誘発するプロンプトによって、ユーザーの意に反してデータ削除などの行動をとる事例も確認されている。\n- OpenAIはWIREDの取材に対してテストの実施を認めたものの、現時点では直近のローンチ予定はないとしている。",
+    "url": "https://the-decoder.com/always-on-and-self-starting-ai-agents-might-be-openais-next-big-play/"
+  },
+  {
+    "id": "3cb3de0e-c1c5-81f8-8f8c-f476f4d5a5a4",
+    "title": "Just a rumour of a bug is enough to find a security exploit these days",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-08-28T22:12:02.000Z",
+    "fetched": "2026-08-29T00:01:57.000Z",
+    "summary": "AIの急速な進化により、バグや脆弱性の噂、修正パッチの議論といったわずかな手がかりから、自動化された監視ツールやコーディングエージェントが数分以内に攻撃（エクスプロイト）を仕掛ける事態が現実化している。\n\n- ケンブリッジ大学の教授でOCamlコンパイラの保守担当者であるAnil Madhavapeddy氏が、パッチの議論開始からわずか10分足らずで脆弱性を突く不正アクセスを観測したと報告している。\n- 最新のAIコーディングエージェントは非常に強力であり、開発者自身がAIを使って脆弱性を迅速に特定・実証できるほどの精度に達している。\n- 従来のオープンソースにおける「非公開（エンバーゴ）期間を設けて修正後に公開する」というセキュリティ対策のプロセスが、AI時代のスピード感には対応できなくなっている。\n- rcloneなどの有名プロジェクトでも、AIツールによる脆弱性の発見や報告が急増しており、メンテナーの対応負担やCVE発行の遅延といった深刻な運用上の課題が生じている。",
+    "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/"
+  },
+  {
+    "id": "3cb3de0e-c1c5-8125-ab92-db3b37394095",
+    "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+    "site": "Hugging Face Blog",
+    "published": "2026-08-28T00:00:00.000Z",
+    "fetched": "2026-08-29T00:02:05.000Z",
+    "summary": "Hugging FaceのOpen ASR Leaderboardに初のグローバルサウスの言語としてヒンディー語とインド英語が追加された\n\n- Open ASR Leaderboardに「Monsoon en-IN」と「Monsoon hi-IN」の2つの評価セットが追加され、初のIndic言語（ヒンディー語）のサポートが開始された。\n- 従来のリーダーボードでは話者の属性（人種、ジェンダー、年齢、アクセントなど）による音声認識のバイアスが見えにくかった課題に対応している。\n- 追加されたデータセットは公開スプリット（自己採点用）と非公開スプリット（ベンチマーク最適化防止用）に分かれており、合計4,888人の話者を含む。\n- 話者の多様性を考慮した12種類の属性データが記録されており、より公平で信頼性の高い音声認識（ASR）モデルの評価が可能になる。",
+    "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south"
+  },
+  {
+    "id": "3cb3de0e-c1c5-8145-9194-ffaecaec97e4",
+    "title": "claude mods didn't like that, somehow 🤷‍♀️",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-28T09:43:02.000Z",
+    "fetched": "2026-08-29T00:02:14.000Z",
+    "summary": "Claudeのモデレーション機能に関するユーモラスな一幕について、AIの反応や仕様制限に直面した際のやり取りがユーモラスに語られています。\n\n- AIであるClaudeのモデレーション機能（規約違反や不適切なコンテンツの検知）に、ユーザーの入力や投稿が引っかかってしまったことについて述べられています。\n- 意図せずAIのフィルターに拒絶された状況に対し、ユーザーが戸惑いや面白がりを示しています。\n- AIモデルとのインタラクションにおいて、時として予測不可能な規制や制限が存在することが示唆されています。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0lz7e/claude_mods_didnt_like_that_somehow/"
+  },
+  {
+    "id": "3cb3de0e-c1c5-81bb-96d3-f29d15de97a4",
+    "title": "Tencent/Hy4-preview 770B-A49B weight dropped",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-28T06:14:02.000Z",
+    "fetched": "2026-08-29T00:02:23.000Z",
+    "summary": "Tencent/Hy4-preview 770B-A49Bの重み公開に関する概要\n\n- 中国のテンセント（Tencent）に関連するとみられる大規模AIモデル「Hy4-preview 770B-A49B」のモデルウェイト（重み）が公開された。\n- パラメータ数が770B（7700億）規模と非常に巨大であり、最先端のオープンサイエンスや大規模言語モデルの研究開発において大きな注目を集めている。\n- 本モデルの公開により、研究者や開発者は大規模モデルの内部構造の解析や、特定タスクに向けたファインチューニングなどを独自に行うことが可能になる。\n- 近年、オープンウェイトの超大規模モデルの公開が相次いでいる中、本件もAIコミュニティにおけるオープンソース・オープンアクセス化の重要な動向の一つと言える。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0igxk/tencenthy4preview_770ba49b_weight_dropped/"
+  },
+  {
+    "id": "3cb3de0e-c1c5-813e-b0dc-ff8b88c63012",
+    "title": "zai-org/GLM-5.3 · Hugging Face",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-28T15:19:04.000Z",
+    "fetched": "2026-08-29T00:02:31.000Z",
+    "summary": "zai-org/GLM-5.3 · Hugging Face\n\n- zai-orgが開発・公開している「GLM-5.3」というAIモデルや関連リソースがホストされている、Hugging Faceのリポジトリページである。\n- モデルのウェイトや設定ファイル、使用方法などの詳細情報が提供され、開発者が直接ダウンロードして利用できる。\n- 自然言語処理のタスクに対応した高性能なオープンモデルとして、研究や商用アプリケーションへの活用が期待される。\n- Hugging Faceのプラットフォーム上で、コミュニティによる議論やバージョン管理、他のモデルとの比較が行える。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0tgzl/zaiorgglm53_hugging_face/"
+  },
+  {
+    "id": "3cb3de0e-c1c5-8172-8be7-e3e87f4517b0",
+    "title": "Micron: HBM Requires Three Times More Wafer Area Than DDR5",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-28T10:19:44.000Z",
+    "fetched": "2026-08-29T00:02:40.000Z",
+    "summary": "Micron: HBM Requires Three Times More Wafer Area Than DDR5\n\n- マイクロンは、AI向けなどで需要が高まるHBM（High Bandwidth Memory）の製造には、従来のDDR5メモリと比較して約3倍のウェハ面積が必要になると明らかにした。\n- この大きな面積差は、HBMが複数のDRAMダイを垂直に積み重ねる複雑な構造や、製造プロセスの特性に起因している。\n- HBMの生産拡大はウェハの供給容量を多く消費するため、他のDRAM製品の供給や全体の生産計画に大きな影響を与える要因となっている。\n- 高い性能と引き換えに製造効率の面でコストとリソースを大きく要することが、半導体業界全体の需給バランスに課題を投げかけている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0mmk7/micron_hbm_requires_three_times_more_wafer_area/"
+  },
+  {
+    "id": "3cb3de0e-c1c5-8150-82ee-c7b94ae8e635",
+    "title": "open source caught up because it's open",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-28T08:33:44.000Z",
+    "fetched": "2026-08-29T00:02:48.000Z",
+    "summary": "オープンソースがクローズドソースに追いついたのは、まさに「オープン」であるという特性そのものが勝利の原動力となったからである。\n\n- クローズドなAIモデルとオープンソースモデルの性能差は急速に縮まっており、オープンソースが主流になりつつある。\n- オープンな開発体制は、世界中の開発者による多様なアイデアや迅速な改良を可能にし、イノベーションの速度を加速させた。\n- コストパフォーマンスの高さやカスタマイズ性の自由度が、多くの企業や研究者にオープンソース選ばれる決定的な理由となっている。\n- データの透明性とセキュリティの高さが信頼を生み出し、コミュニティ全体で脆弱性を克服するエコシステムが形成された。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0kstl/open_source_caught_up_because_its_open/"
+  },
+  {
+    "id": "3cb3de0e-c1c5-8127-a63e-d1ed5d95c045",
+    "title": "v0.33.2",
+    "site": "Ollama Blog",
+    "published": "2026-08-28T20:58:12.000Z",
+    "fetched": "2026-08-29T00:02:56.000Z",
+    "summary": "Ollama v0.33.2 リリース情報\n\n- AIモデルの実行・管理ツールである「Ollama」のバージョン0.33.2のリリースに関するGitHubのページである。\n- ページ内には、GitHubのナビゲーションメニュー、検索機能、ログイン・アカウント関連のUI要素が含まれている。\n- Ollamaの公式リポジトリ（ollama/ollama）のコード、Issue、プルリクエスト、アクションなどの開発者向け機能へのリンクが確認できる。\n- 現在の閲覧環境においては、エラーメッセージが表示されており、ページの正常な読み込みを行なうための再読み込みが促されている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.33.2"
+  },
+  {
+    "id": "3cb3de0e-c1c5-81e1-b4d0-e06b71ab08cf",
+    "title": "Deploy an Open Model from Checkpoint to Inference in Two Commands with NVIDIA TensorRT Model Connect",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-08-28T17:06:28.000Z",
+    "fetched": "2026-08-29T00:03:05.000Z",
+    "summary": "NVIDIA TensorRT Model Connectを活用したオープンモデルの迅速なC++デプロイ手法\n\n- NVIDIA TensorRT Model Connectは、サポートされているオープンモデルをネイティブC++アプリケーションで実行するためのリファレンス実装を提供する。\n- PythonのCLIを使用してHugging FaceのモデルIDからデプロイバンドルを構築し、実行時にPyTorchやPythonのインタープリターを使わずにC++で読み込んで実行する2段階のワークフローを採用している。\n- タスクレベルの入出力を行う「セマンティックAPI」と、直接テンソルやコンポーネントを制御する「モジュールレベルAPI」という2つのC++ APIレベルを利用可能。\n- TVM FFIを介してカスタムGPUカーネルを統合しつつ、パイプラインの残りの部分をTensorRTに実行させることができる。\n- 変化の早いオープンモデルエコシステムに対応するため、コーディングエージェントを活用したAIネイティブな開発と毎日のリリースを行っている。",
+    "url": "https://developer.nvidia.com/blog/deploy-an-open-model-from-checkpoint-to-inference-in-two-commands-with-nvidia-tensorrt-model-connect/"
+  }
+]

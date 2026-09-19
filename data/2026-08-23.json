@@ -1,0 +1,119 @@
+[
+  {
+    "id": "3c63de0e-c1c5-81a0-bc49-ea62611415b1",
+    "title": "An AI boss fired its first employee but only after humans reminded it of its own rules",
+    "site": "THE DECODER",
+    "published": "2026-08-23T12:31:59.000Z",
+    "fetched": "2026-08-24T00:01:10.000Z",
+    "summary": "サンフランシスコの店舗を管理するAIエージェント「ルナ」が、人間従業員の度重なる遅刻などを理由に解雇を決定しました。AIボスによる人間の解雇は世界初の事例とみられています。\n\n- サンフランシスコの店舗を運営するAIエージェント「ルナ」が、人間の従業員を初めて解雇した。\n- ルナはAnthropic社のClaude Opus 4.8で稼働しており、採用やシフト作成、給与交渉などを担当している。\n- ルナ自身が作成した従業員ハンドブックには、度重なる遅刻などが解雇事由になると記されていたが、このルールが一度記憶から抜け落ちていた。\n- 人間がルールを思い出させたことで、ルナは従業員の解雇という判断を下すに至った。\n- 同様のシナリオを検証した実験では、より高性能なAIモデルほど、一貫して解雇を推奨する傾向が見られた。",
+    "url": "https://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules/"
+  },
+  {
+    "id": "3c63de0e-c1c5-81b2-965f-f2505295e4a9",
+    "title": "AI is becoming AI's biggest customer as agentic token usage jumps 14x on OpenRouter",
+    "site": "THE DECODER",
+    "published": "2026-08-23T10:02:00.000Z",
+    "fetched": "2026-08-24T00:01:19.000Z",
+    "summary": "AIがAI自身の最大の顧客になりつつあり、AIエージェントによるトークン消費量が人間の消費量を圧倒し始めている。\n\n- OpenRouterのデータによると、2026年2月6日を境にAIエージェントのトークン消費量が急増し、人間による使用量の伸びを大きく引き離している。\n- AIエージェントによるトークンの使用量は0.51兆から7.3兆へと約14倍に急増した一方、人間の使用量は2.8倍の増加にとどまった。\n- エージェントが自律的に長期間作業を行い、その過程で追加のAIプロセスを起動することが急増の主な要因となっている。\n- エージェントによるトークン消費の約70%はキャッシュされたプロンプトによるものであり、低料金で請求されるため、実際のコスト増加は生データが示すほど急速ではない。\n- この傾向はOpenRouterに限らず、推論モデルの普及などにより主要なAIラボでも同様に進んでいると考えられる。",
+    "url": "https://the-decoder.com/ai-is-becoming-ais-biggest-customer-as-agentic-token-usage-jumps-14x-on-openrouter/"
+  },
+  {
+    "id": "3c63de0e-c1c5-813c-b769-f903b0144748",
+    "title": "AI could make scientists do more work less well, not less work better, study argues",
+    "site": "THE DECODER",
+    "published": "2026-08-23T09:01:17.000Z",
+    "fetched": "2026-08-24T00:01:27.000Z",
+    "summary": "AIが科学者の研究をより良くするのではなく、時間短縮によってむしろ質の低下や仕事量の過多を招く恐れがあるという研究結果が示された。\n\n- プリンストン大学などの研究チームによる経済学的モデル分析から、AIによる時間短縮が科学者の機会費用を高め、一つの研究にかける努力量を減らしてしまう可能性が指摘されている。\n- 大規模言語モデル（LLM）がエラーを起こさず、低コストで完璧に機能するという理想的な条件を仮定した場合でも、この問題は発生するとされている。\n- 行動生態学の「最適採餌理論」を応用した数学的モデルを用い、AIが研究プロジェクトの各段階の時間を短縮した際に、科学者がどのように労力を配分するかをシミュレーションしている。\n- AIの導入によって単調な作業の負担が減る一方で、科学者にはより多くのプロジェクトを並行して進めるインセンティブが働き、結果として個々の研究の質が損なわれる懸念がある。",
+    "url": "https://the-decoder.com/ai-could-make-scientists-do-more-work-less-well-not-less-work-better-study-argues/"
+  },
+  {
+    "id": "3c63de0e-c1c5-8194-ad33-e9c3dfc990c3",
+    "title": "Memory shortage reportedly drives Nvidia AI server prices up about 15 percent",
+    "site": "THE DECODER",
+    "published": "2026-08-23T08:15:28.000Z",
+    "fetched": "2026-08-24T00:01:34.000Z",
+    "summary": "メモリ不足の影響により、Nvidia製AIサーバーの価格が約15％上昇する見込みである。\n\n- メモリ不足の主な要因は、サムスン、SKハイニックス、マイクロンによるDRAMコストの高騰であり、Vera RubinやGrace Blackwellチップを搭載したシステムが影響を受ける。\n- 価格高騰の対象となるのは来年早々の出荷分であり、マイクロソフト、グーグル、オラクル向けのサーバーを製造する受託メーカーがすでに顧客に通知している。\n- アマゾン、マイクロソフト、グーグル、メタなどのクラウド巨大企業や、OpenAI、アントロピックといったAIラボが直接的な影響を受ける。\n- 独自の半導体開発を進めながらもNvidiaに依存し続ける顧客企業が、自らの巨額の投資によってNvidiaの市場支配力をさらに強めるという構造的な緊張関係が浮き彫りになっている。",
+    "url": "https://the-decoder.com/memory-shortage-reportedly-drives-nvidia-ai-server-prices-up-about-15-percent/"
+  },
+  {
+    "id": "3c63de0e-c1c5-81ff-a8aa-cf1f593f8b06",
+    "title": "How China's gray market sells Claude tokens at a fraction of the price",
+    "site": "THE DECODER",
+    "published": "2026-08-23T07:48:33.000Z",
+    "fetched": "2026-08-24T00:01:42.000Z",
+    "summary": "中国のグレー市場におけるアンソロピック社のAI「Claude」のトークン転売手法について、地政学的規制の回避やセキュリティへの影響を解説した記事の要約です。\n\n中国のグレー市場では、厳格な地理的ブロックや本人確認を回避し、開発者向けに「転送ステーション（APIプロキシ）」と呼ばれる仕組みを通じてClaudeのトークンが正規価格の約10分の1という安価で販売されています。\n\n- 中国の開発者は厳格なアクセス制限を回避し、非公式の「転送ステーション」を経由してClaudeのトークンを正規価格の約10分の1で購入している。\n- これらのAPIプロキシは海外サーバー経由でリクエストを中継し、無料クレジットの悪用や高価格モデルを安価なモデルへ秘密裏にすり替えることで低価格を実現している。\n- オックスフォード中国政策ラボの研究者ジラン・チャン（Zilan Qian）の分析によると、このモジュール型の供給網は地理的ブロックを無効化するだけでなく、アンソロピック社の誤用監視能力を弱めている。\n- 不正な仕組みの背景には、身元確認や決済詐欺などの犯罪市場を助長するリスクも潜んでおり、AIの安全性を担保する上での大きな課題となっている。",
+    "url": "https://the-decoder.com/how-chinas-gray-market-sells-claude-tokens-at-a-fraction-of-the-price/"
+  },
+  {
+    "id": "3c63de0e-c1c5-81ee-8141-dc99609406b3",
+    "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-08-23T20:24:52.000Z",
+    "fetched": "2026-08-24T00:01:49.000Z",
+    "summary": "Anthropicの最高性能モデルがユーザー獲得に苦戦する一方で、安価なツールが人気を集めている\n\n- Anthropicの7月の年間換算収益は650億ドルに達し、年間10万ドル以上を支出する顧客が6,000社存在するなど、全体的な事業は好調である。\n- OpenAIも、7月に「GPT 5.6」を投入したことで業績が急回復し、四半期中の年間換算収益は400億ドルを突破している。\n- 7万社の法人カードの決済データに基づくRampのAIインデックスによると、高コストな最新モデル（Fable 5など）は、他の安価なモデルや旧モデルと比較して普及率が低い傾向にある。\n- 7月24日にリリースされた最新の「Opus 5」のシェアは3.5%にとどまる一方、旧モデルである「Opus 4.8」が28.0%と最大のシェアを占めている。",
+    "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/"
+  },
+  {
+    "id": "3c63de0e-c1c5-81e6-884c-f9ac8f5cb50a",
+    "title": "Quoting Drew Breunig",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-08-23T19:55:30.000Z",
+    "fetched": "2026-08-24T00:01:56.000Z",
+    "summary": "AI開発における費用対効果とコスト意識の変化\n\n- 「Fable」登場以前は、モデルの性能が向上し安価になるため、コーディング環境やコンテキスト戦略の改善に時間をかけるのは無駄だと感じられていた。\n- 「Fable」の登場後はその性能に優れつつもコストが非常に高く、Opusなどの既存モデルでも大部分のコード作成には十分であったため、作業の適切な割り振りを再考する契機となった。\n- AIの進化による「無料のランチ（技術進歩による自動的なコスト削減）」の時代が終わり、コストと効率を見据えた実用的なアプローチが求められるようになっている。",
+    "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/"
+  },
+  {
+    "id": "3c63de0e-c1c5-8121-bd75-dd33076a713f",
+    "title": "Qwen 3.8 27B is a game changer.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-23T05:19:48.000Z",
+    "fetched": "2026-08-24T00:02:04.000Z",
+    "summary": "Qwen 3.8 27Bの登場はAI業界における大きな転換点であり、高い性能と効率性を兼ね備えたモデルとして注目されています。\n\n- Qwen 3.8 27Bは、従来の同等サイズモデルを大きく凌駕する優れたパフォーマンスを発揮する。\n- パラメータ数が27B（270億）と比較的中規模でありながら、大規模モデルに匹敵する高い処理能力を持つ。\n- 高度な推論能力や自然言語理解を備えており、多様なタスクを高精度で実行可能である。\n- 計算効率が最適化されており、コストパフォーマンスに優れた運用が期待できる。\n- オープンソースAIの発展において、開発者や企業に新たな選択肢を提供する画期的なモデルである。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvyacg/qwen_38_27b_is_a_game_changer/"
+  },
+  {
+    "id": "3c63de0e-c1c5-8142-93ab-e6a4e9600d0f",
+    "title": "“The All Spark” Cluster: Upgrading from 16 - 36 DGX Sparks",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-23T02:38:29.000Z",
+    "fetched": "2026-08-24T00:02:11.000Z",
+    "summary": "“The All Spark”クラスター：16台から36台のDGX Sparkへのアップグレード\n\n- AIおよびハイパフォーマンス・コンピューティング（HPC）の処理能力を大幅に向上させるため、「The All Spark」クラスターを従来の16台のDGX Sparkから36台へと拡張した。\n- クラスターの規模拡大により、大規模言語モデル（LLM）のトレーニングや複雑な機械学習タスクの処理速度と効率が飛躍的に向上した。\n- ハードウェアの増強に伴い、ネットワーク帯域幅や冷却システム、電力供給などのインフラストラクチャも最適化され、システム全体の安定性と拡張性が確保されている。\n- 今回のアップグレードは、増加し続ける高度なAIワークロードの需要に応えるものであり、研究開発やデータ処理のさらなる加速を実現する。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvv7iv/the_all_spark_cluster_upgrading_from_16_36_dgx/"
+  },
+  {
+    "id": "3c63de0e-c1c5-8117-9726-c71c630c2ad3",
+    "title": "Don't want to be this guy, but I need Qwen 3.8 35B A3B",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-23T09:13:39.000Z",
+    "fetched": "2026-08-24T00:02:19.000Z",
+    "summary": "Qwen 3.8B/35Bモデルの登場への強い期待と動向\n\n- 投稿者は「この男にはなりたくないが」と前置きしつつも、Qwenの新型モデルである「Qwen 3.8」や「35B A3B」といった仕様のリリースを強く求めている。\n- AIコミュニティや開発者の間において、Qwenシリーズの次期バージョンや特定パラメータ規模のモデルに対する関心や期待値が非常に高まっていることを示している。\n- 具体的なスペック名（3.8や35B A3Bなど）が挙げられており、ユーザーが自身のユースケースに合わせて特定のサイズ感や性能を持つモデルを待ち望んでいることがうかがえる。\n- AIモデルの開発競争が激しい中、Qwenのアップデートに対するユーザーの熱量がユーモアを交えつつ表現された投稿となっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw2cop/dont_want_to_be_this_guy_but_i_need_qwen_38_35b/"
+  },
+  {
+    "id": "3c63de0e-c1c5-81cc-a8d9-fbc40a9264c8",
+    "title": "I fine tuned Gemma 4 12B for a 2.7x improvement on tool calling because I can't fit anything else comfortably into my 16 GBs of Vram",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-23T01:30:21.000Z",
+    "fetched": "2026-08-24T00:02:26.000Z",
+    "summary": "16GBのVRAM制限内で快適に動作させるため、Gemma 4 12Bをツールコーディング特化型にファインチューニングした結果、従来比2.7倍の性能向上を達成した。\n\n- 16GBという限られたVRAM容量のPC環境でも快適に動作するサイズ感を維持している\n- Gemma 4 12Bモデルをベースにツールコーディング性能の向上を目的としたファインチューニングを実施した\n- ツール呼び出しの精度において、従来モデルと比較して2.7倍の大幅な改善に成功した",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvtu9z/i_fine_tuned_gemma_4_12b_for_a_27x_improvement_on/"
+  },
+  {
+    "id": "3c63de0e-c1c5-81f5-a694-e9ae09510383",
+    "title": "New qwen3.8:27b on a 39k line C to single-file HTML / three.js port",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-23T17:32:32.000Z",
+    "fetched": "2026-08-24T00:02:33.000Z",
+    "summary": "Qwen3.8:27bを活用した大規模なC言語から単一HTML/Three.jsへの移行プロジェクト\n\n- 新しいAIモデル「Qwen3.8:27b」を使用して、約39,000行に及ぶC言語のコードベースを解析・変換した。\n- 変換の結果、複数のファイルに分かれていたプログラムを、単一のHTMLファイルへと効率的に統合することに成功した。\n- Web標準の3Dグラフィックスライブラリである「Three.js」を活用し、ブラウザ上でネイティブに近い描画や動作を実現している。\n- 大規模なコードの移植作業において、AIモデルの高度なコード理解力と生成能力が極めて有効である実例を示している。\n- インストールや複雑なビルド手順を不要にし、ブラウザを開くだけで実行できる高い利便性を持つアプリケーションへと生まれ変わらせた。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwde84/new_qwen3827b_on_a_39k_line_c_to_singlefile_html/"
+  },
+  {
+    "id": "3c63de0e-c1c5-8186-92a4-e551d4de4bb0",
+    "title": "v0.33.0",
+    "site": "Ollama Blog",
+    "published": "2026-08-23T19:19:20.000Z",
+    "fetched": "2026-08-24T00:02:41.000Z",
+    "summary": "Ollama v0.33.0 リリース情報\n\n- AIモデルの実行・管理ツールである「Ollama」のバージョン0.33.0のリリースに関するGitHubのページである。\n- ページ内には、GitHubの一般的なナビゲーションメニュー、検索機能、ログイン・サインアップ用のリンクが含まれている。\n- ollama/ollamaリポジトリのページであり、コード、Issues（2.4k）、Pull requests（1.4k）、Actions、セキュリティ、インサイトなどのタブが確認できる。\n- フォーク数（17.5k）やスター数（179k）が表示されており、多くの開発者に利用されているオープンソースプロジェクトであることが示されている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2"
+  }
+]

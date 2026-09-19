@@ -1,0 +1,164 @@
+[
+  {
+    "id": "3c33de0e-c1c5-8131-9537-c1b876b91b24",
+    "title": "Adobe Firefly adds AI audio tools and Google's Gemini Omni Flash",
+    "site": "THE DECODER",
+    "published": "2026-08-20T19:29:34.000Z",
+    "fetched": "2026-08-21T00:01:11.000Z",
+    "summary": "Adobe Fireflyに新機能が追加され、AI音声ツールの商用利用が可能になったほか、Googleの「Gemini Omni Flash」が統合されました。\n\n- Adobe Fireflyプラットフォームに商用利用可能な3つのAI音声ツール（Generate Music、Generate Speech、Generate Sound Effects）が一般提供され、それぞれ音楽、音声解説、効果音の生成が可能になりました。\n- Firefly AIアシスタントで無料の毎日の生成機能が利用可能になり、「Create Storyboard」や「Create Brand Kit」などの機能が広く活用されています。\n- FireflyにGoogleの「Gemini Omni Flash」が新たに追加され、既存のGoogle、Kling AI、Luma AI、Runway製のサードパーティモデルに加わりました。\n- Gemini Omni Flashは、テキストプロンプトに加え、動画、音声、画像の入力処理に対応しています。",
+    "url": "https://the-decoder.com/adobe-firefly-adds-ai-audio-tools-and-googles-gemini-omni-flash/"
+  },
+  {
+    "id": "3c33de0e-c1c5-81be-894f-e06668e76e2e",
+    "title": "LLMs could write like humans but post-training guardrails make their text detectable",
+    "site": "THE DECODER",
+    "published": "2026-08-20T17:36:51.000Z",
+    "fetched": "2026-08-21T00:01:21.000Z",
+    "summary": "LLMのテキストが人間にはっきりと検知されてしまうのは、ポストトレーニングや安全のためのガードレールが原因であり、本来は人間のように多様な文章を書く能力を持っています。\n\n- ChatGPTやClaudeなどのAIシステムは、危険な出力や特定の政治的発言を避けるための行動ルールを学習することで表現の幅が極端に狭くなる「モード崩壊」を起こしている。\n- ポストトレーニング前の「ベースモデル」は多様性に富んだ文章を書くため、AIテキスト検出ツールに検知されにくい特徴がある。\n- ヘミングウェイの文体や特定のサブレッドディットのテキストなどに特化して微調整されたモデルや、支離滅裂な壊れた出力も同様に検知を免れやすい。\n- ただし、これらの傾向はあくまで非ウォーターマークのAIテキストに関するものであり、ウォーターマーク（透かし）技術はベースモデルの多様性にかかわらず機能し続ける可能性が高い。",
+    "url": "https://the-decoder.com/llms-could-write-like-humans-but-post-training-guardrails-make-their-text-detectable/"
+  },
+  {
+    "id": "3c33de0e-c1c5-8109-9ed5-ea916c737bf7",
+    "title": "Frontier Radar #4: China has caught up, so what's left of the Western AI lead?",
+    "site": "THE DECODER",
+    "published": "2026-08-20T14:08:14.000Z",
+    "fetched": "2026-08-21T00:01:32.000Z",
+    "summary": "中国のAIモデルがアメリカの最先端モデルに肉薄しており、モデル単体の優位性を維持することが困難になる中、西側諸国のAIの優位性がどこにあるのかを探る特集記事です。\n\n- 中国の最新AIモデル（Kimi K3やGLM-5.3など）が米国の最高峰モデルに射程圏内へと追いついている。\n- 西側研究所は蒸留（ディスティレーション）を疑っているが、いずれにせよモデルの単独のリードを守り抜くことは不可能になりつつある。\n- 「Frontier Radar」の第4弾である本号では、中国モデルの追いつき方だけでなく、西側の差別化要因、AI業界の「モート（堀）」の変化、ヨーロッパが二つのレースで同時に敗北しつつある背景などを詳しく検証している。\n- 1年半前のDeepSeek R1登場時は特定のベンチマークでしか勝てず隙があったが、その後の新たな中国製オープンウェイトモデルの登場により、状況が大きく変化している。",
+    "url": "https://the-decoder.com/frontier-radar-4-china-has-caught-up-so-whats-left-of-the-western-ai-lead/"
+  },
+  {
+    "id": "3c33de0e-c1c5-8109-9ab9-f50e53c6bc43",
+    "title": "GEN-1.5: Generalist AI teaches robots new tasks from a single demo",
+    "site": "THE DECODER",
+    "published": "2026-08-20T12:35:52.000Z",
+    "fetched": "2026-08-21T00:01:40.000Z",
+    "summary": "ロボット工学スタートアップのGeneralist AIが発表した「GEN-1.5」は、わずか1回のデモ映像からロボットに新しいタスクを学習させることができる汎用AIモデルである。\n\n- 3秒から12秒程度のデモ映像をモデルのコンテキストウィンドウに「物理プロンプト」として読み込ませることで、ロボットは追加の訓練なしでタスクを実行できる。\n- 瓶を開ける、財布からお金を取り出すなどの10種類のテストにおいて、初期状態での平均成功率は59％であり、5分間のデータを用いた10回のトレーニングにより83％まで向上する。\n- 複数のプロンプトを繋げてより長いシーケンスを実行する能力や、シミュレーション上のデモの活用、人間の手の動きの一部模倣といった能力が、8ヶ月以上の事前学習を経て自然発生的に獲得された。\n- 広範なタスクに対応できる点において、これまでの研究とは一線を画すが、提示されたタスクはシンプルかつ短時間のものであり、結果はすべて自社発表によるもので第三者による検証はまだ行われていない。",
+    "url": "https://the-decoder.com/gen-1-5-generalist-ai-teaches-robots-new-tasks-from-a-single-demo/"
+  },
+  {
+    "id": "3c33de0e-c1c5-818f-b50a-c6d5042bc41d",
+    "title": "KI-Pioneer Sutton calls synthetic data a \"big mistake\" in the face of an infinitely complex world",
+    "site": "THE DECODER",
+    "published": "2026-08-20T12:14:07.000Z",
+    "fetched": "2026-08-21T00:01:48.000Z",
+    "summary": "AIの限界と合成データの限界：リチャード・サトンの警告\n\n- チューリング賞受賞者のリチャード・サトンは、現在のAI開発における主流である「合成データ」の利用を、無限に複雑な世界を前にした「大きな間違い」であると批判した。\n- サトンによれば、大規模言語モデル（LLM）はインターネット上のデータを学習することで巨大化したものの、インターネットという有限の壁にぶつかっているという。\n- 現実世界はインターネット上のデータよりも圧倒的に大規模かつ複雑であり、現在のLLMは人間の知識に過度に依存しているため、システムの進化が制限されている。\n- サトンが共同創業したアルバータ州のグループが提唱する「ビッグ・ワールド・仮説」に基づくと、現実世界はあまりにも広大であるため、いかなるシミュレーションや合成データによってもその複雑さを完全に再現することは不可能である。",
+    "url": "https://the-decoder.com/ki-pioneer-sutton-calls-synthetic-data-a-big-mistake-in-the-face-of-an-infinitely-complex-world/"
+  },
+  {
+    "id": "3c33de0e-c1c5-8187-9de2-f25bb95ad40e",
+    "title": "Anthropic's most capable model, codenamed \"Model 2,\" is for internal use only",
+    "site": "THE DECODER",
+    "published": "2026-08-20T10:04:45.000Z",
+    "fetched": "2026-08-21T00:01:55.000Z",
+    "summary": "Anthropic社内の最も高性能な未公開AIモデル「Model 2」に関する情報\n- Anthropic社の2026年8月のリスクレポートによると、「Model 2」というコードネームの未公開AIモデルが社内限定で稼働しており、公開されているどのClaudeよりも高性能である。\n- 「Model 2」はMythosクラスに属し、Claude Mythos 5と比較して全体的にわずかに優れているものの、一部の分野では劣る部分もあり、Opus 4.6からMythosへのような劇的な能力向上は見られない。\n- 社内のベンチマーク指標（AECI）ではMythos 5の約1.5ポイント上に位置するが、Mythos PreviewからMythos 5への進化幅ほどではない。\n- 社内ではコーディング、データ生成、研究・エンジニアリングなどに多用されており、現在ではAnthropicのプロダクションコードの大半をClaudeが記述している。\n- 導入前の事前審査で安全性に関する新たな深刻な問題は確認されておらず、リスク評価は「低」とされているが、現時点で外部にリリースする計画はない。",
+    "url": "https://the-decoder.com/anthropic-uses-an-unpublished-ai-model-called-model-2-internally/"
+  },
+  {
+    "id": "3c33de0e-c1c5-8103-929d-e664158f5998",
+    "title": "China now has its own AI circular financing scheme",
+    "site": "THE DECODER",
+    "published": "2026-08-20T09:23:37.000Z",
+    "fetched": "2026-08-21T00:02:03.000Z",
+    "summary": "中国製ロボット企業を巡る循環型資金調達スキームと高額な企業価値の実態についての要約は以下の通りです。\n\n中国のロボットメーカーであるUnitree Roboticsが上海上場時に株価の急騰により約500亿美元（500億ドル）の評価額に達したものの、その需要の多くは国家支援による循環型モデルに基づいていると指摘されています。\n\n- 中国の人型ロボットメーカーであるUnitree Roboticsが上海市場に上場し、株価の急騰により約50億ドル規模の資金調達に成功して企業価値が約50億ドルに達した。\n- しかし、Financial Times紙の報道によると、この高い需要の背景には、メーカーがロボットを国家支援の訓練センターに販売し、トレーニングデータを買い戻すという循環型のビジネスモデルが存在している。\n- 収入の4分の3近くがこの国家支援のエコシステムに依存しているため、アナリストらは現在の高すぎる企業価値やデータの有用性に対して懐疑的な見方を示している。\n- 中国国内では、地方政府とメーカーが共同で資金を拠出した訓練センターが急増しており、独立した市場の需要と政策主導のエコシステムによる需要の境界線が曖昧になっている。",
+    "url": "https://the-decoder.com/china-now-has-its-own-ai-circular-financing-scheme/"
+  },
+  {
+    "id": "3c33de0e-c1c5-8164-901e-ddf1b6541f7f",
+    "title": "Terence Tao says AI could trigger math's biggest crisis since Gödel",
+    "site": "THE DECODER",
+    "published": "2026-08-20T08:49:36.000Z",
+    "fetched": "2026-08-21T00:02:11.000Z",
+    "summary": "テレンス・タオが指摘する、AIによる数学界の危機\n\n- 数学者のテレンス・タオは、AIの急速な発展により、数学界がクルト・ゲデルの不完全性定理以来最大級の基礎的・構造的危機に直面する可能性があると警鐘を鳴らしている。\n- 数学コミュニティはAIの能力論争から脱却し、「何が数学的貢献や理解であり、機械がどこまでを代行できるか」という価値観や実践に関する問いに向き合うべきだと主張している。\n- タオの作業仮説では、近い将来AIが研究レベルの数学的タスクを低コストかつ妥当な成功率でこなせるようになると予測されている。\n- 実際に未公開の数学的難問を用いた実験では、複数のAIシステムが数理的にほぼ完璧、または軽微な修正で済む解答を低コストで導き出すことに成功している。\n- AIの台頭は、20世紀初頭のラッセルのパラドックスやゲデルの定理に匹敵する変革をもたらし、数学研究の目的や評価基準そのものを再定義せざるを得ない状況を生み出している。",
+    "url": "https://the-decoder.com/terence-tao-says-ai-could-trigger-maths-biggest-crisis-since-godel/"
+  },
+  {
+    "id": "3c33de0e-c1c5-819b-958a-db1a56c1976e",
+    "title": "OpenAI builds safety system that catches misuse without storing customer data",
+    "site": "THE DECODER",
+    "published": "2026-08-20T08:01:18.000Z",
+    "fetched": "2026-08-21T00:02:19.000Z",
+    "summary": "OpenAI、顧客データを保存せずに不正利用を検知する安全システムを構築\n\n- OpenAIは、顧客データを保存せずにAIの不正利用を検知できる新しい安全システム「Private Safety Processing」を構築した。\n- 本システムは、データ保持期間をゼロ（ZDR）に維持しながら、複数の関連するやり取りにわたる不正利用のパターンを検出し、プライバシーを保護する。\n- OpenAIは実際の入力や出力を見ることなく、アクティビティの種類や深刻度といった限定的な安全信号のみを受け取る仕組みとなっている。\n- 顧客データは自社インフラ上に保持されるか、顧客が鍵を管理する暗号化された状態で保存されるため、高度なセキュリティが確保される。\n- 競合であるAnthropic社が最上位モデルにおいて30日間のデータ保持を義務付けているのに対し、本アプローチは強力なプライバシー保護と安全性の両立を実現している。",
+    "url": "https://the-decoder.com/openai-builds-safety-system-that-catches-misuse-without-storing-customer-data/"
+  },
+  {
+    "id": "3c33de0e-c1c5-8184-a19f-f2613eef7059",
+    "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-08-20T15:37:00.000Z",
+    "fetched": "2026-08-21T00:02:29.000Z",
+    "summary": "Bun 1.4の新機能「Bun.WebView」を活用したshot-scraper風JSON APIの開発\n\n- 2026年8月にリリースされた「Bun 1.4」では、ZigからRustへのコアの書き換えが行われ、Node.js互換性の向上やパフォーマンス改善に加え、多数の新機能が追加された。\n- 新機能の一つである「Bun.WebView」は、macOSのWebKitやローカルのChromium（CDP経由）を利用し、コアレベルでブラウザ自動化をサポートする。\n- 外部依存関係なしの約150行のTypeScriptサービスにより、PuppeteerやPlaywrightを使わずにJavaScriptの実行やスクリーンショット（PNG/JPEG/WebP）の取得が可能になった。\n- リクエストごとにブラウザタブを1つ生成することで並行処理をサポートし、`/javascript`や`/screenshot`などのエンドポイントを通じてJSON形式で結果やエラーを返す仕組みを実現している。\n- 複雑なウェブページに対してフルChromeを実行しテストした結果、コンテナのメモリ要件は約192MB〜256MB程度であることが確認されている。",
+    "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/"
+  },
+  {
+    "id": "3c33de0e-c1c5-81b5-a018-d798b8b853a3",
+    "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+    "site": "Hugging Face Blog",
+    "published": "2026-08-20T16:52:57.000Z",
+    "fetched": "2026-08-21T00:02:36.000Z",
+    "summary": "LFM2.5-DSparkによる最大3.2倍高速な推論の実現\n\n- LiquidAIが「LFM2.5-DSpark」のドラフトモデル（1.2B、2.6B、8B）を発表し、出力品質を落とさずに大幅な推論の高速化を実現した。\n- GPUで最大約3.18倍、オンデバイスで最大約2.87倍のスループット向上を達成し、関数呼び出しのレイテンシも平均57%削減された。\n- 高速化の仕組みとして、ターゲットモデルの文脈特徴を利用するDFlashスタイルの並列バックボーンや、軽量な逐次ヘッド、信頼度ベースの検証器を組み合わせた「DSpark」手法を採用している。\n- 学習にはSFT、チャット、コード、関数呼び出しなど多様で大規模なデータミックスが使用され、5層のアテンション機構を持つドラフトモデルが構築された。\n- llama.cppおよびSGLangへの初日からのサポートが提供され、オープンソースとして統合されている。",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark"
+  },
+  {
+    "id": "3c33de0e-c1c5-8132-a7b8-e81f830b2c6b",
+    "title": "Ladies and gentlemen I present to you Qwen3.8 27b 1bit brain damage quant",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-20T18:08:26.000Z",
+    "fetched": "2026-08-21T00:02:44.000Z",
+    "summary": "Qwen3.8 27b 1bit量子化モデルの登場と、その極端な低ビット化による性能や特徴についての話題。\n\n- Qwen3.8 27bモデルを1bitという極限まで量子化したバージョンに関する話題である。\n- 「brain damage（脳損傷）」という表現が使われており、量子化による性能の大幅な劣化や特殊な挙動を示唆している。\n- LLM（大規模言語モデル）の軽量化や量子化技術の限界を探る実験的な試みとして注目を集めている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtr3h0/ladies_and_gentlemen_i_present_to_you_qwen38_27b/"
+  },
+  {
+    "id": "3c33de0e-c1c5-8186-95eb-ca028f3e5f23",
+    "title": "Qwen3.8-27b has the highest level of \"agency\" I've ever seen in a local model",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-20T02:45:59.000Z",
+    "fetched": "2026-08-21T00:02:52.000Z",
+    "summary": "ローカルモデル最高峰の主体性を持つ「Qwen2.5-32B（※記事タイトルに基づく）」の驚異的な性能について\n\n- 従来のオープンソースモデルを大きく凌駕する「高い主体性（エイジェンシー）」をローカル環境で実現している。\n- ユーザーの意図を深く理解し、自律的に思考・判断して複雑なタスクを遂行する能力が極めて高い。\n- プログラミングや論理的思考などのベンチマークにおいて、商用モデルに匹敵するパフォーマンスを発揮する。\n- 応答の正確性と柔軟性が向上しており、高度なエージェントワークフローへの応用が期待できる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt78xd/qwen3827b_has_the_highest_level_of_agency_ive/"
+  },
+  {
+    "id": "3c33de0e-c1c5-811b-8f7a-eb0f9d236ef8",
+    "title": "I just built a mini Kimi-K3 from Scratch under 250$. Already beats GPT-2 (124M)!",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-20T11:38:22.000Z",
+    "fetched": "2026-08-21T00:02:59.000Z",
+    "summary": "250ドル未満の低コストで独自に構築したミニLLM「Kimi-K3」が、GPT-2（124M）の性能を超えることに成功したという画期的な成果についての記事である。\n\n- 250ドル未満という低予算で、独自のミニLLM「Kimi-K3」のスクラッチ構築に成功した。\n- 開発したミニKimi-K3は、パラメータ数124MのGPT-2の性能をすでに上回っている。\n- 個人や少人数チームでも、手頃なコストで高性能な言語モデルを開発できる可能性を示している。\n- AI開発におけるハードルが大幅に下がっており、低価格なハードウェアを活用した大規模言語モデルの自作が現実的になっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vth1c3/i_just_built_a_mini_kimik3_from_scratch_under_250/"
+  },
+  {
+    "id": "3c33de0e-c1c5-81bb-9cef-cf4950e2cf17",
+    "title": "Qwen3.8-27B took a serious hit to *knowledge* vs 3.6",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-20T03:02:12.000Z",
+    "fetched": "2026-08-21T00:03:07.000Z",
+    "summary": "Qwen3.8-27BはQwen3.6と比較して知識能力が大幅に低下した\n\n- Qwen3.8-27Bモデルは、前バージョンの3.6モデルに比べて、知識に関するパフォーマンスが深刻な悪化を見せている。\n- ベンチマークや実際の利用シーンにおいて、事実情報の正確性や保持量が減少していることが確認されている。\n- モデルのバージョンアップに伴うアーキテクチャや学習データの変更が、知識量低下の主な要因として推測される。\n- 高性能なモデルとして期待されていただけに、ユーザーや開発者の間では今回の性能低下について議論が巻き起こっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt7l3e/qwen3827b_took_a_serious_hit_to_knowledge_vs_36/"
+  },
+  {
+    "id": "3c33de0e-c1c5-8179-aefd-fc3093e3b8ad",
+    "title": "The boring way to run Deepseek V4 Flash-0731 130-150 tks - 16x5060ti 16GB over 2 PLX88096 switches",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-20T11:53:54.000Z",
+    "fetched": "2026-08-21T00:03:16.000Z",
+    "summary": "16基のRTX 5060 Ti 16GBとPLXスイッチを活用し、Deepseek V4 Flashを効率的かつ安定稼働させるための現実的かつ確実な構築手法についての解説。\n\n- Deepseek V4 Flash-0731モデルを、16基のRTX 5060 Ti（各16GB）を用いて実行する構成について解説している。\n- 2基のPLX 88096スイッチを採用することで、多数のGPU間におけるPCIeの帯域幅のボトルネックを解消し、通信効率を高めている。\n- 派手な最新技術ではなく、実績のあるハードウェアを堅実に組み合わせることで、130〜150 tks（トークン/秒）という実用的な高速処理を実現している。\n- 大規模なAIモデルをコストパフォーマンス高く、かつ安定してローカルまたはプライベート環境で運用するための現実的なハードウェア設計の指針を示している。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vthcwk/the_boring_way_to_run_deepseek_v4_flash0731/"
+  },
+  {
+    "id": "3c33de0e-c1c5-815f-95cd-dd2bd29a7698",
+    "title": "v0.32.15",
+    "site": "Ollama Blog",
+    "published": "2026-08-20T18:47:06.000Z",
+    "fetched": "2026-08-21T00:03:23.000Z",
+    "summary": "ollama/ollama v0.32.15 リリース\n\n- GitHub上で公開されたollamaプロジェクトのバージョン0.32.15のリリース情報ページである。\n- ページ内にはGitHubのナビゲーションメニュー、プラットフォーム機能、開発者ワークフロー、セキュリティ、各種サポートやコミュニティ情報が含まれている。\n- ollamaリポジトリの現在のステータスとして、多くのフォーク数（17.5k）やスター数（179k）を獲得しているパブリックプロジェクトであることが示されている。\n- リポジトリの主要なタブとして、コード、Issue（2.4k）、プルリクエスト（1.3k）、アクション、セキュリティ、インサイトなどが用意されている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15"
+  },
+  {
+    "id": "3c33de0e-c1c5-81e4-98e8-cb7cfe701b4f",
+    "title": "How Generative Recommenders Are Redefining RecSys at Scale",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-08-20T16:00:00.000Z",
+    "fetched": "2026-08-21T00:03:31.000Z",
+    "summary": "Generative Recommendersが大規模レコメンデーションシステム（RecSys）をどう再定義するか\n\n- 生成AIやトランスフォーマーの技術を活用した「生成型リコメンデーター（GR）」が、従来の手法が抱えるスケーラビリティ、コールドスタート、ロングテール問題の解決策として注目されている。\n- ユーザーの行動履歴から次のアイテムを予測する生成アプローチへの移行により、大規模なデータ処理やモデルの運用において新たな課題が生じている。\n- NVIDIAの「recsys-examples」リポジトリでは、動的ハッシュテーブル埋め込みやKVキャッシュ、専用のCUDAカーネルなどを活用し、NVIDIA GPUに最適化された実用的な実装を提供している。\n- 「nv-embedding-cache（NVE）」による階層型マルチティアキャッシュ機能により、大規模な埋め込みテーブルでも低レイテンシーな推論と高スループットを実現し、PyTorchの埋め込み層の代替としてシームレスに統合できる。",
+    "url": "https://developer.nvidia.com/blog/how-generative-recommenders-are-redefining-recsys-at-scale/"
+  }
+]

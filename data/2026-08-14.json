@@ -1,0 +1,155 @@
+[
+  {
+    "id": "3bd3de0e-c1c5-81ac-a14d-c76d3b3af412",
+    "title": "Anthropic announces watermark detection API that will let third parties detect Claude's AI texts",
+    "site": "THE DECODER",
+    "published": "2026-08-14T21:29:17.000Z",
+    "fetched": "2026-08-15T00:01:20.000Z",
+    "summary": "AnthropicがClaude生成テキストを判別できる透かし（ウォーターマーク）検出APIを発表\n\n- Anthropicは、第三者がClaudeの生成テキストを識別可能にする透かし検出APIを公開する。この技術はGoogle DeepMindの「SynthID Text」を基にしており、単語選択のランダム性に微細なパターンを埋め込むことで、文章の読みやすさや創造性に影響を与えずに追跡を可能にする。\n- 透かしには限界があり、短いテキスト、事実に基づいた内容、ソースコードでは精度が低下する。また、AIが生成した後に人間が大幅に書き換えた場合や、他のAIモデルによるテキストであるかどうかの判別はできない。\n- 今回の導入は、EU AI法への準拠と、2026年7月に署名したAI生成コンテンツの透明性に関するEU行動規範に対応するための措置である。地域的な制限が技術的に困難なため、透かし機能は世界規模で適用される。\n- 今後リリースされるすべてのモデルに対し、この透かし技術が統合される予定であり、Anthropicは継続的に技術の改善とアップデートを進めていく方針を示している。",
+    "url": "https://the-decoder.com/anthropic-announces-watermark-detection-api-that-will-let-third-parties-detect-claudes-ai-texts/"
+  },
+  {
+    "id": "3bd3de0e-c1c5-81e8-83ab-f088cf7ce637",
+    "title": "Alibaba's Qwen team releases Qwen 3.8 models with open weights under the Apache 2.0 license",
+    "site": "THE DECODER",
+    "published": "2026-08-14T17:01:54.000Z",
+    "fetched": "2026-08-15T00:01:29.000Z",
+    "summary": "Alibaba、オープンモデル「Qwen 3.8」シリーズを発表\n\n- AlibabaのAIチームが、オープンな重みを持つ最新モデル「Qwen 3.8」をApache 2.0ライセンスで公開した。\n- 主力モデルである「Qwen 3.8-27B」は270億のパラメータを持ち、コーディングや事務作業において従来モデルを上回る性能を発揮するほか、エージェントとしての自律的な計画実行能力が強化されている。\n- コンテキストウィンドウは標準で26万2,000トークンに対応し、YaRN技術を用いることで最大100万トークンまで拡張可能となっている。\n- テキストだけでなく、画像や図表、長時間の動画処理にも対応したマルチモーダルモデルであり、推論モードを切り替え可能な柔軟性を備えている。\n- より大規模な「Qwen 3.8-2.4T-A95B」も同時に公開され、両モデルはHugging FaceやModelScopeで入手できるほか、今後Qwen Cloudを通じた提供も予定されている。",
+    "url": "https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license/"
+  },
+  {
+    "id": "3bd3de0e-c1c5-8123-9af6-c3f793e09fb3",
+    "title": "OpenAI's Computer History turns your clicks and keystrokes into a searchable ChatGPT memory timeline",
+    "site": "THE DECODER",
+    "published": "2026-08-14T16:43:43.000Z",
+    "fetched": "2026-08-15T00:01:37.000Z",
+    "summary": "OpenAIの新機能「Computer History」：PC操作を検索可能なChatGPTの記憶に変える\n\n- 「Computer History」は、PC上でのクリック、キー入力、アプリの切り替えなどの操作ログを記録し、ChatGPTで検索可能なタイムラインとして蓄積する新機能である。\n- スクリーンショットや画面録画、音声などは取得せず、macOSのアクセシビリティシステムを通じて「操作イベント」のみを記録するプライバシーに配慮した設計となっている。\n- 記録された操作は自動的に要約され、ローカル環境にMarkdown形式で保存されるため、過去の作業内容をChatGPTに問いかけて振り返ることが可能になる。\n- ユーザーの反復的な作業パターンをAIが検知し、それを「スキル」として抽出・自動化するテンプレートを作成できる。\n- 企業利用の場合は管理者の許可に加え、各ユーザー個人の同意が必要な二重のオプトイン方式を採用しており、セキュリティとプライバシーが厳格に管理されている。",
+    "url": "https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline/"
+  },
+  {
+    "id": "3bd3de0e-c1c5-8172-bb99-c762c9ca0c25",
+    "title": "Study contradicts Anthropic and OpenAI claims that autonomous AI research is within reach",
+    "site": "THE DECODER",
+    "published": "2026-08-14T16:06:32.000Z",
+    "fetched": "2026-08-15T00:01:45.000Z",
+    "summary": "自律的なAI研究の実現はまだ遠い：最新の研究がOpenAIやAnthropicの主張に反論\n\n- プリンストン大学と英国AI安全研究所の研究により、現在のAIモデルには自律的なAI研究を行う能力が不足していることが示された。\n- 既存の評価手法は問題が多いため、今回新たに「シャドウ評価」という手法を導入し、未発表の論文を基にAIが自律的に研究を行えるかをテストした。\n- 実験では、Claude Opus 4.8に対し十分な予算と計算リソースを与えたが、AIは実用的な研究工程を完遂できず、研究における「本質的な部分」で失敗した。\n- OpenAIやAnthropicは自社のモデルがAI研究を加速させると主張しているが、今回の検証結果は、現時点でのモデルの自律研究能力を疑問視するものとなった。\n- この調査は、AIがインターネット上の既存情報に頼らず、ゼロから新規性の高い研究を遂行することの難しさを浮き彫りにしている。",
+    "url": "https://the-decoder.com/study-contradicts-anthropic-and-openai-claims-that-autonomous-ai-research-is-within-reach/"
+  },
+  {
+    "id": "3bd3de0e-c1c5-8192-beed-f3dfde5cafaf",
+    "title": "GPT-5.6 Sol goes 14x faster as OpenAI launches Ultrafast mode powered by Cerebras",
+    "site": "THE DECODER",
+    "published": "2026-08-14T14:21:50.000Z",
+    "fetched": "2026-08-15T00:01:54.000Z",
+    "summary": "OpenAI、Cerebrasの技術を活用した「Ultrafast」モードでGPT-5.6 Solの推論速度を14倍に高速化\n\n- OpenAIは、主力モデル「GPT-5.6 Sol」の推論速度を最大で秒間750トークンまで引き上げる「Ultrafast」モードのプレビュー版を発表した。\n- この高速化は、今年締結されたCerebrasとの100億ドル規模のパートナーシップによって実現したもので、まずは一部のAPI利用者を対象に提供される。\n- 本機能は、小規模モデル並みの応答速度と大規模推論モデルの能力を両立させることを目的としており、リアルタイム性が求められる高度な業務プロセスを可能にする。\n- 具体的な活用事例として、障害発生時の即時ログ分析、金融市場のリアルタイム監視、顧客サポートの複雑な問い合わせへの即応、研究開発のインタラクティブ化などが挙げられている。\n- OpenAIは内部運用ですでに本モデルを活用しており、今後インフラのキャパシティ拡大に合わせて対象ユーザーを順次拡大する方針である。",
+    "url": "https://the-decoder.com/gpt-5-6-sol-goes-14x-faster-as-openai-launches-ultrafast-mode-powered-by-cerebras/"
+  },
+  {
+    "id": "3bd3de0e-c1c5-81b3-b2b2-c33324a5b48e",
+    "title": "Claude Code now runs daily maintenance on Anthropic's software with a 46 percent merge rate",
+    "site": "THE DECODER",
+    "published": "2026-08-14T11:44:38.000Z",
+    "fetched": "2026-08-15T00:02:01.000Z",
+    "summary": "Anthropic社の自社ソフトウェア保守をAI「Claude Code」が自動化し、高い成果を上げている\n\n- Anthropic社は、自社のソフトウェア保守をAIエージェント「Claude Code」に任せる取り組みを実施しており、数週間で388件のプルリクエストを作成、そのうち約46％にあたる180件が人間によるレビューを経てマージされた。\n- Claude Codeは、iOS、Android、Web、CLIなど複数のプラットフォームにわたり、Slack経由で日常的なメンテナンスルーチンを自律的に実行している。\n- 実行しているメンテナンス作業は「Crash Fuzzer（クラッシュ原因の特定と修正）」「Dup Unifier（重複コードの統合）」「Dead-Code Remover（不要コードの削除）」など計12種類に及ぶ。\n- 「Dead-Code Remover」では、疑わしいコードにログを追加して動作を検証するなど、安全性を担保しながら自動化を進める高度な手法も取り入れられている。\n- 開発者エンジニアのBoris Cherny氏は、この実験的な自動化の結果を「驚くほど肯定的」と評価しており、繰り返しの多いメンテナンス作業から開発者を解放する効果を実証している。",
+    "url": "https://the-decoder.com/claude-code-now-runs-daily-maintenance-on-anthropics-software-with-a-46-percent-merge-rate/"
+  },
+  {
+    "id": "3bd3de0e-c1c5-8136-ba4d-c2f3575656a1",
+    "title": "Zhipu AI releases GLM-5.3, claims it's the strongest open-weights coding model",
+    "site": "THE DECODER",
+    "published": "2026-08-14T10:21:34.000Z",
+    "fetched": "2026-08-15T00:02:09.000Z",
+    "summary": "Zhipu AIが最強のオープンウェイト・コーディングモデル「GLM-5.3」を発表\n\n- Zhipu AIが公開したGLM-5.3は、前身であるGLM-5.2のベース構造を維持しつつ、徹底したポストトレーニングによってコーディング性能を大幅に向上させた最新モデルである。\n- 特にエージェントベースのタスクにおいて高い能力を発揮し、現在提供されているオープンウェイトのコーディングモデルの中で最も強力であると主張している。\n- セキュリティ分野での活用に注力しており、脆弱性発見に特化した学習を行った結果、中国のセキュリティチームと共同で269のプロジェクトから2,436件もの脆弱性を発見する成果を上げた。\n- モデルは「GLM Coding Plan」を通じて提供され、ZCodeやClaude Codeなどのコーディングエージェントとの連携が可能。ウェイトの一般公開は、セキュリティレビュー終了後の2週間後を予定している。",
+    "url": "https://the-decoder.com/zhipu-ai-releases-glm-5-3-claims-its-the-strongest-open-weights-coding-model/"
+  },
+  {
+    "id": "3bd3de0e-c1c5-81ff-9527-d4fd52b4c2a5",
+    "title": "Don't classify. Hallucinate!",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-08-14T21:54:35.000Z",
+    "fetched": "2026-08-15T00:02:17.000Z",
+    "summary": "LLMを用いた効率的なタグ分類手法：分類せずに「ハルシネーション」させる\n\n- 既存のタグが多すぎる場合、LLMにすべての選択肢を提示して選ばせるのは現実的ではないため、LLMにはあえて分類させず、内容に合う適切な言葉を自由に生成（ハルシネーション）させる。\n- 生成された自由な回答を、ベクトル埋め込み（Embedding）を利用して、既存のタグ体系の中から最も意味的に近いものを検索・マッピングする。\n- この手法により、膨大なラベルの中から一つを選ぶという難しい推論をLLMにさせる必要がなくなり、既存の分類体系を維持したまま効率的にタグ付けが可能になる。\n- 精度を高めるために、プロンプト内で既存のタグの形式を例示しておくと、LLMがより適切な形式で出力を生成しやすくなる。\n- このアプローチは、ブログのタグ付け整理のような、既存の固定されたカテゴリが多数存在する場合の自動化において非常に有効である。",
+    "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/"
+  },
+  {
+    "id": "3bd3de0e-c1c5-8195-98e4-fe3d36c2ff97",
+    "title": "State of Open Models: Summer 2026 Observations",
+    "site": "Hugging Face Blog",
+    "published": "2026-08-14T00:00:00.000Z",
+    "fetched": "2026-08-15T00:02:25.000Z",
+    "summary": "2026年夏：オープンモデルの現状と動向\n\n- 中国のAIラボが大規模モデル開発を牽引しており、米国が130B（1300億パラメータ）以下のモデルを主体とする一方で、中国勢は兆単位のパラメータを持つ超巨大モデルを毎月のように発表している。\n- モデルの公開数は増加の一途を辿るが、全体の99.2%のダウンロード数をわずか1.5%のリポジトリが占めており、極端な寡占状態が続いている。\n- 巨大モデルの台頭とコミュニティによる量子化技術の進化により、企業は小規模モデルをリリースせずとも、大容量モデルが即座に実行可能な環境が整っている。\n- 以前のような「小規模から大規模へ」という段階的な開発手法は過去のものとなり、特に中国系ラボを中心に、いきなり超大規模モデルをリリースする戦略が定着した。\n- Qwenシリーズがオープンモデルの基盤としてコミュニティに広く定着しており、小規模モデルが依然として実用面で重要な役割を担っている。",
+    "url": "https://huggingface.co/blog/state-of-open-models-summer-2026"
+  },
+  {
+    "id": "3bd3de0e-c1c5-81f9-bc78-eb9f0750e6dc",
+    "title": "IT'S OUT",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-14T14:59:51.000Z",
+    "fetched": "2026-08-15T00:02:33.000Z",
+    "summary": "Reddit公式が、以前より予告していた「Redditの新しいデザイン（リデザイン）」を正式にリリースしたことを発表しました。\n\n- Redditのプラットフォーム全体で、新しいデザインが正式に実装されました。\n- このアップデートは、ユーザー体験の向上と視覚的な刷新を目的としています。\n- 従来のインターフェースと比較して、よりモダンで直感的な操作が可能になっています。\n- 今後は新しいデザインが標準となり、サイトの利便性向上のためのさらなる改善が期待されます。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo9mj4/its_out/"
+  },
+  {
+    "id": "3bd3de0e-c1c5-8145-9b95-f4d64a3bc009",
+    "title": "GLM 5.3 Released",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-14T05:23:43.000Z",
+    "fetched": "2026-08-15T00:02:41.000Z",
+    "summary": "GLM 5.3 リリース\n\n- OpenGL向け数学ライブラリ「GLM」の最新版となるバージョン5.3が正式にリリースされました。\n- 今回のアップデートでは、主にコンパイラサポートの改善や、コードの最適化によるパフォーマンス向上が図られています。\n- ユーザーからのフィードバックに基づいたバグ修正が行われ、ライブラリの安定性と信頼性が高まりました。\n- 最新のグラフィックスAPIやプログラミング環境への対応が進み、開発者がより効率的に数学演算を実装できる環境が整いました。\n- 詳細は公式サイトやGitHubのリポジトリを通じて確認でき、既存プロジェクトからの移行もスムーズに行えるよう配慮されています。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vny9zs/glm_53_released/"
+  },
+  {
+    "id": "3bd3de0e-c1c5-819e-ba09-d616da938715",
+    "title": "Qwen/Qwen3.8-27B · released",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-14T15:00:51.000Z",
+    "fetched": "2026-08-15T00:02:49.000Z",
+    "summary": "Qwen 2.5-32Bのリリースと新モデル「Qwen3.8-27B」の登場\n\n- Alibaba Cloudが提供するQwenシリーズの最新モデルとして、Qwen3.8-27Bが公開されました。\n- 従来モデルからさらなる性能向上が図られており、特に推論能力や言語理解の精度が強化されています。\n- 27Bというパラメータサイズは、計算リソースの効率と高性能のバランスが良く、多くの商用・研究用途での活用が見込まれます。\n- 多言語対応能力が向上しており、日本語を含むグローバルなタスクにおいて高いパフォーマンスを発揮します。\n- オープンウェイトとして公開されており、開発者が自身の環境でモデルを動かしたり、ファインチューニングを行ったりすることが可能です。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo9nn7/qwenqwen3827b_released/"
+  },
+  {
+    "id": "3bd3de0e-c1c5-8113-999e-e54ef2dfd071",
+    "title": "Qwen3.8-27B is identical to Qwen3.6-27B!",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-14T16:12:35.000Z",
+    "fetched": "2026-08-15T00:03:02.000Z",
+    "summary": "Qwen3.8-27BとQwen3.6-27Bは同一のモデルである\n\n- Redditユーザーによる検証の結果、Qwen3.8-27BとQwen3.6-27Bのモデルウェイトが完全に一致していることが判明した。\n- 両モデルのファイルサイズやハッシュ値が同一であることから、実質的に全く同じデータセットとアーキテクチャで構成されていると結論付けられている。\n- モデル名にバージョンアップを想起させる変更が加えられているものの、実際の中身には改善や変更が一切行われていない。\n- この発見はコミュニティにおいて混乱を招いており、モデルのバージョン管理やアップデートの透明性について疑問が呈されている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1voblcs/qwen3827b_is_identical_to_qwen3627b/"
+  },
+  {
+    "id": "3bd3de0e-c1c5-811e-95a1-f8124f47511b",
+    "title": "A preliminary Qwen3.8-27B model card is live!",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-14T09:30:11.000Z",
+    "fetched": "2026-08-15T00:03:11.000Z",
+    "summary": "Qwen3.8-27Bモデルカード公開の速報\n\n- Alibaba Cloudが開発する最新AIモデル「Qwen3.8-27B」のモデルカードが公開されました。\n- 27B（270億）パラメータ規模のモデルであり、高い推論能力と効率性を両立していることが期待されます。\n- モデルカードには、モデルのアーキテクチャ、学習データ、性能評価、および利用に関するガイドラインが含まれています。\n- 今回の公開により、オープンソースコミュニティや開発者がモデルの特性を事前に把握し、検証を開始できるようになりました。\n- 今後、詳細なベンチマーク結果やモデルの重み公開が順次進められる見込みです。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo2iiz/a_preliminary_qwen3827b_model_card_is_live/"
+  },
+  {
+    "id": "3bd3de0e-c1c5-81f9-894e-f439d3d408e6",
+    "title": "v0.32.13",
+    "site": "Ollama Blog",
+    "published": "2026-08-14T19:18:00.000Z",
+    "fetched": "2026-08-15T00:03:22.000Z",
+    "summary": "Ollama v0.32.13 リリース情報\n\n- Ollamaの最新バージョンであるv0.32.13がリリースされました。\n- 本バージョンでは、前バージョンまでに報告されていたバグの修正や、内部的な安定性の向上が図られています。\n- ユーザーはGitHubのリリースページを通じて、最新のインストーラーやソースコードにアクセスし、環境をアップデートすることが可能です。\n- 今回の更新により、モデルの推論やローカル環境でのLLM運用におけるパフォーマンスと信頼性が向上しています。\n- 詳細はGitHubの公式リポジトリにあるリリースノートにて確認できます。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.32.13"
+  },
+  {
+    "id": "3bd3de0e-c1c5-81b5-a903-dc0f8765298a",
+    "title": "v0.32.12",
+    "site": "Ollama Blog",
+    "published": "2026-08-14T16:49:45.000Z",
+    "fetched": "2026-08-15T00:03:31.000Z",
+    "summary": "Ollama v0.32.12 リリースノート\n\n- Ollamaがバージョン0.32.12へアップデートされ、ローカルLLM実行環境としての安定性と機能向上が図られました。\n- 本バージョンでは、ユーザーからのフィードバックに基づいたバグ修正やパフォーマンスの最適化が実施されています。\n- プロンプト処理の効率化や、特定のモデルアーキテクチャにおける互換性の改善が含まれています。\n- GitHub上で公開された本リリースにより、既存ユーザーは最新のバイナリをダウンロードすることで、より安定した推論環境を利用可能です。\n- 詳細な変更内容や修正された不具合の詳細は、GitHubの公式リポジトリ内のリリースセクションにて随時確認できます。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.32.12"
+  },
+  {
+    "id": "3bd3de0e-c1c5-810f-b52a-d56140cb3fad",
+    "title": "v0.32.11",
+    "site": "Ollama Blog",
+    "published": "2026-08-14T06:37:49.000Z",
+    "fetched": "2026-08-15T00:03:42.000Z",
+    "summary": "Ollama v0.32.11 リリース情報\n\n- Ollamaの最新版である「v0.32.11」が公開されました。\n- このアップデートは、主にバグ修正やパフォーマンスの改善を目的としており、安定した動作の提供を優先しています。\n- ローカル環境でLLM（大規模言語モデル）を効率的に実行するための機能強化が継続的に行われています。\n- ユーザーはGitHub上のリポジトリから最新のバイナリをダウンロードするか、既存環境を更新することで、このリリースを適用できます。\n- 今後も継続的なコミュニティからのフィードバックに基づき、開発と最適化が促進される予定です。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.32.11"
+  }
+]

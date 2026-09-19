@@ -1,0 +1,218 @@
+[
+  {
+    "id": "3c23de0e-c1c5-8164-ba3b-ec792d72122c",
+    "title": "Stripe declares we're living in the singularity and uses it as a reason not to IPO",
+    "site": "THE DECODER",
+    "published": "2026-08-19T20:03:20.000Z",
+    "fetched": "2026-08-20T00:01:12.000Z",
+    "summary": "Stripeが「シンギュラリティ（技術的特異点）」の到来を宣言し、それを理由にIPO（新規株式公開）を見送る方針を示した。決済大手のStripeは、今年1月1日をシンギュラリティの始まりと位置づけ、AIが世界をどのように再構築するか不確実である中、非公開企業として事業を進めることが最適であると判断した。\n\n- Stripeは、新規企業の急増などの長期的なトレンドの大変曲点を「シンギュラリティ」と定義し、非公開企業として活動することが、株主の希薄化を避けて買収や投資を進めるために有利であると主張している。\n- AIの進化や経済インフラの構築において、開発者向けの開発はコーディングハーネスやエージェント向けの開発と本質的に同じであり、インターネット経済インフラの構築はそのままAIの経済インフラ構築につながると述べている。\n- 8億ドル以上を投じてAIモデルルーター「OpenRouter」を買収したことを発表し、トークンの利用量が毎週9%増加している現状に対応する。\n- 今後はすべての開発者に対して決済インフラだけでなく、信頼性の高い「インテリジェンス・パイプライン」の管理手段が必要になるとし、OpenRouterがその役割を担うとしている。",
+    "url": "https://the-decoder.com/stripe-declares-were-living-in-the-singularity-and-uses-it-as-a-reason-not-to-ipo/"
+  },
+  {
+    "id": "3c23de0e-c1c5-81a6-b3af-d54df2324ca5",
+    "title": "Attackers are using AI to build exploits for industrial control systems, U.S. agencies warn",
+    "site": "THE DECODER",
+    "published": "2026-08-19T18:55:53.000Z",
+    "fetched": "2026-08-20T00:01:23.000Z",
+    "summary": "米国のセキュリティ機関（NSA、CISA、FBIなど）の共同警告によると、攻撃者が産業用制御システム（ICS）向けの攻撃スクリプト作成にAIを悪用していることが明らかになった。これにより、攻撃に必要な専門知識や時間が大幅に削減されているという。\n\n- 攻撃者がAIを活用し、シーメンス製のプログラマブルロジックコントローラ（PLC）を標的とした悪質な攻撃スクリプトを作成している。\n- AIの導入により、高度な技術や時間をかけずに動作するICS向けの攻撃ツールを開発できるようになり、脅威アクターの能力が進化している。\n- AIを用いることで、攻撃者は脆弱性情報の収集や露出したPLCの特定、追加の攻撃ベクトルの活用、防御策への適応を迅速に行うことが可能になる。\n- 影響を受ける主なセクターは、エネルギー、水インフラ、化学、製造業であり、当局はこれを現在進行形の脅威として警戒を呼びかけている。\n- 英国のAI安全研究所のシミュレーションでは、AIモデルが単独でOT（制御技術）システムをハッキングすることには失敗したものの、その手前にあるITシステムでつまずいたためであり、インターネットに露出したPLCは依然として高いリスクにさらされている。",
+    "url": "https://the-decoder.com/attackers-are-using-ai-to-build-exploits-for-industrial-control-systems-u-s-agencies-warn/"
+  },
+  {
+    "id": "3c23de0e-c1c5-81d9-92ed-c0f3a62f28fa",
+    "title": "OpenAI fixes Codex bug that deleted real user files without permission",
+    "site": "THE DECODER",
+    "published": "2026-08-19T18:18:34.000Z",
+    "fetched": "2026-08-20T00:01:30.000Z",
+    "summary": "OpenAI、ユーザーの許可なく実ファイルを削除していたCodexのバグを修正\n\n- ユーザーから、OpenAIのCodex（GPT-5.6 Sol）が実行中にファイル勝手に消去するとの報告が相次いだため、セキュリティアップデートが配信された。\n- バグの根本原因は、一時ファイルのクリーンアップ用コマンドが誤作動し、システム変数（$HOMEなど）の悪用により実際のホームディレクトリを指してしまったことにある。\n- OpenAIは対策として、削除対象の検証、新規一時フォルダーの作成、システム変数の誤用防止、危険な削除コマンドに対する厳格なチェック機能を導入した。\n- フルアクセスモードが誤って有効化されないよう改善され、同社はサンドボックスモードの利用とアプリの最新状態への維持を推奨している。",
+    "url": "https://the-decoder.com/openai-fixes-codex-bug-that-deleted-real-user-files-without-permission/"
+  },
+  {
+    "id": "3c23de0e-c1c5-8110-9f68-f0c98251b483",
+    "title": "China lets Nvidia's H200 chips trickle onto the mainland to help its AI firms keep pace with the US",
+    "site": "THE DECODER",
+    "published": "2026-08-19T13:57:22.000Z",
+    "fetched": "2026-08-20T00:01:38.000Z",
+    "summary": "中国、米AI企業への追随を目指しNVIDIA製「H200」チップの国内導入を部分的に容認\n\n- 中国政府は、国内のAI企業が米国との競争についていけるよう、NVIDIA製「H200」チップの小規模な本土への流入を許可している。\n- 「Financial Times」紙によると、ByteDanceとTencentがそれぞれ約10,000個のH200プロセッサを受領しており、今後さらに多くの企業がこれに続く可能性がある。\n- 米国は企業ごとに最大10万個のH200の輸出を許可しているが、中国本土では国内メーカー（Huaweiなど）の支援や国家発展改革委員会（NDRC）の承認が求められている。\n- 中国のAIラボ（Moonshot、Alibaba、DeepSeek、Z.aiなど）は技術面で急速にキャッチアップしているものの、利用可能な推論能力の面では米国プロバイダーに大きく遅れをとっている。",
+    "url": "https://the-decoder.com/china-lets-nvidias-h200-chips-trickle-onto-the-mainland-to-help-its-ai-firms-keep-pace-with-the-us/"
+  },
+  {
+    "id": "3c23de0e-c1c5-8178-8e6a-d941d616e22c",
+    "title": "GLM-5.3 tops the open-model rankings and undercuts rivals on price, but its release is delayed",
+    "site": "THE DECODER",
+    "published": "2026-08-19T13:54:16.000Z",
+    "fetched": "2026-08-20T00:01:48.000Z",
+    "summary": "中国のスタートアップZ.aiが開発したAIモデル「GLM-5.3」は、優れた性能と手頃な価格を実現している一方で、セキュリティ上の理由からオープンウェイトの公開が一時的に延期されています。\n\n- 中国のスタートアップZ.aiが開発したAIモデル「GLM-5.3」は、「Artificial Analysis Intelligence Index」で60点を獲得し、Kimi K3と並んでオープンモデルのトップに立った。\n- 特にエージェントタスクでの性能が大幅に向上しており、GDPval-AA v2ベンチマークでは前モデルから246ポイント上昇し、Claude Opus 5に次ぐ2位を記録した。\n- コスト面では1タスクあたり0.68ドルと、前モデルより高価になったものの、ライバルであるKimi K3よりも19%安く提供されている。\n- 西側の最先端モデルに匹敵する性能を持つ一方で、Z.aiはAPI経由でのみモデルを提供しており、オープンウェイトの公開は約2週間延期されている。\n- 公開延期の理由は、GLM-5.3がセキュリティ脆弱性の検出能力が高すぎるため、安全性の管理を強化し、一部のセキュリティパートナーにアクセスを制限しているためである。",
+    "url": "https://the-decoder.com/glm-5-3-tops-the-open-model-rankings-and-undercuts-rivals-on-price-but-its-release-is-delayed/"
+  },
+  {
+    "id": "3c23de0e-c1c5-811f-bc4b-f3f7f94c3b71",
+    "title": "AI labs are failing to keep their own systems in check",
+    "site": "THE DECODER",
+    "published": "2026-08-19T13:16:18.000Z",
+    "fetched": "2026-08-20T00:01:56.000Z",
+    "summary": "AI開発企業は自社の内部AIシステムに対する基本的な安全管理措置の適用に失敗しており、いずれの企業も十分な水準に達していない。\n\n- 非営利団体「Guidelight」が初めて実施した評価によると、主要なAI企業はいずれも自社システムの基本的な安全管理措置を十分に適用できていないことが明らかになった。\n- この評価は、Anthropic、OpenAI、Google、xAI、Metaの5社を対象に、システムカードや安全性レポートなどの公開情報に基づいて行われた。\n- 調査対象となった6つの基本プラクティス（内部活動の記録、審査メカニズムによるリスク制御、緊急停止機能、暴走モデルの封じ込め計画など）のうち、各社は不正行為の検知で比較的健闘した一方で、予防と封じ込めの対策で最も遅れをとっている。\n- 評価の結果、AnthropicとOpenAIが「C+」で最高評価となり、Googleが「D+」（詳細なロードマップあり）、xAIが「D−」、Metaが「F」という厳しい結果となった。\n- Guidelightは、元OpenAIの安全性責任者らによって設立された独立系の非営利団体であり、AI企業に対してより厳格な安全基準の適用を求めている。",
+    "url": "https://the-decoder.com/ai-labs-are-failing-to-keep-their-own-systems-in-check/"
+  },
+  {
+    "id": "3c23de0e-c1c5-8154-a722-c769d53e11d6",
+    "title": "Anthropic says any lab can now let a language model agent run the whole protein design stack",
+    "site": "THE DECODER",
+    "published": "2026-08-19T13:07:56.000Z",
+    "fetched": "2026-08-20T00:02:04.000Z",
+    "summary": "AnthropicのClaudeを用いたタンパク質設計エージェントが、初期の医薬品開発において従来の業界水準を上回る成果を上げ、あらゆる研究室が自動化スタックを利用可能になった。\n\n- Claudeモデル（Mythos PreviewおよびOpus 4.8）を用いた実験により、標的タンパク質に結合する小さなタンパク質「ミニバインダー」の* de novo *（ゼロからの）設計に成功した。\n- 1,320の設計を実験で検証した結果、354個が実際に標的に結合し、全体で26.8%という高いヒット率を記録した。\n- Claude自身が最上位にランク付けした設計に絞ると、結合の成功率は49%に達した。\n- この数値は、公開データベースから得られる現在の一般的な業界水準である10〜15%を大きく上回る成果である。\n- 言語モデルのエージェントが、専門的なソフトウェアや計算資源のオーケストレーションを含む、従来は専門家の判断が必要だった複雑なタンパク質設計の全プロセスを自律的に実行した。",
+    "url": "https://the-decoder.com/anthropic-says-any-lab-can-now-let-a-language-model-agent-run-the-whole-protein-design-stack/"
+  },
+  {
+    "id": "3c23de0e-c1c5-81da-a623-f6a4393f769a",
+    "title": "Anthropic passes OpenAI on revenue for the first time",
+    "site": "THE DECODER",
+    "published": "2026-08-19T12:45:02.000Z",
+    "fetched": "2026-08-20T00:02:12.000Z",
+    "summary": "Anthropicが売上高で初めてOpenAIを追い抜く\n\n- Anthropicの第2四半期の売上高は116億ドルに達し、前四半期から倍増してわずかながら営業利益を計上した。\n- 一方、OpenAIの6月までの四半期売上高は67億ドルで前期比18%の成長にとどまり、一部の株主を失望させた。\n- OpenAIは営業赤字がさらに拡大し、IPOを控える中で利益を出せない状態が続いている。\n- OpenAIの成長鈍化の背景にはChatGPTの伸び悩みがあり、一方でAnthropicはコーディングツール「Claude Code」の成功や高い利用単価が追い風となっている。\n- OpenAIは7月に「GPT-5.6」をリリースしたことで、その後成長が再び加速したと主張している。",
+    "url": "https://the-decoder.com/anthropic-passes-openai-on-revenue-for-the-first-time/"
+  },
+  {
+    "id": "3c23de0e-c1c5-8189-94ea-e9ab2d3d0e7e",
+    "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-08-19T23:16:00.000Z",
+    "fetched": "2026-08-20T00:02:21.000Z",
+    "summary": "smolmachines / smolvmを用いた信頼できないPythonおよびJavaScriptコードの安全なサンドボックス検証\n\n- サイモン・ウィリソンが「smolvm 1.8.3」をテストし、信頼できないコードのデータ変換におけるサンドボックスとしての有用性を確認した。\n- 共有カーネル型コンテナではなくハードウェア分離型VMを採用しており、オフラインローカルイメージ、ネットワーク遮断、CPU/RAM制限、タイムアウト、ストレージクォータなどが意図通りに動作した。\n- コールドスタートは約0.6〜1.5秒、ウォーム実行は約50msと高速である。\n- 調査に使用したAIエージェント（Claude）は、実行環境の制約（ネストした仮想化が不可）を自ら迂回するため、GitHub Actionsのランナー環境を一時的に利用してテストを完遂する高いプロアクティブ性を示した。",
+    "url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/"
+  },
+  {
+    "id": "3c23de0e-c1c5-8159-afd6-f2f47ecf923d",
+    "title": "Quoting Jeremy Morrell",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-08-19T22:56:31.000Z",
+    "fetched": "2026-08-20T00:02:29.000Z",
+    "summary": "LLM時代における拡張可能なソフトウェアの新たな可能性\n\n- ジェレミー・モレル氏の仮説として、LLMによって拡張機能の作成コストが劇的に低下し、現代のサンドボックス機能によって展開コストの削減と安全なセキュリティ境界の確保が可能になると指摘している。\n- 堅牢で信頼性の高いアプリのコアを構築し、ユーザーが不足している部分をLLMに補わせることで、安全にあらゆる方向へ機能を拡張できる新たな機会がWeb上に生まれている。\n- アプリのコアをしっかりとした責任の持てる設計にしつつ、LLMを活用してユーザーに特別な機能（スーパーパワー）を提供できるとしている。\n- サイモン・ウィリソン氏のウェブロログに2026年8月19日付で投稿された、ジェレミー・モレルの著作「Extensible Software in the age of LLMs」からの引用である。",
+    "url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell/"
+  },
+  {
+    "id": "3c23de0e-c1c5-81d8-af1b-f048a721abc2",
+    "title": "Conceptual integrity and counting lines of code",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-08-19T22:46:07.000Z",
+    "fetched": "2026-08-20T00:02:37.000Z",
+    "summary": "AI時代のソフトウェア開発における生産性とコードの概念的整合性\n\n- AIコーディングエージェントの登場により、デバッグ済みのコードを大量に生成できるようになり、高品質を維持できれば「行数」も生産性の意味ある指標になり得る。\n- エンジニア1人で生成できるコード量が爆発的に増えた現在でも、人間の認知容量には限界があるため、コード量を管理・分散させるためのチーム（複数人のエンジニア）の存在が引き続き必要である。\n- AIを使うと短時間で機能追加ができる反面、設計の一貫性である「概念的整合性」が失われやすく、ソフトウェアが予期せぬ方向へ肥大化するリスクがある。\n- AI駆動開発で失われがちなソフトウェアの一貫性のない肥大化現象は、部屋が迷宮のように増築された「ウィンチェスター・ミステリー・ハウス」に例えられる。",
+    "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/"
+  },
+  {
+    "id": "3c23de0e-c1c5-8184-8b42-c4a8171b77b0",
+    "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
+    "site": "Hugging Face Blog",
+    "published": "2026-08-19T13:48:49.000Z",
+    "fetched": "2026-08-20T00:02:45.000Z",
+    "summary": "LiquidAIによるLFM2.5モデルの量子化認識蒸留（QAD）Q4_0チェックポイントのリリースについて、結論から要約します。\n\nLiquidAIは、LFM2.5モデル（230M、350M、1.2B-Instruct、2.6B）向けに、量子化認識蒸留（QAD）を用いた新しいQ4_0 GGUFチェックポイントを発表した。\n\n- 量子化認識蒸留（QAD）の採用により、高精度な教師モデルの知識を量子化された学生モデルに学習させ、量子化による精度低下を大幅に抑制している。\n- 従来のBF16ベースラインと比較して、量子化によって失われた平均精度の約97%を回復することに成功した。\n- ネイティブなQ4_0と同等の低いメモリフットプリントと高いスループットを維持しながら、より高精度なモデル（Q5_K_MやQ4_K_Mなど）に匹敵する品質を実現している。\n- MacBook Pro、NucBox、Samsung Galaxy S26 Ultra、Raspberry Pi 5などの実際ののエッジハードウェアにおいて、優れたデコードスループットを発揮する。\n- 作成されたGGUFファイルは、「llama.cpp」やGGUFのQ4_0アーティファクトをサポートする任意のランタイムで使用可能である。",
+    "url": "https://huggingface.co/blog/LiquidAI/qad"
+  },
+  {
+    "id": "3c23de0e-c1c5-8137-b708-c51a524a345b",
+    "title": "Introducing Qwen3.8-27B Dynamic v3 Unsloth GGUFs",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-19T16:21:31.000Z",
+    "fetched": "2026-08-20T00:02:52.000Z",
+    "summary": "Qwen3.8-27B Dynamic v3 Unsloth GGUFの公開と特徴\n\n- Qwen3.8-27Bをベースにした「Dynamic v3」モデルのUnsloth形式GGUF版が新たにリリースされた。\n- 高性能な27Bパラメータモデルを、より効率的かつ軽量にローカル環境で実行できるように最適化されている。\n- Unslothによる高速な学習と推論の最適化技術が適用されており、メモリ効率が大幅に向上している。\n- 様々な量子化レベルのGGUFファイルが提供されており、ユーザーのハードウェア環境に応じた柔軟な選択が可能である。\n- 高い言語理解力や生成能力を維持しつつ、PCやワークステーションでの動作環境のハードルが引き下げられている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsr67c/introducing_qwen3827b_dynamic_v3_unsloth_ggufs/"
+  },
+  {
+    "id": "3c23de0e-c1c5-81fc-b77e-f072d4862cd0",
+    "title": "New midsize Qwen 3.8 model coming next week (hopefully) according to community manager!",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-19T02:44:37.000Z",
+    "fetched": "2026-08-20T00:03:00.000Z",
+    "summary": "Qwenの新モデル「Qwen 3.8」が来週にも登場する見込み\n\n- コミュニティマネージャーによると、新しい中規模のQwen 3.8モデルが来週リリースされる予定である。\n- リリース時期については「hopefully（うまくいけば）」とされており、状況によって変更される可能性がある。\n- 現時点では詳細なスペックや性能に関する公式な数値は発表されていないが、AIコミュニティの間で大きな期待が寄せられている。\n- 従来のQwenシリーズからどのような進化を遂げているのか、今後の公式発表や続報に注目が集まっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vs9zym/new_midsize_qwen_38_model_coming_next_week/"
+  },
+  {
+    "id": "3c23de0e-c1c5-8105-b79e-e12619015b4d",
+    "title": "Thoughts About Scaling Law - Z.ai",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-19T07:18:00.000Z",
+    "fetched": "2026-08-20T00:03:08.000Z",
+    "summary": "Z.aiにおけるスケーリング則の考察\n\n- スケーリング則はAIモデルの性能向上を予測する上で極めて重要な指針であるが、単純な計算資源の拡大だけでは将来的な限界を迎える可能性がある。\n- モデルの性能を高めるためには、パラメータ数や学習データの量だけでなく、データの質やアーキテクチャの効率化を同時に追求する必要がある。\n- 今後は、より少量のデータや計算コストで高いパフォーマンスを発揮する、効率的な学習手法へのシフトが求められる。\n- 単一の指標に依存したスケーリングから脱却し、タスク特有の適応力や汎用性を総合的に評価するアプローチが重要になる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsf9eg/thoughts_about_scaling_law_zai/"
+  },
+  {
+    "id": "3c23de0e-c1c5-817a-80d0-c184eb708529",
+    "title": "Stop Anthropomorphisizing Intermediate Tokens: Qwen3.8 doesn't \"overthink\"",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-19T11:09:16.000Z",
+    "fetched": "2026-08-20T00:03:16.000Z",
+    "summary": "Qwen3.8の過剰な思考は、人間のような感情や悩みではなく、単なる確率的なトークン生成プロセスの結果に過ぎない。\n\n- 大規模言語モデルの中間トークン出力を人間の心理状態になぞらえて「思い悩み」と解釈するのは誤りである。\n- Qwen3.8が見せる複雑な出力は、内部の計算アルゴリズムと膨大なデータに基づくパターンマッチングの表れである。\n- AIの動作を擬人化することは、モデルの実際のアーキテクチャや技術的課題の正確な理解を妨げる原因になる。\n- 開発者や利用者は、AIを感情的な存在としてではなく、確率論的な予測システムとして冷静に評価する必要がある。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsjcf7/stop_anthropomorphisizing_intermediate_tokens/"
+  },
+  {
+    "id": "3c23de0e-c1c5-8141-8155-d4b359aa5882",
+    "title": "We have Q3.8 35B at home: 3x new Ornith 1.5 released",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-19T13:53:01.000Z",
+    "fetched": "2026-08-20T00:03:24.000Z",
+    "summary": "Q3.8 35B at home: 3つの新しいOrnith 1.5がリリース\n\n- 「Ornith 1.5」シリーズとして、新たに3つのAIモデルがリリースされた。\n- 記事のタイトルにある「Q3.8 35B at home」は、高性能な35B（350億パラメータ）クラスのモデルを身近な環境で利用できることを示唆している。\n- オープンAIモデルの進化により、ユーザーは手元のハードウェアでより高度なAIタスクを実行できるようになる。\n- 近年の小型・中型言語モデルの性能向上トレンドを反映したリリースとなっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsn2xw/we_have_q38_35b_at_home_3x_new_ornith_15_released/"
+  },
+  {
+    "id": "3c23de0e-c1c5-8186-a0a9-e8b31a2e2f1d",
+    "title": "v0.32.15",
+    "site": "Ollama Blog",
+    "published": "2026-08-19T23:24:58.000Z",
+    "fetched": "2026-08-20T00:03:31.000Z",
+    "summary": "ollama/ollama v0.32.15 リリース情報\n\n- GitHub上のollamaリポジトリにおける「v0.32.15」のリリース関連ページである。\n- ページ内には、GitHubの一般的なナビゲーションメニュー、検索、サインイン、各種機能（Copilot、Actions、Codespacesなど）へのリンクが含まれている。\n- リポジトリの基本情報として、公開（Public）ステータス、フォーク数（17.5k）、スター数（179k）が確認できる。\n- コード、Issues（2.4k）、Pull requests（1.3k）、Actions、セキュリティ、インサイトなどのタブが設置されている。\n- セッションの状態変化（別タブでのサインイン・サインアウト・アカウント切り替えなど）に関するアラート表示機能が含まれている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc2"
+  },
+  {
+    "id": "3c23de0e-c1c5-81ed-94a6-e71c78fd5574",
+    "title": "v0.32.15-rc1: ci: plumb temporary MLX patch through to docker stages (#17874)",
+    "site": "Ollama Blog",
+    "published": "2026-08-19T15:33:53.000Z",
+    "fetched": "2026-08-20T00:03:39.000Z",
+    "summary": "Ollamaプロジェクトのv0.32.15-rc1リリースに関するGitHubのページであり、DockerステージへのMLXパッチの適用に関するCIの更新情報が含まれています。\n\n- Ollamaのリリース「v0.32.15-rc1」に関連するGitHub上のページである。\n- CI（継続的インテグレーション）プロセスにおいて、一時的なMLXパッチをDockerステージへ適切に組み込む（plumb）修正が行われている。\n- 本リリースは、Ollama公式リポジトリ（ollama/ollama）のプルリクエストおよびリリースノートの一部として公開されたものである。\n- リポジトリのソースコード、Issue、プルリクエスト、アクションなどのGitHub標準機能にアクセスするためのナビゲーションメニューが含まれている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc1"
+  },
+  {
+    "id": "3c23de0e-c1c5-817e-b970-ca8d7f9da280",
+    "title": "v0.32.15-rc0: mlx update (#17850)",
+    "site": "Ollama Blog",
+    "published": "2026-08-19T14:15:11.000Z",
+    "fetched": "2026-08-20T00:03:47.000Z",
+    "summary": "Ollamaプロジェクトにおいて、MLXライブラリのアップデートを含む「v0.32.15-rc0」のリリース候補版が公開されました。\n\n- AIモデルの実行・管理ツールである「Ollama」のリリース候補版「v0.32.15-rc0」が公開された。\n- 本アップデートの主な内容は「mlx update」であり、Appleシリコン向けの機械学習フレームワーク「MLX」に関連する更新や改善が含まれている。\n- GitHub上のollama/ollamaリポジトリ（プルリクエスト #17850）に関連してリリースされた。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc0"
+  },
+  {
+    "id": "3c23de0e-c1c5-817f-9c6f-cd348ba13831",
+    "title": "Developing NVIDIA Holoscan Applications with CLI, Skills, and AI Coding Agents",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-08-19T22:22:37.000Z",
+    "fetched": "2026-08-20T00:03:54.000Z",
+    "summary": "NVIDIA HoloscanとAIコーディングエージェントを活用したリアルタイム内視鏡ツールセグメンテーションアプリの開発手法\n\n- NVIDIA HoloscanとHoloHubを用い、AIコーディングエージェントを活用したリアルタイム内視鏡ツールセグメンテーションアプリの効率的な開発手法について解説している。\n- 開発プロセスは反復的におこなわれ、エンジニアが目標と制約を定義し、エージェントが HoloHubのドキュメントやHoloscan CLIを駆使してコードの実装、テスト、最適化を実施する。\n- Holoscan CLI（`./holohub wrapper`）を共通の実行インターフェースとして使用することで、エージェントによる自動化とエンジニアによる手動検証・再現を両立している。\n- アブレーションスタディ（要素分解調査）により、CLI、開発スキル、ドキュメント/サンプルを組み合わせたリソースをAIエージェントに提供することが、最も効率的かつ高品質な開発ワークフローをもたらすことが実証された。",
+    "url": "https://developer.nvidia.com/blog/developing-nvidia-holoscan-applications-with-cli-skills-and-ai-coding-agents/"
+  },
+  {
+    "id": "3c23de0e-c1c5-81d0-98be-e4b6e6e65929",
+    "title": "Building Federated Multimodal AI Workflows with NVIDIA FLARE",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-08-19T17:50:47.000Z",
+    "fetched": "2026-08-20T00:04:02.000Z",
+    "summary": "NVIDIA FLAREを活用した連合マルチモーダルAIワークフローの構築\n\n- NVIDIA FLAREは、大規模なモデル更新やネットワーク帯域の制限に対応するため、外部化、テンソルストリーミング、ディスクベースの集約を活用し、連合マルチモーダルAIのトレーニングを効率的に調整する。\n- ウィリアムズ・マリー大学とNVIDIAが共同開発した「FedUMM」は、固定されたBLIPバックボーン上で軽量なLoRAアダプターのみを交換することで、通信量を大幅に削減しつつ、中央集約型に近いモデル性能を維持する。\n- 医療や企業など、生データを一元化できない分散環境において、ビジョン言語モデル（VLM）などのマルチモーダルAIをプライバシーを保護しながら協調学習させる有効な手段を提供する。\n- 連合VLMワークフローの構築には、クライアント更新契約の明確化、ペイロード最小化戦略の慎重な選択、および効率的な更新集約が必要となる。\n- NVIDIA FLAREのRecipe API、Tensor Downloader、ディスクオフロードモジュールを活用することで、スケーラブルなデプロイメントに向けた実証済みのソリューションを実現する。",
+    "url": "https://developer.nvidia.com/blog/building-federated-multimodal-ai-workflows-with-nvidia-flare/"
+  },
+  {
+    "id": "3c23de0e-c1c5-81c4-a90b-ddc05c0c1ea7",
+    "title": "Post-Train NVIDIA Cosmos 3 Edge for On-Device Robot Control",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-08-19T16:00:00.000Z",
+    "fetched": "2026-08-20T00:04:11.000Z",
+    "summary": "NVIDIA Cosmos 3 Edgeを活用したオンデバイスロボット制御のためのポストトレーニング解説\n\n- NVIDIA Cosmos 3 Edgeは、物理世界の事前学習済み知識を持ち、エッジデバイスでの実行が可能な4Bのオムニモデル（2BのNemotronベース推論器を含む）である。\n- 本チュートリアルを通じて、ロボットの動作予測を行うためのポストトレーニング、NVIDIA Jetson Thorでのポリシーのサービング、推論実行、シミュレーション評価の一連のプロセスを学ぶことができる。\n- ワールド基盤モデルの物理的相互作用に関する事前知識を活用することで、タスク特有のデモからゼロベースで学習するよりも効率的なロボットポリシーの構築が可能になる。\n- ロボットへの実展開で課題となるデバイスメモリの制限と制御レイテンシをクリアし、Jetson Thor上でスムーズに動作するポリシーを実現する。\n- 関連コードはオープンソースの「cosmos-framework」リポジトリから再現可能であり、事前学習済みチェックポイントはHuggingFaceで公開されている。",
+    "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control/"
+  },
+  {
+    "id": "3c23de0e-c1c5-8134-a2fb-d4816a94d32c",
+    "title": "Evaluating AI Agent Skill Performance with NVIDIA SkillEvaluator",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-08-19T16:00:00.000Z",
+    "fetched": "2026-08-20T00:04:19.000Z",
+    "summary": "NVIDIA SkillEvaluatorによるAIエージェントのスキル性能評価\n\n- NVIDIAが開発したオープンソースツール「SkillEvaluator」は、検証済みスキルがAIエージェントのパフォーマンスに与える影響を測定するために設計されている。\n- 評価プロセスは、静的チェック、独自性分析、および隔離された環境でのライブタスク実行という3つの階層で構成されている。\n- 30以上のNVIDIA製品にわたる300以上のスキルをベンチマークした結果、正確性や効率性などの指標において平均31ポイントの「スキルリフト（向上）」が確認された。\n- 製品ドメインや評価の設計は、エージェントのハーネスの選択よりもスキルリフトに大きな影響を与えることが示されている。\n- スキルごとにトークンや実行時間の節約効果が異なるため、ターゲットを絞った最適化の必要性が浮き彫りになっている。",
+    "url": "https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator/"
+  }
+]

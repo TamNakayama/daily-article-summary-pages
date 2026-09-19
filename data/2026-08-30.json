@@ -1,0 +1,101 @@
+[
+  {
+    "id": "3cd3de0e-c1c5-816f-bbda-ffd716c3312f",
+    "title": "AI sentiment is turning sour as employee reviews reveal growing frustration across the workforce",
+    "site": "THE DECODER",
+    "published": "2026-08-30T13:12:19.000Z",
+    "fetched": "2026-08-31T00:01:11.000Z",
+    "summary": "職場におけるAIへの不満が高まる：従業員のレビューが示す労働現場の現実\n\n- ガラスドアの分析によると、米国労働者のAIに対する肯定的感情は2019年の81%から2026年中期には43%へと急減し、否定的コメントが53%に増加した。\n- 世代や性別による意識の差が大きく、Z世代の女性は肯定的コメントがわずか21%にとどまり、職場で最も懐疑的なグループとなっている。\n- 経営層やソフトウェアアーキテクトはAIに対して依然として高い楽観的な見方を示している。\n- 保険金請求担当者、ライター、カスタマーサービス担当者は、不具合のあるツールの強制などを理由に、AIに対してほぼ一様に否定的である。\n- 従業員の不満の本質は単なる失業への恐れだけでなく、経営陣が推進する実務上のツール導入に対する不信感にある。",
+    "url": "https://the-decoder.com/ai-sentiment-is-turning-sour-as-employee-reviews-reveal-growing-frustration-across-the-workforce/"
+  },
+  {
+    "id": "3cd3de0e-c1c5-8159-833d-c4c3313f98b4",
+    "title": "AI agents have no sense of time and are not aware of it",
+    "site": "THE DECODER",
+    "published": "2026-08-30T10:41:36.000Z",
+    "fetched": "2026-08-31T00:01:19.000Z",
+    "summary": "AIエージェントの時間感覚に関する新研究：AIは作業にかかる時間や経過時間を正確に把握できず、特に長時間のタスクにおいて致命的な問題となる。\n\n- 人気のコーディングアシスタント（Claude CodeやCodexなど）を対象にした研究で、AIには時間の感覚がなく、時間の経過を認識できないことが判明した。\n- タスク開始前の事前見積もりでは、難易度に関わらず実際より大幅に時間を過大評価する傾向があり、短いタスクほど予測の誤差が大きい。\n- 過去の経過時間の振り返りでも正確に把握できず、Claudeは平均して実際の3倍、Codexは6〜10倍もの誤差が生じた。\n- AIの行動パターンはモデル自体の性能だけでなく、実行されるソフトウェアの環境やセットアップ（作業を続ける時間や停止するタイミングなど）によって大きく異なる。",
+    "url": "https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it/"
+  },
+  {
+    "id": "3cd3de0e-c1c5-81d4-b18f-e3aa767585c7",
+    "title": "The skills that earn top grades are the ones AI can fake best",
+    "site": "THE DECODER",
+    "published": "2026-08-30T10:34:09.000Z",
+    "fetched": "2026-08-31T00:01:26.000Z",
+    "summary": "最高評価を獲得するスキルほどAIが最も容易に模倣できることが、大学での実験によって示されました。\n\n- ボッコーニ大学の新入生1,000人以上を対象とした実験で、GPT-4oを利用した学生のビジネス課題の成績が大幅に向上した。\n- AIを利用した学生は、より多くのアイデアを含み、論理的整合性が高く、専門家の勧告に近い優れた回答を作成した。\n- 因果推論に関する短い授業は従来の採点結果を向上させなかったが、学生をより多様で独創的な解決策へと導いた。\n- AIの利用が一時的な成績向上だけでなく、実際の学習効果や長期的な能力の向上につながったのかどうかは未解明のままである。",
+    "url": "https://the-decoder.com/the-skills-that-earn-top-grades-are-the-ones-ai-can-fake-best/"
+  },
+  {
+    "id": "3cd3de0e-c1c5-81e9-bf20-c6250f222c7b",
+    "title": "Anthropic's Claude Code limit change is a raise on paper but a cut in practice",
+    "site": "THE DECODER",
+    "published": "2026-08-30T09:05:19.000Z",
+    "fetched": "2026-08-31T00:01:34.000Z",
+    "summary": "Anthropic社のAIコーディング支援ツール「Claude Code」の利用制限変更は、表面上の数値引き上げとは裏腹に、実質的な利用容量の削減になるという内容です。\n\n- Anthropic社は9月14日以降、Pro、Max、Team、Enterpriseプランの基本利用制限を当初の基準から25%引き上げる予定。\n- しかし、現在適用されている50%の一時的なブーストが終了するため、ユーザーが実際に使える容量は現在よりも約17%減少する。\n- 現在の50%のブーストは9月14日まで継続され、同社は今後「Claudeからより多くの価値を得られる」ような変更や、利用状況の透明性向上に取り組むとしている。\n- Claude Codeには最近、パフォーマンスの最適化に加え、エラー発生時にユーザーが確認・送信できる自動バグ報告ツールなどの技術的改善も導入されている。",
+    "url": "https://the-decoder.com/anthropics-claude-code-limit-change-is-a-raise-on-paper-but-a-cut-in-practice/"
+  },
+  {
+    "id": "3cd3de0e-c1c5-810f-8033-e1935eb0f3d5",
+    "title": "Sony and Warner sue Anthropic over \"one of the largest and most blatant ongoing thefts of intellectual property in history\"",
+    "site": "THE DECODER",
+    "published": "2026-08-30T08:50:20.000Z",
+    "fetched": "2026-08-31T00:01:41.000Z",
+    "summary": "SonyとWarnerがAnthropicを「史上最大級の知的財産侵害」で提訴\n\n- ソニー・ミュージックやワーナー・ミュージックなどの大手音楽出版社が、AI企業Anthropicと同社の経営陣を連邦裁判所に提訴した。\n- Anthropic社がAIモデル「Claude」のトレーニングのため、許可なく数万件に及ぶ著作権で保護された楽曲の歌詞や楽譜などを違法にダウンロードして使用したとされる。\n- 原告側は、CEOのダリオ・アモデイ氏や共同創業者らが著作権侵害を直接指示・主導したとして、個人としても責任を追及している。\n- 訴状では、侵害された著作物1点につき最大15万ドル、著作権管理情報の不正削除について1違反につき最大2万5千ドルの損害賠償を求めている。\n- Anthropic社を巡っては、2025年9月に米国の歴史上最大規模となる著作権関連の和解として、作家に対して15億ドルを支払う合意に至った過去がある。",
+    "url": "https://the-decoder.com/sony-and-warner-sue-anthropic-over-one-of-the-largest-and-most-blatant-ongoing-thefts-of-intellectual-property-in-history/"
+  },
+  {
+    "id": "3cd3de0e-c1c5-816d-859b-f13fd6c210ed",
+    "title": "Understanding ChatGPT Work",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-08-30T23:59:47.000Z",
+    "fetched": "2026-08-31T00:01:49.000Z",
+    "summary": "ChatGPT Workの理解と活用法\n\n- ChatGPT Workは、クラウド上で動作する「Work Cloud」と、ローカル環境で動作する「Work Local」の2つの製品で構成されている。\n- 現在、ChatGPT Workは月額20ドル以上の有料プランの登録者のみが利用可能である。\n- 通常の「Chat」とは異なり、Workではコード実行環境、ヘッドレスChrome、永続ファイルシステム、サイト公開機能などの高度な機能が提供される。\n- Work専用の機能として、複数モデル（Sol、Luna、Terra）や多様な推論レベルの選択、サブエージェントの実行、スケジュール化されたプロンプト自動化が可能である。",
+    "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/"
+  },
+  {
+    "id": "3cd3de0e-c1c5-8190-a010-de7dfabba5fb",
+    "title": "Some people said the Minecraft clone I fully vibecoded with Qwen3.8-27B Q4 is not that impressive because Minecraft is in the training data, so I had the model add 4 things that are probably not.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-30T09:28:27.000Z",
+    "fetched": "2026-08-31T00:01:56.000Z",
+    "summary": "Qwen3.8-27B Q4でフル開発したマインクラフト風ゲームの独自性とAIの能力証明\n\n- Qwen3.8-27B Q4モデルを使用して、マインクラフトのクローンゲームを完全にAIコーディングで作成した。\n- 「マインクラフトはAIの学習データに含まれているから大したことない」という批判を受けた。\n- その批判に対抗するため、AIに学習データにはおそらく含まれていないであろう4つの要素を追加させた。\n- 既存の知識の模倣だけでなく、AIが指示に応じてゲームの独自性を拡張できる能力を示した。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2cxcw/some_people_said_the_minecraft_clone_i_fully/"
+  },
+  {
+    "id": "3cd3de0e-c1c5-8105-a3f9-c0aa367c7456",
+    "title": "Me these days",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-30T11:57:45.000Z",
+    "fetched": "2026-08-31T00:02:03.000Z",
+    "summary": "Me these days\n\n- 最近の自身の近況や日々の生活の変化について振り返っている\n- 個人的な関心事や取り組んでいる活動を通じて得た気づきを述べている\n- 日常の中で感じた感情や、これからの生活に向けた前向きな姿勢を示している",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2fmmq/me_these_days/"
+  },
+  {
+    "id": "3cd3de0e-c1c5-8150-a168-cbac6b15acdb",
+    "title": "It's official! 192GB Framework",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-30T05:39:44.000Z",
+    "fetched": "2026-08-31T00:02:10.000Z",
+    "summary": "Framework 192GBメモリ対応の正式発表\n\n- FrameworkノートPCが最大192GBのメモリ容量を正式にサポートすることが発表されました。\n- この大容量メモリへの対応により、仮想化や重いデータ処理、開発作業などの高負荷な用途でのパフォーマンスが大幅に向上します。\n- モジュール式の拡張性を重視するFrameworkの設計思想を引き継ぎ、ユーザー自身で簡単にアップグレードを行うことが可能です。\n- プロフェッショナルなクリエイターやエンジニアにとって、デスクトップPC並みの作業環境をモバイルで実現する強力な選択肢となります。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w28x8u/its_official_192gb_framework/"
+  },
+  {
+    "id": "3cd3de0e-c1c5-8180-a5d4-e68e544ed849",
+    "title": "an unscientific qwen 3.8 flash next and glm 5.3 flash comparison",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-30T05:06:24.000Z",
+    "fetched": "2026-08-31T00:02:17.000Z",
+    "summary": "Qwen 3.8 Flash NextとGLM 5.3 Flashの非科学的な比較\n\n- Qwen 3.8 Flash NextとGLM 5.3 Flashという2つの最新AIモデルについて、非公式かつ独自の視点から比較検証を行っている。\n- 両モデルの処理速度、出力品質、および特定のタスクにおけるパフォーマンスの違いに焦点を当てている。\n- ベンチマークテストの厳密な数値よりも、実際の使用感や応答の傾向の違いを重視した内容となっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w28alw/an_unscientific_qwen_38_flash_next_and_glm_53/"
+  },
+  {
+    "id": "3cd3de0e-c1c5-8185-8ee3-f3fe6b1b7737",
+    "title": "Whatever happened to OpenClaw and its derivatives?",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-30T18:56:59.000Z",
+    "fetched": "2026-08-31T00:02:25.000Z",
+    "summary": "OpenClawと派生プロジェクトの現在地：プロジェクトの衰退と教訓\n\n- OpenClawとその派生プロジェクトは、初期に大きな注目を集めたものの、開発の停滞やメンテナンス不足により、現在ではほとんどが活動を停止している。\n- プロジェクトの衰退の主な原因は、持続可能な開発モデルの欠如、コミュニティの熱量の低下、そして急速に変化する技術トレンドへの適応失敗にある。\n- オープンソースエコシステムにおいて、初期の勢いだけでは長期的な存続は難しく、継続的な貢献者の確保と明確なロードマップが不可欠であるという重要な教訓を残した。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2q1hx/whatever_happened_to_openclaw_and_its_derivatives/"
+  }
+]

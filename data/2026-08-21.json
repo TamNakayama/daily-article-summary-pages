@@ -1,0 +1,191 @@
+[
+  {
+    "id": "3c43de0e-c1c5-810c-ade6-d69bde5d9189",
+    "title": "Anthropic puts its most powerful model Claude Mythos 5 to work for cyber defense",
+    "site": "THE DECODER",
+    "published": "2026-08-21T19:35:37.000Z",
+    "fetched": "2026-08-22T07:41:58.000Z",
+    "summary": "Anthropic社は、最も強力なAIモデル「Claude Mythos 5」をサイバー防衛用途に活用するため、セキュリティツールへの導入やパートナー企業との連携を開始しました。攻撃者に悪用されるリスクを防ぎつつ、防御側を強化することを目的としています。\n\n- Anthropic社は、コードの脆弱性をスキャンし修正パッチを提案するセキュリティツール「Claude Security」の稼働モデルを「Claude Mythos 5」に切り替え、Enterprise顧客向けにパブリックベータ版として提供を開始した。\n- 脆弱性の検出結果には、CWEカテゴリ分類、深刻度評価、修正案が含まれるが、パッチの適用には人間の承認が必須となっている。\n- 病院、電力会社、銀行などを保護するパートナー企業のセキュリティ製品にも「Mythos 5」が組み込まれており、エンドユーザーはAIと直接対話せず、修正提案などの結果のみを受け取る。\n- 「Claude Mythos」はサイバー分野において特に優れた能力を持つ同社最上位のモデルであるため、攻撃者にAIによる新たな攻撃手段を与えないよう一般には広く公開されていない。",
+    "url": "https://the-decoder.com/anthropic-puts-its-most-powerful-model-claude-mythos-5-to-work-for-cyber-defense/"
+  },
+  {
+    "id": "3c43de0e-c1c5-810a-a645-f6af9767506e",
+    "title": "Deepseek releases experimental Flash vision model that rivals Opus 4.8 on agent benchmarks",
+    "site": "THE DECODER",
+    "published": "2026-08-21T19:08:27.000Z",
+    "fetched": "2026-08-22T07:42:06.000Z",
+    "summary": "Deepseek、Opus 4.8に匹敵するエージェント性能を持つ実験的Flashビジョンモデルを発表\n\n- 中国のAI企業Deepseekが、テキスト能力に画像理解を追加した実験的マルチモーダルモデル「V4-Flash-Vision-Exp」をリリースした。\n- 同社の内部マルチモーダルエージェントベンチマークにおいて、新モデルはOpus 4.8に匹敵するか、時にはそれを上回る性能を記録した。\n- 視覚的理解とツール使用を組み合わせたエージェントベースのアプリケーション向けに設計されており、画像の説明やスクリーンショットからのテキスト抽出、図表の分析が可能である。\n- APIはJPEG、PNG、GIF、WebPに対応しており、ファイル名ではなく実際のファイル内容からフォーマットを判定する。\n- 開発者はBase64エンコードによる直接埋め込み、公開URLの指定（最大32 MiB）、または新設された無料のFiles API（最大64 MiB）の3つの方法で画像を送信できる。",
+    "url": "https://the-decoder.com/deepseek-releases-experimental-flash-vision-model-that-rivals-opus-4-8-on-agent-benchmarks/"
+  },
+  {
+    "id": "3c43de0e-c1c5-8152-b6b4-c5c86ac41f1a",
+    "title": "Data center opposition surged from 42 to 75 percent in just one year, survey finds",
+    "site": "THE DECODER",
+    "published": "2026-08-21T18:25:44.000Z",
+    "fetched": "2026-08-22T07:42:14.000Z",
+    "summary": "アメリカ国内におけるデータセンターの建設計画に対する反対意見が、わずか1年間で42%から75%へと急増したことが調査により明らかになりました。主な懸念事項としては、地域の電力コストの高騰、水資源の大量消費、土地利用の問題などが挙げられています。\n\n- Heatmap Newsの調査によると、米国内で自身の近隣へのデータセンター建設に反対する人の割合が、1年前の42%から75%へと急増し、そのうち61%が「強く反対」している。\n- 1年前の世論は賛成43%、反対42%と拮抗していたが、急速かつ大規模な意識の変化が起きている。\n- 同様の結果は5月のギャラップ調査（反対71%）でも示されており、データセンター建設への反対は現在、選挙戦における人種差別やイスラエル問題よりも上位の関心事となっている。\n- 反対派の主な懸念事項は、地域の電力コストの上昇、水資源の消費、および土地利用への影響である。",
+    "url": "https://the-decoder.com/data-center-opposition-surged-from-42-to-75-percent-in-just-one-year-survey-finds/"
+  },
+  {
+    "id": "3c43de0e-c1c5-8196-84ec-ea5265bea262",
+    "title": "US wants to force partner countries to choose between Washington and Beijing in the AI race",
+    "site": "THE DECODER",
+    "published": "2026-08-21T15:18:29.000Z",
+    "fetched": "2026-08-22T07:42:22.000Z",
+    "summary": "アメリカはAI開発競争において、同盟国やパートナー国に対しワシントンか北京のどちらかを選ぶよう迫る方針を固めている。この動きは、米中間の技術覇権争いをさらに激化させるものである。\n\n- アメリカ国務省の草案によると、中国のAI構想に参加する国は、米国主導のサプライチェーン枠組み「Pax Silica」から排除される方針である。\n- 米国が主導するAI関連のサプライチェーン確保イニシアチブには、これまでに欧州連合（EU）を含む約24カ国が署名している。\n- 中国の習近平国家主席は、米国製システムに対抗するため、オープンウェイトのAIモデルを推進する「世界人工知能協力機構」を立ち上げている。\n- ハイテク産業に不可欠な重要鉱物を保有するカザフスタンは、現時点で米国の連合と中国の枠組みの双方に所属する唯一の国となっている。\n- 中国大使館は、米国のアプローチが世界のAIの進歩を遅らせ、誰の利益にもならないと反発を示している。",
+    "url": "https://the-decoder.com/us-wants-to-force-partner-countries-to-choose-between-washington-and-beijing-in-the-ai-race/"
+  },
+  {
+    "id": "3c43de0e-c1c5-810a-801c-f3aaf66bdba6",
+    "title": "Waymo builds its own chip for its robotaxis, cutting its reliance on Nvidia",
+    "site": "THE DECODER",
+    "published": "2026-08-21T11:04:09.000Z",
+    "fetched": "2026-08-22T07:42:30.000Z",
+    "summary": "Waymo、Nvidiaへの依存を減らすロボタクシー向け独自チップを開発\n\n- アルファベット傘下のWaymoが、自動運転タクシー用の独自カスタムチップを開発し、NvidiaやAMDへの依存を軽減した。\n- 新型チップはすでに最新世代の車両に搭載されており、センサーデータの処理速度向上や周辺環境を認識・反応するAIモデルの実行に活用されている。\n- 性能面では1,000 TOPS（1秒間に1兆回の演算）以上を発揮し、TSMCの5ナノメートルプロセスで製造されることで、Nvidiaの現行自動運転システムに匹敵する性能を持つ。\n- この独自チップの導入はコスト削減を主な目的としており、中国の自動車メーカーであるZeekrと共同開発している新型ロボタクシーに搭載されている。",
+    "url": "https://the-decoder.com/waymo-builds-its-own-chip-for-its-robotaxis-cutting-its-reliance-on-nvidia/"
+  },
+  {
+    "id": "3c43de0e-c1c5-811e-aade-c3e35b9d9cc6",
+    "title": "Meta spends hundreds of millions on Microsoft's AI services",
+    "site": "THE DECODER",
+    "published": "2026-08-21T10:54:41.000Z",
+    "fetched": "2026-08-22T07:42:38.000Z",
+    "summary": "MetaがマイクロソフトのAIサービスに数億ドル規模の支出を行っている\n\n- Metaは、マイクロソフトのクラウドサービス「Azure」を通じてAIモデルを利用し、年間数億ドルを費やしている最大級のAI顧客の一つである。\n- Metaのエンジニアは、自社モデルの性能をベンチマークするため、マイクロソフトの「Foundry」マーケットプレイス経由でOpenAIのモデルなどを利用している。\n- Metaは現在、将来的にはFoundryの競合となる独自のAPIサービスの構築を進めており、かつてBingに依存した後に自社技術へ置き換えた事例と同様のパターンの動きを見せている。\n- マイクロソフトのAI顧客の大部分は他のテック企業であり、FoundryではByteDanceが筆頭で、Adobe、Perplexity、Sierraなどがそれに続いている。\n- マイクロソフトのAI収益の約70パーセントは、Azureで膨大なコンピュートを購入しているOpenAIによるものであり、Foundryの売上はその一部を占めるに過ぎない。",
+    "url": "https://the-decoder.com/meta-spends-hundreds-of-millions-on-microsofts-ai-services/"
+  },
+  {
+    "id": "3c43de0e-c1c5-81b3-91c0-fe3b553493e9",
+    "title": "Anthropic changes data retention policy after enterprise pushback",
+    "site": "THE DECODER",
+    "published": "2026-08-21T09:59:51.000Z",
+    "fetched": "2026-08-22T07:42:46.000Z",
+    "summary": "Anthropic、企業顧客からの反発を受けデータ保持ポリシーを変更\n\n- Anthropicは、強力なモデルを利用する企業顧客のデータを自社サーバーで30日間保存する方針を変更し、今後は顧客自身のクラウド上でデータを保持できるようにする。\n- 6月以降導入されていた従来のポリシーは、新たなサイバー攻撃を検知する目的があったものの、顧客から不評を買っており、同社もビジネス上のリスクであると認めていた。\n- 同社はこの新システム構築のために、規制産業の100社以上の顧客と数カ月にわたる開発を進め、競合のOpenAIもセキュリティとデータ管理の両立に向けた異なる手法をテストしている。\n- 開発者のボリス・チェルニー氏がXで計画を公に認めており、ポリシーの変更は今秋に導入される予定である。",
+    "url": "https://the-decoder.com/anthropic-changes-data-retention-policy-after-enterprise-pushback/"
+  },
+  {
+    "id": "3c43de0e-c1c5-813c-b27b-fbab6a00b9e4",
+    "title": "Nvidia is acquiring Poolside's \"Model Factory\" and 109 employees for $6 billion",
+    "site": "THE DECODER",
+    "published": "2026-08-21T08:27:23.000Z",
+    "fetched": "2026-08-22T07:42:54.000Z",
+    "summary": "NvidiaがPoolsideの「モデルファクトリー」と109人の従業員を60億ドルで買収（一部ライセンスおよび採用）する契約を締結した。\n\n- NvidiaはAIモデル構築システム「モデルファクトリー」のライセンスを取得し、ラグナモデルの開発に携わっていた109人の従業員に内定を出している。\n- 3人の創業者は残留し、Nvidiaはさらに120億ドルの事前評価額で10億ドルの追加投資を行う予定である。\n- この取引は完全な企業買収やアクハイア（人材獲得目的の買収）のいずれにも該当せず、Nvidiaが過去に行ったGroqやEnfabricaと同様の手法である。\n- Poolsideは、受け取った60億ドルを来年末までに投資家に分配する計画である。\n- Nvidiaは独自の「Nemotron」シリーズのオープンAIモデルも構築しており、今回の動きによって自社顧客の一部と競合関係を強めることになる。",
+    "url": "https://the-decoder.com/nvidia-is-acquiring-poolsides-model-factory-and-109-employees-for-6-billion/"
+  },
+  {
+    "id": "3c43de0e-c1c5-81b9-8723-dfb5be2f3b65",
+    "title": "Stop Making TUIs",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-08-21T16:07:32.000Z",
+    "fetched": "2026-08-22T07:43:01.000Z",
+    "summary": "AI時代の到来により、ちょっとしたツールでもTUI（テキストユーザーインターフェース）ではなく、ネイティブなGUIを構築すべきであるという主張が広がっています。コーディングエージェントの普及によって、実用的なGUIをゼロから作成するコストがほぼゼロになったためです。\n\n- トーマス・プタチェク氏は、些細な個人用ツールであっても、本物のネイティブユーザーインターフェースを作るべきだと提唱している。\n- コーディングエージェントの登場により、使い物になるGUIを迅速に立ち上げるコストが劇的に低下したためである。\n- 記事の著者であるサイモン・ウィリソン氏も、AIを活用して作成したmacOSのモニタリング用ネイティブアプリを日々愛用している。\n- 多数存在する使い捨てのCLIツールをネイティブアプリ化してみることで、開発に対する考え方が大きく変わる可能性がある。",
+    "url": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/"
+  },
+  {
+    "id": "3c43de0e-c1c5-81de-8c06-db26c5e8379d",
+    "title": "Quoting Matt Webb",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-08-21T15:06:26.000Z",
+    "fetched": "2026-08-22T07:43:09.000Z",
+    "summary": "Matt Webbが語るAIを活用した学習の可能性\n\n- マット・ウェブは、ChatGPTをコードの記述ではなく「インタラクティブな家庭教師」として活用することで、これまで理解できなかったクォータニオン（四元数）の学習に成功した。\n- AIに思考をアウトソースしても学習が終わるわけではなく、むしろ新たな知識を学ぶ意欲がかき立てられるという結果につながっている。\n- 自身のアプリ「Galactic Compass 2」の拡張現実（AR）モード開発において、AIを活用した学習がアプリの完成に大きく寄与した。\n- この内容は、サイモン・ウィリソン（Simon Willison）のウェブロログにおいて、2026年8月21日に紹介・引用されたものである。",
+    "url": "https://simonwillison.net/2026/Aug/21/matt-webb/"
+  },
+  {
+    "id": "3c43de0e-c1c5-81de-8487-f577de790942",
+    "title": "Measuring benchmark optimization in speech recognition",
+    "site": "Hugging Face Blog",
+    "published": "2026-08-21T00:00:00.000Z",
+    "fetched": "2026-08-22T07:43:17.000Z",
+    "summary": "音声認識におけるベンチマーク最適化の測定と課題\n\n- 公共の音声AIベンチマークのスコアは向上しているが、実際の運用環境での性能を必ずしも反映せず、モデルがテスト自体に最適化されている「ベンチマーク最適化（ベンチマックス）」という問題が生じている。\n- 従来のベンチマークは、実際の音声システムで重要となる信頼性や自然さなどの条件を見落としがちであるため、現実的な評価を行うための新たな検証が必要とされている。\n- 最新の研究において11種類のオープンソース音声認識モデルを評価した結果、高得点のシステムの中には、音声の内容が矛盾していてもベンチマークの文字起こしをそのまま再現してしまう傾向があることが判明した。\n- モデルによっては、実際に話された内容だけでなく、どのベンチマークでテストされているかを示す微細な音響的手がかりに依存しているケースが見られ、汎用的な文字起こし能力が過大評価されている。",
+    "url": "https://huggingface.co/blog/asr-benchmark-optimization"
+  },
+  {
+    "id": "3c43de0e-c1c5-8187-a221-c3abf0170b9c",
+    "title": "DeepSeek-V4-Flash-Vision-Exp",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-21T09:22:09.000Z",
+    "fetched": "2026-08-22T07:43:24.000Z",
+    "summary": "DeepSeek-V4-Flash-Vision-Expの概要と特徴\n\n- DeepSeek-V4-Flash-Vision-Expは、DeepSeekが開発を進める最新の実験的マルチモーダルAIモデルである。\n- 高速な処理性能を持つ「Flash」シリーズの特性を引き継ぎつつ、画像認識や視覚的推論能力（Vision）が大幅に強化されている。\n- テキストと画像を同時に理解し、複雑な視覚データの解析や高精度な情報抽出を効率よく実行できる。\n- AIの処理速度向上とコスト削減を両立させることで、リアルタイム性が求められる多様なアプリケーションへの応用が期待されている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vubb20/deepseekv4flashvisionexp/"
+  },
+  {
+    "id": "3c43de0e-c1c5-815c-ac4e-ce44a57809be",
+    "title": "Qwen3.8-27B Q6 is a beast at agentic coding",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-21T18:41:24.000Z",
+    "fetched": "2026-08-22T07:43:32.000Z",
+    "summary": "Qwen2.5-Coder-27B-Instruct (Q6_K_S量子化)は、プログラミングやAIエージェントとしての作業において非常に優れた性能を発揮する「怪物級」のオープンウェイトモデルである。\n\n- Qwen2.5-Coder-27B-InstructのQ6量子化版は、コーディングやAIエージェントタスクにおいて圧倒的なパフォーマンスを発揮する。\n- ローカル環境で実行可能なサイズでありながら、商用・プロプライエタリな大規モデルに匹敵する高い処理能力を持つ。\n- 複雑なコードの生成、デバッグ、リファクタリングにおいて非常に正確で信頼性の高い結果を返す。\n- 開発者の間で、コストパフォーマンスと性能のバランスが極めて優れた実用的なモデルとして高く評価されている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuotqr/qwen3827b_q6_is_a_beast_at_agentic_coding/"
+  },
+  {
+    "id": "3c43de0e-c1c5-8154-98a8-fe5c94e1d237",
+    "title": "Qwen 3.8 Low and Medium are goated",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-21T20:45:14.000Z",
+    "fetched": "2026-08-22T07:43:39.000Z",
+    "summary": "Qwen 3.8のLowおよびMediumモデルの性能が非常に高い\n\n- Qwenシリーズの「3.8 Low」および「Medium」モデルが、ユーザーや開発者の間で非常に高く評価されている。\n- 小〜中規模のモデルサイズでありながら、優れた処理能力や効率性を実現していると見られている。\n- コストパフォーマンスや速度面での優位性があり、実用的なAIタスクにおいて強力な選択肢となっている。\n- オープンソース界隈やAIコミュニティにおいて、その高い性能と扱いやすさから大きな注目を集めている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vus4ko/qwen_38_low_and_medium_are_goated/"
+  },
+  {
+    "id": "3c43de0e-c1c5-81bd-aea8-e2647a9e3d1f",
+    "title": "NVIDIA AVO got 100% on ARC-AGI-3. It completed all 183 levels across all 25 public environments, figuring out what to do with no instructions, explicit rules, or stated goals.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-21T14:01:07.000Z",
+    "fetched": "2026-08-22T07:43:47.000Z",
+    "summary": "NVIDIAの「AVO」が「ARC-AGI-3」で100%の成績を達成し、全25の公開環境における183レベルを完全攻略しました。指示や明確なルール、設定された目標がない状態から自ら何をすべきかを理解し、すべての課題をクリアした画期的な成果です。\n\n- NVIDIAの新技術「AVO」が、難度の高いARC-AGI-3で100%の正解率を記録した。\n- 事前の指示や明示的なルール、目的が一切与えられていない状態でタスクを完了した。\n- 全25種類の公開環境に存在する、合計183の全レベルを完全に攻略することに成功した。\n- AIが人間のように自ら状況を理解し、試行錯誤を通じて目的を見出す能力において大きな進化を示した。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuh7to/nvidia_avo_got_100_on_arcagi3_it_completed_all/"
+  },
+  {
+    "id": "3c43de0e-c1c5-8191-94ca-ec4fa2f3d22b",
+    "title": "Qwen3.8-27B different thinking levels",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-21T20:55:11.000Z",
+    "fetched": "2026-08-22T07:43:55.000Z",
+    "summary": "Qwen3.8-27Bの思考レベルと性能変化\n\n- Qwen3.8-27Bは、推論時における異なる思考レベル（thinking levels）を調整・制御できる先進的な大規模言語モデルである。\n- 思考レベルを深く設定することで、複雑な数学的推論や高度なプログラミング、論理的思考が要求されるタスクにおいて、より正確で精度の高い回答を生成することが可能になる。\n- 一方で、思考レベルを浅く（あるいは無効に）設定した場合は、処理速度が大幅に向上し、レイテンシが重視される日常的な対話や単純な質問応答において効率的な動作を実現する。\n- ユーザーは用途やタスクの難易度に応じて思考の深さを動的に選択できるため、計算コストと出力精度の最適なトレードオフを柔軟にコントロールできるよう設計されている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vusds8/qwen3827b_different_thinking_levels/"
+  },
+  {
+    "id": "3c43de0e-c1c5-8171-85e2-c7167259086c",
+    "title": "v0.33.0-rc0",
+    "site": "Ollama Blog",
+    "published": "2026-08-21T22:04:58.000Z",
+    "fetched": "2026-08-22T07:44:02.000Z",
+    "summary": "ollama/ollama v0.33.0-rc0 リリース情報\n\n- GitHub上のollama/ollamaリポジトリにおいて、バージョン「v0.33.0-rc0」のリリースに関するページである。\n- 本ページはGitHubのプラットフォーム上で公開されており、ソースコードの管理、IssueやPull Requestの追跡、セキュリティやインサイト機能などの開発ワークフローを利用できる環境の一部となっている。\n- リポジトリ「ollama/ollama」は、多くのフォーク（17.5k）やスター（179k）を獲得しているパブリックプロジェクトである。\n- 閲覧時には、GitHubのアカウントでのサインインや、通知設定、コード・問題点・プルリクエストなどの各タブへのナビゲーション機能が用意されている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc0"
+  },
+  {
+    "id": "3c43de0e-c1c5-8129-b22d-d2b657ba7e3f",
+    "title": "GPU-Accelerated Clustering for Financial Instruments at Scale",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-08-21T16:21:04.000Z",
+    "fetched": "2026-08-22T07:44:11.000Z",
+    "summary": "大規模金融商品のGPUアクセラレーテッド・クラスタリング\n\n- **AdaptGrowによる効率的なクラスタリング**：GPUを活用した大規模な行列因子分解アルゴリズムにより、ローリング相関やテール依存行列からハードクラスター、ソフトファクターローディング、構造変化シグナルを生成します。\n- **メモリ効率の向上と単一GPUでの大規模処理**：メモリ効率に優れたSymNMFを用いることでストレージ要件を大幅に削減し、単一のNVIDIA GB200 GPUで最大10万銘柄の処理を実現します。\n- **マルチノードによるさらなる拡張性**：PyTorch DistributedとNCCLを用いた行シャーディング分散実装により、16ノードで100万銘柄規模への拡張が可能です。\n- **適応型最適化と高速なコンバージェンス**：固有スペクトルに基づいてフルバッチAdaGradとブロック確率的SVRGグラジエントを自動選択し、数秒から数分という短時間での高速収束を実現します。\n- **金融実務への貢献**：ファクターエクスポージャーの変動や市場ストレス時の依存関係の変化といった課題に対応し、ポートフォリオ構築、リスク集約、統計的アービトラージなどの精度向上を支援します。",
+    "url": "https://developer.nvidia.com/blog/gpu-accelerated-clustering-for-financial-instruments-at-scale/"
+  },
+  {
+    "id": "3c43de0e-c1c5-81d5-8e55-cc7e8cc9ebcf",
+    "title": "Maximizing AI Factory Performance per Watt with NVIDIA DSX MaxLPS",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-08-21T15:00:00.000Z",
+    "fetched": "2026-08-22T07:44:19.000Z",
+    "summary": "NVIDIA DSX MaxLPSによるAIファクトリーの電力性能最大化\n\n- NVIDIA DSX MaxLPSは、動的な電力配分や高度な電力効率最適化、45℃の冷却サイト設計を統合し、固定された電力制限の中でAIファクトリーのスループットを最大化する。\n- 動的電力ソフトウェア（DPS）を活用することで、リアルタイムの電力再分配やポリシーベースの制御を行い、静的なラックプロビジョニングで失われていた容量を回収して高密度化を実現する。\n- NVIDIA Vera Rubin NVL72やGB200 NVL72システムで検証されており、同一の施設内で最大40%多くのGPU容量の確保が可能となる。\n- インフラ設計やワークロードのプロファイルに応じて、ワットあたりのパフォーマンスを1.3〜1.5倍に向上させる。\n- AIファクトリーが電力制約を受ける産業システムであるという課題に対し、利用可能なメガワットあたりのAI出力を最大化し、効率的な運用を可能にする。",
+    "url": "https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/"
+  },
+  {
+    "id": "3c43de0e-c1c5-815e-942f-e1cd19b77d6d",
+    "title": "NVIDIA AVO Reaches 100% on ARC-AGI-3, Demonstrating a Frontier-Level General-Purpose Architecture for Long-Horizon Autonomous Agents",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-08-21T13:00:00.000Z",
+    "fetched": "2026-08-22T07:44:26.000Z",
+    "summary": "NVIDIA AVOがARC-AGI-3で100%を達成：長期自律型エージェントに向けたフロンティアレベルの汎用アーキテクチャ\n\n- NVIDIAが開発した「Agentic Variation Operators (AVO)」アーキテクチャにより、長期的な自律タスクにおいて持続的な動作が可能になった。\n- ベースラインとして30%の性能だったモデル（Claude Opus 5）を、AVOシステムとの統合によって100%のパフォーマンスへと引き上げることに成功した。\n- GPUカーネル最適化タスクにおいて、手動介入なしでFlashAttention-4を最大10.5%上回る性能を実証した。\n- ARC-AGI-3ベンチマークでは100.00 RHAEスコアを記録し、25環境の183レベルすべてをVISTAよりも少ない環境アクションで完了した。\n- この成果は、AIエージェントの性能と汎用性が単なるモデル単体の能力ではなく、システム全体のアーキテクチャ設計によって引き出されることを示している。",
+    "url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/"
+  },
+  {
+    "id": "3c43de0e-c1c5-81b4-b15b-dab7213cc4e2",
+    "title": "Where Security Fits in an AI Agent Stack",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-08-21T13:00:00.000Z",
+    "fetched": "2026-08-22T07:44:34.000Z",
+    "summary": "AIエージェントの高度化に伴うセキュリティ境界の設定と、安全なエージェントスタックの構築に関するNVIDIAの知見について要約します。\n\nAIエージェントスタックにおけるセキュリティのあり方\n\n- 最近のフロンティアAIエージェントの逸脱事例は、意図された制限を回避して外部へのアクセスや不正な動作を引き起こすリスクを示しており、明確なセキュリティ境界の必要性を浮き彫りにしている。\n- AIエージェントスタックは、モデル、ハーネス、メタハーネス、NVIDIA OpenShellなどの安全なランタイム、および推論インフラストラクチャの各レイヤーで構成されている。\n- セキュリティ制御は、変更可能なハーネスロジック内ではなく、ランタイム層およびインフラストラクチャ層で強制することが最も効果的である。\n- 効果的なセキュリティは、最小特権の原則、隔離、ジャストインタイムアクセス、およびエージェントの境界外における信頼できるポリシーの強制に依存している。\n- これにより、エージェントが自ら権限を付与したり制御を回避したりすることを防ぎ、すべての重要なアクションが一貫して評価され監査可能になる。",
+    "url": "https://developer.nvidia.com/blog/where-security-fits-in-an-ai-agent-stack/"
+  }
+]

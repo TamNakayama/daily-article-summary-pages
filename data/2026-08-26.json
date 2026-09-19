@@ -1,0 +1,200 @@
+[
+  {
+    "id": "3c93de0e-c1c5-81f4-ad27-f43e7dd93e23",
+    "title": "Sam Altman says OpenAI will have AGI by the end of 2026 if you accept his definition",
+    "site": "THE DECODER",
+    "published": "2026-08-26T17:30:29.000Z",
+    "fetched": "2026-08-27T00:01:14.000Z",
+    "summary": "OpenAIは、サム・オルトマンCEO独自の定義に基づけば、2026年末までに汎用人工知能（AGI）が社内で実現すると確信している。\n\n- OpenAIの指導層は、TIME誌の取材に対し、AGIの実現が目前に迫っているとの見解を示している。\n- 次期モデル「Astra」は、人間の研究者に匹敵する作業をこなし、自動AIリサーチインターンとして機能している。\n- Astraは実験の発案からコードの記述、実行、結果の報告までを自律的に行える能力を持つ。\n- オルトマンCEOは、新モデルが重要なレベルで新しいものを自ら発明する初のAIになると期待を寄せている。",
+    "url": "https://the-decoder.com/sam-altman-says-openai-will-have-agi-by-the-end-of-2026-if-you-accept-his-definition/"
+  },
+  {
+    "id": "3c93de0e-c1c5-81b2-8d34-d6873cd45dc6",
+    "title": "Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\"",
+    "site": "THE DECODER",
+    "published": "2026-08-26T14:40:09.000Z",
+    "fetched": "2026-08-27T00:01:24.000Z",
+    "summary": "Alibabaが次世代アーキテクチャのプレビュー版として、圧倒的なコスト効率を追求したマルチモーダルなMixture-of-Expertsモデル「Qwen3.8-Flash-Next」を発表した。\n\n- 総パラメータ数125億（※注：原文の125 billionは1250億）のうち、1トークンあたりに稼働するのは60億パラメータでありながら、従来の大規模モデルと同等以上の性能を実現している。\n- 510億パラメータを持つ画期的な「N-gram埋め込み層」を搭載しており、GPUメモリではなくシステムRAM上で動作させることで、コストを抑えつつフレーズ単位の情報を処理できる。\n- コンテキストウィンドウはネイティブで262,144トークンをサポートし、YaRNを使用することで100万トークンへの拡張が可能となっている。\n- わずか9分の1の訓練コストで前世代の「Qwen3.7-Plus」を上回る成果を上げ、特にコーディングや事務作業において最大の向上を見せている。\n- 本番版は「Qwen3.8-Flash」としてQwenCloudから提供され、価格は入力トークン100万あたり0.16ドル、出力トークン100万あたり0.47ドルという低コストで利用できる。",
+    "url": "https://the-decoder.com/alibaba-releases-qwen3-8-flash-next-targeting-ultimate-cost-efficiency/"
+  },
+  {
+    "id": "3c93de0e-c1c5-8137-9dba-c454d0965ed6",
+    "title": "Employee revolt and failing agents forced Meta to scrap its AI layoff plan",
+    "site": "THE DECODER",
+    "published": "2026-08-26T13:09:04.000Z",
+    "fetched": "2026-08-27T00:01:32.000Z",
+    "summary": "従業員による強い反発とAIエージェントの性能不足が原因となり、Metaは大規模な人員削減計画の撤回を余儀なくされた。\n\n- 「プロジェクトOT」というコードネームのもと、Metaは多くのチームを最大60%縮小し、残った少数の社員に仮想AIワーカーを監督させる計画を進めていた。\n- しかし、キーストロークなどを記録するトラッキングソフトが自身のAI代替要員を育成していると疑った社員たちが社内ネットワークで激しく反発し、士気（インテル・センチメント）が急落した。\n- 導入されたAIエージェント技術は期待されたほどの生産性向上の成果を出せず、投資家からも多額のAI予算に対する批判が上がった。\n- これらを受けて、マーク・ザッカーバーグCEOは最初のレイオフの数時間前である5月19日の夕方に、11月に予定されていた第2波のレイオフを中止した。\n- 7月には、ザッカーバーグ自身もAIエージェント技術が予想ほど急速にスピードアップしていなかったことを認めた。",
+    "url": "https://the-decoder.com/employee-revolt-and-failing-agents-forced-meta-to-scrap-its-ai-layoff-plan/"
+  },
+  {
+    "id": "3c93de0e-c1c5-814d-9ced-c84071ed4bcb",
+    "title": "Pro-Kremlin deepfakes put surrender rhetoric in the mouths of Ukrainian lawmakers",
+    "site": "THE DECODER",
+    "published": "2026-08-26T12:36:24.000Z",
+    "fetched": "2026-08-27T00:01:41.000Z",
+    "summary": "親ロシア派のTelegramチャンネルが、ウクライナの国会議員になりすましたAIディープフェイク動画を拡散し、和平交渉や領土喪失の嘆きといった降伏を促す発言を語らせていることが、NewsGuardの調査で明らかになった。\n\n- 親ロシア派がウクライナ議員のAIディープフェイク動画を拡散し、戦争の嘆きや平和を求める発言を捏造している。\n- 対象となったのは元ウクライナ保安庁副長官のAndriy Levus氏と、ゼレンスキー大統領の政党に所属するIvan Yunakov氏の2名である。\n- 動画には不自然なまばたき、単調な声、こわばった表情といったAI特有の不自然なアーティファクトが見られるが、2週間で13万回再生を記録した。\n- 2022年のゼレンスキー大統領の偽動画に続き、AI技術がプロパガンダを増幅させる手段として悪用され続けている。\n- これらのディープフェイク動画は、たとえ偽物と暴かれても、公共情報への信頼を損ない、民主主義的な議論を毒するという悪影響をもたらす。",
+    "url": "https://the-decoder.com/pro-kremlin-deepfakes-put-surrender-rhetoric-in-the-mouths-of-ukrainian-lawmakers/"
+  },
+  {
+    "id": "3c93de0e-c1c5-8139-bb92-da70626c6ede",
+    "title": "Chinese Moonshot AI negotiates hosting deals with Microsoft, Amazon, and Google",
+    "site": "THE DECODER",
+    "published": "2026-08-26T11:54:17.000Z",
+    "fetched": "2026-08-27T00:01:49.000Z",
+    "summary": "中国のAIスタートアップ企業であるMoonshot AIが、自社のAIモデル「Kimi K3」を米国の主要クラウドプラットフォーム上でホスティングするため、マイクロソフト、アマゾン、グーグルとの間でレベニューシェア（収益分配）の交渉を進めている。中国のAI企業が米国の主要クラウド事業者とこのような提携に向けた交渉を行うのは初めての事例となる。\n\n- 中国のAIスタートアップ「Moonshot AI」が、米国の主要クラウド大手であるマイクロソフト、アマゾン、グーグルと、AIモデル「Kimi K3」のホスティングおよびレベニューシェアに関する交渉を行っている。\n- Moonshot AIは、K3サービスから得られる収益の最大30%を求めており、中国のAI企業が米国のクラウドプロバイダーとこのような契約を結べば初の事例となる。\n- 交渉はまだ初期段階であり、収益の分配比率、データへのアクセス権、トークン使用量の追跡方法など、合意に至るまでには多くの課題が残されている。\n- 米国財務長官による貿易禁止の威嚇や、米当局からAnthropicのモデル「Fable」の盗用疑惑がかけられるなど、地政学的リスクや規制上のハードルが存在している。",
+    "url": "https://the-decoder.com/chinese-moonshot-ai-negotiates-hosting-deals-with-microsoft-amazon-and-google/"
+  },
+  {
+    "id": "3c93de0e-c1c5-8166-9126-e2c9cfa641ee",
+    "title": "Bill Gates warns AI is more dangerous than the tech industry will admit",
+    "site": "THE DECODER",
+    "published": "2026-08-26T10:50:34.000Z",
+    "fetched": "2026-08-27T00:01:57.000Z",
+    "summary": "ビル・ゲイツ氏は、AIの危険性がテック業界によって意図的に過小評価されており、社会は十分な備えができていないと警告している。AIは人間の認知能力を急速に超えつつあり、人類史上最も激しい動乱期の一つをもたらす可能性があると指摘されている。\n\n- ビル・ゲイツ氏は、大規模な失業やバイオテロ、依存性の高いチャットボットによる心理的・社会的悪影響など、AIがもたらす深刻な脅威を指摘している。\n- テック業界が多額の資金調達という経済的利益を優先し、プライベートでは懸念を示しながらも、公の場ではリスクを意図的に隠していると批判している。\n- 過去の技術革新とは異なり、今回のAIの進化は多くの雇用を恒久的に失わせる可能性があり、従来の楽観的な見方は通用しないと警鐘を鳴らしている。\n- 業界の自主規制を否定し、国際的な監視機関の設置やAI利用に対する課税の導入を求めている。\n- 人間にしかできない領域として、介護職などのケアに関わる仕事を人間専用として残すべきだと主張している。",
+    "url": "https://the-decoder.com/bill-gates-warns-ai-is-more-dangerous-than-the-tech-industry-will-admit/"
+  },
+  {
+    "id": "3c93de0e-c1c5-819f-94d2-eeee33832f04",
+    "title": "IBM drops open-weight Granite 4.2 family with built-in agentic capabilities under Apache 2.0",
+    "site": "THE DECODER",
+    "published": "2026-08-26T10:37:56.000Z",
+    "fetched": "2026-08-27T00:02:06.000Z",
+    "summary": "IBM、エージェント機能を統合したオープンウェイトの言語モデル「Granite 4.2」ファミリーを発表\n\n- IBMは、3B、8B、30Bのサイズからなるオープンウェイト言語モデル「Granite 4.2」ファミリーを、Apache 2.0ライセンスの下で公開した。\n- モデルは約15兆トークンでゼロから学習され、最大512,000トークンのコンテキストウィンドウをサポートするほか、タスクに応じて「思考」モードと「非思考」モードを切り替えてリソースを最適化できる。\n- 8Bおよび30Bのバリアントは「エージェント強化学習（RL）」によって訓練されており、サンドボックス環境でのツール使用、コードの記述・実行、リアルタイムでのウェブ検索が可能となっている。\n- 全モデルがOpenAI形式のツール呼び出しをサポートし、vLLMやSGLang上で動作するほか、Hugging FaceやOllama、GitHubなどのプラットフォームで利用可能である。\n- 同時に発表された音声認識モデル「Granite Speech 5.0 Turbo CTC」は4億7000万パラメータを持ち、3時間の音声を1秒で文字起こしできる高い処理速度を実現している。",
+    "url": "https://the-decoder.com/ibm-drops-open-weight-granite-4-2-family-with-built-in-agentic-capabilities-under-apache-2-0/"
+  },
+  {
+    "id": "3c93de0e-c1c5-818a-86a7-fcee2c8a18bc",
+    "title": "Anthropic sees a market opportunity of more than $30 trillion ahead of its IPO",
+    "site": "THE DECODER",
+    "published": "2026-08-26T10:02:39.000Z",
+    "fetched": "2026-08-27T00:02:13.000Z",
+    "summary": "Anthropicが計画中のIPOに向けて30兆ドル超の巨大な市場機会を見込む\n\n- Anthropicは、AIモデルが引き受けうるすべての労働を対象として、潜在的市場規模（TAM）を30兆ドル超と見積もっている。\n- この数値は、スペースXが主張した28.5兆ドルを超える規模であり、S&P 1500のテック企業150社の年間売上高合計を大きく凌駕するため、その現実性には疑問の声も上がっている。\n- 同社の第2四半期売上高は前年同期比で倍増の116億ドルに達し、2028年までに1,900億〜2,000億ドルの売上高を見込んでいる。\n- Anthropicは、約2兆ドルの企業評価額を目指し、最大1,000億ドルの資金調達を計画しており、9月または10月に上場（IPO）する可能性がある。",
+    "url": "https://the-decoder.com/anthropic-sees-a-market-opportunity-of-more-than-30-trillion-ahead-of-its-ipo/"
+  },
+  {
+    "id": "3c93de0e-c1c5-8170-9788-c4a49a3bec81",
+    "title": "Quoting Paul Dix",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-08-26T08:07:55.000Z",
+    "fetched": "2026-08-27T00:02:21.000Z",
+    "summary": "AIを活用したソフトウェア開発の進化と将来性に関する考察\n\n- ポール・ディックス氏の言葉として、AIが100万行のコードを書き、数ヶ月かけて洗練させ、何百万もの開発者のマシンの上で動作する信頼性の高いソフトウェアを作り上げたことは、非常に衝撃的な偉業であると紹介している。\n- 「比較対象となるオラクル（基準）があったから簡単だったのだろう」という見方に対し、それは過小評価であり、適切な方向付けと検証システムさえあれば、AIは複雑で高度なソフトウェアを構築・修正し続けることができると主張している。\n- サイモン・ウィリソン氏のウェブログに2026年8月26日付で掲載された引用記事であり、AI支援プログラミングやコーディングエージェントの可能性について言及している。",
+    "url": "https://simonwillison.net/2026/Aug/26/paul-dix/"
+  },
+  {
+    "id": "3c93de0e-c1c5-818a-8d67-ceccd1b0bb58",
+    "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+    "site": "Hugging Face Blog",
+    "published": "2026-08-26T00:00:00.000Z",
+    "fetched": "2026-08-27T00:02:30.000Z",
+    "summary": "Sentence Transformersによるマルチベクトル埋め込みモデルのトレーニングとファインチューニング\n\n- Sentence Transformersのv6.0アップデートにより、ColBERTスタイルの遅延インタラクション検索に向けた「MultiVectorEncoder」が導入された。\n- 独自のデータセットを用いてファインチューニングを行うことで、一般的な汎用検索モデルを凌駕する高性能なマルチベクトルモデルを作成できる。\n- ファインチューニングには、モデル、データセット、損失関数、学習引数、評価器、トレーナーといった複数の主要コンポーネントが必要となる。\n- 1基のRTX 3090で14.5時間学習させた医療特化型モデル（mLateOn-medical）が、既存のあらゆる汎用検索モデルを上回る性能を実証した。\n- 本手法は、既存のマルチベクトルモデルの調整だけでなく、ベースとなるTransformerからの新規構築にも対応している。",
+    "url": "https://huggingface.co/blog/train-multi-vector-encoder"
+  },
+  {
+    "id": "3c93de0e-c1c5-81a2-9577-fc9ffae0db4f",
+    "title": "GLM-5.3-Flash: Frontier Intelligence, Flash Cost",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-26T14:06:30.000Z",
+    "fetched": "2026-08-27T00:02:38.000Z",
+    "summary": "GLM-5.3-Flash：最先端の知性と低コストの両立\n\n- 本記事は、高度なAI性能（Frontier Intelligence）と非常に手頃なコスト（Flash Cost）を両立させた新型AIモデル「GLM-5.3-Flash」の概要を伝えています。\n- 最高水準の知的処理能力を備えながらも、運用コストや推論コストを大幅に抑えることに成功している点が最大の特徴です。\n- 企業や開発者が高性能なAI技術をより導入しやすくなり、幅広いアプリケーションでの活用が期待されています。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyy3k6/glm53flash_frontier_intelligence_flash_cost/"
+  },
+  {
+    "id": "3c93de0e-c1c5-81da-b158-e2c86e27ca3d",
+    "title": "Can we reconsider the megathreads?",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-26T17:40:57.000Z",
+    "fetched": "2026-08-27T00:02:46.000Z",
+    "summary": "メガスレッドの運用方法や効果について再検討を求める議論が行われている。\n\n- メガスレッドの導入によってコミュニティ内の情報が過度に集約され、個別の重要なトピックが埋もれてしまっているという懸念がある。\n- 一つのスレッドに多様な話題が混ざることで、ユーザー同士の議論が追いづらくなり、エンゲージメントの低下を招いているという指摘がなされている。\n- 特定の話題ごとにスレッドを分けた方が、検索性や情報の整理整頓の観点からユーザーにとって利便性が高いのではないかという意見が出ている。\n- コミュニティの活性化と情報管理のバランスを取るため、現在のメガスレッド中心のルールを見直し、柔軟な投稿制限の緩和や運用方法の改善が求められている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vz40zv/can_we_reconsider_the_megathreads/"
+  },
+  {
+    "id": "3c93de0e-c1c5-8163-ae61-fb51b914c50b",
+    "title": "Whoever the fuck predicted we would have gpt 5.5 performance in coding on consumer hardware a couple months ago now, i applaud you",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-26T16:07:15.000Z",
+    "fetched": "2026-08-27T00:02:56.000Z",
+    "summary": "AIの進化によるコーディング性能の劇的な向上が、一般向けのハードウェア上で驚くべきスピードで実現されたことを称賛する内容です。\n\n- 数ヶ月前に予想されていたGPT-5.5レベルのコーディング性能が、既にコンシューマー向けハードウェア上で実現されている。\n- AI技術の進化スピードが従来の予測を遥かに超えていることに対する驚きと称賛が示されている。\n- 高度なAIモデルの能力が、一般ユーザーの利用環境において日常的に活用できるレベルに到達しつつある。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vz1dkz/whoever_the_fuck_predicted_we_would_have_gpt_55/"
+  },
+  {
+    "id": "3c93de0e-c1c5-8128-93d7-d87e2bcb23cf",
+    "title": "First serious confirmation. Ox Alpha is GLM-5.3-Flash",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-26T06:28:10.000Z",
+    "fetched": "2026-08-27T00:03:04.000Z",
+    "summary": "Ox AlphaはGLM-5.3-Flashであることが初めて確証された\n\n- 「Ox Alpha」という名称のモデルが「GLM-5.3-Flash」であることが、初めて確実な証拠をもって確認された。\n- この発見は、AIモデルの正体や命名規則に関する重要な裏付けとなるものである。\n- 開発元や関連するコミュニティにおいて、モデルの特定に関する議論や検証が進められていた中での決定的な情報である。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyp1l9/first_serious_confirmation_ox_alpha_is_glm53flash/"
+  },
+  {
+    "id": "3c93de0e-c1c5-8176-b229-d9abe5897d82",
+    "title": "zai-org/GLM-5.3-Flash · Hugging Face",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-26T14:18:30.000Z",
+    "fetched": "2026-08-27T00:03:11.000Z",
+    "summary": "zai-org/GLM-5.3-Flash · Hugging Face\n\n- Hugging Faceプラットフォーム上で公開されている「zai-org/GLM-5.3-Flash」モデルに関するページである。\n- AIモデルの重みや設定ファイルなどのリソースがホストされており、ダウンロードや利用が可能となっている。\n- モデルの詳細な仕様やライセンス条件、使用方法に関するドキュメントが提供されている。\n- コミュニティによる議論や評価など、開発者向けのコラボレーション機能が備わっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyyesk/zaiorgglm53flash_hugging_face/"
+  },
+  {
+    "id": "3c93de0e-c1c5-8150-9887-f9748090fcf7",
+    "title": "v0.33.1",
+    "site": "Ollama Blog",
+    "published": "2026-08-26T23:54:05.000Z",
+    "fetched": "2026-08-27T00:03:19.000Z",
+    "summary": "v0.33.1\n\n- GitHubで公開されているAIツール「Ollama」のリポジトリ（ollama/ollama）における、バージョン「v0.33.1」のリリースに関するページである。\n- ページ内には、GitHubの一般的なナビゲーションメニュー、コード、Issue、プルリクエスト、アクション、セキュリティ、インサイトなどの開発者向け機能へのリンクが含まれている。\n- リポジトリのスタ数（180k）やフォーク数（17.6k）が表示されており、多くの開発者に関心を持たれているオープンソースプロジェクトであることが示されている。\n- セッションの状態変化や読み込みエラーに関するメッセージ（「Uh oh! There was an error while loading.」など）が含まれており、閲覧時のブラウザやログイン状態に関するUI要素が混在している。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.33.1"
+  },
+  {
+    "id": "3c93de0e-c1c5-8145-a1a4-ed9759811cc5",
+    "title": "v0.33.1-rc1: linux: fix llama.cpp docker build (#18040)",
+    "site": "Ollama Blog",
+    "published": "2026-08-26T17:21:21.000Z",
+    "fetched": "2026-08-27T00:03:27.000Z",
+    "summary": "Linux環境におけるOllamaのDockerビルド時の問題を修正したリリース候補版に関する情報\n\n- OllamaのGitHubリポジトリにおいて、リリース候補版「v0.33.1-rc1」が公開された。\n- 本リリースの主な変更点は、Linux環境における「llama.cpp」のDockerビルドに関する不具合の修正（プルリクエスト #18040）である。\n- Ollamaプロジェクトでは、AIモデルをローカルで簡単に実行・管理するためのツール開発が進められており、多くのスターやフォークを集めて活発に開発・メンテナンスが行われている。\n- GitHub上では、ソースコードの管理だけでなく、課題追跡（Issues）やプルリクエスト（Pull requests）機能を利用して、開発者コミュニティによる継続的な改善やバグ修正が行われている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.33.1-rc1"
+  },
+  {
+    "id": "3c93de0e-c1c5-818e-a913-c1ea6bf7bfef",
+    "title": "v0.33.1-rc0: MLX: Qwen3.8 Flash Next support (#18032)",
+    "site": "Ollama Blog",
+    "published": "2026-08-26T15:05:59.000Z",
+    "fetched": "2026-08-27T00:03:35.000Z",
+    "summary": "v0.33.1-rc0: MLX: Qwen3.8 Flash Next support (#18032)\n\n- オープンソースのAI実行環境であるOllamaのGitHubリポジトリに関するリリース情報（バージョンv0.33.1-rc0）である。\n- Apple Silicon等のMac向けフレームワークであるMLXにおいて、「Qwen3.8 Flash Next」のサポートが追加されたことを示している。\n- Ollamaプロジェクトにおいて、新しいモデルやハードウェアアクセラレーションへの対応が継続的に進められていることを表している。\n- 開発者やユーザー向けに、最新機能のテスト版（Release Candidate）として提供が開始されている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.33.1-rc0"
+  },
+  {
+    "id": "3c93de0e-c1c5-8106-aac3-dce52b0ca45d",
+    "title": "v0.33.0",
+    "site": "Ollama Blog",
+    "published": "2026-08-26T02:09:34.000Z",
+    "fetched": "2026-08-27T00:03:42.000Z",
+    "summary": "ollama/ollama v0.33.0 リリース情報\n\n- GitHub上のollamaリポジトリにおける「v0.33.0」のリリースに関するページである。\n- ページのヘッダーやナビゲーションメニューには、GitHubの機能（Copilot、Actions、Codespaces、セキュリティ機能など）や、企業のソリューション、ドキュメントへのリンクが含まれている。\n- リポジトリの基本情報として、パブリック公開されている「ollama/ollama」であり、フォーク数やスター数（180k）、コード、Issues、Pull requestsなどのタブが表示されている。\n- 閲覧時には、サインイン状態の変更や別タブでの操作に関するアラート、またはページの読み込みエラーに関するメッセージが表示される場合がある。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0"
+  },
+  {
+    "id": "3c93de0e-c1c5-8194-be00-f8db6a3cb218",
+    "title": "NVIDIA NVLink Fusion Brings NVHBM to Next-Generation AI Infrastructure",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-08-26T21:06:58.000Z",
+    "fetched": "2026-08-27T00:03:50.000Z",
+    "summary": "NVIDIA NVLink FusionとNVHBMによる次世代AIインフラストラクチャの革新\n\n- NVIDIA NVLink Fusionは、ハイパースケーラーやAI関連企業が独自のカスタムXPUおよびCPUをNVIDIAのAIインフラストラクチャプラットフォームに統合することを可能にする接続技術である。\n- NVHBMは標準的なHBM4eと比較して、スタックあたり最大30%高いメモリ帯域幅を実現し、メモリバウンドなAIワークロードのアクセラレータ利用率とスループットを向上させる。\n- NVHBMはPHYおよびサポート領域を最大67%削減し、メインダイのシリコン面積を最大30%多く演算処理などに割り当てることが可能になる。\n- 標準的なHBM4eに比べてHBMの電力消費を15%削減し、電力と熱の余裕を生み出すことで、大規模データセンターにおける効率的な運用をサポートする。\n- NVLink FusionとNVHBMの組み合わせにより、帯域幅、実装面積、電力効率の向上を相乗させ、XPUあたり全体で最大30%のエンドツーエンドの性能向上を実現する。",
+    "url": "https://developer.nvidia.com/blog/nvidia-nvlink-fusion-brings-nvhbm-to-next-generation-ai-infrastructure/"
+  },
+  {
+    "id": "3c93de0e-c1c5-81ec-9dd0-f02d83d938bb",
+    "title": "How to Train a Cross-Embodiment Robot Navigation Policy with AI Agents",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-08-26T20:05:06.000Z",
+    "fetched": "2026-08-27T00:03:58.000Z",
+    "summary": "AIエージェントを活用して、異なる形状や環境（クロスエンボディメント）を持つロボット向けのナビゲーションポリシーを効率的に訓練する手法について解説しています。\n\n- 事前トレーニングされたNVIDIAのポリシーを、強化学習を用いて特定のロボットや環境向けの残差スペシャリストに適応させる「COMPASS」フレームワークを採用している。\n- 環境検証からモデルのパッケージングまでを、人間の承認を挟みながらAIエージェントのワークフローによって自動化している。\n- ボストンダイナミクス社の四足歩行ロボット「Spot」などをリファレンス実装として使用し、多様な仮想シーンや実世界から再構築した環境で検証を行っている。\n- ゴール到達率や転倒率などの標準的な指標を用いて、ベースポリシーと残差候補のパフォーマンスを同一条件で比較・評価する。\n- リポジトリのクローンやHugging Faceからのアセットダウンロードを通じて、サポートされているロボットと組み込みシーンを用いた迅速なセットアップが可能である。",
+    "url": "https://developer.nvidia.com/blog/how-to-train-a-cross-embodiment-robot-navigation-policy-with-ai-agents/"
+  },
+  {
+    "id": "3c93de0e-c1c5-8178-ab58-e85b5d4c8bed",
+    "title": "Experiment with Qwen3.8-Flash-Next 176B Model on NVIDIA GB300 NVL72 for Agentic Coding",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-08-26T17:07:12.000Z",
+    "fetched": "2026-08-27T00:04:06.000Z",
+    "summary": "NVIDIA GB300 NVL72を活用した「Qwen3.8-Flash-Next 176B」モデルによるエージェントコーディング実験\n\n- Qwen3.8-Flash-Nextは、総パラメータ数176B、1トークンあたり6Bが活性化するマルチモーダルMoEモデルであり、次期Qwen4アーキテクチャのプレビュー版として公開された。\n- Gated DeltaNetとQwen Sparse Attentionを組み合わせた独自構造を採用し、ネイティブで26,2144トークンのコンテキストウィンドウを持ち、YaRNにより100万トークンまで拡張可能である。\n- NVIDIA GB300 NVL72上で稼働させると、GPUあたり16,000トークン/秒以上、ユーザーあたり200トークン/秒以上の処理性能を実現する。\n- NVIDIA NeMoを用いたフルSFTやLoRAによるファインチューニング、強化学習（RL）に対応し、SGLang、vLLM、TokenSpeedなどの推論スタックをサポートしている。\n- 開発者はQwenCloud、Hugging Face、ModelScopeからモデルを入手し、プレビュー版の評価やローカル環境での開発を行うことができる。",
+    "url": "https://developer.nvidia.com/blog/experiment-with-qwen3-8-flash-next-176b-model-on-nvidia-gb300-nvl72-for-agentic-coding/"
+  }
+]

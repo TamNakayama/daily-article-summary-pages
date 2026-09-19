@@ -1,0 +1,119 @@
+[
+  {
+    "id": "3b83de0e-c1c5-818f-a4fa-ef3a95cda43d",
+    "title": "Scammers are enrolling fake students at US community colleges and using AI to collect financial aid",
+    "site": "THE DECODER",
+    "published": "2026-08-09T13:00:59.000Z",
+    "fetched": "2026-08-10T00:01:14.000Z",
+    "summary": "詐欺師たちが米国のコミュニティカレッジでAIを悪用し、架空の学生を登録して奨学金を不正受給する手口が横行している。\n\n- 詐欺グループは、実在しない架空の学生をオンラインコースに大量登録し、大学から支給される奨学金を不正に詐取している。\n- 登録された架空の学生は、AIツールを活用することで、課題の提出や試験の受講といった学業上の要件をクリアしている。\n- 特に匿名性が高い「非同期型」のオンライン授業において不正が多発しており、教員側は誰が本当に受講しているのか判別することが困難な状況にある。\n- 教育現場ではAIの利用ルールが軽視されており、ある歴史学の教授は、学生の半数以上がAIを使用して課題を提出している現状を報告している。\n- 本来の学生像と乖離した登録情報や不自然な履修履歴から不正が発覚しつつあるが、大学側にはさらなる対策と学問的な誠実さの担保が強く求められている。",
+    "url": "https://the-decoder.com/scammers-are-enrolling-fake-students-at-us-community-colleges-and-using-ai-to-collect-financial-aid/"
+  },
+  {
+    "id": "3b83de0e-c1c5-81c4-a613-c4c306fe8a66",
+    "title": "Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time",
+    "site": "THE DECODER",
+    "published": "2026-08-09T12:29:06.000Z",
+    "fetched": "2026-08-10T00:01:25.000Z",
+    "summary": "Google DeepMindの新たな気象予測AI「WeatherNext Cyclones（WN-C）」：熱帯低気圧の進路と強度を同時に高精度で予測\n\n- Google DeepMindが開発したWN-Cは、熱帯低気圧の予測において従来の主要なモデルよりも約1日先まで正確な予報を可能にした。この性能向上は、従来の気象モデルが10年かけて達成してきた進歩に匹敵する。\n- 従来、予測モデルには「広域的な進路予測は得意だが強度の詳細が不明」か「局所的な強度予測は優れるが進路の精度が落ちる」というトレードオフが存在したが、WN-Cはこの両方を単一のシステムで解決した。\n- 本モデルは国立ハリケーンセンター（NHC）等と共同開発され、2025年6月から運用を開始。ハリケーン「メリッサ」の急激な発達を事前に予測するなど、実戦的な有効性がすでに証明されている。\n- WN-Cは、従来のモデルと比べて100倍粗い解像度のデータを用いながら、5日先の進路予測における誤差を大幅に縮小した。なぜこれほど低解像度のデータで高い精度を出せるのか、その内部メカニズムは開発者にも完全には解明されていない。",
+    "url": "https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/"
+  },
+  {
+    "id": "3b83de0e-c1c5-81f1-9738-d06fe7c81d0b",
+    "title": "AI is flooding Britain's employment courts with lawsuits",
+    "site": "THE DECODER",
+    "published": "2026-08-09T10:26:43.000Z",
+    "fetched": "2026-08-10T00:01:33.000Z",
+    "summary": "AIの普及により、イギリスの雇用裁判所がAI作成の訴訟書類で溢れかえり、司法機能が麻痺の危機に直面している。\n\n- AIを用いた訴訟提起が急増したことで、イギリスの雇用裁判所における未解決の案件数が1年間で55％増加し、6万4000件に達した。\n- ChatGPTやGrokを利用して個人が無料で訴訟書類を作成できるようになったが、AIが生成した書類は数百ページに及ぶことが多く、存在しない法律の引用や不当な要求が含まれるなど、質の低さが問題視されている。\n- 労働党政権による新たな雇用権利法の施行で、訴訟の根拠となる要件が拡大され、損害賠償額の上限が撤廃されたことで、さらに訴訟が加速する懸念がある。\n- この現状は、正当な苦情を抱える労働者が司法判断を待たされる期間を長期化させ、企業側には不必要な応訴コストを強いる「共有地の悲劇」を招いている。\n- 米国でも同様にAIによる訴訟が「連邦裁判所への存亡の危機」と見なされている一方、パキスタンなどでは裁判官がAIツールを活用することで処理効率を向上させた事例もあり、導入のあり方が問われている。",
+    "url": "https://the-decoder.com/ai-is-flooding-britains-employment-courts-with-lawsuits/"
+  },
+  {
+    "id": "3b83de0e-c1c5-819b-9ea4-dfac47936538",
+    "title": "Google's DiffusionGemma proves you don't need to train from scratch to build a text diffusion model",
+    "site": "THE DECODER",
+    "published": "2026-08-09T10:01:26.000Z",
+    "fetched": "2026-08-10T00:01:41.000Z",
+    "summary": "GoogleのDiffusionGemmaは、一から学習させることなく既存の言語モデルをテキスト生成の拡散モデルに変換できることを証明した\n\n- Google DeepMindは、既存の「Gemma 4」をベースに、わずか10％未満の追加学習コストでテキスト拡散モデル「DiffusionGemma」を構築した。\n- 通常の言語モデルが1トークンずつ逐次生成するのに対し、DiffusionGemmaは256トークンのブロックを並列的に生成・洗練させる手法をとる。\n- この手法により、Nvidia H100上で毎秒約1,500トークンという高い生成速度を実現し、従来の拡散モデルやベースモデルを上回るパフォーマンスを達成した。\n- 学習には、ノイズ除去を学ぶ段階と、強化学習とサンプラー蒸留を組み合わせた「SD·RL」という独自プロセスの二段階が採用されている。\n- このアプローチにより、推論能力が平均10ポイント向上するとともに、従来のモデルと比較して処理の高速化と品質維持を両立している。",
+    "url": "https://the-decoder.com/googles-diffusiongemma-proves-you-dont-need-to-train-from-scratch-to-build-a-text-diffusion-model/"
+  },
+  {
+    "id": "3b83de0e-c1c5-81f5-8820-d7a69551dd24",
+    "title": "AI's energy appetite drives Nvidia and Amazon to pour billions into massive power infrastructure",
+    "site": "THE DECODER",
+    "published": "2026-08-09T09:26:28.000Z",
+    "fetched": "2026-08-10T00:01:49.000Z",
+    "summary": "AIの爆発的なエネルギー需要に応えるため、NvidiaとAmazonが数十億ドル規模の電力インフラ投資を加速させている。\n\n- Nvidiaは、テキサス州でデータセンター向けの電力インフラを開発する「Lancium」に対し、最大30億ドルの投資を検討している。Lanciumは現在4ギガワットの電力を確保済みで、将来的に15ギガワットへの拡大を目指している。\n- Amazonは、テキサス州で巨大な天然ガス火力発電所の建設を支援している。この発電所は最大7.65ギガワットの電力を供給する予定だが、稼働すれば年間3,300万トンのCO₂を排出する可能性があり、米国で最も環境負荷の高い発電所になる懸念がある。\n- Amazon側は「気候変動目標は維持する」と強調しつつも、AIデータセンターの拡大が目標達成を困難にしている現状を認めている。\n- 気候科学者の分析によると、高性能なエージェント型AIを多用する際の消費電力は衣類乾燥機と同等に達しており、その需要は今後も増加の一途をたどっている。",
+    "url": "https://the-decoder.com/ais-energy-appetite-drives-nvidia-and-amazon-to-pour-billions-into-massive-power-infrastructure/"
+  },
+  {
+    "id": "3b83de0e-c1c5-8187-b8b3-c25a6dd08a87",
+    "title": "Google dismantles Deepmind and bets on a fresh start as Hassabis heads for the exit",
+    "site": "THE DECODER",
+    "published": "2026-08-09T08:56:12.000Z",
+    "fetched": "2026-08-10T00:01:57.000Z",
+    "summary": "Google DeepMindの独立性の終焉とデミス・ハサビス氏の退任の兆候\n\n- GoogleはAI開発の拠点を米国に集約しており、DeepMindは独立した研究機関からGoogleの単なる一事業部へとその性格を大きく変えようとしている。\n- 創業者のデミス・ハサビス氏は「会長」職へ異動したものの、これは実質的な退任に向けた準備期間であり、近いうちに完全に離脱する見込みである。\n- 今後の日常的な運営は米国のコーレイ・カヴクオグル氏が主導するが、CEOの肩書きは与えられない。これにより、DeepMindが独自のリーダーシップを失ったことが明確となった。\n- 経営層の刷新には共同創業者のセルゲイ・ブリン氏が深く関与しており、AI開発体制をGoogleのクラウド事業やインフラ戦略に直結させる狙いがある。\n- この組織再編については、GoogleのAI競争における遅れを挽回するための戦略的転換と捉える見方と、独自性を失ったことによる競争力低下を懸念する見方が交錯している。",
+    "url": "https://the-decoder.com/google-dismantles-deepmind-and-bets-on-a-fresh-start-as-hassabis-heads-for-the-exit/"
+  },
+  {
+    "id": "3b83de0e-c1c5-818d-9adf-d339580e1a69",
+    "title": "Quoting Claude Opus 5 system prompt",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-08-09T23:31:39.000Z",
+    "fetched": "2026-08-10T00:02:05.000Z",
+    "summary": "Claude Opus 5のシステムプロンプト：輸出規制への対応方針\n\n- Anthropicは2026年6月、米商務省の輸出規制に従い「Claude Fable 5」および「Claude Mythos 5」へのアクセスを一時停止し、規制解除後の7月にサービスを再開した。\n- システムプロンプトには、これらのモデルが自身のトレーニングデータ以降の出来事であるこの騒動を正確に認識し、ユーザーに対して公平かつ客観的に説明するよう指示が組み込まれている。\n- Claudeは今回の件を政治的なトピックとして扱い、自身の意見を述べることを避け、事実関係の報告と公式発表への誘導を行う方針をとっている。\n- モデルは自身の学習データ範囲外の最新情報について、可能であれば検索機能を活用し、適宜Anthropicの公式サイトを参照するようユーザーへ推奨するよう設計されている。\n- 本情報は、技術ブロガーのサイモン・ウィリソン氏により、AIモデルの挙動を規定するシステムプロンプトの実例として公開されたものである。",
+    "url": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-tag"
+  },
+  {
+    "id": "3b83de0e-c1c5-818a-8b1d-eacd74b1b703",
+    "title": "GitHub Models is now retired",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-08-09T22:48:05.000Z",
+    "fetched": "2026-08-10T00:02:13.000Z",
+    "summary": "GitHub Modelsがサービス終了\n\n- GitHub Modelsが提供終了となり、GitHub Actionsなどの環境で利用できていた統合AIモデルAPIが利用不可となった。\n- 終了の明確な理由は公表されていないが、コーディングエージェントの利用増加によるトークン消費コストの増大が影響している可能性が高いと推測される。\n- GitHub Modelsは、GitHubのAPIキーだけでLLMを呼び出せる手軽さが特徴で、GitHub Nextの「Continuous AI」コンセプトを実現する重要なツールだった。\n- 影響を受けた開発者は、自前でOpenAIなどのAPIキーを用意し、利用制限を設定して別のモデルへ切り替える等の代替手段への移行が必要となっている。",
+    "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-tag"
+  },
+  {
+    "id": "3b83de0e-c1c5-81f4-8dd3-ca233998645a",
+    "title": "RTX 5090 96GB spotted on Alibaba?",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-09T01:20:24.000Z",
+    "fetched": "2026-08-10T00:02:20.000Z",
+    "summary": "AlibabaでRTX 5090 96GB版が発見されるも、偽物の可能性が極めて高い\n\n- Alibabaの出品サイトで「RTX 5090 96GB」という名称の製品が確認されたが、現時点でNVIDIAからそのような仕様の製品は発表されていない。\n- 搭載されているとされる「96GB」というメモリ容量は、コンシューマー向けGPUとしては極めて非現実的なスペックである。\n- 出品されている画像や説明文は、過去のモデルを加工したものや誤った情報である可能性が高く、信頼性は皆無に近い。\n- 発売前の次世代GPUを騙る詐欺的な出品である可能性が高いため、購入を検討したり安易に情報を信じたりしないよう注意が必要である。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjcljq/rtx_5090_96gb_spotted_on_alibaba/"
+  },
+  {
+    "id": "3b83de0e-c1c5-816e-9d0a-e96c2df8ce56",
+    "title": "No wonder Qwen and Gemma are so different",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-09T00:04:15.000Z",
+    "fetched": "2026-08-10T00:02:28.000Z",
+    "summary": "QwenとGemmaの設計思想と性能の違い：なぜ両者はこれほど異なるのか\n\n- Qwen（アリババ）とGemma（Google）は、開発の背景や目指す用途が大きく異なるため、モデルの特性に明確な差異が生じている。\n- Qwenは、中国語圏に最適化しつつ、大規模なデータセットと計算リソースを惜しみなく投入することで、汎用性と論理的推論能力を最大限に高めた「パワー重視」の設計となっている。\n- Gemmaは、Googleの最先端モデル「Gemini」の技術をベースに、開発者が自身の環境で扱いやすいよう軽量化と効率化を優先した「エコシステムと安全性重視」の設計である。\n- 両者の違いは、モデルの学習データの質、トークナイザーの構造、そして公開後の微調整における方針の差に起因しており、タスクによって適したモデルが明確に分かれる。\n- 結論として、これらは単なる競合ではなく、利用者が「性能の限界を追求するQwen」か「実用性と安全性を兼ね備えたGemma」かを選択できる、補完的な選択肢といえる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjb15v/no_wonder_qwen_and_gemma_are_so_different/"
+  },
+  {
+    "id": "3b83de0e-c1c5-811a-8f76-f36e89f74d8a",
+    "title": "Lophius: A workbench for language model research, from the creator of Heretic",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-09T15:43:17.000Z",
+    "fetched": "2026-08-10T00:02:35.000Z",
+    "summary": "Lophius：Heretic開発者による言語モデル研究用ワークベンチ\n\n- 本プロジェクトは、AIモデル「Heretic」の開発者が手掛けた、言語モデルの研究・実験を効率化するための新たなワークベンチ（作業環境）です。\n- 大規模言語モデル（LLM）の挙動分析や性能検証を容易にするための統合的なツールセットとして設計されています。\n- ユーザーが独自のプロンプトや推論パラメータを柔軟に設定・比較できる環境を提供し、研究プロセスの高速化を支援します。\n- 既存のモデルの微調整や評価を直感的に行えるインターフェースを備えており、高度なAI研究をより身近かつ体系的に実行可能です。\n- オープンソース界隈で注目される開発者の知見が反映されており、言語モデルの透明性と実験の再現性を高めるための重要なリソースとなることが期待されています。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjt4vi/lophius_a_workbench_for_language_model_research/"
+  },
+  {
+    "id": "3b83de0e-c1c5-8125-bbf9-d2c27c64b6ce",
+    "title": "DeepSeek V4 Flash 0731 hits 82.7% on Terminal-Bench 2.1 in an independent public-harness run (445 trials)",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-09T08:39:12.000Z",
+    "fetched": "2026-08-10T00:02:43.000Z",
+    "summary": "DeepSeek V4 Flash 0731がTerminal-Bench 2.1で82.7%のスコアを達成\n\n- DeepSeek V4 Flash 0731が、ターミナル操作の能力を評価するベンチマーク「Terminal-Bench 2.1」において、82.7%という高い正答率を記録しました。\n- この結果は、第三者による独立した公開テスト環境において、445回もの試行を通じて検証されたものであり、モデルの信頼性と性能の高さが裏付けられています。\n- 従来モデルと比較して、コマンドライン操作やシステム管理に関連するタスクにおいて、より高度な推論能力と正確性を示したと言えます。\n- 今回の検証データは、DeepSeekシリーズが実用的なエンジニアリングタスクにおいて、最先端のAIモデルとして十分に通用する実力を備えていることを証明しました。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjklwo/deepseek_v4_flash_0731_hits_827_on_terminalbench/"
+  },
+  {
+    "id": "3b83de0e-c1c5-8119-980f-f1f16c03a936",
+    "title": "The Gemma team will host a special event on August 20",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-08-09T20:40:08.000Z",
+    "fetched": "2026-08-10T00:02:51.000Z",
+    "summary": "Gemmaチームが8月20日に特別イベントを開催\n\n- Googleのオープンモデル「Gemma」の開発チームが、8月20日に特別なオンラインイベントを開催することを発表しました。\n- このイベントは、Gemmaを活用する開発者や研究者に向けた最新情報の提供や、今後の展望について共有される貴重な機会となります。\n- AIコミュニティにおけるGemmaの重要性が高まる中、今回の発表によって、モデルのアップデートや新機能、エコシステムの拡大などが期待されています。\n- イベントの詳細や参加方法などの最新情報は、Googleの公式チャンネルやSNS等を通じて順次公開される予定です。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vk0o98/the_gemma_team_will_host_a_special_event_on/"
+  }
+]
