@@ -1,0 +1,119 @@
+[
+  {
+    "id": "3e23de0e-c1c5-816c-af85-dfb00f075b0f",
+    "title": "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters",
+    "site": "THE DECODER",
+    "published": "2026-09-20T16:10:52.000Z",
+    "fetched": "2026-09-21T00:01:13.455Z",
+    "summary": "Alibaba、わずか70億パラメータでクローズドモデルを超える画像生成AI「Qwen-Image-2.1」を発表\n\n- AlibabaのQwen AIチームが、画像生成・編集用のオープンウェイトモデル「Qwen-Image-2.1」をリリースした。\n- 視覚生成コンポーネントはわずか70億パラメータながら、独自のベンチマークでは大半のクローズドモデルを凌駕すると主張しており、GeForce RTX 3090などの高性能なコンシューマー向けGPUで動作する。\n- 透過画像（RGBA）のネイティブな生成・編集に対応し、最大10枚の参照画像を同時に使用したグループポートレートの作成やバーチャル試着、部屋のデザインなどが可能。\n- アーキテクチャの変更とKVキャッシュの再利用により推論速度が向上しており、特に複数の参照画像を使用する処理で効果を発揮する。\n- Hugging Face、GitHub、Model Scopeで公開されているが、研究用ライセンスのため商用利用にはAlibabaへの個別申請が必要となる。",
+    "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/"
+  },
+  {
+    "id": "3e23de0e-c1c5-8194-b54e-ce1fb9122548",
+    "title": "Tencent's Gander aims to keep talking while it works in the background",
+    "site": "THE DECODER",
+    "published": "2026-09-20T15:41:30.000Z",
+    "fetched": "2026-09-21T00:01:23.533Z",
+    "summary": "TencentのGander：バックグラウンドで作業しつつ自然な会話を維持するAIモデル\n\n- ユーザーとリアルタイムで自然な会話を続けながら、バックグラウンドで複雑なタスクを処理できるAIモデルである。\n- 音声、画像、テキストを同時に処理し、ユーザーがいつでも会話に割り込んだり、モデル側から進捗状況を伝えたりすることが可能である。\n- 会話を秒単位で管理する「小脳」と、複雑なエージェントタスクを処理する交換可能な「脳」に機能を分担させることで、応答速度と計画性の両立を目指している。\n- 競合モデルと比較して割り込み頻度が少ない一方、タスクの精度や動画・音声の理解において課題が見られる。\n- 開発チームはモデルの重みやトレーニングデータを公開予定であり、すでにGitHub上でコードのレポジトリが用意されている。",
+    "url": "https://the-decoder.com/tencents-gander-aims-to-keep-talking-while-it-works-in-the-background/"
+  },
+  {
+    "id": "3e23de0e-c1c5-81c2-a604-d065d9320586",
+    "title": "Runway wants to turn AI video generation into a live stream you control in real time",
+    "site": "THE DECODER",
+    "published": "2026-09-20T11:56:59.000Z",
+    "fetched": "2026-09-21T00:01:31.177Z",
+    "summary": "Runway社は、AI動画生成をプロンプト入力から待機時間をなくし、リアルタイムで操作しながらライブストリーミングのように生成する新しいアプローチの研究を進めています。\n\n- 従来の動画生成における「プロンプト入力、待機、修正」という別々のプロセスをなくし、ユーザーが指示しながら動画をストリーミング生成する仕組みを目指している。\n- 「GWM-1（General World Model）」や「Solaris」といった基盤技術を活用し、カメラ移動や音声、クリックなどの操作に応じてフレーム単位で動画をリアルタイム生成する。\n- リアルタイム生成により、アイデアから実行までの時間を短縮し、ユーザーが待ち時間ではなく動画の積極的なコントロールに時間を割けるようにする。\n- 処理の高速化によってGPUの消費時間が減り、コスト効率が向上することで、これまで経済的に成り立たなかった用途のアプリケーションも実現可能になる。",
+    "url": "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/"
+  },
+  {
+    "id": "3e23de0e-c1c5-81c9-b008-c5162231bdd0",
+    "title": "Daily AI usage in the U.S. has more than doubled in just six months",
+    "site": "THE DECODER",
+    "published": "2026-09-20T10:03:29.000Z",
+    "fetched": "2026-09-21T00:01:39.655Z",
+    "summary": "米国における毎日のAI利用率は、わずか6ヶ月の間に2倍以上に急増しました。\n\n- 研究機関のEpoch AIと世論調査会社のIpsosが実施した代表的調査によると、米国のアダルト層におけるAIのほぼ毎日の利用率は、2026年3月の8%から8月には19%へと倍増した。\n- 一方で、週に1日だけAIを利用する偶発的なユーザーの割合は、同期間に17%から10%へと減少した。\n- 調査は3月に2,017人、8月に1,016人を対象に、米国人口を反映するように重み付けして実施された。\n- 3月と8月では質問の形式（全体の使用頻度か、サービスごとの個別頻度か）に違いがあり、研究者らは8月の数値が実際の利用頻度を過小評価している可能性を指摘している。",
+    "url": "https://the-decoder.com/daily-ai-usage-in-the-u-s-has-more-than-doubled-in-just-six-months/"
+  },
+  {
+    "id": "3e23de0e-c1c5-81c4-aa5c-fe7b56a4957f",
+    "title": "Simulated students that make realistic mistakes help AI tutors learn faster",
+    "site": "THE DECODER",
+    "published": "2026-09-20T09:50:32.000Z",
+    "fetched": "2026-09-21T00:01:48.111Z",
+    "summary": "リアルな間違いをする模擬生徒がAIチューターの学習を加速させる\n\n- マイクロソフトとイリノイ大学の研究チームは、限られたデータから個々の生徒をリアルに再現するデジタルシミュレーションシステム「StudentSim」を開発した。\n- 従来のAIチューターのトレーニングは実際の生徒を必要とするため、時間と費用がかかりすぎるという課題があった。\n- 従来のモデルは生徒の行動を再現できてもチューターの説明を理解できず、逆に言語モデルベースのものは指示に従うものの個人の能力を再現できないという欠点があった。\n- StudentSimは、生徒の典型的な間違いや回答傾向を正確に再現する能力と、チューターの指導を受けて回答を修正する能力の両方を実現している。\n- このシステムにより、実際の生徒からのフィードバック収集が困難な状況でも、効率的かつ迅速にAIチューターの改善や学習を進めることが可能になる。",
+    "url": "https://the-decoder.com/simulated-students-that-make-realistic-mistakes-help-ai-tutors-learn-faster/"
+  },
+  {
+    "id": "3e23de0e-c1c5-818b-b8fa-dc55af7751d9",
+    "title": "Trump announces \"AI Force\" and plans for an \"AI czar\" as he pushes unchecked AI growth",
+    "site": "THE DECODER",
+    "published": "2026-09-20T08:52:06.000Z",
+    "fetched": "2026-09-21T00:01:55.989Z",
+    "summary": "ドナルド・トランプ氏は、AI開発の成長を規制せず推進するため、「AIフォース」の創設や「AIツァー（責任者）」の任命計画を発表した。\n\n- トランプ氏は、AIやデータセンターに対する批判を左派による攻撃と主張し、宇宙軍を模した「AIフォース」の設立や、高IQを持つ「AIツァー」の任命を明らかにしました。\n- 米国内では、データセンターによる水や電力の大量消費、環境負荷、電気料金の高騰に対する反発や、AIによる雇用喪失への懸念が高まっています。\n- トランプ氏は、AIが米国経済の25%を占める可能性があり、中国に対する優位性を維持すると主張し、新たな規制は成長を遅らせるとして既存の法律で対処する方針を示しています。\n- AI開発の現状については、AI研究所のリーダーや数学者から、現在のペースでの開発が人類に対する存亡の危機をもたらす可能性があるとの警告が発せられています。",
+    "url": "https://the-decoder.com/trump-announces-ai-force-and-plans-for-an-ai-czar-as-he-pushes-unchecked-ai-growth/"
+  },
+  {
+    "id": "3e23de0e-c1c5-8111-b149-d2c1458112e6",
+    "title": "Following OpenAI, Anthropic is also reportedly postponing its IPO",
+    "site": "THE DECODER",
+    "published": "2026-09-20T08:35:25.000Z",
+    "fetched": "2026-09-21T00:02:06.333Z",
+    "summary": "OpenAIに続き、AnthropicもIPO（新規株式公開）を延期したことが報じられました。\n\n- AnthropicはIPOの時期を2026年10月から11月へと先送りしており、アドバイザーによれば、これは好調な第3四半期の結果を提示して上場するためと説明されている。\n- 市場の投資家たちは、同社に対して約2兆ドルの企業評価額と最大1,000億ドルの資金調達を見込んでおり、これらはスペースXが6月のIPOで記録した数値を塗り替える規模となる。\n- 第1四半期から第2四半期にかけて売上高が倍増し、収益性が改善している一方で、延期の背景には、高額なコスト、OpenAIとの激しい競争、金利の上昇、テスト中に発覚したサイバーセキュリティリスクなどが影響しているとみられている。\n- 先にIPOを予定していたOpenAIもすでに上場を2027年に延期している。",
+    "url": "https://the-decoder.com/following-openai-anthropic-is-also-reportedly-postponing-its-ipo/"
+  },
+  {
+    "id": "3e23de0e-c1c5-81e1-8bdc-c13fadf8207f",
+    "title": "Quoting voxium",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-09-20T21:06:43.000Z",
+    "fetched": "2026-09-21T00:02:13.890Z",
+    "summary": "AI駆動開発が引き起こす現場の混乱と疲弊\n\n- 大企業に転職したvoxium氏によれば、仕様書、コード、テスト、チケットなど業務のあらゆる成果物がClaude Codeによって自動生成されている。\n- 経営層からの過度なプレッシャーにより、チームメンバーは誰も内容を理解・精読しないまま、コードをひたすら出荷し続ける状況を強いられている。\n- 「コードのプッシュはボトルネックではない」という経営層の誤った認識のもと、L1からL7までの全エンジニアが1日12〜13時間働き、AIと対話して「Enterキーを押すだけ」の作業に従事している。\n- 誰もがこの現状に不満を抱いており、AIによる過剰な効率化の押し付けが、かえってエンジニアの深刻な疲弊と形骸化した開発プロセスを生み出している。",
+    "url": "https://simonwillison.net/2026/Sep/20/voxium/"
+  },
+  {
+    "id": "3e23de0e-c1c5-81f2-8639-f7d1ea3ebdff",
+    "title": "Qwen-Image-2.1 released!",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-20T13:12:41.000Z",
+    "fetched": "2026-09-21T00:02:21.936Z",
+    "summary": "Qwen-Image-2.1のリリースと主な特徴\n\n- 画像生成・認識モデル「Qwen-Image-2.1」が新たにリリースされた。\n- 従来モデルと比較して、画像生成の精度や品質が大幅に向上している。\n- テキストの描画能力が改善され、画像内の文字をより正確に再現できるようになった。\n- 高い汎用性を持ち、多様なユースケースやデザイン業務への活用が期待される。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlgrft/qwenimage21_released/"
+  },
+  {
+    "id": "3e23de0e-c1c5-81ea-b168-fc65ed6024e5",
+    "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-20T18:05:43.000Z",
+    "fetched": "2026-09-21T00:02:31.105Z",
+    "summary": "Anthropic、OpenAI、SpaceXAI、GoogleがAI開発の減速をめぐる違法な合意を結んだとして提訴された\n\n- Anthropic、OpenAI、SpaceXAI、Googleの主要なAI企業4社が、AI開発のペースを意図的に落とすことで違法な合意を結んだとする集団訴訟が提起された。\n- 原告側は、これらの企業が競争を制限し、AI技術の急激な進歩やそれに伴う市場のダイナミクスをコントロールするために共謀したと主張している。\n- このような企業間の秘密裏の協定は、独占禁止法（反トラスト法）に違反する可能性があり、今後のAI業界の規制や競争環境に大きな影響を与える恐れがある。\n- AI技術が社会や経済に与える影響が急速に高まる中、業界トップ企業による開発方針の調整や不当な市場支配に対する監視の目がさらに厳しくなることが予想される。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlo52v/lawsuit_says_anthropic_openai_spacexai_and_google/"
+  },
+  {
+    "id": "3e23de0e-c1c5-818b-88b1-f61959a13918",
+    "title": "China's CXMT says new memory-chip platform enters mass production",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-20T06:29:42.000Z",
+    "fetched": "2026-09-21T00:02:38.869Z",
+    "summary": "中国の半導体大手である長鑫記憶 tecnologia（CXMT）が、最新のメモリチッププラットフォームの量産開始を発表しました。この動きは、中国国内における半導体の自給率向上と、メモリー半導体市場における競争力強化の重要なマイルストーンとなります。\n\n- 中国のメモリチップメーカーCXMTが、新しいメモリチッププラットフォームの量産を開始した\n- 本開発と量産化は、中国国内の半導体サプライチェーンの強化と自立化を促進する重要なステップである\n- 世界的な半導体市場において、中国企業の存在感と技術力がさらに高まる可能性がある\n- 新しいプラットフォームの詳細や性能については今後の展開が注目される",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl9c2o/chinas_cxmt_says_new_memorychip_platform_enters/"
+  },
+  {
+    "id": "3e23de0e-c1c5-8128-8458-f084aca637ab",
+    "title": "What is JEV and what is it used for?",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-20T11:20:05.000Z",
+    "fetched": "2026-09-21T00:02:49.404Z",
+    "summary": "JEV（Japanese Encephalitis Virus：日本脳炎ウイルス）とは何であり、何に使用（応用）されるのか\n\n- JEVは日本脳炎を引き起こすフラビウイルス科のウイルスであり、主に蚊を介して人間や動物に感染する。\n- 感染すると多くは無症状だが、一部で高熱、頭痛、麻痺などの重篤な神経症状を引き起こし、後遺症が残ったり死亡したりする場合がある。\n- 主な使用（目的）としては、医学や研究の分野において、安全で効果的なワクチンや治療薬を開発・製造するための基礎研究に利用されている。\n- また、ウイルスに対する診断薬の精度向上や、免疫学的メカニズムを解明するための実験モデルとしても活用されている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wleg4w/what_is_jev_and_what_is_it_used_for/"
+  },
+  {
+    "id": "3e23de0e-c1c5-817e-bacf-d6a44bf3bb55",
+    "title": "Please stop with the FP4 inference engines for the love of god",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-20T02:51:43.000Z",
+    "fetched": "2026-09-21T00:02:56.977Z",
+    "summary": "FP4推論エンジンの乱立を止めるべき\n\n- 現在、AI業界では量子化技術において4ビット浮動小数点（FP4）を用いた推論エンジンの開発が過熱しているが、その乱立はリソースの無駄遣いである。\n- FP4への極端な低精度化は、モデルの精度劣化リスクを伴うため、実用上のメリットがデメリットを上回らないケースが多い。\n- 業界は新しい推論エンジンの乱立よりも、既存のインフラの安定化や、より確実で実用的な高精度モデルの最適化に注力すべきである。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl56g2/please_stop_with_the_fp4_inference_engines_for/"
+  }
+]
