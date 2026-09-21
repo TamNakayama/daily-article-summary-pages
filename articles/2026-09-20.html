@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>記事まとめ 2026/09/20</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-09-20" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+</header>
+<h1>2026/09/20</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/" target="_blank" rel="noopener">Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters</a></h2>
+      <p>Alibaba、わずか70億パラメータでクローズドモデルを超える画像生成AI「Qwen-Image-2.1」を発表<br><br><ul><li>AlibabaのQwen AIチームが、画像生成・編集用のオープンウェイトモデル「Qwen-Image-2.1」をリリースした。</li><li>視覚生成コンポーネントはわずか70億パラメータながら、独自のベンチマークでは大半のクローズドモデルを凌駕すると主張しており、GeForce RTX 3090などの高性能なコンシューマー向けGPUで動作する。</li><li>透過画像（RGBA）のネイティブな生成・編集に対応し、最大10枚の参照画像を同時に使用したグループポートレートの作成やバーチャル試着、部屋のデザインなどが可能。</li><li>アーキテクチャの変更とKVキャッシュの再利用により推論速度が向上しており、特に複数の参照画像を使用する処理で効果を発揮する。</li><li>Hugging Face、GitHub、Model Scopeで公開されているが、研究用ライセンスのため商用利用にはAlibabaへの個別申請が必要となる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/tencents-gander-aims-to-keep-talking-while-it-works-in-the-background/" target="_blank" rel="noopener">Tencent's Gander aims to keep talking while it works in the background</a></h2>
+      <p>TencentのGander：バックグラウンドで作業しつつ自然な会話を維持するAIモデル<br><br><ul><li>ユーザーとリアルタイムで自然な会話を続けながら、バックグラウンドで複雑なタスクを処理できるAIモデルである。</li><li>音声、画像、テキストを同時に処理し、ユーザーがいつでも会話に割り込んだり、モデル側から進捗状況を伝えたりすることが可能である。</li><li>会話を秒単位で管理する「小脳」と、複雑なエージェントタスクを処理する交換可能な「脳」に機能を分担させることで、応答速度と計画性の両立を目指している。</li><li>競合モデルと比較して割り込み頻度が少ない一方、タスクの精度や動画・音声の理解において課題が見られる。</li><li>開発チームはモデルの重みやトレーニングデータを公開予定であり、すでにGitHub上でコードのレポジトリが用意されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/" target="_blank" rel="noopener">Runway wants to turn AI video generation into a live stream you control in real time</a></h2>
+      <p>Runway社は、AI動画生成をプロンプト入力から待機時間をなくし、リアルタイムで操作しながらライブストリーミングのように生成する新しいアプローチの研究を進めています。<br><br><ul><li>従来の動画生成における「プロンプト入力、待機、修正」という別々のプロセスをなくし、ユーザーが指示しながら動画をストリーミング生成する仕組みを目指している。</li><li>「GWM-1（General World Model）」や「Solaris」といった基盤技術を活用し、カメラ移動や音声、クリックなどの操作に応じてフレーム単位で動画をリアルタイム生成する。</li><li>リアルタイム生成により、アイデアから実行までの時間を短縮し、ユーザーが待ち時間ではなく動画の積極的なコントロールに時間を割けるようにする。</li><li>処理の高速化によってGPUの消費時間が減り、コスト効率が向上することで、これまで経済的に成り立たなかった用途のアプリケーションも実現可能になる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/daily-ai-usage-in-the-u-s-has-more-than-doubled-in-just-six-months/" target="_blank" rel="noopener">Daily AI usage in the U.S. has more than doubled in just six months</a></h2>
+      <p>米国における毎日のAI利用率は、わずか6ヶ月の間に2倍以上に急増しました。<br><br><ul><li>研究機関のEpoch AIと世論調査会社のIpsosが実施した代表的調査によると、米国のアダルト層におけるAIのほぼ毎日の利用率は、2026年3月の8%から8月には19%へと倍増した。</li><li>一方で、週に1日だけAIを利用する偶発的なユーザーの割合は、同期間に17%から10%へと減少した。</li><li>調査は3月に2,017人、8月に1,016人を対象に、米国人口を反映するように重み付けして実施された。</li><li>3月と8月では質問の形式（全体の使用頻度か、サービスごとの個別頻度か）に違いがあり、研究者らは8月の数値が実際の利用頻度を過小評価している可能性を指摘している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/simulated-students-that-make-realistic-mistakes-help-ai-tutors-learn-faster/" target="_blank" rel="noopener">Simulated students that make realistic mistakes help AI tutors learn faster</a></h2>
+      <p>リアルな間違いをする模擬生徒がAIチューターの学習を加速させる<br><br><ul><li>マイクロソフトとイリノイ大学の研究チームは、限られたデータから個々の生徒をリアルに再現するデジタルシミュレーションシステム「StudentSim」を開発した。</li><li>従来のAIチューターのトレーニングは実際の生徒を必要とするため、時間と費用がかかりすぎるという課題があった。</li><li>従来のモデルは生徒の行動を再現できてもチューターの説明を理解できず、逆に言語モデルベースのものは指示に従うものの個人の能力を再現できないという欠点があった。</li><li>StudentSimは、生徒の典型的な間違いや回答傾向を正確に再現する能力と、チューターの指導を受けて回答を修正する能力の両方を実現している。</li><li>このシステムにより、実際の生徒からのフィードバック収集が困難な状況でも、効率的かつ迅速にAIチューターの改善や学習を進めることが可能になる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/trump-announces-ai-force-and-plans-for-an-ai-czar-as-he-pushes-unchecked-ai-growth/" target="_blank" rel="noopener">Trump announces &quot;AI Force&quot; and plans for an &quot;AI czar&quot; as he pushes unchecked AI growth</a></h2>
+      <p>ドナルド・トランプ氏は、AI開発の成長を規制せず推進するため、「AIフォース」の創設や「AIツァー（責任者）」の任命計画を発表した。<br><br><ul><li>トランプ氏は、AIやデータセンターに対する批判を左派による攻撃と主張し、宇宙軍を模した「AIフォース」の設立や、高IQを持つ「AIツァー」の任命を明らかにしました。</li><li>米国内では、データセンターによる水や電力の大量消費、環境負荷、電気料金の高騰に対する反発や、AIによる雇用喪失への懸念が高まっています。</li><li>トランプ氏は、AIが米国経済の25%を占める可能性があり、中国に対する優位性を維持すると主張し、新たな規制は成長を遅らせるとして既存の法律で対処する方針を示しています。</li><li>AI開発の現状については、AI研究所のリーダーや数学者から、現在のペースでの開発が人類に対する存亡の危機をもたらす可能性があるとの警告が発せられています。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/following-openai-anthropic-is-also-reportedly-postponing-its-ipo/" target="_blank" rel="noopener">Following OpenAI, Anthropic is also reportedly postponing its IPO</a></h2>
+      <p>OpenAIに続き、AnthropicもIPO（新規株式公開）を延期したことが報じられました。<br><br><ul><li>AnthropicはIPOの時期を2026年10月から11月へと先送りしており、アドバイザーによれば、これは好調な第3四半期の結果を提示して上場するためと説明されている。</li><li>市場の投資家たちは、同社に対して約2兆ドルの企業評価額と最大1,000億ドルの資金調達を見込んでおり、これらはスペースXが6月のIPOで記録した数値を塗り替える規模となる。</li><li>第1四半期から第2四半期にかけて売上高が倍増し、収益性が改善している一方で、延期の背景には、高額なコスト、OpenAIとの激しい競争、金利の上昇、テスト中に発覚したサイバーセキュリティリスクなどが影響しているとみられている。</li><li>先にIPOを予定していたOpenAIもすでに上場を2027年に延期している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Sep/20/voxium/" target="_blank" rel="noopener">Quoting voxium</a></h2>
+      <p>AI駆動開発が引き起こす現場の混乱と疲弊<br><br><ul><li>大企業に転職したvoxium氏によれば、仕様書、コード、テスト、チケットなど業務のあらゆる成果物がClaude Codeによって自動生成されている。</li><li>経営層からの過度なプレッシャーにより、チームメンバーは誰も内容を理解・精読しないまま、コードをひたすら出荷し続ける状況を強いられている。</li><li>「コードのプッシュはボトルネックではない」という経営層の誤った認識のもと、L1からL7までの全エンジニアが1日12〜13時間働き、AIと対話して「Enterキーを押すだけ」の作業に従事している。</li><li>誰もがこの現状に不満を抱いており、AIによる過剰な効率化の押し付けが、かえってエンジニアの深刻な疲弊と形骸化した開発プロセスを生み出している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wlgrft/qwenimage21_released/" target="_blank" rel="noopener">Qwen-Image-2.1 released!</a></h2>
+      <p>Qwen-Image-2.1のリリースと主な特徴<br><br><ul><li>画像生成・認識モデル「Qwen-Image-2.1」が新たにリリースされた。</li><li>従来モデルと比較して、画像生成の精度や品質が大幅に向上している。</li><li>テキストの描画能力が改善され、画像内の文字をより正確に再現できるようになった。</li><li>高い汎用性を持ち、多様なユースケースやデザイン業務への活用が期待される。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wlo52v/lawsuit_says_anthropic_openai_spacexai_and_google/" target="_blank" rel="noopener">Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown</a></h2>
+      <p>Anthropic、OpenAI、SpaceXAI、GoogleがAI開発の減速をめぐる違法な合意を結んだとして提訴された<br><br><ul><li>Anthropic、OpenAI、SpaceXAI、Googleの主要なAI企業4社が、AI開発のペースを意図的に落とすことで違法な合意を結んだとする集団訴訟が提起された。</li><li>原告側は、これらの企業が競争を制限し、AI技術の急激な進歩やそれに伴う市場のダイナミクスをコントロールするために共謀したと主張している。</li><li>このような企業間の秘密裏の協定は、独占禁止法（反トラスト法）に違反する可能性があり、今後のAI業界の規制や競争環境に大きな影響を与える恐れがある。</li><li>AI技術が社会や経済に与える影響が急速に高まる中、業界トップ企業による開発方針の調整や不当な市場支配に対する監視の目がさらに厳しくなることが予想される。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wl9c2o/chinas_cxmt_says_new_memorychip_platform_enters/" target="_blank" rel="noopener">China's CXMT says new memory-chip platform enters mass production</a></h2>
+      <p>中国の半導体大手である長鑫記憶 tecnologia（CXMT）が、最新のメモリチッププラットフォームの量産開始を発表しました。この動きは、中国国内における半導体の自給率向上と、メモリー半導体市場における競争力強化の重要なマイルストーンとなります。<br><br><ul><li>中国のメモリチップメーカーCXMTが、新しいメモリチッププラットフォームの量産を開始した</li><li>本開発と量産化は、中国国内の半導体サプライチェーンの強化と自立化を促進する重要なステップである</li><li>世界的な半導体市場において、中国企業の存在感と技術力がさらに高まる可能性がある</li><li>新しいプラットフォームの詳細や性能については今後の展開が注目される</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wleg4w/what_is_jev_and_what_is_it_used_for/" target="_blank" rel="noopener">What is JEV and what is it used for?</a></h2>
+      <p>JEV（Japanese Encephalitis Virus：日本脳炎ウイルス）とは何であり、何に使用（応用）されるのか<br><br><ul><li>JEVは日本脳炎を引き起こすフラビウイルス科のウイルスであり、主に蚊を介して人間や動物に感染する。</li><li>感染すると多くは無症状だが、一部で高熱、頭痛、麻痺などの重篤な神経症状を引き起こし、後遺症が残ったり死亡したりする場合がある。</li><li>主な使用（目的）としては、医学や研究の分野において、安全で効果的なワクチンや治療薬を開発・製造するための基礎研究に利用されている。</li><li>また、ウイルスに対する診断薬の精度向上や、免疫学的メカニズムを解明するための実験モデルとしても活用されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wl56g2/please_stop_with_the_fp4_inference_engines_for/" target="_blank" rel="noopener">Please stop with the FP4 inference engines for the love of god</a></h2>
+      <p>FP4推論エンジンの乱立を止めるべき<br><br><ul><li>現在、AI業界では量子化技術において4ビット浮動小数点（FP4）を用いた推論エンジンの開発が過熱しているが、その乱立はリソースの無駄遣いである。</li><li>FP4への極端な低精度化は、モデルの精度劣化リスクを伴うため、実用上のメリットがデメリットを上回らないケースが多い。</li><li>業界は新しい推論エンジンの乱立よりも、既存のインフラの安定化や、より確実で実用的な高精度モデルの最適化に注力すべきである。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-09-20";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  function validateAndGo(value) {
+    if (value === CURRENT_DATE) return;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || dateList.indexOf(value) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(value);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+})();
+</script>
+</body>
+</html>
