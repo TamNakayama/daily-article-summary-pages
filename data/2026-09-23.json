@@ -1,0 +1,200 @@
+[
+  {
+    "id": "3e53de0e-c1c5-8142-80ac-f1574489b7fd",
+    "title": "ChatGPT Voice gets closer to \"Her\" with email, calendar, and Slack access",
+    "site": "THE DECODER",
+    "published": "2026-09-23T17:57:37.000Z",
+    "fetched": "2026-09-24T00:01:22.429Z",
+    "summary": "ChatGPT Voiceが大幅にアップグレードされ、メールやカレンダー、Slackなどのプラグインへのアクセスが可能になり、映画『her/世界でひとつの彼女』のような日常的なAIアシスタントにさらに近づきました。\n\n- ChatGPT Voiceが新モデル「GPT-6 Astra」「Sol」「Luna」に対応し、メール確認、カレンダーの予定管理、Slackの操作、金融アプリでの不正請求の発見、さらには決済ページ付きウェブサイトの構築まで、音声のみで直接処理できるようになりました。\n- 「ChatGPT Work」のWebおよびモバイル版でも音声による操作に対応し、話しかけるだけでドキュメント、プレゼンテーション、スプレッドシートの作成が可能になりました。\n- OpenAIのCEOであるサム・アルトマン氏が2024年の音声機能発表時にも言及していたSF映画「Her」のような、日常的なAIアシスタントの実現に向けた大きな一歩となります。\n- 新機能は最新のアプリバージョンですでに利用可能となっており、コンピュータの利用方法を根本から変える可能性を秘めている一方で、それに伴うリスクも指摘されています。",
+    "url": "https://the-decoder.com/chatgpt-voice-gets-closer-to-her-with-email-calendar-and-slack-access/"
+  },
+  {
+    "id": "3e53de0e-c1c5-8192-b1ac-ff909cdbd62f",
+    "title": "Google's new Flash TTS models let you design AI voices from scratch using text descriptions",
+    "site": "THE DECODER",
+    "published": "2026-09-23T17:39:10.000Z",
+    "fetched": "2026-09-24T00:01:30.339Z",
+    "summary": "Googleの新音声生成モデル「Gemini 3.8 Flash TTS」および「Flash-Lite TTS」の発表に関する要約です。\n\n- Googleは、100以上の言語に対応する新しい音声生成モデル「Gemini 3.8 Flash TTS」と「Flash-Lite TTS」を発表した。\n- 「Flash TTS」は、テキストによる詳細なプロンプトや30秒の音声サンプルから、新規のAIボイスをゼロから作成したりクローンしたりすることが可能である。\n- ゲームのキャラクターやオーディオブックなどのクリエイティブ用途向けに設計されたFlash TTSに加え、吹き替えや音声エージェント向けの大規模かつ低コストな音声生成に特化したFlash-Lite TTSが提供される。\n- 両モデルともに、セリフごとのト書き指定、2人による対話、笑い声やため息などの非言語音をサポートしている。\n- Gemini APIおよびGoogle AI Studioを通じて順次提供が開始されており、今後はGemini Enterprise APIでのアクセスも予定されている。",
+    "url": "https://the-decoder.com/googles-new-flash-tts-models-let-you-design-ai-voices-from-scratch-using-text-descriptions/"
+  },
+  {
+    "id": "3e53de0e-c1c5-817d-bea8-f8391c984c9c",
+    "title": "YouTube adds AI tools to Creator Studio with script coaching, smart thumbnails, and Gemini editing",
+    "site": "THE DECODER",
+    "published": "2026-09-23T16:37:43.000Z",
+    "fetched": "2026-09-24T00:01:38.238Z",
+    "summary": "YouTubeがクリエイター向けに新しいAIツールを導入\n\n- YouTube Studioに導入されたストーリーテリングアシスタントが、スクリプトやラフカットを分析し、ペーシングや構成の変更を提案する機能\n- 3つのプレビュー画像から視聴者ごとに最適なものを自動表示する「ダイナミックサムネイル」機能\n- ショート動画やYouTube Createアプリに、フレームの並べ替えやクリップのトリミングを行うチャットベースの編集アシスタント「Gemini」を追加\n- ライブ配信者向けに、英語からスペイン語へのAIリアルタイム翻訳機能や、チャンネルのトーンを学習するAIコメントモデレーション機能を展開\n- ディープフェイク対策として、顔認識機能に音声認識技術を追加して保護を強化",
+    "url": "https://the-decoder.com/youtube-adds-ai-tools-to-creator-studio-with-script-coaching-smart-thumbnails-and-gemini-editing/"
+  },
+  {
+    "id": "3e53de0e-c1c5-81ec-8678-e2d19236deea",
+    "title": "Anthropic engineer explains why Claude's writing got worse although the model got smarter",
+    "site": "THE DECODER",
+    "published": "2026-09-23T15:14:34.000Z",
+    "fetched": "2026-09-24T00:01:46.302Z",
+    "summary": "Anthropicのエンジニアが明かす、Claudeの文章力が賢さの向上とは裏腹に低下した理由\n\n- AIモデルは数学やコードの性能が向上する一方で、人間のための自然な文章力は停滞または低下していると指摘されている。\n- Claudeの独特でおかしな表現（クラウディッシュ）の主な原因は、AIモデル同士の理解に最適化された学習プロセスにある。\n- 人間の代わりにAIモデルに向けて文章を書くよう適応した結果、人間にとっては「情報が詰まりすぎた難解な文章」を生み出すようになってしまった。\n- 強化学習の報酬構造において、AIの理解力重視から人間の理解力重視へと方向転換することは、数学やコードの最適化とトレードオフの関係にある。\n- 最新のOpus 5.5では改善が見られるものの、人間にとって読みやすい自然な文章と高度なAI性能の両立は依然として困難な課題である。",
+    "url": "https://the-decoder.com/anthropic-engineer-explains-why-claudes-writing-got-worse-although-the-model-got-smarter/"
+  },
+  {
+    "id": "3e53de0e-c1c5-8108-b57b-d482b7340c6d",
+    "title": "Nvidia-backed Nscale keeps its biggest customer, Bytedance, out of its IPO filing",
+    "site": "THE DECODER",
+    "published": "2026-09-23T14:44:22.000Z",
+    "fetched": "2026-09-24T00:01:55.596Z",
+    "summary": "Nvidia支援のNscaleが米国IPO申請書から最大の顧客であるByteDanceを除外した背景と取引実態\n\n- Nvidia支援のAIクラウドプロバイダーであるNscaleが、予定している米国IPOの主要目論見書から、最大顧客である中国のByteDanceを一切記載せず除外していることがFinancial Timesの報道で判明した。\n- ByteDanceは2025年のNscaleの売上高3,300万ドルのうち73％を占めていたが、192ページのS-1提出書類には名前がなく、シンガポールの現地法人Springが巻末の付録に言及されているのみである。\n- 2025年5月、Springはノルウェーの旧暗号資産マイニング施設を転換したAIデータセンターで、NvidiaのB200チップ2,304個を利用する契約を結び、これが約1億5,000万ドルの資金調達の裏付けとなった。\n- この取引により、ByteDanceは米国による輸出規制の抜け穴を利用して、中国国内では直接購入できないNvidia製チップの利用を実現させているが、法的およびレピュテーション上のリスクを孕んでいる。\n- Nscaleは、MicrosoftやAnthropicとの大型契約の拡大に伴い、ByteDanceの売上比率が今年中に20％未満へ低下し、今後さらに縮小していくと予想している。",
+    "url": "https://the-decoder.com/nvidia-backed-nscale-keeps-its-biggest-customer-bytedance-out-of-its-ipo-filing/"
+  },
+  {
+    "id": "3e53de0e-c1c5-8173-9e98-de9df19d0ed3",
+    "title": "Meta's AI agent Muse draws 500,000 users in a week along with claims it copied OpenClaw",
+    "site": "THE DECODER",
+    "published": "2026-09-23T14:42:38.000Z",
+    "fetched": "2026-09-24T00:02:03.614Z",
+    "summary": "MetaのAIエージェント「Muse」が公開から1週間で50万人のユーザーを獲得した一方で、オープンソースプロジェクト「OpenClaw」の模倣であるという指摘が上がっている件について、概要は以下の通りです。\n\n- Metaの新しいAIエージェント「Muse」は、米国での提供開始から1週間で50万人以上のユーザーを獲得し、AppleのApp Storeで1位を記録した。\n- Museは、リサーチ、予約、費用の追跡、スケジュールの調整など、日常のルーティン作業を自動化するために設計されている。\n- ユーザーからファイル名や動作ルールが酷似しているとの指摘を受け、MetaはMuseがオープンソースプロジェクト「OpenClaw」から強いインスピレーションを得ていることを認めた。\n- Metaのスーパインテリジェンス・ラボのプロダクト責任者であるナット・フリードマン氏は、MuseがOpenClawに強く影響を受けているとX（旧Twitter）で公表した。\n- Museの今後の成否は、ユーザーがプライベートなアカウントや機密データをこのようなAIエージェントにどこまでアクセスさせるかに大きく依存している。",
+    "url": "https://the-decoder.com/metas-ai-agent-muse-draws-500000-users-in-a-week-along-with-claims-it-copied-openclaw/"
+  },
+  {
+    "id": "3e53de0e-c1c5-812a-88ba-cd5394c45d94",
+    "title": "Inside Basecamp Research, the AI startup turning evolution into training data",
+    "site": "THE DECODER",
+    "published": "2026-09-23T13:52:23.000Z",
+    "fetched": "2026-09-24T00:02:11.471Z",
+    "summary": "Basecamp Research：進化をAIのトレーニングデータに変えるスタートアップの内幕\n\n- Basecamp Researchは、NvidiaやAnthropicなどから1億4000万ドルを資金調達し、熱帯雨林や海洋などの遺伝子データを用いて生物学的AIモデル「EDEN」を開発している。\n- 同社は未開拓の生息地にいる微生物のゲノムからパターンを学習させ、がん治療などの細胞治療や抗生物質の設計への活用を目指している。\n- CTOのフィリップ・ロレンツ氏は、生物学の複雑性に対応するためには膨大なデータと小規模なターゲット実験の組み合わせが不可欠であると指摘している。\n- 現在は実験室レベルやマウスでのデータ段階であり、人間に対する安全性や有効性の証明に向けて、今後は臨床開発の推進が課題となる。",
+    "url": "https://the-decoder.com/inside-basecamp-research-the-ai-startup-turning-evolution-into-training-data/"
+  },
+  {
+    "id": "3e53de0e-c1c5-8114-884f-de574534839f",
+    "title": "Alibaba launches Qwen Audio 3.1 with new models and slashes AI audio prices by up to 95 percent",
+    "site": "THE DECODER",
+    "published": "2026-09-23T12:31:20.000Z",
+    "fetched": "2026-09-24T00:02:19.792Z",
+    "summary": "Alibabaが音声AIモデル「Qwen Audio 3.1」を発表し、関連APIの価格を最大95%引き下げ\n\n- AlibabaのAIチーム「Qwen」が、音声認識（ASR）、音声合成（TTS）、リアルタイム対話に対応する5つの新モデル「Qwen-Audio-3.1」を発表した。\n- ASRモデルは多言語や方言の認識精度が向上し、言い淀みや繰り返しの自動削除機能に加え、話者の識別、タイムスタンプ付与、感情や環境音の検出機能を備える。\n- TTSモデルや「TTS-Next」は、自然な多言語音声合成や、テキストプロンプトによる感情・速度・スタイルの細かな制御、1パスでの効果音や背景音の生成を実現している。\n- リアルタイムモデルは、同時発話とリスニング、即座の割り込みに対応し、ユーザーの気分の落ち込みを検知して共感を持った遅めの応答を行うことが可能である。\n- AlibabaはAI音声サービスの価格を大幅に引き下げており、TTSは約70%OFF、リアルタイムは約85%OFF、ASRは最大95%OFFに設定されている。",
+    "url": "https://the-decoder.com/alibaba-launches-qwen-audio-3-1-with-five-new-models-and-slashes-ai-audio-prices-by-up-to-95-percent/"
+  },
+  {
+    "id": "3e53de0e-c1c5-81bc-9cf8-f84da83837b7",
+    "title": "OpenAI hires Patreon co-founder Sam Yam to lead a new Creator Product division",
+    "site": "THE DECODER",
+    "published": "2026-09-23T10:04:07.000Z",
+    "fetched": "2026-09-24T00:02:27.587Z",
+    "summary": "OpenAI、新設のクリエイター向け製品部門の責任者にPatreon共同創業者のサム・ヤム氏を採用\n\n- OpenAIは、テキスト、画像、音声、動画生成AIの進化に伴い、クリエイター向けの新しいツールを開発する新部門「Creator Product」を立ち上げ、Patreonの共同創業者であるサム・ヤム氏を責任者として迎えた。\n- AI企業とクリエイターの間には、著作権物の無断学習や自動化による仕事の脅威を巡って長年緊張関係が存在している。\n- サム・ヤム氏は、人間の創造性が依然として最も重要であり文化を形作る力があると認めつつ、AIをクリエイティブなツールとして活用することでアイデアの具現化を支援する意欲を示している。\n- ヤム氏と共に、Patreonの元製品およびエンジニアリング責任者であるドリュー・ロウニー氏とシャノン・マ氏もOpenAIへ移籍し、クリエイターとそのコミュニティに向けた重要なツールの開発にあたる。\n- 新チームによるクリエイター向けツールの全貌は、来週開催される「OpenAI DevDay」で初めて公開される可能性がある。",
+    "url": "https://the-decoder.com/openai-hires-patreon-co-founder-sam-yam-to-lead-a-new-creator-product-division/"
+  },
+  {
+    "id": "3e53de0e-c1c5-81b4-8044-dcc7774b9acd",
+    "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-09-23T02:53:19.000Z",
+    "fetched": "2026-09-24T00:02:37.477Z",
+    "summary": "サンフランシスコで開催されるコーディングエージェントに関するイベント「SF October 14th: A Birds of a Feather Session on Agentic Engineering」の案内\n\n- サイモン・ウィリソン氏とジェシー・ヴィセント氏が、2026年10月14日にサンフランシスコで夕方のイベントを共同開催する。\n- コーディングエージェントを活用してユニークで面白いものを開発している人々を対象とした、インフォーマルな「ショー＆テル（成果や実験の発表会）」形式の集まり。\n- 公に議論していない研究、変わった実験、市場性が明確ではない未完成のプロジェクトの共有が特に歓迎される。\n- 製品の宣伝やピッチを行う場ではなく、エージェント型AIに関する初期段階の模索や実験的な試みを共有し、その独特さを楽しむことが目的。\n- 参加にあたって堅苦しいプレゼンテーションは不要で、他の開発者や実験者たちと意見を交わしながら交流できる。",
+    "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/"
+  },
+  {
+    "id": "3e53de0e-c1c5-811c-8655-cd8b9098ecc1",
+    "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+    "site": "Hugging Face Blog",
+    "published": "2026-09-23T18:41:40.000Z",
+    "fetched": "2026-09-24T00:02:45.287Z",
+    "summary": "NVIDIA WarpとMjWarpを活用したロボットシミュレーションの高速化\n\n- CPUベースのMuJoCoシミュレーションをGPU上で大量並列化するため、NVIDIA Warpを基盤とした「MuJoCo Warp (MJWarp)」を活用する。\n- SO-101フォロワーアームのモデルを使用し、最大2,048環境もの並列シミュレーションを実行可能にするワークフローと移行手順を解説している。\n- NVIDIA Warpは、SIMT（単一命令・複数スレッド）、自動微分、PyTorch/JAXとの相互運用性を備えたPythonカーネル言語を提供する。\n- 単一ロボットのMPCやテレオペには従来のMuJoCo CPUが適しているが、最大スループットを求める場合にはMJWarpが最適な選択肢となる。",
+    "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp"
+  },
+  {
+    "id": "3e53de0e-c1c5-8107-ad91-d142f701edbe",
+    "title": "Mods: can we do something about half the forum getting filled with these advertising posts for Jev?",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-23T13:54:12.000Z",
+    "fetched": "2026-09-24T00:02:53.185Z",
+    "summary": "Redditなどのインターネット掲示板において、「Jev」という人物やブランドに関する宣伝広告の投稿がフォーラムの半分を占有している現状について、ユーザーがモデレータ（管理者）に対し、何らかの対策や規制を行うよう強く求めている。\n\n- フォーラム内で「Jev」に関連する宣伝広告の投稿が急増している。\n- 広告投稿が全体の半分ほどを占めており、掲示板の利便性や閲覧環境が損なわれている。\n- 一般ユーザーの間で、こうしたスパム的な宣伝行為に対する不満が高まっている。\n- 掲示板の秩序を維持するため、モデレータ（管理者）に対して迅速な対応や規制措置の実施を求めている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wo6o0f/mods_can_we_do_something_about_half_the_forum/"
+  },
+  {
+    "id": "3e53de0e-c1c5-8188-993c-cf16f7d92e79",
+    "title": "Pirate Face - pirate bay for LLMs",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-23T05:50:38.000Z",
+    "fetched": "2026-09-24T00:03:01.387Z",
+    "summary": "Pirate Face: LLMのためのパイレーツ・ベイ\n\n- 「Pirate Face」は、大規模言語モデル（LLM）版の「パイレーツ・ベイ（海賊版共有サイト）」として位置づけられているプラットフォームである。\n- AI開発や研究において、商用モデルやオープンソースモデルへのアクセスを民主化あるいは自由化する目的で考案されている可能性がある。\n- 著作権やライセンスが厳格に管理されるAIモデルや関連データが、制限なく共有・流通する場を提供する試みとして注目を集めている。\n- 従来のファイル共有ソフトのように、中央集権的な管理者を介さずにユーザー間で直接LLMのウェイトや関連リソースがやり取りされる仕組みを想定している。\n- AI技術の急速な発展とクローズド化が進む現状に対し、オープンアクセスや情報共有の自由を主張するカウンターカルチャー的な側面を持っている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnxhji/pirate_face_pirate_bay_for_llms/"
+  },
+  {
+    "id": "3e53de0e-c1c5-81d6-a2be-c69a6c96be14",
+    "title": "this is not even a competition at this point ... this is embarrassing",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-23T07:54:00.000Z",
+    "fetched": "2026-09-24T00:03:09.498Z",
+    "summary": "もはや勝負ではなく、あまりの圧倒的な差に恥ずかしさを覚えるほどの状況が発生している。\n\n- 記事の主題は、特定の状況や競争において、一方の圧倒的な勝利または力量差が明らかであることに対する驚きや皮肉である。\n- 「もはや勝負ではない」と表現されるほど、両者の間に埋めがたい実力差や結果の開きがあることを示している。\n- 「恥ずかしい」という強い言葉を用いて、敗者側の惨めさや、競合すらいちじるしく成立していない現状を強調している。\n- 具体的な文脈や対象は本文に記載されていないが、スポーツ、ビジネス、あるいはネット上の議論などにおいて、一方的な展開に対する批判や嘲笑として使われる典型的な表現である。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnzlav/this_is_not_even_a_competition_at_this_point_this/"
+  },
+  {
+    "id": "3e53de0e-c1c5-8112-a824-f72820d039ac",
+    "title": "Jev isn't new tech. Its marketing targets people who think AI started with LLMs.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-23T18:33:21.000Z",
+    "fetched": "2026-09-24T00:03:17.434Z",
+    "summary": "Jevは新しい技術ではなく、LLM（大規模言語モデル）の登場からAIを認識し始めた人々をターゲットにしたマーケティング手法にすぎない。\n\n- Jevの本質は目新しい技術の革新ではなく、過去の技術や既存の概念を新しい用語や演出で包み込んだマーケティング戦略である。\n- AIの歴史や技術的背景に詳しい層にとっては既知のものであるが、近年のLLMブーム以降にAI分野に関心を持った層を主要なターゲット層としている。\n- このような手法は、表面的な新しさを強調することで、技術的な本質を見えにくくし、誇大広告を生み出す温床になりやすいという問題点を内包している。\n- AI技術の動向を正しく理解するためには、一時的なバズワードや巧みなマーケティング表現に惑わされず、その裏にある技術的実体を冷静に見極める視点が不可欠である。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woe70t/jev_isnt_new_tech_its_marketing_targets_people/"
+  },
+  {
+    "id": "3e53de0e-c1c5-8102-982e-e0cf7ad6fcdd",
+    "title": "Cost of intelligence is dropping fast",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-09-23T09:38:19.000Z",
+    "fetched": "2026-09-24T00:03:25.090Z",
+    "summary": "AIの知性のコストは急速に低下しており、技術革新と社会への普及が劇的に加速している。\n\n- AIの処理能力あたりのコストが急激に低下しており、技術の利用障壁が大幅に下がっている\n- 高性能なAIモデルがより安価に提供されることで、企業から個人まで幅広い層での活用が進んでいる\n- 低コスト化の背景には、ハードウェアの進化、アルゴリズムの効率化、開発競争の激化が存在する\n- AIの低価格化は新たなサービスの誕生を促し、経済や産業構造全体に大きな変革をもたらしている",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wo1bct/cost_of_intelligence_is_dropping_fast/"
+  },
+  {
+    "id": "3e53de0e-c1c5-81d1-b9fe-c293df560dda",
+    "title": "v0.34.4-rc1: mlxrunner: Update XGrammar to 0.2.7 for structured outputs",
+    "site": "Ollama Blog",
+    "published": "2026-09-23T23:36:46.000Z",
+    "fetched": "2026-09-24T00:03:32.592Z",
+    "summary": "Ollamaのリリース「v0.34.4-rc1」に関するGitHubのページであり、Apple Silicon（MLX）環境等での構造化出力（Structured Outputs）の精度や性能向上に関連するアップデートが含まれています。\n\n- Ollamaのリリース候補版である「v0.34.4-rc1」が公開された。\n- mlxrunnerにおいて、構造化出力機能のために「XGrammar」のバージョンを0.2.7にアップデートした。\n- Apple Silicon（MLX）を活用した環境での処理や互換性の改善が行われている。\n- GitHubのollama/ollamaリポジトリを通じて、ソースコードや詳細な変更履歴を確認できる。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc1"
+  },
+  {
+    "id": "3e53de0e-c1c5-8123-bfa4-ed126c680041",
+    "title": "v0.34.4",
+    "site": "Ollama Blog",
+    "published": "2026-09-23T02:24:43.000Z",
+    "fetched": "2026-09-24T00:03:41.051Z",
+    "summary": "Ollama v0.34.4 リリース情報\n\n- AIモデルの実行・管理ツールである「Ollama」のバージョン「v0.34.4」のリリースぺージである。\n- GitHub上の「ollama/ollama」リポジトリで公開されており、ソースコードやリリースノートにアクセスできる。\n- 開発者向けのコード作成支援機能（GitHub Copilotなど）、自動化ワークフロー（Actions）、セキュリティ機能などのGitHubプラットフォーム全体の機能がナビゲーションメニューから利用可能となっている。\n- リポジトリの統計情報として、多数のスター（18.2万超）やフォーク（1.8万超）を獲得しており、活発なオープンソースプロジェクトであることが示されている。\n- IssueやPull requestを通じて、コミュニティによるバグ報告や機能追加の議論、開発が継続的に行われている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc0"
+  },
+  {
+    "id": "3e53de0e-c1c5-81e8-aa6f-fa8388f9adec",
+    "title": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-09-23T22:54:56.000Z",
+    "fetched": "2026-09-24T00:03:49.324Z",
+    "summary": "放射線科医の思考プロセスを模倣する3次元CT用オープンVLM「NV-Reason-CT」の発表\n\n- NVIDIAは、3次元CT分析のために特別に設計されたビジョン言語モデル（VLM）「NV-Reason-CT」を発表し、胸部や腹部のボumetricイメージングにおける推論機能を拡張した。\n- 本モデルは、完全な3Dビジョン・トランスフォーマー・エンコーダとQwen3.5-4B言語モデルを組み合わせ、放射線科医の体系的なレビューを模した思考の連鎖（Chain-of-Thought）による構造化された診断レポートを生成する。\n- CT-RATEベンチマークにおいて、Macro-F1が0.614、Macro-AUROCが0.871という最先端の成果を達成し、既存の3D対照学習や2D/3D融合のベースラインを上回った。\n- NIHの放射線科医による検証では、モデルの段階的な思考プロセスが信頼性と監査可能性をもたらすと評価され、その臨床的妥当性が確認されている。\n- オープンな研究基盤として提供され、専門的なCTアプリケーション向けの後学習をサポートするとともに、セグメンテーションや合成データ生成のための他のNVIDIA医療用AIモデルとも統合される。",
+    "url": "https://developer.nvidia.com/blog/introducing-nv-reason-ct-open-3d-ct-vlm-for-radiologist-chain-of-thought-reasoning/"
+  },
+  {
+    "id": "3e53de0e-c1c5-819d-9f05-ffa7d9156136",
+    "title": "Validate GPU Cluster Readiness Before AI Workloads Land",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-09-23T19:45:19.000Z",
+    "fetched": "2026-09-24T00:03:57.144Z",
+    "summary": "AIワークロード稼働前のGPUクラスターの準備状況を検証するNVIDIA Cluster Readiness Engine (NVCRE)について解説しています。\n\nAIワークロード稼働前のGPUクラスター検証に関する重要なポイントは以下の通りです。\n\n- NVIDIA Cluster Readiness Engine (NVCRE)は、実際の分散ワークロードを実行して本番稼働前のGPUクラスターの準備状況を証明するオープンソースのKubernetesコントローラーである。\n- 個々のヘルスチェックをクリアしたクラスターでもAIワークロードで失敗する課題に対し、トポロジーを認識したノードグループで検証を行う。\n- カスタムリソースによる階層型APIを採用し、NCCL通信やNeMo事前学習などのカテゴリや特定のノードに障害を切り分けて特定する。\n- 障害発生時には、適応型障害分離機能によってグループを自動分割して再テストを行い、疑わしい少数のノードを効率的に特定する。\n- プラットフォーム検出やフレームワーク固有のランタイム設定などのセットアップを自動化し、継続的な監視や構成検証ツールと統合される。",
+    "url": "https://developer.nvidia.com/blog/validate-gpu-cluster-readiness-before-ai-workloads-land/"
+  },
+  {
+    "id": "3e53de0e-c1c5-818d-baaf-e256ada66be4",
+    "title": "Manage Kubernetes Node Fleets with NodeWright",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-09-23T18:25:49.000Z",
+    "fetched": "2026-09-24T00:04:05.119Z",
+    "summary": "NodeWrightによるKubernetesノードフリート管理の概要と利点\n\n- NodeWrightは、ワークロードを中断することなく、GPUクラスター全体でホストOSの宣言的な設定や更新を行うオープンソースのKubernetesネイティブパッケージマネージャーである。\n- ノードごとにCordon（停止）、ポッドの待機、Drain（退避）、パッケージ適用、Uncordon（復旧）といった一連の処理を安全にオーケストレーションする機能を持つ。\n- DeploymentPolicyリソースを活用し、固定・線形・指数関数的なバッチ戦略を用いて、フリート全体への段階的なロールアウトを実現する。\n- カーネルパラメータのチューニングやCVE対応、セキュリティエージェントの導入などのホストレベルの操作をパッケージで管理し、Kubernetesを通じて障害を検知する。\n- NVIDIA AI Cluster Runtimeなどと統合され、バージョンロックされたレシピの適用や、ワークロード実行前の検証およびランタイムの障害監視をサポートする。",
+    "url": "https://developer.nvidia.com/blog/manage-kubernetes-node-fleets-with-nodewright/"
+  },
+  {
+    "id": "3e53de0e-c1c5-8166-8ecc-f688aa22cdbf",
+    "title": "How SWE-Serve Exposes the Gap Between Local Tests and Live Serving",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-09-23T16:00:00.000Z",
+    "fetched": "2026-09-24T00:04:12.892Z",
+    "summary": "SWE-Serveが暴露するローカルテストと本番サービングのギャップ\n\n- AIコーディングエージェントのパッチはローカルテストを通過しても、ライブサーバーでモデルを読み込んでリクエストを処理する際に失敗することがある。\n- SWE-ServeはSGLangのプルリクエストから派生した53の推論エンジニアリングタスクを用いて、完全なサービングパスを通じた検証の重要性を評価する。\n- ライブサービングチェックを含む場合、パッチの完全検証通過率は45.9%に低下し、除外時の69.4%と比較して約3分の1のパッチが検証に失敗することが判明した。\n- 複数ドメインにまたがるタスクは単一ドメインよりもパス率が21.3ポイント低く、評価されたすべてのモデルで同様のギャップが確認された。\n- mini-swe-agentで評価された11モデルの平均pass@1は34.6%から75.5%の範囲であり、Claude Opus 5やGPT-5.6 Solなどが上位に位置する。",
+    "url": "https://developer.nvidia.com/blog/how-swe-serve-exposes-the-gap-between-local-tests-and-live-serving/"
+  }
+]
