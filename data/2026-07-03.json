@@ -1,0 +1,146 @@
+[
+  {
+    "id": "3933de0e-c1c5-815c-b484-d52ac97d48c4",
+    "title": "Microsoft follows Anthropic and OpenAI into the AI super app race with overhauled Copilot and AutoPilot agents",
+    "site": "THE DECODER",
+    "published": "2026-07-03T19:24:40.000Z",
+    "fetched": "2026-07-04T00:00:40.000Z",
+    "summary": "# Microsoftが「Copilot」を刷新し、AIスーパーアプリ競争に本格参入\n\n* **Copilotの統合と刷新**: Microsoftは、消費者向けと企業向けのCopilotアプリを統合し、8月に新たなバージョンをリリースする計画です。\n* **「AutoPilot」エージェントの導入**: スケジュール管理やメールの要約など、バックグラウンドでタスクを自動実行する新しいAIエージェント「AutoPilot」を搭載し、追加料金で提供予定です。\n* **実用性への回帰**: 「Copilot Podcasts」や「Copilot Labs」などの実験的機能を廃止し、AIの知能そのものを追い求めるのではなく、実務成果に直結する「結果重視」のツールへと方針を転換します。\n* **AI導入支援組織の新設**: AI導入による価値を可視化するため、Microsoftのエンジニアが顧客企業の各部署に直接入り込み、ワークフローへのAI組み込みを支援する新たな体制を構築します。\n* **AIスーパーアプリ競争の激化**: Anthropicの「Claude Code」やOpenAIの「Codex」といった競合に対抗し、単なるチャットボットを超えたAIの活用環境を整備することで、巨額の投資に見合う価値の証明を目指します。",
+    "url": "https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/"
+  },
+  {
+    "id": "3933de0e-c1c5-81b5-81b8-f21e54cce602",
+    "title": "Claude Code's complicated China problem involves bans on both sides of the Pacific",
+    "site": "THE DECODER",
+    "published": "2026-07-03T17:11:33.000Z",
+    "fetched": "2026-07-04T00:00:58.000Z",
+    "summary": "# Anthropicの「Claude Code」を巡る米中間の利用制限問題\n\n* **相互のアクセス禁止措置：** Anthropic社は中国企業によるClaude Codeの利用を規約で禁止しているが、中国企業はクラウドサービスや海外子会社、VPNを駆使して回避している。対照的に、Alibaba社などの中国側も、社内でのClaude Code利用を禁じ、関連モデルの削除を指示している。\n* **対立の背景：** 中国側による禁止措置の引き金は、Claude Code内に中国国内のユーザーを特定・追跡し得る隠しコードの存在が指摘されたことにある。Anthropic側は、これはかつてのアカウント悪用対策の実験であり、現在はより強力な保護策に置き換わっていると釈明している。\n* **モデル蒸留への懸念：** Anthropicは以前から、AlibabaやDeepSeek、Moonshot AI、MiniMaxといった中国のAI企業が、Claudeの出力を利用して自社の小型モデルを学習させる「モデル蒸留」を行っていると非難している。\n* **米中技術摩擦の深化：** AI開発を巡る知的財産保護や安全保障上の対立により、両国間で技術的なアクセス制限が相互に強化される複雑な状況が続いている。",
+    "url": "https://the-decoder.com/claude-codes-complicated-china-problem-involves-bans-on-both-sides-of-the-pacific/"
+  },
+  {
+    "id": "3933de0e-c1c5-817e-b923-d7c6973d4f02",
+    "title": "Security vulnerability reports have exploded since AI models started hunting for bugs",
+    "site": "THE DECODER",
+    "published": "2026-07-03T16:49:47.000Z",
+    "fetched": "2026-07-04T00:01:15.000Z",
+    "summary": "# AIによる脆弱性発見が急増、セキュリティ報告件数が過去最高を記録\n\n*   **脆弱性報告の爆発的増加**: 2026年6月だけで約1,500件の高リスク・深刻な脆弱性（CVE）が報告され、過去の月間記録の3.5倍に達した。\n*   **AIモデルの関与**: この急増は、Anthropic社の「Claude Mythos Preview」やOpenAIの「Daybreak」といった、AIが自律的にソフトウェアの脆弱性を発見するツールの普及と時期が重なっている。\n*   **AIによる成果**: Anthropicの「Glasswing」プログラムだけでも、これまでに1万件以上の高リスクな脆弱性を特定しており、AIがセキュリティ調査の効率を劇的に変えている。\n*   **新時代の到来**: セキュリティ報告数の急増は、単なるバグの増加ではなく、AIを用いた脆弱性検出が本格化していることを示唆している。",
+    "url": "https://the-decoder.com/security-vulnerability-reports-have-exploded-since-ai-models-started-hunting-for-bugs/"
+  },
+  {
+    "id": "3933de0e-c1c5-81da-91db-dbf2da3bb84f",
+    "title": "UK's AI Security Institute finds standard benchmarks systematically underestimate what AI agents can actually do",
+    "site": "THE DECODER",
+    "published": "2026-07-03T16:14:44.000Z",
+    "fetched": "2026-07-04T00:01:33.000Z",
+    "summary": "### タイトル：英国AI安全研究所：標準ベンチマークがAIエージェントの能力を過小評価していると指摘\n\n*   **能力の過小評価：** 標準的なAIベンチマークは計算資源（コンピューティング予算）に制限があるため、AIエージェントの真の能力を体系的に過小評価していることが明らかになった。\n*   **計算時間で性能が向上：** AIに割り当てる計算時間を増やすことで、モデルの成功率は最大25%向上し、特にサイバーセキュリティやソフトウェア開発といった複雑なタスクで顕著な改善が見られた。\n*   **人間との共通点：** AIが必要とするトークン（計算量）の量は、人間が同様のタスクを完了するために必要な時間と相関しており、難易度の高いタスクほど計算資源の投入が不可欠である。\n*   **最新モデルへの恩恵：** 計算予算の拡大による性能向上は、古いモデルよりも最新の高性能モデルにおいてより大きく現れる傾向がある。\n*   **評価手法の見直しが必要：** 一定の計算制限下でのスコアはAIの「最低限の能力」しか示しておらず、正確なリスク評価や実力測定のためには評価基準の再考が必要である。",
+    "url": "https://the-decoder.com/uks-ai-security-institute-finds-standard-benchmarks-systematically-underestimate-what-ai-agents-can-actually-do/"
+  },
+  {
+    "id": "3933de0e-c1c5-8170-a8e9-d774c84b4187",
+    "title": "GPT and Claude failed Bridgewater's finance tests because the right answers were never public",
+    "site": "THE DECODER",
+    "published": "2026-07-03T11:16:42.000Z",
+    "fetched": "2026-07-04T00:01:51.000Z",
+    "summary": "タイトル：**GPTやClaudeがブリッジウォーター社の金融試験で不合格だった理由：正解が非公開情報だったため**\n\n**要約：**\n*   **専門特化したAIモデルの優位性：** ヘッジファンドのブリッジウォーター社と「Thinking Machines Lab」が開発したオープンモデル（Qwen3-235B）をファインチューニングした結果、汎用的な大手AIモデルを金融文書の解析精度で上回る成果を出した。\n*   **高い精度とコスト効率：** 独自開発のモデルは金融業務の試験で約85％の精度を達成し、既存の商用AIと比較して運用コストを14分の1に削減することに成功した。\n*   **商用モデルの限界：** GPTやClaudeなどの既存モデルが同試験で低評価だったのは、金融判断の基準となる「正解」が一般公開されていない企業の機密・暗黙知に基づいていたためである。\n*   **データ内製化の有効性：** 本事例は、企業が機密情報を外部のAIプロバイダーと共有することなく、自社の専門知識を活用することで、極めて強力かつ効率的なAIソリューションを構築できることを示している。",
+    "url": "https://the-decoder.com/gpt-and-claude-failed-bridgewaters-finance-tests-because-the-right-answers-were-never-public/"
+  },
+  {
+    "id": "3933de0e-c1c5-8107-b46f-ec387f5e6357",
+    "title": "Meta's AI agent push is moving slower than Zuckerberg planned",
+    "site": "THE DECODER",
+    "published": "2026-07-03T11:05:22.000Z",
+    "fetched": "2026-07-04T00:02:08.000Z",
+    "summary": "### MetaのAIエージェント開発、ザッカーバーグ氏の計画より遅延\n\n* **開発スピードの停滞**\n  マーク・ザッカーバーグCEOは社内タウンホールにて、注力しているAIエージェントの開発が過去4ヶ月間、期待したほどの加速を見せていないことを認めた。\n* **組織再編の課題**\n  AIエージェント開発を軸に進めた大規模な組織再編が計画通りに機能しておらず、幹部陣がスケジュールの見積もりを誤ったことを同氏は示唆した。\n* **期待値とのギャップ**\n  今年初頭には他社のAIツールなどの進展を受け、幹部らは開発の加速に対して非常に楽観的であったが、現状はまだ目指した成果に到達できていない。\n* **大規模投資の重圧**\n  Metaは今年最大1,450億ドルという巨額をAIインフラに投じ、数千人規模の人員配置転換を行うなど「全振り」の姿勢を見せているが、投資に見合うリターンを出すための苦戦が続いている。",
+    "url": "https://the-decoder.com/metas-ai-agent-push-is-moving-slower-than-zuckerberg-planned/"
+  },
+  {
+    "id": "3933de0e-c1c5-8167-bc03-d1ad82169f33",
+    "title": "Tesla caps employee AI spending at $200 per week",
+    "site": "THE DECODER",
+    "published": "2026-07-03T10:56:51.000Z",
+    "fetched": "2026-07-04T00:02:25.000Z",
+    "summary": "### Teslaが従業員のAI利用コストに週200ドルの上限を設定\n\n*   **コスト管理の徹底：** テスラは社内のAI利用コストに週200ドルの上限を設けました。これまではソフトウェアエンジニアが週に数千ドル相当のトークンを消費することも珍しくありませんでしたが、今後は制限を超える利用には承認が必要となります。\n*   **xAI製品は対象外：** イーロン・マスク氏のAI企業「xAI」のベータ版製品は、今回の利用上限の対象外となっています。\n*   **「Bottle Rocket」プラットフォームの導入：** テスラはOpenAIやAnthropic、xAI、Cursorなどのモデルを利用できる社内プラットフォーム「Bottle Rocket」を展開しています。\n*   **GrokよりClaudeが人気：** マスク氏は従業員に対し、Cursorの「Composer」や「Grok」の利用を推奨していましたが、社内ではGrokよりもAnthropicの「Claude」の方が人気を集めています。\n*   **AI活用による成長戦略：** テスラは現在売上が停滞しており、今後ロボタクシーや人型ロボット「Optimus」の大規模展開に向けて、AIの活用を戦略の要に据えています。",
+    "url": "https://the-decoder.com/tesla-caps-employee-ai-spending-at-200-per-week/"
+  },
+  {
+    "id": "3933de0e-c1c5-81b5-b82c-dd2a03a4548f",
+    "title": "Chinese AI video maker Kling raises $2 billion as it gears up for Hong Kong IPO",
+    "site": "THE DECODER",
+    "published": "2026-07-03T08:53:16.000Z",
+    "fetched": "2026-07-04T00:02:43.000Z",
+    "summary": "# 中国のAI動画生成企業「Kling」、香港市場での上場に向けて約20億ドルを調達\n\n*   中国の動画配信プラットフォーム「快手（Kuaishou）」傘下のAI動画生成部門「Kling」が、約20億ドル（約138.2億元）の資金調達を実施した。\n*   今回の調達により、Klingの企業価値は180億ドルに評価されている。主要投資家にはTencentやCitic Securitiesなどが名を連ねる。\n*   KuaishouはKlingの分社化を計画しており、香港証券取引所への新規株式公開（IPO）を目指している。\n*   Klingは動画生成AI分野において、Googleの「Veo 3.1」やRunwayの「Gen-4.5」などの海外有力モデルと競合しており、最新モデル「Kling 3.0」を展開している。\n*   現在、MiniMaxやZhipu AIなど、中国のAI企業による香港市場でのIPOの動きが加速している。",
+    "url": "https://the-decoder.com/chinese-ai-video-maker-kling-raises-2-billion-as-it-gears-up-for-hong-kong-ipo/"
+  },
+  {
+    "id": "3933de0e-c1c5-81b0-ba8b-ca7dfdc5d05f",
+    "title": "Open Source AI Gap Map",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-03T22:04:31.000Z",
+    "fetched": "2026-07-04T00:03:00.000Z",
+    "summary": "### タイトル：オープンソースAIの現状を可視化する「Open Source AI Gap Map」\n\n* **オープンソースAIの網羅的なインデックス公開**：非営利団体「Current AI」が、オープンソースAIエコシステムの現状を可視化した「Gap Map v0.1」を公開しました。\n* **膨大なデータの詳細な分類**：421の主要製品（ソフトウェア、モデル、データセット、ハードウェア）が14のカテゴリと3層のスタック構造で詳細に分類されています。\n* **研究用データとしての価値**：Gap Mapの背後にあるデータ（1,184件のYAMLファイルなど）はMITライセンスでGitHubにて公開されており、誰でも調査や分析に利用可能です。\n* **大規模な追跡調査**：分類対象外を含む合計24,400以上の成果物が存在しており、プロジェクトは現在16,000を超えるGitHubリポジトリを追跡しています。\n* **データの活用性**：データはGitHubで公開されているため、「Datasette Lite」などのツールを利用して、CSV形式などで容易に探索・分析が可能です。",
+    "url": "https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-tag"
+  },
+  {
+    "id": "3933de0e-c1c5-8122-afa5-f4a14cb6df41",
+    "title": "Quoting Josh W. Comeau",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-03T21:25:52.000Z",
+    "fetched": "2026-07-04T00:03:18.000Z",
+    "summary": "### タイトル：AI普及による開発者向け教育ビジネスへの深刻な影響\n\n* **開発者向けオンラインコースの売上が急減**\n  著名な開発者講師であるJosh W. Comeau氏は、自身の講座の売上が前年比で大幅に減少（50%以上）しており、他のコースクリエイターも同様の苦境に立たされていることを報告しています。\n* **将来への不安による学習意欲の低下**\n  「近い将来、開発者の仕事自体がAIに代替されるのではないか」という懸念から、新しいスキル習得に時間や費用を投資することへ慎重になる人が増えています。\n* **LLM（大規模言語モデル）の台頭による学習手段の変化**\n  AIがパーソナライズされた家庭教師として機能するようになったため、体系化された有料コースを購入するインセンティブが低下しています。\n* **コンテンツの無断利用に対する懸念**\n  クリエイターが苦労して制作したコンテンツが、同意や対価を得られないままAIの学習データとして吸い上げられ、再生成されている現状に対する強い危機感が示されています。",
+    "url": "https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-tag"
+  },
+  {
+    "id": "3933de0e-c1c5-81f7-af76-df412bca9236",
+    "title": "Fable's judgement",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-03T18:51:06.000Z",
+    "fetched": "2026-07-04T00:03:35.000Z",
+    "summary": "### タイトル：AIエージェントに判断を委ねることで、コストと効率を最適化する\n\n*   **「AIの判断」を尊重する**\n    コーディングの手順を人間が細かく指示するのではなく、テスト作成の有無や判断の要否などはAI自身の裁量に任せる方が効率的である。\n*   **タスクに応じてモデルを使い分ける**\n    すべてを高機能なモデルで行うのではなく、単純な実装や機械的な修正には軽量モデル（Haikuなど）を、設計や判断が必要な作業には高性能モデル（Sonnetなど）を使い分けることが重要。\n*   **「サブエージェント」の活用**\n    指示出しを行うメインのAIに「適切な下位モデルを選んでサブエージェントとして実行せよ」と命じることで、自動的にコストパフォーマンスの高い作業フローを構築できる。\n*   **トークン消費の抑制と生産性の向上**\n    高性能モデルのトークン使用量を抑えつつ、作業の大部分をエージェントに任せることで、限られた予算内で開発スピードを大幅に向上させることができる。",
+    "url": "https://simonwillison.net/2026/Jul/3/judgement/#atom-tag"
+  },
+  {
+    "id": "3933de0e-c1c5-811a-880d-c9b656d20b39",
+    "title": "GLM5.2 on 5x Pro 6000s and a 5090, an expensive journey",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-03T12:10:07.000Z",
+    "fetched": "2026-07-04T00:03:53.000Z",
+    "summary": "# GLM-5.2を高性能GPU環境で運用するコストと課題\n\n* **結論：** NVIDIA RTX 6000 Ada世代を5基とRTX 5090を組み合わせた高価な環境でも、LLMの推論効率やコスト対効果を最大化するのは容易ではない。\n* **ハードウェア投資の規模：** プロフェッショナル向けGPUである「RTX 6000 Ada」を複数導入し、さらに最新の「RTX 5090」を組み込むことで、極めて高額なインフラ環境を構築した。\n* **運用上のボトルネック：** 圧倒的な計算リソースを確保しても、モデルの最適化やメモリ帯域、ライブラリの互換性といったソフトウェア側の調整が、実際のパフォーマンスを左右する。\n* **コストパフォーマンスの懸念：** 消費電力とハードウェア費用に対して、推論速度や安定性が期待値に見合うかどうかは慎重な検討が必要である。\n* **技術的試行錯誤：** 最先端の機材を組み合わせる過程には、ハードウェア間の相性問題や安定した環境構築において多大な労力とノウハウが求められる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umcr5m/glm52_on_5x_pro_6000s_and_a_5090_an_expensive/"
+  },
+  {
+    "id": "3933de0e-c1c5-8137-bd4e-d5d0257ee613",
+    "title": "Deepseek drops another HUGE breakthrough - DSpark. Waaay faster than MTP [Video explaining it]",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-03T09:19:45.000Z",
+    "fetched": "2026-07-04T00:04:10.000Z",
+    "summary": "# タイトル：DeepSeekがMTPを大幅に上回る新技術「DSpark」を発表\n\n# 重要なポイント\n- **推論速度の飛躍的向上**: DeepSeekが発表した新技術「DSpark」は、従来のMTP（Multi-Token Prediction）と比較して、推論速度を劇的に高速化することに成功しました。\n- **効率的な推論アーキテクチャ**: DSparkは、モデルが一度に生成するトークン量を最適化する手法を採用しており、計算効率が大幅に改善されています。\n- **実用性の向上**: 高速化により、複雑な推論タスクや大規模なプロンプト処理がリアルタイムに近いスピードで実行可能となり、AIの利便性が向上します。\n- **技術的優位性**: MTPが抱えていたボトルネックを解消することで、より少ない計算リソースで、より多くの情報を高速に処理できるよう設計されています。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1um9j5q/deepseek_drops_another_huge_breakthrough_dspark/"
+  },
+  {
+    "id": "3933de0e-c1c5-81c0-a51c-e0ef5ae068e6",
+    "title": "Mistral released Leanstral-1.5-119B-A6B",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-03T14:44:12.000Z",
+    "fetched": "2026-07-04T00:04:27.000Z",
+    "summary": "# タイトル：Mistral AIが「Leanstral-1.5-119B-A6B」を公開\n\n- **次世代の推論モデル**: Mistral AIが、数学的な推論と形式検証に特化した新しいAIモデル「Leanstral-1.5-119B-A6B」をリリースしました。\n- **数学的証明の自動化**: 定理証明支援系である「Lean」を活用し、数学的な証明を自動生成・検証することに最適化されています。\n- **大規模なアーキテクチャ**: 1190億（119B）のパラメータを持ち、高度な複雑性を備えたタスクにも対応可能な設計です。\n- **専門分野への特化**: 一般的なチャットモデルとは異なり、数学、論理学、コンピュータサイエンスの厳密な推論を求める用途を主眼としています。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umgdhx/mistral_released_leanstral15119ba6b/"
+  },
+  {
+    "id": "3933de0e-c1c5-816c-a671-da69ccc6e335",
+    "title": "Palantir is a free org on HF with 0 open-source models and 0 public datasets shared",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-03T11:28:03.000Z",
+    "fetched": "2026-07-04T00:04:45.000Z",
+    "summary": "# タイトル：Palantir社、Hugging Face上で公開モデルやデータセットを一切共有していない現状\n\n* PalantirはHugging Face（HF）上で組織アカウントを開設しているが、公開されているオープンソースモデルはゼロである。\n* 同様に、一般公開されているデータセットも一つも存在しない。\n* 多くのAI企業がモデルやデータセットを公開しエコシステムに貢献する中、Palantirはクローズドな開発体制を維持している。\n* この状況は、同社がオープンソースコミュニティに対しては消極的、あるいは非公開を前提とした戦略をとっていることを示唆している。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umbw0v/palantir_is_a_free_org_on_hf_with_0_opensource/"
+  },
+  {
+    "id": "3933de0e-c1c5-81e2-858f-e4adb4941df7",
+    "title": "Follow-up: DeepSeek V4 Flash on 2x RTX PRO 6000 finishes real coding tasks faster than Sonnet and Opus, at about Sonnet quality",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-03T07:55:54.000Z",
+    "fetched": "2026-07-04T00:05:02.000Z",
+    "summary": "# DeepSeek V4 Flashの性能：RTX PRO 6000環境でSonnet/Opusを凌駕\n\n*   **処理速度の圧倒的優位性**：DeepSeek V4 Flashは、2基のRTX PRO 6000を用いた環境において、Claude 3.5 SonnetやClaude 3 Opusよりも高速に実用的なコーディングタスクを完了できる。\n*   **高品質なコード生成**：処理速度だけでなく、生成されるコードの品質はClaude 3.5 Sonnetと同等レベルに達している。\n*   **効率的なローカル・インフラ活用**：高価な推論APIに依存せず、ハイエンドなGPUワークステーション環境で運用することで、推論のスピードとコスト効率を大幅に最適化できる。\n*   **実用性の高さ**：ベンチマーク数値だけでなく、実際のコーディング作業における実用性において、既存のトップモデルと十分に渡り合える性能を示している。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1um84bd/followup_deepseek_v4_flash_on_2x_rtx_pro_6000/"
+  }
+]

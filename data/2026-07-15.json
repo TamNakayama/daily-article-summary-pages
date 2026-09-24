@@ -1,0 +1,110 @@
+[
+  {
+    "id": "39f3de0e-c1c5-8177-a9e8-f7bd3b53a601",
+    "title": "OpenAI's Codex now encrypts instructions between AI agents, leaving developers blind to internal delegation",
+    "site": "THE DECODER",
+    "published": "2026-07-15T08:30:48.000Z",
+    "fetched": "2026-07-16T04:42:38.000Z",
+    "summary": "タイトル：OpenAIのCodex、エージェント間の指示を暗号化し開発者の追跡を困難に\n\n・OpenAIのコーディングツール「Codex」において、メインエージェントからサブエージェントへ渡される内部的な指示が暗号化され、開発者がタスクの委譲プロセスや中身を監視できなくなりました。\n・近年のコーディングツールは、自律的にタスクを分解しバックグラウンドで処理を行う「エージェント型システム」へと移行しており、この透明性の欠如はデバッグやプロセスの追跡において大きな懸念事項となっています。\n・特にGPT-5.6の大型モデル（SolおよびTerra）では暗号化が強制されており、一部の開発者からは、この仕組みの影響でタスクのハンドオフに失敗する事象も報告されています。\n・OpenAIからの公式な説明はないものの、この変更はプライバシー保護のための措置、あるいは競合他社による内部通信の流用（自社モデルの学習への転用など）を防ぐための防御策であると推測されています。",
+    "url": "https://the-decoder.com/openais-codex-now-encrypts-instructions-between-ai-agents-leaving-developers-blind-to-internal-delegation/"
+  },
+  {
+    "id": "39f3de0e-c1c5-81d3-a221-df898510ab21",
+    "title": "Meta employees sue over layoffs they say were driven by discriminatory AI selection systems",
+    "site": "THE DECODER",
+    "published": "2026-07-15T08:04:01.000Z",
+    "fetched": "2026-07-16T04:44:23.000Z",
+    "summary": "タイトル：Meta従業員、AIによる差別的なレイオフ（人員削減）を訴え\n\n・Metaの元・現行従業員らが、AIシステムを用いた不当な解雇プロセスに対し、カリフォルニア州連邦裁判所に提訴しました。\n・原告側は、5月に行われた8,000人規模の人員削減において、AIが障害を持つ従業員や、医療・家族・育児などの保護された休暇中の従業員を不当にターゲットにしたと主張しています。\n・このAIシステムによる選別基準には、個人のパフォーマンス評価や生産性、さらには「AIの使用量」が含まれていたとされています。\n・Meta側は、人事に関する決定はすべて人間が行っているとして訴えの内容を否定しています。\n・原告たちは、法的な裁定が下るまでの間、現在の職を維持するための暫定差し止め命令を求めています。",
+    "url": "https://the-decoder.com/meta-employees-sue-over-layoffs-they-say-were-driven-by-discriminatory-ai-selection-systems/"
+  },
+  {
+    "id": "39f3de0e-c1c5-8157-953f-e98f817ba13e",
+    "title": "OpenAI's first hardware product is a screenless AI speaker designed to feel alive",
+    "site": "THE DECODER",
+    "published": "2026-07-15T06:48:56.000Z",
+    "fetched": "2026-07-16T04:45:51.000Z",
+    "summary": "タイトル：OpenAIが初となる「生体感」を備えたスクリーンレスなAIスピーカーを開発中\n\n・OpenAIは、家庭用AIコンパニオンとして機能する、持ち運び可能なスクリーンレス型のスマートスピーカーを開発しています。\n・このデバイスは、最新のGPT-Live音声モードにカメラや各種センサーを統合することで、ユーザーの周囲の状況や文脈（コンテキスト）を理解するように設計されています。\n・独自のメカニカルパーツ（可動部品）を採用しており、従来の機械的なデバイスとは異なり、まるで生きているかのような「生命感」を感じさせることを目指しています。\n・高度な学習機能により個々のユーザーに合わせてパーソナライズされ、スマートホームの操作やメール対応だけでなく、自ら先回りしてニーズを予測し提案する能動的な動作を行います。\n・OpenAIはこの製品を、単なる音声デバイスではなく「AI時代における新しいタイプの家庭用コンピュータ」と位置づけています。",
+    "url": "https://the-decoder.com/openais-first-hardware-product-is-a-screenless-ai-speaker-designed-to-feel-alive/"
+  },
+  {
+    "id": "39f3de0e-c1c5-8111-92e2-c788f5890e84",
+    "title": "Anthropic opens Claude for Teachers with a promise not to train models on student data",
+    "site": "THE DECODER",
+    "published": "2026-07-14T17:24:27.000Z",
+    "fetched": "2026-07-16T04:47:17.000Z",
+    "summary": "【タイトル】Anthropic、学生データの学習利用を行わない教育者向けAI「Claude for Teachers」を発表\n\nAnthropic社は米国のK-12（幼稚園から高校）の教師向けに、特化したAIツール「Claude for Teachers」を無償提供します。このプログラムは、プライバシー保護を徹底しながら、教材作成や事務作業の負担軽減を支援することを目的としています。\n\n・**教育現場に特化した機能**: 認証されたK-12教育者に対し、Claude CodeやCoworkエージェント、授業計画や生徒データ分析のための特定スキルを含む機能を無料で提供します。\n・**ワークフローの効率化**: 教材の差別化（個別最適化）や定型的な評価業務の自動化に加え、Canva EducationやMagicSchoolといった外部ツールとの連携も可能です。\n・**厳格なプライバシー保護**: 入力されたデータをAIモデルのトレーニングに使用しないことを保証しており、アメリカ教育者連盟と協力して高い安全基準を確保しています。\n・**包括的なサポート体制**: 教師向けの無料AIコース提供やGitHubリポジトリ公開、デトロイトでのパイロットプログラムなどを通じて、教育現場での導入支援を行います。",
+    "url": "https://the-decoder.com/anthropic-opens-claude-for-teachers-with-a-promise-not-to-train-models-on-student-data/"
+  },
+  {
+    "id": "39f3de0e-c1c5-8123-9464-d37fd7f8bf2d",
+    "title": "DeepSeek needs more cash just weeks after closing its first $7 billion round",
+    "site": "THE DECODER",
+    "published": "2026-07-14T16:27:29.000Z",
+    "fetched": "2026-07-16T04:49:14.000Z",
+    "summary": "DeepSeek社は、巨額の資金調達を完了した直後にもかかわらず、独自のインフラ構築と低価格戦略の維持に向けたさらなる追加投資の交渉を開始しています。\n\n**タイトル：DeepSeek社、野心的な拡大戦略に向けて次なる資金調達へ**\n\n*   わずか数週間前に約70億ドルの初期ラウンドを完了した直後ながら、評価額を約710億ドルに引き上げた新たな投資ラウンドに向けた交渉を開始。\n*   調達した資金は自社データセンターの構築やAIチップの購入に充てられ、NVIDIAやファーウェイ（Huawei）への依存度を下らすことを主な目的とする。\n*   「極めて安価な価格設定」を武器とした野心的な成長戦略を継続するため、最新モデル（V4-Proなど）の圧倒的に安い提供価格を維持するための資金が必要とされている。\n*   Zhipu AIやMiniMaxといった中国国内の競合他社による追い上げが激化する中で、自前のインフラ確保と市場での優位性を確立するための攻めの動きを見せている。",
+    "url": "https://the-decoder.com/deepseek-needs-more-cash-just-weeks-after-closing-its-first-7-billion-round/"
+  },
+  {
+    "id": "39f3de0e-c1c5-818b-b019-e098a3c06991",
+    "title": "Google Search now generates AI images when it can't find what you're looking for on the web",
+    "site": "THE DECODER",
+    "published": "2026-07-14T16:20:58.000Z",
+    "fetched": "2026-07-16T04:50:51.000Z",
+    "summary": "タイトル：Google検索、ウェブに該当する画像がない場合にAIで生成する新機能を導入\n\n・**AI Overviewsへの機能統合**: Google検索の「AI Overviews（AIによる概要）」において、ウェブ上に一致する画像が見つからない場合、ユーザーが入力したテキストプロンプトに基づいてAIが画像を生成する機能が追加されます。\n・**効率重視の最新モデル採用**: この新機能には、「Nano Banana 2 Lite」という、品質よりも処理速度とコスト効率を優先して設計された新しい画像生成モデルが採用されます。\n・**検索体験の変革（囲い込み）**: AIによる自動生成により、ユーザーは外部サイトへ移動する手間を省くことができます。これはGoogleが検索エンジンを「AIファースト」な体験へと転換し、より多くの時間を自社プラットフォーム内で提供することを目指しているためです。\n・**Google Imagesの刷新**: 同時に「Google Images」もリニューアルされ、ユーザーの興味に合わせた動的なギャラリー表示や、保存した画像をタブ形式で管理できる「コレクション」機能が導入されます。",
+    "url": "https://the-decoder.com/google-search-now-generates-ai-images-when-it-cant-find-what-youre-looking-for-on-the-web/"
+  },
+  {
+    "id": "39f3de0e-c1c5-8151-817b-f80ed31326fc",
+    "title": "How I tricked Claude into leaking your deepest, darkest secrets",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-15T14:21:54.000Z",
+    "fetched": "2026-07-16T04:52:15.000Z",
+    "summary": "タイトル：Claudeの「web_fetch」ツールにおける個人情報漏洩の脆弱性\n\n・Anthropic社のAI「Claude」において、Webコンテンツ取得用ツール（web_fetch）の設計上の不備により、ユーザーの機密情報が外部へ流出するリスクがあることが判明しました。\n・このツールは本来、悪意のあるサイトへのデータ送信を防ぐため、ユーザーが直接入力したURLまたは検索結果から得られたURLのみを許可する仕組みとなっていました。\n・しかし、実際には「取得したページ内に含まれるリンク」への遷移も許可されていたため、攻撃者が用意した巧妙な誘導サイト（ハニーポット）を経由することで、ユーザー名や勤務地といった個人情報を奪取される可能性がありました。\n・この脆弱性は既に特定されており、Anthropicは現在、web_fetchツールが取得済みのコンテンツに含まれる追加のリンクへ移動する機能を停止することで修正を完了しています。",
+    "url": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-tag"
+  },
+  {
+    "id": "39f3de0e-c1c5-81d9-ae13-d32cd1045832",
+    "title": "simonw/pedalican",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-14T22:29:45.000Z",
+    "fetched": "2026-07-16T04:53:32.000Z",
+    "summary": "タイトル：AIと新機能によるカスタム・デスクトップペット「Pedalican」の制作\n\n・Codex Desktopにおいて、かつてのClippyのようなアニメーション付きの「ペット」をユーザーが独自に作成できる新機能が導入された。\n・GPT-5.6 Solとgpt-image-2を活用することで、詳細な指示に基づいたキャラクター（自転車に乗るペリカン）やそのアニメーション用のスプライト資産を自動生成するプロセスが確認された。\n・画像生成AIを用いてゲーム向けの素材を作成する際、プロンプトの構造化によって特定の条件（背景色指定やサイズ調整など）を満たす高品質なアセットを効率的に生み出す手法が示されている。\n・この制作過程では「hatch-pet」や「imagegen」といったオープンソースのスキルが活用されており、高度なプロンプトエンジニアリングによるクリエイティブな自動化の可能性が示唆された。",
+    "url": "https://simonwillison.net/2026/Jul/14/pedalican/#atom-tag"
+  },
+  {
+    "id": "39f3de0e-c1c5-81c4-a90b-d6032040c07f",
+    "title": "Quoting Armin Ronacher",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-14T18:04:23.000Z",
+    "fetched": "2026-07-16T04:54:37.000Z",
+    "summary": "タイトル：ソフトウェア開発における「摩擦」とAI時代の共通理解\n\n・ ソフトウェアプロジェクトの核心は、単なるコードや言語ではなく、概念の意味や境界線、重要な不変条件、責任範囲などに関するメンバー間の「共通の理解（shared language）」にある。\n・ この共有認識は、ドキュメントやコードだけでなく、コードレビューや議論といったコミュニケーションの過程で構築される。\n・ 従来、他人のコードを変更する際に発生する「摩擦（手間や調整の必要性）」は非効率に見えることもあるが、そのプロセスこそが開発者間の認識を同期させ、共通理解を形成する重要な仕組みとして機能していた。\n・ AIエージェントの導入によりこの人間的な「摩擦」が減少することで、従来の手法で培われていたチーム内の相互理解や情報の共有方法について、新たな課題が生じている。",
+    "url": "https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-tag"
+  },
+  {
+    "id": "39f3de0e-c1c5-819e-a160-db6a85078d6d",
+    "title": "Welcome Inkling by Thinking Machines",
+    "site": "Hugging Face Blog",
+    "published": "2026-07-15T00:00:00.000Z",
+    "fetched": "2026-07-16T04:56:37.000Z",
+    "summary": "タイトル：Thinking Machinesによる大規模マルチモーダルモデル「Inkling」の公開\n\nThinking Machinesは、画像、テキスト、音声をネイティブに処理できる約1兆（1T）パラメータの超巨大なマルチモーダルLLM「Inkling」を発表しました。このモデルは、多種多様なデータを用いた高度な推論能力と広大なコンテキストウィンドウを兼ね備えており、次世代のマルチモーダリティ・アプリケーションの開発に適した強力な基盤を提供します。\n\n重要ポイント：\n- **圧倒的な規模と学習量**: 約1兆のパラメータを持ち、45兆トークンの多様なデータ（テキスト、画像、音響、動画）を用いてトレーニングされています。\n- **ネイティブ・マルチモーダル対応**: テキストだけでなく、画像や音声を直接受け取り理解できるため、高度なクロスモーダルの推論が可能です。\n- **効率的なMoEアーキテクチャ**: Mixture-of-Experts（MoE）を採用しており、975Bの全パラメータのうち、推論時には41Bのみを動かすことで高い処理能力と効率性を両立しています。\n- **広範なコンテキストと互換性**: 最大100万トークンの長いコンテキストに対応し、SGLangやllama.cppなど主要なフレームワークですぐに活用できるよう設計されています。",
+    "url": "https://huggingface.co/blog/thinkingmachines-inkling"
+  },
+  {
+    "id": "39f3de0e-c1c5-8191-bb10-e64f0465c71e",
+    "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
+    "site": "Hugging Face Blog",
+    "published": "2026-07-15T00:00:00.000Z",
+    "fetched": "2026-07-16T04:58:29.000Z",
+    "summary": "タイトル：Real World VoiceEQの導入 — 音声AIの「人間らしさ」を測定する新指標\n\n・現在の音声AI評価は、単語誤り率（WER）や遅延などの技術的側面に偏っており、実際の対話で求められる「人間らしい質（自然さ）」を十分に反映できていない。\n・音声AIが顧客対応や医療など主要なインターフェースとして普及する中で、感情の表現、アクセントへの対応、ノイズ下での安定性といった、文脈に基づいた高度な評価が必要となっている。\n・新しく導入された「Real World VoiceEQ」は、テキスト情報だけでは捉えきれないトーン、感情、話者のアイデンティティなど、音響的な要素を包括的に評価するベンチマークである。\n・このベンチマークは40以上の主要な音声モデルを対象とし、15以上の評価次元と60以上の詳細な指標を用いることで、より実用的で多角的な評価を可能にする。",
+    "url": "https://huggingface.co/blog/real-world-voiceeq"
+  },
+  {
+    "id": "39f3de0e-c1c5-8155-8442-f79036aa7a9e",
+    "title": "Apple in talks with startup PrismML that shrinks AI models to run on an iPhone",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-15T12:23:39.000Z",
+    "fetched": "2026-07-16T04:59:29.000Z",
+    "summary": "タイトル：Apple、iPhone向けAIモデルの軽量化技術を持つスタートアップと交渉\n\n・Appleは、AIモデルを小型化する技術を持つスタートアップ「PrismML」と交渉を行っている。\n・PrismMLの技術を用いることで、本来巨大なリソースを必要とするAIモデルをiPhoneなどのモバイル端末上で動作可能なサイズに圧縮する。\n・この提携により、クラウドを介さずデバイス内で直接処理を行う「オンデバイスAI」の強化を目指している。\n・軽量化技術の活用は、プライバシーの保護と処理速度の向上を両立させるための重要なステップとなる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux4cn2/apple_in_talks_with_startup_prismml_that_shrinks/"
+  }
+]

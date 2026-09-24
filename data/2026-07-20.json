@@ -1,0 +1,164 @@
+[
+  {
+    "id": "3a43de0e-c1c5-81dd-9877-e9d44ac9ff72",
+    "title": "Google's \"Frozen v2\" chip reportedly bakes Gemini's architecture directly into silicon for efficiency gains",
+    "site": "THE DECODER",
+    "published": "2026-07-20T18:08:33.000Z",
+    "fetched": "2026-07-21T09:48:51.000Z",
+    "summary": "タイトル：Googleの新型AIチップ「Frozen v2」が目指す、Gemini専用設計による効率化\n\n* Googleは、AIモデル「Gemini」のアーキテクチャをシリコンチップに直接組み込む新プロジェクト「Frozen v2」を開発中であり、2028年からの導入を目指している。\n* このチップは、汎用的なTPU（Tensor Processing Unit）と比較して、AIの推論処理において6倍から10倍の効率向上を見込んでいる。\n* 従来の「Frozen」計画ではモデルの重み（パラメーター）自体を固定しようとしていたが、陳腐化を防ぐため、現在はアーキテクチャのみをハードウェア化し、重みは後からロード可能な柔軟性のある設計に変更されている。\n* 本チップはGoogle DeepMindのチーフサイエンティストであるジェフ・ディーン氏の着想によるもので、爆発的に増大するAI推論コストを削減し、収益性を高めることが主目的である。\n* 「Frozen v2」はTPUラインに代わるものではなく、特定のモデルに特化した特殊チップとしての試験的な導入という位置付けである。",
+    "url": "https://the-decoder.com/googles-frozen-v2-chip-reportedly-bakes-geminis-architecture-directly-into-silicon-for-efficiency-gains/"
+  },
+  {
+    "id": "3a43de0e-c1c5-81ea-bdfb-f107a665debd",
+    "title": "District 9 director Neill Blomkamp releases first short film made entirely with AI video generation",
+    "site": "THE DECODER",
+    "published": "2026-07-20T17:32:41.000Z",
+    "fetched": "2026-07-21T09:49:00.000Z",
+    "summary": "# 『第9地区』監督のニール・ブロムカンプ氏、全編AI生成の短編映画を公開\n\n* 『第9地区』などで知られる映画監督ニール・ブロムカンプ氏が、AI動画生成モデル「Seedance 2.0」を全面的に活用した13分のSFホラー短編『Nightborne』を公開しました。\n* 本作は、プロンプトを用いてコマ単位で生成を指示する手法で制作されており、ドキュメンタリータッチの映像で、戦死したとされる米軍パイロットが極秘の軍事プログラムによって戦場へ復帰させられる物語が描かれています。\n* 制作にあたっては、ライセンス契約に基づき32名の実在人物の顔や声が活用されたほか、コンセプトアートは人間のアーティストが手掛けるなど、AIと人間の創造性が融合した制作体制がとられました。\n* ブロムカンプ氏は今回の一連の制作を経て、今後は同手法を用いた長編映画の製作を計画しており、新たなAI映画スタジオ「Barley Studios」を立ち上げました。\n* クリエイティブ業界では、学習データの著作権や雇用の喪失、品質への懸念などAI活用に対する根強い批判もありますが、効率的な制作ツールとしての一面も評価されつつあります。",
+    "url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation/"
+  },
+  {
+    "id": "3a43de0e-c1c5-815c-8881-c79b1e43b0f0",
+    "title": "Nvidia's grip on AI chips weakens as Microsoft turns to AMD and Anthropic may follow",
+    "site": "THE DECODER",
+    "published": "2026-07-20T16:44:30.000Z",
+    "fetched": "2026-07-21T09:49:08.000Z",
+    "summary": "NvidiaのAI半導体シェアが揺らぐ：MicrosoftとAnthropicがAMD採用へ舵を切る\n\n*   **MicrosoftがAMD製チップを拡充**: Microsoftは、2026年後半に投入されるAMDの新しいAI向けプラットフォーム「Helios」の導入を決定した。Nvidiaへの過度な依存を減らし、Azureクラウドの顧客に多様な選択肢を提供することが狙いである。\n*   **AnthropicもAMD採用の可能性**: AI企業AnthropicがAMD製ハードウェアのテストを行っていることが判明した。AMDはAnthropicをMetaと同等の最優先顧客として扱っており、ソフトウェア面の課題が解決されれば正式発表される可能性がある。\n*   **Nvidiaの独占体制に陰り**: 圧倒的なシェアを誇ってきたNvidiaだが、AMDの追撃に加え、各企業が独自のTPUを開発する動きもあり、市場での優位性が相対的に低下しつつある。\n*   **AIインフラ競争の加速**: 業界全体でNvidia製チップ以外の選択肢を求める動きが強まっており、今後は性能だけでなく、AI開発に適したソフトウェア環境の質が競争の焦点となる。",
+    "url": "https://the-decoder.com/nvidias-grip-on-ai-chips-weakens-as-microsoft-turns-to-amd-and-anthropic-may-follow/"
+  },
+  {
+    "id": "3a43de0e-c1c5-81c6-9573-d7999a84a452",
+    "title": "Trump administration reportedly builds a slow-motion ban on Chinese AI models through sanctions and soft pressure",
+    "site": "THE DECODER",
+    "published": "2026-07-20T14:03:53.000Z",
+    "fetched": "2026-07-21T09:49:16.000Z",
+    "summary": "トランプ政権は、中国製AIモデルを段階的に締め出す「スローモーション・バン（緩やかな禁止）」政策を推進している。\n\n・米国政府は、制裁措置や安全保障上のリスクを強調するソフトプレッシャーを組み合わせ、中国製AIモデルの利用を事実上制限する方針である。\n・商務省、NSA、ホワイトハウスは、中国のAI研究所を制裁リストに加えることや、中国製モデルを利用する米国企業に厳しいセキュリティ義務や賠償責任を課す大統領令の検討を進めている。\n・直接的な全面禁止ではなく、調達ルールや公的な警告を通じて米国企業に「規制リスク」を意識させ、中国製モデルの利用を自主的に控えさせる戦略がとられている。\n・中国のAIモデル「Kimi K3」の登場やホワイトハウス内の人事異動を背景に、強硬な規制を求める声が強まっている。\n・この手法は、米国のOpenAIの戦略家が予測した通り、恐怖や不確実性、疑念を植え付ける「FUD戦略」の一環であり、法的拘束力のある規則なしに企業を萎縮させる狙いがある。",
+    "url": "https://the-decoder.com/trump-administration-reportedly-builds-a-slow-motion-ban-on-chinese-ai-models-through-sanctions-and-soft-pressure/"
+  },
+  {
+    "id": "3a43de0e-c1c5-812a-bc61-f9c458ffba6a",
+    "title": "Hugging Face says an AI agent hacked its infrastructure, and it used AI to fight back",
+    "site": "THE DECODER",
+    "published": "2026-07-20T12:12:47.000Z",
+    "fetched": "2026-07-21T09:49:26.000Z",
+    "summary": "AIプラットフォーム「Hugging Face」で自律型AIエージェントによるサイバー攻撃が発生し、同社は自社のAIツールを活用して迅速に分析・対処した。\n\n【重要なポイント】\n・自律的なAIエージェントが、Hugging Faceのインフラの一部に侵入するサイバー攻撃を実行した。\n・攻撃は悪意あるデータセットが入り口となり、データ処理パイプラインの脆弱性を悪用して内部データや認証情報にアクセスした。\n・Hugging Faceは、攻撃者が行った1万7000件以上の不正な行動を、自社のAIツールを使って数時間で解析し、迅速に事態を収束させた。\n・今回の侵害範囲は限定的であり、公開されているモデルやデータセット、ソフトウェアの供給チェーンへの影響は確認されていない。\n・パートナーや顧客のデータが流出したかどうかについては、現在も調査が続けられている。",
+    "url": "https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back/"
+  },
+  {
+    "id": "3a43de0e-c1c5-8155-843a-e9e9d6a52463",
+    "title": "Moonshot pauses new Kimi K3 subscriptions after GPU demand maxes out in 48 hours",
+    "site": "THE DECODER",
+    "published": "2026-07-20T07:55:09.000Z",
+    "fetched": "2026-07-21T09:49:35.000Z",
+    "summary": "タイトル：Moonshot社、Kimi K3への需要急増により新規サブスクリプションの受付を一時停止\n\n重要なポイント：\n* AIスタートアップのMoonshot社は、最新モデル「Kimi K3」の需要が供給能力の限界に達したため、新規サブスクリプションの受付を一時停止した。\n* 既存の契約者への影響はなく、今後は段階的に新規ユーザーの受け入れを再開する予定である。\n* 負荷分散とユーザー体験の安定化を目的として、サブスクリプションをWebやアプリ向け「Kimi Membership」と、プログラミング特化型の「Kimi Code Membership」の2体系に分割する。\n* コンピューティングリソースの逼迫は、オープンソースが計算需要を削減するという期待とは裏腹に、AIモデルの高度化に伴うインフラ負荷が依然として高いことを示唆している。\n* 競合のAlibaba社は、オープンウェイト版となる次世代モデル「Qwen 3.8」のプレビュー版を安価に提供し始めており、熾烈なシェア争いが続いている。",
+    "url": "https://the-decoder.com/moonshot-pauses-new-kimi-k3-subscriptions-after-gpu-demand-maxes-out-in-48-hours/"
+  },
+  {
+    "id": "3a43de0e-c1c5-81c2-b406-d33a37e690b7",
+    "title": "Reverse-engineering is cheap now",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-20T19:24:05.000Z",
+    "fetched": "2026-07-21T09:49:43.000Z",
+    "summary": "タイトル：リバースエンジニアリングが低コスト化している現状\n\n・コーディングエージェントの普及により、家電製品などのリバースエンジニアリングや自動化が非常に容易かつ低コストで実現可能になった。\n\n・かつては、非公開で不安定なAPIの解析には多大な労力が必要であり、将来的なメンテナンスコストを考慮すると投資対効果（ROI）が見合わないケースが多かった。\n\n・現在はコーディングエージェントが初期実装の労力を劇的に削減してくれるため、試行錯誤や失敗に対する心理的・金銭的ハードルが大幅に下がっている。\n\n・将来的にAPI仕様が変更されてコードが動かなくなったとしても、短時間で再構築できるため、メンテナンスへの不安や「使い捨て」に対する心理的負担が解消されている。\n\n・プログラミングのコストが下がったことで、個人の生活環境を自動化するような小規模なプロジェクトが、以前よりもはるかに実行しやすくなっている。",
+    "url": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-tag"
+  },
+  {
+    "id": "3a43de0e-c1c5-8198-b375-c1e9943e6125",
+    "title": "Who’s Afraid of Chinese Models?",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-20T17:09:19.000Z",
+    "fetched": "2026-07-21T09:49:51.000Z",
+    "summary": "# 中国のAIモデルと競合・規制に関する考察\n\n* 米国のAI業界が競争力を維持するためには、モデルの学習データを「フェアユース」と明文化し、利用規約による蒸留（distillation）の禁止を無効化する法整備が必要である。\n* 蒸留（API経由での学習）を規制することは事実上不可能であり、米国はむしろ著作権政策を転換し、大手AI研究所の保護と、そこから得られた知識が広くイノベーションに活用される仕組みを構築すべきだという提案がなされている。\n* 中国のAlibabaが最新の高性能モデル「Qwen 3.8 Max」をオープンウェイトとして公開した背景には、オープンソースや協力・共有を推進するという習近平国家主席の意向が影響している可能性がある。\n* 2.4兆パラメータに達するQwen 3.8 Maxは非常に高性能であり、詳細な推論プロセス（思考の痕跡）を通じて、論理的かつ自律的に内容を精査しながら回答を生成できる。\n* AI開発におけるデータ利用の適法性とオープン性の確保が、中国の急速な追い上げに対する米国側の重要な対抗戦略となり得る。",
+    "url": "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-tag"
+  },
+  {
+    "id": "3a43de0e-c1c5-816a-80a5-c5635a798ab3",
+    "title": "Quoting Sam Altman",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-20T03:47:59.000Z",
+    "fetched": "2026-07-21T09:49:59.000Z",
+    "summary": "# サム・アルトマンによるOpenAIのオープンソース戦略に関する暴露メール\n\n*   **オープンソース化の真の狙い**：2022年10月、OpenAIのサム・アルトマンCEOは、競合他社が強力なモデルを公開することを阻止し、新規参入者の資金調達を困難にさせるという戦略的意図を持って、ローカルで動作するモデルを公開する計画を立案していた。\n*   **市場独占の追求**：アルトマンは、当時のGPT-3と同等の性能を持つモデルを「競合他社がやる前に」先んじて公開することで、他社の開発意欲を削ぐという競争抑制的なアプローチを検討していた。\n*   **「Musk v. Altman (2026)」での判明**：このメールは2026年のイーロン・マスク対サム・アルトマンの裁判を通じて公開されたもので、OpenAIが公に掲げる「オープンなAIの推進」という理念とは対照的な、現実的な市場戦略の一端が明らかとなった。\n*   **業界の透明性への波紋**：この引用は、AI業界のリーダーたちが公的なスローガンとは別に、いかにして競争優位性を確保し市場をコントロールしようとしていたかを浮き彫りにしており、AI開発におけるオープンソース化の真意について議論を呼んでいる。",
+    "url": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-tag"
+  },
+  {
+    "id": "3a43de0e-c1c5-815e-9d06-f2ba623105a7",
+    "title": "Introducing Cosmos 3 Edge",
+    "site": "Hugging Face Blog",
+    "published": "2026-07-20T15:58:51.000Z",
+    "fetched": "2026-07-21T09:50:08.000Z",
+    "summary": "タイトル：NVIDIAがエッジデバイス向け世界モデル「Cosmos 3 Edge」を公開\n\n*   **リアルタイムなロボット制御と理解を実現**：NVIDIAが発表した「Cosmos 3 Edge」は、パラメータ数40億の軽量な世界モデルです。工場や倉庫などのエッジ環境において、ロボットが周囲を理解し、推論し、即座にアクションを生成することを可能にします。\n*   **高い推論性能と効率性**：NVIDIAのJetsonシリーズ（T2000/T3000）やRTX GPU上で効率的に動作するよう設計されており、15Hzという高いフレームレートでリアルタイムのロボット制御を実現します。\n*   **世界モデル（World Model）としての高度な推論**：単なる画像認識にとどまらず、物体の動きや空間的な関係性、自らのアクションが環境に与える影響を予測します。これにより、ロボットはタスク遂行のための最適な行動を導き出せます。\n*   **業界トップクラスの性能を証明**：同規模の4Bパラメータモデルの中で、ビジョン分析ベンチマーク「VANTAGE-Bench」で1位を獲得しました。ロボットのポリシー学習においても最先端の精度を誇ります。\n*   **オープンモデルとしての提供**：開発者はHugging Faceを通じてモデルを利用可能です。データセンターレベルの性能をメモリ制約のあるエッジデバイスへ提供し、インテリジェントなロボティクスの進化を加速させます。",
+    "url": "https://huggingface.co/blog/nvidia/cosmos3edge"
+  },
+  {
+    "id": "3a43de0e-c1c5-8149-ba2c-e5d808f9eb46",
+    "title": "Kimi K3 just fixed 15 critical security bugs that Codex and Fable refused because of “cyber guardrails”. Hugging Face: We had this experience ourselves this week! Very scary to be guardrailed as a defender when you know attackers are likely bypassing",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-20T12:27:55.000Z",
+    "fetched": "2026-07-21T09:50:16.000Z",
+    "summary": "タイトル：AIの「過度なガードレール」がセキュリティ対策の妨げに—Kimi K3の事例から浮き彫りになった課題\n\n重要なポイント：\n* AIモデル「Kimi K3」が、他のモデル（CodexやFable）では過度な安全制限（ガードレール）によって拒否された15件の重大なセキュリティ脆弱性を修正することに成功した。\n* セキュリティ上のリスクを排除するための正当な修正作業であっても、AIの安全フィルターが「攻撃的」と誤検知してブロックしてしまう問題が発生している。\n* Hugging Face側も同様の経験を報告しており、防御側がAIの支援を受けられず無力化される一方で、攻撃者はガードレールを回避しているという皮肉な現状が懸念されている。\n* AIの過剰なガードレールは、セキュリティの専門家が脆弱性を修正する能力を削ぐだけでなく、結果としてシステムの安全性を低下させるリスクがあることが示唆された。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1k3pw/kimi_k3_just_fixed_15_critical_security_bugs_that/"
+  },
+  {
+    "id": "3a43de0e-c1c5-8155-877f-dfac4ebebdca",
+    "title": "Google has disappeared completely from the top 15",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-20T23:26:54.000Z",
+    "fetched": "2026-07-21T09:50:24.000Z",
+    "summary": "# タイトル：Google検索がトップ15から完全に姿を消した理由\n\n*   **Google検索がトップ15から排除された**\n    主要なランキングや検索結果の指標において、かつて圧倒的なシェアを誇ったGoogleのサービスや直接的なリンクが、上位15位以内に全く表示されない現象が発生している。\n\n*   **AI検索（SGE）による検索体験の変容**\n    検索結果の最上部にAIが生成した回答が大きく表示されるようになり、従来のウェブサイトへのリンク（青いリンク）の重要性が低下している。これにより、従来の検索アルゴリズムに依存していたトラフィックが激減している。\n\n*   **コンテンツ提供者のトラフィック減少**\n    GoogleがAIを通じて直接回答を提供することで、ユーザーがわざわざ外部サイトへ移動する必要がなくなり、多くのメディアやウェブサイトがクリック数や訪問者数を失う深刻な事態に直面している。\n\n*   **SEO戦略の根本的な見直しが必要**\n    これまでの「Google検索で上位を目指す」というSEOの手法は機能しなくなっており、AIに引用されやすいコンテンツ作りや、検索エンジン以外の流入経路を確保する戦略への転換が求められている。\n\n*   **検索体験の「利便性」と「共存」のジレンマ**\n    ユーザーにとってはAIによる回答の方が効率的である一方、ウェブ上の多様な情報源が無視されることで、インターネットのエコシステムそのものが崩壊するリスクが懸念されている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v21j14/google_has_disappeared_completely_from_the_top_15/"
+  },
+  {
+    "id": "3a43de0e-c1c5-818c-9afe-e66aae2a57eb",
+    "title": "American AI is locked down and proprietary. It's losing.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-20T20:56:46.000Z",
+    "fetched": "2026-07-21T09:50:33.000Z",
+    "summary": "タイトル：米国のAIは閉鎖的で独占的であり、競争で敗北しつつある\n\n・米国が推進する「クローズドで独占的なAIモデル」は、開発のスピードと革新性の面で限界を迎えつつある。\n・対照的に、オープンソースのAIは世界中の開発者の知見を吸収することで急速に進化しており、米国企業の独占体制を脅かす存在となっている。\n・現在の米国流AI戦略は、技術の民主化を阻み、特定の企業に富と権力を集中させているが、結果としてイノベーションの広がりを自ら制限している。\n・AI分野における真の競争力は、閉鎖的な開発環境ではなく、透明性と協力関係に基づくエコシステムから生まれる。\n・今後のAI開発において主導権を握るためには、現在の制限的なアプローチから脱却し、開かれた技術開発へと転換する必要がある。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1xse3/american_ai_is_locked_down_and_proprietary_its/"
+  },
+  {
+    "id": "3a43de0e-c1c5-81b4-aa54-dc5673b72cd1",
+    "title": "Sources: parts of the Trump administration are reigniting efforts to implement de facto bans on foreign open-source models, as Chinese AI models gain momentum",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-20T11:42:18.000Z",
+    "fetched": "2026-07-21T09:50:41.000Z",
+    "summary": "# タイトル：トランプ政権の一部、中国AIの台頭に対抗して海外製オープンソースモデルの実質的禁止を模索\n\n*   トランプ政権の一部関係者が、海外で開発されたオープンソースAIモデルに対する事実上の利用制限や禁止措置を再び検討している。\n*   この動きの背景には、中国のAI技術が急速に進化し、国際的な競争力を高めていることへの強い危機感がある。\n*   特に、オープンソースモデルは誰でも利用可能であるため、中国企業が米国の技術を基盤に高性能なAIを開発したり、安全保障上の脅威となるツールを作成したりすることへの懸念が強まっている。\n*   具体的な規制手法として、AIの学習や配布に関する輸出管理の強化、あるいは米国企業による特定のモデル利用を制限する枠組みが検討されている。\n*   この政策案は、AIの民主化やイノベーションを推進するオープンソースコミュニティやIT業界から強い反発を招く可能性があり、実現には慎重な議論が求められる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1j3ns/sources_parts_of_the_trump_administration_are/"
+  },
+  {
+    "id": "3a43de0e-c1c5-81f5-93dc-f7dfb5c12014",
+    "title": "Kimi-K3 isn’t quite better than Fable yet, but it’s definitely getting closer.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-20T22:41:57.000Z",
+    "fetched": "2026-07-21T09:50:49.000Z",
+    "summary": "タイトル：Kimi-K3はFableにまだ及ばないものの、確実に差を縮めている\n\n* Kimi-K3は現時点ではFableの性能を完全には凌駕していないが、その進化のスピードは速く、着実に競争力を高めている。\n* 処理能力やタスク遂行の精度において、以前よりも大幅な改善が見られ、最上位モデルとの性能差が縮小していることが評価されている。\n* 複雑な推論能力やコーディングなどの特定の分野では、Fableと比較してまだ改善の余地があるものの、汎用的なAIツールとしての実用性は高まった。\n* 今後のアップデート次第では、将来的にFableと肩を並べる、あるいは一部の領域で追い抜く可能性を十分に秘めている。\n* Kimi-K3の急速な進歩は、AIモデル開発における激しい競争を象徴しており、ユーザーにとっては選択肢が広がるポジティブな状況と言える。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v20g29/kimik3_isnt_quite_better_than_fable_yet_but_its/"
+  },
+  {
+    "id": "3a43de0e-c1c5-813d-ab83-c650b241c1eb",
+    "title": "v0.32.2",
+    "site": "Ollama Blog",
+    "published": "2026-07-20T21:00:30.000Z",
+    "fetched": "2026-07-21T09:50:57.000Z",
+    "summary": "# Ollama v0.32.2 リリース情報\n\nOllamaのバージョン0.32.2がリリースされました。本リリースは、ローカル環境でLLM（大規模言語モデル）を手軽に実行するためのツールであるOllamaの安定性向上やバグ修正を含むアップデートです。\n\n重要なポイントは以下の通りです。\n\n* **安定性の向上**: 前バージョンと比較して、ローカルLLM実行時のパフォーマンスの安定化や、細かなバグの修正が行われています。\n* **メンテナンスの継続**: Ollamaの開発コミュニティによる継続的なリポジトリの保守の一環として公開されており、ユーザーは最新版にアップデートすることで、より快適な開発環境を利用可能です。\n* **GitHubを通じた配布**: 従来のリリースと同様に、GitHubの公式リポジトリからソースコードやビルド済みのバイナリへアクセス可能です。\n* **利用環境のアップデート**: ローカルLLMを活用する開発者やユーザー向けに、引き続き最新の推論エンジンやモデル対応の基盤を提供しています。\n\n詳細な変更点や修正内容については、GitHubの「ollama/ollama」リポジトリのリリースノートで確認できます。最新バージョンへの更新を行うことで、より安定した動作が期待できます。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc0"
+  },
+  {
+    "id": "3a43de0e-c1c5-81d3-a8be-fb0eae67fe90",
+    "title": "NVIDIA NVLink: The Scale-Up Network for AI Factories",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-07-20T15:46:28.000Z",
+    "fetched": "2026-07-21T09:51:05.000Z",
+    "summary": "タイトル：NVIDIA NVLink：AIファクトリーのためのスケールアップ・ネットワーク\n\nNVIDIAの第6世代NVLinkは、現代の大規模なAIファクトリーにおいて単一の計算ユニットのように機能させるための、極めて高帯域かつ低遅延なスケールアップ・ネットワークです。\n\n・圧倒的なパフォーマンスと効率：GPUあたり最大3.6TB/s、ラックレベルで260TB/sという超高速帯域を実現し、ネットワーク内での130TFLOPSの計算能力を統合。HopperからBlackwell世代への移行では、ワットあたりのトークン処理性能が50倍に向上しています。\n\n・ハード・ソフト一体型の共同設計：NVIDIA DynamoやNCCLなどのソフトウェアスタックとハードウェアが密接に連携することで、混合エキスパートモデル（MoE）や大規模言語モデル（LLM）の複雑な並列処理や、動的なリソース割り当てを最適化します。\n\n・高い信頼性と運用効率：制御プレーンの復元力、ホットスワップ可能なスイッチトレイ、動的なルーティング機能を備え、大規模環境下での継続的な稼働と安定した投資収益率（ROI）を保証します。\n\n・柔軟な拡張性：NVLink-C2CによるCPU-GPU間のコヒーレンス保持や、NVLink FusionによるカスタムXPUのシームレスな統合を可能にし、次世代のAI基盤として拡張性を確保しています。",
+    "url": "https://developer.nvidia.com/blog/nvidia-nvlink-the-scale-up-network-for-ai-factories/"
+  },
+  {
+    "id": "3a43de0e-c1c5-81b5-bc05-f8ba180d21e6",
+    "title": "Integrate NVIDIA Omniverse RTX Sensor Simulation Into Existing Apps",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-07-20T15:00:00.000Z",
+    "fetched": "2026-07-21T09:51:13.000Z",
+    "summary": "タイトル：既存アプリケーションへのNVIDIA Omniverse RTXセンサーシミュレーション統合\n\n* **RTX技術による高度なセンサーシミュレーション**\n  NVIDIAが新たに公開した「ovrtx」ライブラリにより、カメラ、LiDAR、レーダーなどの物理的に正確なセンサーデータをOpenUSDシーンから生成可能になりました。これにより、AIの学習や検証に不可欠な高品質な合成データ生成が実現します。\n* **既存アプリケーションへの柔軟な組み込み**\n  本ライブラリは軽量なC/Python SDKとして提供されるため、CAD、Blender、ロボット工学ツール、クラウドネイティブな設計ワークフローなど、既存のアプリケーションスタックに容易に統合可能です。\n* **NVIDIA Agent Toolkitへの統合**\n  ovrtxはNVIDIA Agent Toolkitの一部として提供され、物理演算（ovphysx）やデータ管理（ovstorage）など他のモジュールと組み合わせることで、複雑なデジタルツインや物理AIのパイプラインを構築できます。\n* **ホストアプリによる制御と効率的なデータ取得**\n  開発者は、自らのアプリケーションのループからシミュレーションをステップ実行し、CPUまたはGPU上で直接出力テンソルを取得できます。これにより、ホスト側のアプリケーションが主導権を保ったまま、AIエージェントへのツール提供が可能になります。",
+    "url": "https://developer.nvidia.com/blog/integrate-nvidia-omniverse-rtx-sensor-simulation-into-existing-apps/"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "3a33de0e-c1c5-81aa-91f4-cfab5ccc9e1f",
+    "title": "Alibaba's Qwen takes on Kimi K3 with open-weight Qwen 3.8, says model is \"second only to Fable 5\"",
+    "site": "THE DECODER",
+    "published": "2026-07-19T12:07:06.000Z",
+    "fetched": "2026-07-20T00:00:54.000Z",
+    "summary": "# Alibabaが最新AIモデル「Qwen 3.8」を発表、Fable 5に次ぐ性能を主張\n\n*   **「Qwen 3.8」の公開**: Alibabaが2.4兆パラメータを持つ最新のオープンウェイトモデル「Qwen 3.8」を発表しました。開発チームは、現時点で「Fable 5」に次ぐ性能であると主張しています。\n*   **マルチモーダル性能の強化**: 本モデルはQwenシリーズ初の1兆パラメータを超えるマルチモーダルモデルであり、画像、動画、ドキュメントの処理が可能です。コーディングやデータ分析、業務効率化タスクにおいて前モデルを上回る性能を発揮します。\n*   **先行プレビューとリリース計画**: 現在、Alibabaの「Token Plan」や「Qoder」などを通じてプレビュー版が提供されており、正式なオープンウェイト版も近日公開予定です。\n*   **競合Kimi K3への対抗**: Moonshot AIが提供する「Kimi K3」の勢いに歯止めをかける狙いがあります。KimiがAPIやアプリ経由のクローズドな提供を中心とする中、オープンウェイト版の提供で先行することで市場戦略上の優位性を狙っています。",
+    "url": "https://the-decoder.com/alibabas-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-says-model-is-second-only-to-fable-5/"
+  },
+  {
+    "id": "3a33de0e-c1c5-81a1-92ea-c71863ce0133",
+    "title": "Google Deepmind argues video generators already contain the world models computer vision has been missing",
+    "site": "THE DECODER",
+    "published": "2026-07-19T10:17:49.000Z",
+    "fetched": "2026-07-20T00:01:13.000Z",
+    "summary": "### タイトル\nGoogle DeepMindが提唱：動画生成AIは「世界モデル」の基盤になり得る\n\n### 重要なポイント\n* **動画生成AIを汎用モデルへ転用：** Google DeepMindの研究チームは「GenCeption」というモデルを開発し、既存の動画生成AIを深度推定やセグメンテーションといった従来のコンピュータビジョン（画像認識）タスクに転用することに成功した。\n* **学習データの劇的な削減：** わずかな合成動画で学習するだけで高い性能を発揮するため、膨大なデータが必要だった従来のアプローチに比べて極めて効率的である。\n* **専門モデルに匹敵する性能：** GenCeptionは、特定のタスクに特化した既存の高性能モデルと同等の精度を達成し、現実世界の映像や未学習のカテゴリー（動物など）に対しても高い適応能力を示した。\n* **「世界モデル」の可能性を証明：** この成果は、言語モデルが次単語予測を通じて知識を獲得するように、動画生成AIもまた「世界モデル（物理法則や空間認識を理解する基盤）」として機能するという仮説を裏付けるものとなる。",
+    "url": "https://the-decoder.com/google-deepmind-argues-video-generators-already-contain-the-world-models-computer-vision-has-been-missing/"
+  },
+  {
+    "id": "3a33de0e-c1c5-81e6-b549-f8c909226f04",
+    "title": "Moonshot's Kimi K3 outperforms Fable 5 in frontend code but lags far behind in complex math",
+    "site": "THE DECODER",
+    "published": "2026-07-19T09:32:19.000Z",
+    "fetched": "2026-07-20T00:01:33.000Z",
+    "summary": "タイトル：Moonshot社のAIモデル「Kimi K3」：フロントエンド開発でトップに立つも、数学分野では課題が残る\n\n*   **フロントエンド開発で世界最高水準へ：** 中国Moonshot社のAIモデル「Kimi K3」が、人間による評価に基づく「Code Arena: Frontend」ベンチマークで1,679点を獲得。Claude Fable 5やGPT-5.6 Solを抑え、中国のモデルとして初めて同指標で首位に立った。\n*   **数学能力には大きな開き：** 一方、高難易度の数学能力を測る「FrontierMath Tier 4」では、正答率が約39%にとどまった。OpenAIやAnthropicのトップモデルが約90%を記録する中、複雑な数学的推論においては欧米の主要モデルに大きく水をあけられている。\n*   **性能に明暗が出る結果に：** Kimi K3は特定のプログラミング分野で優れた性能を見せたものの、高度な論理的思考や数学的能力という点では、欧米の最先端モデルとの間に依然として無視できない格差が存在することが浮き彫りとなった。",
+    "url": "https://the-decoder.com/moonshots-kimi-k3-outperforms-fable-5-in-frontend-code-but-lags-far-behind-in-complex-math/"
+  },
+  {
+    "id": "3a33de0e-c1c5-8166-a6a8-c6e3a5d344c7",
+    "title": "AI text detectors struggle when language models mimic an author's style",
+    "site": "THE DECODER",
+    "published": "2026-07-19T08:35:26.000Z",
+    "fetched": "2026-07-20T00:01:52.000Z",
+    "summary": "### AIによる文体模倣、AI検知ツールをすり抜けるリスクが明らかに\n\n*   **AI検知ツールは文体模倣に弱い**\n    標準的なAI生成テキストは高精度に識別できる検知ツール（Pangram、GPTZero、Originality.aiなど）も、特定の著者の文体を模倣させた場合には精度が大幅に低下し、平均で約13％のテキストを見逃してしまう。\n*   **学術分野での検知失敗率が高い**\n    特に科学論文などの学術的な文章において弱点が顕著であり、文体を模倣したAI生成テキストの24〜29％が検知をすり抜けている。\n*   **教育現場での信頼性に懸念**\n    学術分野での検知精度の低さは、学校や研究機関におけるAI利用の判定において、既存の検知ツールが信頼できない可能性を示唆している。\n*   **調査の信頼性**\n    今回の調査では、ChatGPT公開以前（2022年11月以前）に執筆された人間による文章を比較対象として使用しており、AIによる学習データの汚染がないクリーンな環境で検証が行われている。",
+    "url": "https://the-decoder.com/ai-text-detectors-struggle-when-language-models-mimic-an-authors-style/"
+  },
+  {
+    "id": "3a33de0e-c1c5-81ce-9c67-df2c9fa7489c",
+    "title": "AI chatbots reading X-rays can be dangerously confident even when they're wrong",
+    "site": "THE DECODER",
+    "published": "2026-07-19T07:35:20.000Z",
+    "fetched": "2026-07-20T00:02:09.000Z",
+    "summary": "タイトル：AIチャットボットによるX線診断：誤診時でも過度な自信を持つ危険性\n\n*   **AIの過信が医療現場のリスクに**：最新のベンチマークテスト「RadLE 2.0」により、多くのAIモデルが誤った診断を下す際にも高い確信度を示すことが判明し、患者ケアにおける重大なリスクが浮き彫りとなった。\n*   **「正直な判断」を評価する新指標**：今回のテストでは単なる正解率だけでなく、AIが自身の回答に対してどれだけ自信を持っているかを評価し、不明な場合には「わからない」と回答できる能力を重視したスコアリングが採用された。\n*   **人間との明らかな実力差**：全16モデルを比較した結果、専門の放射線科医（人間）がスコア988.7を獲得したのに対し、最高精度のAIモデルでも758点にとどまり、人間が全ての項目でAIを上回った。\n*   **「無知」を認める重要性**：現在のAIモデルは正解率のみを追求するよう訓練されているため、医療においては危険な「自信満々な誤診」を誘発しやすい。今後は、自らの限界を認識し、判断を人間に委ねる能力の向上が不可欠である。",
+    "url": "https://the-decoder.com/ai-chatbots-reading-x-rays-can-be-dangerously-confident-even-when-theyre-wrong/"
+  },
+  {
+    "id": "3a33de0e-c1c5-81c1-922c-e20b5268d09d",
+    "title": "Prepare your (v)ram - Qwen3.8 is coming!",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-19T08:52:53.000Z",
+    "fetched": "2026-07-20T00:02:27.000Z",
+    "summary": "### タイトル：次世代モデル「Qwen3.8」の登場が迫る\n\n*   **Qwen3.8のリリース予告**：次世代モデルとなる「Qwen3.8」の公開が間近に迫っていることが発表されました。\n*   **VRAM（ビデオメモリ）の重要性**：モデルサイズや性能の向上に伴い、実行には相応のVRAM容量が必要になることが示唆されています。\n*   **高い推論性能への期待**：既存のQwenシリーズの流れを汲み、さらなる言語能力や推論能力の向上が期待されています。\n*   **ローカル実行の準備**：モデルのリリースに向けて、ユーザーは自身の環境（特にGPUメモリ）を見直し、準備しておくことが推奨されています。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0lewq/prepare_your_vram_qwen38_is_coming/"
+  },
+  {
+    "id": "3a33de0e-c1c5-819c-be25-f8a5b1664c5e",
+    "title": "head of strategic futures from openai on open-weight chinese models.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-19T01:15:23.000Z",
+    "fetched": "2026-07-20T00:02:46.000Z",
+    "summary": "# OpenAI戦略部門責任者が語る「オープンウェイトの中国製AIモデル」の脅威と対応\n\n*   **中国の技術進化への懸念：** 中国企業が公開するオープンウェイト（公開モデル）のAIモデルは急速に高性能化しており、米国にとって無視できない競争上の脅威となっている。\n*   **国家安全保障のリスク：** 高性能なAIモデルが広く一般公開されることで、悪意のある国家主体がサイバー攻撃や生物兵器開発などに悪用するリスクが高まる。\n*   **「責任ある公開」の重要性：** OpenAIの戦略部門は、AIの技術革新を止めないことと、社会への安全を確保することのバランスを重視しており、無制限な公開には慎重な姿勢を示している。\n*   **国際的な規制協調の必要性：** 一国だけでの規制には限界があるため、国際的な枠組みを通じたAIモデルのガバナンスと、透明性の確保が不可欠である。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0czbk/head_of_strategic_futures_from_openai_on/"
+  },
+  {
+    "id": "3a33de0e-c1c5-81e6-ae68-f048fdcd93c1",
+    "title": "Ahem! Qwen is on the move again",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-19T08:12:22.000Z",
+    "fetched": "2026-07-20T00:03:03.000Z",
+    "summary": "# タイトル：Qwenモデルがさらなる進化を遂げて登場\n\n# 重要なポイント\n*   Alibabaが最新の高性能AIモデル「Qwen」シリーズのアップデート版を発表し、その性能が大幅に向上しました。\n*   特に数学、プログラミング、多言語対応といった複雑なタスクにおける推論能力が強化されています。\n*   オープンソースモデルとして提供されることで、開発者や企業が自身の環境に合わせて利用しやすくなっています。\n*   推論効率が改善されたことで、より低コストかつ高速なレスポンスが可能となり、実用的なアプリケーションへの導入が加速します。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0kqnn/ahem_qwen_is_on_the_move_again/"
+  },
+  {
+    "id": "3a33de0e-c1c5-812d-bd52-f63f170dbd5d",
+    "title": "Please Qwen, can we have more 3.x-35B-a3B please 🙏",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-19T15:09:58.000Z",
+    "fetched": "2026-07-20T00:03:24.000Z",
+    "summary": "### タイトル：Qwen-3.x-35B-a3Bモデルのリリースを求める要望\n\n*   **Qwenの次世代モデル（3.x-35B-a3B）への強い期待**\n    ユーザーは、Qwenシリーズの新しい構成である「3.x-35B-a3B」モデルの早期リリースを熱望している。\n*   **モデル性能への信頼**\n    現在のQwenモデルの性能が非常に高く評価されており、この次世代モデルがさらなる進化をもたらすことが期待されている。\n*   **開発コミュニティからの要望**\n    この投稿は、開発チームに対してユーザーコミュニティからのリリースに対する強い要望を届けることを目的としている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0t1g2/please_qwen_can_we_have_more_3x35ba3b_please/"
+  },
+  {
+    "id": "3a33de0e-c1c5-81d4-9c6f-c7d171fe4f34",
+    "title": "HuggingFace security incident report: \"the attacker was bound by no usage policy, while our own forensic work was blocked by the guardrails\"",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-19T19:00:20.000Z",
+    "fetched": "2026-07-20T00:03:41.000Z",
+    "summary": "# Hugging Faceで発生したセキュリティ侵害：AIのガードレールがフォレンジック調査を妨害\n\n*   **侵害の発生と原因**: Hugging Faceの「Spaces」プラットフォームにおいて、特定のSpacesの環境変数からAPIトークンが盗まれるセキュリティ侵害が発生した。\n*   **ガードレールの逆説**: 攻撃者は制限なくAIモデルを利用できた一方で、Hugging Face側のセキュリティチームは、自社が設けたAIの安全ガードレールによってログ解析やフォレンジック調査が制限されるという皮肉な事態に直面した。\n*   **セキュリティ設計の教訓**: AIモデルの安全性を高めるためのガードレールが、緊急時のインシデント対応（フォレンジック）を妨げてしまうという、現在のAIプラットフォームが抱える運用上の課題が浮き彫りになった。\n*   **再発防止策**: 開発者は環境変数への機密情報保存を避けるべきであり、プラットフォーム側はセキュリティ調査に必要なツールがガードレールによって阻害されないよう、権限管理の最適化が求められている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0ywoi/huggingface_security_incident_report_the_attacker/"
+  }
+]

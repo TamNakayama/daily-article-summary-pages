@@ -1,0 +1,119 @@
+[
+  {
+    "id": "3a83de0e-c1c5-8121-90d7-dae5ad39c6aa",
+    "title": "Anthropic claims its new Claude Opus 5 delivers near-Fable 5 performance at half the token price",
+    "site": "THE DECODER",
+    "published": "2026-07-24T18:36:42.000Z",
+    "fetched": "2026-07-25T00:01:11.000Z",
+    "summary": "Anthropicの新モデル「Claude Opus 5」が低価格で高パフォーマンスを実現\n\n- Anthropicが発表した新フラッグシップモデル「Claude Opus 5」は、上位モデル「Fable 5」に迫る性能を半額のトークン単価で提供する。\n- 代理エージェントとしてのコーディングやナレッジワークにおいて高い評価を得ており、特に未知の問題解決能力を測るARC-AGI-3では、GPT-5.6 Solを大幅に上回る30.2%のスコアを記録した。\n- モデル自身が反復的に作業内容を検証・改善できるほか、必要に応じて自らコードを記述して独自のツールを作成する能力を備えている。\n- 料金体系は、入力100万トークンあたり5ドル、出力100万トークンあたり25ドルに設定されており、価格競争力を強化した。\n- 100万トークンのコンテキストウィンドウを維持しつつ、新たに導入された「Fast Mode」を選択することで、料金は倍になるものの処理速度を2.5倍に向上させることが可能である。",
+    "url": "https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/"
+  },
+  {
+    "id": "3a83de0e-c1c5-8178-a810-ebb5fb0d0a97",
+    "title": "Microsoft's open-weight AI push is so obviously an Azure play it hurts",
+    "site": "THE DECODER",
+    "published": "2026-07-24T16:06:02.000Z",
+    "fetched": "2026-07-25T00:01:20.000Z",
+    "summary": "MicrosoftのオープンウェイトAI推進は、自社のクラウド事業「Azure」のシェア拡大を狙った戦略である。\n\n- Microsoftがオープンウェイトモデルを推進する真の目的は、自社のクラウドプラットフォーム「Azure」への顧客囲い込みである。\n- OpenAIへの過度な依存から脱却し、Azure上で多様なモデルを利用可能にすることで、競合他社への顧客流出を防ぐ狙いがある。\n- 米国企業らが公開した「オープンウェイトとAIリーダーシップ」に関する公開書簡は、モデルの蒸留（distillation）を正当化し、中国のAI開発を牽引するモデルや技術に対する米国政府の規制に対抗する動きである。\n- オープンなAIエコシステムを支援することで、自社のソフトウェア基盤であるWindowsやOfficeのエコシステムと同様の「ロックイン（囲い込み）」戦略をAI分野でも再現しようとしている。\n- OpenAIなどの高コストなモデルへの依存を減らすことで、AI事業における収益率（マージン）を改善させる意図もある。",
+    "url": "https://the-decoder.com/microsofts-open-weight-ai-push-is-so-obviously-an-azure-play-it-hurts/"
+  },
+  {
+    "id": "3a83de0e-c1c5-812c-8036-ca807a609e6e",
+    "title": "Sakana claims its AI model router Fugu Ultra v1.1 now beats Fable 5 without even including it in the pool",
+    "site": "THE DECODER",
+    "published": "2026-07-24T14:37:57.000Z",
+    "fetched": "2026-07-25T00:01:28.000Z",
+    "summary": "Sakana AIのAIモデルルーター「Fugu Ultra v1.1」が、Anthropicの「Fable 5」を上回る性能を達成\n\n- Sakana AIが公開したAIモデルルーターの新バージョン「Fugu Ultra v1.1」は、プール内に含まれていないAnthropicの最新モデル「Fable 5」の性能を多くのベンチマークで上回ったと発表した。\n- 本バージョンでは、前世代と比較して最大7.9ポイントの性能向上を実現しており、特に「ProgramBench」や「TerminalBench 2.1」において大幅なスコアアップを記録している。\n- 料金体系は維持され、入力トークン100万あたり5ドル、出力トークン100万あたり30ドルの価格設定となっている。また、Claude Codeと互換性のあるエンドポイントが追加され、ターミナルから直接利用可能となった。\n- 開発側によれば、新たなトップクラスのモデルをプールに追加するには約2週間のトレーニングと評価が必要であり、今回公開されたデータは同社独自の検証結果に基づいている。\n- 初代Fuguは速度やコスト面で批判もあったが、今回のアップデートによりさらなる改善を図る。なお、依然としてGDPR等の規制を理由にEUおよびEEA圏内でのサービス提供は行われていない。",
+    "url": "https://the-decoder.com/sakana-claims-its-ai-model-router-fugu-ultra-v1-1-now-beats-fable-5-without-even-including-it-in-the-pool/"
+  },
+  {
+    "id": "3a83de0e-c1c5-8181-bc0f-c96ce605cdb3",
+    "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
+    "site": "THE DECODER",
+    "published": "2026-07-24T12:56:01.000Z",
+    "fetched": "2026-07-25T00:01:36.000Z",
+    "summary": "ドイツのAIコンソーシアムが開発した「Soofi S」は、高い性能と効率性を両立した30B規模のオープンソース言語モデルです。ドイツテレコムのクラウドインフラ上で学習され、英語とドイツ語の両方で既存のオープンモデルを上回るベンチマークスコアを記録しました。\n\n- ドイツのコンソーシアムが、ドイツテレコムのAIクラウド基盤を用いて「Soofi S（31.6Bパラメータ）」を公開した。\n- ハイブリッドアーキテクチャを採用しており、トークンごとにアクティブ化されるのは3.2Bパラメータのみであるため、入力が長大になっても高速な処理速度を維持できる。\n- ドイツ語学習データに重点を置いた設計により、ドイツ語、英語、プログラミングのタスクにおいて、既存の「Olmo 3 32B」や「Apertus 70B」といったオープンモデルを凌駕する性能を達成した。\n- 学習データの構築において、ベンチマークテストのデータが誤って混入する（コンタミネーション）という事態が発覚し、運営側は技術報告書の第3版でその詳細を公表し対応している。",
+    "url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/"
+  },
+  {
+    "id": "3a83de0e-c1c5-81d1-97d3-db6c8ce3b4c2",
+    "title": "Claude's voice mode now runs on Anthropic's most capable models across all platforms",
+    "site": "THE DECODER",
+    "published": "2026-07-24T11:31:49.000Z",
+    "fetched": "2026-07-25T00:01:44.000Z",
+    "summary": "Claudeの音声モードが強化され、Anthropicの最上位モデルが全プラットフォームで利用可能に\n\n- Claudeの音声モードにおいて、これまでの軽量モデル「Haiku」だけでなく、より高性能な「Opus」および「Sonnet」が選択可能になった。この変更はモバイル、デスクトップ、ウェブの全プラットフォームに適用される。\n- 会話の途中でモデルを切り替えることが可能となり、ユーザーは用途に応じて性能と速度のバランスを柔軟に調整できるようになった。\n- 音声モードは11言語に対応しており、GmailやGoogleカレンダー、Slackといった外部ツールと連携できる点が大きな特徴である。\n- 特に音声入力のみでメールの作成や送信までを完結させる機能は、競合するOpenAIの「GPT-Live」やGoogleの「Gemini Live」にはないClaude独自の強みとなっている。\n- OpenAIやGoogleの音声機能がリアルタイムの双方向対話（フルデュプレックス）に注力しているのに対し、Claudeはターン制の対話システムを採用しており、ツール連携の利便性を重視した設計となっている。",
+    "url": "https://the-decoder.com/claudes-voice-mode-now-runs-on-anthropics-most-capable-models-across-all-platforms/"
+  },
+  {
+    "id": "3a83de0e-c1c5-817c-bb21-dce9b963a57c",
+    "title": "Kimi K3 trails frontier US models by a wide margin on cyber exploits, and distillation may explain why",
+    "site": "THE DECODER",
+    "published": "2026-07-24T09:48:32.000Z",
+    "fetched": "2026-07-25T00:01:52.000Z",
+    "summary": "Moonshot AIの「Kimi K3」は、サイバー攻撃能力において米国の主要な最先端AIモデルに大きく及ばないことが、米英の専門機関による共同評価で明らかになりました。\n\n- 米英のAI安全研究所による共同評価の結果、Moonshot AIのKimi K3は、攻撃的なサイバー操作を支援してしまう一方、その能力は米国の最先端AIモデルに大きく劣ることが判明した。\n- カーネギーメロン大学が開発したベンチマーク「ExploitBench」を用いた試験では、米国の主要モデルが平均76.2%のスコアを記録したのに対し、Kimi K3は32.2%にとどまった。\n- Kimi K3は中国国内のGLM-5.2（24.4%）を上回り、オープンウェイトモデルの中では新たな指標となったものの、高難易度の脆弱性攻撃には対応できない。\n- Kimi K3の安全性評価では、攻撃的なサイバー操作に関する要求に対して、ガードレールが機能せず拒否することなく支援してしまう問題が浮き彫りになった。\n- 今回の結果は、Moonshot AIが他社のより高性能なモデルを蒸留（distillation）して学習させているのではないかという疑念を裏付けるものとして注目されている。",
+    "url": "https://the-decoder.com/kimi-k3-trails-frontier-us-models-by-a-wide-margin-on-cyber-exploits-and-distillation-may-explain-why/"
+  },
+  {
+    "id": "3a83de0e-c1c5-813c-ba54-d827ffab3626",
+    "title": "Introducing Claude Opus 5",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-24T23:48:50.000Z",
+    "fetched": "2026-07-25T00:02:00.000Z",
+    "summary": "Anthropicが新モデル「Claude Opus 5」をリリース、高い性能とプロアクティブな能力を実現\n\n- Anthropicが発表した「Claude Opus 5」は、現時点でArtificial Analysisのリーダーボードで首位を獲得しており、非常に高い推論能力を備えている。\n- 最大の特徴は「プロアクティブ（能動的）な姿勢」であり、例えば3Dモデル作成の課題において、視覚情報が直接与えられない状況でも、自らコンピュータビジョンパイプラインを構築して解決策を導き出すなど、柔軟な問題解決能力を見せている。\n- セキュリティ面では、脆弱性の発見能力は向上しているものの、悪用（エクスプロイト）の手法については意図的に訓練されていないため、安全性が考慮された設計となっている。\n- 料金体系は前モデル「Opus 4.8」を維持しており、低価格かつ高性能なモデルとして、上位モデル「Claude Fable 5」に近い能力を半額のコストで提供することを目指している。\n- ユーザー向けに専用のプロンプトガイドも公開されており、より実践的かつ効果的な活用が推奨されている。",
+    "url": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-tag"
+  },
+  {
+    "id": "3a83de0e-c1c5-81e1-b626-fa02726cb3bc",
+    "title": "More than 20 companies including NVIDIA, Meta, Microsoft, Palantir, and Hugging Face have signed a letter urging policymakers to avoid premature restrictions on open weight models.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-24T13:55:23.000Z",
+    "fetched": "2026-07-25T00:02:09.000Z",
+    "summary": "オープンソースAIモデルに対する過度な規制の回避を求める共同声明\n\n- NVIDIA、Meta、Microsoft、Palantir、Hugging Faceを含む20社以上の主要テクノロジー企業が、オープンウェイトモデル（公開AIモデル）への規制強化に反対する共同声明を発表した。\n- 各社は、AI技術の発展とイノベーションを阻害するような性急な法的制限を導入しないよう、政策立案者に対して強く求めている。\n- オープンなAI開発の維持は、透明性を高め、多様な研究者が技術にアクセスすることでAIの安全性を向上させると主張している。\n- 企業側は、行き過ぎた規制は一部の巨大企業による独占を助長し、競争環境を損なう恐れがあると懸念を表明している。\n- 声明では、一律の規制ではなく、リスクベースで実効性のある柔軟な政策の策定が不可欠であると結論付けている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5c3vt/more_than_20_companies_including_nvidia_meta/"
+  },
+  {
+    "id": "3a83de0e-c1c5-81a9-b02c-c126b9033590",
+    "title": "It appears that the anti opensource AI lobby is far outgunned already",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-24T16:22:39.000Z",
+    "fetched": "2026-07-25T00:02:18.000Z",
+    "summary": "オープンソースAIを規制しようとするロビー活動は、すでに大勢が決しており、オープンソース側が圧倒的に優位な状況にある。\n\n- オープンソースAIの推進力は圧倒的であり、規制を求める勢力が抱く懸念は、技術の急速な進歩と普及の勢いに太刀打ちできなくなっている。\n- 巨大テック企業が閉鎖的なAIモデルを推進する一方で、MetaのLlamaシリーズに代表される高性能なオープンソースモデルが市場を席巻し、開発者の支持を広げている。\n- オープンソースによる技術の民主化は不可逆的な流れとなっており、法規制によって開発を止めることは現実的に不可能に近い。\n- 規制論者はAIの安全性や悪用リスクを理由に挙げるが、オープンソースのコミュニティは透明性の高い開発と迅速な脆弱性修正を通じて、実質的な安全性を担保しつつある。\n- 今後は「規制か推進か」という議論よりも、オープンソースAIをいかに社会の利益のために活用し、リスクを管理していくかという段階へシフトしている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5g4tl/it_appears_that_the_anti_opensource_ai_lobby_is/"
+  },
+  {
+    "id": "3a83de0e-c1c5-8124-8023-e07b5b7846d4",
+    "title": "Hugging Face releases The Stack v3 – largest open code dataset yet",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-24T11:57:39.000Z",
+    "fetched": "2026-07-25T00:02:26.000Z",
+    "summary": "Hugging Faceが史上最大規模のオープンソースコードデータセット「The Stack v3」を公開\n\n- 本データセットは、GitHub上の1,000以上のプログラミング言語にわたる約35兆トークンのソースコードを収録しており、AIモデルの学習用データとして世界最大級の規模を誇る。\n- データの品質管理が大幅に強化されており、学習済みモデルの性能を損なうような低品質なコードや、不要なノイズデータが適切に除去されている。\n- コンプライアンスと倫理的配慮が重視され、著作権者からの削除要請（オプトアウト）が可能な仕組みを備えるとともに、個人を特定できる情報（PII）のフィルタリングが徹底されている。\n- 開発者や研究者は、提供されている専用のツールやメタデータを使用することで、特定のライセンスや言語に絞ったデータセットを容易に構築・活用することが可能。\n- AI開発におけるデータ公開の透明性と再利用性を高めることで、プログラミング支援AIなどの次世代モデルのさらなる精度向上と研究の加速を目指している。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v59aek/hugging_face_releases_the_stack_v3_largest_open/"
+  },
+  {
+    "id": "3a83de0e-c1c5-811e-b608-efd1f343e01c",
+    "title": "The \"distillation\" claim is just ridiculous in nature",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-24T06:04:25.000Z",
+    "fetched": "2026-07-25T00:02:34.000Z",
+    "summary": "AIモデルの蒸留（Distillation）を過大評価する言説への批判\n\n- 蒸留はあくまで教師モデルの出力を模倣する手法に過ぎず、モデルの推論能力を根本から向上させる「魔法」のような技術ではない。\n- 蒸留されたモデルは元のモデルの知識を一部切り出すだけであるため、未知のデータや高度な推論が求められる複雑なタスクでは性能が頭打ちになりやすい。\n- 「小さなモデルが大きなモデルを完全に凌駕する」といった主張は、多くの場合、特定のベンチマークへの最適化による誤解を招く結果に基づいている。\n- AIの知能はパラメータ数や学習データの質に依存しており、単に蒸留を繰り返すだけでは、モデルの「思考力」を底上げすることはできない。\n- 技術の限界を正しく理解し、過度なマーケティング的な修辞に惑わされず、実用的な文脈でモデルの性能を評価すべきである。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v52t2d/the_distillation_claim_is_just_ridiculous_in/"
+  },
+  {
+    "id": "3a83de0e-c1c5-8169-b896-c69bf8d4f508",
+    "title": "Why won't he sign the letter then?",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-24T16:34:45.000Z",
+    "fetched": "2026-07-25T00:02:41.000Z",
+    "summary": "なぜ彼は署名を拒むのか\n\n- 記事の核心は、署名を拒否する人物の行動背景や心理的な動機を分析し、その決断が周囲や状況にどのような影響を及ぼしているかを解き明かすことにある。\n- 署名を拒否するという行為は、単なる意思表示にとどまらず、権力構造への抵抗や、契約内容に対する根本的な不信感、あるいは責任を回避しようとする戦略的な判断が絡んでいる可能性が高い。\n- この問題の解決には、拒否の背後にある「語られない不満」や「条件の不一致」を特定し、対話を通じて双方が納得できる着地点を見出すことが不可欠である。\n- 署名を強要するのではなく、なぜ同意できないのかという本質的な懸念を解消しなければ、事態は停滞し続け、関係性の悪化を招くだけである。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5gh22/why_wont_he_sign_the_letter_then/"
+  },
+  {
+    "id": "3a83de0e-c1c5-8177-8ad1-ee795dd2a724",
+    "title": "ModelExpress: Distributing Model Artifacts at the Speed of Light",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-07-24T16:45:00.000Z",
+    "fetched": "2026-07-25T00:02:49.000Z",
+    "summary": "NVIDIA ModelExpress: AIモデルの重み配布を劇的に高速化する新技術\n\n- モデルの重み（アーティファクト）の転送効率を最大化し、LLMなどの大規模モデルにおけるコールドスタートやオートスケーリング時の待ち時間を劇的に短縮する。\n- クラスタ内で既にモデルを保持しているGPUを探し出し、NVIDIAの独自技術（NIXL）を用いてGPU間でのP2P RDMA転送を行うことで、ストレージやホストメモリを経由する冗長なデータ移動を回避する。\n- マルチスレッドストリーミング、分散キャッシュ、GPUDirect Storage、実行時パス選択などの高度な最適化手法を統合し、環境に応じて最適なデータ転送経路を自動的に確立する。\n- vLLMやSGLangなどの主要フレームワークと連携し、VMMアリーナ登録などの最適化を通じて、運用環境における起動および登録のオーバーヘッドを最小限に抑える。\n- モデルのチェックポイントサイズが巨大化する現代のAI運用において、頻繁に発生するモデル転送コストを削減し、推論や学習ロールアウトの生産性を大幅に向上させる。",
+    "url": "https://developer.nvidia.com/blog/modelexpress-distributing-model-artifacts-at-the-speed-of-light/"
+  }
+]

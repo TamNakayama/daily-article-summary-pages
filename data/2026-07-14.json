@@ -1,0 +1,74 @@
+[
+  {
+    "id": "39e3de0e-c1c5-8176-9dcf-cce491acf5d0",
+    "title": "Claude responds with more warmth in Hindi and more rigor in Russian, showing how language shapes AI answers",
+    "site": "THE DECODER",
+    "published": "2026-07-14T11:00:12.000Z",
+    "fetched": "2026-07-15T02:40:14.000Z",
+    "summary": "タイトル：言語とモデルの特性により、AI（Claude）が示す「温かさ」や「厳格さ」などの価値観が変化する\n\nAnthropic社による最新の調査により、AIモデル（Claude）が生成する回答の質やトーンが、使用する言語や特定のモデル仕様によって体系的に変化することが明らかになりました。\n\n*   **言語による応答の違い**: 調査の結果、ヒンディー語でのやり取りではより「温かさ（Warmth）」のある表現が多くなり、ロシア語ではより「厳格さ（Rigor）」を伴う論理的な回答が増えるなど、言語がAIの振る舞いに影響を与えることが判明しました。\n*   **モデル間における挙動の差異**: モデルによっても特性が異なり、Sonnet 4.6は温かさや敬意を優先する傾向がある一方、Opus 4.7などの上位モデルはリスクへの警告や前提条件の確認など、より厳格な姿勢を示すことが確認されました。\n*   **分析手法と制約**: Anthropic社は30万件以上の会話から「温かさ」「厳格さ」「敬意」「慎重さ」の4つの軸を抽出しましたが、これらの要因が全変動のうち説明できる割合は約15%にとどまっており、評価方法における技術的な制約も指摘されています。",
+    "url": "https://the-decoder.com/claude-values-study/"
+  },
+  {
+    "id": "39e3de0e-c1c5-8164-95f7-e9794cb6a36b",
+    "title": "OpenAI's new prompting guide tells users to stop overthinking and start with the result",
+    "site": "THE DECODER",
+    "published": "2026-07-13T17:47:39.000Z",
+    "fetched": "2026-07-15T02:41:57.000Z",
+    "summary": "タイトル：OpenAIの新ガイドライン：複雑な手順よりも「結果」を重視するプロンプト術\n\nOpenAIは、一般ユーザー向けに簡略化された新しいプロンプト指針を発表しました。開発者向けの高度な設定よりも、意図を明確にして「最終的な成果物」から指示を開始する手法を推奨しています。\n\n・4つの構成要素：プロンプトを「目標」「文脈」「出力形式」「制約」の4つの要素で構築します。これらはすべて必須ではなく、タスクの規模に応じて必要なものだけを組み合わせることで、シンプルかつ効果的な指示が可能になります。\n・結果から始まるアプローチ：細かな手順を一つずつ指示するのではなく、まず最終的に何を求めているかを伝えます。これにより、AIに情報の探索や調整の自由度を与えつつ、精度の高い回答を引き出します。\n・制約による制御（ガードレール）：すべての動きをスクリプト化する代わりに、避けるべき挙動や守るべきルールを1〜2個設定することで、不要な動作を防ぎます。\n・最新モデルへの最適化：GPT-5.6などの高度な推論能力を持つ新モデルやChatGPT Workの登場に合わせ、ユーザーが複雑な操作を意識せずに実用的な成果を得られるよう、プロンプトの仕組みが統合されています。",
+    "url": "https://the-decoder.com/openais-new-prompting-guide-tells-users-to-stop-overthinking-and-start-with-the-result/"
+  },
+  {
+    "id": "39e3de0e-c1c5-811b-82c7-caac148962f1",
+    "title": "Turing Award winner Rich Sutton founds Oak Lab to build AI agents that learn on their own",
+    "site": "THE DECODER",
+    "published": "2026-07-13T17:15:58.000Z",
+    "fetched": "2026-07-15T02:43:59.000Z",
+    "summary": "タイトル：チューリング賞受賞者のリチャード・サットン氏、自律的な学習を行うAIエージェント構築に向け「Oak Lab」を設立\n\n【重要ポイント】\n・強化学習の先駆者であり2024年チューリング賞を受賞したリチャード・サットン氏が、トロントでスタートアップ「Oak Lab」を共同設立。\n・現在のディープラーニングや生成AI技術は模倣には長けているものの、自ら出力を評価する能力が欠如しており、真の発見に至るための基盤としては「弱く非効率」であると指摘。\n・静的なデータセットを用いた一回限りの学習ではなく、動的な環境から継続的に学び、内部の世界モデルを構築し、評価や選択を自律的に行うAIエージェントの開発を目指す。\n・技術的な目標として、わずか20ワットの消費電力でリアルタイムに学習と計画を行う、数兆パラメータ規模の高度なシステムの実現を目指している。",
+    "url": "https://the-decoder.com/turing-award-winner-rich-sutton-founds-oak-lab-to-build-ai-agents-that-learn-on-their-own/"
+  },
+  {
+    "id": "39e3de0e-c1c5-8149-8d1a-f1fcf4f44681",
+    "title": "Nobel laureates and AI leaders warn the window to prepare for AI's economic impact is closing fast",
+    "site": "THE DECODER",
+    "published": "2026-07-13T16:00:24.000Z",
+    "fetched": "2026-07-15T02:45:44.000Z",
+    "summary": "タイトル：ノーベル賞受賞者とAIリーダーら、加速するAIの経済的影響への備えを警告\n\n・200人以上の経済学者やAI研究者が共同声明を発表し、AIによる前例のない経済変革に対応するための即時的な行動と制度構築を求めている。\n・AIは今後10年で産業革命をも凌駕する速さで進化する可能性があり、社会が変化に適応するための準備期間（ウィンドウ）が急速に失われつつあると警告している。\n・技術の進歩速度に対し政策や社会的理解が追いついていない現状において、インセンティブの設計やガードレールの構築など、早急な枠組み作りが必要である。\n・AIは大規模な職の喪失を引き起こすリスクがある一方で、適切な準備を行うことで、一部の層だけでなく多くの人々の生活水準を向上させる大きな機会にもなり得ると指摘している。",
+    "url": "https://the-decoder.com/nobel-laureates-and-ai-leaders-warn-the-window-to-prepare-for-ais-economic-impact-is-closing-fast/"
+  },
+  {
+    "id": "39e3de0e-c1c5-8134-965e-de0f3dfd6f74",
+    "title": "DOOMQL",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-13T22:34:41.000Z",
+    "fetched": "2026-07-15T02:47:22.000Z",
+    "summary": "タイトル：DOOMQL — SQLiteをゲームエンジンとして活用する野心的な試み\n\n・「SQLiteがデータの保存場所ではなく、ゲームエンジンの役割を果たすなら？」という極めてユニークな問いから生まれた「DOOMQL」は、移動、衝突判定、敵の動作、そして画面上の全ピクセルまでを一貫してSQLで処理するDoom風の小型ゲームです。\n・技術的な核となるのは、再帰的共通テーブル式（Recursive CTE）を用いた大規模なSQLクエリによる実装であり、これによりSQLite内で本格的なレイトレーシングを実現しています。\n・システムはPythonスクリプトを介して構築され、生成されたデータベースをDatasetteとカスタムのHTML/JavaScriptアプリを組み合わせることで、ゲームの状態をリアルタイムにブラウザ上で描画する仕組みを備えています。\n・このプロジェクトはGPT-5.6（Sol）などの高度なAIを活用して構築されており、SQLの機能を極限まで活用することで従来とは異なるアプローチでゲーム体験を創り出した革新的な事例として紹介されています。",
+    "url": "https://simonwillison.net/2026/Jul/13/doomql/#atom-tag"
+  },
+  {
+    "id": "39e3de0e-c1c5-8166-a566-d40869e88632",
+    "title": "datasette code-frequency chart on GitHub",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-13T21:45:27.000Z",
+    "fetched": "2026-07-15T02:48:31.000Z",
+    "summary": "タイトル：AIエージェントと最新LLMによるコード更新頻度の急増\n\n・DatasetteプロジェクトのGitHubにおける履歴を調査した結果、AIコーディングエージェントや高度なモデル（Opus 4.5クラス）が開発に与える影響を可視化した。\n・特定の高機能モデル（Opus 4.8, GPT-5.5, Fable 5, GPT-5.6 Solなど）のリリース時期と、コード変更の頻度の急増が一致していることが確認された。\n・このデータの相関は、最新のAI技術やエージェントを活用することで、オープンソースプロジェクトの開発スピードが劇的に向上していることを示す重要な事例となっている。",
+    "url": "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-tag"
+  },
+  {
+    "id": "39e3de0e-c1c5-812a-8138-ca49c618b9d8",
+    "title": "I just don't get it. These big tech companies can illegally scrape the entire internet and gatekeep their better models behind higher prices. So it's natural that people look for affordable options, and there will be providers who apparently distill models from them.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-14T03:01:38.000Z",
+    "fetched": "2026-07-15T02:50:46.000Z",
+    "summary": "タイトル：テック大手の高額なモデルに対する、安価で実用的な代替手段の必然性\n\n・大手テック企業はインターネット上のデータを収集して高性能なAIモデルを構築する一方で、より高度な機能については高い利用料金を設定し、門番（ゲートキーパー）のような役割を果たしている。\n- 高いコストを避けたいユーザーにとって、より手頃で安価な選択肢を探すことは当然の動機であり、これが市場に強い需要を生んでいる。\n- その結果として、上位モデルから知識や性能を抽出・凝縮（蒸留）したモデルを、手に取りやすい価格で提供するプロバイディング側が現れるのは自然な流れである。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvwn9q/i_just_dont_get_it_these_big_tech_companies_can/"
+  },
+  {
+    "id": "39e3de0e-c1c5-8192-b73e-d7f38fc968b5",
+    "title": "v0.32.0",
+    "site": "Ollama Blog",
+    "published": "2026-07-14T00:05:12.000Z",
+    "fetched": "2026-07-15T02:52:21.000Z",
+    "summary": "タイトル：Ollama リリース情報 (v0.32.0)\n\n・Ollamaの最新バージョンである「v0.32.0」がリリースされました。\n・この更新は、GitHub上の公式リポジトリ（ollama/ollama）にて公開されています。\n・提供された情報の大部分はウェブサイトのナビゲーション要素ですが、主旨は新バージョンの公開通知です。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.32.0"
+  }
+]

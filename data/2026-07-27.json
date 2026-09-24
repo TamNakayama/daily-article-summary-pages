@@ -1,0 +1,173 @@
+[
+  {
+    "id": "3ab3de0e-c1c5-81fe-a2ea-fc904a023bb8",
+    "title": "Moonshot AI releases Kimi K3 open weights and infrastructure after shaking up the frontier model race",
+    "site": "THE DECODER",
+    "published": "2026-07-27T19:35:08.000Z",
+    "fetched": "2026-07-28T00:01:12.000Z",
+    "summary": "中国のAI企業Moonshot AIは、最新モデル「Kimi K3」のモデルウェイトと技術レポートを公開し、あわせて高性能な通信ライブラリなどのインフラ技術もオープンソース化した。同社は、新アーキテクチャによって計算量あたりの知能効率が2.5倍に向上したと主張している。\n\n- Moonshot AIが「Kimi K3」のモデルウェイトと技術レポートを公開し、関連するインフラ技術もオープンソース化して開発者へ提供を開始した。\n- Kimi K3は、Fable 5やGPT-5.6 Solといった欧米の最先端モデルに匹敵する性能を、より低いコストで実現したとして注目を集めている。\n- 英サイバー研究所による独立評価では、サイバーセキュリティ分野や数学スキルにおいて、最先端モデルと比較して性能が劣ることが指摘された。\n- 専門家の間では、Kimi K3の性能の一部が、より強力なモデルから知識を抽出する「蒸留」技術に依存している可能性が指摘されている。\n- 一方で、アメリカのオープンウェイト推進派は蒸留を正当な技術手法とみなしており、中国発のモデルが公開されたことで、今後のオープンソースAI開発の議論が加速すると予想される。",
+    "url": "https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race/"
+  },
+  {
+    "id": "3ab3de0e-c1c5-8109-8dc4-fec4d3048f95",
+    "title": "OpenAI says more workers are using ChatGPT to do other people's jobs",
+    "site": "THE DECODER",
+    "published": "2026-07-27T19:08:51.000Z",
+    "fetched": "2026-07-28T00:01:23.000Z",
+    "summary": "OpenAIのデータが示す、AI活用による職務領域の境界線消滅\n\n- ChatGPT利用者の約43.5%が、本来の専門職務以外のタスクにAIを活用する「タスク・クロスオーバー」が起きている。\n- 特にマーケティングやエンジニアリングの分野で、専門外の人々がデータ分析、契約書の確認、Webサイトのトラブルシューティングといった専門業務を代行するケースが増加している。\n- 専門チームを抱えにくい中小企業ほどこの傾向が強く、AIが小規模な組織における業務の多能工化を加速させている。\n- OpenAIは、この利用状況を「職務内容や肩書きが変化するよりも早く、実際の働き方が変容している」初期兆候であると分析している。\n- 単なる文章作成やスケジューリングなどの汎用的な作業を除外しても、専門領域を越えた業務遂行が日常化しつつあることがデータから明らかになった。",
+    "url": "https://the-decoder.com/openai-says-more-workers-are-using-chatgpt-to-do-other-peoples-jobs/"
+  },
+  {
+    "id": "3ab3de0e-c1c5-814b-98ce-dcbd3c7f8fd0",
+    "title": "Microsoft launches its own cybersecurity model MAI-Cyber-1-Flash but still depends on OpenAI for the toughest tasks",
+    "site": "THE DECODER",
+    "published": "2026-07-27T18:50:07.000Z",
+    "fetched": "2026-07-28T00:01:31.000Z",
+    "summary": "Microsoftが独自のサイバーセキュリティAIモデル「MAI-Cyber-1-Flash」を導入し、効率的な脅威検知とコスト削減を実現\n\n- Microsoftは、自社のマルチエージェントシステム「MDASH」向けに、軽量で高速なサイバーセキュリティモデル「MAI-Cyber-1-Flash」を導入した。\n- 本モデルは、セキュリティ特化型のベンチマーク「CyberGym」で96％のスコアを記録し、GoogleのGeminiやGPTなどの主要モデルを上回る性能を達成した。\n- 「MAI-Cyber-1-Flash」が日常的な業務の90％を処理し、極めて複雑な課題のみを高性能な「GPT-5.4」へ回すハイブリッド運用により、従来のセキュリティコストを50％削減する。\n- 毎日100兆件以上のセキュリティ信号を処理する同社の強みを活かし、リアルタイムで脅威を監視・軽減するエージェント型システム「Perception」も併せて提供を開始する。\n- 本取り組みにより、Microsoftは単なるOpenAIの独占的パートナーから、AIモデルの統合と運用を最適化する「AIオーケストレーター」としての役割を強化している。",
+    "url": "https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/"
+  },
+  {
+    "id": "3ab3de0e-c1c5-81dc-98bc-d92bcc12cbad",
+    "title": "Delhi High Court hands OpenAI a win by rejecting major Indian news agency's copyright injunction",
+    "site": "THE DECODER",
+    "published": "2026-07-27T17:55:24.000Z",
+    "fetched": "2026-07-28T00:01:38.000Z",
+    "summary": "デリー高等裁判所は、インドの通信社ANIがOpenAIに対して求めていた著作権侵害による仮処分申請を却下し、OpenAI側の勝訴を認めました。\n\n- ANIが証拠として提出したChatGPTの出力記事は、AIの学習期間以降に公開されたものであったため、著作権侵害の直接的な立証には至りませんでした。\n- 裁判所は、OpenAIとANIが異なる市場セクターで活動していることから、ANI側に経済的な実害は生じていないと判断しました。\n- 判決では、AIモデルが教育、研究、情報へのアクセスにおいて公益に寄与している点が肯定されました。\n- 今回の決定は、AIの学習データに関する法的議論においてOpenAIにとって重要な早期の勝利であると専門家から評価されています。\n- 裁判所は、AIがインターネット上の情報をリアルタイムで取得する「検索拡張生成（RAG）」の技術的側面にも言及し、本件における著作権侵害の主張を退けました。",
+    "url": "https://the-decoder.com/delhi-high-court-hands-openai-a-win-by-rejecting-major-indian-news-agencys-copyright-injunction/"
+  },
+  {
+    "id": "3ab3de0e-c1c5-81d5-8dc0-d329f1f15ae0",
+    "title": "METR introduces a new metric to calculate exactly when AI agents become more expensive than humans",
+    "site": "THE DECODER",
+    "published": "2026-07-27T12:28:06.000Z",
+    "fetched": "2026-07-28T00:01:46.000Z",
+    "summary": "METRが提唱するAIの費用対効果を測定する新指標「支出ホライゾン」\n\n- AIエージェントと人間が同じタスクを解決する際、どちらがコスト効率よく改善できるかを示す「支出ホライゾン（expenditure horizon）」という新しい評価指標が導入された。\n- この指標は、人間とAIのコストが等しくなる分岐点を算出するもので、一定の予算内であればAIが優位だが、難易度が高まり予算が必要になると人間の方が安価になるという境界線を可視化する。\n- 従来の一律な合格・不合格型のベンチマークとは異なり、AIの実行コスト、実験のための計算資源、人件費という異なる支出をすべて「ドル」に換算して比較できる点が最大の特徴である。\n- METRの検証によると、AIは単純で低コストなタスクでは人間を上回る速さを見せるが、タスクが複雑化して予算が増大するにつれて効率が悪化する傾向が明らかになった。\n- この評価手法は、AIが自身の開発をどれほど加速できるかという重要な問いに対して、金銭的コストの観点から客観的な比較を可能にする。",
+    "url": "https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/"
+  },
+  {
+    "id": "3ab3de0e-c1c5-8152-852c-cbf57f1c03ce",
+    "title": "Shared Claude chats were reportedly showing up in search engines",
+    "site": "THE DECODER",
+    "published": "2026-07-27T07:51:16.000Z",
+    "fetched": "2026-07-28T00:01:54.000Z",
+    "summary": "Claudeの共有チャットが検索エンジンにインデックスされ、誰でも閲覧可能な状態になっていたことが判明しました。現在は対応がなされていますが、セキュリティとプライバシーの観点で大きな懸念が生じています。\n\n- AnthropicのAIチャットサービス「Claude」において、ユーザーが作成した共有リンク先の会話や生成物（ドキュメントやアプリ等）がGoogle等の検索エンジンにインデックスされ、一般公開されていました。\n- 共有用URLに検索エンジンによる収集を拒否する「noindexタグ」が含まれていなかったことが主な原因です。\n- 公開されていたチャット内には、暗号資産の鍵情報や法律相談の内容など、機密性の高い個人情報が含まれていたとの報告があります。\n- Anthropicは事態を認識後、迅速に対応しGoogleの検索結果からは削除されましたが、BingやBrave Searchなど一部の検索エンジンでは一時的に閲覧可能な状態が続いていました。\n- 利用者は「設定」＞「プライバシー」＞「共有チャット」から、自身の共有済み会話履歴を確認および管理することができます。",
+    "url": "https://the-decoder.com/shared-claude-chats-were-reportedly-showing-up-in-search-engines/"
+  },
+  {
+    "id": "3ab3de0e-c1c5-8101-8402-fb2c07c74e5f",
+    "title": "moonshotai/Kimi-K3",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-27T23:39:04.000Z",
+    "fetched": "2026-07-28T00:02:04.000Z",
+    "summary": "Moonshot AIが2.8兆パラメータのAIモデル「Kimi K3」のウェイトを公開\n\n- Moonshot AIが2.8兆パラメータという超大規模モデル「Kimi K3」の重みデータをHugging Faceで公開した。総容量は1.56TBに達する。\n- K3のライセンス規定は、前身のK2よりさらに厳格化された。一定以上の収益を上げている「Model as a Service（MaaS）」事業者が商用利用する場合、Moonshot AIとの個別契約が必須となっている。\n- 以前のK2ライセンスで課されていた、一定規模以上のユーザー数や収益がある企業に対する「Kimiの名称表示義務」といった条件も継続・発展している。\n- Moonshot AIはこれらのライセンスを「オープンソース」とは呼ばず、一貫して「オープンウェイト（Open Weights）」という言葉を使用しており、透明性の高い姿勢を見せている。\n- すでにOpenRouterなどの複数のプロバイダーがK3を提供しており、価格は入力100万トークンあたり3ドル、出力100万トークンあたり15ドルと、本家と同水準で利用可能になっている。",
+    "url": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-tag"
+  },
+  {
+    "id": "3ab3de0e-c1c5-81a2-80df-e20828827adb",
+    "title": "An opinionated guide to which AI to use to do stuff",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-27T21:55:53.000Z",
+    "fetched": "2026-07-28T00:02:11.000Z",
+    "summary": "AIの活用は「チャット型」から、人間に代わって数時間分の作業を一括でこなす「エージェント型システム」へと進化している。\n\n- AIの活用における現在の主流は、単なる対話から、人間が行う膨大な作業を自動化するエージェント型システムへと移行した。\n- ChatGPTやClaudeなどのAIツールは、パソコンを直接操作させることで飛躍的に能力が高まるが、その機能やモードの呼称（Work、Cowork、Codex、Codeなど）が複雑で非常に分かりにくい。\n- GoogleのGeminiは、現時点では「Codex」や「ChatGPT Work」に相当するエージェントカテゴリーにおいて決定的な地位を築けていない。\n- ChatGPTの「Work」モードには、モバイル版とデスクトップ版で機能や直感性に大きな差があり、特にモバイル版ではインターネット接続が許可されるなど、実用面での使い分けに注意が必要である。",
+    "url": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-tag"
+  },
+  {
+    "id": "3ab3de0e-c1c5-8159-ba7f-c04b1164a98e",
+    "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+    "site": "Hugging Face Blog",
+    "published": "2026-07-27T09:32:20.000Z",
+    "fetched": "2026-07-28T00:02:20.000Z",
+    "summary": "NVIDIA Cosmos-H-Dreams：外科手術ロボティクスに向けたリアルタイム生成シミュレーションの実現\n\n- NVIDIAが発表した「Cosmos-H-Dreams」は、外科手術ロボットの挙動をリアルタイムかつインタラクティブにシミュレートできる次世代の生成AIモデルである。\n- 従来の手作業による物理モデリングの限界を打破し、膨大な外科手術動画とロボットの動作データから、変形する組織や繊細な器具操作などの視覚的ダイナミクスを自律的に学習する。\n- 高度な蒸留技術を用いて、基盤モデルの推論を軽量かつ高速化。NVIDIA RTX PRO 6000 GPU単体で動作し、ロボットの操作に対する視覚的反応を即座に生成できる。\n- 実験のコストやリスクが高い外科手術ロボットの開発において、安全かつ高速な訓練環境を提供し、合成データの生成や閉ループ型物理AIの開発を加速させる。\n- 本システムは開発者が自身のデータに適応可能であり、手術ロボットの自律制御や評価の新たなプラットフォームとして、医療現場のイノベーションを牽引する。",
+    "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams"
+  },
+  {
+    "id": "3ab3de0e-c1c5-8157-ae78-d0e25efef9a6",
+    "title": "Kimi K3 weights now released.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-27T15:11:07.000Z",
+    "fetched": "2026-07-28T00:02:29.000Z",
+    "summary": "Kimi K3のモデルウェイトが公開\n\n- 月之暗面（Moonshot AI）は、最新のAIモデル「Kimi k3」のウェイト（重み）を一般公開した。\n- 今回公開されたk3モデルは、推論能力が大幅に強化されており、複雑な推論タスクや長文処理において高いパフォーマンスを発揮する。\n- オープンモデルとして提供されることで、開発者や研究者は自身のプロジェクトにKimiの技術を統合・活用することが可能となった。\n- AIエコシステムの発展を加速させるため、技術的な透明性を高め、コミュニティによる検証や改善を促す狙いがある。\n- ウェイトの公開は、クローズドなAI開発環境からオープンな開発環境への移行を象徴しており、業界内での競争力と貢献度を同時に示すものとなっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8364f/kimi_k3_weights_now_released/"
+  },
+  {
+    "id": "3ab3de0e-c1c5-8143-97e0-d718390ecf1d",
+    "title": "Jensen Huang: During the Hugging Face incident, closed AI blocked essential forensics. An open-weight frontier model helped contain the intrusion. That’s why we created the Open Secure AI Alliance.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-27T11:59:03.000Z",
+    "fetched": "2026-07-28T00:02:36.000Z",
+    "summary": "ジェンスン・フアン氏が提唱する「オープン・セキュアAI連合」の設立背景と意義\n\n- クローズドなAI開発環境ではセキュリティ上の不透明性が高く、Hugging Faceで発生したインシデントにおいて、不可欠なフォレンジック調査（追跡調査）が制限される事態となった。\n- 過去のインシデント対応において、オープンウェイトの最先端AIモデルが、侵入検知や被害の封じ込めに対して極めて有効な役割を果たした。\n- 閉鎖的なシステムへの依存は、セキュリティ上のリスクを増大させるだけでなく、緊急時の対応を遅らせる要因となることが証明された。\n- これらの教訓を踏まえ、AIモデルの安全性と透明性を確保し、共同で脅威に対抗するための枠組みとして「Open Secure AI Alliance」が設立された。\n- AIの民主化と安全性を両立させるためには、特定の企業がブラックボックス化する環境を排除し、オープンな協力体制でセキュリティを構築することが不可欠である。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7yand/jensen_huang_during_the_hugging_face_incident/"
+  },
+  {
+    "id": "3ab3de0e-c1c5-8114-babc-cb68291d9c94",
+    "title": "We could really use Qwen3.8 in 27B, 35B, 122B and 397B sizes",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-27T02:34:43.000Z",
+    "fetched": "2026-07-28T00:02:44.000Z",
+    "summary": "Qwen3.8の多様なモデルサイズ拡充への期待\n\n- 現在のQwenモデルのラインナップに加え、27B、35B、122B、397Bといった中間および大規模なサイズが提供されることを強く望む声が高まっている。\n- 特に27Bから35Bのサイズ帯は、家庭用GPU環境でも扱いやすく、かつ高性能であるため、推論能力と効率性のバランスにおいて高い需要がある。\n- 122Bや397Bといった巨大モデルは、高度な推論や専門的なタスクを処理するために不可欠であり、最先端のオープンソースAIとしての競争力を維持するために重要である。\n- モデルサイズのバリエーションを増やすことで、特定のハードウェア制約を持つユーザーから、最高峰の性能を求めるエンタープライズ層まで、より広範なニーズに応えることが可能になる。\n- 開発者コミュニティは、Qwenの卓越した性能を維持したまま、実用的なスケール展開が実現されることを期待しており、今後のロードマップに対する関心が非常に高い。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7nrfm/we_could_really_use_qwen38_in_27b_35b_122b_and/"
+  },
+  {
+    "id": "3ab3de0e-c1c5-81f7-b98f-ec60ba8ea694",
+    "title": "KIMI K3’s WEIGHTS ARE OUT!",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-27T15:09:51.000Z",
+    "fetched": "2026-07-28T00:02:51.000Z",
+    "summary": "KIMI K3のモデル重みが公開されました\n\n- 月の暗号（Moonshot AI）が開発した最新モデル「KIMI K3」の重みデータが一般公開されました。\n- 今回の公開により、開発者や研究者はKIMI K3のモデルを自身のインフラ環境で直接実行・カスタマイズすることが可能になります。\n- このモデルは高い推論能力と多言語対応を特徴としており、オープンな形で提供されることでAIエコシステムのさらなる発展が期待されています。\n- 公開された重みは、モデルの性能を最大限に活用したいエンジニアにとって、ローカル環境での実験や特定のタスクへの最適化を行うための強力なツールとなります。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v834tu/kimi_k3s_weights_are_out/"
+  },
+  {
+    "id": "3ab3de0e-c1c5-813b-9099-f1ecd98cb1eb",
+    "title": "Kimi K3 weights drop today. We're deploying on A100s, H200s and B300s this week and the A100 math is already rough",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-27T14:18:45.000Z",
+    "fetched": "2026-07-28T00:02:59.000Z",
+    "summary": "Kimi K3モデルの公開と導入に関する現状\n\n- Moonshot AIが開発した「Kimi K3」のモデルウェイトが本日公開された。\n- 現在、A100、H200、B300といった高性能なGPU環境へのデプロイ作業を今週中に進めている。\n- A100 GPUを用いて検証したところ、計算コストやリソース効率の面で非常に厳しい状況に直面している。\n- 次世代GPUであるB300を含めた広範なインフラ導入が進められているが、モデルの実行負荷に対する計算コストの最適化が今後の大きな課題となる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v81qw0/kimi_k3_weights_drop_today_were_deploying_on/"
+  },
+  {
+    "id": "3ab3de0e-c1c5-812c-9b71-fd8da4c076cb",
+    "title": "v0.32.5",
+    "site": "Ollama Blog",
+    "published": "2026-07-27T20:45:08.000Z",
+    "fetched": "2026-07-28T00:03:07.000Z",
+    "summary": "Ollama v0.32.5 リリース情報\n\n今回のリリースは、ローカル環境でLLMを動かすためのプラットフォーム「Ollama」の機能改善およびバグ修正を目的としたマイナーアップデートです。主な変更点は以下の通りです。\n\n- パフォーマンスの最適化により、モデルのロード時間や推論速度の安定性が向上しました。\n- 特定の環境で発生していた推論時のエラーや、メモリ管理に関する不具合が修正され、安定性が強化されました。\n- 新たなモデルへの対応や、既存モデルの量子化精度の改善が行われ、より多様なハードウェア構成での動作がサポートされました。\n- CLIおよびAPIを通じたモデル操作のレスポンスが改善され、開発者がローカル環境でモデルをより効率的に利用できるようになりました。\n- 内部的な依存ライブラリの更新とセキュリティ修正が含まれており、利用者は最新バージョンへアップデートすることが推奨されます。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.32.5"
+  },
+  {
+    "id": "3ab3de0e-c1c5-8101-9387-e6395add7767",
+    "title": "NVIDIA Ising Enables Fully Automated Quantum Computer Calibration with Enhanced In-Context Learning",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-07-27T16:00:00.000Z",
+    "fetched": "2026-07-28T00:03:17.000Z",
+    "summary": "NVIDIA、量子コンピュータの全自動校正を実現する新モデル「Ising Calibration 1.5」を発表\n\n- 量子コンピュータの診断結果を解釈し、適切なチューニングを自動で行うオープンソースの視覚言語モデル（VLM）「NVIDIA Ising Calibration 1.5」を公開しました。\n- 本モデルは、事前の学習データがない未知の診断結果でも解析可能な高い「インコンテキスト学習」能力を備えており、量子プロセッサ（QPU）の運用維持を効率化します。\n- 今回初めて「NVFP4」量子化版が提供され、単一GPUやNVIDIA DGX Spark上での動作が可能となったため、各研究機関のローカル環境での導入が容易になりました。\n- 従来モデルと比較してBF16精度でサイズを11.4%削減しつつ、QCalEvalベンチマークにおいてオープンモデルとして最高水準の性能を達成しました。\n- 「NVIDIA NeMo Agent Toolkit」との統合に対応しており、量子校正ワークフローの完全自動化を支援します。",
+    "url": "https://developer.nvidia.com/blog/nvidia-ising-enables-fully-automated-quantum-computer-calibration-with-enhanced-in-context-learning/"
+  },
+  {
+    "id": "3ab3de0e-c1c5-81f1-9d18-ca020003424c",
+    "title": "Six Agent Harness Capabilities for Higher Model Performance",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-07-27T09:00:00.000Z",
+    "fetched": "2026-07-28T00:03:25.000Z",
+    "summary": "NVIDIA Labsによる新しいAIエージェントフレームワーク「NOOA」の公開\n\n- NOOAは、エージェントを単一のPythonクラスとして定義するオブジェクト指向のオープンソースフレームワークであり、開発の複雑さを大幅に軽減する。\n- LLMによる動的なメソッド実行と型アノテーションの活用により、コードの契約（規約）を強制し、堅牢で信頼性の高いエージェント開発を実現する。\n- SQLiteを利用した型付きの永続的メモリ構造を採用しており、文脈の要約や圧縮なしで長期間の効率的な記憶管理が可能となった。\n- SWE-benchやARC-AGIなどの主要なベンチマークにおいて、既存の手法と比較して最高レベルの精度と低いトークンコストを達成した。\n- 開発におけるモデルの選定以上に、エージェントを動かす「ハーネス（基盤構造）」の設計が、パフォーマンスやコストに決定的な影響を与えることを実証している。",
+    "url": "https://developer.nvidia.com/blog/six-agent-harness-capabilities-for-higher-model-performance/"
+  },
+  {
+    "id": "3ab3de0e-c1c5-8195-973b-f4cfed0071b0",
+    "title": "NVIDIA Nemotron 3 Ultra Leads Open Models on Accuracy and Efficiency in Agentic RTL Coding",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-07-27T00:45:00.000Z",
+    "fetched": "2026-07-28T00:03:32.000Z",
+    "summary": "NVIDIA Nemotron 3 UltraとACE-RTLによるRTL設計の効率化と高精度化\n\n- NVIDIAの新しいモデル「Nemotron 3 Ultra」とAIエージェント「ACE-RTL」を組み合わせることで、RTL設計および検証作業において最高水準の精度と効率を実現した。\n- 「CVDP（Comprehensive Verilog Design Problems）」ベンチマークにおいて、他モデルを上回る97.1%の平均パス率を達成し、かつ1イテレーションあたりのトークン消費量を最大71%削減することに成功した。\n- ACE-RTLは、AIがコード生成・検証・修正を繰り返す「generate-test-reflect」という反復的なワークフローを採用し、EDAツールと連携して複雑なRTL設計を自動化する。\n- Nemotron 3 Ultraは、ハイブリッドなMamba-Attention Mixture-of-Expertsアーキテクチャと、RTLに特化した高品質な合成データによる学習により、長文脈の理解と高い推論能力を備えている。\n- 本システムは、Cadence、Siemens、Synopsysといった主要なEDAツールとの統合が可能であり、エンジニアの設計時間を大幅に短縮する実用的な基盤を提供する。",
+    "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-leads-open-models-on-accuracy-and-efficiency-in-agentic-rtl-coding/"
+  },
+  {
+    "id": "3ab3de0e-c1c5-81d0-b035-e1f763d0386e",
+    "title": "Advancing Semiconductor Innovation Across Materials Engineering and Manufacturing",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-07-27T00:45:00.000Z",
+    "fetched": "2026-07-28T00:03:40.000Z",
+    "summary": "半導体イノベーションを加速させるアプライド・マテリアルズとNVIDIAのデジタル開発モデル\n\n- アプライド・マテリアルズとNVIDIAは、半導体の設計から製造工程までをデジタル化するエンドツーエンドの開発モデルを共同構築した。\n- NVIDIAのGPU加速プラットフォーム（Ginestra、cuDSS、cuEST、PhysicsNeMo、Omniverse）を導入することで、シミュレーション速度が飛躍的に向上した。\n- 量子化学計算で最大55倍、チャンバーのプロセスシミュレーションで最大35倍の高速化を実現し、研究開発のサイクルを大幅に短縮している。\n- 原子レベルの材料発見から製造工場の最適化までをシームレスに統合し、高コストな物理実験への依存を減らすことで効率的な開発を可能にした。\n- AI需要の爆発的な増加に伴い、次世代チップ開発における熱や電力の複雑な課題に対し、仮想環境での迅速な検証と最適化で対応を目指す。",
+    "url": "https://developer.nvidia.com/blog/advancing-semiconductor-innovation-across-materials-engineering-and-manufacturing/"
+  }
+]

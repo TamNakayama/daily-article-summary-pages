@@ -1,0 +1,119 @@
+[
+  {
+    "id": "39a3de0e-c1c5-8193-8291-c67b811609c4",
+    "title": "OpenAI's GPT-5.6 Sol autonomously post-trained the smaller Luna model with a \"fairly underspecified prompt\"",
+    "site": "THE DECODER",
+    "published": "2026-07-10T21:12:47.000Z",
+    "fetched": "2026-07-11T00:00:47.000Z",
+    "summary": "**OpenAIの最新モデル「GPT-5.6 Sol」が、指示を自律的に解釈し小型モデルの追加学習を完遂**\n\n* **自律的なモデル最適化:** OpenAIの「GPT-5.6 Sol」は、曖昧な指示（プロンプト）のみで、適切な学習設定の特定、GPUの選定、学習スクリプトの実行といった一連のプロセスを自律的に行い、小型モデル「Luna」の追加学習を成功させた。\n* **再帰的自己改善能力の向上:** システムが自ら進化する能力を示す新たな内部ベンチマーク「RSI（再帰的自己改善）」において、GPT-5.6 Solは前モデルのGPT-5.5から16.2ポイントの大幅なスコア向上を達成した。\n* **開発効率の劇的な改善:** OpenAI社員によると、Solは既存の学習レシピをLuna用に最適化して実行した形だが、人間が同様の作業を行えば2週間の工数を要する内容であり、AIによる開発スピードの大幅な短縮が示された。\n* **AIによるAI開発の実現:** 本件は、AIラボがAI自体の開発を加速させるという目標において、GPT-5.6 Solが実用的なレベルで自己進化や開発支援を行えることを証明する事例となった。",
+    "url": "https://the-decoder.com/openais-gpt-5-6-sol-autonomously-post-trained-the-smaller-luna-model-with-a-fairly-underspecified-prompt/"
+  },
+  {
+    "id": "39a3de0e-c1c5-81d3-b6ae-d3ce779cd6b8",
+    "title": "OpenAI staffer maps out which of GPT-5.6 Sol's five reasoning levels fits which task complexity",
+    "site": "THE DECODER",
+    "published": "2026-07-10T17:52:06.000Z",
+    "fetched": "2026-07-11T00:01:05.000Z",
+    "summary": "# OpenAI「GPT-5.6 Sol」の5つの推論レベルと活用ガイド\n\n* **推論レベルの使い分け:** OpenAIのVaibhav Srivastav氏が、タスクの複雑さに応じた推論レベルの推奨設定を公開した。単純作業には「Light/Low」、計画や分析には「Medium」、複雑な多段階タスクには「High/xhigh」が適している。\n* **上位レベルの特殊機能:** 「Max」は一つの問題に対して思考時間を長く確保し、「Ultra」は複数のサブエージェントを並列稼働させて難題を解決する仕組みとなっており、レベルが上がるほど時間とトークン消費量が増加する。\n* **導入時の注意点:** 推論レベルは従来のGPT-5.5のティアとは異なるため、移行する際は従来よりも一段階低いレベルから試すことが推奨されている。\n* **ユーザーへの課題:** 適切なレベルを判断するには自身でベンチマークを行う必要があり、インターフェースの簡素化を目指すOpenAIの目標とは裏腹に、ユーザーの操作負荷は依然として高い状態にある。",
+    "url": "https://the-decoder.com/openai-staffer-maps-out-which-of-gpt-5-6-sols-five-reasoning-levels-fits-which-task-complexity/"
+  },
+  {
+    "id": "39a3de0e-c1c5-8141-bc75-fa20d59fbd2b",
+    "title": "Tencent moves to buy majority stake in Manus after Beijing forced Meta to unwind its $2 billion deal",
+    "site": "THE DECODER",
+    "published": "2026-07-10T16:48:05.000Z",
+    "fetched": "2026-07-11T00:01:23.000Z",
+    "summary": "### テンセント、AIスタートアップ「Manus」の過半数株式取得へ交渉中\n\n*   **テンセントによる買収交渉**: テンセントは、AIエージェント開発企業Manusの過半数株式を取得する交渉を進めている。同社は、自社のWeChatへのAIエージェント導入など、自身の戦略との親和性を重視している。\n*   **メタの買収計画が中国政府により白紙化**: もともとManusはMeta（旧Facebook）が20億ドルで買収する計画だったが、今年4月に中国当局が「投資ルール違反」かつ「中国の技術基盤を弱体化させる陰謀」であるとして、これを阻止した。\n*   **同額の評価額で取引が進行**: 取引はMetaの買収時と同じ20億ドル規模の評価額で検討されており、テンセントのほかZhenFundやHSGなどの既存投資家が参加する予定。なお、米ベンチャーキャピタルのBenchmarkは参加しない見通し。\n*   **シンガポールを拠点に独立運営**: Manusは今後もシンガポールを拠点として独立した運営を継続する。同社は直近で年間5億ドル近い売上を報告している。\n*   **米中AI覇権争いの激化**: 今回の決定は、AI技術を「AI時代のサイバー核兵器」と見なす米中間のAI技術開発競争の一環であり、中国による厳格な投資規制の動きを象徴している。",
+    "url": "https://the-decoder.com/tencent-moves-to-buy-majority-stake-in-manus-after-beijing-forced-meta-to-unwind-its-2-billion-deal/"
+  },
+  {
+    "id": "39a3de0e-c1c5-8104-ad8b-ee737e387c27",
+    "title": "OpenAI kills its Atlas browser after just eight months and folds everything into ChatGPT",
+    "site": "THE DECODER",
+    "published": "2026-07-10T12:19:21.000Z",
+    "fetched": "2026-07-11T00:01:40.000Z",
+    "summary": "# OpenAIがAIブラウザ「Atlas」を終了し、ChatGPTに機能を統合\n\n*   **「Atlas」の提供終了：** 2025年10月にローンチした独自のAIブラウザ「Atlas」を、わずか8ヶ月で開発中止する。\n*   **ChatGPTへの機能統合：** Atlasの知見や機能は、ChromeのサイドバーでChatGPTを直接利用できる拡張機能へと移行・集約される。\n*   **デスクトップ操作機能の強化：** 新たな「Computer Use」機能により、ChatGPTがバックグラウンドでクリックや入力、ファイル操作などのPCタスクを代行できるようになった。\n*   **ブラウザ市場での戦略転換：** 独自のブラウザでGoogle Chromeに対抗する構想を取り下げ、既存のブラウザ環境にChatGPTを組み込む形へ方針を切り替えた。\n*   **過去の製品整理の一環：** プラグインやChatGPT Agent、Soraなどと同様、今回の終了もOpenAIによる製品群の取捨選択と整理の一環である。",
+    "url": "https://the-decoder.com/openai-kills-its-atlas-browser-after-just-eight-months-and-folds-everything-into-chatgpt/"
+  },
+  {
+    "id": "39a3de0e-c1c5-816a-944e-c066b82dce34",
+    "title": "The Fed wants AI investor Marc Andreessen to help figure out if AI can tame inflation",
+    "site": "THE DECODER",
+    "published": "2026-07-10T12:18:32.000Z",
+    "fetched": "2026-07-11T00:01:58.000Z",
+    "summary": "### 米連邦準備制度理事会（FRB）がAIによるインフレ抑制効果の検証へ\n\n*   **FRBがAI専門家を招聘**：ケビン・ウォーシュ議長率いるFRBは、AIが経済に与える影響を分析するワーキンググループを設立し、著名VCのマーク・アンドリーセン氏らを共同議長に任命した。\n*   **AIを「ディスインフレ要因」と期待**：ウォーシュ議長は、AIの導入が生産性を劇的に向上させ、供給能力を拡大させることでインフレ圧力を緩和し、利下げの余地を生むと考えている。\n*   **金融政策への影響**：このワーキンググループの分析は、FRBが今後の金利決定を行う上で重要な判断材料となる。\n*   **経済理論との不透明性**：AIによる生産性向上は一方で所得増や投資需要を刺激し、逆に金利を引き上げる要因にもなり得るため、その効果を巡っては経済専門家の間でも意見が割れている。\n*   **不確実な生産性効果**：ウォーシュ氏自身も、AIがもたらす生産性向上の規模を現時点で正確に測ることは困難だと認めており、歴史的な事例（1990年代のグリーンスパン議長時代のITブーム）と比較しながら慎重に評価を進める方針である。",
+    "url": "https://the-decoder.com/the-fed-wants-ai-investor-marc-andreessen-to-help-figure-out-if-ai-can-tame-inflation/"
+  },
+  {
+    "id": "39a3de0e-c1c5-81f0-b67a-d3519ed5376c",
+    "title": "Bun ditches Zig for Rust with help from Claude Fable 5, writes over a million lines of code in 11 days",
+    "site": "THE DECODER",
+    "published": "2026-07-10T11:09:44.000Z",
+    "fetched": "2026-07-11T00:02:15.000Z",
+    "summary": "### JavaScript実行環境「Bun」がZigからRustへ全面移行\n\n*   **全面的な言語の書き換え:** JavaScript実行環境「Bun」が、従来のZigからRustへコードベースを完全に刷新した。\n*   **AIによる高速開発:** Anthropic社の最新AI「Claude Fable 5」を活用し、わずか11日間で100万行以上のコードを生成した。\n*   **移行の主な目的:** Zigで発生していたメモリ関連のバグやクラッシュを解消し、Rustによる堅牢性と信頼性を確保することが狙い。\n*   **驚異的なコストと効率:** 64個のClaudeインスタンスを並列稼働させ、約16万5,000ドルのAPIコストを投じた。人間が手作業で行うと約1年かかる規模の作業を短期間で完了させている。\n*   **成果と背景:** 新バージョン「Bun v1.4.0」では128個のバグが修正され、動作速度も2〜5%向上。なお、Bunの開発元は2025年12月にAnthropic社によって買収されている。",
+    "url": "https://the-decoder.com/bun-ditches-zig-for-rust-with-help-from-claude-fable-5-writes-over-a-million-lines-of-code-in-11-days/"
+  },
+  {
+    "id": "39a3de0e-c1c5-816f-abc3-cd7da71c3e13",
+    "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
+    "site": "Hugging Face Blog",
+    "published": "2026-07-10T00:00:00.000Z",
+    "fetched": "2026-07-11T00:02:32.000Z",
+    "summary": "# Profiling in PyTorch (Part 3): Attention is all you profile\n\n**要約**\n本記事は、PyTorchのプロファイラーを用いてTransformerの核となる「Attention（注意機構）」の様々な実装を可視化し、それぞれの処理効率を比較・理解するための実践ガイドです。\n\n* **プロファイリングによる最適化の可視化**: 単純な実装から高度に最適化された手法まで、各Attentionアルゴリズムがプロファイラー上でどのように異なる挙動（計算順序や負荷）を示すかを分析します。\n* **Attention実装の進化**: ナイーブな行列演算による実装から、インプレース演算、Scaled Dot Product Attention (SDPA)、Flash Attention、cuDNNバックエンドといった最適化手法へとステップを踏んで解説します。\n* **バックエンドによる性能差の理解**: Flash Attentionなどの最適化カーネルを使用することで、メモリ消費や計算速度がどのように劇的に変化するのかを、トレース結果を通して具体的に確認できます。\n* **実践的な学習アプローチ**: 提供されているスクリプトを実際に実行し、プロファイラーのテーブルとトレースを読み解くことで、Transformerモデルを効率化するための「ボトルネックを見抜く力」を養います。",
+    "url": "https://huggingface.co/blog/torch-attention-profile"
+  },
+  {
+    "id": "39a3de0e-c1c5-81d1-856a-cb90d6883461",
+    "title": "2.5x faster Qwen3.6 NVFP4 Unsloth quants",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-10T13:20:19.000Z",
+    "fetched": "2026-07-11T00:02:50.000Z",
+    "summary": "# タイトル：UnslothによるQwen3.6のNVFP4量子化で推論速度が2.5倍に向上\n\n* **推論速度の劇的な改善**：Unslothを活用した新しいNVFP4量子化手法により、Qwen3.6モデルの推論速度が従来比で2.5倍に高速化されました。\n* **NVFP4技術の採用**：NVIDIAの次世代データ形式であるFP4（4bit浮動小数点）を最適化して利用することで、精度を維持しつつ計算効率を大幅に高めています。\n* **メモリ効率の最適化**：量子化によってモデルサイズが削減されるため、消費メモリが抑えられ、より手軽なハードウェア環境での実行が可能になります。\n* **高い実用性と互換性**：既存のUnslothエコシステムとシームレスに連携し、複雑な設定なしで高速な推論環境を構築できます。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usniqh/25x_faster_qwen36_nvfp4_unsloth_quants/"
+  },
+  {
+    "id": "39a3de0e-c1c5-812f-a99b-c0d13184834b",
+    "title": "Someone tweeted after 3 years. About his model release",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-10T07:01:09.000Z",
+    "fetched": "2026-07-11T00:03:07.000Z",
+    "summary": "# 3年ぶりにSNSを更新！AIモデル公開の報告\n\n*   約3年間の沈黙を破り、ある開発者がSNSで自身のAIモデル公開を報告した。\n*   長期間の活動休止を経て突如投稿された内容は、ファンやフォロワーの間で大きな注目を集めている。\n*   公開されたモデルの詳細は明らかになっていないが、コミュニティ内では大きな反響を呼んでいる。\n*   長期のブランクを越えた復活は、今後のAI開発動向に新たな動きをもたらす可能性がある。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usg4ox/someone_tweeted_after_3_years_about_his_model/"
+  },
+  {
+    "id": "39a3de0e-c1c5-8189-bcf4-dc2dc6805c80",
+    "title": "Meta are apparently working on an open source variant of Muse Spark.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-10T02:56:53.000Z",
+    "fetched": "2026-07-11T00:03:24.000Z",
+    "summary": "タイトル：Metaが「Muse Spark」のオープンソース版を開発中との報道\n\n- Metaが、同社のクリエイター向けツール「Muse Spark」のオープンソース版を開発している可能性がある。\n- この動きは、MetaがAI開発におけるオープンソースエコシステムのさらなる拡大を狙っていることを示唆している。\n- Muse Sparkは、直感的なインターフェースで高品質なマルチモーダル生成を可能にするツールとして期待されている。\n- 実現すれば、開発者やクリエイターがMetaのAI技術をより自由にカスタマイズ・活用できるようになる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usbfz3/meta_are_apparently_working_on_an_open_source/"
+  },
+  {
+    "id": "39a3de0e-c1c5-8160-b983-f08872cb68a7",
+    "title": "Training an LLM from scratch on 1800's texts (160GB dataset)",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-10T18:51:37.000Z",
+    "fetched": "2026-07-11T00:03:41.000Z",
+    "summary": "### タイトル：19世紀の文献（160GB）を用いたLLMのゼロからの学習\n\n**重要なポイント**\n\n* **19世紀の膨大なデータセットの構築**: 歴史的なテキストデータ（160GB）を収集・クレンジングし、19世紀の言語的特徴を網羅したLLM学習用のコーパスを作成した。\n* **学習プロセスの最適化**: ゼロからモデルを学習させるために、計算リソースの効率的な配分と、当時の語彙や文体に最適化したトークナイザーの構築を行った。\n* **モデルの性能と限界**: 特定の時代背景や古い言語構造には高い適応性を示した一方、現代のLLMと比較した際の論理推論能力や複雑なタスク処理には課題が残る結果となった。\n* **歴史的価値の創造**: この取り組みは、現代の汎用モデルでは捉えきれない歴史的な文脈や文化的ニュアンスをAIに学習させるための有益なケーススタディとなった。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uswlq8/training_an_llm_from_scratch_on_1800s_texts_160gb/"
+  },
+  {
+    "id": "39a3de0e-c1c5-816a-b68d-f562ba0df146",
+    "title": "Tencent-HY3 is the real deal on 128GB!",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-10T19:53:09.000Z",
+    "fetched": "2026-07-11T00:03:58.000Z",
+    "summary": "タイトル：Tencent-HY3が128GB環境で驚異的な性能を発揮\n\n* Tencent-HY3モデルは、128GBのメモリ環境において非常に高いパフォーマンスを実現している。\n* 大規模なデータセットや複雑なタスクに対しても、安定した処理能力と優れた効率性を備えている。\n* 限られたリソース内でも最適化が図られており、実用性の高さが証明された。\n* ハードウェアのポテンシャルを最大限に引き出す設計により、実環境での信頼性が極めて高い。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usy9ie/tencenthy3_is_the_real_deal_on_128gb/"
+  },
+  {
+    "id": "39a3de0e-c1c5-81f8-901f-d0e85ebc7c4d",
+    "title": "v0.32.0-rc0",
+    "site": "Ollama Blog",
+    "published": "2026-07-10T00:27:31.000Z",
+    "fetched": "2026-07-11T00:04:15.000Z",
+    "summary": "### Ollama v0.32.0-rc0 リリース概要\n\n*   **Ollamaのプレリリース版「v0.32.0-rc0」が公開されました。**\n*   本リリースは正式版のリリースに向けた候補版（Release Candidate）です。\n*   最新の機能追加、パフォーマンスの改善、バグ修正などが含まれており、ユーザーからのフィードバックを募る段階のビルドとなっています。\n*   GitHubのリポジトリを通じてソースコードやバイナリのダウンロードが可能です。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.32.0-rc0"
+  }
+]

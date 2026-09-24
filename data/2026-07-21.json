@@ -1,0 +1,128 @@
+[
+  {
+    "id": "3a53de0e-c1c5-81d1-8499-d5d880243bbc",
+    "title": "Alibaba's Qwen Audio 3.0 TTS Plus tops the competition in the text-to-speech rankings",
+    "site": "THE DECODER",
+    "published": "2026-07-21T11:31:15.000Z",
+    "fetched": "2026-07-22T08:39:28.000Z",
+    "summary": "AlibabaのQwen Audio 3.0 TTS Plusが音声合成ランキングで首位を獲得\n\n- Alibabaの新モデル「Qwen-Audio-3.0-TTS-Plus」が、Artificial AnalysisのSpeech ArenaリーダーボードにおいてEloスコア1,236を記録し、競合他社（Simba 3.2など）を抑えてトップにランクインしました。\n- このモデルは、リアルタイム性の高い「Flash」と高品質な出力を追求する「Plus」の2種類を提供しており、豊かな表現力と高度なクローン機能を備えています。\n- タガログ語、マレー語、タイ語、ベトナム語などの多言語や中国の諸方言を含む16以上の言語に対応しており、タグ（[angry]など）を用いた感情指定や非言語的なニュアンスの追加も可能です。\n- 独自の技術により、ノイズやエコーを含む録音データからの音声クローンにおける精度が向上しています。\n- 生成速度に関しては競合他社のSonic 3.5等に劣るものの、高品質なコンテンツ制作に適した性能を備えており、価格は100万文字あたり27.60ドルです。",
+    "url": "https://the-decoder.com/alibabas-qwen-audio-3-0-tts-plus-tops-the-competition-in-the-text-to-speech-rankings/"
+  },
+  {
+    "id": "3a53de0e-c1c5-81f1-960a-f5f59e1a2fa5",
+    "title": "Xiaomi-Robotics-1 shows that more data beats bigger models when training robots to move",
+    "site": "THE DECODER",
+    "published": "2026-07-21T08:56:51.000Z",
+    "fetched": "2026-07-22T08:41:06.000Z",
+    "summary": "ロボット学習においてモデル規模よりデータ量を重視する「Xiaomi-Robotics-1」\n\nXiaomiは、ロボットの移動や操作能力を向上させるために、モデルの巨大化よりも高品質で膨大なデータの蓄積が重要であることを示すAIモデル「Xiaomi-Robotics-1」を発表しました。\n\n- **データ量の優位性の証明**: ロボットの動作習得において、より大きなモデルを採用するよりも、大量の学習データを与える方が優れたパフォーマンスを発揮することを示した。\n- **効率的なデータ収集手法**: 高価な実機ロボットを動かす代わりに、カメラ付きの手持ちグリッパーを使用することで、キッチンや工場など1,700以上の異なる環境から約10万時間の動作データを収集した。\n- **高い汎用性と適応性**: 多様なデータで学習したことにより、未知の環境でも音声やテキストの指示を理解し、わずかな追加学習で新しいタスクに適応することが可能になった。\n- **AIによる自動ラベル付け**: 膨大な量のデータの処理を効率化するため、別のAIモデルを用いて各動作セグメントにテキストの説明を付与し、学習プロセスを高度化した。",
+    "url": "https://the-decoder.com/xiaomi-robotics-1-shows-that-more-data-beats-bigger-models-when-training-robots-to-move/"
+  },
+  {
+    "id": "3a53de0e-c1c5-81ff-8518-c5a794ebf207",
+    "title": "Google's \"Frozen v2\" chip reportedly bakes Gemini's architecture directly into silicon for efficiency gains",
+    "site": "THE DECODER",
+    "published": "2026-07-20T18:08:33.000Z",
+    "fetched": "2026-07-22T08:42:31.000Z",
+    "summary": "GoogleがGeminiの構造をシリコンに直接組み込む新チップ「Frozen v2」を開発\n\n- Googleは、Gemini AIモデルのアーキテクチャ（構造）をハードウェアレベルで固定することで効率性を高める新しいサーバー用チップ「Frozen v2」を開発しています。\n- このチップにより、現在のTPUよりもAIレスポンスを提供する際の効率が6倍から10倍向上すると予測されています。\n- 「モデルの重み」ではなく「アーキテクチャ（設計図）」を固定する手法をとることで、特定のバージョンに依存しすぎることなく、計算ステップの削減と高速化を両立させています。\n- 2028年からの導入を計画しており、TPUとは異なる限定的な生産量で展開される、特化した次世代チップの試験的な試作として位置づけられています。",
+    "url": "https://the-decoder.com/googles-frozen-v2-chip-reportedly-bakes-geminis-architecture-directly-into-silicon-for-efficiency-gains/"
+  },
+  {
+    "id": "3a53de0e-c1c5-81ff-b484-f4c03f13fb0d",
+    "title": "District 9 director Neill Blomkamp releases first short film made entirely with AI video generation",
+    "site": "THE DECODER",
+    "published": "2026-07-20T17:32:41.000Z",
+    "fetched": "2026-07-22T08:43:57.000Z",
+    "summary": "『District 9』の監督がAI技術のみで制作された初の短編映画を発表\n\n- 『District 9』の監督ニール・ブロムキャンプが、AI動画生成モデル「Seedance 2.0」を用いて製作された13分間のSFホラー短編映画『Nightborne』を公開しました。\n- 本作はテキストプロンプトを用いたフレーム単位の指示で制作され、コンセプトアートには人間のアーティストが関わり、ライセンス契約に基づいた実在の人物の顔や声が使用されています。\n- ブロムキャンプはこの成功を受け、今後同じ手法（AI主導の制作）を用いた長編映画の製作を計画しています。\n- 彼はさらに、伝統的な手法を用いるOats Studiosに代わる、AI技術に特化した新しい映像制作スタジオ「Barley Studios」を設立しました。\n- AIは著作権や権利侵害の懸念からクリエイティブ業界で議論があるものの、効率的な制作ツールとして急速に普及が進んでいます。",
+    "url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation/"
+  },
+  {
+    "id": "3a53de0e-c1c5-81a2-a4c1-de9d9e8504d3",
+    "title": "Nvidia's grip on AI chips weakens as Microsoft turns to AMD and Anthropic may follow",
+    "site": "THE DECODER",
+    "published": "2026-07-20T16:44:30.000Z",
+    "fetched": "2026-07-22T08:45:54.000Z",
+    "summary": "MicrosoftとAnthropicのAMDへの移行により、NvidiaのAIチップ市場における独占的な支配力が揺らぎ始めている\n\n- Microsoftは2026年後半に提供予定のAMD製「Helios」プラットフォームを採用し、AzureクラウドにおいてNvidia GPUに対する代替選択肢を拡充する方針。\n- 両社の経営陣は、顧客がAIインフラにおいて多様な選択肢を持てることの重要性を強調しており、Nvidiaの強力な価格支配力に対し、AMDや独自のTPUによる競争が加速している。\n- Anthropicも現在AMD製ハードウェアをテスト中であり、同社はMetaと同等の非常に高い優先順位を持つパートナーとしてAMDから評価されている可能性がある。\n- OpenAIを含む主要なAI企業がすでにAMDと提携を進めており、市場におけるNvidia一極集中への変化が進んでいる。",
+    "url": "https://the-decoder.com/nvidias-grip-on-ai-chips-weakens-as-microsoft-turns-to-amd-and-anthropic-may-follow/"
+  },
+  {
+    "id": "3a53de0e-c1c5-8137-b9e1-c11e9bd4b81c",
+    "title": "Nativ: Run AI models locally on your Mac",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-21T14:22:27.000Z",
+    "fetched": "2026-07-22T08:47:07.000Z",
+    "summary": "Nativ: MacでAIモデルをローカル実行するためのデスクトップアプリ\n\n- MLXフレームワークを利用して、Mac上で大規模言語モデル（LLM）を動作させるためのデスクトップアプリケーションです。\n- チャットインターフェースと、外部連携用のローカルAPIサーバーの両方の機能を提供しており、LM Studioに近い操作感を実現しています。\n- 開発者のPrince Canuma氏は、MLXベースの視覚言語モデル用ライブラリ「MLX-VLM」の開発者として知られています。\n- Hugging Faceのキャッシュディレクトリ内にある既存のモデルを自動的に検出し、ユーザーが簡単に利用できる利便性を備えています。",
+    "url": "https://simonwillison.net/2026/Jul/21/nativ/#atom-tag"
+  },
+  {
+    "id": "3a53de0e-c1c5-81c7-80a5-d2be23e184d6",
+    "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-21T12:54:02.000Z",
+    "fetched": "2026-07-22T08:48:53.000Z",
+    "summary": "Claude Code開発チームによるコーディングエージェントの進化と技術的な裏側に関する対談\n\n- Claude Tag（Slack連携機能）が非常に高い評価を得ており、現在Anthropic社内のプロダクトエンジニアリングにおけるプルリクエスト（PR）の65%をこのツールで処理している。\n- 新機能はまず社内従業員向けに提供し、ユーザー維持率が高いことが確認されたもののみを外部公開するという、堅実なリリースプロセスを採用している。\n- 最新モデル（FableやOpusなど）においては、複雑な指示を並べた長いシステムプロンプトよりも、内容を80%削減した簡潔な構成の方が良好な結果を生むという知見が得られた。\n- Anthropic社内では「アンフード（自社製品の積極利用）」と公開性の高い文化が確立されており、これがコーディングエージェントの高度な開発と信頼性の確保を支える鍵となっている。",
+    "url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-tag"
+  },
+  {
+    "id": "3a53de0e-c1c5-81df-bfd6-d7ac2c1d2626",
+    "title": "Reverse-engineering is cheap now",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-20T19:24:05.000Z",
+    "fetched": "2026-07-22T08:50:55.000Z",
+    "summary": "AIの普及によるリバースエンジニアリングのコスト低下と容易化\n\n- コーディングエージェントの活用により、リバースエンジニアリングやデバイスの自動化における工数と心理的なハードルが劇的に減少した。\n- 従来はドキュメントのない不安定なAPIを維持する手間（ROIの低さ）が大きな障壁となっていたが、AIによって「コードを書くこと」自体のコストが極めて安くなった。\n- コード生成が容易になったことで、将来的な仕様変更やエラーの際に「コードを破棄して作り直す」ことへの心理的負担が大幅に軽減された。\n- 試行錯誤にかかるコストが低下したことにより、以前よりもリスクを恐れずに実験的な自動化やリバースエンジニアリングに取り組める環境へと変化している。",
+    "url": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-tag"
+  },
+  {
+    "id": "3a53de0e-c1c5-81d7-bf73-f0007ed3e8e1",
+    "title": "Who’s Afraid of Chinese Models?",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-20T17:09:19.000Z",
+    "fetched": "2026-07-22T08:52:28.000Z",
+    "summary": "中国製モデルへの対抗に向けた米国の法整備と政策提言\n\n- 米国は、AI学習用データの収集を「フェアユース」として明文化し、蒸留（distillation）を禁止する利用規約を制限する法律を制定すべきである。\n- 蒸留（APIへのクエリによるモデルの構築）の規制は技術的に困難なため、法的な免責と知的財産の活用を保証することで、米国のオープンモデルが中国製モデルに対抗できる環境を作るべきである。\n- AlibabaがQwen 3.8 Maxをオープンウェイトとして公開した背景には、習近平国家主席による「協力、開かれた仕組み、共有」を促す発言の影響がある可能性がある。\n- 中国の強力なモデルに対し、米国の技術革新を加速させるための法整備と、戦略的なエコシステムの構築が求められている。",
+    "url": "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-tag"
+  },
+  {
+    "id": "3a53de0e-c1c5-81b7-8ad2-e1156f634a18",
+    "title": "Grabette: an open system to record robot-manipulation data",
+    "site": "Hugging Face Blog",
+    "published": "2026-07-21T00:00:00.000Z",
+    "fetched": "2026-07-22T08:54:33.000Z",
+    "summary": "Grabette: ロボット操作データ収集のためのオープンシステム\n\nGrabetteは、ロボット学習における深刻な課題である「実世界における多様な操縦データの不足」を解消するための、低コストでオープンなデータ記録システムです。高価な遠隔操縦用機材や特別なラボ環境に依存する従来の手法とは異なり、人間の手とハンドヘルド型グリッパーを用いることで、誰もが容易にロボット学習に使用可能な高品質なデータセットを作成し、共同で構築する仕組みを提供します。\n\n- ロボット学習における主要なボトルネックはモデルの性能ではなく、多様な実世界での操作データの不足にある。\n- 高価な遠隔操縦システムを介さず、人間の手とグリッパーを用いることで、低コストかつスケーラブルなデータ収集を実現する。\n- 録画されたデータをブラウザ上で直接処理することで、自動的にロボットが学習可能な6自由度の軌跡データへと変換する。\n- 個々の研究室単独では構築困難な、誰もが貢献でき共有可能な大規模なオープン・データセットの形成を目指す。\n- スタンフォード大学のUMI（Universal Manipulation Interface）に着想を得ており、野外での動作を効率的にデジタルデータへ変換する。",
+    "url": "https://huggingface.co/blog/grabette"
+  },
+  {
+    "id": "3a53de0e-c1c5-810b-9ee6-ca1d01b6e15e",
+    "title": "CEO of Hugging Face: Banning open-source AI would hurt defenders 10x more than attackers, which would make the world 10x more dangerous and this is a good example why!",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-21T11:55:30.000Z",
+    "fetched": "2026-07-22T08:56:00.000Z",
+    "summary": "オープンソースAIの制限が防衛側に与える深刻な影響\n\n- Hugging FaceのCEOは、オープンソースAIを禁止することは攻撃者よりも防御側に対して10倍以上の深刻な不利益をもたらし、世界をより危険なものにすると警告しています。\n- オープンソースを制限すると、正当な防衛者が利用できるツールや透明性が失われる一方で、悪意のあるアクターが技術を独占・隠蔽して利用することが可能になるためです。\n- 公開されたモデルはコミュニティによる監視や脆弱性の特定が可能であり、この「公開性」こそがサイバーセキュリティにおける重要な防御壁として機能していると主張しています。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2g9bc/ceo_of_hugging_face_banning_opensource_ai_would/"
+  },
+  {
+    "id": "3a53de0e-c1c5-815b-96a4-e0da39b707d3",
+    "title": "v0.32.2-rc0: cuda: add CC 10.0 for linux in CUDA v12 (#17025)",
+    "site": "Ollama Blog",
+    "published": "2026-07-20T20:09:36.000Z",
+    "fetched": "2026-07-22T08:57:21.000Z",
+    "summary": "v0.32.2-rc0におけるLinux向けCUDA v12のCC 10.0サポート追加\n\n- ollamaのバージョンv0.32.2-rc0において、CUDAに関連する重要な機能拡張が行われました。\n- Linux環境でCUDA v12を使用する場合、計算能力（Compute Capability）「10.0」への対応が新たに追加されました。\n- この更新により、特定のハードウェア構成や最新のGPUアーキテクチャにおける互換性とサポート範囲が拡大します。\n- 本件はGitHub上のイシュー#17025に基づいた修正・追加です。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc0"
+  },
+  {
+    "id": "3a53de0e-c1c5-8112-bcb2-c927139fd3a6",
+    "title": "NVIDIA NVLink: The Scale-Up Network for AI Factories",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-07-20T15:46:28.000Z",
+    "fetched": "2026-07-22T08:59:10.000Z",
+    "summary": "NVIDIA NVLink：AI工場のための革新的なスケールアップ・ネットワーク\n\n- 第6世代NVLinkは、GPU間での高帯域（1基あたり3.6 TB/s）かつ低遅延の通信を実現し、大規模なLLMやMoEモデルを単一の計算ユニットとして統合する「AI工場」に向けた高度なスケールアップ・ネットワークを提供します。\n- 標準的なイーサネットよりも優れた性能を持ち、ラック単位で260 TB/sの帯域とインネットワーク演算能力を備えることで、複雑な大規模ワークロードにおける通信ボトルネックを劇的に解消します。\n- ハードウェアとソフトウェア（TensorRT-LLMやNCCLなど）の密接な連携により、動的なリソース割り当てや高度な推論を実現し、世代交代に伴う電力効率の大幅な向上に貢献します。\n- ホットスワップ対応、ダイナミックルーティング、詳細なテレメトリなどの堅牢な運用機能を備えており、商用AIインフラにおける安定した稼働と持続的な投資対効果（ROI）を保証します。",
+    "url": "https://developer.nvidia.com/blog/nvidia-nvlink-the-scale-up-network-for-ai-factories/"
+  },
+  {
+    "id": "3a53de0e-c1c5-8120-92b3-cb5f69bedb25",
+    "title": "Integrate NVIDIA Omniverse RTX Sensor Simulation Into Existing Apps",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-07-20T15:00:00.000Z",
+    "fetched": "2026-07-22T09:00:56.000Z",
+    "summary": "既存のアプリにNVIDIA Omniverseの「ovrtx」ライブラリを組み込むことで、高度なセンサーシミュレーション（カメラ、LiDAR、レーダー）を容易に統合し、現実的なデータ取得が可能になります。\n\n- **軽量で柔軟なSDK**: `ovrtx`はCおよびPython用の軽量なSDKとして提供され、既存のアプリケーション構成を維持したまま、RTXベースのセンサー出力を高度に制御・統合できます。\n- **物理的に正確なシミュレーション**: OpenUSDシーンを活用し、カメラやLiDARなど多様なセンサーからのリアルタイムで一貫性のあるシミュレーション結果を提供します。\n- **広範なツールへの対応**: CAD、Blender、ロボティクス、クラウドネイティブな設計ワークフロー（PTC Onshapeなど）といった多岐にわたる既存のプラットフォームと連携可能です。\n- **NVIDIA Agent Toolkitとの統合**: `ovrtx`は「NVIDIA Agent Toolkit」の一環として提供され、物理シミュレーション（ovphysx）やデータ管理などの他のライブラリとも協力して機能します。\n- **高度なユースケースの実現**: 質の高い合成データの生成、デジタルツインの構築、および産業分野におけるAIモデルの検証に不可欠な、マルチモーダルなシミュレーション環境を提供します。",
+    "url": "https://developer.nvidia.com/blog/integrate-nvidia-omniverse-rtx-sensor-simulation-into-existing-apps/"
+  }
+]

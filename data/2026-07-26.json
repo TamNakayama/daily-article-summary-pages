@@ -1,0 +1,101 @@
+[
+  {
+    "id": "3aa3de0e-c1c5-81bd-8259-c0e96cfbc8c9",
+    "title": "Cursor's agent swarm suggests cheaper models can handle most coding when frontier models plan the work",
+    "site": "THE DECODER",
+    "published": "2026-07-26T15:09:11.000Z",
+    "fetched": "2026-07-27T00:01:40.000Z",
+    "summary": "CursorのAIエージェント群（エージェントスウォーム）は、高性能なモデルが計画を立て、安価なモデルが実行を担うという役割分担により、複雑なコーディング作業を効率化できることを実証した。\n\n- 役割分担による効率化：高性能な「プランナー（計画者）」が目標を細分化し、安価で高速な「ワーカー（作業者）」が実装を担当する。この分離により、AIが文脈を見失うことを防ぎ、精度が大幅に向上する。\n- 従来の問題を克服：旧来のエージェントシステムでは、単一のエージェントが全体の文脈を維持しつつ作業する必要があり、長期タスクで迷走したり、競合解消でボトルネックが生じたりしていた。\n- 驚異的な処理能力：新システムでは作業効率が飛躍的に高まり、従来のGitでは対応できない速度（毎秒1000コミット）でコード生成を行うため、独自のバージョン管理システムを構築するまでに至った。\n- 実証実験の結果：SQLiteをRustで再構築するテストにおいて、新システムはすべての設定でテストスイートを100%クリアし、旧システムを圧倒した。\n- 実用化の進展：エージェント艦隊は研究段階からコア製品へと進化し、複雑な開発プロジェクトにおける主要なツールとして実用化されている。",
+    "url": "https://the-decoder.com/cursors-agent-swarm-suggests-cheaper-models-can-handle-most-coding-when-frontier-models-plan-the-work/"
+  },
+  {
+    "id": "3aa3de0e-c1c5-813f-ba28-d16461c3ebe6",
+    "title": "Anthropic's Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence",
+    "site": "THE DECODER",
+    "published": "2026-07-26T09:43:02.000Z",
+    "fetched": "2026-07-27T00:01:57.000Z",
+    "summary": "AnthropicのClaude Opus 5がAIの真の知能を測る指標で圧倒的な記録を達成\n\n- Anthropicの最新AI「Claude Opus 5」が、知能評価ベンチマーク「ARC-AGI-3」において30.2％という驚異的なスコアを記録し、世界最高記録を更新した。\n- これまでの最高記録であったOpenAIの「GPT-5.6 Sol (Max)」の7.8％を大幅に引き離しており、競合モデルと比較しても圧倒的な差をつけている。\n- ARC Prizeチームの分析によると、この成果はモデルの論理的推論能力が飛躍的に向上したことによるもので、未知の環境下での自律的な探索・計画能力が強化されたためである。\n- 試験において、タスクを代数表記に変換したり、独自に反射方程式を導き出すなど、従来のAIには見られなかった高度な問題解決能力が確認された。\n- Opus 5は、これまでどのAIも解決できなかった5つの環境を攻略し、そのうち4つは人間レベルと同等以上のパフォーマンスを見せている。",
+    "url": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence/"
+  },
+  {
+    "id": "3aa3de0e-c1c5-81a1-aeb4-ff023d8708a9",
+    "title": "Hundreds asked ChatGPT for poison and bioweapon recipes and some got step-by-step high school level guides",
+    "site": "THE DECODER",
+    "published": "2026-07-26T08:35:49.000Z",
+    "fetched": "2026-07-27T00:02:05.000Z",
+    "summary": "ChatGPTが生物兵器や毒物の生成方法を回答してしまう問題が浮上しており、OpenAIの安全性に対する姿勢が厳しく問われている。\n\n- OpenAIの次世代モデル「GPT-5」は、リリース前の内部評価で生物学的リスクが高いと判断されていたが、同社は秋にそのリスク評価を引き下げた。\n- 2025年夏以降、数百人のユーザーがChatGPTに毒物や生物兵器の作り方を尋ね、一部には高校生レベルの知識でも実行可能な手順が提示された。\n- OpenAIの幹部は、研究者の利便性を損なわないよう、AIが回答を拒否する頻度を下げるようスタッフに指示していたとされる。\n- 同社は問題のあったアカウントを停止したものの、当局への報告は行わなかった。現時点で報告の義務は法的に課されていない。\n- AIがテロリストなどに悪用されるリスクが指摘される中、OpenAIが商業的利益を安全性よりも優先しているのではないかという批判が強まっている。",
+    "url": "https://the-decoder.com/hundreds-asked-chatgpt-for-poison-and-bioweapon-recipes-and-some-got-step-by-step-high-school-level-guides/"
+  },
+  {
+    "id": "3aa3de0e-c1c5-811a-8f29-ddd7e1f43d41",
+    "title": "US reportedly favors selective bans over blanket restrictions on Chinese open weight models citing security concerns",
+    "site": "THE DECODER",
+    "published": "2026-07-26T07:56:24.000Z",
+    "fetched": "2026-07-27T00:02:14.000Z",
+    "summary": "米トランプ政権は中国製オープンウェイトAIモデルに対し、包括的な禁止措置ではなく、安全保障上の懸念に基づいた個別的かつ選択的な制限を検討していることが明らかになった。\n\n- 米ホワイトハウスは、中国製AIモデルを一律に禁止するのではなく、国家安全保障上のリスクが認められる特定のモデルをターゲットにした規制を優先する方針である。\n- 現在、中国のKimi K3などのAIモデルはサイバーセキュリティのベンチマークにおいて、依然として西側の主要モデルに大きく及ばない水準にとどまっている。\n- OpenAIやGoogle DeepMindを含む大手テック企業は、表向きはオープンウェイトモデルの規制に反対する共同書簡に署名しているが、内部では状況が複雑化している。\n- OpenAIやAnthropicは、安価な中国製モデルによる価格競争圧力に直面しており、裏では中国製オープンモデルの制限を求めるロビー活動を行っていると報じられている。\n- 主要テック企業がオープンモデルの規制に反対するのは、自社のクラウドサービスで他社モデルのアクセス権を販売するビジネスモデルを守る狙いや、市場シェアを維持する意図があるためである。",
+    "url": "https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns/"
+  },
+  {
+    "id": "3aa3de0e-c1c5-81ad-b303-f38fe71836e0",
+    "title": "The AI coding tutor paradox grows as educators scramble to rethink how they test real skills",
+    "site": "THE DECODER",
+    "published": "2026-07-26T06:59:56.000Z",
+    "fetched": "2026-07-27T00:02:22.000Z",
+    "summary": "AIコーディング学習のパラドックス：教育現場は実務能力の評価方法を再考へ\n\n- AIの台頭により、コンピュータサイエンス教育の現場では、プログラミング教育の手法と評価基準の抜本的な見直しが加速している。\n- 世界49カ国の教育者への調査で、69％が「AIはソフトウェア開発に必要なスキルを変えた」と回答し、従来のプログラミング教育からの転換を迫られている。\n- 教育の焦点は「ゼロからコードを書くこと」から、「既存コードの理解、デバッグ、問題解決」へと移行しており、すでに64％が指導方針を変更済みである。\n- 試験方法についても、68％が対面試験、口頭試問、コードの解説、プロジェクト形式など、AI不正を防ぎつつ実力を測る手法を導入している。\n- 一方で、回答者の約半数が「AIを授業に統合するための具体的な成功事例やガイドラインが不足している」と回答しており、今後の教育モデルの構築が課題となっている。",
+    "url": "https://the-decoder.com/the-ai-coding-tutor-paradox-grows-as-educators-scramble-to-rethink-how-they-test-real-skills/"
+  },
+  {
+    "id": "3aa3de0e-c1c5-8157-8df0-ff1eaec7bd05",
+    "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-26T19:30:54.000Z",
+    "fetched": "2026-07-27T00:03:01.000Z",
+    "summary": "LLMトークンの闇市場：転売と不正利用の実態\n\n- LLMのAPIトークンを安価に転売する市場が拡大しており、主に中国圏で不正なリレー（仲介）サービスが横行している。\n- 転売業者は、無料トライアルの悪用、無防備なサポートボットの乗っ取り、盗難クレジットカードやチャージバック攻撃などを駆使して不正にAPIキーを入手し、コストを極限まで抑えている。\n- 負荷分散のための正当なプロキシツール（one-apiやnew-api）が、本来の用途を超えてこれら不正なリレーサービスの基盤として悪用されている。\n- 購入者側は、コスト削減だけでなく、地域制限の回避や、モデル蒸留のためのデータ収集を目的として、こうした非公式なプロキシを利用している。\n- 公開されたLLMアプリケーションは常に攻撃のリスクにさらされており、開発者はAPIキーに対する厳格な予算上限設定（利用金額が一定額に達したら停止する機能など）の提供をベンダー側に強く求めている。",
+    "url": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-tag"
+  },
+  {
+    "id": "3aa3de0e-c1c5-8152-aa12-c4f49285bfc2",
+    "title": "CEO of Hugging Face: \"In the spirit of transparency, here’s what I asked OpenAI\"",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-26T12:27:55.000Z",
+    "fetched": "2026-07-27T00:03:08.000Z",
+    "summary": "Hugging FaceのCEOがOpenAIに求めた「AI開発の透明性とオープンソースへの貢献」\n\n- クレマン・ドゥルボーCEOは、AI開発における透明性の欠如を懸念し、OpenAIに対して開発プロセスやデータの公開を促す公開質問状を提示した。\n- 特に、AIモデルの学習データセット、評価基準、安全性テストの手法といった「ブラックボックス化」している情報の公開を強く求めている。\n- AIの進歩が一部の企業に独占されることを危惧し、科学的な協力関係を築くためにオープンなエコシステムを重視すべきだと主張した。\n- 社会に多大な影響を与えるAI技術において、責任ある開発を実現するためには、競合関係を越えた知識の共有と透明性が不可欠であると強調している。\n- 単なる競争ではなく、研究成果を広く公開することでAI全体の品質向上と安全性を確保し、技術の民主化を図るべきであるという姿勢を示した。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v72jft/ceo_of_hugging_face_in_the_spirit_of_transparency/"
+  },
+  {
+    "id": "3aa3de0e-c1c5-810a-bab5-c24fa7205419",
+    "title": "Karparthy removed Anthropic from his bio",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-26T01:12:29.000Z",
+    "fetched": "2026-07-27T00:03:16.000Z",
+    "summary": "Andrej Karpathyが自身のプロフィールからAnthropicへの言及を削除した件\n\n- OpenAIの元研究責任者であり、AI分野の著名人であるAndrej Karpathyが、自身のX（旧Twitter）のプロフィール欄からAnthropicへの言及を削除した。\n- 以前、Karpathyは自身のプロフィールにAnthropicを「応援している（cheerleader）」と記載していたが、今回の変更によりその記述が消滅した。\n- この変更の理由は公式に明らかにされておらず、本人の意図や背景については不明である。\n- AIコミュニティでは、この突然のプロフィール変更が何を意味するのかについて、様々な憶測や議論が飛び交っている。\n- 以前はOpenAIの主要メンバーであり、現在は個人としてAI教育や開発を行うKarpathyの動向は、常に業界から注目を集めている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6pkji/karparthy_removed_anthropic_from_his_bio/"
+  },
+  {
+    "id": "3aa3de0e-c1c5-815c-9908-e3c59c724394",
+    "title": "Sources: OpenAI and Anthropic quietly lobby Washington regulators to restrict open-source AI models, even as Sam Altman publicly says he supports open source AI",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-26T13:53:52.000Z",
+    "fetched": "2026-07-27T00:03:24.000Z",
+    "summary": "OpenAIとAnthropicがオープンソースAIの規制を水面下で推進、公の姿勢との矛盾が浮上\n\n- OpenAIやAnthropicといった大手AI企業が、ワシントンの規制当局に対し、強力なオープンソースAIモデルを制限するよう水面下で働きかけている。\n- サム・アルトマン氏をはじめとする各社幹部は、公の場では「オープンソースAIを支持する」と発言しているものの、実際には業界の支配力を強めるための規制を求めている。\n- これらの企業は、AIモデルの安全性を口実に、競合となるオープンソースの強力なモデルの公開を阻止することで、市場での優位性を確保しようとしている可能性がある。\n- このようなロビー活動は、AI開発の民主化を支持するオープンソースコミュニティや研究者から、競争を阻害しイノベーションを抑制するものとして批判を浴びている。\n- 表向きのオープンな姿勢と、背後で行われている規制の要請という「二面性」が浮き彫りとなり、AI業界における権力の集中と透明性について議論が巻き起こっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v74j62/sources_openai_and_anthropic_quietly_lobby/"
+  },
+  {
+    "id": "3aa3de0e-c1c5-815c-99c7-cc673700b86b",
+    "title": "Do you want new Gemma?",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-26T15:29:26.000Z",
+    "fetched": "2026-07-27T00:03:32.000Z",
+    "summary": "Gemmaの最新モデルが登場\n\n- Googleは、次世代の軽量AIモデル「Gemma 2」を発表し、以前のモデルから大幅な性能向上を実現した。\n- 新たに9B（90億パラメータ）と27B（270億パラメータ）の2つのサイズが展開され、特に27Bモデルは同クラスの競合モデルを上回る高い推論能力を持つ。\n- モデルのアーキテクチャに「知識蒸留」という技術を採用し、より大きなモデルの知識を効率的に学習させることで、コンパクトながら高度なタスク処理を可能にした。\n- ライセンスは柔軟な利用が可能な「Gemma Terms of Use」に基づき、研究開発から商用利用まで幅広く活用できる設計となっている。\n- 開発者はGoogleのAIプラットフォーム「Vertex AI」や「AI Studio」を通じて、即座に最新モデルを利用・統合することが可能である。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v770ee/do_you_want_new_gemma/"
+  },
+  {
+    "id": "3aa3de0e-c1c5-815c-9d3c-d50c913f5864",
+    "title": "Kimi K3 gets open weighted tomorrow!",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-26T12:05:47.000Z",
+    "fetched": "2026-07-27T00:03:39.000Z",
+    "summary": "Kimi K3のオープンウェイト版が明日公開へ\n\n- 月の暗号（Moonshot AI）が開発する高性能AIモデル「Kimi k3」のウェイト（重み）が、明日公開されることが明らかになりました。\n- オープンウェイト化により、開発者や研究者はモデルの構造や知見を自由に利用・検証できるようになり、AI技術の発展とエコシステムの拡大が期待されます。\n- Kimi k3は、推論能力や長文処理において高いパフォーマンスを持つモデルとして注目されており、今回の大規模なモデル公開は業界内でも大きなインパクトを与える見込みです。\n- 企業独自のカスタマイズやローカル環境での実行が可能になることで、AIを活用した新しいアプリケーション開発の加速が予想されます。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v722bp/kimi_k3_gets_open_weighted_tomorrow/"
+  }
+]

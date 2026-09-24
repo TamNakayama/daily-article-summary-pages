@@ -1,0 +1,101 @@
+[
+  {
+    "id": "3953de0e-c1c5-81fd-91bc-df3741148686",
+    "title": "Claude Code and Fable 5 ported the 2003 PC game Command & Conquer to native iOS in \"a few hours\"",
+    "site": "THE DECODER",
+    "published": "2026-07-05T15:58:56.000Z",
+    "fetched": "2026-07-06T00:01:17.000Z",
+    "summary": "### Claude CodeとFable 5でPCゲーム『Command & Conquer』を数時間でiOSに移植\n\n*   **驚異的な移植スピード**: GoogleのAI製品開発者Ammaar Reshi氏が、Anthropicの「Claude Code」と「Fable 5」を活用し、2003年のPCゲーム『Command & Conquer: Generals Zero Hour』をわずか数時間の作業でiOSへネイティブ移植した。\n*   **エミュレーター不使用**: この移植版はエミュレーターを介さずARM64上でネイティブ動作する。グラフィック処理には、DirectX 8からAppleのMetal APIへ変換するパイプラインが組み込まれた。\n*   **開発の効率化**: 最初のビルド構築には約40分、その後のデバッグを含めても数時間で完了した。なお、作業の過程で「Claude Max」の利用制限上限に達するほどAIを駆使したという。\n*   **オープンソースとして公開**: ソースコードはGitHubで公開されている（ゲームの実行には別途アセットが必要）。開発プロセスにおける詳細なバグや修正記録もエンジニアリングログとして残されている。\n*   **今後の課題**: 現時点ではiPadなどで長時間プレイすると高いメモリ消費によりクラッシュする場合があるなど、安定性の向上が課題となっている。",
+    "url": "https://the-decoder.com/claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few-hours/"
+  },
+  {
+    "id": "3953de0e-c1c5-81bc-818f-f9fbc3892231",
+    "title": "Baidu's \"Unlimited OCR\" processes dozens of document pages in one pass by treating memory like human forgetting",
+    "site": "THE DECODER",
+    "published": "2026-07-05T15:25:07.000Z",
+    "fetched": "2026-07-06T00:01:37.000Z",
+    "summary": "### Baiduが開発した「無限OCR」：人間の記憶メカニズムを応用して長文処理を効率化\n\n* **長文処理の革新**: Baiduの研究チームは、数十ページに及ぶ文書を一度の推論で処理できる新しいOCRモデルを開発しました。従来のモデルが抱えていた、テキスト量に比例してメモリ消費と処理時間が増大するというボトルネックを解消しています。\n* **人間の記憶プロセスを模倣**: 人間が手書きで書き写す際、すべてを記憶し直すのではなく、直近の内容に注目し古い記憶を適度に忘れるという動作をモデルに応用しています。\n* **メモリ消費の固定化**: 「R-SWA（Reference Sliding Window Attention）」という独自の注意機構を採用することで、KVキャッシュ（処理中のデータを蓄えるメモリ領域）を固定長に維持することに成功しました。\n* **効率的な文脈維持**: 生成されたテキストのうち、直近の128トークンのみを参照することで、文書がどれほど長くなっても処理速度とメモリ使用量を一定に保ちます。\n* **実用的なアプローチ**: 従来はページごとにループ処理を行い、都度キャッシュをリセットする必要がありましたが、この新手法により、効率的かつ高速な連続処理が可能となります。",
+    "url": "https://the-decoder.com/baidus-unlimited-ocr-processes-dozens-of-document-pages-in-one-pass-by-treating-memory-like-human-forgetting/"
+  },
+  {
+    "id": "3953de0e-c1c5-816c-bcd7-c275132ed3dd",
+    "title": "AI private schools sell wealthy US families on personalized learning over traditional education",
+    "site": "THE DECODER",
+    "published": "2026-07-05T10:45:46.000Z",
+    "fetched": "2026-07-06T00:01:56.000Z",
+    "summary": "### 富裕層の間で広がる「AI特化型私立校」へのシフト\n\n*   **教育の刷新を求める富裕層:** アメリカの富裕層の間で、従来の教育手法では将来のAI社会に対応できないという懸念が高まっており、AIを活用した新しい教育モデルを選ぶ家庭が増えている。\n*   **「AIチューター」による個別最適化:** 多くの学校で、AIチューターが各子供の習熟度や興味に合わせてカリキュラムをリアルタイムで調整する学習スタイルが導入されている。\n*   **教育現場の役割の変化:** 教師を知識の伝達者ではなく「ガイド」や「コーチ」と位置づけ、AIによる個別学習と、対面でのプロジェクト型ワークショップを組み合わせる手法が主流となっている。\n*   **高い需要と急速な拡大:** 「Alpha School」のような先駆的学校は、年間7万5000ドルの高額な学費にもかかわらず、テック業界や金融業界の富裕層から熱い支持を集め、全米で拠点を急拡大させている。\n*   **既存教育への不信感:** AIによるパーソナライズ化を志向する親たちは、既存の学校教育がAI時代の変化に対応できていない「壊れたシステム」であると捉え、民間のイノベーションによる代替案を強く求めている。",
+    "url": "https://the-decoder.com/ai-private-schools-sell-wealthy-us-families-on-personalized-learning-over-traditional-education/"
+  },
+  {
+    "id": "3953de0e-c1c5-816c-8f77-f000f0960e79",
+    "title": "Mistral CEO Mensch says proprietary AI models give labs a front-row seat to your business processes",
+    "site": "THE DECODER",
+    "published": "2026-07-05T10:22:06.000Z",
+    "fetched": "2026-07-06T00:02:14.000Z",
+    "summary": "### タイトル：Mistral CEOが提唱：クローズドAIモデルへの依存が企業にもたらすリスク\n\n* **クローズドAIモデルのリスク**: プロプライエタリ（独自仕様）なAIモデルを提供する企業は、顧客の入力データを通じて業務プロセスを深く把握できる立場にあり、それらの情報を悪用して顧客のビジネス領域に参入してくるリスクがある。\n* **データ主権の重要性**: Arthur Mensch氏は、企業が競争力を維持するためには、自社でデータを管理し、独自のAIモデルを構築・運用することが不可欠であると主張している。\n* **知見（重み）の流出**: パランティア社のAlex Karp氏も同様に、AIモデルの「重み（学習済みパラメータ）」は企業の貴重なノウハウそのものであり、他社に制御権を委ねることは自社の優位性を明け渡すことと同義であると警告している。\n* **自立的な成長の必要性**: 最先端のAI技術はビジネス成長を加速させるが、モデルが自社の管理下にない場合、その成長は自社のものではなくAIベンダーのものになってしまう。\n* **Mistral社の戦略的背景**: この主張の背景には、欧州のAI主権を重視し、オープンなエコシステムを推進することで自社の競争力を確保しようとするMistral社の戦略が反映されている。",
+    "url": "https://the-decoder.com/mistral-ceo-mensch-says-proprietary-ai-models-give-labs-a-front-row-seat-to-your-business-processes/"
+  },
+  {
+    "id": "3953de0e-c1c5-8120-84ff-d484ab14e387",
+    "title": "Hollywood wants Seedance banned and reportedly also wants to keep using it",
+    "site": "THE DECODER",
+    "published": "2026-07-05T09:02:36.000Z",
+    "fetched": "2026-07-06T00:02:32.000Z",
+    "summary": "### ハリウッドがByteDanceのAI動画生成ツール「Seedance」を「禁止すべき」と言いつつ「利用もしたい」という矛盾した状況\n\n* **著作権侵害への懸念と排除の動き**\n  全米映画協会（MPA）は、Seedanceが俳優の肖像権やスタジオの著作権を侵害しているとして、ByteDanceに停止要求書（セ cease-and-desist）を送付し、「組織的な権利侵害である」と強く非難しています。\n\n* **水面下で進む実務での活用**\n  公式な承認とは裏腹に、多くのスタジオや制作現場では「聞かない・言わない」という暗黙の了解のもとで、Seedanceが制作業務に利用されています。\n\n* **現場からの高い評価**\n  AI技術に精通したクリエイターの間では、Seedanceは現在市場で入手可能な中で最も優れた動画生成ツールとして高く評価されており、制作の現場で重宝されています。\n\n* **ByteDanceの強気な市場拡大**\n  批判を受けながらも、ByteDanceは米国での求人拡大、カンヌ映画祭でのイベント開催、インディーズ映画制作者との契約、映画制作への資金提供など、積極的な展開を続けています。",
+    "url": "https://the-decoder.com/hollywood-wants-seedance-banned-and-reportedly-also-wants-to-keep-using-it/"
+  },
+  {
+    "id": "3953de0e-c1c5-81c9-98c2-d432b322b519",
+    "title": "AI search agents don't fail at searching, they fail at asking the right questions when queries get ambiguous",
+    "site": "THE DECODER",
+    "published": "2026-07-05T07:52:17.000Z",
+    "fetched": "2026-07-06T00:02:50.000Z",
+    "summary": "### タイトル：AI検索エージェントが失敗する本当の原因は「質問不足」にある\n\n**要約のポイント**\n\n* **検索の失敗原因は調査能力ではなく「曖昧さの放置」**\n  AI検索エージェントが研究タスクで失敗する主な理由は、検索そのものができないからではなく、ユーザーの曖昧な質問に対して必要な明確化（聞き返し）を行わないことにあります。\n* **曖昧さが連鎖し、誤った推論を導く**\n  現実の検索クエリは不明瞭なことが多く、初期段階で曖昧な点を正さずに推論を進めると、その後の調査すべてが誤った方向に進む「連鎖的エラー」が発生します。\n* **新ベンチマーク「DiscoBench」による検証**\n  テンセント・フンユアンと清華大学の研究チームが開発した「DiscoBench」により、AIが調査中に曖昧さを検知し、ユーザーに質問して軌道修正できる能力を測定可能にしました。\n* **「推測」よりも「質問」を優先させる設計の必要性**\n  AIが独断で推測して調査を続けるよりも、曖昧な点を見つけた時点でユーザーに聞き返す方が、最終的な回答の精度と効率が大幅に向上することが示唆されています。",
+    "url": "https://the-decoder.com/ai-search-agents-dont-fail-at-searching-they-fail-at-asking-the-right-questions-when-queries-get-ambiguous/"
+  },
+  {
+    "id": "3953de0e-c1c5-816d-a5e3-fdc44f549050",
+    "title": "longcat 2.0 (1.6T, ~48B active) weights are now open under MIT license",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-05T10:35:23.000Z",
+    "fetched": "2026-07-06T00:03:07.000Z",
+    "summary": "# タイトル: 1.6兆パラメータのAIモデル「longcat 2.0」がMITライセンスで公開\n\n*   **1.6兆パラメータの大規模モデル:** 「longcat 2.0」は総パラメータ数1.6T（1.6兆）、アクティブパラメータ数約48B（480億）という非常に巨大な規模を持つAIモデルです。\n*   **MITライセンスでの開放:** 非常に制限の少ないオープンソースライセンスである「MITライセンス」の下で重みデータが公開され、誰でも自由に利用・改変が可能になりました。\n*   **高い性能と効率の両立:** 巨大な総パラメータ数に対し、実際に計算で使用されるアクティブパラメータを最適化することで、高い推論能力と効率的な動作を両立させています。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unyvnz/longcat_20_16t_48b_active_weights_are_now_open/"
+  },
+  {
+    "id": "3953de0e-c1c5-81e5-805c-e1685eea69a7",
+    "title": "I benchmarked 13 models at 65K-128K context to find out what actually matters for agentic workloads",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-05T03:37:23.000Z",
+    "fetched": "2026-07-06T00:03:24.000Z",
+    "summary": "タイトル：13個のモデルを65K〜128Kの長文脈で検証：エージェント型タスクで本当に重要なこと\n\n*   **「針」を見つける精度（検索性能）が最重要**：長文コンテキストにおいて、情報を正確に取得できるモデルは一握りであり、これがエージェントのパフォーマンスを左右する最大の要因。\n*   **モデルのサイズよりも「モデルの質」が優先**：パラメータ数が多い巨大モデルよりも、特定のトレーニングや微調整が行われたモデルの方が、長い文脈からの情報抽出能力において優れている傾向がある。\n*   **「Lost in the Middle（中間情報の欠落）」の克服**：多くのモデルが文脈の最初や最後にある情報には強いが、中央にある情報を無視する傾向がある。真のエージェント適性には、この課題を克服したモデルを選択すべき。\n*   **長文対応の宣伝と実用性の乖離**：多くのモデルが「128K対応」を謳っているが、実際に高精度で情報を処理できるものは限られており、ベンチマークによる実検証が不可欠である。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unrse9/i_benchmarked_13_models_at_65k128k_context_to/"
+  },
+  {
+    "id": "3953de0e-c1c5-814d-96a0-e3241209fa20",
+    "title": "I developed a 270 million parameter language model entirely from scratch as an independent research project",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-05T19:18:27.000Z",
+    "fetched": "2026-07-06T00:03:42.000Z",
+    "summary": "タイトル：個人研究として2億7000万パラメータの言語モデルをゼロから構築した話\n\n*   **独力でのフルスクラッチ開発**：外部の事前学習済みモデルを使用せず、データ収集からアーキテクチャの設計、学習までを個人プロジェクトとして完遂した。\n*   **2億7000万パラメータの規模**：計算リソースと時間の制約がある中で、現代のLLMの基礎技術を網羅しつつ、モデル構築の一連のプロセスを実践した。\n*   **技術的な難所と解決**：学習過程で直面したインフラの構築、データの正規化、ハイパーパラメータの調整などの技術的課題を、個人のリソース内でいかに乗り越えたかを示した。\n*   **プロジェクトの意義**：大規模な計算環境を持つ企業や研究機関に頼らずとも、基本的な言語モデルの本質を深く理解し、構築が可能であることを証明した。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoauvk/i_developed_a_270_million_parameter_language/"
+  },
+  {
+    "id": "3953de0e-c1c5-81d5-8570-c361eaea072b",
+    "title": "Is the current Open Weight LLM model viable in the long term?",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-05T18:29:49.000Z",
+    "fetched": "2026-07-06T00:04:00.000Z",
+    "summary": "# オープンウェイトLLMは長期的に生存可能か？\n\n*   **オープンウェイトモデルの長期的な成功は、単なる技術力だけでなく「持続可能な経済モデル」の確立にかかっている。**\n*   高性能なオープンウェイトモデルの増加は、AIの民主化を促進する一方で、開発・維持のための莫大な計算リソースを誰が負担し続けるのかという課題がある。\n*   企業はモデルを公開することで、エコシステムの構築や技術的優位性の確立を目指しているが、クローズドソースモデル（API課金型）に比べて収益化のハードルが高い。\n*   今後は「特定の業界向けへの最適化」や「周辺サービスの提供」といった、モデルそのものの販売以外の収益源を確保した企業が長期的に生き残る。\n*   オープンウェイトモデルが支配的になるには、コミュニティの貢献だけでなく、法規制やガバナンスへの対応をどう両立させるかが重要な鍵となる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uo9m72/is_the_current_open_weight_llm_model_viable_in/"
+  },
+  {
+    "id": "3953de0e-c1c5-8112-9ba4-e182f0138e65",
+    "title": "Any word on Qwen 3.7 9B? (Also looking for 9B-class alternatives to Qwen 3.5)",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-05T09:55:48.000Z",
+    "fetched": "2026-07-06T00:04:17.000Z",
+    "summary": "# タイトル：Qwen 3.7 9Bのリリース状況と9Bクラスの代替モデルの探索\n\n*   **Qwen 3.7 9Bの現況：** 現在のところ、Qwen 3.7 9Bのリリースに関する公式な発表や具体的な情報は確認されていない。\n*   **代替モデルの需要：** ユーザーは、Qwen 2.5（または3.5想定）と同等以上の性能を持つ、9Bパラメータークラスの高性能なオープンモデルを探している。\n*   **モデル選定の傾向：** コミュニティでは、推論能力や日本語対応力に優れたモデルとして、Llama 3シリーズやMistral系、あるいは各社の最新モデルが比較対象として議論されている。\n*   **今後の期待：** 軽量かつ高性能なモデルへのニーズは高く、今後登場する最新の9B〜10Bクラスのモデルに注目が集まっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uny822/any_word_on_qwen_37_9b_also_looking_for_9bclass/"
+  }
+]

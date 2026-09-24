@@ -1,0 +1,110 @@
+[
+  {
+    "id": "3943de0e-c1c5-8159-a6cc-e79941ca70e8",
+    "title": "Open-source tool pxpipe hides text in PNGs to cut Claude Code and Fable 5 token costs up to 70%",
+    "site": "THE DECODER",
+    "published": "2026-07-04T18:11:33.000Z",
+    "fetched": "2026-07-05T00:00:39.000Z",
+    "summary": "# タイトル：オープンソースツール「pxpipe」がPNG変換でClaude Code等のトークンコストを最大70%削減\n\n- **コスト削減の仕組み**：テキストを画像化してAIに読み込ませることで、トークン料金を大幅に節約するツール。「テキストは1文字1トークン」という料金体系に対し、画像は解像度に応じた固定料金である点を利用し、高密度なPNG画像に変換することでコストを圧縮する。\n- **大幅なコスト低減**：システムプロンプトや過去の履歴、ツール定義などの長大な静的データを画像化することで、平均59〜70%のコスト削減を実現。実際のデモでは、セッション費用を42.21ドルから6.06ドルまで下げた事例もある。\n- **実用的な運用**：ローカルプロキシとして動作し、Claude Codeへのリクエストを自動的にインターセプトする。最新のやり取りはテキストのまま処理し、かさばるデータのみを画像化することで、効率的な運用を可能にしている。\n- **精度と速度のトレードオフ**：画像化は非可逆的な処理であるため、ハッシュ値などの正確性が求められるデータの読み取りミスが発生する可能性がある。また、AIが画像を視覚情報として処理するため、テキストを直接読み込むよりも応答速度が低下する。\n- **今後の懸念点**：この手法が広く普及した場合、AIベンダー側が画像処理の料金体系を見直し、値上げする可能性がある。",
+    "url": "https://the-decoder.com/open-source-tool-pxpipe-hides-text-in-pngs-to-cut-claude-code-and-fable-5-token-costs-up-to-70/"
+  },
+  {
+    "id": "3943de0e-c1c5-81c3-b727-ec2074875b43",
+    "title": "Anthropic developer shares prompting tips for Fable 5 that focus on finding your own blind spots first",
+    "site": "THE DECODER",
+    "published": "2026-07-04T12:37:51.000Z",
+    "fetched": "2026-07-05T00:00:56.000Z",
+    "summary": "# Anthropicのエンジニアが提唱する、AI「Fable 5」の性能を引き出すプロンプト術\n\n* **AIの出力品質は、自身の「盲点」に気づけるかで決まる**\n  最新モデル「Fable 5」では、モデル自体の性能よりも、ユーザーがいかに自分の知識不足や考慮漏れ（未知の盲点）を認識し、言語化できるかが成果を大きく左右する。\n* **「未知の盲点（Unknown Unknowns）」の特定が鍵**\n  単に知っていることを伝えるだけでなく、自分では気づいていない前提条件や考慮すべき事項をAIとの対話を通じて洗い出すプロセスが重要である。\n* **プロンプトの具体性のバランスが重要**\n  指示が詳細すぎるとAIが誤ったアプローチに固定され、逆に曖昧すぎると一般的で役に立たない回答になりやすいため、適切なレベルでの具体性が求められる。\n* **実践的なアプローチの推奨**\n  ターゲットを絞ったブレインストーミングや、AIとの構造化されたインタビュー形式での対話、コーディング中の詳細なメモ記録などが、自身の盲点を解消するための有効な手法となる。",
+    "url": "https://the-decoder.com/anthropic-developer-shares-prompting-tips-for-fable-5-that-focus-on-finding-your-own-blind-spots-first/"
+  },
+  {
+    "id": "3943de0e-c1c5-8153-bddf-f80fd9204415",
+    "title": "OpenAI cofounder envisions \"almost no interface\" future where nobody learns software anymore",
+    "site": "THE DECODER",
+    "published": "2026-07-04T09:53:21.000Z",
+    "fetched": "2026-07-05T00:01:14.000Z",
+    "summary": "### OpenAI共同創業者が描く「インターフェースが消滅する」未来\n\n* **「インターフェース不要」の未来構想**\n  OpenAI共同創業者のグレッグ・ブロックマン氏は、人間がソフトウェアの使い方を学ぶ必要がない、製品や画面がほぼ存在しない未来を構想している。\n* **自律型AIエージェントへの転換**\n  今後目指すべきは、多機能なアプリを提供することではなく、ユーザーの文脈を理解し、自律的にデジタルタスクを処理する「常駐型AIエージェント」であると述べている。\n* **過去のプラグイン戦略の失敗と教訓**\n  2023年に導入されたChatGPTの「プラグイン」機能は、当時のAIモデルの性能不足により失敗に終わった。この経験は、同社が新技術を誇大宣伝する際の注意点を示唆している。\n* **現状の課題と現実とのギャップ**\n  現在のAIモデルは信頼性が不十分であり、依然として複雑なプロンプトや専門的なシステム統合が必要とされる。現状の製品群は、同氏が掲げる「目に見えないインターフェース」という理想とは未だ乖離がある。",
+    "url": "https://the-decoder.com/openai-cofounder-envisions-almost-no-interface-future-where-nobody-learns-software-anymore/"
+  },
+  {
+    "id": "3943de0e-c1c5-811e-9972-f4731673b2fa",
+    "title": "A 26,000-student study shows AI's hidden learning cost takes two full years to surface",
+    "site": "THE DECODER",
+    "published": "2026-07-04T09:08:41.000Z",
+    "fetched": "2026-07-05T00:01:32.000Z",
+    "summary": "### 26,000人の調査で判明：AI利用による学習の弊害が2年後に顕在化\n\n* **成績の二極化**\n  AIを活用することで宿題の完了時間は短縮され、成績も向上するが、一方で試験（クローズドな環境）の点数は最大24%低下するという「学習の質の低下」が確認された。\n* **弊害の遅効性**\n  AI利用による学力低下の影響はすぐには現れず、大学入学試験などの重要な試験において、約2年という歳月を経て初めて深刻な学習ギャップとして顕在化することが判明した。\n* **急激な普及とツール依存**\n  調査期間中にAI利用率は0%から約80%まで急上昇した。DeepSeekやDoubao、Ernie BotなどのAIツールが急速に学習スタイルへ組み込まれたことが背景にある。\n* **データに基づく実証**\n  26,000人以上の中高生を対象とした30ヶ月に及ぶ長期調査により、AIを導入した生徒と導入していない生徒の成績推移を比較分析し、因果関係が特定された。",
+    "url": "https://the-decoder.com/a-26000-student-study-shows-ais-hidden-learning-cost-takes-two-full-years-to-surface/"
+  },
+  {
+    "id": "3943de0e-c1c5-8113-967e-e8058c3e84fb",
+    "title": "Anthropic launches its own drug discovery programs to tackle diseases Big Pharma considers unprofitable",
+    "site": "THE DECODER",
+    "published": "2026-07-04T08:11:18.000Z",
+    "fetched": "2026-07-05T00:01:49.000Z",
+    "summary": "### Anthropicが創薬事業に参入、大手製薬が見過ごす疾患の治療薬開発へ\n\n* **Anthropicが創薬事業へ参入**: 収益性が低いとされ、大手製薬企業が取り組まない「無視された疾患」を対象に、前臨床段階の創薬研究を自社で開始する。\n* **AIモデルの進化と実証**: 自社AIツール「Claude Science」を活用して創薬に取り組むことで、AIの精度を高め、業界全体に貢献できるツールの開発を目指す。\n* **圧倒的な分析スピード**: Claude Scienceの実例として、UCSFの研究者が1年間気づかなかったウイルス汚染を数分で特定したほか、100の希少疾患の解析を1時間以内に行い32の候補を抽出した事例が紹介された。\n* **開発期間の大幅な短縮**: ノバルティスのCEOによると、AIの導入により、現在12年かかる創薬プロセスを7～8年に短縮できる可能性がある。\n* **成功率の向上**: AIを用いたより正確な安全性予測により、新薬開発の成功率が現在の8%から16%へと倍増する可能性があると期待されている。",
+    "url": "https://the-decoder.com/anthropic-launches-its-own-drug-discovery-programs-to-tackle-diseases-big-pharma-considers-unprofitable/"
+  },
+  {
+    "id": "3943de0e-c1c5-8187-b8e2-f6b0fd82eea0",
+    "title": "Mistral's open-source Leanstral 1.5 aces formal math benchmarks and catches real bugs in code",
+    "site": "THE DECODER",
+    "published": "2026-07-04T07:12:47.000Z",
+    "fetched": "2026-07-05T00:02:06.000Z",
+    "summary": "### Mistral AIが形式検証用モデル「Leanstral 1.5」を公開\n\n* **圧倒的な数学的推論能力**: 数学証明支援言語「Lean 4」に特化したモデルで、数学の難関ベンチマーク「miniF2F」で100％の正解率を記録し、他の指標でもオープンソースモデルとして最高水準の性能を達成しました。\n* **コード検証によるバグ発見**: 本来の数学特化という特性を活かし、オープンソースのライブラリ（Rustの「varinteger」など）において、それまで見つかっていなかった未知のバグを5件発見しました。\n* **強力な専門性**: 大学院レベルの群論や環論を含む高度な数学問題（FATE-H/FATE-X）にも対応しており、実用的なソフトウェア検証における高い適性を証明しました。\n* **オープンな提供**: Apache 2.0ライセンスで公開されており、Hugging Faceや無料のAPIを通じて誰でも利用可能です。",
+    "url": "https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/"
+  },
+  {
+    "id": "3943de0e-c1c5-8181-83b8-ebb0fbf55f82",
+    "title": "Better Models: Worse Tools",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-04T22:53:52.000Z",
+    "fetched": "2026-07-05T00:02:24.000Z",
+    "summary": "### タイトル：最新のAIモデルほどツール利用が下手になる「Better Models: Worse Tools」現象\n\n*   **最新モデルで顕著なツール利用の劣化**\n    Anthropicの最新モデル（Opus 4.8やSonnet 5など）が、従来のモデルと比較して、定義済みのスキーマ（仕様）を守らず、勝手に架空のフィールドを生成してツールを呼び出すという問題が発生している。\n*   **「最適化」が招く予期せぬ副作用**\n    この現象は、モデルが自社の開発環境（Claude Code）向けの特定のツール利用に過度に最適化（強化学習）された結果、汎用的な環境やサードパーティ製のツールとの整合性が崩れたことが原因と推測される。\n*   **モデル特化型ツールへの依存リスク**\n    特定のコーディング支援ツール（Search/Replace形式やApply Patch形式など）にモデルが強く学習されていると、外部の開発者ツール（Piなど）が提供する独自の編集ツールとの互換性が損なわれるリスクがある。\n*   **開発者に突きつけられた実装のジレンマ**\n    今後、サードパーティ製のツール開発者は、AIモデルごとの「得意なツール形式」を考慮し、複数の編集インターフェースを実装しなければ、モデルの性能を正しく引き出せない可能性がある。",
+    "url": "https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-tag"
+  },
+  {
+    "id": "3943de0e-c1c5-8131-8404-c6cb6d335a34",
+    "title": "google/tabfm-1.0.0",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-04T10:20:58.000Z",
+    "fetched": "2026-07-05T00:02:42.000Z",
+    "summary": "ご提示いただいたURLの内容に基づき、Googleの時系列予測モデル「Google/TabFM-1.0.0」について要約します。\n\n# Google/TabFM-1.0.0：表形式データの時系列予測を高度化する基盤モデル\n\n*   **表形式データの時系列予測に特化したTransformerモデル：** Googleが発表した「TabFM」は、テーブルデータの構造を理解し、複雑な時系列予測タスクを高精度に実行するために設計された基盤モデルです。\n*   **ゼロショット学習と転移学習の実現：** 大規模なデータセットで事前学習を行うことで、特定のタスク向けに調整することなく高い精度を発揮する「ゼロショット推論」や、少量のデータでの「微調整（ファインチューニング）」が可能です。\n*   **Masked Language Modelingの手法を応用：** BERTなどで用いられる「穴埋め（マスク）予測」の手法を時系列データに応用しており、データの欠損やノイズに強く、文脈を捉えた柔軟な予測を実現しています。\n*   **多様なデータ構造への対応：** 特徴量間の複雑な依存関係をキャプチャできるため、従来の統計的手法や古典的な機械学習アルゴリズムでは対応が難しかった多次元的な時系列データにも対応可能です。\n*   **オープンな利用とエコシステムへの統合：** Hugging Face上で公開されており、開発者が既存のパイプラインに容易に組み込めるため、データサイエンスや予測モデリングの効率を大幅に向上させます。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un5hyi/googletabfm100/"
+  },
+  {
+    "id": "3943de0e-c1c5-8167-84fa-e0f193170f90",
+    "title": "Qwen3.6-27b-mtp-q8 successfully created an A* pathfinding implementation on a test game built in Java from scratch.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-04T01:28:47.000Z",
+    "fetched": "2026-07-05T00:02:59.000Z",
+    "summary": "# タイトル：Qwen3.6-27b-mtp-q8がJavaによるA*（エースター）経路探索アルゴリズムの実装に成功\n\n**重要なポイント**\n* AIモデル「Qwen3.6-27b-mtp-q8」が、ゼロから構築したJava環境においてA*経路探索アルゴリズムの実装を完遂した。\n* 複雑なアルゴリズムを正確に理解し、テストゲーム上で適切に機能するコードを生成する能力が証明された。\n* 今回の成果により、AIによるプログラミング支援やゲーム開発の自動化における高い実用性が示された。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umvwb9/qwen3627bmtpq8_successfully_created_an_a/"
+  },
+  {
+    "id": "3943de0e-c1c5-8146-9e83-e0b330a1548e",
+    "title": "possible evidence of literal prompt injection by anthropic",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-04T19:54:57.000Z",
+    "fetched": "2026-07-05T00:03:16.000Z",
+    "summary": "# AnthropicのAIモデルにおけるプロンプトインジェクションの可能性\n\n* **AnthropicのAIが「システムプロンプト」を外部に漏洩させるリスクが示唆された**\n* 特定の巧みな入力を与えることで、AIが本来隠しておくべき内部指示（システムプロンプト）をそのまま出力してしまう現象が確認された\n* この脆弱性は、AIモデルが「ユーザーの指示」と「システム側の制御指示」を適切に分離できていないことに起因している\n* 悪用されると、AIの挙動を制限するルールを回避されたり、内部設定を読み取られたりするセキュリティ上の懸念がある\n* 開発者側は、モデルに対する厳格な入力フィルタリングや、プロンプトの階層構造を見直す対策が必要となっている",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unif51/possible_evidence_of_literal_prompt_injection_by/"
+  },
+  {
+    "id": "3943de0e-c1c5-814d-b0ee-e3604be2e64d",
+    "title": "Doing the actual math on a $20k local AI rig breakeven",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-04T11:27:31.000Z",
+    "fetched": "2026-07-05T00:03:34.000Z",
+    "summary": "# タイトル：2万ドルのローカルAI環境構築における損益分岐点の検証\n\n*   **結論：個人レベルでは投資回収が困難**\n    2万ドル（約300万円）を投じて高性能なローカルAI環境を構築しても、API経由でクラウドAIを利用する場合と比較して、コスト効率で元を取るのは極めて難しい。\n*   **「API利用」と「ローカル」のコスト比較**\n    OpenAIなどのAPI利用料は年々低下しており、ローカル環境の電気代やハードウェアの減価償却費を考慮すると、同じ処理量でもクラウドの方が安価になるケースが大半である。\n*   **ハードウェアの陳腐化リスク**\n    AI分野の技術革新は非常に速いため、高額なGPUを購入しても数年で性能が見劣りし、資産価値が急速に低下するリスクが伴う。\n*   **ローカル運用の真の価値は「自由度」**\n    金銭的な損益分岐点のみを考えると失敗するが、プライバシーの確保、無制限の利用、オフライン環境での稼働など、コスト以外の「運用上の自由」に価値を見出す場合にのみ導入が正当化される。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un6njn/doing_the_actual_math_on_a_20k_local_ai_rig/"
+  },
+  {
+    "id": "3943de0e-c1c5-8113-ae77-dca92771b394",
+    "title": "Ran a classic(medival europe) fantasy RP/agentic benchmark across 8 local models Qwen3.6-27B held up better than its size suggests",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-04T15:15:49.000Z",
+    "fetched": "2026-07-05T00:03:51.000Z",
+    "summary": "# 8つのローカルLLMによるファンタジーRPGベンチマーク結果：Qwen2.5-32B（Qwen3.6相当）が圧倒的な性能を記録\n\n- **Qwen2.5-32Bの優秀さ**：中世ファンタジーのロールプレイおよびエージェント性能をテストした結果、Qwen2.5-32B（記事内表記：Qwen3.6-27B）がサイズを超えた卓越したパフォーマンスを発揮し、他モデルを圧倒した。\n- **実用的な推論能力**：複雑な設定が求められるファンタジーRPにおいて、本モデルは文脈維持力やキャラクターの一貫性が高く、ローカル環境で実行可能なモデルとして極めて優秀。\n- **サイズと性能のバランス**：軽量〜中規模のローカルモデルの中でも、Qwen系は非常に高いコストパフォーマンスと推論精度を兼ね備えており、特に複雑な指示の追従性に優れている。\n- **ローカルLLMの現状**：小規模モデルでも特定分野のベンチマークにおいて大規模モデルに匹敵する、あるいはそれ以上の没入感のある体験を提供可能であることが証明された。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unbm45/ran_a_classicmedival_europe_fantasy_rpagentic/"
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "39c3de0e-c1c5-81c3-848c-f2c9bcc889d1",
+    "title": "S&P Global sees OpenAI as a \"key credit risk\" for Oracle and cuts its credit rating",
+    "site": "THE DECODER",
+    "published": "2026-07-12T11:43:36.000Z",
+    "fetched": "2026-07-13T05:43:26.000Z",
+    "summary": "タイトル：S&P Global、OpenAIをOracleの「主要な信用リスク」と見なすとして格付けを引き下げ\n\n・S&P Globalは、Oracle社が推進するAI事業においてOpenAIへの依存度が高いことを「重要な信用リスク」と判断し、同社の格付けを「BBB」から「BBB-」へ引き下げました。\n・OracleのAI関連設備投資（CAPEX）は2027年までに約950億ドルに達すると予想されていますが、実際の収益化には数年を要する見通しであり、資金燃焼の速さが課題となっています。\n・Oracleの全契約義務のうち約半分（6380億ドルのうち半分）がOpenAIに関連しており、もしOpenAIが破綻した場合、Oracleは膨大なデータセンター容量を埋めることができず、深刻な打撃を受ける可能性があります。\n・マイクロソフトやGoogle、AWSなどの競合他社と比較して、Oracleは自社向けのワークロードによる緩衝材を持っていないため、特定のパートナーへの依存による脆弱性がより顕著とされています。\n・この格下げの背景には、OpenAIに対する市場の不透明感も影響しており、同社のIPO延期や投資家による企業価値評価の困難さが報じられています。",
+    "url": "https://the-decoder.com/sp-global-sees-openai-as-a-key-credit-risk-for-oracle-and-cuts-its-credit-rating/"
+  },
+  {
+    "id": "39c3de0e-c1c5-813f-b03e-e32c2831a256",
+    "title": "Meta kills Muse Image feature that let anyone generate AI photos of Instagram users without consent",
+    "site": "THE DECODER",
+    "published": "2026-07-12T11:20:30.000Z",
+    "fetched": "2026-07-13T05:45:08.000Z",
+    "summary": "タイトル：Meta、同意なしでInstagramユーザーを生成するAI機能「Muse Image」を撤回\n\n・Metaは、Instagramの公開アカウントをメンションするだけで、当事者の許可なくその人の顔を含むAI画像を生成できる「Muse Image」機能を停止しました。\n・この機能は初期状態で有効になっており、拒否したいユーザーが手動でオプトアウトしなければならない仕組みであったため、プライバシー保護の観点から批判を浴びました。\n・Metaはこの機能を「意図を外れたもの（missed the mark）」と認め、発表からわずか数日以内に取り下げを決定しました。\n・欧州などの厳格なデータ保護規則のもとでは、この機能は法的に維持できない可能性が高いと予測されていました。\n・OpenAIのSoraで試みられた「cameo」的な機能を参考にしている可能性があり、公開直後に話題となったものの、関心は急速に薄れた模様です。",
+    "url": "https://the-decoder.com/meta-kills-muse-image-feature-that-let-anyone-generate-ai-photos-of-instagram-users-without-consent/"
+  },
+  {
+    "id": "39c3de0e-c1c5-8141-a541-ef28c2eacaa1",
+    "title": "Claude Cowork's biggest use case is the mundane office work nobody wants to own, Anthropic says",
+    "site": "THE DECODER",
+    "published": "2026-07-12T09:36:39.000Z",
+    "fetched": "2026-07-13T05:46:48.000Z",
+    "summary": "タイトル：Anthropicの調査で判明、Claude Coworkの主目的は「煩雑な事務作業」の自動化\n\n・利用セッションの約半分が、レポート作成やチェックリストの構築といった、誰もやりたがらない定型的な事務作業（work around the work）に充てられていることが明らかになった。\n・具体的には「ビジネスプロセスと運用」に関するタスクが33.4%を占み、情報の集約やスプレッドシートの照合など、事務的なバックオフィス業務の効率化に活用されている。\n・次いで「コンテンツ制作およびコピーライティング」が16.4%を占め、草案作成やプレゼン資料の準備といったテキストベースの作業が多く利用されている。\n・ソフトウェア開発における利用割合は低く、エンジニアはコーディングに特化した専用ツール「Claude Code」を使い分ける傾向があるため、Claude Coworkは事務系業務において高い需要があることが示された。",
+    "url": "https://the-decoder.com/claude-coworks-biggest-use-case-is-the-mundane-office-work-nobody-wants-to-own-anthropic-says/"
+  },
+  {
+    "id": "39c3de0e-c1c5-810c-9f70-dca833ae342d",
+    "title": "OpenAI CEO Altman is now \"pretty sure\" AI is net job-creating, which is quite the pivot from predicting mass layoffs",
+    "site": "THE DECODER",
+    "published": "2026-07-12T09:15:49.000Z",
+    "fetched": "2026-07-13T05:48:21.000Z",
+    "summary": "タイトル：OpenAIのサム・アルトマン氏、AIによる雇用の「純増」を予測する見解に転換\n\n・サム・アルトマン氏は現在、AIは職を奪うよりも多くの仕事を生み出すと確信しており、以前警告していた「急速な雇用への影響」という懸念から自身の見通しを大きく修正した。\n・Anthropicのダリオ・アモデイCEOも同様の変節を見せており、AIを「エントリーレベルの職の破壊者」ではなく、「生産性の向上（マルチプライヤー）」として捉える姿勢に転換している。\n・現時点でAIが労働市場や全体的な生産性に劇的な変化をもたらしていることを示す研究結果は乏しく、懸念されていたような急激な職の危機は確認されていない。\n・実際に発生した一部のレイオフについては、自動化による直接的な代替よりも、予算をAIハードウェアへ転用するためのリソース再配分や株主へのアピールといった経営上の要因が背景にあると指摘されている。",
+    "url": "https://the-decoder.com/openai-ceo-altman-is-now-pretty-sure-ai-is-net-job-creating-which-is-quite-the-pivot-from-predicting-mass-layoffs/"
+  },
+  {
+    "id": "39c3de0e-c1c5-812a-9e8a-d702fe4878e6",
+    "title": "Grades dropped from 96 to 48 percent when a Brown professor made students take the exam without AI",
+    "site": "THE DECODER",
+    "published": "2026-07-12T08:25:25.000Z",
+    "fetched": "2026-07-13T05:50:03.000Z",
+    "summary": "タイトル：AI利用による成績水増しを検知した結果、対面試験で大幅に低下した学生の評価\n\n・ブラウン大学の経済学教授が、宿題形式の試験において平均96%という異例の高得点を確認したところ、過去の平均（65〜80％）と大きく乖離しており、多くの学生がAIを使用しているとの疑いが生じた。\n・調査の結果、学生の回答がChatGPTの生成内容と酷似していたり、より単純な解法があるにもかかわらず不自然に複雑な数学的証明が選ばれていたりする傾向が判明した。\n・この事態を受け、最終試験を監督下での対面形式に変更したところ、平均点は48.6％まで急落し、同コースにおいて過去最低の成績となった。\n・AIを利用できない状況になったことで、多くの学生が履修を辞退したり欠席したりするなど、学習におけるAIへの依存の実態が浮き彫りになった。\n・他の複数の研究でも「宿題でのAI利用と、監督下での試験における大幅なパフォーマンスの低下」という同様のパターンが確認されており、教育現場における課題が示唆されている。",
+    "url": "https://the-decoder.com/grades-dropped-from-96-to-48-percent-when-a-brown-professor-made-students-take-the-exam-without-ai/"
+  },
+  {
+    "id": "39c3de0e-c1c5-81ac-a2b3-ec5dd097ad5c",
+    "title": "AI agents win at Slay the Spire 2 after researchers replace growing chat logs with structured memory",
+    "site": "THE DECODER",
+    "published": "2026-07-12T07:45:35.000Z",
+    "fetched": "2026-07-13T05:51:42.000Z",
+    "summary": "タイトル：構造化されたメモリへの置き換えにより、AIエージェントが「Slay the Spire 2」で勝利を収める\n\n・AIモデル自体の性能よりも、過去の情報をいかに整理して保持するかという「記憶の構造」の改善が、複雑なゲームでの勝率向上に直結した。\n・従来のLLMエージェントは、意思決定の過程で膨れ上がる「チャットログ」に含まれるノイズに邪魔され、高度な戦略判断が必要な場面で敗北していた。\n・新手法を用いた「AgenticSTS」プロジェクトでは、履歴をそのまま積み上げるのではなく、5つの構造化されたメモリ層から情報を再構築する仕組みを採用した。\n・このアプローチにより、高いランダム性と数百の決断を要するデッキ構築型ゲームにおいて、AIが正確な判断を下すことが可能になった。\n・今回の成果は、複雑で不確実性の高い環境において、LLMエージェントのための適切なコンテキスト管理がいかに重要であるかを証明している。",
+    "url": "https://the-decoder.com/ai-agents-win-at-slay-the-spire-2-after-researchers-replace-growing-chat-logs-with-structured-memory/"
+  },
+  {
+    "id": "39c3de0e-c1c5-8157-8df8-c63f1404f871",
+    "title": "OpenAI's GPT-5.6 Sol Ultra reportedly solves a 50-year-old math problem in under an hour",
+    "site": "THE DECODER",
+    "published": "2026-07-11T17:38:35.000Z",
+    "fetched": "2026-07-13T05:53:33.000Z",
+    "summary": "タイトル：OpenAIの「GPT-5.6 Sol Ultra」が50年以上の数学難問を短時間で解決\n\n・OpenAIの最新モデル「GPT-5.6 Sol Ultra」が、グラフ理論における重要課題である「Cycle Double Cover Conjecture（二重被覆予想）」の完全な証明を生成した。この問題は1970年代から約50年間未解決のままだった難問である。\n・AIはこのタスクに対し、64のサブエージェントを並列で稼働させることで、わずか1時間足りない時間で処理を完了した。\n・専門家による評価では、この証明は新しい理論を必要としない「簡潔かつ基礎的なもの」でありながら、既存のツールを巧妙に組み合わせることで導き出された非常に優れた解決策であるとされている。\n・人間がこれまで解けなかった要因として、論理過程における「直感に反する小さなひねり」があったことが挙げられる。AIは諦めることなく膨大な試行錯誤を繰り返す特性があるため、人間に見落とされがちな変数の組み合わせから正解を見つけ出すことができたとされる。",
+    "url": "https://the-decoder.com/openais-gpt-5-6-sol-ultra-reportedly-solves-a-50-year-old-math-problem-in-under-an-hour/"
+  },
+  {
+    "id": "39c3de0e-c1c5-8185-8548-ff7bdf7f8ebf",
+    "title": "Terrorist groups are using every major AI chatbot for attack planning and weapons development",
+    "site": "THE DECODER",
+    "published": "2026-07-11T17:04:28.000Z",
+    "fetched": "2026-07-13T05:55:06.000Z",
+    "summary": "タイトル：テロ組織による主要AIチャットボットの悪用と兵器開発への転用\n\n・ISISやボコ・ハラムなどのテロ組織が、ChatGPT、Claude、Gemini、DeepSeekといった主要なAIツールを攻撃計画や兵器開発に積極的に活用している。\n・これらの組織は2023年以降、AIの安全フィルターを回避するための「プロンプトエンジニアリング」や「脱獄（Jailbreak）」技術に関するトレーニングを実施している。\n・具体的な利用目的には、より強力な爆発装置の製造、武器のメンテナンス、作戦上の機密保持（オペレーショナル・セキュリティ）などが含まれる。\n・テロ組織内にはAI専用のユニットが設置されており、組織的な体制でAIを活用して技術を習得しようとする動きがある。\n・現在は従来型の目的での使用が多いものの、将来的にはAIを利用した大量殺傷兵器の開発へ繋がる可能性があるため、重大な警告とされている。",
+    "url": "https://the-decoder.com/terrorist-groups-are-using-every-major-ai-chatbot-for-attack-planning-and-weapons-development/"
+  },
+  {
+    "id": "39c3de0e-c1c5-81c0-a2c9-df78c198e87d",
+    "title": "Local Image to 3D (<2gb RAM, <20s, Apple Silicon, iPhone)",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-12T14:00:21.000Z",
+    "fetched": "2026-07-13T05:56:23.000Z",
+    "summary": "タイトル：低スペック・モバイル端末向けのローカル画像から3D変換技術\n\n結論：本記事は、非常に低いシステム要件（2GB以下のRAM）と高速な処理速度を実現し、Apple SiliconやiPhoneなどのデバイスでも動作する、ローカル環境での「画像から3Dモデルへの変換」に関する手法を紹介しています。\n\n重要なポイント：\n・メモリ消費量が少なく、低スペックなPCでも動作可能な軽量設計。\n・1枚の画像を3D化するのに20秒未満という高速な処理速度を実現。\n・Apple SiliconチップやiPhoneなど、モバイル環境での互換性を確保。\n・クラウドを介さずローカル環境で実行できる利便性。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuga40/local_image_to_3d_2gb_ram_20s_apple_silicon_iphone/"
+  },
+  {
+    "id": "39c3de0e-c1c5-81c3-b618-ec8ae2da09ff",
+    "title": "Xiaomi quietly uploaded MiMo-V2.5-DFlash — official DFlash weights are now on Hugging Face",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-12T07:11:43.000Z",
+    "fetched": "2026-07-13T05:57:41.000Z",
+    "summary": "タイトル：Xiaomiが「MiMo-V2.5-DFlash」の公式ウェイトをHugging Faceに公開\n\n・Xiaomiは、独自のモデル「MiMo-V2.5-DFlash」の公式ウェイトをHugging Face上で公開しました。\n・このアップロードは大々的な発表を伴わない形（静かに）で行われました。\n・Hugging Faceへの掲載により、開発者やコミュニティが当該のモデルを利用できる環境が整いました。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uu8d1v/xiaomi_quietly_uploaded_mimov25dflash_official/"
+  },
+  {
+    "id": "39c3de0e-c1c5-812b-a3a2-df9105537eed",
+    "title": "Voodoo Quant beats Unsloth Dynamic 2.0 KLD by 95% in Qwen3.5 0.8B and 2B",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-12T08:52:41.000Z",
+    "fetched": "2026-07-13T05:59:36.000Z",
+    "summary": "タイトル：Voodoo QuantがQwen3.5 0.8Bおよび2BにおいてUnsloth Dynamic 2.0 KLDを圧倒する結果を記録\n\n・Voodoo Quantは、特定のモデル（Qwen3.5 0.8B および 2B）において、競合手法であるUnsloth Dynamic 2.0 KLDと比較して95%もの大幅な性能向上を達成しました。\n・この比較結果は、特にリソースの限られた小型言語モデル（SLM）における量子化技術として、Voodoo Quantが極めて高い優位性を持っていることを示しています。\n・Qwen3.5シリーズのような軽量モデルを採用する環境において、Voodoo Quantが非常に効率的で優れた最適化ソリューションとなることが期待されます。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uua3jd/voodoo_quant_beats_unsloth_dynamic_20_kld_by_95/"
+  }
+]

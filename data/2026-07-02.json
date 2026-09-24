@@ -1,0 +1,128 @@
+[
+  {
+    "id": "3923de0e-c1c5-8149-9c09-eac2b4d1eb25",
+    "title": "Microsoft launches $2.5 billion \"Frontier Company\" to embed 6,000 AI engineers inside enterprise clients",
+    "site": "THE DECODER",
+    "published": "2026-07-02T19:18:29.000Z",
+    "fetched": "2026-07-03T00:00:47.000Z",
+    "summary": "**Microsoftが25億ドル規模の新組織「Frontier Company」を設立、6,000人のAIエンジニアを企業に派遣へ**\n\n*   **大規模な専門チームの派遣：** Microsoftは25億ドル（約4,000億円規模）を投じ、「Frontier Company」という新組織を立ち上げ、6,000人のエンジニアや業界専門家を主要な顧客企業に常駐させる。\n*   **AI導入の成果を最大化：** 単なる技術提供に留まらず、顧客企業の現場でAIシステムを共同設計・導入し、測定可能なビジネス成果が出るまで継続的な改善を行う「結果重視型」の組織を目指す。\n*   **AI投資に対する懸念への対応：** 企業の間で「AIへの投資対効果が見えにくい」という懐疑的な見方が広まる中、Microsoftは現場密着型の支援を通じて、具体的な生産性向上を証明する狙いがある。\n*   **プラットフォーム中立化への転換：** 特定のAIモデルに依存しない「プラットフォーム中立」な立場を強調し、OpenAIやAnthropicとの距離を置くことで、ベンダーロックインを懸念する顧客の獲得を図る。\n*   **パートナー網の活用：** AccentureやEY、KPMGなどの大手システムインテグレーターと連携し、この「Frontier Company」のモデルを世界市場に迅速に展開する計画である。",
+    "url": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients/"
+  },
+  {
+    "id": "3923de0e-c1c5-815c-88af-f3b019c9911b",
+    "title": "Anthropic reportedly explores custom chip manufacturing with Samsung while insisting Nvidia still matters",
+    "site": "THE DECODER",
+    "published": "2026-07-02T17:30:57.000Z",
+    "fetched": "2026-07-03T00:01:10.000Z",
+    "summary": "### AnthropicがSamsungと独自AIチップ製造を検討、Nvidiaへの依存も継続\n\n* **独自チップ開発への動き：** Anthropicが独自のAIチップ製造に向けてSamsung Electronicsと協議を開始したことが報じられました。プロジェクトはまだ初期段階ですが、専門のチップ開発チームの構築も進めています。\n* **業界の戦略的トレンド：** AIインフラのコストを抑えて収益性を高めるため、OpenAI、AWS、Google、Metaなど主要テック企業はこぞって独自のカスタムチップ開発に注力しています。\n* **Nvidiaとの関係は継続：** Anthropicは独自のチップ開発の動きがある一方で、AWS、Google、Nvidiaのチップが今後も同社の戦略における中核であると強調しており、Nvidiaの重要性は変わらない姿勢を示しています。\n* **専門人材の確保：** TeslaやOpenAIでカスタムチップ開発の経験を持つClive Chan氏を招聘しており、社内に専用のチップ開発グループを立ち上げる計画が進んでいます。",
+    "url": "https://the-decoder.com/anthropic-reportedly-explores-custom-chip-manufacturing-with-samsung-while-insisting-nvidia-still-matters/"
+  },
+  {
+    "id": "3923de0e-c1c5-81c3-af0c-db91bd440521",
+    "title": "Anthropic says it cut 80 percent of Claude Code's system prompt because Fable 5 models \"want a smaller system prompt\"",
+    "site": "THE DECODER",
+    "published": "2026-07-02T16:20:29.000Z",
+    "fetched": "2026-07-03T00:01:36.000Z",
+    "summary": "### AnthropicがClaude Codeのシステムプロンプトを80%削減、新型モデルの特性に適応\n\n* **モデルの進化によるプロンプト戦略の転換**\n  Anthropicの最新モデル「Fable 5（Mythosクラス）」は、従来のモデルとは異なり、短いシステムプロンプトを好む傾向があることが判明した。\n* **過剰な指示が創造性を阻害**\n  従来は「やってはいけない」といった詳細なルールや具体例が有効だったが、新型モデルは非常に高い能力を持つため、例示がかえってモデルの想像力を制約し、性能を低下させる原因となる。\n* **「指示」から「文脈」による制御へ**\n  同社は硬直的なルールを並べる手法から、文脈（コンテキスト）を通じてAIを自然に誘導する手法へとシフトしている。\n* **プロンプトの歴史的サイクル**\n  AIモデルの歴史において、初期は短いプロンプトが好まれ、モデルの成長とともにプロンプトは長文化したが、高い推論能力を獲得した現在のモデルでは、再び簡潔さが求められるようになっている。",
+    "url": "https://the-decoder.com/anthropic-says-it-cut-80-percent-of-claude-codes-system-prompt-because-fable-5-models-want-a-smaller-system-prompt/"
+  },
+  {
+    "id": "3923de0e-c1c5-8122-93cf-cc9bf7cc2962",
+    "title": "Nvidia is bankrolling AI startups to loosen Big Tech's grip on its chip business",
+    "site": "THE DECODER",
+    "published": "2026-07-02T13:00:05.000Z",
+    "fetched": "2026-07-03T00:01:54.000Z",
+    "summary": "### Nvidia、AIスタートアップへの直接融資で大手テック企業への依存を低減\n\n*   **GPUの販路拡大とリスクの肩代わり**\n    Nvidiaは、AIスタートアップや小規模なクラウドプロバイダーに対し、高額なAIチップを導入できるよう金融保証を提供している。プロバイダーがGPUを活用したサービスで収益を上げられない場合、Nvidiaが未使用のGPUを買い戻す（リースバックする）仕組みを導入することで、スタートアップ側の資金調達のハードルを下げている。\n*   **見返りとしての収益シェア**\n    Nvidiaはこの金融支援の対価として、スタートアップ側のクラウド収益の一部を直接受け取る契約を結んでおり、チップを売るだけでなく、サービス収益にも関与するモデルを構築している。\n*   **データセンター構築の加速**\n    Nvidiaの金融保証はGPUの購入費用だけでなく、データセンターの施設リース費用などを含めたパッケージとして機能するケースがあり、インフラ整備を急速に進める強力な推進力となっている。\n*   **大手テック企業への依存からの脱却**\n    現在、NvidiaのチップはAmazon、Microsoft、Googleなどの巨大テック企業が主要な顧客だが、彼らは同時に自社製のAIハードウェア開発も進めている。Nvidiaはスタートアップを育てることで、これらの巨大企業への独占的な依存体質を緩和しようとしている。",
+    "url": "https://the-decoder.com/nvidia-is-bankrolling-ai-startups-to-loosen-big-techs-grip-on-its-chip-business/"
+  },
+  {
+    "id": "3923de0e-c1c5-8169-94d7-ec4c6c2c8a6f",
+    "title": "AI agents can now complete 16 percent of freelance jobs at pro quality, up from 2.5 percent eight months ago",
+    "site": "THE DECODER",
+    "published": "2026-07-02T12:37:49.000Z",
+    "fetched": "2026-07-03T00:02:13.000Z",
+    "summary": "### AIエージェントがプロ品質のフリーランス業務を16%達成可能に\n\n* **驚異的な進化:** AIエージェントがプロの品質で完遂できるフリーランス業務の割合が、わずか8ヶ月間で2.5%から16.1%へと急成長した。\n* **指標の概要:** 「Remote Labor Index（RLI）」により、3D・CAD、デザイン、データ分析、Webアプリ開発など、実際の商用プロジェクトを用いてAIの自動化能力が測定されている。\n* **最新モデルの台頭:** 「Fable 5」が16.1%の自動化率を記録し、現時点でのトップ性能を誇る。これは次点である「Opus 4.8（8.3%）」の約2倍のスコアである。\n* **急速な技術向上:** わずか8ヶ月強で最高性能が4倍以上に向上しており、AIエージェントの実務対応能力がかつてないスピードで進化していることを裏付けている。\n* **評価の信頼性:** 米国Center for AI Safetyの人間による評価が導入されており、AIの成果物が実際に報酬を支払うクライアントの要求を満たしているかが厳格に検証されている。",
+    "url": "https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-eight-months-ago/"
+  },
+  {
+    "id": "3923de0e-c1c5-81bf-82a5-f837ebdc6e73",
+    "title": "Google brings TikTok-style video shorts to NotebookLM",
+    "site": "THE DECODER",
+    "published": "2026-07-02T12:17:15.000Z",
+    "fetched": "2026-07-03T00:02:43.000Z",
+    "summary": "### GoogleのNotebookLMがTikTok風のショート動画作成機能を追加\n\n*   **TikTok風の動画作成機能:** GoogleのAIノートツール「NotebookLM」に、アップロードした資料を60秒の縦型動画（ショート動画）に自動変換する機能が追加されました。\n*   **効率的な要約:** 複雑な資料や複数のソースの内容を、SNSで馴染みのある短い動画形式に要約・整理して把握することが可能になります。\n*   **提供対象:** 現在、Google AI UltraおよびProのサブスクリプションユーザー向けに提供が開始されており、モバイルとWebの両方で利用可能です。\n*   **順次拡大予定:** 無料版のユーザーに対しても、今後利用権限が拡大される予定です。",
+    "url": "https://the-decoder.com/google-brings-tiktok-style-video-shorts-to-notebooklm/"
+  },
+  {
+    "id": "3923de0e-c1c5-8165-90a0-f094956631ba",
+    "title": "OpenAI reportedly offers the Trump administration a five percent stake in the company",
+    "site": "THE DECODER",
+    "published": "2026-07-02T10:44:16.000Z",
+    "fetched": "2026-07-03T00:03:13.000Z",
+    "summary": "### OpenAIがトランプ政権に自社株の5%譲渡を提案\n\n*   **利益共有の新モデル：** OpenAIのサム・アルトマンCEOは、AI開発による利益を国民に分配するため、米国政府に企業価値の5%分の株式を譲渡する案を提案した。\n*   **国家主権ファンドの構想：** この提案はOpenAI単体ではなく、米国の主要AI企業が株式の5%を拠出し、アラスカ永久基金をモデルとした政府系ファンドを設立する構想である。\n*   **巨額の資産価値：** OpenAIの現在の評価額8,520億ドル（約130兆円規模）に基づくと、譲渡される株式の価値は400億ドル（約6兆円）を超えると推計される。\n*   **政治的思惑と交渉：** 規制強化やサイバーセキュリティなどの批判を緩和する狙いがあると見られる。アルトマン氏はトランプ大統領や閣僚と協議を進めているが、民主党のサンダース上院議員は50%の保有を求めるなど、合意には議論の余地がある。\n*   **実現への課題：** 協議はあくまで初期段階であり、この計画を実行に移すには連邦議会による法整備が必要となる可能性がある。",
+    "url": "https://the-decoder.com/openai-reportedly-offers-the-trump-administration-a-five-percent-stake-in-the-company/"
+  },
+  {
+    "id": "3923de0e-c1c5-8105-b738-f68c0938f3c3",
+    "title": "Using DSPy to evaluate and improve Datasette Agent's SQL system prompts",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-02T18:25:00.000Z",
+    "fetched": "2026-07-03T00:03:35.000Z",
+    "summary": "### タイトル：DSPyを活用したDatasette AgentのSQLシステムプロンプトの評価と改善\n\n**重要なポイント：**\n\n*   **DSPyによるプロンプトの自動最適化：** Simon Willison氏は、AIフレームワーク「DSPy」を用いて、Datasette Agent（SQLクエリ生成機能）のシステムプロンプトを評価および改善する実験を行いました。\n*   **実践的な評価環境の構築：** ライブ実行中のDatasette環境に対してDSPyエージェントを動かし、独自の指標を用いた「ゴールドスタンダード（正解）データセット」を作成することで、厳密な評価メカニズムを構築しました。\n*   **AIによる課題の特定：** 「Claude Code」を活用した自動調査の結果、GPT-4.1のminiおよびnanoモデルを用いて効率的な改善策が導き出されました。\n*   **具体的な改善案の発見：** 現行のプロンプトが「余計なツール呼び出しを避ける」よう指示しているために、エージェントが列名を推測してエラーを繰り返す現象が発生していました。これに対し、プロンプトに列名情報を明示的に含めるか、制約を緩和すべきという改善策が見つかりました。",
+    "url": "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-tag"
+  },
+  {
+    "id": "3923de0e-c1c5-81ef-925b-cb39951b8cad",
+    "title": "Understand to participate",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-02T17:07:14.000Z",
+    "fetched": "2026-07-03T00:03:53.000Z",
+    "summary": "# タイトル：AIとの協働における「理解」の重要性\n\n* **AIと協働するには深い理解が不可欠**\n  AIが高度で大規模なコードを生成する際、人間がその仕組みを深く理解していないと、意図した通りの創造的な開発プロセスに参加できなくなる。\n* **「認知的な負債」を回避する**\n  コードの動作から理解が乖離したままAI任せに開発を進めると、後から修正や管理が困難になる「認知的負債」を抱えることになる。\n* **流暢な開発には概念の理解が必要**\n  プロジェクトを前進させるためには、自分自身の頭の中に豊富な概念セットを持ち、AIの行動を把握して、主体的に意思決定を行う「流暢さ」が求められる。\n* **AIは「道具」ではなく「対等なパートナー」**\n  単にAIに作業を任せるのではなく、AIのプロセスを能動的に監視・管理できる能力を持つことが、これからのエンジニアには必要である。",
+    "url": "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-tag"
+  },
+  {
+    "id": "3923de0e-c1c5-81e8-a3c6-e6ba35645b7d",
+    "title": "Palantir CEO rages against closed models",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-02T07:15:05.000Z",
+    "fetched": "2026-07-03T00:04:11.000Z",
+    "summary": "# Palantir CEO、クローズドモデルに憤慨\n\n* **AIの独占に対する強い懸念**：PalantirのCEOアレックス・カープ氏は、少数の巨大テック企業がAIモデルを独占し、ブラックボックス化（クローズドモデル化）している状況を激しく批判した。\n* **国家安全保障と技術主権の危機**：主要なAI技術が特定の民間企業に依存することは、国家の安全保障や自由民主主義の価値観を損なうリスクがあると警鐘を鳴らしている。\n* **オープンソースと透明性の重要性**：カープ氏は、AI技術の民主化と透明性を確保するために、オープンソースのアプローチこそが不可欠であると主張している。\n* **シリコンバレーの倫理的姿勢への不信感**：利益追求のみを目的としたクローズドモデルが、社会に対して無責任な影響を及ぼしているとし、業界の現在の方向性を強く否定した。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulb4nx/palantir_ceo_rages_against_closed_models/"
+  },
+  {
+    "id": "3923de0e-c1c5-81c3-a7c9-ce98bdd1112b",
+    "title": "Talking with Gemma 4 31B!",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-02T12:29:23.000Z",
+    "fetched": "2026-07-03T00:04:36.000Z",
+    "summary": "タイトル：Gemma 4 31Bの対話体験と特徴\n\n*   **高性能な対話能力**：Gemma 4 31Bは、複雑な指示やニュアンスを的確に理解し、非常に自然かつ高精度な対話が可能。\n*   **推論と文脈維持の強化**：長文のやり取りにおいても一貫性を保ち、論理的な推論を必要とするタスクで優れたパフォーマンスを発揮する。\n*   **高い実用性と汎用性**：特定の専門知識から日常会話まで幅広いトピックに対応でき、様々なアプリケーションへの応用が期待できる。\n*   **効率的なモデルアーキテクチャ**：パラメータサイズに対して最適化された設計がなされており、パフォーマンスとレスポンスのバランスが非常に良好。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulgwld/talking_with_gemma_4_31b/"
+  },
+  {
+    "id": "3923de0e-c1c5-81f2-9616-fc1f594d34b7",
+    "title": "It's officially over. One of the fathers of AI at Nvidia doesn't believe in AGI and compares OpenAI and Anthropic's closed models to AOL and Prodigy's closed internets. Says the future is every business having a customized open source model.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-02T20:06:22.000Z",
+    "fetched": "2026-07-03T00:05:04.000Z",
+    "summary": "# NvidiaのAI先駆者が語る：AGIの否定とオープンソースへの転換\n\n*   **AGI（汎用人工知能）の実現は困難：** NvidiaのAIの父と称される専門家は、AGIの到来を否定的な見方で捉えている。\n*   **クローズドモデルの限界：** OpenAIやAnthropicのような閉鎖的なAIモデルを、かつての「AOL」や「Prodigy」のような閉じたインターネット環境になぞらえ、時代遅れになると指摘した。\n*   **オープンソースが主流になる未来：** 今後のAI市場は、特定の巨大企業が管理するモデルではなく、各企業が自社のニーズに合わせてカスタマイズしたオープンソースモデルを活用する形へ移行する。\n*   **ビジネスモデルの変革：** AI開発の主導権が、クローズドなエコシステムから、柔軟で透明性の高いオープンな技術体系へと移り変わることを示唆している。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ult0f4/its_officially_over_one_of_the_fathers_of_ai_at/"
+  },
+  {
+    "id": "3923de0e-c1c5-81e1-8af3-f058be1eb314",
+    "title": "Z.ai launches ZCode to challenge Cursor, Claude Code and GitHub Copilot in AI coding",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-02T11:34:14.000Z",
+    "fetched": "2026-07-03T00:05:29.000Z",
+    "summary": "# タイトル：AIコーディングツール「ZCode」が登場、CursorやGitHub Copilotに挑戦\n\n*   **Z.aiがAIコーディングツール「ZCode」を発表**\n    Cursor、Claude Code、GitHub Copilotといった既存の主要ツールに対抗する新たなAI開発環境として登場しました。\n*   **開発効率を大幅に向上させる統合環境**\n    ZCodeは、単なるコード補完だけでなく、プロジェクト全体のコンテキストを理解し、複雑なコーディングタスクを自動化することを目指しています。\n*   **先行する競合との差別化が鍵**\n    すでに高いシェアを持つCursorやGitHub Copilotに対し、独自の機能やワークフローを提供することで、エンジニアの生産性向上を強力に支援します。\n*   **AIによる自律的な開発支援の強化**\n    単なるAIアシスタントの枠を超え、開発者が意図するアプリケーションをより迅速かつ正確に構築できる「自律的なコーディング能力」の実現に注力しています。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulfpfo/zai_launches_zcode_to_challenge_cursor_claude/"
+  },
+  {
+    "id": "3923de0e-c1c5-8108-8732-fb98dfaee3a7",
+    "title": "Making LLMs Better at Creative Writing using Entropy",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-02T03:06:06.000Z",
+    "fetched": "2026-07-03T00:05:57.000Z",
+    "summary": "# タイトル：エントロピーを活用したLLMのクリエイティブ・ライティング向上法\n\n* **文章生成の「多様性」と「正確性」のバランスをエントロピーで制御する**\n  LLMの出力における予測の不確実性（エントロピー）を調整することで、単調さを防ぎつつ、意味不明な文章（ハルシネーション）を抑えた魅力的な文章生成を実現する。\n* **低エントロピーと高エントロピーの適度な組み合わせが鍵**\n  高いエントロピーは創造的で意外性のある表現を生むが、上げすぎると支離滅裂になる。低いエントロピーは一貫性を保つが、平坦な文章になりやすいため、両者の最適なポイントを見極める必要がある。\n* **動的なエントロピー調整（ダイナミック・サンプリング）の有効性**\n  文章の文脈に応じて、エントロピーの閾値をリアルタイムで変更する手法により、物語の盛り上がりやキャラクターの個性をより豊かに表現できる。\n* **評価指標としてのエントロピーの活用**\n  生成された文章の質を測る際、人間による主観評価だけでなく、エントロピーの変動パターンを分析することで、AIがどれだけ「創造的な推論」を行っているかを定量的に評価できる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ul6enz/making_llms_better_at_creative_writing_using/"
+  }
+]

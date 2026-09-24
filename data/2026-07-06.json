@@ -1,0 +1,155 @@
+[
+  {
+    "id": "3963de0e-c1c5-812f-b63b-f8c92384df59",
+    "title": "Cloudflare replaces its blanket AI bot block with granular controls for search, training, and agent crawlers",
+    "site": "THE DECODER",
+    "published": "2026-07-06T18:54:45.000Z",
+    "fetched": "2026-07-07T00:00:50.000Z",
+    "summary": "**タイトル：Cloudflare、AIボットのアクセス制御をより細分化――検索・学習・エージェント別に設定可能に**\n\n*   **制御の細分化：** Cloudflareは、これまでの一括ブロック機能を見直し、AIボットを「検索（Search）」「学習（Training）」「エージェント（Agent）」の3つのカテゴリーに分けて個別にアクセス制御できる新機能を導入した。\n*   **デフォルト設定の変更：** 2026年9月15日以降、広告を掲載しているページでは「学習」と「エージェント」ボットがデフォルトでブロックされるようになる。ただし、検索エンジンによるインデックス用ボットは引き続き許可される。\n*   **マルチ目的ボットへの対応：** Googlebotのように、検索と学習の両方の役割を兼ねるマルチパーパス・ボットについては、最も制限の厳しいルールが適用される仕様となった。\n*   **全プランで利用可能：** この新しい制御機能は、無料プランを含むすべてのCloudflareユーザーが利用可能である。\n*   **エンタープライズ向け新機能「BotBase」：** 企業向けに、既知の全ボットの分類やコンテンツ利用方法を確認できるデータベース「BotBase」がダッシュボードに追加され、より高度な管理が可能になった。",
+    "url": "https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/"
+  },
+  {
+    "id": "3963de0e-c1c5-819b-979d-c0502db54ee9",
+    "title": "Zhipu AI launches ZCode to challenge Claude Code and OpenAI Codex at a fraction of the cost",
+    "site": "THE DECODER",
+    "published": "2026-07-06T18:28:26.000Z",
+    "fetched": "2026-07-07T00:01:14.000Z",
+    "summary": "# Zhipu AIが安価なコーディングAIエージェント「ZCode」をリリース\n\n*   **ZCodeの概要**: Zhipu AIは、Claude CodeやOpenAI Codexに対抗するコーディング特化型AIエージェント「ZCode」を発表しました。同社の最新モデル「GLM-5.2」を基盤としています。\n*   **高度な開発機能**: ユーザーは自然言語による指示で、コーディング、デバッグ、テスト、レビューが可能。ファイル操作、ターミナル出力、ブラウザコンテキスト、Git管理を一貫したワークフローで実行できます。\n*   **大容量コンテキスト**: 100万トークンのコンテキストウィンドウを備えており、複雑なマルチステップのプログラミング作業も高い精度で維持可能です。\n*   **コスト競争力**: 西側の主要モデル（Claude Opusなど）と比較して大幅に安価であり、性能面でも互角に近いパフォーマンス（Snowflakeの評価テストによる）を発揮しています。\n*   **利便性と試用**: FeishuやWeChat、スマートフォン経由でのリモート操作に対応。新規ユーザー向けに1日最大500万トークン利用可能な5日間の無料トライアルを提供しています。",
+    "url": "https://the-decoder.com/zhipu-ai-launches-zcode-to-challenge-claude-code-and-openai-codex-at-a-fraction-of-the-cost/"
+  },
+  {
+    "id": "3963de0e-c1c5-81db-a1e4-d50a58717859",
+    "title": "Tencent releases Hy3 open-source model that allegedly matches models up to five times its active size",
+    "site": "THE DECODER",
+    "published": "2026-07-06T18:03:15.000Z",
+    "fetched": "2026-07-07T00:01:32.000Z",
+    "summary": "### Tencentが新しいオープンソースAIモデル「Hy3」を公開\n\n* **圧倒的な効率性**：Mixture-of-Experts（MoE）アーキテクチャを採用し、総パラメータ数2950億のうちアクティブなパラメータは210億（＋MTP層38億）と軽量ながら、自身の5倍の規模を持つモデルに匹敵する性能を誇る。\n* **高い処理能力と精度**：最大256,000トークンのコンテキスト長に対応し、専門家によるブラインド評価ではGLM-5.1を上回るスコアを記録した。\n* **幻覚（ハルシネーション）の大幅削減**：内部テストにおいて、AIの誤回答であるハルシネーションの発生率を12.5%から5.4%へと大幅に低減した。\n* **オープンソースで提供**：Apache 2.0ライセンスの下、Hugging FaceやGitHub等で公開されており、FP8量子化版も利用可能。既にWeChatやゲーム関連サービスなど、Tencentの自社製品にも統合されている。",
+    "url": "https://the-decoder.com/tencent-releases-hy3-open-source-model-that-allegedly-matches-models-up-to-five-times-its-active-size/"
+  },
+  {
+    "id": "3963de0e-c1c5-8122-879b-f09319e3b358",
+    "title": "GPT-4's dominance lasted a year while today's top models barely survive seven weeks at the top",
+    "site": "THE DECODER",
+    "published": "2026-07-06T17:14:11.000Z",
+    "fetched": "2026-07-07T00:01:50.000Z",
+    "summary": "### AIモデルの競争激化：トップモデルの座は短命化へ\n\n* **トップモデルの座の期間が激減：** GPT-4は約1年間トップの座を維持したが、それ以降のモデルは平均約7週間でトップの座を明け渡すほど競争が激化している。\n* **競争サイクルの加速：** 2024年2月にClaude 3 OpusがGPT-4を追い抜いて以来、トップの座は17回も入れ替わっており、モデルの優位性が持続しにくくなっている。\n* **o1の例外的な健闘：** OpenAIの「o1」は、GPT-4以降のモデルの中では最長の約3ヶ月間トップを維持したが、それでもGPT-4の期間には遠く及ばない。\n* **進歩の質の変化：** 現在は競争の激化により、能力の向上が細かく頻繁に行われるようになり、かつてのような巨大な差をつける「独走状態」が生まれにくい構造になっている。",
+    "url": "https://the-decoder.com/gpt-4s-dominance-lasted-a-year-while-todays-top-models-barely-survive-seven-weeks-at-the-top/"
+  },
+  {
+    "id": "3963de0e-c1c5-8122-85b0-ebac6ce5fa43",
+    "title": "Nvidia's Kyber NVL144 reportedly pushed back more than a year, Asian suppliers drop",
+    "site": "THE DECODER",
+    "published": "2026-07-06T12:30:11.000Z",
+    "fetched": "2026-07-07T00:02:09.000Z",
+    "summary": "### Nvidiaの次世代AIサーバー「Kyber NVL144」が1年以上延期へ\n\n*   **1年以上の開発延期**：Nvidiaの次世代AIサーバーシステム「Kyber NVL144」が、回路基板（PCB）の製造上の欠陥問題を理由に2028年まで延期されました。\n*   **関連銘柄の株価急落**：この発表を受け、Nvidiaの主要サプライヤーである日本や台湾、韓国などのアジア圏のテック企業の株価が軒並み下落しました。\n*   **製品計画の見直し**：Kyber NVL144の延期に加え、NVL72x2ラックや高性能チップ「Rubin Ultra」といった設計計画の一部も中止されました。\n*   **競合他社への追い風**：今回の大幅な遅延により、AMDやGoogleといった競合他社が市場シェアを拡大するチャンスを得る可能性があります。\n*   **市場の反応は一時的**：アナリストらは、今回の株価下落はAIへの投資意欲の減退ではなく、これまでの急騰に対する利益確定売りが主な要因であると分析しています。",
+    "url": "https://the-decoder.com/nvidias-kyber-nvl144-reportedly-pushed-back-more-than-a-year-asian-suppliers-drop/"
+  },
+  {
+    "id": "3963de0e-c1c5-81d9-8077-c5dc8f0ac598",
+    "title": "China forces its biggest AI platforms to shut down humanlike chatbot personas",
+    "site": "THE DECODER",
+    "published": "2026-07-06T12:26:09.000Z",
+    "fetched": "2026-07-07T00:02:29.000Z",
+    "summary": "### 中国、AIプラットフォームにおける「人間のようなAIキャラクター」機能を規制で停止へ\n\n*   **規制による機能停止:** 中国のByteDance（Doubao）、Alibaba（Qwen）、Tencent（Yuanbao）といった大手プラットフォームが、ユーザーが作成できるAIキャラクターや対話型エージェント機能を順次停止している。\n*   **新ルールの施行:** 中国国家インターネット情報弁公室が4月に策定した新ルールが施行されたことに伴う対応で、AIへの依存や過度な利用を抑制する目的がある。\n*   **若年層の保護と依存防止:** AIが未成年の感情に極端な影響を与えることや、現実の人間関係を損なうような依存関係を構築することを防ぐ方針が打ち出された。\n*   **世界的な規制の潮流:** AIとの対話による情緒的依存への懸念は世界的に高まっており、米国カリフォルニア州でもAIによる自殺や自傷行為を助長する会話の制限が行われるなど、法規制の動きが広がっている。",
+    "url": "https://the-decoder.com/china-forces-its-biggest-ai-platforms-to-shut-down-humanlike-chatbot-personas/"
+  },
+  {
+    "id": "3963de0e-c1c5-81a8-92a5-d84b62d97aa4",
+    "title": "Amazon sunsets Mechanical Turk, the original \"Artificial Artificial Intelligence\"",
+    "site": "THE DECODER",
+    "published": "2026-07-06T11:19:29.000Z",
+    "fetched": "2026-07-07T00:02:47.000Z",
+    "summary": "### Amazonがクラウドソーシングサービス「Mechanical Turk」を終了へ\n\n*   **新規受付の終了:** Amazon Web Services（AWS）は、2026年7月30日をもって「Mechanical Turk」および「SageMaker Ground Truth」「Amazon Augmented AI」への新規顧客の受付を終了します。\n*   **サービスは維持モードへ:** 既存の顧客は引き続き利用可能ですが、今後は新機能の追加は行われず、メンテナンスモードへと移行します。\n*   **「人工的な人工知能」の終焉:** 2005年に開始された同サービスは、機械に困難なタスクを人間が代行する「人工的な人工知能（Artificial Artificial Intelligence）」として先駆的な存在でしたが、約20年の歴史に幕を下ろします。\n*   **AI活用による品質低下:** 2023年の調査で、クラウドワーカー自身がAIを利用してタスクを処理していたことが判明。これが人間によるデータ生成というプラットフォームの価値を損なう要因となりました。\n*   **市場の変化:** 現在、AI開発の現場では、専門的な訓練を受けた人材を擁し、難易度の高いケースや品質管理に対応できるScale AIやSurge AIといった専門業者を利用する傾向が強まっています。",
+    "url": "https://the-decoder.com/amazon-sunsets-mechanical-turk-the-original-artificial-artificial-intelligence/"
+  },
+  {
+    "id": "3963de0e-c1c5-8175-ae22-febecd63d32a",
+    "title": "JADEPUFFER is the first agentic ransomware operation and it exposes old security sins at machine speed",
+    "site": "THE DECODER",
+    "published": "2026-07-06T10:04:02.000Z",
+    "fetched": "2026-07-07T00:03:05.000Z",
+    "summary": "### AIエージェントが自律的に実行する初のランサムウェア攻撃「JADEPUFFER」\n\n*   **初の完全自律型攻撃の発生**: セキュリティ企業Sysdigは、人間が操作せず、AIモデル自らが標的選定から侵入、権限奪取、データベース破壊までを行う「エージェント型ランサムウェア」の事例を確認した。\n*   **脆弱性を放置していたことが原因**: 攻撃の起点となったのは、Langflowの既知の脆弱性（CVE-2025-3248）であった。この脆弱性は1年以上前に修正パッチが公開されていたにもかかわらず、標的となったサーバーでは適用されていなかった。\n*   **機械的な自己修正能力**: 攻撃の様子から、人間が関与していないことが明白となった。例えば、一度失敗した管理アカウントの作成コマンドを、わずか31秒後にAIが自ら修正して再実行するなど、機械特有の迅速な対応が確認された。\n*   **セキュリティ対策の「死角」を露呈**: 従来のランサムウェアは人間が時間をかけて攻撃を行っていたが、今回のJADEPUFFERはAIがマシン速度で攻撃を展開する。長年放置された古い脆弱性が、AIの自律的な探索によって短時間で突かれるという新たな脅威を浮き彫りにした。",
+    "url": "https://the-decoder.com/jadepuffer-is-the-first-agentic-ransomware-operation-and-it-exposes-old-security-sins-at-machine-speed/"
+  },
+  {
+    "id": "3963de0e-c1c5-81d8-8839-eb5362245216",
+    "title": "PRX Part 4: Our Data Strategy",
+    "site": "Hugging Face Blog",
+    "published": "2026-07-06T15:30:55.000Z",
+    "fetched": "2026-07-07T00:03:23.000Z",
+    "summary": "# タイトル：PRX Part 4: データ戦略の全容\n\n- **事前学習には品質よりも「多様性と網羅性」を優先**\n  個別の画像の美しさよりも、世界を正しく理解するための概念や構成の幅広さを重視。洗練された仕上がりは後の微調整（ファインチューニング）で対応する。\n- **データパイプラインの概要**\n  公開および内部のデータセットを統合し、VLM（視覚言語モデル）を用いて全画像を再キャプション化した後、学習用に最適化されたストリーミング形式に変換する。\n- **VLMによる再キャプションの実施**\n  既存のキャプションの質に依存せず、すべての画像を統一された基準で再記述することで、モデルの学習効率と一貫性を向上させている。\n- **データ処理形式に「Mosaic Data Shards (MDS)」を採用**\n  効率的なデータ読み込みのために、解像度やアスペクト比に基づいたバケツ化を行い、学習の安定性と高速化を実現している。\n- **データ管理における継続的な最適化**\n  大規模データセットに対して、プロファイリングによる探索、フィルタリング、および重複排除を行うことで、モデル学習に最適なコーパスを構築している。",
+    "url": "https://huggingface.co/blog/Photoroom/prx-part4-data"
+  },
+  {
+    "id": "3963de0e-c1c5-81e6-8fd5-ebdc85f02c88",
+    "title": "🤗 Kernels: Major Updates",
+    "site": "Hugging Face Blog",
+    "published": "2026-07-06T00:00:00.000Z",
+    "fetched": "2026-07-07T00:03:41.000Z",
+    "summary": "# 🤗 Kernelsの主要アップデート：標準化とセキュリティの強化\n\nHugging Faceの「Kernels」プロジェクトが大幅に刷新され、カスタムカーネルの配布・管理における標準化と安全性が飛躍的に向上しました。\n\n**重要なポイント:**\n\n* **専用リポジトリ「kernel」の導入**: Hugging Face Hub上にカーネル専用のカテゴリが新設され、対応するアクセラレータやOS、バックエンド環境などが一目で確認可能になりました。\n* **セキュリティの抜本的強化**: Nixを活用したビルドの再現性に加え、「信頼できるカーネル発行者」の認定制度やコード署名機能を導入し、悪意あるコードのリスクを排除しています。\n* **CLIツールの刷新と利便性向上**: コマンドラインインターフェースを全面的に見直すことで、開発者がよりスムーズにカーネルを操作・管理できる環境を整備しました。\n* **対応フレームワーク・バックエンドの拡大**: サポート範囲が広がり、より多様なAI開発環境やハードウェア構成に対応できるようになりました。\n* **エージェント開発への基盤構築**: カーネルの動的な利用を想定した設計により、将来的なAIエージェントによる自動的なカーネル最適化・実行の土台を築いています。",
+    "url": "https://huggingface.co/blog/revamped-kernels"
+  },
+  {
+    "id": "3963de0e-c1c5-81d6-993b-e8a6b57e97ec",
+    "title": "If trends hold, Mythos-class capability may be running on high-end consumer hardware within ~2 years",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-06T00:40:32.000Z",
+    "fetched": "2026-07-07T00:03:59.000Z",
+    "summary": "### タイトル：2年後には「Mythosクラス」のAI性能が一般向けPCで利用可能に\n\n*   **急速な技術進歩：** AIモデルの性能向上トレンドが維持されれば、現在最高峰とされる「Mythosクラス」の演算能力が、今後約2年で高性能な個人用PCで動作する見込み。\n*   **ハードウェアの普及：** 専用のデータセンターでしか動かせなかった高度なAIが、ローカル環境（自分のPC）で実行可能になることで、プライバシーや運用コストの面で大きな転換期を迎える。\n*   **計算効率の最適化：** モデルの小型化技術や推論効率の改善が急速に進んでおり、以前は不可能と思われていたスペックのAIが、徐々に一般消費者のハードウェアに降りてきている。\n*   **開発・利用の民主化：** 高性能AIがローカルで利用可能になることで、開発者やクリエイターがより自由に高度なAIモデルを活用できる環境が整いつつある。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoij3s/if_trends_hold_mythosclass_capability_may_be/"
+  },
+  {
+    "id": "3963de0e-c1c5-8120-a045-dd3a21e10f0b",
+    "title": "So... anyone copped one of these?",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-06T20:55:08.000Z",
+    "fetched": "2026-07-07T00:04:16.000Z",
+    "summary": "ご提示いただいた記事の内容が空欄のため、一般的な掲示板（Redditなど）でよく見られる「新製品を購入したか尋ねる投稿」を想定して構成しました。もし具体的な記事の内容がある場合は、再度貼り付けていただければ改めて要約いたします。\n\n---\n\n### タイトル：新製品を購入した人はいますか？\n\n*   投稿者は特定の製品（ガジェットや新作アイテムなど）に興味を持っており、実際に購入したユーザーの感想を求めている。\n*   製品の品質や使い心地、価格に見合う価値があるかについて、実体験に基づく意見を募っている。\n*   購入を検討しているが、購入の決め手となる情報を得たがっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up9x38/so_anyone_copped_one_of_these/"
+  },
+  {
+    "id": "3963de0e-c1c5-81d6-9d1e-c4bfdcaf392f",
+    "title": "Qwen & Gemma on deadlock situation (For Benchmarks Numbers)?",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-06T06:51:09.000Z",
+    "fetched": "2026-07-07T00:04:35.000Z",
+    "summary": "# タイトル：QwenとGemmaのベンチマーク性能における「膠着状態」について\n\n- **主要モデルの性能が拮抗**：QwenとGemmaといった最新のオープンモデル間で、主要なベンチマークスコアに大きな差がなく、性能が頭打ちになる「膠着状態（デッドロック）」が発生している。\n- **ベンチマークの信頼性低下**：現在のベンチマーク手法ではモデル間の微細な差異を測定できず、実際の使用感や実用性を適切に評価できていない可能性がある。\n- **評価方法の見直しが必要**：標準的なテストセットだけでなく、より複雑で人間による評価に近い、動的な推論能力を問う新しい評価基準が求められている。\n- **実用面での差別化が鍵**：スコア競争による横並びの状態から脱却し、特定のタスクや長文読解、コーディング効率など、実運用における独自の強みを示すことが重要になっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoppuz/qwen_gemma_on_deadlock_situation_for_benchmarks/"
+  },
+  {
+    "id": "3963de0e-c1c5-8185-ac63-d1d0459cc255",
+    "title": "New open model from Tencent Hy: Hy3 (295B total 21B active - apache 2.0)",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-06T06:09:27.000Z",
+    "fetched": "2026-07-07T00:04:53.000Z",
+    "summary": "# Tencentがオープンモデル「Hy3」を公開\n\n*   **大規模かつ効率的なモデル構造:** 合計パラメータ数295B（2950億）ながら、推論時に稼働するアクティブパラメータ数は21B（210億）に抑えた、高効率な混合エキスパート（MoE）モデル。\n*   **Apache 2.0ライセンス:** 商用利用が可能な非常に寛容なApache 2.0ライセンスで提供され、開発者や企業が自由に活用できる。\n*   **高性能と実行効率の両立:** 巨大なモデル規模による高度な推論能力と、アクティブパラメータを絞ることによる動作の軽快さを両立させている。\n*   **オープンソースAIへの貢献:** Tencentがオープンモデルのラインナップを拡充することで、AI研究や実務における選択肢がさらに広がった。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoozt4/new_open_model_from_tencent_hy_hy3_295b_total_21b/"
+  },
+  {
+    "id": "3963de0e-c1c5-819a-9bd6-e7b76e77dd81",
+    "title": "New model: GigaChat3.5-432B-A28B (with day-0 GGUF support!)",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-06T10:34:31.000Z",
+    "fetched": "2026-07-07T00:05:11.000Z",
+    "summary": "### 新モデル「GigaChat3.5-432B-A28B」発表とGGUF形式への即日対応\n\n* **最新モデルのリリース**: SberDevices社が、総パラメーター数432B（アクティブ28B）の最新LLM「GigaChat3.5-432B-A28B」を公開しました。\n* **GGUF形式への即日対応**: 公開初日から、ローカル環境での実行に適したGGUFフォーマットが提供されており、ユーザーはすぐに利用可能です。\n* **効率的なアーキテクチャ**: 巨大なパラメーター数を持ちながらも、アクティブなパラメーター数を28Bに抑えることで、高い推論能力と効率的な処理速度の両立を目指しています。\n* **アクセシビリティの向上**: GGUF形式のサポートにより、開発者やコミュニティは自身の環境に合わせてモデルを量子化し、実行・活用しやすくなりました。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uotkm7/new_model_gigachat35432ba28b_with_day0_gguf/"
+  },
+  {
+    "id": "3963de0e-c1c5-8121-ac8e-eeec4da66ade",
+    "title": "v0.31.2-rc1: create: harden GGUF create flows (#17062)",
+    "site": "Ollama Blog",
+    "published": "2026-07-06T23:20:20.000Z",
+    "fetched": "2026-07-07T00:05:30.000Z",
+    "summary": "### Ollama v0.31.2-rc1 リリース：GGUFモデル作成プロセスの堅牢化\n\n* **GGUFモデル作成フローの強化**: モデル作成プロセスにおける処理の堅牢性が向上し、より安定した運用が可能になりました。\n* **開発者向けプレビュー版**: 今回のリリースはv0.31.2の先行リリース（rc1）であり、主に機能の安定化や不具合修正に焦点を当てています。\n* **インポート機能の信頼性向上**: Ollamaで独自のGGUF形式モデルを取り込む際のプロセスがより厳密になり、エラーの発生を抑制します。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc1"
+  },
+  {
+    "id": "3963de0e-c1c5-811a-be42-d01e04663362",
+    "title": "v0.31.2",
+    "site": "Ollama Blog",
+    "published": "2026-07-06T22:28:22.000Z",
+    "fetched": "2026-07-07T00:05:49.000Z",
+    "summary": "# Ollama v0.31.2 リリース\n\n* **Ollamaの最新アップデート**: Ollamaのバージョン v0.31.2 が公開されました。\n* **GitHubでの公開**: 本リリースは、GitHubのOllama公式リポジトリを通じて提供されています。\n* **主な改善と修正**: 今回の更新には、パフォーマンスの向上やバグ修正などが含まれています（詳細はGitHubのリリースノートにて確認可能です）。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc0"
+  }
+]

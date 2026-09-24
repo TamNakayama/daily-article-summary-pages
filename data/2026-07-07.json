@@ -1,0 +1,182 @@
+[
+  {
+    "id": "3973de0e-c1c5-81a9-afd7-f4c51d6884ce",
+    "title": "Copilot goes cheap as Microsoft phases out OpenAI and Anthropic models to cut costs",
+    "site": "THE DECODER",
+    "published": "2026-07-07T18:35:58.000Z",
+    "fetched": "2026-07-08T00:00:52.000Z",
+    "summary": "### Microsoft、コスト削減のためCopilotのAIモデルを自社製へ切り替え\n\n*   **自社モデルへの転換**: Microsoftは、ExcelやOutlookなどのCopilot製品において、OpenAIやAnthropicのモデルから自社開発の「MAI」モデルへと段階的に移行を進めている。\n*   **コスト削減が主目的**: MicrosoftのAI部門責任者ムスタファ・スレイマン氏は、他社モデルへの支払いを減らし、最終的には排除することを目指すと公言している。\n*   **性能低下への懸念**: 自社モデルはまだOpenAI等の最上位モデルと比較して性能が劣る場合があり、ユーザーは同額の料金を支払いながら、以前よりも性能の低いAIを利用することになる可能性がある。\n*   **プラットフォーム戦略との矛盾**: Microsoftは「ベンダーロックインを避けるプラットフォーム中立な企業」を標榜しているが、今回の自社モデルへの囲い込み戦略は、その姿勢と矛盾していると指摘されている。\n*   **技術的な現状**: 発表された自社モデル「MAI-Thinking 1」はコーディング能力などで競合他社モデルに追いつこうとしているが、現時点のベンチマークではOpenAIやAnthropicに大きく水を開けられている。",
+    "url": "https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs/"
+  },
+  {
+    "id": "3973de0e-c1c5-8111-a7e5-ed758665b1a9",
+    "title": "Cohere Transcribe Arabic is an open-source model built for Arabic's toughest transcription problems",
+    "site": "THE DECODER",
+    "published": "2026-07-07T17:54:08.000Z",
+    "fetched": "2026-07-08T00:01:10.000Z",
+    "summary": "### Cohereがアラビア語音声認識に特化したオープンソースモデル「Cohere Transcribe Arabic」を公開\n\n* **最高水準の精度**: 20億パラメータを持つこのモデルは、既存のWhisper Large V3や標準のCohere Transcribeモデルを上回る精度を誇る、最高レベルのアラビア語音声認識（ASR）システムです。\n* **複雑なアラビア語に対応**: 方言の多様性、アラビア語と英語が混ざる会話（コードスイッチング）、専門用語など、アラビア語特有の困難な音声認識課題を解決するために設計されました。\n* **オープンソースで公開**: Apache 2.0ライセンスの下で提供されており、Hugging FaceやCohere APIを通じて誰でも利用可能です。\n* **高い評価**: 人による評価（品質、方言の正確さ、コードスイッチングの対応など）において、主要な競合モデルを明確に上回る性能が確認されています。",
+    "url": "https://the-decoder.com/cohere-transcribe-arabic-is-an-open-source-model-built-for-arabics-toughest-transcription-problems/"
+  },
+  {
+    "id": "3973de0e-c1c5-812b-bba5-c563830df682",
+    "title": "Anthropic's Claude Cowork AI agent is now available on mobile and web",
+    "site": "THE DECODER",
+    "published": "2026-07-07T17:04:30.000Z",
+    "fetched": "2026-07-08T00:01:29.000Z",
+    "summary": "### AnthropicのAIエージェント「Claude Cowork」がモバイルとWebで利用可能に\n\n* **モバイル・Webへの拡大**\n  これまでデスクトップアプリ限定だった「Claude Cowork」が、スマホやブラウザからも利用可能になりました。これにより、場所を選ばず作業の開始や進捗確認、結果の閲覧が可能になります。\n* **バックグラウンド処理の継続**\n  デバイス（PCやスマホ）を閉じたりオフにしたりしても、Claudeがバックグラウンドでタスクを継続して実行します。\n* **モバイルを通じた「ヒューマン・イン・ザ・ループ」**\n  人間による判断が必要な場面では、スマホに通知が届きます。ユーザーが確認・承認するまで作業が進まない仕組みで、セキュリティを担保しています。\n* **業務効率化に特化**\n  利用用途の9割以上がコーディング以外の業務であり、特に「ビジネスオペレーション」や「コンテンツ作成（予算調整、メモ作成、プレゼン資料作成など）」で頻繁に活用されています。\n* **デスクトップ版の優位性**\n  ローカルファイルの操作、ブラウザの直接制御、画面操作を自動化する「Computer Use」機能については、引き続きデスクトップアプリでの利用が推奨されます。",
+    "url": "https://the-decoder.com/anthropics-claude-cowork-ai-agent-is-now-available-on-mobile-and-web/"
+  },
+  {
+    "id": "3973de0e-c1c5-815c-8992-f8c31b07fa22",
+    "title": "China eyes export curbs on its top AI models, and Europe is caught in the middle",
+    "site": "THE DECODER",
+    "published": "2026-07-07T16:13:45.000Z",
+    "fetched": "2026-07-08T00:01:47.000Z",
+    "summary": "### 中国が最先端AIモデルの輸出規制を検討、欧州は板挟みの危機\n\n* **中国が最先端AIへの輸出規制を検討中**\n  中国当局は、アリババやバイトダンスなどの主要テック企業に対し、高度なAIモデルの海外への提供を制限する可能性について協議を行っており、AIを国家戦略資源として管理を強化する構えを見せている。\n* **欧州が低コストな選択肢を失うリスク**\n  欧州はAI開発を外部に依存しているため、中国の規制が実施されれば、米国製AIに代わる低コストな選択肢を失う可能性があり、欧州の立場がさらに脆弱化する恐れがある。\n* **欧州の技術的自立は遅れ気味**\n  欧州は「InvestAI」イニシアチブを通じて2,000億ユーロ規模の投資を計画しているものの、データセンター建設の遅延や、米国のテック大手と比較して予算規模が小さいことが課題となっている。\n* **欧州の知見が海外モデルへ流出**\n  欧州内でのAI開発能力が不足する一方で、欧州の専門知識や人材が海外モデルの開発に吸収される流れが強まっており、技術的な自立に向けた構造的な問題が露呈している。",
+    "url": "https://the-decoder.com/china-eyes-export-curbs-on-its-top-ai-models-and-europe-is-caught-in-the-middle/"
+  },
+  {
+    "id": "3973de0e-c1c5-8109-8657-d671166fe847",
+    "title": "Claude's hidden inner monologue is now readable thanks to Anthropic's new Jacobian Lens",
+    "site": "THE DECODER",
+    "published": "2026-07-07T14:46:29.000Z",
+    "fetched": "2026-07-08T00:02:04.000Z",
+    "summary": "タイトル：Anthropicの新技術「Jacobian Lens」により、Claudeの隠れた内的思考が可視化可能に\n\n重要なポイント：\n* **内的思考空間「J-Space」の発見**: Anthropicは「Jacobian Lens（J-Lens）」という解析手法を開発し、Claudeが外部出力せずに処理している概念的な内的作業記憶「J-Space」を特定しました。\n* **推論への因果的影響**: J-Space内の概念を研究者が操作すると、Claudeの結論も連動して変化します。これは、モデルが回答を生成する前に、内部でテストシナリオを認識・検討していることを示唆しています。\n* **人間のような作業記憶**: この機能は意識研究における「グローバルワークスペース理論」と機能的に類似しており、AIが単なる計算機を超えた独自の内部処理を行っている可能性を示しています。\n* **ハルシネーションの低減**: この研究成果を活かした新しいトレーニング手法により、AIのハルシネーション（もっともらしい嘘）や誤解を招く出力を大幅に削減することに成功しました。",
+    "url": "https://the-decoder.com/claudes-hidden-inner-monologue-is-now-readable-thanks-to-anthropics-new-jacobian-lens/"
+  },
+  {
+    "id": "3973de0e-c1c5-81a7-a1c9-faf1ebb13e85",
+    "title": "Chinese AI models regularly pass 30 percent on OpenRouter as cost gap widens",
+    "site": "THE DECODER",
+    "published": "2026-07-07T11:34:52.000Z",
+    "fetched": "2026-07-08T00:02:24.000Z",
+    "summary": "### 中国製AIモデルのシェアがOpenRouterで急拡大、米国モデルとのコスト格差が要因\n\n* **シェアの急増**：AIプラットフォーム「OpenRouter」において、中国製AIモデルのトラフィック占有率が急上昇しており、2月8日以降は毎週30%を超え、最大で46%に達している（昨年平均は11%）。\n* **圧倒的なコストメリット**：中国のオープンソースAIモデルは、OpenAIやAnthropicなどの米国製モデルと比較して、利用コストが60〜90%も安価である。\n* **企業による乗り換えの動き**：コスト削減を理由に、AnthropicのClaudeからDeepSeekなどの中国製モデルへ完全に移行する企業も現れており、その削減額は年間で数百万ドル規模に上る。\n* **技術的な進歩と格差**：ブルッキングス研究所などの調査によると、中国製モデルの性能は米国トップモデルに比べて約6〜9ヶ月程度の遅れに留まっており、急速に差が縮まっている。",
+    "url": "https://the-decoder.com/chinese-ai-models-regularly-pass-30-percent-on-openrouter-as-cost-gap-widens/"
+  },
+  {
+    "id": "3973de0e-c1c5-8154-8240-c14c4d9e8774",
+    "title": "Deepseek is designing its own AI chip",
+    "site": "THE DECODER",
+    "published": "2026-07-07T11:04:34.000Z",
+    "fetched": "2026-07-08T00:02:42.000Z",
+    "summary": "# Deepseekが独自のAIチップを開発中\n\n* **独自のAIチップ開発へ**: 中国のスタートアップ企業Deepseekが、自社製AIチップの開発に着手したことが報じられました。\n* **推論処理に特化**: 開発中のチップはモデルの学習用ではなく、ユーザーへの回答生成などを行う「推論」の効率化を目的としています。\n* **依存度の低減**: この取り組みにより、現在依存しているNvidiaやHuawei製チップへの依存度を下げることが狙いです。\n* **米国の輸出規制という壁**: プロジェクトは初期段階にあり、米国の高度な半導体・メモリへのアクセス制限という厳しい制約の中で開発を進める必要があります。\n* **大型資金調達も計画**: 同社は事業拡大のため、評価額520億〜590億ドル規模で70億ドルの資金調達を行う予定です。",
+    "url": "https://the-decoder.com/deepseek-is-designing-its-own-ai-chip/"
+  },
+  {
+    "id": "3973de0e-c1c5-8140-a72c-e17c9d2888ef",
+    "title": "OpenAI and Anthropic are giving away millions in computing power to attract startups",
+    "site": "THE DECODER",
+    "published": "2026-07-07T10:44:35.000Z",
+    "fetched": "2026-07-08T00:03:00.000Z",
+    "summary": "### OpenAIとAnthropicがスタートアップ獲得のために巨額のコンピューティングリソースを無償提供\n\n* **熾烈な顧客獲得競争**\n  OpenAIやAnthropic、主要クラウド事業者は、自社のエコシステムにスタートアップを囲い込むため、数百万ドル規模のコンピューティングクレジットを無償提供する争奪戦を繰り広げている。\n* **投資額に匹敵する支援**\n  一部のスタートアップには、総額300万ドル（約4.8億円）を超えるクレジットが提示されるケースもあり、これは米国の平均的なシードラウンドの調達額に匹敵する規模である。\n* **狙われる有望企業**\n  特に著名なアクセラレーター「Y Combinator」の採択企業などはターゲットとされており、1社あたり50万ドル相当のクレジットが提供されるなど、非常に手厚い優遇がなされている。\n* **市場の囲い込み戦略**\n  各社が早期から自社のモデルやクラウド基盤へスタートアップを誘い込むことで、将来的に他社へ乗り換えられない「粘着性（スティッキネス）」の高い顧客基盤の構築を目指している。\n* **利益率改善とのジレンマ**\n  将来のIPO（新規株式公開）を見据えて利益率の向上が求められている状況下においても、安価でオープンな競合モデルの台頭に対抗するため、この過激な値引き競争は激化している。",
+    "url": "https://the-decoder.com/openai-and-anthropic-are-giving-away-millions-in-computing-power-to-attract-startups/"
+  },
+  {
+    "id": "3973de0e-c1c5-81a5-b205-e86c2c4b2e3b",
+    "title": "Apollo economist warns AI profit gains outside tech could take \"well beyond\" what Wall Street expects",
+    "site": "THE DECODER",
+    "published": "2026-07-07T10:28:57.000Z",
+    "fetched": "2026-07-08T00:03:18.000Z",
+    "summary": "### Apolloのチーフエコノミストが警告：AIによる収益向上は市場の期待より大幅に遅れる可能性\n\n* **テック企業以外のAI効果は不透明**\n  現在、S&P 500から大手テック7社を除いた企業（S&P 493）の株価は、AIによる利益率の向上が前提となっていますが、現時点では非テック分野においてAIが利益を押し上げている兆候は見られません。\n* **規制とプロセスが導入を遅らせる**\n  ヘルスケア、金融、製造、エネルギー、製薬などの規制が厳しい業界では、業務プロセスの刷新やプライバシー要件への対応が必要であり、市場が予想するよりも生産性の向上には長期間（数年単位）を要する可能性があります。\n* **株式の「再評価」リスク**\n  市場は急速な収益成長を織り込んで株価を形成していますが、実際のキャッシュフローの増加がそれに追いつかなければ、多くのAI関連銘柄が大幅な価格調整（株価下落）に直面するリスクがあります。\n* **生産性向上の測定難易度**\n  ナレッジワーク（知的労働）においては、個人の生産性が向上しても明確な指標で測定しにくいため、企業が利益として計上しづらく、単に日常業務に吸収されてしまうという課題があります。\n* **収益源への懸念**\n  AIモデルの推論コスト（トークンコスト）が下落し続けることは、AIインフラを提供するハイパースケーラー（大手クラウド事業者）の収益を抑制する要因にもなり得ます。",
+    "url": "https://the-decoder.com/apollo-economist-warns-ai-profit-gains-outside-tech-could-take-well-beyond-what-wall-street-expects/"
+  },
+  {
+    "id": "3973de0e-c1c5-811c-a924-c799ff308bb9",
+    "title": "sqlite-utils 4.0, now with database schema migrations",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-07T19:32:57.000Z",
+    "fetched": "2026-07-08T00:03:35.000Z",
+    "summary": "### sqlite-utils 4.0のリリース：データベーススキーマ移行機能の導入\n\n* **待望のメジャーアップデート**: 約5年半ぶりとなるメジャーバージョン「sqlite-utils 4.0」がリリースされ、スキーマ移行（マイグレーション）などの主要機能が追加されました。\n* **強力なマイグレーション機能**: Pythonファイル上で一連のスキーマ変更を定義し、適用状況を自動管理できる仕組みが導入されました。\n* **柔軟なテーブル変換**: SQLite標準の`ALTER TABLE`では対応できない変更も、`table.transform()`メソッドにより、新しいスキーマの作成・データ移行・古いテーブルの置き換えを安全に行えます。\n* **その他の主要強化**: ネストされたトランザクションを処理できる`db.atomic()`メソッドの追加や、複合外部キーへのサポートが実現しました。\n* **破壊的変更の注意**: 本バージョンでは一部の仕様変更（Breaking Changes）が含まれているため、導入時には公式のアップグレードガイドを確認する必要があります。",
+    "url": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-tag"
+  },
+  {
+    "id": "3973de0e-c1c5-8198-a2e9-d67a8808cffe",
+    "title": "From Hugging Face to Amazon SageMaker Studio in one click",
+    "site": "Hugging Face Blog",
+    "published": "2026-07-07T21:15:33.000Z",
+    "fetched": "2026-07-08T00:03:53.000Z",
+    "summary": "# Hugging FaceからAmazon SageMaker Studioへワンクリックで連携可能に\n\n* **ワンクリックで環境構築へ移行可能**: Hugging Faceのモデルページから「SageMaker AIでカスタマイズ」または「デプロイ」を選択するだけで、設定済みのSageMaker Studio環境へ直接ジャンプできるようになりました。\n* **開発フローの迅速化**: 従来必要だった手動でのAWSコンソール操作、ドメイン作成、IAM権限設定などの煩雑なステップが自動化され、モデル発見から実験開始までの時間を大幅に短縮します。\n* **シームレスなモデルの引き継ぎ**: 選択したモデルの情報がコンテキストとして保持された状態でStudioが起動するため、環境構築後のモデル読み込み作業が不要です。\n* **エンタープライズ対応の利便性**: 権限の事前設定やGPUクォータの可視化が統合されており、安全かつ即座にエンタープライズ環境での開発・運用を開始できます。",
+    "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio"
+  },
+  {
+    "id": "3973de0e-c1c5-81e4-a540-cf7c74ad0a8c",
+    "title": "Hugging Face Models on Foundry Managed Compute",
+    "site": "Hugging Face Blog",
+    "published": "2026-07-07T15:20:06.000Z",
+    "fetched": "2026-07-08T00:04:11.000Z",
+    "summary": "# Microsoft FoundryにおけるHugging Faceモデルの管理・運用について\n\n* **Hugging Faceモデルの統合**: Microsoft FoundryでHugging Faceのオープンウェイトモデルが利用可能になり、Azure上で事前に準備されたモデルをワンクリックでデプロイ可能です。\n* **エンタープライズ品質の提供**: Hugging Faceの各モデルは、Microsoftによるセキュリティスキャン、ガバナンス、監視、請求管理が統合されており、企業レベルでの運用が保証されます。\n* **プラットフォームの包括的な機能**: 「Foundry Managed Compute」により、GPUインフラの管理から、Agent Serviceによるマルチエージェント連携、データグラウンディング、AIの品質改善までを一貫して実施できます。\n* **高度な開発環境と安全性**: コンテンツフィルタリングやAIレッドチーミングによる安全性確保、Python・C#・JavaScriptなど複数言語対応のSDKなど、開発者がエージェントを構築するための充実したツール群が提供されます。\n* **柔軟なデプロイメント**: ペイパートークン（従量課金）やプロビジョニング済みスループットに加え、GPUベースのマネージドコンピューティングが利用可能となり、ワークロードに応じた最適なモデル実行環境を選択できます。",
+    "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute"
+  },
+  {
+    "id": "3973de0e-c1c5-8111-b642-f51c47a18a67",
+    "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+    "site": "Hugging Face Blog",
+    "published": "2026-07-07T00:00:00.000Z",
+    "fetched": "2026-07-08T00:04:29.000Z",
+    "summary": "# タイトル：SkyPilotがHugging Face Storageに対応：クラウドを問わないAI開発とエグレス料金の無料化を実現\n\n**重要なポイント：**\n\n* **クラウド間のデータ転送コストをゼロに：** Hugging Face StorageがSkyPilotのバックエンドとして正式対応しました。これにより、どのクラウド上のGPUを使用しても、Hugging Face上のモデルやデータセットを直接マウントでき、高額なデータ転送（エグレス）料金が発生しません。\n* **「hf://」で簡単に統合：** 既存のHugging Faceトークンを使用し、`hf://`というURLを指定するだけで、モデルやデータセットをSkyPilotのジョブへ読み取り専用（またはBucketsなら読み書き）としてマウント可能です。\n* **GPUリソースの柔軟な活用：** SkyPilotの特長である「20以上のクラウド、Kubernetes、オンプレミスなど、空いているリソースを自動選定する機能」を活かしつつ、データの場所を気にすることなく最適なGPUを選択できます。\n* **Xetによる効率的なデータ管理：** ストレージにはXet技術が採用されており、モデルのチェックポイントやバリエーションなど、変更があった差分データのみを保存・転送するため、効率的な運用が可能です。",
+    "url": "https://huggingface.co/blog/skypilot-hf-storage"
+  },
+  {
+    "id": "3973de0e-c1c5-8107-b14f-eb4e5d11989b",
+    "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+    "site": "Hugging Face Blog",
+    "published": "2026-07-07T00:00:00.000Z",
+    "fetched": "2026-07-08T00:04:47.000Z",
+    "summary": "# LeRobot v0.6.0：次世代ロボット学習に向けた進化\n\n* **「未来を想像する」世界モデルの実装**: VLA-JEPAやFastWAMなど、行動前に将来の結果を予測する世界モデルを導入し、ロボットの意思決定能力を向上させました。\n* **新たなVLAモデルと報酬モデルの追加**: GR00T N1.7やMolmoAct2といった最新のVLA（視覚言語行動）モデルや、ロボットの成功を判定する「Robometer」等の報酬モデルAPIを拡充しました。\n* **評価と展開の効率化**: 新CLI「lerobot-eval」によるベンチマーク評価の統一と、人間が介入して失敗をデータ化する「lerobot-rollout」の提供で、学習ループの高速化を実現しました。\n* **データセット基盤の強化**: 深度センサーのサポートやデータ読み込み速度の最大2倍向上、AIによる自動言語アノテーション機能の追加により、高品質なデータ作成が容易になりました。\n* **開発環境の利便性向上**: FSDPによる大規模モデル学習やHugging Face Jobsでのクラウド学習に対応し、インストール環境もより軽量化されました。",
+    "url": "https://huggingface.co/blog/lerobot-release-v060"
+  },
+  {
+    "id": "3973de0e-c1c5-8180-9976-e48b35644374",
+    "title": "Beijing IS NOT looking at curbing overseas access to China's top AI models (Debunking the Reuters report)",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-07T13:57:36.000Z",
+    "fetched": "2026-07-08T00:05:07.000Z",
+    "summary": "# タイトル：中国がAIモデルの海外アクセス制限を検討しているという報道の否定\n\n*   中国政府が国内の主要AIモデルへの海外からのアクセスを制限しようとしているというロイターの報道は事実ではない。\n*   関係者によると、中国当局がそのような措置を計画・検討しているという証拠は確認されていない。\n*   この報道は、中国のAI開発エコシステムに対する根拠のない懸念を煽る可能性があるとして否定的な見方が広がっている。\n*   中国は現在、自国のAI技術を世界的に推進する方針をとっており、制限を設けることはこの戦略に反する。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upvw37/beijing_is_not_looking_at_curbing_overseas_access/"
+  },
+  {
+    "id": "3973de0e-c1c5-817a-ba8b-cab3fa342d69",
+    "title": "Beijing is looking at curbing overseas access to China's top AI models (Reuters)",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-07T10:56:27.000Z",
+    "fetched": "2026-07-08T00:05:27.000Z",
+    "summary": "タイトル：中国政府、国内トップAIモデルの海外からのアクセス制限を検討\n\n*   **規制の動き**：中国当局が、自国の主要なAIモデルを海外ユーザーが利用することを制限する措置を検討している。\n*   **国家安全保障が目的**：AI技術が他国の開発競争や安全保障に利用されるリスクを懸念し、技術流出を防ぐ意図がある。\n*   **対象範囲**：アリババ、百度（Baidu）、バイトダンスなどの大手テック企業が提供する最先端のAIモデルが対象となる可能性がある。\n*   **産業への影響**：規制が実施されれば、海外のスタートアップや開発者が中国の強力なAIツールを利用できなくなり、AI開発のエコシステムに分断が生じる恐れがある。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uprmso/beijing_is_looking_at_curbing_overseas_access_to/"
+  },
+  {
+    "id": "3973de0e-c1c5-81d7-b7df-f832379ab546",
+    "title": "I tested Anthropic’s new Jacobian Lens on open models, then it turned into a local-model hallucination router",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-07T15:15:59.000Z",
+    "fetched": "2026-07-08T00:05:47.000Z",
+    "summary": "# タイトル：Anthropicの「Jacobian Lens」をオープンモデルで検証：幻覚を検知するローカルルーターへの転用\n\n*   **結論：** Anthropicが公開した「Jacobian Lens（モデルの内部状態から幻覚を検知する技術）」をオープンソースモデルに応用したところ、ローカル環境で高精度に幻覚を判別・制御する「幻覚ルーター」として機能することが判明した。\n*   **技術の仕組み：** Jacobian Lensは、モデルの出力に対する「勾配（Jacobian）」を分析することで、その回答が事実に基づいているか、あるいは根拠のない作り話（幻覚）かを数値化・特定する手法。\n*   **ローカル環境での活用：** 本来はプロプライエタリなモデル向けの手法だが、オープンモデル（Llama 3等）に適用することで、外部APIに頼らずローカル環境だけで、回答の信頼性をリアルタイムに監視できるようになった。\n*   **実用上の利点：** この手法をルーターとして活用すれば、モデルが幻覚を起こしそうな際に、自動的に別の回答を生成させる、あるいは警告を出すといった「ガードレール」を効率的に構築可能である。\n*   **今後の展望：** モデルのブラックボックス性を解消し、外部ツールなしで信頼性を向上させる手段として、ローカルLLM運用における重要なセキュリティ・品質管理技術になる可能性がある。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upy31x/i_tested_anthropics_new_jacobian_lens_on_open/"
+  },
+  {
+    "id": "3973de0e-c1c5-81f8-bd8c-fac9066e154c",
+    "title": "Qwen 3.6 27B absolutely fails at agentic work",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-07T02:24:42.000Z",
+    "fetched": "2026-07-08T00:06:05.000Z",
+    "summary": "# Qwen 3.6 27Bがエージェントタスクで期待を裏切った理由\n\n*   **エージェント性能の著しい欠如**：Qwen 3.6 27Bは、ツール使用や複雑な推論を伴うエージェント的なタスクにおいて、致命的な失敗を繰り返す。\n*   **指示追従能力の低下**：モデルがプロンプトで与えられた制約や構造化された出力形式を守れず、期待されるワークフローを完遂できない。\n*   **ハルシネーションと論理破綻**：タスク遂行の過程で誤った情報を生成したり、ステップ間の論理が崩壊するケースが多発する。\n*   **実用性の低さ**：自動化や自律的なエージェント構築を目的とした利用には不向きであり、現状では信頼性に欠ける。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uphzhj/qwen_36_27b_absolutely_fails_at_agentic_work/"
+  },
+  {
+    "id": "3973de0e-c1c5-813e-bf40-f34edf496f10",
+    "title": "nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16 · Hugging Face",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-07T11:32:56.000Z",
+    "fetched": "2026-07-08T00:06:24.000Z",
+    "summary": "# NVIDIA Nemotron-3-75B-Base: 科学・技術研究向けの次世代大規模言語モデル\n\n* **高性能なベースモデル**: NVIDIAが公開したパラメータ数750億の大規模言語モデル（LLM）であり、複雑な推論や高度なタスクに対応可能な高い処理能力を持つ。\n* **技術研究への特化**: 主に自然言語処理やAIモデルの性能評価、研究開発を目的として設計されており、Hugging Face上で公開されている。\n* **学習効率と精度の追求**: BF16（Bfloat16）フォーマットを採用しており、高い計算精度を維持しつつ、学習と推論の安定性を両立させている。\n* **オープンかつ柔軟な活用**: 開発者や研究者が自身のプロジェクトやアプリケーションに組み込みやすいよう、オープンなモデル形式で提供されている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upsdmi/nvidianvidianemotronlabs3puzzle75ba9bbf16_hugging/"
+  },
+  {
+    "id": "3973de0e-c1c5-8134-80bc-ebc13613dd34",
+    "title": "v0.31.2",
+    "site": "Ollama Blog",
+    "published": "2026-07-07T23:03:07.000Z",
+    "fetched": "2026-07-08T00:06:42.000Z",
+    "summary": "# Ollama v0.31.2 リリース情報\n\n*   **マイナーアップデートのリリース:** Ollamaの最新バージョン「v0.31.2」が公開されました。\n*   **不具合修正と安定性向上:** 本リリースは主にシステムの安定性向上およびバグ修正を目的とした更新です。\n*   **GitHubでの公開:** インストーラーや詳細な変更履歴（チェンジログ）は、GitHubのOllamaリポジトリのReleaseページから確認・ダウンロード可能です。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc2"
+  }
+]

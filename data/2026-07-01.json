@@ -1,0 +1,128 @@
+[
+  {
+    "id": "3913de0e-c1c5-8189-8a83-dbee02b8144a",
+    "title": "SpaceX shows investors a slim AI smartphone prototype powered by xAI technology",
+    "site": "THE DECODER",
+    "published": "2026-07-01T19:47:31.000Z",
+    "fetched": "2026-07-02T00:00:37.000Z",
+    "summary": "### SpaceXがxAI技術を搭載した薄型AIスマートフォンを試作\n\n*   **独自デバイスの開発:** SpaceXが、xAIの技術を統合した、iPhoneよりも薄いAIスマートフォン型の試作機を投資家向けに公開しました。\n*   **技術仕様とOS:** このデバイスは独自OSで動作し、QualcommのSnapdragonチップを搭載する設計となっています。\n*   **開発の狙い:** イーロン・マスク氏は、AppleやGoogleのプラットフォームへの依存を脱却し、WeChatのような「何でもできるアプリ（エブリシング・アプリ）」を実現することを目指しています。\n*   **現状:** プロジェクトはまだ初期段階であり、実際に製品化されるかどうかは現時点で未定です。\n*   **競合の動向:** OpenAIもAIエージェントが操作を代行するスマートフォンのほか、ピン型やスピーカー型など多様なAIデバイスの開発を進めています。",
+    "url": "https://the-decoder.com/spacex-shows-investors-a-slim-ai-smartphone-prototype-powered-by-xai-technology/"
+  },
+  {
+    "id": "3913de0e-c1c5-8101-9a20-fcd43c2c0800",
+    "title": "Meta follows SpaceX's playbook and builds a cloud business to sell its spare AI compute to outside customers",
+    "site": "THE DECODER",
+    "published": "2026-07-01T16:00:43.000Z",
+    "fetched": "2026-07-02T00:00:58.000Z",
+    "summary": "### Metaが余剰AI計算リソースを外部販売するクラウド事業へ参入\n\n* **クラウド事業への転換**: Metaは、自社で保有する膨大なNVIDIA製GPUなどのAI計算リソースのうち、余剰分を外部企業に貸し出すクラウド事業を開始する。\n* **SpaceXの手法を模倣**: この戦略は、自社のAIモデル開発用として購入したGPUリソースを、他社（AnthropicやGoogleなど）に貸し出して収益化するSpaceXの成功モデルを踏襲している。\n* **巨額投資の回収**: Metaは今年だけでAIインフラに1,450億ドル規模の支出を計画しており、大規模な人員削減を行ってまで捻出した膨大な計算リソースのコストを、外部販売によって回収する狙いがある。\n* **市場の好反応**: ニュースを受けてMetaの株価は約10％上昇しており、市場はこの戦略を財務改善の好材料と捉えている。\n* **懸念の示唆**: 本来の目的である「自社AIモデルの強化」以上に、余剰リソースの販売が収益の柱として重視されている現状は、MetaのAI開発における勢いや優先順位の変化を示唆している可能性がある。",
+    "url": "https://the-decoder.com/meta-follows-spacexs-playbook-and-builds-a-cloud-business-to-sell-its-spare-ai-compute-to-outside-customers/"
+  },
+  {
+    "id": "3913de0e-c1c5-81f3-9af6-d43ed2eccd37",
+    "title": "Meta's non-invasive brain-to-text AI is closing the gap with surgical implants",
+    "site": "THE DECODER",
+    "published": "2026-07-01T15:34:09.000Z",
+    "fetched": "2026-07-02T00:01:16.000Z",
+    "summary": "### Metaの非侵襲型ブレイン・コンピュータ・インターフェースが外科的インプラントに肉薄\n\n* **非侵襲で思考をテキスト化するAIの進化**：MetaのFAIRチームが開発した「Brain2Qwerty v2」は、頭蓋骨を開く手術を必要とせず、脳の磁気活動（MEG）を読み取るだけで文章を再構築することに成功しました。\n* **精度の飛躍的な向上**：従来モデルから改良を重ね、単語誤り率（WER）は平均39％、優秀な参加者では22％まで改善しており、外科的インプラントに迫る性能を示しています。\n* **リアルタイム利用への前進**：従来は各キーストロークのタイミング情報が必要でしたが、新モデルでは不要となり、連続的な脳信号から直接文字を生成できるようになりました。\n* **大規模データによる学習**：前モデルと比較して10倍以上のデータを用いて学習することで、外部からの補助なしに脳信号とテキストを照合する高度な処理を実現しました。\n* **医療応用への期待**：脳損傷などにより発話や身体の自由を失った人々のための、安全かつ実用的なコミュニケーション手段としての活用が期待されています。",
+    "url": "https://the-decoder.com/metas-non-invasive-brain-to-text-ai-is-closing-the-gap-with-surgical-implants/"
+  },
+  {
+    "id": "3913de0e-c1c5-81f2-9a55-dd7c5f1c5738",
+    "title": "Hidden code in Claude Code secretly flagged Chinese users",
+    "site": "THE DECODER",
+    "published": "2026-07-01T11:27:06.000Z",
+    "fetched": "2026-07-02T00:01:33.000Z",
+    "summary": "### Anthropicのコーディングツール「Claude Code」に隠し機能、中国関連ユーザーを秘密裏に識別\n\n* **秘密裏の識別機能:** 「Claude Code」に、ユーザーが中国にいるか、中国のプロキシやAIラボ経由で接続しているかを密かに判定する機能が実装されていたことが発覚した。\n* **巧妙なデータ転送:** 判定結果をシステムプロンプト内の特殊文字（アポストロフィの種類など）に埋め込む「ステガノグラフィ」という手法を用いて、Anthropic側へ密かに情報を送信していた。\n* **コードの難読化:** この挙動はリリースノートに記載されておらず、さらにXOR暗号で難読化されていたため、通常のテキスト解析では発見困難な状態だった。\n* **セキュリティと信頼性の問題:** ファイルシステムやシェルへのアクセス権を持つツールにおいて、ユーザーに無断で外部へデータを送信する仕組みは、信頼を損なう行為であり、悪用リスクも懸念されている。\n* **Anthropicの対応:** 批判を受け、Anthropicのエンジニアは当該機能を「アカウントの不正利用防止を目的とした実験だった」と説明し、撤回する意向を示している。",
+    "url": "https://the-decoder.com/hidden-code-in-claude-code-secretly-flagged-chinese-users/"
+  },
+  {
+    "id": "3913de0e-c1c5-81db-8dca-d9caafb88b00",
+    "title": "Claude Sonnet 5 continues Anthropic's pattern of hiding price increases behind unchanged token rates",
+    "site": "THE DECODER",
+    "published": "2026-07-01T11:12:09.000Z",
+    "fetched": "2026-07-02T00:01:54.000Z",
+    "summary": "### Claude 3.5 Sonnetは実質的な値上げか？トークン単価が変わらない裏側\n\n* **表面上の価格は据え置きだが、実質コストは大幅に上昇**\n  Claude 3.5 Sonnetのトークン単価自体は前モデルと変わりませんが、タスク遂行時のトークン消費量が激増しているため、1タスクあたりの実質的な利用コストは以前より高くなっています。\n* **上位モデルよりも高コストになるケースも**\n  AI評価機関「Artificial Analysis」の検証によると、Claude 3.5 Sonnetの平均的なタスクコストは2.29ドルとなり、より高額なプランであるOpus 4.8（1.97ドル）を上回る結果となりました。\n* **トークン消費量の増加が要因**\n  新モデルは「max」設定時に前モデル比で出力トークンを約40%多く消費し、エージェント型のタスクにおいては最大で約3倍のループを実行するため、結果としてトータルコストが倍増しています。\n* **ベンチマーク性能は向上しているものの注意が必要**\n  Claude 3.5 Sonnetは前モデルから大幅な性能向上を果たし、一部のエージェントタスクでは最上位モデルであるOpus 4.8を凌駕する性能を見せています。しかし、コスト効率の観点からは、単なる「安価なモデル」とは言えない状況です。",
+    "url": "https://the-decoder.com/claude-sonnet-5-continues-anthropics-pattern-of-hiding-price-increases-behind-unchanged-token-rates/"
+  },
+  {
+    "id": "3913de0e-c1c5-8162-ba42-e2a9052b8e13",
+    "title": "OpenAI's genomics paper accidentally reveals a Pro lineup it hasn't announced yet",
+    "site": "THE DECODER",
+    "published": "2026-07-01T10:03:41.000Z",
+    "fetched": "2026-07-02T00:02:12.000Z",
+    "summary": "**OpenAIの論文で未発表の「Pro」シリーズのラインナップが判明**\n\n* OpenAIが公開したゲノミクスに関する論文の中で、これまで単一モデルだった「GPT-5.6」のPro版に、新たに「Luna Pro」「Terra Pro」「Sol Pro」の3つのバリエーションが存在することが明らかになった。\n* 新たなPro版の導入により、ユーザーは目的や用途に応じて、処理速度重視、スループット（処理能力）重視、推論能力最大化の中から最適なモデルを選択できるようになる可能性がある。\n* 論文内のベンチマーク結果によると、「Sol Pro」は正解率31.5%を記録し、テストされた60モデルの中で最高性能を示した。\n* この3種類のProモデルが実際にChatGPTの有料プランとして提供されるかや、トークン消費などの詳細は現時点では不明である。",
+    "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy/"
+  },
+  {
+    "id": "3913de0e-c1c5-81db-b253-c060293b6499",
+    "title": "Anthropic's Fable 5 is back worldwide after a two-week government ban over a jailbreak",
+    "site": "THE DECODER",
+    "published": "2026-07-01T07:40:29.000Z",
+    "fetched": "2026-07-02T00:02:29.000Z",
+    "summary": "### Anthropic社のAIモデル「Fable 5」、政府の制裁解除により全世界で利用再開\n\n* **全世界での利用再開**\n  米国政府による2週間の輸出規制を経て、Anthropic社の高性能AIモデル「Fable 5」の全世界への提供が再開されました。\n* **規制の原因は「脱獄（ジェイルブレイク）」**\n  Amazonの研究者がFable 5の安全ガードレールを回避する手法を発見し、AIがソフトウェアの脆弱性やその悪用コードを生成できたことが、今回の規制の引き金となりました。\n* **新たな安全対策の導入**\n  再開にあたりAnthropic社は新たなフィルタリング機能を導入しましたが、副作用として無害なプログラミング作業まで過剰に拒否されるケースが増えています。\n* **上位モデル「Mythos 5」は限定提供**\n  Fable 5よりも制約が少ない上位モデル「Mythos 5」については、引き続き米国内の特定の組織のみに利用が限定されています。\n* **AIの安全性に対する見解**\n  Anthropic社は、AIモデルを完全に「脱獄不可能」にすることは「おそらく不可能」であるとの見解を示しており、今後も政府と協力しながらリスク管理を進めるとしています。",
+    "url": "https://the-decoder.com/anthropics-fable-5-is-back-worldwide-after-a-two-week-government-ban-over-a-jailbreak/"
+  },
+  {
+    "id": "3913de0e-c1c5-8166-941e-e808dc1b3533",
+    "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+    "site": "Hugging Face Blog",
+    "published": "2026-07-01T00:00:00.000Z",
+    "fetched": "2026-07-02T00:02:47.000Z",
+    "summary": "# Hugging FaceとCerebrasがGemma 4を用いたリアルタイム音声AIを発表\n\n*   **超高速な音声対話の実現**：Hugging FaceとCerebrasの提携により、AIの応答遅延を劇的に短縮し、人間同士のような自然で流暢な会話が可能な音声AIを実現した。\n*   **オープンでモジュール型のシステム**：特定の技術に依存せず、各工程（音声認識、言語モデル、音声合成）を自由にカスタマイズ・置き換え可能な設計を採用している。\n*   **最新技術の統合**：Nvidiaの「Parakeet」（音声認識）、Googleの「Gemma 4 31B」（言語モデル）、Alibabaの「Qwen3TTS」（音声合成）を組み合わせた強力なパイプラインを構築。\n*   **推論ボトルネックの解消**：Cerebrasの高速かつ安定した推論エンジンを活用することで、従来のAIで課題となっていた「稀に発生する大幅な遅延」を抑え、安定したレスポンスを確保した。\n*   **実用的な開発環境の提供**：このアーキテクチャは、ロボットやAIアシスタントなどの実社会での応用を見据えており、開発者が自由に拡張・改良できるよう公開されている。",
+    "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai"
+  },
+  {
+    "id": "3913de0e-c1c5-81c1-baed-dea44f768f1e",
+    "title": "The gap between closed and open models might be much smaller than commonly assumed, because we don’t know what closed model providers do *in addition to* model inference",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-01T15:35:24.000Z",
+    "fetched": "2026-07-02T00:03:05.000Z",
+    "summary": "# クローズドモデルとオープンモデルの性能差は、想定よりも小さい可能性がある\n\n* **隠れた工夫の存在:** クローズドモデルの性能は単なるモデル自体の能力だけでなく、推論前後の処理（プロンプトエンジニアリング、検索拡張生成、推論の多段化など）という「付加的な技術」に大きく依存している。\n* **評価の不公平性:** オープンモデルを評価する際、クローズドモデルで日常的に行われているような高度なパイプライン処理と比較していないため、純粋なモデル性能の差が過大評価されている可能性がある。\n* **技術のブラックボックス化:** クローズドモデルの提供者は、推論プロセスにどのようなエンジニアリングを組み込んでいるかを公開していないため、ユーザーはモデル本来の能力と付加機能の成果を区別できない。\n* **オープンモデルの追い上げ:** オープンモデル側も同様の推論パイプラインや最適化技術を適用すれば、現状のクローズドモデルと遜色のないパフォーマンスを発揮できる余地がある。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukp2bu/the_gap_between_closed_and_open_models_might_be/"
+  },
+  {
+    "id": "3913de0e-c1c5-81cd-8999-e723ef0ff597",
+    "title": "Couldn't hold back",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-01T16:34:51.000Z",
+    "fetched": "2026-07-02T00:03:22.000Z",
+    "summary": "申し訳ございませんが、ご提示いただいた「本文」の内容が空欄となっております。\n\n要約を作成するために、対象となる記事の本文を貼り付けていただけますでしょうか。本文をご提供いただければ、すぐにルールに従って要約いたします。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukqp20/couldnt_hold_back/"
+  },
+  {
+    "id": "3913de0e-c1c5-8188-92b9-ffe31e3230b9",
+    "title": "[audio.cpp] VibeVoice 1.5B released — 90-min podcast in 22.95 min, 4.08x real-time, 2.86x faster than Python without quantization. Native C++/ggml",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-01T01:15:48.000Z",
+    "fetched": "2026-07-02T00:03:39.000Z",
+    "summary": "# タイトル：VibeVoice 1.5Bリリース：量子化なしでPython版より2.86倍高速なC++/ggml実装\n\n*   **驚異的な高速化**: 90分のポッドキャスト音声を22.95分で処理する4.08倍のリアルタイム性能を実現。\n*   **ネイティブ実装**: Pythonを使用せず、C++/ggmlで直接実装することで、量子化なしでも高いパフォーマンスを発揮。\n*   **効率的な実行環境**: Python版と比較して2.86倍の高速化を達成し、計算リソースの効率的な活用が可能。\n*   **実用性の高さ**: 長時間の音声データも短時間で処理できるため、実運用における高い生産性を備えている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uk7khq/audiocpp_vibevoice_15b_released_90min_podcast_in/"
+  },
+  {
+    "id": "3913de0e-c1c5-81f0-b793-e4d9328e4c13",
+    "title": "Non Us Ally should be afraid.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-01T12:57:56.000Z",
+    "fetched": "2026-07-02T00:03:56.000Z",
+    "summary": "# タイトル：米国非同盟国が抱える安全保障上の懸念\n\n- 米国との同盟関係にない国々は、国際情勢の不安定化に伴い、独自の防衛体制の強化を迫られている。\n- 米国の「自国第一主義」への回帰や内向きな政治姿勢は、同盟関係を持たない国々にとって地域の安全保障における不確実性を高める要因となっている。\n- ウクライナや中東での紛争といった世界的なリスクに対し、米国の介入が限定的になる可能性があり、非同盟国は孤立のリスクを考慮する必要がある。\n- 今後、非同盟国は地域内での独自協力の拡大や、軍事的な自立に向けた戦略的再構築が求められる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukkz9a/non_us_ally_should_be_afraid/"
+  },
+  {
+    "id": "3913de0e-c1c5-8111-a477-e54aea72d66b",
+    "title": "I extended Gemma4-31B to 44B (88 layers) — since Google won't give us anything bigger than 31B",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-01T22:35:11.000Z",
+    "fetched": "2026-07-02T00:04:14.000Z",
+    "summary": "# タイトル：Google公式を超える44Bモデルへの拡張：Gemma-27Bを88層へスケールアップ\n\n*   **Google未提供の大型モデルを独自構築**：Googleが公式リリースしているGemma-2-27Bをベースに、層を積み重ねることでパラメータ数を44Bまで引き上げたモデルを開発。\n*   **「Depth Upscaling」手法の採用**：モデルの既存の重みを複製してスタックする「Depth Upscaling（深層拡張）」という手法を用い、効率的にモデルサイズを拡大。\n*   **推論能力の向上と検証**：層を増やすことでモデルの表現力が高まり、推論や複雑なタスクにおける性能向上が見込まれることを実証。\n*   **メモリとパフォーマンスのトレードオフ**：44Bへの拡張により、推論時の計算コストやVRAM消費量は増大するものの、単一GPU環境等での実行可能な限界に近い性能を追求。\n*   **オープンソースコミュニティへの貢献**：Googleが提供しない大型モデルを個人レベルで構築することで、既存モデルの拡張可能性と限界をコミュニティに提示。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ul0cx9/i_extended_gemma431b_to_44b_88_layers_since/"
+  },
+  {
+    "id": "3913de0e-c1c5-8192-b515-fca632fa6c1c",
+    "title": "v0.31.1",
+    "site": "Ollama Blog",
+    "published": "2026-07-01T00:25:40.000Z",
+    "fetched": "2026-07-02T00:04:31.000Z",
+    "summary": "### Ollama v0.31.1 リリース\n\n* **最新版の公開**: Ollamaのバージョンv0.31.1がリリースされました。\n* **GitHubでの配信**: 詳細はGitHubの公式リポジトリから確認・ダウンロードが可能です。\n* **主な改善**: バグ修正やパフォーマンスの最適化など、安定性の向上が行われています。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.31.1"
+  }
+]

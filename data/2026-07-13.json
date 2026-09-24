@@ -1,0 +1,110 @@
+[
+  {
+    "id": "39d3de0e-c1c5-813f-a79e-f80274939868",
+    "title": "Nadella calls out AI labs like OpenAI and Anthropic for banning distillation while training on everyone else's data",
+    "site": "THE DECODER",
+    "published": "2026-07-13T14:28:50.000Z",
+    "fetched": "2026-07-14T02:30:41.000Z",
+    "summary": "タイトル：サティア・ナデラ氏、AI企業による「蒸溜（ディスティレーション）禁止とデータ学習」の矛盾を批判\n\nMicrosoftのサティア・ナデラCEOは、OpenAIやAnthropicといった主要なAI企業が、他者のデータを学習に利用しながら「モデルの蒸溜（Distillation）」を規約で禁止している現状に対し、強烈な皮肉の意を込めて批判しました。\n\n* **「蒸留」とデータ収集の矛盾**: AI提供者は、小型モデルが大型モデルの出力を学んで性能を模倣するプロセスを制限していますが、一方で自社は「フェアユーズ（公正利用）」を盾に公的なデータや顧客との対話内容から学習を行っています。\n* **「逆の情報パラドックス」の指摘**: ナデラ氏はこの状況を「逆の情報パラドックス」と呼びました。企業は金銭だけでなく、修正内容や評価といった独自の知識を含む「排気（exhaust）」までも提供しており、結果としてAI側が競合製品を作るための糧にしていると批判しています。\n* **価値の不均衡な集中**: この構造により、本来の知見を生み出した側ではなく、インフラを提供するプラットフォーム運営側に経済的な価値が集中してしまう懸念を指摘しました。\n* **独自学習環境への需要**: ナデラ氏は、自社の情報を保護しながら独自のラーニングループを構築したい企業に対し、Microsoftのインフラがその解決策となり得ることを示唆しています。",
+    "url": "https://the-decoder.com/nadella-calls-out-ai-labs-like-openai-and-anthropic-for-banning-distillation-while-training-on-everyone-elses-data/"
+  },
+  {
+    "id": "39d3de0e-c1c5-813d-b1b7-ddc04e9147e2",
+    "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
+    "site": "THE DECODER",
+    "published": "2026-07-13T11:41:01.000Z",
+    "fetched": "2026-07-14T02:32:45.000Z",
+    "summary": "タイトル：ドイツのAIコンソーシアムが、英語・ドイツ語の両方でベンチマークを上回る30Bモデル「Soofi S」を発表\n\n【要約】\nドイツの研究コンソーシアムが、高度な多言語対応と効率的なアーキテクチャを兼ね備えた新世代のオープンソース言語モデル「Soofi S（30B）」を公開しました。このモデルは特にドイツ語に強みを持たせつつ、英語やプログラミングなどの分野でも既存の主要なオープンモデルを上回る性能を実現しています。\n\n*   **優れた多言語ベンチマーク性能**: ドイツ語に重点を置いた学習データと独自のハイブリッド構造により、Olmo 3やApertusといった競合する大規模なオープンモデルよりも高い評価を獲得しました。\n*   **効率的なMoE（混合エキスパート）構造**: 総パラメータ数は約31.6Bですが、生成時にアクティブになるのはわずか約3.2Bです。これにより、計算コストを抑えながら高速な処理を実現しています。\n*   **長文入力への耐性**: MambaとTransformerを組み合わせたハイブリッドアーキテクチャを採用しているため、非常に長いコンテキストを入力しても処理速度（スループット）が低下しないのが特徴です。\n*   **国内インフラを活用した開発**: ドイツ・テレコムの「Industrial AI Cloud」上でトレーニングが行われ、堅牢な技術基盤のもとで開発されました。",
+    "url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/"
+  },
+  {
+    "id": "39d3de0e-c1c5-8123-b062-d96a9875f4ba",
+    "title": "Google’s SensorFM turns messy wearable sensor data into a general-purpose health intelligence layer",
+    "site": "THE DECODER",
+    "published": "2026-07-13T09:16:48.000Z",
+    "fetched": "2026-07-14T02:34:21.000Z",
+    "summary": "タイトル：Googleがウェアラブル機器のデータを統合解析する基礎モデル「SensorFM」を発表\n\n・Google Researchは、500万人分のウェアラブルデバイスから得られた1兆分以上の未ラベルデータを学習し、生理的・行動的なパターンを汎用的に捉える基盤モデル「SensorFM」を発表した。\n・従来の「睡眠」「ストレス」「心血管リスク」など個別の目的ごとに構築されていた断片的な解析手法を統合し、ノイズや欠落の多い生データから多角的な健康課題を一元的に処理できる共通基盤を提供する。\n・実験の結果、35のヘルス・行動タスクのうち34において、特定の機能に特化した既存モデルを上回る性能を記録した。\n・膨大な未ラベルデータを活用することで、高度な学習データ作成（アノテーション）のためのコストを削減しつつ、より質の高い健康情報の要約が可能になる。\n・この技術は将来的に、ユーザー一人ひとりの状況に合わせたパーソナライズな情報を提供する「AIヘルスアシスタント」の基盤として活用されることが期待されている。",
+    "url": "https://the-decoder.com/sensorfm/"
+  },
+  {
+    "id": "39d3de0e-c1c5-81ed-8f2c-f43e2d9087c0",
+    "title": "Anthropic extends free Fable 5 access for subscribers as OpenAI's GPT-5.6 Sol heats up the pricing war",
+    "site": "THE DECODER",
+    "published": "2026-07-13T07:54:34.000Z",
+    "fetched": "2026-07-14T02:36:35.000Z",
+    "summary": "タイトル：Anthropic、競合への対抗策として「Fable 5」の無料提供期間を延長\n\n・**Claude Fable 5の無料利用期間の延長**：本来は本日より従量課金へ移行する予定だった高性能モデル「Claude Fable 5」について、Anthropicはサブスクリプション会員に対し、2026年7月19日まで追加費用なしで提供を継続することを発表しました。\n・**利用枠と条件の維持**：ユーザーは週の利用制限のうち最大50%をFable 5に充てることができ、期間終了後は従量課金への移行または別モデルへの切り替えが必要となります。また、同期間まで「Claude Code」の利用枠も50％ブーストされます。\n・**価格競争への戦略的対応**：この延長はOpenAIの「GPT-5.6 Sol」が標準的なサブスクリプションに含まれ、安価で効率的な提供が行われていることへの対抗策と見られます。\n・**競合他社とのシェア争い**：Anthropicは、低価格帯の競合モデル（GLM 5.2、Spark 1.1、Grok 4.5など）が勢力を伸ばす中で、主力モデルだけで競争を維持することが困難な状況にあるため、今回の決定に至ったと分析されています。",
+    "url": "https://the-decoder.com/anthropic-extends-free-fable-5-access-for-subscribers-as-openais-gpt-5-6-sol-heats-up-the-pricing-war/"
+  },
+  {
+    "id": "39d3de0e-c1c5-8171-a64f-dc99ebb19d84",
+    "title": "LinkedIn is the undisputed king of long-form AI slop, according to a study spanning five platforms",
+    "site": "THE DECODER",
+    "published": "2026-07-12T16:41:47.000Z",
+    "fetched": "2026-07-14T02:38:45.000Z",
+    "summary": "タイトル：LinkedInは長文AI生成コンテンツの最大な供給源として特定される\n\n・LinkedInは、調査対象となった5つのSNSプラットフォームの中で「AIによる長文投稿」が最も多い（王座）と判明した。\n・Pangram社の分析によると、250語以上の長文投稿のうちLinkedInでは41％がAI生成と判定され、他プラットフォームと比較しても非常に高い割合となっている。\n・調査対象の全投稿数においてLinkedInは3分の1を占めるのみだが、検出されたAIコンテンツの約3分の2をこのプラットフォームが占めている。\n・他のプラットフォームの数値と比較すると、X（旧Twitter）で約50％、Substackで約10％がAI生成とされ、Redditの返信は98％が人間によるものとされている。\n・AIコンテンツの急増を受け、LinkedIn自体もこの状況に圧迫感を感じており、AI生成投稿に対する規制を開始している。",
+    "url": "https://the-decoder.com/linkedin-is-the-undisputed-king-of-long-form-ai-slop-according-to-a-study-spanning-five-platforms/"
+  },
+  {
+    "id": "39d3de0e-c1c5-81e3-b612-fc24c44e065d",
+    "title": "Claude Code now has a built-in browser that lets the AI read, click, and type on external websites",
+    "site": "THE DECODER",
+    "published": "2026-07-12T15:02:06.000Z",
+    "fetched": "2026-07-14T02:40:01.000Z",
+    "summary": "タイトル：Claude Codeに外部サイトを操作・閲覧できる内蔵ブラウザ機能が追加\n\n・Anthropicは、Claude Codeに統合型ブラウザ機能を導入しました。これにより、AIはドキュメントサイトや課題トラッカーなどの外部ウェブサイトを直接開き、内容の読み取り、クリック、入力などの操作を行うことが可能になります。\n・安全性を確保するため、外部サイトでの書き込みアクションには分類器（Classifier）によるチェックが適用されます。ユーザーの同意なしに商品の購入、アカウント作成、CAPTCHAの回避などを行うことはありません。\n・ブラウザ機能はログイン情報が保存されていない「クリーンなプロファイル」で動作し、セキュリティとプライバシーを保護します。\n・組織管理者向けの管理機能として、ホワイトリストによるアクセス制限や、ブラウザツールの完全な無効化を選択できるオプションが提供されます。\n・ユーザーが自身のログインセッション内でClaudeに操作を行わせたい場合は、内蔵ブラウザではなく公式のChrome拡張機能を使用することが推奨されています。",
+    "url": "https://the-decoder.com/claude-code-now-has-a-built-in-browser-that-lets-the-ai-read-click-and-type-on-external-websites/"
+  },
+  {
+    "id": "39d3de0e-c1c5-810b-a281-c09622890471",
+    "title": "Directly Responsible Individuals (DRI)",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-12T23:57:14.000Z",
+    "fetched": "2026-07-14T02:42:00.000Z",
+    "summary": "タイトル：Directly Responsible Individuals (DRI) とAIエージェントの責任\n\n・LLM（大規模言語モデル）を活用したAIエージェントを組織に導入する際も、プロジェクトや活動の「直接責任者（DRI）」は常に人間であるべきです。\n・DRIとは、特定のプロジェクトやイニシアチブの成否に対して最終的な責任を負う個人のことを指します。この用語はApple社で生まれたもので、GitLabなどの組織でも採用されています。\n・AIエージェントには「責任を取る」という概念や能力がないため、機械に最終的な責任を委ねることは不適切です。責任の所在を明確にできるのは、人間の特権的な能力です。\n・この考え方は、1979年にIBMが示した「コンピュータは責任を問われないため、管理上の意思決定を行うべきではない」という過去の教訓とも一致しています。",
+    "url": "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-tag"
+  },
+  {
+    "id": "39d3de0e-c1c5-816d-a6fa-d2dd1e3f1405",
+    "title": "Fable gets another bump",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-07-12T21:20:07.000Z",
+    "fetched": "2026-07-14T02:43:37.000Z",
+    "summary": "タイトル: Anthropicによる「Claude Fable」提供期限の延長と競合への対応\n\n・Anthropicは、最新のGPT-5.6 Solが非常に高性能なモデルであると判断し、有料プランにおける「Claude Fable 5」の利用期間を7月19日まで延長しました。\n・現状のFable 5の利用ルールでは、週間の制限枠の半分まで使用可能であり、それを超える場合は追加クレジットの購入または他モデルへの切り替えが必要です。\n・対するOpenAIはGPT-5.6において強気な姿勢を見せており、リソース効率の向上や利用制限の緩和など、ユーザーがより継続的に利用しやすい環境を提供しています。\n・筆者は、AnthropicがOpenAIとの競合に勝ち、ユーザー流出を防ぐためには、Fableを一時的な延長ではなく恒久的に提供する方針へ転換すべきだと指摘しています。",
+    "url": "https://simonwillison.net/2026/Jul/12/bump/#atom-tag"
+  },
+  {
+    "id": "39d3de0e-c1c5-810a-9b47-ea6e998d56a0",
+    "title": "Apple M7 Ultra Chip Planned With Up to 1.5 TB of Unified Memory",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-13T13:44:24.000Z",
+    "fetched": "2026-07-14T02:44:54.000Z",
+    "summary": "タイトル：Apple M7 Ultraチップによる最大1.5TBの統合メモリ対応の噂\n\n・次世代チップとして「M7 Ultra」の開発計画が浮上しています。\n・このチップには、最大1.5TBという非常に大規模なユニファイド（統合）メモリを搭載する可能性があります。\n・現時点ではReddit上の情報であり、真偽はまだ検証されていない段階です。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvbzul/apple_m7_ultra_chip_planned_with_up_to_15_tb_of/"
+  },
+  {
+    "id": "39d3de0e-c1c5-81a4-a03d-c3cb9eae49fb",
+    "title": "I got Gemma 4 running directly inside Godot using only GDScript and Vulkan compute shaders",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-13T09:01:46.000Z",
+    "fetched": "2026-07-14T02:46:09.000Z",
+    "summary": "タイトル：Godotエンジン上でGDScriptとVulkan compute shaderのみを用いてGemma 4を直接動作させることに成功\n\n・外部の複雑なライブラリやプラグインに依存せず、LLM「Gemma 4」をGodot内で直接動作させています。\n・高度な計算処理を行うためにVulkan compute shaderを採用し、GPUを活用した推論を実現しています。\n・実装にはスクリプト言語であるGDScriptのみを使用しており、統合の簡略化と効率化を両立しています。\n・ゲーム開発におけるAIモデルの統合において、非常に技術的に純粋で高度なアプローチを提示しています。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv66by/i_got_gemma_4_running_directly_inside_godot_using/"
+  },
+  {
+    "id": "39d3de0e-c1c5-8136-8d96-e631ced3c22b",
+    "title": "I benchmarked 15 \"E-Waste\" GPUs with Modern Workloads",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-13T14:05:18.000Z",
+    "fetched": "2026-07-14T02:49:21.000Z",
+    "summary": "タイトル: 「E-Waste」と見なされる15種類の旧型GPUを用いた最新ワークロードのベンチマーク評価\n\n結論から述べると、本記事は「廃棄品（E-Waste）」とされる旧世代のグラフィックカードが、現代のAI学習や推論などの特定のタスクにおいて依然として実用的な性能を持ち得ることを検証・評価しています。\n\n・15種類の古いGPUを選出し、最新の技術要件（AI関連など）におけるパフォーマンスを詳細に比較。\n・「古いために使い物にならない」という一般的な認識に対し、特定の用途においては十分な能力を維持しているケースがあることを提示。\n・予算重視のユーザーやホビーユーザーに向け、中古市場における「E-Ware」が提供し得るコストパフォーマンスを分析。\n・最新ハードウェアを購入する前に、型落ちのデバイスをいかに活用できるかという判断材料を提供。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvcjd0/i_benchmarked_15_ewaste_gpus_with_modern_workloads/"
+  },
+  {
+    "id": "39d3de0e-c1c5-81e1-ba86-fbb44f44c4be",
+    "title": "Compressed Version of Qwen-3.6-27B coming from PrismML - Khosla-Backed Startup Claims Breakthrough With Largest-Ever AI Model on an iPhone",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-07-13T07:59:33.000Z",
+    "fetched": "2026-07-14T02:50:26.000Z",
+    "summary": "タイトル：iPhone上で動作する史上最大級のAIモデル「Qwen-3.6-27B」の圧縮版が登場\n\n・Khosla Venturesから出資を受けるスタートアップ、PrismMLがQwen-3.6-27Bの軽量化（圧縮）版を発表しました。\n・この技術により、iPhone上で動作するAIモデルとしては過去最大級の規模を誇るモデルの実行が可能になります。\n・高度な性能を持つ大規模言語モデル（LLM）をスマートフォンなどのモバイル端末で直接動かすための重要な技術的突破口として期待されています。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv54fv/compressed_version_of_qwen3627b_coming_from/"
+  }
+]
