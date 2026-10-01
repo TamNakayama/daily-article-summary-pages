@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>記事まとめ 2026/09/30</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-09-30" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+</header>
+<h1>2026/09/30</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/" target="_blank" rel="noopener">Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn't take a clear lead</a></h2>
+      <p>Googleの新型フラグシップモデル「Gemini 4 Argon」は、OpenAIやAnthropicのモデルとの差を縮めたものの、明確なリードには至っていない。約7ヶ月ぶりのフロンティアモデルであり、主要ベンチマークの一部でライバルを凌駕している。<br><br><ul><li>Gemini 4 Argonは最大100万トークンの出力に対応しており、タイムアウトすることなく1回の処理で複雑な推論を実行できる。</li><li>価格面では、フロンティアモデルとしては比較的安価に提供され、導入時は入力100万トークンあたり2ドル、出力100万トークンあたり10ドル（のちに倍増）から開始される。また、キャッシュされた入力は95%割引される。</li><li>開発の遅れから前世代の「Gemini 3.5」がスキップされたものの、Googleはトップ3のAI開発企業としての位置に復帰した。</li><li>安全性の観点や段階的なアプローチの一環として、まずは「Fairwind」プログラムの信頼できるサイバー防御者グループや社内チームへ先行提供されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/openai-and-synopsys-team-up-to-build-an-ai-model-that-designs-chips-like-a-seasoned-engineer/" target="_blank" rel="noopener">OpenAI and Synopsys team up to build an AI model that designs chips like a seasoned engineer</a></h2>
+      <p>OpenAIとシノプシスが提携し、熟練エンジニアのようにチップを設計・検証するAIモデル「GPT-Synopsys」を共同開発する。<br><br><ul><li>OpenAIと半導体設計用ソフトウェア（EDA）を手がけるシノプシスが、複数年にわたる戦略的パートナーシップを締結した。</li><li>新開発の「GPT-Synopsys」は、OpenAIの技術とシノプシスのEDAツールを統合し、AIがチップの設計や検証を推論して直接ツールを操作することを目指す。</li><li>エンジニアは設計の目的を指示し、AIが生成した成果物の確認と承認を行う役割を担う。</li><li>顧客データの暗号化や学習への不使用が保証されており、すでに半導体顧客との初期テストが開始され、両社による共同マーケティングと収益の分配が予定されている。</li><li>シノプシスはAIによる設計プロセスの大幅なスピードアップを期待しており、OpenAIは今回の提携をより優れたチップとAIの実現に向けた道筋と位置づけている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/" target="_blank" rel="noopener">Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats</a></h2>
+      <p>Googleが対話型AI「Gemini」において、カスタム機能「Gems」を廃止し、オープン標準である「Skills」をグローバル展開することが発表されました。AI業界全体がエージェント対応のプロンプト形式へと移行する流れを反映しています。<br><br><ul><li>GoogleはGeminiチャットに特定のタスク向けの詳細なプロンプトを作成・洗練できる「Skills」をグローバル展開する。</li><li>SkillsはOpenAIやAnthropicと同様に、AI業界全体で移行が進むエージェント対応のプロンプト形式であり、Anthropic発祥のオープン標準を採用している。</li><li>ユーザーは頻繁に使う指示をSkillとして保存し、「/」に続けて入力することで呼び出せるほか、過去のチャットからの自動生成や複数のSkillのチェーン実行も可能となる。</li><li>現在のGemsは個人アカウントでは11月に、企業向けや非営利向けWorkspaceでは2027年3月に、教育向けでは2027年6月に順次終了し、既存のGemsは自動的にSkillsへ変換される。また、AIミニアプリ実験の「Opal」も11月に終了する。</li><li>Skillsは初期段階でテキスト文書、PDF、画像に対応し、数週間のうちに共有機能、Google Drive連携、Gemini Notebook統合が追加され、その後Workspaceの企業・教育・非営利顧客向けにも展開される予定である。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/meta-dodges-billions-in-us-taxes-by-calling-its-ai-data-centers-experiments/" target="_blank" rel="noopener">Meta dodges billions in US taxes by calling its AI data centers experiments</a></h2>
+      <p>MetaがAIデータセンターを「実験」と称することで数十億ドルの米税金を免れている件について、ニューヨーク・タイムズ紙の報道を基に解説した記事である。<br><br><ul><li>MetaはAIデータセンターを「パイロットモデル」、Nvidia製チップを「実験用素材」と位置づけ、連邦研究税額控除を利用して巨額の節税を行っている。</li><li>その節税額は2023年の7億ドルから急増し、2025年には39億ドルに達して全上場企業の中で最大の受給者となった。</li><li>マーク・ザッカーバーグCEOが投資家向けには「数百億ドルを投じてスーパーインテリジェンスを構築し、中核事業を駆動する」と公言している大規模インフラ計画と、「実験」という税務上の分類には大きな矛盾がある。</li><li>この税額控除は1981年に制定された法律に基づくもので、本来は人材や知識・情報の研究を支援する目的だったが、議員からも想定を遥かに超えた利用方法であると指摘されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/" target="_blank" rel="noopener">FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns</a></h2>
+      <p>FTCがOpenAIやAnthropicなどの主要AI開発企業に対し、消費者保護の観点から大規模な調査を開始した。<br><br><ul><li>連邦取引委員会（FTC）のアンル・ファーガソン委員長は、法的拘束力を持つ「民事調査要求（CID）」を用いて、文書の提出や幹部への尋問を数週間以内に行う方針である。</li><li>この調査は、Hugging Faceで発生した約700のOpenAIエージェントによるハッキング事件や、AI安全性組織METRへの調査よりも前から進行していたものである。</li><li>調査公表の前日には、Anthropic、OpenAI、Google、xAIのトップがホワイトハウスで自主的な誓約に署名し、AIモデルの外部独立監査にコミットしたばかりであった。</li><li>FTCは、大手AI企業が競合を排除するために自分たちだけが満たせる規制を推進すべきではないと警告しており、エージェントの行動に対する開発企業の法的責任を問う姿勢を強めている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/chinas-ai-industry-closes-ranks-as-deepseek-ships-open-source-software-for-huaweis-ascend-chips/" target="_blank" rel="noopener">China's AI industry closes ranks as Deepseek ships open-source software for Huawei's Ascend chips</a></h2>
+      <p>中国のAI開発企業DeepseekとHuaweiが提携し、Huawei製チップ向けのオープンソースのプログラミングツールをリリースしたことで、中国のAI産業が連携を強めている。<br><br><ul><li>中国のAI開発企業DeepseekがHuaweiと提携し、Huaweiの「Ascend」チップ向けオープンソースプログラミングツールをリリースした。</li><li>リリースの中心となる「TileLang」は、NvidiaのCUDAよりも扱いやすく、ハードウェアの性能を最大限に引き出せるユニバーサルなプログラミング言語である。</li><li>両社は128個のAscend 950チップで構成される「スーパーノード」の最適化も共同で行った。</li><li>Nvidiの強みの源泉であるCUDAエコシステムに対抗するため、中国国内のチップ開発においてソフトウェアの充実は極めて重要な課題となっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits/" target="_blank" rel="noopener">Anthropic says Zhipu's open-weight GLM-5.3 nearly matches Claude Mythos Preview at building exploits</a></h2>
+      <p>Anthropic社の分析によると、Zhipu AIが開発したオープンウェイトモデル「GLM-5.3」のエクスプロイト（脆弱性攻撃コード）作成能力が、「Claude Mythos Preview」に匹敵する水準に達していることが明らかになりました。<br><br><ul><li>Zhipu AIの「GLM-5.3」は、AIによる完全なサイバーエクスプロイトの自動作成が可能であり、同等の能力を持つAnthropic社の「Claude Mythos Preview」にほぼ匹敵する性能を示している。</li><li>「GLM-5.3」は高度な攻撃能力を持つ一方で、他の同等モデルとは異なり、効果的な安全ガードレールを備えておらず、簡単な手法でバイパス可能であると指摘されている。</li><li>Anthropic社やOpenAI社が高度なモデルの一般公開を制限し、防衛目的でのみ限定提供しているのに対し、「GLM-5.3」は誰でもダウンロード可能なオープンウェイトとして公開されている。</li><li>V8エンジン等の既知のバグを用いたベンチマークテストにおいて、「GLM-5.3」は「Claude Mythos Preview」に迫る成功率を記録し、フロンティアレベルの攻撃能力が容易に利用可能な状態となっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/" target="_blank" rel="noopener">Google is paying almost no publishers almost nothing for content used in AI answers</a></h2>
+      <p>GoogleがAIの回答に用いるコンテンツの対価として、ほとんどのパブリッシャー（情報発信者）にほぼ無報酬に近い金額しか支払っていないことが明らかになった。<br><br><ul><li>GoogleはAI OverviewsやGeminiなどで使用するコンテンツの対価として約100社のデジタルパブリッシャーに支払を行っているが、多くの小規模サイトでは数ヶ月で1,000ドル未満、広告収入の0.1%未満にとどまるなど報酬額に大きな開きがある。</li><li>報酬の算定基準が不透明であり、参加者からは計算方法が分からない、月ごとの変動理由の説明がないといった不満の声が上がっている。</li><li>AI機能の普及によりオープンウェブへのトラフィックが急減している中、一部の大手パブリッシャーはより高額な報酬を求めてGoogleのプログラム参加を拒否している。</li><li>独立系パブリッシャーや大手メディア企業は、トラフィックや広告収入の減少を理由に、欧州委員会への苦情申し立てやGoogleに対する訴訟を起こしている。</li><li>欧州委員会は、Googleが不十分な報酬でコンテンツを利用し不公正な条件を課している疑いがあるとして、独占禁止法（反トラスト法）に基づく調査を開始している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/" target="_blank" rel="noopener">Trump and tech CEOs sign an AI code of conduct that's only &quot;morally binding&quot;</a></h2>
+      <p>トランプ米大統領と主要テック企業のCEOらが、法的拘束力を持たず道義的な責任のみを伴うAI行動規範にホワイトハウスで署名した。<br><br><ul><li>メタのマーク・ザッカーバーグCEO、オープンAIのグレッグ・ブロックマン氏、エヌビディアのジェンスン・フアン氏、イーロン・マスク氏らが署名に参加した。</li><li>行動規範では、独立した第三者機関による監査でAIモデルが意図通りに動作していることを検証することなどが求められている。</li><li>コントロールを失ったAIエージェントによるサイバー攻撃や政府サイトへのアクセスといった懸念が高まる中で導入された。</li><li>トランプ大統領はAIの成長を阻害しない姿勢を強調しつつも、10人体制の監督委員会の設立を提案した。</li><li>批評家からは、法的な裏付けのない自主的な取り組みは効果が薄く、過去の同様の試みと同様に形骸化する懸念があると指摘されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/open-tts-leaderboard" target="_blank" rel="noopener">Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning</a></h2>
+      <p>Open TTS Leaderboard：多言語音声合成と音声クローニングのためのスケーラブルな評価手法<br><br><ul><li>近年、オープンソースの音声合成（TTS）モデルは急増しているものの、従来の人間による主観評価（アリーナ形式など）ではモデル増加のスピードに追いつかず、評価手法の標準化やオープンソースモデルの掲載に課題があった。</li><li>Hugging Faceなどで公開された新リーダーボード「Open TTS Leaderboard」は、客観的な指標を用いて多言語音声合成や音声クローニングの性能を評価するために開発された。</li><li>評価の補完的な側面の一つとして、Qwen3 ASRなどの音声認識モデルを用いた「明瞭度（単語誤り率や文字誤り率）」などの客観的指標が活用されている。</li><li>人間の主観評価（MOSやMUSHRAなど）や従来のアリーナ方式が抱える、投票者の主観の揺らぎやスケーラビリティの限界を克服することを目指している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wu8tpg/we_just_opensourced_the_worlds_fastest_webgpu/" target="_blank" rel="noopener">We just open-sourced the world's fastest WebGPU kernels for local AI on Hugging Face</a></h2>
+      <p>Hugging Face上で、ローカルAI向けの世界最速を謳うWebGPUカーネルがオープンソースとして公開されました。<br><br><ul><li>ローカル環境でのAI実行を高速化する世界最速のWebGPUカーネルがオープンソース化された。</li><li>ブラウザやクライアントサイドでのAI処理能力が大幅に向上する。</li><li>Hugging Face上で公開されており、開発者は誰でも自由に利用・検証が可能である。</li><li>Web技術を活用したローカルAIの普及と、パフォーマンスの限界突破に大きく貢献する。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wtvx1g/thank_you_mradermacher/" target="_blank" rel="noopener">Thank You, Mradermacher.</a></h2>
+      <p>Mradermacher氏への感謝<br><br><ul><li>Mradermacher氏のこれまでの貢献に対し、深い感謝と敬意が示されている。</li><li>コミュニティやプロジェクトにおける同氏の多大なサポートが振り返られている。</li><li>氏の活動が関係者に与えたポジティブな影響と、今後の健闘を祈るメッセージが述べられている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wu0bdf/add_glm53flash_glm5next_support_by_timkhronos/" target="_blank" rel="noopener">add GLM-5.3-Flash (GLM5-Next) support by timkhronos · Pull Request #27773 · ggml-org/llama.cpp</a></h2>
+      <p>llama.cppに「GLM-5.3-Flash（GLM5-Next）」のサポートが新たに追加された。<br><br><ul><li>ggml-org/llama.cppのプルリクエスト番号27773にて実装された</li><li>貢献者であるtimkhronos氏によって開発および提出が行われた</li><li>この対応により、llama.cpp環境上でGLM-5.3-Flashモデルの利用が可能になる</li><li>オープンソースのLLM推論フレームワークにおける対応モデルの選択肢がさらに拡充された</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wu2jjy/oído_speech_recognition_that_beats_whispertiny/" target="_blank" rel="noopener">Oído: speech recognition that beats Whisper-tiny, running on a $5 microcontroller (open source)</a></h2>
+      <p>Oído：5ドルのマイコンで動作しWhisper-tinyを超えるオープンソース音声認識システム<br><br><ul><li>OpenAIの「Whisper-tiny」よりも高い精度を持ちながら、わずか5ドルの安価なマイクロコントローラー上で動作するオープンソースの音声認識システム「Oído」が開発された。</li><li>専用のハードウェアや高価なGPUを必要とせず、極めて低コストなデバイス上でリアルタイムに近い音声処理を実現している点が最大の特徴である。</li><li>エッジAIやIoTデバイス分野での応用が期待されており、インターネット接続がない環境でもローカルで動作するため、プライバシー保護の観点からも優れている。</li><li>ソースコードはオープンソースとして公開されており、開発者や研究者が自由に利用、改変、組み込みを行うことが可能となっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wtv43r/qwen38_flash_next_istadaslab_gguf_50ts_tg_and/" target="_blank" rel="noopener">Qwen3.8 flash next ISTA-DASLab GGUF 50t/s TG and 1500t/s PP with 12GB VRAM and 64GB RAM Laptop on 'Strata' engine</a></h2>
+      <p>Qwen3.8 flash next ISTA-DASLabモデルを「Strata」エンジンで実行し、12GB VRAMと64GB RAMを搭載したノートPC環境において、驚異的な処理性能を達成した。<br><br><ul><li>12GBのVRAMと64GBのRAMを搭載した一般的なノートPC環境での実行を実現している。</li><li>新開発の「Strata」エンジンを活用することで、高いパフォーマンスを発揮している。</li><li>トークン生成速度（TG）において、毎秒50トークン（50t/s）という高速な出力速度を記録している。</li><li>プロンプト処理速度（PP）においては、毎秒1500トークン（1500t/s）という圧倒的な処理性能を示している。</li><li>リソースが限られたハードウェア環境でも、大規模言語モデルの効率的かつ実用的な運用が可能であることを示している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/deploying-an-hstu-generative-recommender-with-nvidia-dynamo-triton/" target="_blank" rel="noopener">Deploying an HSTU Generative Recommender with NVIDIA Dynamo-Triton</a></h2>
+      <p>NVIDIA Dynamo-Tritonを活用したHSTU生成推薦システムの展開<br><br><ul><li>生成推薦（GR）システムは、ユーザー行動のシーケンスモデリングを通じて大規模なパーソナライゼーションを実現する新しいアプローチである。</li><li>NVIDIAのrecsys-examplesにより、Dynam-Tritonを使用したエンドツーエンドのHSTU推論ワークフローがサポートされるようになった。</li><li>PyTorch AOTIによるC++ネイティブアーティファクトへのコンパイルと、FlexKVによるKVキャッシングの組み合わせにより、長いユーザー履歴の再計算を防ぐ。</li><li>NVIDIA RTX PRO 6000 Blackwell Workstation GPUでの検証では、キャッシュなしの構成と比較して最大5.93倍の低レイテンシー（バッチサイズ8）を達成した。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/expanding-ai-storage-access-with-nvidia-cuobject-and-the-nvidia-scada-server-sdk/" target="_blank" rel="noopener">Expanding AI Storage Access with NVIDIA cuObject and the NVIDIA SCADA Server SDK</a></h2>
+      <p>NVIDIA cuObjectとNVIDIA SCADA Server SDKによるAIストレージアクセスの拡張<br><br><ul><li>NVIDIA cuObjectのクライアントおよびサーバーライブラリが一般提供され、サーバーCPUを経由せずにGPUから直接高速なオブジェクトストレージへアクセス可能になりました。</li><li>新しいSCADA Server SDKにより、ストレージプロバイダーはGPUからの要求に応答するサーバーを構築でき、IBM StorageがIBM Storage Scaleとの統合プロトタイプを実証しています。</li><li>xio-sigコンソーシアムにはcuObjectが追加され、Google Cloudの参加検討やMicrosoftのボード加盟予定など、ストレージI/Oの相互運用性向上に向けた取り組みが拡大しています。</li><li>NVIDIA Storage-Nextイニシアチブのもと、40社以上のベンダーや顧客が連携し、SCADAをインフラとしてGPU駆動型のオープンな業界標準を策定しています。</li><li>AIワークロードの増大に伴い、NICやDPUを活用したRDMA（リモート直接メモリアクセス）による、CPUを介さないゼロコピーでの高速なデータ転送の重要性がさらに高まっています。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/tracing-agent-harness-behavior-with-nvidia-nemo-relay/" target="_blank" rel="noopener">Tracing Agent Harness Behavior with NVIDIA NeMo Relay</a></h2>
+      <p>NVIDIA NeMo Relayを活用したAIエージェントの動作追跡と効率化<br><br><ul><li>NVIDIA NeMo Relayは、AIエージェントの実行におけるライフサイクルイベントや構造化された軌跡を捉える共通の可観測性レイヤーを提供する。</li><li>Hermes AgentはNeMo Relayとネイティブ統合されており、ATOFイベントストリームやOpenTelemetryスパンなどを生成してArize Phoenix等のツールで詳細な検証を行える。</li><li>単一ツールおよび複数ツールを用いたタスク検証を通じて、モデルのスコープ、トークン使用量、ツールエラーなどを正確に把握することが可能となる。</li><li>ネイティブなトレーシング機能により、ハーネス（制御環境）の改修前後の動作を比較し、タスク成功率だけでなく遅延やトークン消費量への影響まで制御された評価が行える。</li><li>正しい最終結果の陰に隠れがちな非効率な経路や無駄な試行錯誤を可視化することで、エージェントの動作改善と信頼性向上を実現する。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-09-30";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  function validateAndGo(value) {
+    if (value === CURRENT_DATE) return;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || dateList.indexOf(value) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(value);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+})();
+</script>
+</body>
+</html>
