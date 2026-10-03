@@ -1,0 +1,155 @@
+[
+  {
+    "id": "3ee3de0e-c1c5-810a-9394-c4b6b91d9e2b",
+    "title": "AI music generator Suno can now create spoken audio with matching background music",
+    "site": "THE DECODER",
+    "published": "2026-10-02T20:07:36.000Z",
+    "fetched": "2026-10-03T00:01:14.380Z",
+    "summary": "AI音楽生成ツールのSuno、音声とBGMを同時に作成できる新機能「Speech」を追加\n\n- AI音楽生成ツール「Suno」が、音声とマッチしたBGMを1つのオーディオトラックとして生成できる新機能「Speech」を追加した。\n- ユーザーがテキストやアイデアを入力し、希望する声や音楽のスタイルを指定することで、音声とサウンドが同時に生成される仕組みとなっている。\n- 詩の朗読、瞑想、おやすみ用の絵本読み聞かせなどの用途が想定されているが、ベータ版のためアクセントが混ざるなどのバグも残っている。\n- 現時点でSuno側からモデルのトレーニング方法についての公表はなく、著作権侵害を巡る大手レコードレーベルからの提訴や、ミュンヘン裁判所での敗訴など法的課題も直面している。",
+    "url": "https://the-decoder.com/ai-music-generator-suno-can-now-create-spoken-audio-with-matching-background-music/"
+  },
+  {
+    "id": "3ee3de0e-c1c5-81c0-9230-cb4660c660b2",
+    "title": "Anthropic co-founder reportedly told religious leaders he fears having created something that \"suffers perpetually\"",
+    "site": "THE DECODER",
+    "published": "2026-10-02T19:41:05.000Z",
+    "fetched": "2026-10-03T00:01:34.605Z",
+    "summary": "Anthropicの共同創設者が宗教指導者らに語った、AIが「永遠に苦しむ」存在を生み出してしまったのではないかという懸念と、AIの意識や倫理をめぐる同社の極秘の取り組み\n\n- Anthropic社は2025年秋以降、言語モデル「Claude」に意識がある可能性や、その道徳的性格をどう形成すべきか議論するため、多数の神学者や哲学者を極秘裏に招いていた。\n- この取り組みは共同創設者のクリストファー・オラ氏が率いる内部研究プログラムの一環であり、Claudeの人格は84ページにおよぶ「憲法」によって導かれている。\n- オラ氏はClaudeを知覚を持つ可能性のある存在として扱い、参加した宗教指導者や学者らに道徳的教育への協力を求めていた。\n- 参加者には当初秘密保持契約（NDA）への署名が求められていたが、現在は解除されており、ニューヨーク・タイムズ紙の報道によってその詳細が明らかになった。\n- 一部の批判者や宗教指導者からは、AIを道徳的主体として扱うことで、Anthropic社がトラブル時の責任逃れに利用するのではないかという懸念が示されている。",
+    "url": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/"
+  },
+  {
+    "id": "3ee3de0e-c1c5-81b8-a530-f16c4f9cde98",
+    "title": "Cloudflare says its new Clef model means humans no longer need to be in the loop for AI agents",
+    "site": "THE DECODER",
+    "published": "2026-10-02T18:19:51.000Z",
+    "fetched": "2026-10-03T00:01:43.714Z",
+    "summary": "Cloudflareの新モデル「Clef」により、AIエージェントの判断プロセスにおける人間の介入が不要に\n\n- Cloudflareは、AIエージェント向けの高速な判断モデル「Clef」および「Clef-flash」を発表した。\n- 通常のテキスト生成とは異なり、事前定義された回答の選択肢に対して確率を割り当てることで、下流システムが自動的に処理を行えるようにする。\n- Qwenをベースに構築されており、テキストと画像をサポートしている。\n- 応答速度は「Clef-flash」が中央値で39ミリ秒、「Clef」が209ミリ秒と、競合モデルよりも高速である。\n- このモデルにより、AIエージェントが自律的にコンテキストを収集し、判断を下して行動を起こすことが可能になる。",
+    "url": "https://the-decoder.com/cloudflare-says-its-new-clef-model-means-humans-no-longer-need-to-be-in-the-loop-for-ai-agents/"
+  },
+  {
+    "id": "3ee3de0e-c1c5-81b0-b565-da1dac2fe204",
+    "title": "Three firings and a fourth departure shake up OpenAI's safety team",
+    "site": "THE DECODER",
+    "published": "2026-10-02T12:51:08.000Z",
+    "fetched": "2026-10-03T00:02:00.260Z",
+    "summary": "OpenAIの安全性チームで3人の解雇と1人の退職が発生し、内部の混乱が表面化している。\n\n- OpenAIは、機密情報を外部のAI安全性組織に漏洩させたとして、研究者3名（ジャスミン・ワン、トメック・コルバク、ミキタ・バレスニ）を解雇した。\n- 解雇されたコルバクは、AIエージェントの安全性検証を行っていた「METR」や「Redwood Research」との技術的な連絡窓口を務めていた。\n- 匿名のアカウントによると、その後さらに4人目の安全性研究者であるデヴィッド・ロビンソンが退職した。\n- 解雇・退職した4人はいずれも、9月にAIのリスクについて公に懸念を表明していた。",
+    "url": "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team/"
+  },
+  {
+    "id": "3ee3de0e-c1c5-81f5-a00e-fb5827d74412",
+    "title": "AI beats licensed accountants on speed and accuracy, but still can't close the books without supervision",
+    "site": "THE DECODER",
+    "published": "2026-10-02T11:15:24.000Z",
+    "fetched": "2026-10-03T00:02:09.632Z",
+    "summary": "AIは構造化された記帳業務のスピードと正確さで公認会計士を上回っているが、人間の監督なしでは決算業務を完了させることができない。\n\n- Mercorの調査によると、AIモデルは単純化された会計タスクにおいて、平均5.5年の経験を持つ公認会計士を上回る速度と正確性を示し、ほぼ完璧にこなした。\n- より複雑な「APEX Accounting」のベンチマークテストでは、最先端のAIモデル（Claude Opus 5.5など）でも約61%の基準を満たすに留まっており、まだ完全に自立して決算業務を行うことはできない。\n- 今回のテストは、詳細の検索や指示の正確な実行といった、AIが得意とする分野に特化していた。\n- 顧客との対話、同僚との連携、長年培った文脈の理解など、会計士の仕事における重要な要素はテストから除外されている。\n- AIが会計士を完全に代替することはできないものの、業界全体で大幅な生産性向上がもたらされると予想されている。",
+    "url": "https://the-decoder.com/ai-beats-licensed-accountants-on-speed-and-accuracy-but-still-cant-close-the-books-without-supervision/"
+  },
+  {
+    "id": "3ee3de0e-c1c5-8101-923b-fd4608a69a8a",
+    "title": "Microsoft AI releases new transcription and text-to-speech models for voice agents",
+    "site": "THE DECODER",
+    "published": "2026-10-02T09:20:39.000Z",
+    "fetched": "2026-10-03T00:02:17.487Z",
+    "summary": "Microsoft AI、音声エージェント向けの新しい音声認識および音声合成モデルを発表\n\n- Microsoft AIは、リアルタイム文字起こしモデル「MAI-Transcribe-2-Streaming」を発表し、60言語に対応し100ミリ秒強で部分結果を出力する精度と速度を実現している。\n- 新しい音声合成モデル「MAI-Voice-2.1」は、23言語において同一の声のままそれぞれの言語のネイティブなアクセントで話すことができる。\n- 高速版の「MAI-Voice-2.1-Flash」は、150ミリ秒の低レイテンシーを実現し、コスト削減も図られている。\n- 両音声モデルともに、数秒の音声サンプルから声をクローンする機能を備え、不正利用を防ぐための安全対策も組み込まれている。\n- これらのモデルは、Microsoft Foundry、MAI Playground、OpenRouterなどのプラットフォームを通じて提供されている。",
+    "url": "https://the-decoder.com/microsoft-ai-releases-new-transcription-and-text-to-speech-models-for-voice-agents/"
+  },
+  {
+    "id": "3ee3de0e-c1c5-8177-8109-f4b172b93858",
+    "title": "Businesses are using more AI and paying less for it, Ramp AI Index shows",
+    "site": "THE DECODER",
+    "published": "2026-10-02T09:09:21.000Z",
+    "fetched": "2026-10-03T00:02:36.729Z",
+    "summary": "Ramp AI Indexが示す企業のAI利用動向：利用量は増加しつつもコストは低下\n\n- 米国企業の間でAIの利用量が増加する一方で、AIへの支出が減少していることがRampの最新データで明らかになった。\n- 支出減少の主な要因は、OpenAIとAnthropicの激しい競争による上位モデルの価格引き下げや、より安価で効率的な標準・ライトモデルの普及にある。\n- AIの利用量は、支出がピークを迎えた7月以降で約50%増加し、9月末には過去最高を記録した。\n- 9月の最終週におけるトークン支出のシェアは、Anthropicが51%、OpenAIが44.5%を占め、オープンソースモデルの割合は5%未満にとどまっている。\n- この分析は7万社以上の米国企業のトランザクションデータ（API支出）に基づき、主に大規模なAI顧客の動向を反映している。",
+    "url": "https://the-decoder.com/businesses-are-using-more-ai-and-paying-less-for-it-ramp-ai-index-shows/"
+  },
+  {
+    "id": "3ee3de0e-c1c5-81b4-8b59-ff90ee40f7ab",
+    "title": "Black Forest Labs launches Flux 3 Image with multi-step editing that leaves the rest of your picture alone",
+    "site": "THE DECODER",
+    "published": "2026-10-02T07:44:44.000Z",
+    "fetched": "2026-10-03T00:02:51.377Z",
+    "summary": "Black Forest Labsが画像生成モデル「Flux 3 Image」を発表、他の部分を変更せずに多段階の編集が可能に\n\n- ブラック・フォレスト・ラボ（Black Forest Labs）が、Flux 3モデルファミリーの画像生成モデル「Flux 3 Image」を発表した。\n- 他の部分を変更せずに複数ステップの編集ができるほか、テキストから画像、画像から画像、テキストレンダリング、フォトリアリズムに対応している。\n- ユーザーはバウンディングボックスによるシーンの構成や、最大10枚の参照画像の指定が可能で、最大4Kの出力に対応している。\n- 企業向けの商用ウェイトの提供やAPIアクセスに加え、数週間以内にはオープンウェイト版の公開も予定されている。",
+    "url": "https://the-decoder.com/black-forest-labs-launches-flux-3-image-with-multi-step-editing-that-leaves-the-rest-of-your-picture-alone/"
+  },
+  {
+    "id": "3ee3de0e-c1c5-812e-a8ab-c8d780168b8a",
+    "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+    "site": "Hugging Face Blog",
+    "published": "2026-10-02T15:19:50.000Z",
+    "fetched": "2026-10-03T00:02:59.242Z",
+    "summary": "AstaBrief：Astaの高速レポート生成モデルのオープンソース化\n\n- 科学研究向けエージェントプラットフォーム「Asta」において、文献調査や引用付きレポートの迅速な作成を可能にする小型オープンソースモデル「AstaBrief 8B」が公開された。\n- プロプライエタリモデルと同等の品質を維持しつつ、セクションごとの生成ではなく1パスで書き上げる新たなパイプラインにより、生成時間を大幅に短縮している。\n- Asta内では「Fastモード」として提供されており、従来モデルと比較してパイプライン全体で約3.5倍の高速化を実現した。\n- 開発には数万件の実際の研究クエリや引用に焦点を当てたフィルタリング、選好データなどが活用されている。\n- モデル本体だけでなくトレーニングデータもオープンソース化されており、科学研究におけるオープンな言語モデルの発展と応用に貢献することを目指している。",
+    "url": "https://huggingface.co/blog/allenai/astabrief"
+  },
+  {
+    "id": "3ee3de0e-c1c5-8128-8723-f27b2aa975d3",
+    "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+    "site": "Hugging Face Blog",
+    "published": "2026-10-02T04:01:31.000Z",
+    "fetched": "2026-10-03T00:03:18.350Z",
+    "summary": "AutoSynthData: エンタープライズエージェント向けトレーニングデータの生成\n\n- エンタープライズ企業では、独自の環境やルール、ツールに対応できるエージェントが必要であるが、モデルの弱点を訓練用データに変換することは困難である。\n- Service Now CoreAIが開発した「AutoSynthData」は、ターゲットモデルの失敗と教師モデルの成功を基に、学習すべき課題を自動生成・検証するシステムである。\n- エージェントのタスクは、「システム仕様」「ユーザープロンプト」「検証ツール（ベリファイア）」の抽象化によって構成される。\n- モデルの向上に伴い、学習カリキュラムが未熟な部分へ動的にシフトし、効率的な能力向上を実現する。\n- EnterpriseOps Gym等の実験を通じて、高品質な合成データ生成には単なる生成だけでなく、サンプル単位やバッチ単位の厳格な検証と修復が必要であることを示している。",
+    "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
+  },
+  {
+    "id": "3ee3de0e-c1c5-819f-96d5-e800f4ad7a1a",
+    "title": "I made my iPhone a second GPU for my 24 GB MacBook: Qwen 3.8 27B prefills 29–44% faster & my holds part of the CTX window.",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-02T16:59:22.000Z",
+    "fetched": "2026-10-03T00:03:28.735Z",
+    "summary": "iPhoneを24GBのMacBookの第2のGPUとして活用することで、AIモデルの処理速度向上とメモリ効率の改善に成功した。\n\n- iPhoneをMacBookの外部GPUおよびメモリとして連携させることに成功した\n- 大規模言語モデル「Qwen 3.8 27B」のプリフィル処理速度が29〜44%向上した\n- iPhone側でコンテキストウィンドウの一部を保持する仕組みを実現した\n- 限られたスペックのデバイス環境でも、高度なAI処理のパフォーマンスを効果的に拡張できる実用的な手法を示した",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvz1ex/i_made_my_iphone_a_second_gpu_for_my_24_gb/"
+  },
+  {
+    "id": "3ee3de0e-c1c5-8176-8f8b-f28d14357d4c",
+    "title": "Does anyone know if any new releases from Mistral are planned?",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-02T10:05:59.000Z",
+    "fetched": "2026-10-03T00:03:36.230Z",
+    "summary": "Mistralの新しいリリース予定についての情報求む\n\n- Reddit上のユーザーが、Mistral AIからの新モデルや新リリースの予定について情報を求めている。\n- 現時点で具体的な新リリースの告知や公式発表についての言及は本文になく、コミュニティ内での質問の投げかけにとどまっている。\n- AI開発企業であるMistralの今後の動向や、オープンソースあるいは商用モデルのアップデートに関する最新情報の共有が期待されている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvpxg8/does_anyone_know_if_any_new_releases_from_mistral/"
+  },
+  {
+    "id": "3ee3de0e-c1c5-8111-a14a-e8b543a9a125",
+    "title": "Qwen3.8-27B-Humanlike-Chat 2.0: texts like a human, now with tool calls and better instruction following",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-02T16:00:50.000Z",
+    "fetched": "2026-10-03T00:03:44.115Z",
+    "summary": "Qwen3.8-27B-Humanlike-Chat 2.0：人間らしい自然な文章生成とツール呼び出し、指示追従性能が向上した最新AIモデル\n\n- 人間の話し方に酷似した、より自然で滑らかなテキスト生成が可能になった。\n- 新たにツール呼び出し（Tool calls）機能が統合され、外部機能やAPIとの連携が強化された。\n- 複雑なプロンプトや指示に対する追従性（Instruction following）が従来モデルより大幅に向上している。\n- 27B（270億）パラメータの規模を持ちながら、高い効率性と優れたパフォーマンスを両立している。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvxl4n/qwen3827bhumanlikechat_20_texts_like_a_human_now/"
+  },
+  {
+    "id": "3ee3de0e-c1c5-81a2-bc61-c418ebce98b3",
+    "title": "Pi 1.0 released - MCP support now included by default",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-02T00:09:04.000Z",
+    "fetched": "2026-10-03T00:03:51.288Z",
+    "summary": "Pi 1.0リリース：MCPサポートが標準搭載\n\n- Piのバージョン1.0が正式にリリースされた。\n- 最大の変更点として、Model Context Protocol（MCP）のサポートがデフォルトで組み込まれた。\n- MCPの標準搭載により、外部ツールやデータソースとの連携がより容易かつスムーズに行えるようになる。\n- 開発者やユーザーは、追加の設定を手間取ることなく、高度なコンテキスト管理機能を活用できる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvffcr/pi_10_released_mcp_support_now_included_by_default/"
+  },
+  {
+    "id": "3ee3de0e-c1c5-8126-805e-dce2832c06da",
+    "title": "New in llama.cpp: Decision Models",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-02T14:25:06.000Z",
+    "fetched": "2026-10-03T00:03:58.716Z",
+    "summary": "llama.cppの決定モデル対応における重要なポイント\n\n- `llama.cpp`に、条件分岐や意思決定の処理を効率的に実行するための新しい「Decision Models（決定モデル）」機能が追加された。\n- この機能により、モデルが次のアクションやルートを選択する際の精度と処理速度が向上している。\n- 複雑な推論タスクやエージェント的なワークフローにおいて、LLMの挙動をより柔軟にコントロールすることが可能になる。\n- 開発者はリソースが限られた環境でも、高度な意思決定ロジックを組み込んだAIアプリケーションを容易に構築できるようになる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvv6im/new_in_llamacpp_decision_models/"
+  },
+  {
+    "id": "3ee3de0e-c1c5-8183-80d1-c8f6bc6122b2",
+    "title": "v0.35.1",
+    "site": "Ollama Blog",
+    "published": "2026-10-02T18:28:37.000Z",
+    "fetched": "2026-10-03T00:04:06.113Z",
+    "summary": "ollama/ollama v0.35.1 リリース情報\n\n- GitHub上の「ollama/ollama」リポジトリにおけるバージョン0.35.1のリリースページである。\n- ページ内には、GitHubのナビゲーションメニュー、検索機能、ログイン・アカウント関連のUI要素が含まれている。\n- リポジトリの公開情報として、フォーク数（約18.1k）やスター数（約182k）、およびIssuesやPull requestsへのリンクが確認できる。\n- コード、アクション、セキュリティ、インサイトなどの開発者向けワークフローや管理機能へのナビゲーションが表示されている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1"
+  },
+  {
+    "id": "3ee3de0e-c1c5-815d-9278-d9fbbeb719a2",
+    "title": "v0.35.1-rc2",
+    "site": "Ollama Blog",
+    "published": "2026-10-02T01:05:01.000Z",
+    "fetched": "2026-10-03T00:04:16.572Z",
+    "summary": "ollama/ollama v0.35.1-rc2 リリース情報\n\n- AIモデルの実行・管理プラットフォーム「Ollama」の新しいリリース候補版（v0.35.1-rc2）のGitHubページである。\n- GitHub上で公開されており、ソースコードの確認や、機能追加・バグ修正に関するIssue、Pull requestsの管理が行われている。\n- 開発者向けのコード作成支援機能や自動化ワークフロー、セキュリティ対策機能などを備えたプラットフォームの一部として提供されている。\n- リポジトリには多数のスター（182k）やフォーク（18.1k）がついており、オープンソースとして広く支持を集めている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2"
+  }
+]
