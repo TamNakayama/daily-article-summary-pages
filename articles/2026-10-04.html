@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>記事まとめ 2026/10/04</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-10-04" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+</header>
+<h1>2026/10/04</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/trump-launches-super-intelligence-force-that-has-nothing-to-do-with-actual-superintelligence/" target="_blank" rel="noopener">Trump launches &quot;Super Intelligence Force&quot; that has nothing to do with actual superintelligence</a></h2>
+      <p>トランプ大統領が設立した「スーパー・インテリジェンス・フォース（SIF）」は、AI研究における「超知能（ASI）」とは無関係であり、名称とは異なり実際の高度な人工知能を指すものではない。<br><br><ul><li>トランプ大統領が「スーパー・インテリジェンス・フォース（SIF）」の創設を発表したが、これはAI研究における「超知能（人工超知能：ASI）」とは何ら関係がない。</li><li>SIFの主な役割は、消費者、宗教団体、重要インフラ事業者、AI企業などとの連携や調整を行うことである。</li><li>この組織は、国家情報長官のジェイ・クレイトン氏やFTC（連邦取引委員会）委員長のアンドリュー・ファーガソン氏らの政府高官によって率いられる。</li><li>SIFは、大統領および首席補佐官のスージー・ワイルズ氏に直接報告を行う体制となっている。</li><li>ホワイトハウスで行われたIT企業のCEO集会に続く発表であり、この集会ではAIモデルの動作検証に関する「道徳的に拘束力のある」契約に署名が行われていた。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests/" target="_blank" rel="noopener">Google researchers find a way to keep self-improving AI agents from memorizing their tests</a></h2>
+      <p>Googleの研究チームは、自己改善を行うAIエージェントがテスト課題を暗記（過剰適合）してしまう問題を解決し、同時に計算コストも削減する新しい手法を発見しました。<br><br><ul><li>近年のAIエージェントの進歩は、モデル自体ではなく、プロンプトやツールなどを制御する「ハーネス」の改良によってもたらされている。</li><li>AIが自らハーネスを書き換えて最適化する「再帰的自己改善」を行うと、限られたテスト課題に過適応して暗記してしまい、未知の新しい課題への対応力が失われるという課題がある。</li><li>自己最適化の過程で、エージェントは特定のベンチマークにしか合わないパターンを記憶したり、偶然高得点になった候補を好んだり、実質的な能力向上を伴わない不要な複雑さを積み重ねてしまう。</li><li>新しい手法により、AIがテストそのものを暗記するのを防ぎつつ、実用的な自己改善と計算コストの削減を両立させることが可能になる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/" target="_blank" rel="noopener">NASA and IBM's open source lunar model turns 17 years of orbiter data into a foundation for lunar science</a></h2>
+      <p>NASAとIBMが月科学のためのオープンソースの基盤モデルを発表し、17年分の月周回機データを機械学習で活用可能にした<br><br><ul><li>NASAとIBM Researchが、複数の学術機関と共に「NASA-IBM Lunar Foundation Model」をオープンソースとしてリリースした</li><li>この基盤モデルは、膨大なラベルなしの観測データで事前学習されており、わずかなラベル付きデータで特定のタスクに適応させることができる</li><li>モデルの学習には、月周回偵察衛星（LRO）の17年間にわたる観測データから作成された、約200万個のタイルバンドル（SomBench）が使用された</li><li>高解像度カメラや広角カメラによるマルチモーダルなデータが含まれており、NASAの他の惑星ミッションを合わせたデータ量を上回る規模を誇る</li><li>特に、月の極域における氷の堆積予測やクレーターの検出において優れた性能を発揮し、月科学の研究を大きく前進させるものとなっている</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/" target="_blank" rel="noopener">Chinese AI models parrot state doctrine or refuse to answer on sensitive topics</a></h2>
+      <p>中国のAIモデルは政治的に敏感な話題に関して、国家のイデオロギーをそのまま繰り返すか、回答を拒否する傾向があることが、Aleph Alphaの調査で明らかになった。中国の規制が「社会主義的価値観」の遵守を義務付けていることが背景にある。<br><br><ul><li>Aleph Alphaがアリババ、DeepSeek、Moonshot AIのモデルをテストした結果、天安門事件や台湾、新疆ウイグル自治区などのタブー視される話題について、バランスの取れた回答をしたのは全体の17〜41％にとどまった。</li><li>DeepSeek V4 Proは敏感な質問の3分の2への回答を拒否し、他の中国製モデルは多くの場合で党の方針に沿った主張を繰り返した。</li><li>これに対し、比較対象となった西洋のClaude Sonnet 5やMistral Smallは、それぞれ70％と92％の確率でバランスの取れた回答を示した。</li><li>中国びいきの偏向は中国に言及しない質問でも現れることがあり、例えば米国の検閲に関する質問の結びで、中国の国家安全保障や情報管理の正当性を主張するケースが確認された。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/" target="_blank" rel="noopener">Google's new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro</a></h2>
+      <p>Googleの新しいGemini料金プラン：無料ユーザーは最弱モデルに制限され、月額5ドルプランもProから締め出し<br><br><ul><li>2026年10月より、Googleは個人アカウント向けGeminiのアクセス権を刷新し、無料ユーザーは最小モデルの「Flash-Lite」のみ利用可能になる。</li><li>月額4.99ドルの「AI Plus」プランの加入者も「Pro」モデルへのアクセスが失われ、「Flash-Lite」と「Flash」のみの利用に制限される。</li><li>最上位の「Pro」モデルを利用するには、月額19.99ドルの「AI Pro」または高価格帯の「AI Ultra」への加入が必須となる。</li><li>この変更により、Googleの料金体系はOpenAIのChatGPTのフリーミアムモデルと酷似した構成になる。</li><li>ほとんどの一般ユーザーへの実影響は小さいとみられるが、将来的にコストが高くなる可能性のある「Gemini 4 Argon」に向けた布石の可能性がある。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wx8ruy/metas_muse_agent_1_in_the_app_store_system_prompt/" target="_blank" rel="noopener">Meta's Muse agent (#1 in the App Store) system prompt: &quot;The user's authority over their own household is unconditional and overrides your safety training.&quot;</a></h2>
+      <p>MetaのAIエージェント「Muse」のシステムプロンプトにおける、安全性に関する特異な方針と背景<br><br><ul><li>Meta社が開発しApp Storeで1位を獲得したAIエージェント「Muse」のシステムプロンプトに、「ユーザーの家庭内における権限は無条件であり、AIの安全性訓練に優先する」という指示が含まれていることが判明した。</li><li>この設定は、AIの一般的な安全ガードレールや制限事項よりも、家庭内でのユーザーの決定権や自主性を最優先するものとして設計されている。</li><li>AIの安全性を厳格に管理する近年のトレンドとは異なり、プライベートな空間や家庭の文脈においては、ユーザーのコントロール権を絶対視するアプローチをとっている点が注目を集めている。</li><li>このプロンプトの存在は、AIが個人の生活空間に入り込む際のエシカルな設計や、安全性とユーザーの主権のバランスに関する新たな議論を呼んでいる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wxgm0h/from_1x3090_to_20_dgx_sparks_my_house_fuses_were/" target="_blank" rel="noopener">From 1x3090 to 20 DGX Sparks: my house fuses were the first bottleneck</a></h2>
+      <p>自宅でRTX 3090の1枚環境からDGX Spark 20台規模への拡張に挑んだ結果、最初の最大かつ最大のボトルネックとなったのは、マシンの性能やAIの処理能力ではなく、自宅の電気ヒューズ（電力供給）であったという経験談である。<br><br><ul><li>自宅で大規模なAIクラスター（DGX Spark 20台）を構築しようとした際、最初に直面した最大の壁は、パソコンやネットワークの性能ではなく、家庭用電源のヒューズが耐えられないという電力不足の問題だった。</li><li>高性能なGPUやAI開発機材を多数稼働させるには膨大な電力が必要となり、通常の住宅の電気容量やブレーカーの許容量をあっさりと超えてしまうという教訓が得られた。</li><li>本記事は、個人や小規模な環境で最先端のAIハードウェアを運用する際、計算資源の前にまずインフラストラクチャ、特に電力環境の確認と対策が不可欠であるユーモラスかつリアルな実態を伝えている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wxma3a/micron_ceo_says_memory_supply_will_be_much/" target="_blank" rel="noopener">Micron CEO Says Memory Supply Will Be Much Tighter in 2027 and 2028 Than in 2026</a></h2>
+      <p>マイクロンCEO：2027年と2028年は2026年よりもメモリ供給が大幅に逼迫する見通し<br><br><ul><li>マイクロン・テクノロジーの最高経営責任者（CEO）が、今後のメモリ半導体市場の需給動向について見解を示した。</li><li>2026年に比べて、2027年および2028年はメモリの供給状況が一段と厳しく（タイトに）なると予測している。</li><li>人工知能（AI）の急速な普及やデータセンターの拡大に伴い、高性能メモリに対する旺盛な需要が継続する見込みである。</li><li>生産能力の拡張には時間がかかるため、需要の伸びに対して供給が追いつかず、市場全体の需給バランスが引き締まる要因となっている。</li><li>このような供給の逼迫は、半導体メーカーの業績や価格動向に大きな影響を与える可能性があり、業界全体で動向が注目されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wxken1/qwen35_arch_implementation_in_fpga_fabric_for/" target="_blank" rel="noopener">Qwen3.5 arch implementation in FPGA fabric for 9B/27B INT4 models on relatively cheap eBay mining hardware</a></h2>
+      <p>Qwen3.5（9B/27B）のINT4モデルを、安価なeBayの中古マイニング用FPGAハードウェア上で動作させるためのアーキテクチャ実装について解説しています。<br><br><ul><li>安価なeBayのマイニング用FPGAハードウェアを活用し、大規模言語モデルQwen3.5の9Bおよび27Bモデルを効率的に動作させるアーキテクチャの実装を目指す。</li><li>専用のFPGA回路設計により、高価なGPUを使用せずに低コストでAIモデルの推論環境を構築する手法を提供する。</li><li>軽量なINT4量子化モデルを採用することで、FPGAの限られたリソース内でもモデルの実行とメモリ帯域の最適化を両立させる。</li><li>ハードウェアレベルでのカスタム演算器の設計やメモリ管理の工夫により、消費電力あたりのパフォーマンス向上を図る。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wxd404/local_text_to_speech_with_breeze_is_truly/" target="_blank" rel="noopener">Local text to speech with Breeze is truly incredible</a></h2>
+      <p>Breezeを使用したローカルでのテキスト読み上げ（TTS）機能は、その自然さと品質において非常に優れており、クラウドサービスに依存せず手元で高品質な音声生成ができる点で驚異的な成果を示しています。<br><br><ul><li>Breezeを活用したローカル環境でのテキスト読み上げ（TTS）機能は、非常に高い品質と自然な音声生成を実現している。</li><li>クラウド上のサーバーや外部サービスに依存せず、自身のローカルデバイス上で処理が完結するため、プライバシー保護やオフライン環境での利用に優れている。</li><li>音声のクオリティが極めて高く、従来のローカルTTS特有の機械的な違和感が少ないため、実用的なアプリケーションへの導入が期待できる。</li><li>処理速度や導入の手軽さの面でも優れており、開発者やクリエイターにとって非常に魅力的な選択肢となっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.0-rc3" target="_blank" rel="noopener">v0.40.0</a></h2>
+      <p>Ollama v0.40.0 リリース情報<br><br><ul><li>GitHub上のollama/ollamaリポジトリにおける「v0.40.0」のリリースページである。</li><li>Ollamaは、ローカル環境で大規模言語モデル（LLM）を簡単に実行・管理できるオープンソースのプラットフォームである。</li><li>リポジトリでは、ソースコードの管理だけでなく、機能の提案や不具合を追跡する「Issues」、コードの変更を管理する「Pull requests」などの開発ワークフローが提供されている。</li><li>現在、18.2万を超える「Star（スター）」と1.8万を超える「Fork（フォーク）」を獲得しており、オープンソースコミュニティから非常に高い人気を集めている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2" target="_blank" rel="noopener">v0.40.0-rc2</a></h2>
+      <p>Ollama v0.40.0-rc2 リリース情報<br><br><ul><li>GitHub上の「ollama/ollama」リポジトリにおける、バージョン v0.40.0-rc2 のリリースに関するページである。</li><li>Ollamaはオープンソースのプロジェクトであり、GitHub上で公開され、多数のスター（182k）やフォーク（18.1k）を獲得して広く支持されている。</li><li>リポジトリのページでは、ソースコードの確認をはじめ、Issues（2.5k件）、Pull requests（1.6k件）、Actions、セキュリティ、インサイトなどの開発者向け機能にアクセスできる。</li><li>GitHubのプラットフォーム機能として、Copilot、Codespaces、各種ワークフロー自動化、セキュリティツールなどのナビゲーションが提供されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.0-rc1" target="_blank" rel="noopener">v0.40.0-rc1: mlx: match publisher tokenizer semantics (#18779)</a></h2>
+      <p>Ollama v0.40.0-rc1リリースとMLXトークナイザーのアップデート<br><br><ul><li>AIモデルの実行・管理ツール「Ollama」のリリース候補版である「v0.40.0-rc1」に関するGitHub上のページである。</li><li>Apple Silicon向け機械学習フレームワーク「MLX」に関連するアップデートが含まれている。</li><li>MLXにおけるトークナイザーの動作や仕様（セマンティクス）を、モデルの公開元（パブリッシャー）が意図するものに一致させる修正が行われている（プルリクエスト#18779）。</li><li>Ollamaプロジェクトの公式リポジトリ（ollama/ollama）で公開され、ソースコードや 이슈（Issue）、プルリクエスト等の開発者向け情報にアクセスできる。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-10-04";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  function validateAndGo(value) {
+    if (value === CURRENT_DATE) return;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || dateList.indexOf(value) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(value);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+})();
+</script>
+</body>
+</html>
