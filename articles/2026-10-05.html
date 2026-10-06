@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>記事まとめ 2026/10/05</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-10-05" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+</header>
+<h1>2026/10/05</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/" target="_blank" rel="noopener">Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor</a></h2>
+      <p>MetaとMicrosoftがAnthropicの「Claude」の社内利用を大幅に削減している。Anthropicがパートナーから競合へと変化したことやコスト削減、自社AIツールへの移行が主な背景にある。<br><br><ul><li>Microsoftは社内でのClaudeへの支出を10億ドル規模から3分の1以上に削減し、GitHub CopilotやOpenAIモデルなどの自社ツール利用を従業員に推奨している。</li><li>MetaもClaude Codeのユーザー数を半減させ、リストラや「Muse Code」「MetaCode」といった自社製ツールの推進を進めている。</li><li>コスト削減だけでなく、Anthropicが競合製品の販売やライバルとしての存在感を強めていることが、両社が距離を置く大きな要因となっている。</li><li>Anthropicの提供する「Claude Cowork」や「ChatGPT Work」などが、MicrosoftのOffice製品などの代替品になりつつあることも既存企業にとって脅威となっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model/" target="_blank" rel="noopener">Reka AI's omni-model Rho-1 handles text, images, video, and robot control in a single model</a></h2>
+      <p>Reka AI、テキスト・画像・動画・ロボット制御を単一で処理するオムニモデル「Rho-1」のプレビュー版を発表<br><br><ul><li>パラメータ数190億のRho-1は、テキスト、画像、動画、ロボット制御の動作を単一のニューラルネットワークで処理・生成するオムニモデルである。</li><li>外部モデルやツール呼び出しを使わず、すべてのモダリティを単一の共有コンテキストウィンドウ内でトークンとして直接処理する仕組みを持つ。</li><li>ロボットの訓練データ不足を克服するため、逆ダイナミクスモデルを活用し、一般的なインターネット動画から制御信号を抽出して学習に利用した。</li><li>本モデルは320基のH100 GPUを使用し、約3カ月かけてトレーニングが実施された。</li><li>Reka AIは2024年4月にGPT-4等と競合するマルチモーダル言語モデル「Reka Core」を発表しており、今回のリリースは「ワールドモデル」への発展に向けた取り組みの一環である。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/openai-will-watermark-chatgpt-text-in-the-eu-but-makes-it-optional-for-api-users-worldwide/" target="_blank" rel="noopener">OpenAI will watermark ChatGPT text in the EU but makes it optional for API users worldwide</a></h2>
+      <p>OpenAI、EU域内でChatGPTのテキストに透かし（ウォーターマーク）を導入、API利用者向けには世界規模で任意に設定可能へ<br><br><ul><li>OpenAIは、EUのAI規制法（EU AI Act）への準拠を目的として、ChatGPTが生成するテキストに「textGrain」と呼ばれる不可視の統計的透かしを数週間以内に導入する。</li><li>API利用者向けの透かし機能は世界中でオプトイン（任意選択）方式となり、AnthropicがClaudeで世界的に強制している方式とは異なる対応をとる。</li><li>開発した「textGrain」技術は、内部テストでGoogleのSynthIDを含む他のアプローチと同等以上の成果を収めており、他社が構築に利用できるようオープンソースとして公開予定である。</li><li>透かしの検出率はテキストの長さや内容によって異なり、心理学に関する約400トークンの文章では約95%の検出率となる一方、数学など言葉の自由度が低いコンテンツでは検出率が大幅に低下する。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/most-americans-want-ai-development-to-slow-down-or-stop-entirely-new-poll-finds/" target="_blank" rel="noopener">Most Americans want AI development to slow down or stop entirely, new poll finds</a></h2>
+      <p>Most Americans want AI development to slow down or stop entirely, new poll finds<br><br><ul><li>クイニピアック大学の世論調査によると、アメリカ人の47%がAI開発のペースを緩めるべきだと答え、30%が安全性が確認されるまで完全に停止すべきだと回答した。</li><li>調査対象者の86%が進捗を遅らせることになっても独立した安全基準を支持し、73%がAIが人類の存続を脅かす可能性があると懸念している。</li><li>AI企業指導者の言葉を信頼している人は非常に少なく、74%がほとんどあるいは全く信頼していないと回答した。</li><li>日常生活においてAIは「利益よりも害をもたらす」と答えた人が53%に上り、AIシステムのガードレールが重要であるという意見は91%に達した。</li><li>一方で、AIの開発競争やインフラ面では、中国とのペース維持が重要であると答えた人が69%いたものの、自身の地域へのAIデータセンター建設には72%が反対を示した。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropic-is-quietly-becoming-americas-biggest-corporate-donor-ahead-of-its-mega-ipo/" target="_blank" rel="noopener">Anthropic is quietly becoming America's biggest corporate donor ahead of its mega IPO</a></h2>
+      <p>Anthropicが巨大なIPOを控え、アメリカ最大の企業寄付企業になりつつある背景<br><br><ul><li>Anthropicは、従業員が株式を慈善団体に寄付できる制度を導入しており、会社側も追加の株式でその寄付を上乗せしている。</li><li>2025年と2026年の間に会社が負担した寄付コストは巨額に上り、2025年の寄付総額は5億4000万ドルと、他のフォーチュン500企業を圧倒している。</li><li>CEOのダリオ・アモデイ氏と6人の共同創業者たちは、保有資産の少なくとも80％を寄付することを誓約している。</li><li>多くの従業員は「効果的利他主義」の理念に共感しており、グローバルな貧困削減、AIの安全性、動物福祉などを寄付先の共通のターゲットとして検討している。</li><li>このような大規模な株式寄付や会社の補填は、株主の持ち分を希薄化させる要因となっているが、IPO後の株価上昇次第では寄付総額が数十億ドル規模に達する可能性がある。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/aleph-alpha-releases-kolibri-an-open-weight-model-that-makes-the-case-for-european-ai-sovereignty/" target="_blank" rel="noopener">Aleph Alpha releases Kolibri, an open-weight model that makes the case for European AI sovereignty</a></h2>
+      <p>Aleph Alphaが欧州のAI主権を掲げ、オープンウェイトの言語モデル「Kolibri」を発表<br><br><ul><li>Kolibriは総パラメータ数780億（1トークンあたり約30億アクティブ）の独英バイリンガル向けMixture-of-Expertsモデルであり、品質と運用コストのパレート最適を実現している。</li><li>訓練データの21.3%にドイツ語が使用されており、専用のデータパイプラインや中国製モデルによる合成データ生成を活用して開発された。</li><li>欧州連合（EU）のAI法を念頭に置いて欧州法のもとで開発され、公共行政、航空、産業分野をターゲットにしている。</li><li>最大100万トークンのコンテキストウィンドウをサポートし、ドイツとフィンランドの768基のB200 GPUを使用してトレーニングされた。</li><li>モデルの重みはApache 2.0ライセンスの下でHugging Faceにて公開されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/chatgpts-new-ad-format-fills-the-image-generation-loading-screen-with-product-carousels/" target="_blank" rel="noopener">ChatGPT's new ad format fills the image generation loading screen with product carousels</a></h2>
+      <p>ChatGPTの画像生成ローディング画面に商品カルーセル形式の新広告フォーマットが導入される<br><br><ul><li>OpenAIは米国で、ChatGPTの画像生成中のローディング画面にディスプレイ広告を表示するテストを今月下旬から初期の広告主グループを対象に開始する</li><li>広告は生成中の画像の下部にカルーセルや商品画像の行として表示され、「広告」と明確にラベル付けされて生成画像とは別個に扱われる</li><li>効果測定ツールも拡充され、HightouchやTealiumなどのデータ連携や、DoubleVerifyなどによるブランド安全性のパイロットプログラムが導入される</li><li>OpenAIは2月にChatGPTでの広告展開を開始し、すでに40カ国以上で広告収入が年間換算で10億ドルに達しており、2030年までに1000億ドルの達成を目指している</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/ai-is-eroding-office-hours-study-groups-and-the-trust-between-faculty-and-students-mit-report-finds/" target="_blank" rel="noopener">AI is eroding office hours, study groups, and the trust between faculty and students, MIT report finds</a></h2>
+      <p>MITの専門委員会による報告書によると、生成AIの普及により、大学のオフィスアワー、スタディグループ、および教職員と学生の間の信頼関係が損なわれていることが明らかになりました。<br><br><ul><li>MITの報告書は、AIがオフィスアワーへの参加減少や学生間の交流希薄化など、大学生活の核心部分に悪影響を及ぼしていると指摘している。</li><li>学生の3分の2以上がAIをキャリアに重要と考えている一方で、準備ができていると感じているのは約4分の1にとどまり、AIリテラシー教育の早急な導入が求められている。</li><li>教員による不正なAI利用の取り締まりが信頼関係を損ねており、信頼性の低いAI検出ソフトの使用は避けるべきであると委員会は勧告している。</li><li>論文や学位論文については、AIの使用を必ず開示し、AIを共著者として記載してはならないという方針が提案されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Oct/5/felix-rieseberg/" target="_blank" rel="noopener">Quoting Felix Rieseberg</a></h2>
+      <p>Anthropicの「Cowork」におけるアーキテクチャの変更とクラウド移行の背景<br><br><ul><li>Anthropic社のフェリックス・リーゼベルグ（Felix Rieseberg）氏による、「Cowork」の新旧バージョンにおける仕組みの違いについての解説である。</li><li>「古い」バージョンでは、クラウドでモデル推論を実行しつつ、ツール呼び出しはユーザーのPC上でAnthropic提供の仮想マシン（VM）を使って行っていた。</li><li>ローカルでVMを実行する方法は機能や安全性面で優れていたものの、ディスク容量、バッテリー消費、パフォーマンスに負荷がかかる点や、PCを閉じると作業が中断される点がユーザーから不評であった。</li><li>「新しい」バージョンでは、モデル推論とVMの実行をともにクラウド環境へ移行し、セッションごとに独立したサンドボックスを割り当てる仕組みに変更された。</li><li>クラウド移行により、スマホからの利用が可能になり、作業を継続させながら、ローカルのバッテリー消費やパフォーマンス低下といった問題を解決できるとしている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wyefkt/how_is_it_possible_that_qwen_27b_is_so_good_when/" target="_blank" rel="noopener">How is it possible that qwen 27b is so good? When GPT 4o had a trillion parameters and was worse?</a></h2>
+      <p>Qwen 2.5 7BがGPT-4oよりも優れた性能を発揮し得る理由と、近年のAIモデルにおけるパラメータ数の概念の変化について議論されています。<br><br><ul><li>近年のオープンソースAIモデルであるQwen 2.5の7B（または27B）モデルは、従来の単純なパラメータ数の常識を覆し、GPT-4oなどの大規模モデルに匹敵あるいは凌駕する性能を示している。</li><li>AIの性能は、単にモデルのパラメータ数（サイズ）の大小だけではなく、高品質な学習データの選定、優れたトークナイザー、効率的なアーキテクチャの工夫によって大きく左右されるようになっている。</li><li>巨大なパラメータ数を持つGPT-4oのようなモデルは、莫大な計算資源を背景に汎用的な処理能力を持つ一方で、特定のタスクや効率性の面では、高度に最適化された中規模モデルに後れを取る場合がある。</li><li>AI開発における技術革新のスピードは非常に速く、モデルの効率化やトレーニング手法の洗練により、小〜中規模のモデルでも最先端の知能を実現できる時代に突入している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wymgu6/pewdiepie_getting_banned_twice_by_openai_while/" target="_blank" rel="noopener">PewDiePie getting banned twice by OpenAI while making a local model is top-tier comedy 💀</a></h2>
+      <p>PewDiePieがローカルAIモデルを作成する過程でOpenAIから2回BANされたことは、皮肉でありながら最高に面白いエンターテインメントとしてネット上で大きな話題となっています。<br><br><ul><li>人気YouTuberのPewDiePieが、外部のAPIに依存しない独自のローカルAIモデルの作成に挑戦した。</li><li>その開発の最中になぜかOpenAIから2回もアカウントBANを受けるというハプニングが発生した。</li><li>自宅で自前のAIを作ろうとしているにもかかわらず、大手AI企業の規制に引っかかる展開が「トップクラスのコメディ」としてファンの笑いを誘っている。</li><li>最先端のAI開発における思わぬトラブルと、それをユーモラスに昇華させるPewDiePieらしいエピソードとして注目を集めている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wy0jrc/reflection_ai_is_about_to_release_a_us_openweight/" target="_blank" rel="noopener">Reflection AI Is About to Release a US Open-Weight Model to Take On DeepSeek and Qwen</a></h2>
+      <p>Reflection AIは、DeepSeekやQwenに対抗するため、アメリカ製のオープンウェイトモデルをまもなくリリースする予定です。この動きは、中国発のAIモデルが市場で存在感を増す中、米国企業によるオープンソース・オープンウェイト分野での競争力を強化する重要な一手となります。<br><br><ul><li>Reflection AIがDeepSeekやQwenに対抗する米国製オープンウェイトモデルをまもなくリリース予定</li><li>中国発のAIモデルが台頭する中、米国企業によるオープンAI分野での競争力強化が期待される</li><li>オープンウェイトモデルの公開により、開発者や企業によるAIのカスタマイズや利用の自由度が向上する</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wxvt41/my_qwen_model_hallucinated_a_signed_url_to/" target="_blank" rel="noopener">My qwen model hallucinated a signed URL to Alibaba cloud, normal or sketchy?</a></h2>
+      <p>QwenモデルがAlibaba Cloudの署名付きURLをハルシネーション（幻覚）として生成した現象について、その安全性や発生原因が議論されている。<br><br><ul><li>Qwenモデルが実在しないAlibaba Cloudの署名付きURLを生成し、ユーザーの間でセキュリティ上の懸念や驚きが広がっている。</li><li>この現象は、AIがトレーニングデータに含まれるURL構造を学習・模倣した結果生じたものであり、意図的な攻撃ではない可能性が高い。</li><li>大規模言語モデルにおけるハルシネーションは一般的な挙動であり、ランダムな文字列の組み合わせが偶然実在しうるURLの形式に一致したと考えられる。</li><li>生成されたURLにアクセスする際は、予期せぬリスクやフィッシングの可能性があるため、十分な注意が必要である。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wyea30/make_no_mistake_selling_64_gb_dgx_spark_variants/" target="_blank" rel="noopener">Make no mistake, selling 64 GB DGX Spark variants at the same cost as the original 128 GB is straight drug dealer behavior.</a></h2>
+      <p>NVIDIAが提供するAI向けスーパーコンピューター「DGX Spark」において、メモリ容量が半分である64GB版を、オリジナルの128GB版と同価格で販売する商手法は、暴利をむさぼる麻薬密売人のような悪質なやり方であると強く批判されている。<br><br><ul><li>64GB版のDGX Sparkが、オリジナル版である128GB版と同じ価格で販売されている。</li><li>メモリ容量が半分に削減されているにもかかわらず価格が据え置きである点に強い不満が持たれている。</li><li>この販売手法は、買い手の足元を見た不当な価格設定であるとして「麻薬密売人のようだ」と痛烈に批判されている。</li><li>メーカーによるハードウェアのスペックダウンと高価格維持の姿勢に対するユーザー側の不信感を浮き彫りにしている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.0-rc3" target="_blank" rel="noopener">v0.40.0</a></h2>
+      <p>Ollama v0.40.0 リリース情報<br><br><ul><li>AIモデルの実行・管理ツールである「Ollama」のバージョン0.40.0のリリースに関するGitHubのページである。</li><li>ページ内では、GitHubの標準的なナビゲーションメニュー、検索機能、サインイン／サインアップ機能などの共通インターフェースが表示されている。</li><li>ollama/ollamaリポジトリのページであり、コードの閲覧、Issue（2.5k件以上）、Pull Requests（1.6k件以上）、アクション、セキュリティ、インサイトなどの開発者向け機能にアクセスできる。</li><li>リポジトリの統計情報として、18.1k件のフォーク（Fork）と、182k件のスター（Star）を獲得している人気プロジェクトであることが示されている。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-10-05";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  function validateAndGo(value) {
+    if (value === CURRENT_DATE) return;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || dateList.indexOf(value) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(value);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+})();
+</script>
+</body>
+</html>
