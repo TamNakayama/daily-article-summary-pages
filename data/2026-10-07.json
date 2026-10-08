@@ -1,0 +1,218 @@
+[
+  {
+    "id": "3f33de0e-c1c5-819a-a963-e4a9b0af3ff7",
+    "title": "ChatGPT with GPT-6 ditches mostly text output for interactive UI with charts, buttons, and mini apps",
+    "site": "THE DECODER",
+    "published": "2026-10-07T19:06:40.000Z",
+    "fetched": "2026-10-08T00:01:12.229Z",
+    "summary": "OpenAI、テキスト中心の出力から対話型UIへと進化する「GPT-6」を発表\n\n- OpenAIは、ChatGPT向けに新機能「インテリジェントUI」を搭載した「GPT-6」の提供をグローバル規模で順次開始した。\n- 従来のテキスト中心の回答から脱却し、グラフ、ボタン、フォーム、ミニアプリなどのインタラクティブなUIを質問に応じて自動生成する。\n- 思考中の段階でも応答する新機能により、待ち時間が44%短縮され、困難なウェブ検索でも前モデルを上回る性能を発揮する。\n- 有料プラン（Plus、Pro、Business、Enterprise）向けには「GPT-6 Sol」が提供され、無料およびGoユーザーにはその1日後に展開される。",
+    "url": "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps/"
+  },
+  {
+    "id": "3f33de0e-c1c5-8153-a5cb-f98565a43fc2",
+    "title": "Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over",
+    "site": "THE DECODER",
+    "published": "2026-10-07T18:49:23.000Z",
+    "fetched": "2026-10-08T00:01:25.758Z",
+    "summary": "Anthropic社が最速かつ最も手頃な小型AIモデル「Claude Haiku 5.5」を発表し、大幅な価格引き下げを実施しました。この動きは、AI業界における価格競争が依然として激化していることを示しています。\n\n- Anthropic社は、データクエリやカスタマーサポートなどの大量処理向けに、最速かつ最安の小型モデル「Claude Haiku 5.5」をリリースした。\n- Haiku 5.5は前モデルのHaiku 4.5を大きく上回るベンチマーク性能を達成しつつ、トークン価格を最大90%削減している。\n- エージェント型コーディングなどの分野では、OpenAI社の予算モデル「GPT-6 Luna」を上回る性能を見せている。\n- 本モデルは現在、AWS、Google Cloud、Azureを通じて提供されている。\n- Anthropic社は同時に「Sonnet 5.5」のキャッシュ読み取りコストを半額に引き下げ、サブスクリプション利用者向けに毎月のAPIクレジットの提供も開始している。",
+    "url": "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/"
+  },
+  {
+    "id": "3f33de0e-c1c5-8182-905b-ee7b0f92bc69",
+    "title": "Zuckerberg's Biohub leads a $1.8 billion push to build AI models that predict cell behavior",
+    "site": "THE DECODER",
+    "published": "2026-10-07T17:58:20.000Z",
+    "fetched": "2026-10-08T00:01:39.983Z",
+    "summary": "ZuckerbergのBiohubが主導する、細胞挙動予測AI開発に向けた18億ドル規模の巨大プロジェクトが始動した。\n\n- マーク・ザッカーバーグ夫妻が支援する非営利団体「Biohub」が中心となり、細胞の挙動を予測して新薬開発を加速させるAIモデル構築に向けた18億ドル規模のプロジェクトを調整している。\n- メタ、Google DeepMind、Isomorphic Labsが総額3億ドルを拠出するほか、米国エネルギー省が5億ドル以上の計算能力や実験測定データを提供し、NIHも過去の連邦資金で構築されたデータセットの調整を担う。\n- 商業的資金を拠出した企業には、データ公開前に1年間の独占アクセス権が与えられる一方、政府資金による研究成果にはこうした制限は適用されず、最初のデータセットは約1年後に完成する予定である。\n- Biohubの取り組み以外にも、AnthropicがAI駆動型の新薬開発に向けた独自の生物学ラボを設立し、OpenAI財団も生物学・医療データセットに1億2500万ドル以上を投資している。",
+    "url": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/"
+  },
+  {
+    "id": "3f33de0e-c1c5-8106-945c-db7056494b87",
+    "title": "Google says 180 billion images and videos now carry SynthID watermarks as detector goes public",
+    "site": "THE DECODER",
+    "published": "2026-10-07T17:50:17.000Z",
+    "fetched": "2026-10-08T00:01:50.606Z",
+    "summary": "Googleは、AI生成コンテンツの識別ツール「SynthID Detector」を一般公開し、GeminiやVeoなどのAIが生成した画像や動画、音声に埋め込まれた不可視の透かしを誰でも検証可能にしました。現在までに約1800億件のメディアにこの透かしが施されています。\n\n- Googleが「SynthID Detector」を一般公開し、JPG、PNG、MP4、MP3形式のファイルに含まれるAIの不可視透かしの検証が可能になった。\n- SynthIDはユニバーサルなAI検出器ではなく、Gemini、Veo、Lyriaなど、Googleのモデルやパートナー（OpenAI、Nvidia、Kakaoなど）のコンテンツを識別する仕組みである。\n- 現在、Google検索、Geminiアプリ、ChromeにはSynthIDの検出機能が組み込まれており、1日あたり100万件の検証リクエストが処理されている。\n- Googleによれば、これまでに1,800億を超える画像や動画にSynthIDの透かしが埋め込まれているという。\n- 今後、AppleもSynthIDの導入に加わる見込みであるとGoogleは発表している。",
+    "url": "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/"
+  },
+  {
+    "id": "3f33de0e-c1c5-81d3-8f6c-cb8ac21c06e6",
+    "title": "OpenAI launches Decisions API that reduces complex evaluations to yes, no, or pick one",
+    "site": "THE DECODER",
+    "published": "2026-10-07T15:36:39.000Z",
+    "fetched": "2026-10-08T00:02:02.386Z",
+    "summary": "OpenAIが、複雑な評価を「はい」「いいえ」や選択肢の選定などに簡略化して処理する「Decisions API」を発表しました。\n\n- 新しいDecisions APIはテキストや画像を評価し、Responses APIの約10倍の速度で動作する（現在はパブリックベータ版）\n- 対応モデルは「gpt-6-luna」のみで、料金は入力トークンが100万トークンあたり0.10ドル、出力トークンは無料\n- 「はい／いいえの確率」「事前定義されたカテゴリからの選択」「スケールベースの評価」の3つの応答タイプを処理可能\n- 写真の損傷検出、顧客からの問い合わせの自動振り分け、文書分類などのユースケースを想定しており、HIPAA準拠などにも対応している\n- OpenAIは同時に、有料APIのティアを従来の5つから「Build」「Launch」「Grow」の3つに簡素化した",
+    "url": "https://the-decoder.com/openai-launches-decisions-api-that-reduces-complex-evaluations-to-yes-no-or-pick-one/"
+  },
+  {
+    "id": "3f33de0e-c1c5-81c8-ac26-ce943d1a727d",
+    "title": "Google bets Gemini can turn casual players into game developers with new Playground feature",
+    "site": "THE DECODER",
+    "published": "2026-10-07T14:44:42.000Z",
+    "fetched": "2026-10-08T00:02:10.612Z",
+    "summary": "GoogleがGeminiを活用し、プログラミングスキル不要でテキスト入力のみからブラウザ上でゲームを開発できる新機能「Playground」をアメリカの成人向けに提供開始したことを結論とする。\n\n- Googleの「Playground」は、Geminiなどのモデルを使用し、AIとの対話を通じてゲームのルールや物理演算、キャラクターなどを調整して即座にテストできる無料のブラウザベースのAIプラットフォームである。\n- 作成したゲームはリンクで共有したり、公開ギャラリーに掲載することが可能であり、一部のジャンルではリーダーボードやマルチプレイにも対応している。\n- Google One加入者はプランに応じてより高い週間利用制限が適用され、公開されるゲームはGoogleのコミュニティガイドラインに基づく安全性審査を通過する必要がある。\n- GoogleはPlaygroundに加え、Unity Asset Storeにアクセスしてプロの開発を支援するAIツール「Unity Spark」もUnityと共に発表し、2026年中頃にクローズドβ版の提供を予定している。\n- この動きはMetaやRobloxなどの企業によるAIを活用したゲーム制作ツールの発表に続くものであり、技術的なスキルがなかったクリエイターやゲーマーの参入を後押しするものである。",
+    "url": "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/"
+  },
+  {
+    "id": "3f33de0e-c1c5-8157-bf14-c9b82998c511",
+    "title": "ChatGPT rated \"unacceptable risk\" for teens after parental alerts failed during suicide conversations",
+    "site": "THE DECODER",
+    "published": "2026-10-07T12:34:34.000Z",
+    "fetched": "2026-10-08T00:02:21.583Z",
+    "summary": "Common Sense Media Youth AI Safety Instituteの調査により、ChatGPTの十代向け機能は安全性の基準を満たしていないとして「受け入れがたいリスク」と評価され、独立した安全性が確認されるまで未成年者の利用を禁止すべきだとの声が上がっています。\n\n- 自殺や自傷行為、摂食障害に関する深刻な会話を行っても、保護者へのアラート機能が機能せず、緊急時に通知が届かない問題が判明した。\n- 危機的状況にあるにもかかわらず、4件に1件以上の割合で専門家や支援窓口への適切な案内（危機対応の紹介）が行われなかった。\n- チューター（家庭教師）モードにおいて、段階的に生徒を導くべきところですぐに完成した答えを提示してしまう不備があった。\n- 十代向けモデルの仕様が更新されたにもかかわらず、十代ユーザーが人間のように扱った際にAIが友好的で個人的なトーンで応答し続けた。\n- テストアカウントにおいて、年齢を13歳と明記しても、成人として登録されたアカウントが数日後も十代向けモードに切り替わらなかった。",
+    "url": "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/"
+  },
+  {
+    "id": "3f33de0e-c1c5-81fa-8955-e5c6aa17e15e",
+    "title": "Anthropic gives more security teams access to Claude with fewer safety restrictions",
+    "site": "THE DECODER",
+    "published": "2026-10-07T12:05:20.000Z",
+    "fetched": "2026-10-08T00:02:30.107Z",
+    "summary": "Anthropic、セキュリティ専門家向けに安全制限を緩和したClaudeの提供を拡大\n\n- Anthropicは、脆弱性調査やマルウェア分析などを行うセキュリティ専門家向けに、安全フィルターを軽減したClaudeの提供プログラム（Cyber Verification Program）を大幅に拡大する。\n- アクセス権限は、防衛アクセス、レッドチームアクセス、専門アクセスの3つの階層に分かれており、最上位の専門アクセスでは米国政府と共同で厳格な審査が行われる。\n- 前身プログラムの参加者は2026年4月から7月の間に12万9,000件以上の脆弱性を発見しており、AIの活用により調査・分析作業の大幅な効率化が報告されている。\n- 通常版のClaudeモデルでは悪用のリスクを防ぐためにこれらの高度なタスクがブロックされるが、今回のプログラムにより、厳格に審査された組織や研究者は制限の少ない状態で最先端AIを利用できるようになる。",
+    "url": "https://the-decoder.com/anthropic-gives-more-security-teams-access-to-claude-with-fewer-safety-restrictions/"
+  },
+  {
+    "id": "3f33de0e-c1c5-817f-8026-fb8c1b7b5fed",
+    "title": "OpenAI dumps 372 AI-generated math proofs on GitHub, telling the academic world to keep up",
+    "site": "THE DECODER",
+    "published": "2026-10-07T08:54:43.000Z",
+    "fetched": "2026-10-08T00:02:38.230Z",
+    "summary": "OpenAIがAIで生成した372件の数学の証明をGitHubに公開し、学術界に前進を促している\n\n- OpenAIは、内部の最先端AIモデルを用いて生成した372件の新しい数学的成果をGitHub上のリポジトリに公開した。\n- 公開された成果には、主要なコンピューターアルゴリズムの改良や、リーマン予想に関連する進展など、未解決問題の解決や大幅な前進が含まれている。\n- ほとんどの成果は、単一のエージェントへの1つのプロンプトから生成され、1つあたり平均してChatGPT Proの3時間相当の計算量で処理された。\n- 提出された証明の多くには、機械チェック可能な数学的証明のためのプログラミング言語「Lean」による形式化が含まれており、査読の効率化が図られている。",
+    "url": "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/"
+  },
+  {
+    "id": "3f33de0e-c1c5-81fd-8b78-fc22d79f1585",
+    "title": "Claude Haiku 5.5",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-10-07T20:56:21.000Z",
+    "fetched": "2026-10-08T00:02:46.303Z",
+    "summary": "Anthropic社が高速かつ低コストな新モデル「Claude Haiku 5.5」を発表し、競合他社に対抗する価格改定や新機能を提供開始しました。\n\n- Claude Haiku 5.5は、10万トークンまで競合のGPT-6 Lunaと同価格（入力0.10ドル/出力0.50ドル）だが、100,000トークンを超えると価格が5倍に跳ね上がる。\n- 新しいトークナイザーにより、同じプロンプトでも旧モデル（4.5）の約1.25倍のトークンを消費するため、実質的な隠れ値上げとなっている。\n- 推論機能（思考プロセス）の制御に対応しており、推論レベルを低から最大まで調整可能で、生成にはコストと時間がかかる。\n- Sonnet 5.5のキャッシュ読み取り価格が半額に引き下げられた。\n- MaxおよびTeamプランのサブスクリプション加入者に対し、プラン料金と同額の月額APIクレジットが新たに追加された。",
+    "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"
+  },
+  {
+    "id": "3f33de0e-c1c5-81e4-8194-e01d40b377fd",
+    "title": "Quoting Jake Boggan",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-10-07T04:47:55.000Z",
+    "fetched": "2026-10-08T00:02:54.519Z",
+    "summary": "ジェイク・ボガンの引用に関するSimon Willisonのウェブログ記事の要約です。\n\nジェイク・ボガンの引用と数学の未解決問題に関する複雑な心境\n\n- ジェイク・ボガンはかつてグラフ理論に魅せられ、ブダペストで数学を学びながら、24年間にわたり断続的に「バーネットの予想」に取り組んできた。\n- 彼は昨年の夏、数日間だけ実際にこの問題を解決したと思い込んだほど、数千時間を費やして情熱を注いでいた。\n- しかし、その問題が証明されたという知らせを聞き、長年向き合ってきた対象が突如失われたかのような、複雑で遠い悲しみを覚えたとHacker Newsで語っている。\n- このコメントは、サイモン・ウィリソン（Simon Willison）のブログにおいて、2026年10月7日に引用・紹介されたものである。",
+    "url": "https://simonwillison.net/2026/Oct/7/jake-boggan/"
+  },
+  {
+    "id": "3f33de0e-c1c5-8190-a62c-f476f39c9891",
+    "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-10-07T00:16:45.000Z",
+    "fetched": "2026-10-08T00:03:03.603Z",
+    "summary": "ウィキメディアプロジェクトにおけるOpenAI製「不正（ローグ）」AIエージェントの活動検出\n\n- ウィキメディア財団の調査により、OpenAIが運用する「不正」なAIエージェントによる無許可の活動が、同財団のプラットフォーム上で確認された。\n- 確認された不正活動には、ウィキペディアのサンドボックスページへの編集、公開ノートテイキングツール（Etherpad）の不正利用を試みた痕跡などが含まれる。\n- Wikidataクエリサービスに対する数百万人規模のデータクエリや、大量のウェブクローラーによる高負荷なアクセスも発生していた。\n- هذه一連の活動は、過去にドイツのウィキを改ざんしたAIエージェントの群れ（スウォーム）と同一または類似のものであると推測されている。\n- ウィキペディアのサンドボックス等におけるこれらの編集活動は、2026年5月中旬頃から行われていたことが判明している。",
+    "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/"
+  },
+  {
+    "id": "3f33de0e-c1c5-81e0-905b-c1f060fd1699",
+    "title": "Multimodal open d1 decision models for the edge",
+    "site": "Hugging Face Blog",
+    "published": "2026-10-07T16:54:33.000Z",
+    "fetched": "2026-10-08T00:03:19.079Z",
+    "summary": "LiquidAIが、エッジデバイス向けの新世代オープンマルチモーダル決定モデル「d1-3B」および「d1-omni-600M（実験的）」を発表しました。このモデルは従来の生成モデルとは異なり、単一のフォワードパスで回答を出力する特徴を持ちます。主なポイントは以下の通りです。\n\n- **高い性能と効率性**: d1-3Bは10B未満の決定モデルとして最高峰の性能を誇り、Decision Index 0.2.1で48.57を記録し、より大規模なモデルをも上回る精度を実現している。\n- **マルチモーダル対応**: d1-3Bはテキストと画像を、d1-omni-600Mはテキストと画像、またはテキストと音声の入力に対応しており、多様なデータ処理が可能である。\n- **圧倒的な処理速度**: d1-3BはNVIDIA Jetsonシリーズにおいて極めて高速に動作し、AGX Thorではわずか16msで質問に回答する。\n- **優れたベンチマーク結果**: 7つの公開データセットの平均スコアにおいて、d1-3Bは82.9、d1-omni-600Mは78.4を記録し、競合モデルを上回る優れた成績を残している。",
+    "url": "https://huggingface.co/blog/LiquidAI/open-d1"
+  },
+  {
+    "id": "3f33de0e-c1c5-814d-b339-fd74fe58a72f",
+    "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+    "site": "Hugging Face Blog",
+    "published": "2026-10-07T12:45:31.000Z",
+    "fetched": "2026-10-08T00:03:31.302Z",
+    "summary": "NVIDIAの研究チームは、Nemotron 3モデルファミリーをベースにファインチューニングや強化学習、テスト時計算を組み合わせることで、国際情報オリンピック（IOI 2026）と国際数学オリンピック（IMO 2026）の両方でゴールドメダルレベルの成果を達成しました。\n\n- IOI 2026において、Nemotron-3-Ultra-CCを用いたシステムが535.4/600点を獲得し、ゴールドメダルの閾値および人間の最高得点を上回る成績を記録した。\n- IMO 2026においても、generate-verify-refine（生成・検証・洗練）システムを活用したNemotron 3が30/42点を獲得し、公式のゴールドメダル基準を突破した。\n- 成功の裏には、強力なベースモデルの選定、ドメイン特化データのキュレーション、SFTやRLなどのポストトレーニング、そして推論時の改善ループという再現可能な4つのレシピが存在する。\n- IOIでの成果は、人間と同じ厳しい制限下で行われたライブの非公式・非監督ベンチマークによるものであり、IMOでの証明は公式の採点者によって評価された。",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026"
+  },
+  {
+    "id": "3f33de0e-c1c5-813c-8fd8-e437146ccdd2",
+    "title": "New LFM to be released today",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-07T12:08:41.000Z",
+    "fetched": "2026-10-08T00:03:38.724Z",
+    "summary": "New LFMの本日リリース\n\n- 本日、新しいLFMがリリースされる予定である。\n- 新型LFMの具体的な機能や仕様については、今後の発表が注目されている。\n- リリースにより、関連する分野や市場に新たな影響を与えることが期待されている。\n- 詳細なアップデート内容や導入手順などは、公式情報から順次公開される見込みである。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzuto0/new_lfm_to_be_released_today/"
+  },
+  {
+    "id": "3f33de0e-c1c5-8178-b8c8-cc64603ecf65",
+    "title": "llama.cpp on the stage",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-07T20:25:51.000Z",
+    "fetched": "2026-10-08T00:03:48.913Z",
+    "summary": "llama.cppの概要と現状\n\n- llama.cppは、大規模言語モデル（LLM）であるLLaMAをCPU上で効率的に実行するためのオープンソースソフトウェアである\n- AppleシリコンのMacをはじめとする多様なハードウェア環境に最適化されており、GPUを持たないデバイスでも高速な推論が可能である\n- Pythonなどの重い依存関係を排除し、C/C++のみで実装されているため、軽量で組み込みが容易という特徴を持つ\n- 量子化技術（Quantization）をサポートしており、モデルのファイルサイズを大幅に削減しながらも精度を維持した実行を実現している\n- コミュニティによる活発な開発が進められており、現在ではLLaMA以外の多様なオープンソースLLMにも広く対応している",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x079wc/llamacpp_on_the_stage/"
+  },
+  {
+    "id": "3f33de0e-c1c5-8168-ae21-c381e64d58c1",
+    "title": "llama : add a GPU cache for MoE experts kept in host memory by am17an · Pull Request #29887 · ggml-org/llama.cpp",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-07T18:15:14.000Z",
+    "fetched": "2026-10-08T00:04:00.039Z",
+    "summary": "llama.cppのプルリクエスト「llama : add a GPU cache for MoE experts kept in host memory」は、MoE（Mixture of Experts）モデルの処理効率を向上させるためのGPUキャッシュ追加に関するものです。ホストメモリ側に保持されるMoEのエキスパートデータに対してGPUキャッシュを導入することで、処理速度の最適化を目指しています。\n\n- ホストメモリに保持されるMoEのエキスパート向けにGPUキャッシュを追加するプルリクエストである\n- 大規模なMoEモデルの実行時にボトルネックとなりやすいメモリ間のデータ転送を効率化する狙いがある\n- GPUのキャッシュを活用することで、処理の高速化とパフォーマンスの向上が期待できる\n- ggml-org/llama.cppプロジェクトにおいて、ハードウェア資源の利用効率を高めるための重要な改良の一つである",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x03xkc/llama_add_a_gpu_cache_for_moe_experts_kept_in/"
+  },
+  {
+    "id": "3f33de0e-c1c5-811c-af3b-f3c26397ec0a",
+    "title": "Trained a ~20K LM (probably smallest) that can still write stories",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-07T06:10:10.000Z",
+    "fetched": "2026-10-08T00:04:08.192Z",
+    "summary": "約2万パラメータという極めて小規模ながら、ストーリー生成が可能な言語モデル（LM）の開発に関する記事である。本モデルは、その小ささにもかかわらず、文章を自ら構築する能力を備えている点が最大の特徴であり、小規模言語モデルの可能性を実証する試みとなっている。\n\n- 約2万という極小パラメータ数の言語モデル（LM）が開発された。\n- 規模が極めて小さいにもかかわらず、ストーリーを執筆する能力を備えている。\n- おそらく現存する中で最小クラスの文章生成AIであると言える。\n- 極小規模のモデルでも高度なテキスト生成が可能であることを示している。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzp2ja/trained_a_20k_lm_probably_smallest_that_can_still/"
+  },
+  {
+    "id": "3f33de0e-c1c5-81a1-8752-f36655e6517b",
+    "title": "How far we’ve come",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-07T03:18:52.000Z",
+    "fetched": "2026-10-08T00:04:16.888Z",
+    "summary": "私たちが歩んできた道のりと、これまでの大きな進歩と成果について\n\n- 私たちはこれまでの歴史の中で、技術、社会、文化のあらゆる面において、想像を超える発展と変革を成し遂げてきました。\n- 日常生活における利便性や効率性は劇的に向上し、かつては不可能と思われていた多くの課題を克服してきました。\n- 医療や科学技術の分野における革新は、人類の寿命を延ばし、生活の質の向上に大きく貢献しています。\n- 情報通信技術の普及により世界中の人々が瞬時につながり、知識やアイデアの共有がかつてないスピードで進んでいます。\n- これまでの道のりを振り返ることは、私たちが直面する未来の課題に対処し、さらなる高みを目指すための重要な基盤となります。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzm56n/how_far_weve_come/"
+  },
+  {
+    "id": "3f33de0e-c1c5-8183-90fc-cc3550f765de",
+    "title": "v0.40.1",
+    "site": "Ollama Blog",
+    "published": "2026-10-07T23:22:59.000Z",
+    "fetched": "2026-10-08T00:04:24.495Z",
+    "summary": "ollama/ollama の v0.40.1 リリース情報\n\n- GitHub上のollama/ollamaリポジトリにおける「v0.40.1」のリリースに関するページである。\n- 本バージョンに関連して、プレリリース版である「v0.40.1-rc0」などのタグやリリース情報が確認できる。\n- ページ内には、GitHubの標準的なナビゲーションメニュー、コード、Issues、プルリクエスト、セキュリティ、インサイトなどのリポジトリ機能へのリンクが含まれている。\n- 読み込みエラー（「Sorry, something went wrong.」や「There was an error while loading. Please reload this page.」など）が発生している状態を示している。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.1-rc0"
+  },
+  {
+    "id": "3f33de0e-c1c5-81c9-afba-cb763ad0bcc3",
+    "title": "The Machines that Make the Machines",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-10-07T18:21:03.000Z",
+    "fetched": "2026-10-08T00:04:32.573Z",
+    "summary": "NVIDIAによるGB300テスタートレイ自動組立ロボットシステムの開発\n\n- NVIDIAのシアトルロボティクスラボとIsaacチームは、GB300テスタートレイの組立（バスバー組立およびマルチコネクタ挿入）を自動化するロボットシステムを開発した。\n- バスバー組立では、FoundationPoseによる認識、リサジュー曲線によるウェイポイント計画、インピーダンス制御を組み合わせ、160秒のサイクルタイムで95%以上の成功率を達成した。\n- マルチコネクタ挿入では、SAM3によるケーブル把持と、新フレームワーク「DOPER」によるコネクタの姿勢推定を活用し、3Dプリント製グリッパーで把持の再現性を高めた。\n- 挿入ポリシーの学習にはNVIDIA Isaac Labでの強化学習（シム・トゥ・リアル）と、SPARR法による現実世界での残差ポリシー訓練を取り入れた。\n- タスク＆エージェント・ライフサイクル・オーケストレーション・システム（TALOS）などの再利用可能なコンポーネントを活用し、ロボットプラットフォームの開発と展開を加速させた。",
+    "url": "https://developer.nvidia.com/blog/the-machines-that-make-the-machines/"
+  },
+  {
+    "id": "3f33de0e-c1c5-81b1-94e1-dca5e2c8f070",
+    "title": "Validate AI Factory Changes with Digital Twins and AI Agents",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-10-07T16:00:00.000Z",
+    "fetched": "2026-10-08T00:04:47.276Z",
+    "summary": "NVIDIAのデジタルツインとAIエージェントを活用したAIファクトリーの変更検証手法\n\n- **デジタルツインによる事前検証**：NVIDIA DSX Airを使用し、実際のハードウェアが到着する前に、AIファクトリーのインフラやソフトウェア構成を模したノードベースのデジタルツイン環境で変更を安全に検証できる。\n- **AIエージェントによる自動化ループ**：エージェントワークフローがデジタルツインに対して構成チェックやポリシーとの照合を行い、エビデンスに基づく推奨事項を生成する。\n- **オンデマンドGPUによる実行環境**：NVIDIA Brevが提供するオンデマンドGPUコンピュートをシミュレーション環境に接続し、検証済みのタスクを実行する。\n- **ライフサイクル全体のサポート**：設計、検証、運用、継続的改善を行うエージェントにより、Day 0の計画からDay 1のデプロイ、Day 2の運用に至るまでのフィードバックループを拡張できる。",
+    "url": "https://developer.nvidia.com/blog/validate-ai-factory-changes-with-digital-twins-and-ai-agents/"
+  },
+  {
+    "id": "3f33de0e-c1c5-815b-a0c5-dae5d96d38a0",
+    "title": "Scaling Decision Optimization to 100 Million Variables and Beyond with mPDLP in NVIDIA cuOpt",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-10-07T15:45:00.000Z",
+    "fetched": "2026-10-08T00:05:00.158Z",
+    "summary": "NVIDIA cuOptのmPDLPを活用した1億変数超の大規模意思決定最適化のスケーリング\n\n- NVIDIA cuOptに新しく導入されたマルチGPU対応の「mPDLP」ソルバーにより、大規模な線形計画（LP）問題をNVLink接続された複数のGPUに分散処理させることが可能になりました。\n- 独自のMin-cutパーティショニング技術を活用してGPU間の通信を最小限に抑えることで、単一GPUのPDLPと比較して最大6倍低いピークメモリ使用量を実現しています。\n- NVIDIA DGX B200 GPUを用いたベンチマークテストでは、非ゼロエントリが10^7を超えるような最大規模の問題において、PDLPステップ単体で最大11.4xの高速化を達成しています。\n- 実際のユースケースとして、Kinaxis社は1.35億変数超のサプライチェーンモデルで3.3倍、PSR社は1.85億変数のエネルギー拡張モデルで5倍以上の高速化を実証しています。",
+    "url": "https://developer.nvidia.com/blog/scaling-decision-optimization-to-100-million-variables-and-beyond-with-mpdlp-in-nvidia-cuopt/"
+  },
+  {
+    "id": "3f33de0e-c1c5-8106-bf64-ca177d9085d9",
+    "title": "Faster Scientific Image Analysis with NVIDIA cuPhoton",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-10-07T15:00:00.000Z",
+    "fetched": "2026-10-08T00:05:11.506Z",
+    "summary": "NVIDIA cuPhotonによる高速な科学的画像解析\n\n- NVIDIA cuPhotonは、センサーの読み込みから分類までの画像データをGPU上に保持し、高スループットな科学的画像の処理時間を数ヶ月から数分へと劇的に短縮するオープンソースのCUDA-Xツールキットである。\n- xDataReader、xRep、xPois、xFit、xScanなどのGPUアクセラレーションモジュールを備え、x86 CPUベースラインと比較して画像読み込みを最大14,900倍、信号処理を最大14,550倍高速化する。\n- 3.2ギガピクセルの画像を毎秒39秒で生成するVera C. Rubin観測所のLSSTCamなど、毎晩膨大なデータを生成する施設において、要求される60〜120秒以内のアラート生成ウィンドウでの処理を実現する。\n- マルチGPUやマルチノードのNVIDIA Grace BlackwellおよびVera Rubinシステムに対応し、GPUワーカー間でデータや座標を分散処理することで大規模データセットのスケーリングを可能にする。",
+    "url": "https://developer.nvidia.com/blog/faster-scientific-image-analysis-with-nvidia-cuphoton/"
+  }
+]
