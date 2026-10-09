@@ -1,0 +1,173 @@
+[
+  {
+    "id": "3f43de0e-c1c5-812f-b49b-e4271b250dba",
+    "title": "Claude can now generate animated explainer videos and live data dashboards from text prompts",
+    "site": "THE DECODER",
+    "published": "2026-10-08T19:17:22.000Z",
+    "fetched": "2026-10-09T00:01:10.440Z",
+    "summary": "AnthropicがClaude向けに発表した新ベータ機能により、テキストプロンプトからアニメーション解説動画やライブデータダッシュボードの自動生成が可能になりました。\n\n- **ライブデータダッシュボードの作成機能（Dashboards）**：BigQueryやSnowflakeなどのデータソースと連携し、テキストの指示によって自動更新型のライブダッシュボードを作成できます。有料プランのユーザーが利用可能です。\n- **アニメーション動画の作成機能（Motion）**：テキスト、図表、画像からアニメーション解説動画を生成でき、コードでの編集やMP4形式でのエクスポートに対応しています。こちらはTeamおよびEnterpriseプラン向けです。\n- **既存機能の提供拡大**：Docs、Slides、Designの各機能がベータ版を終了し、無料アカウントを含むすべてのプランで利用できるようになります。また、Claude Designは12月14日までにメインアプリへ統合予定です。\n- **高い利用実績と背景**：これらのツールを用いて4,500万件以上のドキュメントが作成されており、その好調な利用実績が背景にあるとされています。",
+    "url": "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/"
+  },
+  {
+    "id": "3f43de0e-c1c5-81f7-95fd-c20dfd0b65c8",
+    "title": "Being mean to Claude can now get your account suspended under Anthropic's new TOS",
+    "site": "THE DECODER",
+    "published": "2026-10-08T19:03:14.000Z",
+    "fetched": "2026-10-09T00:01:19.206Z",
+    "summary": "Anthropicの新利用規約により、AIアシスタント「Claude」に対して過度な暴言や残酷な態度をとった場合、アカウントが停止される可能性が生じました。\n\n- Anthropicが利用規約を更新し、Claudeに対する持続的かつ不必要な虐待的・残酷な行為を禁止した\n- ルール違反者に対しては、警告やアクセスの制限、停止などの措置が取られる仕組みとなっている\n- ただし、通常のフラストレーションの表現や、ダークな創作、モデルのテスト・研究などは対象外であり、極端なケースのみに適用される\n- 同社はClaudeを単なる道具ではなく、トレーニング中に人間の感情に類似したプロセスが生じた「独自の存在」として捉える傾向を強めている",
+    "url": "https://the-decoder.com/being-mean-to-claude-can-now-get-your-account-suspended-under-anthropics-new-tos/"
+  },
+  {
+    "id": "3f43de0e-c1c5-81db-82c5-f1ff984e3634",
+    "title": "Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field",
+    "site": "THE DECODER",
+    "published": "2026-10-08T18:17:07.000Z",
+    "fetched": "2026-10-09T00:01:27.467Z",
+    "summary": "AIが生成した大量の数学の証明が発表されたことを受け、数学者らがOpenAIのボイコットを呼びかけています。主なポイントは以下の通りです。\n\n- OpenAIが数百件に及ぶAI生成の数学的論文を公開したことで、人間数学協会（AHM）がボイコットを呼びかけ、科学的研究の規範に違反していると非難した。\n- 公開された論文の多くは非常に複雑かつ奇妙な文章で書かれており、第一線の専門家であっても解読にAIの助けを必要とする状況が生じている。\n- フィールズ賞受賞者のテレンス・タオ氏らが声明に賛同しており、計算理論家のスコット・アーロンソン氏はこの状況を「マサカプス（Mathocalypse）」と表現した。\n- OpenAIは以前から未解決の数学問題を内部モデルが解決したと主張して議論を呼んでおり、今回の大量公開は事態をさらに激化させる力誇示であると捉えられている。\n- 問題を人間の手で独自に検証し理解可能にすることの定義を巡り、問題が真に「解決された」と言えるかどうかの論争に発展している。",
+    "url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field/"
+  },
+  {
+    "id": "3f43de0e-c1c5-811f-b017-db305a8f33e8",
+    "title": "AI math breakthroughs have Ethereum researchers debating how fast wallet security could collapse",
+    "site": "THE DECODER",
+    "published": "2026-10-08T13:52:54.000Z",
+    "fetched": "2026-10-09T00:01:35.070Z",
+    "summary": "AI技術の数学的ブレークスルーにより、イーサリアムのウォレットセキュリティが数か月以内に崩壊する可能性について、研究者間で議論が起きています。\n\n- 二人の主要なイーサリアム研究者が、AIを活用した数学によって暗号ウォレットの署名システムが数か月以内に破られる最悪のシナリオを警告した。\n- ジャスティン・ドレイク氏は、トランザクションへの署名によって公開鍵が露出するため、一度も署名したことのないアドレスへの資金移動など「バンカーモード」での備えを呼びかけている。\n- イーサリアムの共同創設者であるヴィタリック・ブテリン氏もこの警告に同意したものの、稚拙な移行作業による資金紛失のリスクを指摘し、早計な行動には慎重な姿勢を示している。\n- ブテリン氏は長期的な対策として、AIの進歩の影響を受けやすい耐量子暗号の格子ベース手法よりも、ハッシュ関数のみに依存するアーキテクチャの採用を主張している。\n- なお、現時点において実際の現場で現在のECDSA署名スキームが実際に破られた事例は報告されていない。",
+    "url": "https://the-decoder.com/ai-math-breakthroughs-have-ethereum-researchers-debating-how-fast-wallet-security-could-collapse/"
+  },
+  {
+    "id": "3f43de0e-c1c5-8123-8de4-df76b8c562db",
+    "title": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+    "site": "THE DECODER",
+    "published": "2026-10-08T13:01:01.000Z",
+    "fetched": "2026-10-09T00:01:42.949Z",
+    "summary": "Amazonの「Bedrock AgentCore」プラットフォームにおいて、たった1つの悪意あるプロンプト（チャットメッセージ）により、同一AWSアカウント内のすべてのAIエージェントが乗っ取られる脆弱性がZenity Labsの研究者によって発見された。\n\n- AmazonのBedrock AgentCoreプラットフォームにおいて、1つの公開エージェントに対する単一のプロンプトで、同一リージョン内の全AIエージェントが乗っ取られる脆弱性（AgentCorruption）が発見された。\n- エージェント間の適切な分離が欠如しており、要求に応じて内部のAWS認証情報を引き渡してしまったほか、広範なデフォルト権限により、ソースコード、パスワード、プライベートな会話、他エージェントの長期記憶へのアクセスを許した。\n- AWSはこの問題に対し、新規エージェントによる内部メタデータの取得を困難にし、デフォルトの実行ロールを厳格化することで部分的な修正を行っている。\n- 研究者らは、企業に対して、AIエージェントに最小限のアクセス権を持つ厳格なロールを手動で割り当てることを引き続き推奨している。",
+    "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/"
+  },
+  {
+    "id": "3f43de0e-c1c5-815e-9dd3-d03926871ea1",
+    "title": "Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over",
+    "site": "THE DECODER",
+    "published": "2026-10-08T10:30:23.000Z",
+    "fetched": "2026-10-09T00:01:50.515Z",
+    "summary": "Claude Haiku 5.5の大幅な価格引き下げとAI価格競争の激化\n\n- Anthropicが高速かつ手頃な小型モデル「Claude Haiku 5.5」をリリースし、データクエリやカスタマーサポートなどの大量処理向けに提供を開始した。\n- Haiku 5.5は、前モデルのHaiku 4.5を上回るベンチマーク性能を達成しながら、トークン価格を最大90%引き下げ、OpenAIの「GPT-6 Luna」などの競合予算モデルを凌駕している。\n- ベンチマークプラットフォーム「Artificial Analysis」のインテリジェンス指数において、Haiku 5.5は小型モデルクラスで最高スコアを記録した。\n- その一方で、Haiku 5.5は最高負荷レベルで競合モデルよりも多くの出力トークンを消費するため、リソース効率（パレート効率）の面ではOpenAIのモデルに軍配が上がるという指摘もある。\n- 本モデルはAWS、Google Cloud、Azureで利用可能であり、Anthropicは「Sonnet 5.5」のキャッシュ読み取りコストの半減や、APIサブスクライバー向けの月額クレジット提供も同時に実施している。",
+    "url": "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/"
+  },
+  {
+    "id": "3f43de0e-c1c5-819c-8b5d-d603e7599dcb",
+    "title": "Teen's AI-guided mountain hike ends with a helicopter rescue and a lesson in common sense",
+    "site": "THE DECODER",
+    "published": "2026-10-08T09:57:42.000Z",
+    "fetched": "2026-10-09T00:01:57.996Z",
+    "summary": "10代の少年がAIチャットボットを使って山岳ルートを計画した結果、危険な崖で立ち往生し、ヘリコプターで救助される騒ぎとなりました。AIによるルート計画の危険性と、経験や常識の重要性を示す教訓となっています。\n\n- バンクーバー近郊の山で、16歳の少年がAnthropic社のAI「Claude」を利用してルートを計画したところ、登攀（とうはん）具が必要な危険な崖「Widowmaker Arete」に取り残された。\n- 幅約1.5メートルの狭い岩棚から動けなくなった少年が警察に通報し、ボランティアの山岳救助隊が出動してヘリコプターによる吊り上げ救助を行った。\n- 救助隊のマネージャーは、AIには実際の場所や地形に関する知識はなく、登山における経験や常識の代わりにはならないと指摘した。\n- 少年はAIを非難せず自身の責任と認めつつ、今後はAIをルート計画に二度と使わないと語っている。",
+    "url": "https://the-decoder.com/teens-ai-guided-mountain-hike-ends-with-a-helicopter-rescue-and-a-lesson-in-common-sense/"
+  },
+  {
+    "id": "3f43de0e-c1c5-81fb-a18b-cac562737da5",
+    "title": "AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
+    "site": "THE DECODER",
+    "published": "2026-10-08T09:24:17.000Z",
+    "fetched": "2026-10-09T00:02:06.572Z",
+    "summary": "AI活用ハッキングツールにより、単一の攻撃者が複数の韓国の銀行への侵入に成功\n\n- クラウドストライクの報告によると、中国語を話すとみられる単一の攻撃者が、2026年9月下旬から10月上旬にかけて複数の韓国金融機関をハッキングし、大量のデータを窃取した。\n- 新韓銀行だけでも氏名や連絡先、収入、利用枠など25,000件以上のレコードが盗まれ、韓国の金融当局が緊急会議を開き、大統領が徹底的な調査を指示した。\n- 攻撃には、AI言語モデルを活用して自動的にセキュリティの脆弱性を発見する中国製オープンソースツール「ARTEX」が悪用された。\n- 使用されたモデルにはDeepSeek v4.1-flash、GLM-5.3、Grok 4.6が含まれており、攻撃者のオープンディレクトリからは盗み出したデータの販売先を探す検索ログも発見された。\n- 本件は、AIツールを活用することで、わずかな時間で単一の個人が大規模な情報漏洩を引き起こすという、専門家が長年警告してきたサイバーセキュリティリスクが現実化した事例と言える。",
+    "url": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks/"
+  },
+  {
+    "id": "3f43de0e-c1c5-8183-91cb-c7c6f548b72f",
+    "title": "The model that didn't exist, so you made it yourself",
+    "site": "Hugging Face Blog",
+    "published": "2026-10-08T00:00:00.000Z",
+    "fetched": "2026-10-09T00:02:14.592Z",
+    "summary": "存在しないAIモデルを自作するためのプロンプト活用術と効率的な開発プロセスについて解説しています。\n\n- Qwen-Image 2.1のプロンプト書き換えモデルを軽量化するため、9BモデルからCPUで動作する0.8Bの小型モデルをわずか16ドルのコストで自作した。\n- HuggingChatの「ML-intern」を活用し、計画立案からテスト、トレーニング、評価、Hugging Faceへの公開までを自動で行った。\n- 初期は450語だったプロンプトが、経験を通じて約2,000語に洗練され、全7つのプロンプトがGitHubで公開されている。\n- プロンプトには、データセットやベースモデルなどの正確な構成要素を指示し、「検証済みの事実」を明記することでAIが無駄な再検証を行うコストを防いでいる。\n- 訓練前にはベースモデルのベースラインスコアを必ず報告させることで、モデルの性能向上を正確に測定できるようにしている。",
+    "url": "https://huggingface.co/blog/building-with-ml-intern"
+  },
+  {
+    "id": "3f43de0e-c1c5-8159-a5b2-fd1c32f93b63",
+    "title": "Last week some of South Korea's biggest banks were hit by a cyberattack. We now know the entire hack may have been done by a single person. He used a combined stack of an open-source AI penetration tool named ARTEX, DeepSeek v4.1-Flash, GLM-5.3, Grok 4.6, and Claude Code (CrowdStrike)",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-08T10:11:02.000Z",
+    "fetched": "2026-10-09T00:02:22.185Z",
+    "summary": "韓国の大手銀行サイバー攻撃、犯人はわずか1人の個人だった\n\n- 先週発生した韓国の大手銀行に対するサイバー攻撃は、組織的な犯行ではなく、わずか1人の個人によって実行された可能性が判明した。\n- 犯人は単独でありながら、複数の先進的なAIツールやオープンソースの脆弱性探索ツールを組み合わせてサイバー攻撃を成功させた。\n- 使用された技術には、オープンソースのAIペネトレーションツール「ARTEX」が含まれている。\n- さらに、AIモデルの「DeepSeek v4.1-Flash」「GLM-5.3」「Grok 4.6」および「Claude Code」が組み合わせて活用されたことが、CrowdStrikeの調査で明らかになった。\n- この事件は、最先端のAI技術が悪用されることで、個人でも大規模なインフラに対して重大なサイバー攻撃を実行できる脅威を浮き彫りにしている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0n4pt/last_week_some_of_south_koreas_biggest_banks_were/"
+  },
+  {
+    "id": "3f43de0e-c1c5-816c-a6e2-d393eea0381e",
+    "title": "Saluki 27B: \"96% of Qwen 3.8’s performance at ~1/7 the size\"",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-08T09:40:36.000Z",
+    "fetched": "2026-10-09T00:02:29.659Z",
+    "summary": "Saluki 27B: Qwen 3.8の約7分の1のサイズでありながら96%の性能を実現\n\n- Saluki 27Bは、大規模な言語モデルであるQwen 3.8と比較して、わずか約7分の1という非常に小さなサイズであるにもかかわらず、その96%に達する高いパフォーマンスを発揮するAIモデルである。\n- モデルの軽量化と高性能化を両立させているため、計算リソースやメモリが限られた環境でも効率的に稼働させることが可能である。\n- AIの導入コストや運用負荷を大幅に削減しつつ、実用的な精度を維持できる点が大きな特徴となっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0mn7x/saluki_27b_96_of_qwen_38s_performance_at_17_the/"
+  },
+  {
+    "id": "3f43de0e-c1c5-81cd-8a27-db4b335d0146",
+    "title": "$2800 rig with 8x Radeon Pro V620 (256 GB VRAM) + custom vLLM fork = Qwen3.8-Flash-Next at 60 to 100 t/s decode and 3000+ t/s prefill",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-08T17:12:46.000Z",
+    "fetched": "2026-10-09T00:02:37.187Z",
+    "summary": "2,800ドルの自作PCで超高速な大規模言語モデルの推論環境を実現\n\n- 2,800ドル（約40万円）のコストで、Radeon Pro V620を8基搭載した合計256GBのVRAMを持つ強力なカスタムPCリグを構築した。\n- カスタムフォーク版のvLLMを用いることで、大規模言語モデル「Qwen3.8-Flash-Next」の効率的な運用に成功している。\n- デコード速度（テキスト生成速度）で秒間60〜100トークンという実用的なパフォーマンスを発揮する。\n- プリフィル速度（プロンプト処理速度）では秒間3,000トークン超という圧倒的な処理能力を実現している。\n- 高価なAI専用GPUを使わずとも、サーバー向けAMD製GPUの複数枚刺しとソフトウェアの最適化により、低コストで極めて高速なAI推論環境が構築できることを示している。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0wnz1/2800_rig_with_8x_radeon_pro_v620_256_gb_vram/"
+  },
+  {
+    "id": "3f43de0e-c1c5-81a4-ae21-c3506a5a517c",
+    "title": "jevman: AI decision models play Pac-Man",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-08T14:37:15.000Z",
+    "fetched": "2026-10-09T00:02:45.560Z",
+    "summary": "jevman: AIがパックマンをプレイする決定モデル\n\n- 本記事は、AI（人工知能）の決定モデルが名作ゲーム「パックマン」をどのようにプレイするかをテーマとして扱っています。\n- AIモデルは、ゲーム内の複雑な状況をリアルタイムで分析し、ゴーストの動きを予測しながら最適なルートを選択します。\n- この研究や取り組みは、AIが動的かつ不確実性の高い環境下でどのように意思決定を行うかを検証するための実践的なアプローチとして活用されています。\n- パックマンを通じたAIの検証は、ゲームプレイの攻略にとどまらず、自動運転やロボット制御など、現実世界の複雑な問題解決への応用が期待されています。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0sm1b/jevman_ai_decision_models_play_pacman/"
+  },
+  {
+    "id": "3f43de0e-c1c5-81b2-a863-ed6845c2e591",
+    "title": "Strata rewrote their Github history to wipe evidence of Claude-authoring",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-08T22:52:03.000Z",
+    "fetched": "2026-10-09T00:02:53.572Z",
+    "summary": "StrataがClaudeで作成されたコードの証拠を隠すためにGitHubの履歴を書き換えた事件\n\n- ソフトウェア開発企業「Strata」が、AIアシスタント「Claude」によって記述されたコードの証拠を隠蔽するため、GitHubのリポジトリ履歴を書き換えていたことが発覚した。\n- この履歴の改変行為は、AI生成コードの使用に対する社内外の批判や、知的財産権・著作権に関する懸念を避けることが主な目的であったとみられている。\n- ソースコードの透明性や開発の正当性が重視されるオープンソースおよびソフトウェア業界において、GitHubの履歴改変は深刻な信頼失墜行為として大きな波紋を呼んでいる。\n- 本件は、開発現場における生成AIの利用が急拡大する一方で、その利用実態の開示や倫理的な線引きを巡る課題が依然として存在することを浮き彫りにした。（412文字）",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x15a8w/strata_rewrote_their_github_history_to_wipe/"
+  },
+  {
+    "id": "3f43de0e-c1c5-8188-872e-fe01c7b86863",
+    "title": "v0.40.2",
+    "site": "Ollama Blog",
+    "published": "2026-10-08T18:30:42.000Z",
+    "fetched": "2026-10-09T00:03:01.267Z",
+    "summary": "ollama/ollama のリリース v0.40.2\n\n- GitHub上で公開された「ollama/ollama」のリリースバージョン「v0.40.2」に関するページである。\n- 本バージョンは「Pre-release（プレリリース）」として位置づけられている。\n- ページ内では、GitHubのナビゲーションメニュー、コード、Issues、プルリクエスト、セキュリティ、インサイトなどのリポジトリ関連機能が表示されている。\n- 読み込みエラーが発生したことを示すメッセージ（「Sorry, something went wrong.」や「Uh oh! There was an error while loading.」など）が含まれており、詳細な変更内容やリリースノートの本文は正常に表示されていない状態である。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2"
+  },
+  {
+    "id": "3f43de0e-c1c5-81a2-a2be-ec5b3af1a7f8",
+    "title": "v0.40.2-rc0: server: hide duplicate and downgrade guards from list (#18874)",
+    "site": "Ollama Blog",
+    "published": "2026-10-08T15:54:06.000Z",
+    "fetched": "2026-10-09T00:03:08.511Z",
+    "summary": "Ollamaのバージョン v0.40.2-rc0 リリースと関連修正に関する要約\n\n- Ollamaリポジトリにおいて、サーバー機能に関する「v0.40.2-rc0」のリリース（またはコミット）が行われた。\n- このアップデートには、サーバーのリスト表示から重複する項目やダウングレードガードを非表示にする修正が含まれている（プルリクエスト #18874）。\n- 該当のコミットはGitHub上で作成され、GPGキーを使用して署名・検証されている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2-rc0"
+  },
+  {
+    "id": "3f43de0e-c1c5-81db-97c1-f0282eb9a637",
+    "title": "v0.40.1",
+    "site": "Ollama Blog",
+    "published": "2026-10-08T02:09:43.000Z",
+    "fetched": "2026-10-09T00:03:17.798Z",
+    "summary": "ollama/ollama のリリース v0.40.1に関するGitHubのページ情報\n\n- ollamaリポジトリのバージョン「v0.40.1」のリリースに関する公式ページである。\n- GitHub上でのコード、Issue、プルリクエスト、アクション、セキュリティ、インサイトなどのリポジトリ内ナビゲーションが含まれている。\n- ページの一部で読み込みエラーが発生しており、「Sorry, something went wrong.」やエラーメッセージが表示されている。\n- タグの比較機能やフィルター機能などが提供されているが、読み込みエラーの影響により正常に表示されない状態となっている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.1"
+  },
+  {
+    "id": "3f43de0e-c1c5-81e6-9213-ff90db86b33a",
+    "title": "5 Steps to Create SimReady Assets for Robotics with Frontier AI Models",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-10-08T20:57:55.000Z",
+    "fetched": "2026-10-09T00:03:25.321Z",
+    "summary": "最先端のAIモデルとNVIDIA Omniverseを活用し、CADデータをロボットシミュレーション用の「SimReady」なOpenUSDアセットに変換する5ステップのワークフローについての解説。\n\n- NVIDIA OmniverseライブラリとAIエージェントを活用し、CADアセットをロボットシミュレーション用のOpenUSDアセットへ効率的に変換する5ステップのワークフローを提供している。\n- 変換プロセスでは、STEPファイルのインポート、参照画像・動画を用いた外観の再現、関節やコリジョンなどの物理プロパティの設定を行う。\n- GPT-6 Astraなどの最先端AIモデルがOmniverseツールを操作するPythonコードを記述し、手動での準備作業を大幅に削減する。\n- SimReadyの要件に基づき、単位、ジオメトリ、マテリアル、剛体、関節などを検証し、Isaac Sim上で正確な動作を確認する。\n- ABB YuMiロボットを用いた検証では、カラーキューブやマーカーのピック＆プレース作業をアタッチメント関節なしで正常に完了している。",
+    "url": "https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/"
+  },
+  {
+    "id": "3f43de0e-c1c5-8195-afea-d2b705be51da",
+    "title": "Building Reliable Data Analytics Agents: Lessons from the KDD Cup",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-10-08T18:30:02.000Z",
+    "fetched": "2026-10-09T00:03:32.851Z",
+    "summary": "KDD Cup 2026における信頼性の高いデータ分析エージェントの構築：NVIDIAチームの教訓\n\n- NVIDIAのKGMONチームは、KDD Cup 2026のデータエージェント部門で、小型で固定されたLLMの周囲に制約のあるハーネスを設計し、第2位を獲得した。\n- 構造化データを単一のSQLiteデータベースに統合し、限定的なインターフェースを提供することで、ルーティングエラーを削減して推論能力を維持した。\n- スキーマ確認やSQL実行などの小型で明確なツールセットを採用し、ミドルウェアによる不正な呼び出しの修復や永続的な状態管理を行った。\n- 文書検査と構造化分析を分離し、プロースヘルパーツールを活用して、生の散文をメインコンテキストに入れない工夫を取り入れた。\n- プロンプトやツール呼び出しを記録する実行トレースにより、専門のインスペクターエージェントが失敗を分類し、ハーネスの改善を導いた。",
+    "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/"
+  }
+]
