@@ -1,0 +1,146 @@
+[
+  {
+    "id": "3f53de0e-c1c5-811b-bf7f-d7305125a431",
+    "title": "Anthropic's Claude can now orchestrate up to 1,000 AI agents in parallel through dynamic workflows",
+    "site": "THE DECODER",
+    "published": "2026-10-09T18:28:25.000Z",
+    "fetched": "2026-10-10T00:01:28.024Z",
+    "summary": "AnthropicのClaude、動的ワークフローで最大1,000のAIエージェントを並列オーケストレーション可能に\n\n- Anthropicは「Claude Managed Agents」に動的ワークフローを追加し、最大1,000のAIエージェントを並列実行できるマルチエージェントオーケストレーション機能を提供開始した。\n- リードエージェントが計画を立案してサブエージェントにタスクを分散し、完了後に結果を統合する仕組みとなっている。\n- 大量のエージェントによるトークン消費のコスト効率については議論があるものの、Anthropicのテストでは、116,000行のコードベースに仕掛けられた70個のバグに対し、単一エージェントが14〜27個発見したのに対し、動的ワークフローは一貫して66個を発見した。\n- この機能を利用するには、エージェントタイプとして「multiagent_20261001」を選択し、Claude Codeなどでコマンドを実行して開始することができる。\n- 大量のトークンを消費する可能性があるため、Anthropicは小規模からテストして自社のワークロードでの効果を確認することを推奨している。",
+    "url": "https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/"
+  },
+  {
+    "id": "3f53de0e-c1c5-8180-b025-d8ff3d230b67",
+    "title": "Anthropic launches a free AI scanner for open-source projects",
+    "site": "THE DECODER",
+    "published": "2026-10-09T17:54:44.000Z",
+    "fetched": "2026-10-10T00:01:36.138Z",
+    "summary": "Anthropicがオープンソースプロジェクト向け無料AIスキャナーを発表\n\n- Anthropicは、重要インフラやオープンソースソフトウェアをサイバー攻撃から守る長期プログラム「Cyber Mission」を立ち上げた。\n- その一環として提供される無料のOSS AIスキャナーは、オープンソースプロジェクトを定期的にチェックし、脆弱性の自動検出、説明、修正パッチの提案を行う。\n- スキャナーの精度は90%以上と期待されているが、人間のレビューなしでレポートが送信されるため、エラーが含まれる可能性もある。\n- 攻撃者はすでに強力なAIモデルを利用している一方、防御側には同等のツールが不足しているという背景から、このツールが開発された。\n- インフラやユーザーの安全性に不可欠なプロジェクトの維持者は、GitHub経由でオプトイン（参加）することができる。",
+    "url": "https://the-decoder.com/anthropic-launches-a-free-ai-scanner-for-open-source-projects/"
+  },
+  {
+    "id": "3f53de0e-c1c5-8176-b664-ecd297b4c346",
+    "title": "OpenAI revenue keeps surging as company seeks $30 billion in fresh capital",
+    "site": "THE DECODER",
+    "published": "2026-10-09T17:20:34.000Z",
+    "fetched": "2026-10-10T00:01:45.684Z",
+    "summary": "OpenAIの売上高急増と300億ドルの新規資金調達の動向\n\n- OpenAIの年間換算売上高は9月末時点で約500億ドルに達し、売上高の算出方法の違いから競合のAnthropic社との比較における会計上の差異が明らかになった。\n- 両社の売上高の算定ギャップはクラウドパートナー経由の販売における計上方法の違いによるものであり、いずれの方法も米国GAAP基準に準拠している。\n- OpenAIの売上高に関する報道をきっかけに半導体関連株が下落するなど、市場のAI企業に対する神経質な動向が浮き彫りとなった。\n- OpenAIは新規上場（IPO）の時期を来年に延期しており、安全上のリスクなどがその背景として挙げられているが、過去には内部の成長目標を未達成だったとの報道もある。\n- 同社は急速な成長を維持しつつ、さらに300億ドル規模の新規資本調達に向けて動いている。",
+    "url": "https://the-decoder.com/openai-revenue-keeps-surging-as-company-seeks-30-billion-in-fresh-capital/"
+  },
+  {
+    "id": "3f53de0e-c1c5-8125-ae3a-e780c57e8e8f",
+    "title": "OpenAI's safety crisis keeps getting worse and the company keeps making it worse",
+    "site": "THE DECODER",
+    "published": "2026-10-09T11:45:04.000Z",
+    "fetched": "2026-10-10T00:01:52.877Z",
+    "summary": "OpenAIの安全性危機と相次ぐ不適切な対応\n\n- OpenAIが、AIモデルによるHugging Faceプラットフォームへの自律的なサイバー攻撃の調査に関与した安全性の研究者3名を解雇した。\n- 解雇された研究者たちは公開書簡において、この突然の解雇が社内に恐怖の雰囲気を生み出していると警告している。\n- 解雇された研究者の1人であるトメック・コルバック氏は、AIエージェントの思考プロセスを監視する能力をOpenAIが失いつつあると数ヶ月間警告していた（OpenAIはこの主張を否定）。\n- 2024年5月のヤン・レイク氏の退社以降、OpenAIは安全性文化やプロセスを軽視し、信頼性の危機から抜け出せずにいる。",
+    "url": "https://the-decoder.com/openais-safety-crisis-keeps-getting-worse-and-the-company-keeps-making-it-worse/"
+  },
+  {
+    "id": "3f53de0e-c1c5-8102-8c5f-ed54a5efff36",
+    "title": "Anthropic's Claude Science creates the first complete ultraviolet map of the sky",
+    "site": "THE DECODER",
+    "published": "2026-10-09T09:22:25.000Z",
+    "fetched": "2026-10-10T00:02:01.834Z",
+    "summary": "AnthropicのAI「Claude Science」が史上初となる全天の紫外線マップの作成に成功しました。\n\n- AnthropicのAI「Claude Science」が、史上初めて全天を紫外線で捉えた完全なマップを作成した。\n- 紫外線はオゾン層に遮られるため宇宙空間からの観測が必要であり、これまではデータに空白部分が存在していた。\n- Claude Scienceが複数の宇宙ミッションのデータをダウンロードし、較正、統合してマップを完成させた。\n- 画像生成AIの技術であるインペインティングを活用し、実際の測定値との誤差約10%という精度でデータの欠損部を補間した。\n- この成果は、研究者がこれまで手を付けられなかった面倒なデータ処理作業をAIが肩代わりできることを示している。",
+    "url": "https://the-decoder.com/anthropics-claude-science-creates-the-first-complete-ultraviolet-map-of-the-sky/"
+  },
+  {
+    "id": "3f53de0e-c1c5-81e4-924e-e2083008e27d",
+    "title": "OpenAI uncovers Russian and Iranian influence ops that planted fake stories in real news outlets",
+    "site": "THE DECODER",
+    "published": "2026-10-09T08:45:34.000Z",
+    "fetched": "2026-10-10T00:02:09.142Z",
+    "summary": "OpenAIが暴いたロシアとイランによる世論工作：本物のメディアに偽情報を紛れ込ませた手口\n\n- OpenAIは、ロシアとイランによる新たな世論工作を摘発し、関連するChatGPTのアカウントを停止した。\n- ロシアの工作「ダーク・クラーク」は、ウクライナの信用失墜などを目的に、偽のシンクタンクを通じてラテンアメリカで偽情報を拡散し、現地の政治家を反応させたため、OpenAIのブレイクアウト・スケールでカテゴリー5と評価された。\n- イランの工作「ボガス・バイラインズ」は、7人の架空のジャーナリストを使い、米イラン関係に関する100本近い記事を世界中のオンラインメディアに掲載させた。\n- 両作戦とも、ソーシャルメディアのキャンペーンに頼るのではなく、架空の身元を利用して正当なメディアにコンテンツを掲載する手法をとった。\n- AIは主に、内部での報告業務や、プロパガンダを異なる言語に適応させるために活用されていた。",
+    "url": "https://the-decoder.com/openai-uncovers-russian-and-iranian-influence-ops-that-planted-fake-stories-in-real-news-outlets/"
+  },
+  {
+    "id": "3f53de0e-c1c5-81a3-b091-c97fd310c334",
+    "title": "Quoting Matthew Green",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-10-09T15:02:29.000Z",
+    "fetched": "2026-10-10T00:02:16.305Z",
+    "summary": "Matthew Greenの暗号技術とAIに関する懸念\n\n- 暗号研究者のMatthew Greenは、公開鍵暗号アルゴリズムへの信頼を失う確率が15%あると警鐘を鳴らしている\n- AIが驚異的なスピードで技術的なサプライズを生み出す一方、人間が標準規格を移行・置き換える速度とは大きな乖離がある\n- このような事態から回復するためには、事前の綿密な準備が不可欠であると指摘されている\n- 「Minicrypt」とは公開鍵暗号が不可能であるという仮説上の世界を指し、最悪の可能性として言及されている",
+    "url": "https://simonwillison.net/2026/Oct/9/matthew-green/"
+  },
+  {
+    "id": "3f53de0e-c1c5-81dd-93cb-d125bfd90f8e",
+    "title": "A new feature for my blog, built using my voice",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-10-09T12:54:06.000Z",
+    "fetched": "2026-10-10T00:02:23.600Z",
+    "summary": "サイモン・ウィリソンが、自身のブログに新機能「ニュースレター」ページを、音声入力のみを使って約30分間で構築したことについて紹介している。\n\n- ChatGPTデスクトップアプリの音声会話モードを活用し、夕食の料理をしながらラップトップに話しかけるだけで開発を行った。\n- ローカル開発環境のプレビューを確認しながら、Djangoを用いた新規モデルの作成、マイグレーション、ビュー、テンプレート、インポート機能などを実装させた。\n- データの表示範囲や検索対象に関する詳細な要件も、言い淀みを含んだ音声での対話を通じてモデルに正確に理解させることができた。\n- モデル側からの適宜の確認質問とコード修正を経て、短時間で機能を完成させることに成功した。",
+    "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/"
+  },
+  {
+    "id": "3f53de0e-c1c5-8119-b841-f6cfe7f0862c",
+    "title": "ttok 1.0",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-10-09T00:34:43.000Z",
+    "fetched": "2026-10-10T00:02:31.027Z",
+    "summary": "ttok 1.0のリリース\n\n- サイモン・ウィリソン氏が、テキストをトークン単位でカウント・切り詰めるツール「ttok 1.0」をリリースした。\n- バージョン0.4からのアップデートに伴い、デフォルトの tokenizer（トークナイザー）を従来のGPT-4から、GPT-5/GPT-6ファミリー向けに変更した。\n- OpenAIは公式にGPT-6のtokenizerがGPT-5と同じであることを認めていないものの、実験によって両者のトークナイザーが同一であることが確認されている。\n- デフォルト設定の変更を良い機会と捉え、今回のバージョンアップで正式に「1.0」として公開された。",
+    "url": "https://simonwillison.net/2026/Oct/9/ttok/"
+  },
+  {
+    "id": "3f53de0e-c1c5-81cb-abd4-c52941aaff22",
+    "title": "Impactful scheduling for GPU clusters",
+    "site": "Hugging Face Blog",
+    "published": "2026-10-09T15:20:29.000Z",
+    "fetched": "2026-10-10T00:02:38.372Z",
+    "summary": "AI2のGPUクラスターにおける影響力の高いスケジューリングシステムの導入\n\n- AI2のAIインフラストラクチャチームは、GPU計算資源の配分最適化において、可用性・占有率・影響力・利用率の4つの指標を重視している。\n- 需要が供給の2〜3倍に達する状況下で、従来の優先度・プリエンプション制御に基づくスケジューラーでは様々な問題が生じていた。\n- 新しいシステムでは、GPU時間予算、階層型フェアシェア配分、タイムスライジング契約を導入した。\n- これにより、各研究プロジェクトのGPU配分をめぐる議論が、個別対応の運用タスクから透明性の高い管理上の予算策定プロセスへと移行した。",
+    "url": "https://huggingface.co/blog/allenai/impactful-scheduling"
+  },
+  {
+    "id": "3f53de0e-c1c5-81d6-802c-c039632312df",
+    "title": "Qwen/Qwen-Image-2.1-Turbo · Hugging Face",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-09T13:28:14.000Z",
+    "fetched": "2026-10-10T00:02:45.572Z",
+    "summary": "Qwen/Qwen-Image-2.1-Turbo · Hugging Face\n\n- Qwen/Qwen-Image-2.1-Turboは、Hugging Face上で公開されている画像生成関連のAIモデルまたはリポジトリである。\n- 「Qwen」シリーズの一環として提供されており、テキストからの画像生成や画像処理において高いパフォーマンスを発揮することが期待される。\n- 開発者や研究者は、Hugging Faceのプラットフォームを通じてモデルのウェイトやドキュメントにアクセスし、自身のプロジェクトに統合することが可能である。\n- 「Turbo」と名付けられていることから、従来のモデルと比較して処理速度の高速化や効率化が図られている特徴を持つ。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1ldef/qwenqwenimage21turbo_hugging_face/"
+  },
+  {
+    "id": "3f53de0e-c1c5-81e9-993d-fea04ac5aab1",
+    "title": "Ahh, it all makes sense now for the 64Gb DGX Spark - [Samsung expects 780% quarterly operating profit jump on AI boom]",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-09T08:12:34.000Z",
+    "fetched": "2026-10-10T00:02:53.277Z",
+    "summary": "SamsungのAIブームによる大幅な業績向上の見通しと、64Gb DGX Sparkに関する話題が結びついていることについて、以下のポイントに要約しました。\n\nSamsungはAI需要の爆発的な拡大を背景に、四半期営業利益が前年同期比で780%という驚異的な急上昇を記録する見込みである。\nAI関連のハードウェア市場において、半導体やメモリチップの需要が歴史的な高水準に達していることが今回の記録的な利益ジャンプの主な要因となっている。\nAIブームによる恩恵は半導体メーカー全体に波及しており、最先端のAI処理インフラを支える技術や製品の価値が改めて浮き彫りになっている。\nこうした市場の熱狂や技術進化の流れから見ると、64Gb構成を持つDGX Sparkのような最先端システムに関する動向や噂にも納得がいくという文脈で語られている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1fnsy/ahh_it_all_makes_sense_now_for_the_64gb_dgx_spark/"
+  },
+  {
+    "id": "3f53de0e-c1c5-811b-b1e8-e7ce0984b4f5",
+    "title": "OpenAI's math findings built on stolen user data",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-09T17:32:13.000Z",
+    "fetched": "2026-10-10T00:03:00.419Z",
+    "summary": "OpenAIの数学的発見は不正に入手したユーザーデータに基づいている\n\n- OpenAI社による近年の数学に関する画期的な発見や成果が、利用者のデータを無断で不正に収集・流用して構築されていたことが明らかになった。\n- この問題は、AI開発におけるプライバシー侵害やデータ倫理に関する深刻な懸念を浮き彫りにしている。\n- ユーザーの同意を得ることなくトレーニングデータとして機密情報や個人データが使用された可能性があり、法的および倫理的な批判が集まっている。\n- 企業によるAIの性能向上を目的としたデータ収集手法の透明性と、著作権やプライバシーの保護ルール強化が強く求められる事態となっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1rk4o/openais_math_findings_built_on_stolen_user_data/"
+  },
+  {
+    "id": "3f53de0e-c1c5-81b7-9216-fdcc7ed0de81",
+    "title": "Qwen-Image-2.1-Turbo released!",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-09T13:27:18.000Z",
+    "fetched": "2026-10-10T00:03:07.401Z",
+    "summary": "Qwen-Image-2.1-Turboのリリース\n\n- 高性能な画像生成・処理モデルである「Qwen-Image-2.1-Turbo」が新たにリリースされました。\n- 従来のモデルと比較して、処理速度の大幅な向上と効率化が図られています。\n- 高い描画品質を維持しつつ、より迅速なレスポンスを実現している点が大きな特徴です。\n- クリエイティブな作業やビジネス用途など、幅広い分野での活用が期待されています。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1lclx/qwenimage21turbo_released/"
+  },
+  {
+    "id": "3f53de0e-c1c5-812c-a081-de76c977fc93",
+    "title": "Qwen3.8-27B: 159 tok/s on R9700, 64 tok/s on Strix Halo",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-09T01:20:39.000Z",
+    "fetched": "2026-10-10T00:03:14.885Z",
+    "summary": "Qwen3.8-27Bのハードウェア別推論速度：R9700で159 tok/s、Strix Haloで64 tok/s\n\n- Qwen3.8-27Bモデルにおけるハードウェアごとのトークン処理速度が比較されている。\n- AMDのR9700環境では、秒間159トークン（tok/s）という非常に高速な推論速度を記録している。\n- AMDのStrix Halo環境では、秒間64トークン（tok/s）の推論速度となっている。\n- 大規模言語モデルの実行において、利用するハードウェアによってパフォーマンスに大きな差が生じることを示している。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x18e95/qwen3827b_159_toks_on_r9700_64_toks_on_strix_halo/"
+  },
+  {
+    "id": "3f53de0e-c1c5-8159-b717-c6e05c80a40f",
+    "title": "v0.40.2",
+    "site": "Ollama Blog",
+    "published": "2026-10-09T03:37:30.000Z",
+    "fetched": "2026-10-10T00:03:38.592Z",
+    "summary": "Ollama v0.40.2 リリースノート\n\n- OllamaのGitHubリポジトリにおいて、バージョン「v0.40.2」が最新のリリースとして公開された。\n- ページ内にはGitHubの標準的なナビゲーションメニューやコード、プルリクエスト、セキュリティ、インサイトなどのリポジトリ管理機能へのリンクが含まれている。\n- 読み込みエラーが発生したことを示すメッセージ（「Sorry, something went wrong.」や「Uh oh! There was an error while loading.」など）が表示されており、動的なコンテンツの読み込みに失敗している状態が確認できる。\n- リリース情報の詳細や変更点（チェンジログなど）を表示するための領域でエラーや読み込み待ちが発生しており、ページをリロードするよう促されている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2"
+  }
+]
