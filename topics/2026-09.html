@@ -42,7 +42,11 @@ nav.pages{font-size:.85rem;margin:.2em 0 .6em} nav.pages a,nav.pages span{margin
   .scroll table td.hm small{display:block;font-size:.7rem}
   th.old,td.old{display:none}
 }
+/* 記事の分布（§9.6）：図は幅いっぱい、凡例の色の見本 */
+.chart{width:100%;height:auto;display:block;border:1px solid #EEE;border-radius:6px}
+.legend .sw{display:inline-block;width:.8em;height:.8em;border-radius:50%;margin-right:4px;vertical-align:-1px}
 @media (min-width:900px){
+  .two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;align-items:start}
   td.name{white-space:nowrap;max-width:none}
   .sp-only{display:none} .pc-only{display:revert} div.pc-only,details.pc-only{display:block}
 }
@@ -51,7 +55,7 @@ nav.pages{font-size:.85rem;margin:.2em 0 .6em} nav.pages a,nav.pages span{margin
 <body>
 <main>
 <h1>2026-09 AI/LLM記事 月次レポート</h1>
-<p class="note">分類体系 version 1（大分類 6・小分類 30）／ 推移 2026-07〜2026-09 ／ 生成 2026-10-09 14:41 JST</p>
+<p class="note">分類体系 version 1（大分類 6・小分類 30）／ 推移 2026-07〜2026-09 ／ 生成 2026-10-11 17:42 JST</p>
 <div class="kpi">
 <div>記事<b>479</b><small>収集 507・版違い 28 をまとめた</small></div>
 <div>分類済み<b>369</b></div>
@@ -86,6 +90,8 @@ nav.pages{font-size:.85rem;margin:.2em 0 .6em} nav.pages a,nav.pages span{margin
 </table></div>
 <p class="note pc-only">右の列は当月の週別件数</p><div class="hl">
 最も記事が多かった小分類：<a href="#detail-models"><b>新モデル・新世代の発表</b></a> 53件<br>前月から最も増えた小分類：<a href="#detail-safety"><b>安全性研究・リスク管理・倫理</b></a> 11 → 28件（+17）</div>
+<div class="two">
+<div>
 
 <h2 id="features">今月の特徴</h2>
 <h3>今月の特徴語</h3>
@@ -94,6 +100,976 @@ nav.pages{font-size:.85rem;margin:.2em 0 .6em} nav.pages a,nav.pages span{margin
 <h3>前月より減った語</h3>
 <div class="terms down"><span>qwen3.8-27b <small>15→2</small></span><span>qwen <small>25→13</small></span><span>nvidia <small>48→36</small></span><span>times <small>6→0</small></span><span>agentic <small>13→4</small></span><span>deepseek v4 <small>8→1</small></span><span>code <small>12→4</small></span><span>open <small>23→14</small></span><span>ai-generated <small>5→0</small></span><span>glimmer <small>5→0</small></span></div>
 <p class="note">前月（2026-08）に多く、今月に減った語（数字は前月→今月の記事数）</p>
+</div>
+<div>
+<h2 id="distribution">記事の分布</h2>
+<p class="note sp-only">記事の分布は PC で表示します</p>
+<div class="pc-only">
+<svg viewBox="0 0 560 420" class="chart" role="img" aria-label="記事の分布">
+<rect width="560" height="420" fill="#FAFAFA"/>
+<a href="https://the-decoder.com/claude-fable-5-1-decoded-a-centuries-old-royalist-message-hidden-in-plain-sight-since-1653/" target="_blank" rel="noopener"><circle cx="529.0" cy="108.3" r="3.2" fill="#C8C8C8" fill-opacity="0.85"><title>Claude Fable 5.1 decoded a centuries-old royalist message hidden in plain sight since 1653
+2026-09-03・THE DECODER・未分類</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w7q92n/qwen3827b_beat_the_wikipedia_game_in_6_clicks/" target="_blank" rel="noopener"><circle cx="121.2" cy="116.9" r="3.2" fill="#C8C8C8" fill-opacity="0.85"><title>Qwen3.8-27B beat the Wikipedia game in 6 clicks.
+2026-09-05・r/LocalLLaMA (Reddit)・未分類</title></circle></a>
+<a href="https://the-decoder.com/gpt-6-astra-beat-portal-start-to-finish-without-human-help-in-under-24-hours/" target="_blank" rel="noopener"><circle cx="396.7" cy="83.9" r="3.2" fill="#C8C8C8" fill-opacity="0.85"><title>GPT-6 Astra beat Portal start to finish without human help in under 24 hours
+2026-09-08・THE DECODER・未分類</title></circle></a>
+<a href="https://the-decoder.com/chatgpt-claws-back-web-traffic-share-to-55-5-percent-as-geminis-brief-comeback-fades/" target="_blank" rel="noopener"><circle cx="429.2" cy="185.9" r="3.2" fill="#C8C8C8" fill-opacity="0.85"><title>ChatGPT claws back web traffic share to 55.5 percent as Gemini&#39;s brief comeback fades
+2026-09-08・THE DECODER・未分類</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w9wvkb/after_over_a_year_of_my_nights_and_weekends_the/" target="_blank" rel="noopener"><circle cx="291.6" cy="258.7" r="3.2" fill="#C8C8C8" fill-opacity="0.85"><title>After over a year of my nights and weekends, the Jenny app is done!
+2026-09-08・r/LocalLLaMA (Reddit)・未分類</title></circle></a>
+<a href="https://the-decoder.com/asml-locks-in-tsmc-samsung-and-intel-while-huawei-races-to-break-its-grip/" target="_blank" rel="noopener"><circle cx="81.7" cy="219.9" r="3.2" fill="#C8C8C8" fill-opacity="0.85"><title>ASML locks in TSMC, Samsung, and Intel while Huawei races to break its grip
+2026-09-09・THE DECODER・未分類</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/10/shopify-react-native/" target="_blank" rel="noopener"><circle cx="105.3" cy="105.1" r="3.2" fill="#C8C8C8" fill-opacity="0.85"><title>Native is now the future of mobile at Shopify
+2026-09-11・Simon Willison’s Weblog (llms)・未分類</title></circle></a>
+<a href="https://the-decoder.com/anthropics-1-5-billion-book-settlement-descends-into-chaos-as-authors-and-publishers-fight-over-who-gets-paid/" target="_blank" rel="noopener"><circle cx="542.2" cy="186.3" r="3.2" fill="#C8C8C8" fill-opacity="0.85"><title>Anthropic&#39;s $1.5 billion book settlement descends into chaos as authors and publishers fight over who gets paid
+2026-09-11・THE DECODER・未分類</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wepx7w/this_seems_more_probable_than_it_was_before/" target="_blank" rel="noopener"><circle cx="330.9" cy="287.3" r="3.2" fill="#C8C8C8" fill-opacity="0.85"><title>This seems more probable than it was before.
+2026-09-13・r/LocalLLaMA (Reddit)・未分類</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wfhiqx/plot_twist/" target="_blank" rel="noopener"><circle cx="336.8" cy="294.3" r="3.2" fill="#C8C8C8" fill-opacity="0.85"><title>Plot twist
+2026-09-14・r/LocalLLaMA (Reddit)・未分類</title></circle></a>
+<a href="https://the-decoder.com/clay-mathematics-institute-says-the-navier-stokes-millennium-prize-problem-has-apparently-been-settled/" target="_blank" rel="noopener"><circle cx="394.3" cy="250.7" r="3.2" fill="#C8C8C8" fill-opacity="0.85"><title>Clay Mathematics Institute says the Navier-Stokes Millennium Prize Problem has &#34;apparently been settled&#34;
+2026-09-14・THE DECODER・未分類</title></circle></a>
+<a href="https://the-decoder.com/openais-gpt-6-astra-decrypts-a-nazi-radio-message-in-ten-hours-that-went-unsolved-for-83-years/" target="_blank" rel="noopener"><circle cx="403.8" cy="98.3" r="3.2" fill="#C8C8C8" fill-opacity="0.85"><title>OpenAI&#39;s GPT-6 Astra decrypts a Nazi radio message in ten hours that went unsolved for 83 years
+2026-09-17・THE DECODER・未分類</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wleg4w/what_is_jev_and_what_is_it_used_for/" target="_blank" rel="noopener"><circle cx="289.0" cy="284.6" r="3.2" fill="#C8C8C8" fill-opacity="0.85"><title>What is JEV and what is it used for?
+2026-09-20・r/LocalLLaMA (Reddit)・未分類</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wl9c2o/chinas_cxmt_says_new_memorychip_platform_enters/" target="_blank" rel="noopener"><circle cx="66.4" cy="216.7" r="3.2" fill="#C8C8C8" fill-opacity="0.85"><title>China&#39;s CXMT says new memory-chip platform enters mass production
+2026-09-20・r/LocalLLaMA (Reddit)・未分類</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wmga1r/how_it_feels_watching_prices_go_up/" target="_blank" rel="noopener"><circle cx="334.5" cy="286.9" r="3.2" fill="#C8C8C8" fill-opacity="0.85"><title>How it feels watching prices go up
+2026-09-22・r/LocalLLaMA (Reddit)・未分類</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wm65le/i_really_dont_understand_jev_hype/" target="_blank" rel="noopener"><circle cx="295.2" cy="293.2" r="3.2" fill="#C8C8C8" fill-opacity="0.85"><title>I really don&#39;t understand Jev hype
+2026-09-21・r/LocalLLaMA (Reddit)・未分類</title></circle></a>
+<a href="https://the-decoder.com/sakana-ai-hires-jurgen-schmidhuber-inventor-of-deep-learning-world-models-and-your-next-chatgpt-update/" target="_blank" rel="noopener"><circle cx="484.8" cy="382.8" r="3.2" fill="#C8C8C8" fill-opacity="0.85"><title>Sakana AI hires Jürgen Schmidhuber, inventor of deep learning, world models, and your next ChatGPT update
+2026-09-25・THE DECODER・未分類</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wouby6/jev_almost_dead_clm_vs_jev/" target="_blank" rel="noopener"><circle cx="289.3" cy="283.4" r="3.2" fill="#C8C8C8" fill-opacity="0.85"><title>JEV almost dead: CLM vs JEV
+2026-09-24・r/LocalLLaMA (Reddit)・未分類</title></circle></a>
+<a href="https://the-decoder.com/former-ukrainian-defense-minister-fedorov-pitches-a-private-sector-robot-army/" target="_blank" rel="noopener"><circle cx="508.0" cy="295.0" r="3.2" fill="#C8C8C8" fill-opacity="0.85"><title>Former Ukrainian Defense Minister Fedorov pitches a private-sector robot army
+2026-09-27・THE DECODER・未分類</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/26/kakapo-party/" target="_blank" rel="noopener"><circle cx="313.7" cy="353.9" r="3.2" fill="#C8C8C8" fill-opacity="0.85"><title>Kākāpō Party
+2026-09-27・Simon Willison’s Weblog (llms)・未分類</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wtvx1g/thank_you_mradermacher/" target="_blank" rel="noopener"><circle cx="328.0" cy="132.7" r="3.2" fill="#C8C8C8" fill-opacity="0.85"><title>Thank You, Mradermacher.
+2026-09-30・r/LocalLLaMA (Reddit)・未分類</title></circle></a>
+<a href="https://the-decoder.com/chinas-cxmt-makes-its-first-hbm3e-chips-closing-the-ai-memory-gap/" target="_blank" rel="noopener"><circle cx="73.4" cy="220.8" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>China&#39;s CXMT makes its first HBM3E chips, closing the AI memory gap
+2026-09-01・THE DECODER・国家間競争・地政学・産業政策</title></circle></a>
+<a href="https://the-decoder.com/openai-says-its-chatgpt-ad-business-hits-a-1-billion-annual-run-rate/" target="_blank" rel="noopener"><circle cx="424.5" cy="200.1" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>OpenAI says its ChatGPT ad business hits a $1 billion annual run rate
+2026-09-01・THE DECODER・資金調達・IPO・買収・大型契約</title></circle></a>
+<a href="https://the-decoder.com/google-deepminds-new-chief-says-frontier-ai-leadership-is-the-only-thing-that-matters/" target="_blank" rel="noopener"><circle cx="487.5" cy="380.5" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Google Deepmind&#39;s new chief says frontier AI leadership is the only thing that matters
+2026-09-02・THE DECODER・企業の経営・戦略・人事・訴訟</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w4oadx/really_stunned_by_the_singularity_comment_section/" target="_blank" rel="noopener"><circle cx="320.5" cy="323.3" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Really stunned by the Singularity comment section
+2026-09-02・r/LocalLLaMA (Reddit)・コミュニティの雑談・意見・ミーム</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w4l9cp/fingers_crossed_for_a_122b_or_really_anything/" target="_blank" rel="noopener"><circle cx="182.0" cy="219.3" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Fingers crossed for a 122b or really anything above 31b.🤞
+2026-09-02・r/LocalLLaMA (Reddit)・コミュニティの雑談・意見・ミーム</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w4fp6w/intel_hints_it_may_get_back_into_memory_business/" target="_blank" rel="noopener"><circle cx="59.1" cy="233.5" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Intel hints it may get back into memory business
+2026-09-02・r/LocalLLaMA (Reddit)・企業の経営・戦略・人事・訴訟</title></circle></a>
+<a href="https://huggingface.co/blog/ibm-research/real-time-intelligence" target="_blank" rel="noopener"><circle cx="129.0" cy="311.2" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Real-Time Intelligence with IBM Time Series Models on Confluent 
+2026-09-02・Hugging Face Blog・データセンター・大規模推論基盤</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w50ur8/localllama_is_unironically_one_of_the_best_places/" target="_blank" rel="noopener"><circle cx="220.8" cy="258.5" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>LocalLLaMA is unironically one of the best places to go to get up to date AI news.
+2026-09-02・r/LocalLLaMA (Reddit)・コミュニティの雑談・意見・ミーム</title></circle></a>
+<a href="https://the-decoder.com/protests-against-ai-data-centers-play-into-chinas-hands-trump-says/" target="_blank" rel="noopener"><circle cx="542.4" cy="332.1" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Protests against AI data centers play into China&#39;s hands, Trump says
+2026-09-02・THE DECODER・国家間競争・地政学・産業政策</title></circle></a>
+<a href="https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/" target="_blank" rel="noopener"><circle cx="100.1" cy="323.2" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference
+2026-09-03・NVIDIA Developer Blog・データセンター・大規模推論基盤</title></circle></a>
+<a href="https://the-decoder.com/anthropic-ramps-up-claude-infrastructure-with-35-billion-lambda-deal/" target="_blank" rel="noopener"><circle cx="543.2" cy="200.9" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Anthropic ramps up Claude infrastructure with $35 billion Lambda deal
+2026-09-03・THE DECODER・資金調達・IPO・買収・大型契約</title></circle></a>
+<a href="https://the-decoder.com/openai-ceo-sam-altman-warns-of-unsustainable-silliness-in-compute-buildout/" target="_blank" rel="noopener"><circle cx="511.1" cy="268.2" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>OpenAI CEO Sam Altman warns of &#34;unsustainable silliness&#34; in compute buildout
+2026-09-03・THE DECODER・企業の経営・戦略・人事・訴訟</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w65uhf/its_official_nvidia_to_acquire_hugging_face_for/" target="_blank" rel="noopener"><circle cx="124.0" cy="231.1" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>It&#39;s official! Nvidia to acquire Hugging Face for 12.9 billion dollars.
+2026-09-03・r/LocalLLaMA (Reddit)・資金調達・IPO・買収・大型契約</title></circle></a>
+<a href="https://the-decoder.com/nvidia-buys-the-front-door-to-open-ai-as-closed-labs-increasingly-design-their-own-silicon/" target="_blank" rel="noopener"><circle cx="128.7" cy="240.8" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Nvidia buys the front door to open AI as closed labs increasingly design their own silicon
+2026-09-03・THE DECODER・資金調達・IPO・買収・大型契約</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w5zdx4/my_rule_of_thumb_of_choosing_a_models/" target="_blank" rel="noopener"><circle cx="287.5" cy="220.6" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>My RULE of Thumb of choosing a models
+2026-09-03・r/LocalLLaMA (Reddit)・コミュニティの雑談・意見・ミーム</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w71bax/nvidias_1293030000000_acquisition_of_hugging_face/" target="_blank" rel="noopener"><circle cx="125.9" cy="213.5" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>NVIDIA&#39;s $12,930,300,000.00 acquisition of Hugging Face contains an easter egg. The first 6 numbers of the acquisition price represent the decimal conversion of Unicode character U+1F917. The 🤗 emoji.
+2026-09-04・r/LocalLLaMA (Reddit)・資金調達・IPO・買収・大型契約</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w7990o/georgi_gerganov_on_the_nvidia_acquisition/" target="_blank" rel="noopener"><circle cx="118.3" cy="254.4" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Georgi Gerganov on the Nvidia acquisition
+2026-09-05・r/LocalLLaMA (Reddit)・資金調達・IPO・買収・大型契約</title></circle></a>
+<a href="https://the-decoder.com/deepseek-plans-the-largest-known-huawei-chip-cluster-with-160000-processors-in-inner-mongolia/" target="_blank" rel="noopener"><circle cx="96.4" cy="216.4" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia
+2026-09-04・THE DECODER・データセンター・大規模推論基盤</title></circle></a>
+<a href="https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months/" target="_blank" rel="noopener"><circle cx="394.1" cy="153.7" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>OpenAI developer claims Astra boosted productivity so much it pulled some plans forward by six months
+2026-09-06・THE DECODER・経済・雇用・社会への影響</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w8vx6w/8_uncensored_qwen_38_27b_variants_one_base_167/" target="_blank" rel="noopener"><circle cx="112.0" cy="136.6" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>8 uncensored Qwen 3.8 27B variants, one base, 167 GPU hours - Abliterlitics
+2026-09-06・r/LocalLLaMA (Reddit)・データセンター・大規模推論基盤</title></circle></a>
+<a href="https://the-decoder.com/at-ubs-ai-skills-are-now-a-condition-for-landing-a-job/" target="_blank" rel="noopener"><circle cx="461.2" cy="330.3" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>At UBS, AI skills are now a condition for landing a job
+2026-09-07・THE DECODER・経済・雇用・社会への影響</title></circle></a>
+<a href="https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk/" target="_blank" rel="noopener"><circle cx="534.6" cy="234.0" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Anthropic reportedly signs $517 billion in compute deals after Dario Amodei warned rivals about reckless risk
+2026-09-08・THE DECODER・資金調達・IPO・買収・大型契約</title></circle></a>
+<a href="https://the-decoder.com/how-ai-wiped-out-an-entire-industry-in-nairobi/" target="_blank" rel="noopener"><circle cx="444.4" cy="190.3" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>How AI wiped out an entire industry in Nairobi
+2026-09-07・THE DECODER・経済・雇用・社会への影響</title></circle></a>
+<a href="https://the-decoder.com/patagonia-has-what-ai-data-centers-want-including-no-resistance-so-far/" target="_blank" rel="noopener"><circle cx="534.7" cy="311.9" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Patagonia has what AI data centers want, including no resistance so far
+2026-09-09・THE DECODER・国家間競争・地政学・産業政策</title></circle></a>
+<a href="https://the-decoder.com/meta-drops-ai-usage-from-engineer-performance-reviews-after-tokenmaxxing-backfires/" target="_blank" rel="noopener"><circle cx="446.2" cy="226.7" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Meta drops AI usage from engineer performance reviews after &#34;tokenmaxxing&#34; backfires
+2026-09-08・THE DECODER・経済・雇用・社会への影響</title></circle></a>
+<a href="https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/" target="_blank" rel="noopener"><circle cx="142.4" cy="386.4" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Introducing CUDA Rust: Two Tracks for Writing GPU Kernels
+2026-09-08・NVIDIA Developer Blog・データセンター・大規模推論基盤</title></circle></a>
+<a href="https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals/" target="_blank" rel="noopener"><circle cx="512.4" cy="227.3" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Mistral AI raises 3 billion euros in Europe&#39;s largest-ever tech funding round despite lagging behind rivals
+2026-09-08・THE DECODER・資金調達・IPO・買収・大型契約</title></circle></a>
+<a href="https://the-decoder.com/openai-researcher-allegedly-pressured-mathematician-to-drop-anthropic-co-author-from-math-breakthrough-paper/" target="_blank" rel="noopener"><circle cx="405.9" cy="265.2" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>OpenAI researcher allegedly pressured mathematician to drop Anthropic co-author from math breakthrough paper
+2026-09-09・THE DECODER・企業の経営・戦略・人事・訴訟</title></circle></a>
+<a href="https://the-decoder.com/openais-millennium-proof-dispute-raises-the-question-of-whether-researchers-can-trust-ai-labs/" target="_blank" rel="noopener"><circle cx="429.8" cy="277.3" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>OpenAI&#39;s millennium proof dispute raises the question of whether researchers can trust AI labs
+2026-09-09・THE DECODER・企業の経営・戦略・人事・訴訟</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wbfrut/deepseek_has_soft_retired_deepseek_v4_pro/" target="_blank" rel="noopener"><circle cx="165.9" cy="80.0" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Deepseek Has Soft Retired Deepseek V4 Pro
+2026-09-09・r/LocalLLaMA (Reddit)・企業の経営・戦略・人事・訴訟</title></circle></a>
+<a href="https://the-decoder.com/aws-is-using-qualcomm-for-ai-inference-while-qualcomm-uses-aws-bedrock-to-design-the-chips/" target="_blank" rel="noopener"><circle cx="107.7" cy="228.7" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>AWS is using Qualcomm for AI inference while Qualcomm uses AWS Bedrock to design the chips
+2026-09-09・THE DECODER・企業の経営・戦略・人事・訴訟</title></circle></a>
+<a href="https://the-decoder.com/anthropic-built-an-economic-model-that-frames-its-ceos-bleakest-job-forecasts-as-an-outlier-scenario/" target="_blank" rel="noopener"><circle cx="538.6" cy="264.3" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Anthropic built an economic model that frames its CEO&#39;s bleakest job forecasts as an outlier scenario
+2026-09-10・THE DECODER・経済・雇用・社会への影響</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wc6krf/so_relevant/" target="_blank" rel="noopener"><circle cx="325.2" cy="293.7" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>So relevant
+2026-09-10・r/LocalLLaMA (Reddit)・コミュニティの雑談・意見・ミーム</title></circle></a>
+<a href="https://the-decoder.com/top-ai-spenders-cut-per-employee-costs-by-nearly-10-percent-in-august/" target="_blank" rel="noopener"><circle cx="444.9" cy="231.7" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Top AI spenders cut per-employee costs by nearly 10 percent in August
+2026-09-10・THE DECODER・経済・雇用・社会への影響</title></circle></a>
+<a href="https://the-decoder.com/nvidia-and-palantir-team-up-to-run-supply-chains-with-ai-starting-with-nvidias-own-million-part-operation/" target="_blank" rel="noopener"><circle cx="108.8" cy="376.1" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Nvidia and Palantir team up to run supply chains with AI, starting with Nvidia&#39;s own million-part operation
+2026-09-10・THE DECODER・資金調達・IPO・買収・大型契約</title></circle></a>
+<a href="https://developer.nvidia.com/blog/how-full-stack-nim-optimizations-deliver-2-5x-more-users-on-nemotron-3-ultra/" target="_blank" rel="noopener"><circle cx="82.5" cy="359.1" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>How Full-Stack NIM Optimizations Deliver 2.5x More Users on Nemotron 3 Ultra
+2026-09-11・NVIDIA Developer Blog・データセンター・大規模推論基盤</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/" target="_blank" rel="noopener"><circle cx="301.2" cy="381.4" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Feeling sad about AI
+2026-09-12・Simon Willison’s Weblog (llms)・コミュニティの雑談・意見・ミーム</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/12/paul-ford/" target="_blank" rel="noopener"><circle cx="292.0" cy="403.7" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Quoting Paul Ford
+2026-09-13・Simon Willison’s Weblog (llms)・経済・雇用・社会への影響</title></circle></a>
+<a href="https://the-decoder.com/nvidia-wants-to-pour-up-to-10-billion-into-anthropics-record-breaking-ipo/" target="_blank" rel="noopener"><circle cx="540.0" cy="221.1" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Nvidia wants to pour up to $10 billion into Anthropic&#39;s record-breaking IPO
+2026-09-12・THE DECODER・資金調達・IPO・買収・大型契約</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wf3i1m/the_local_llm_community_feels_like_the_golden_era/" target="_blank" rel="noopener"><circle cx="227.5" cy="260.5" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>The Local LLM community feels like the golden era of the internet all over again
+2026-09-13・r/LocalLLaMA (Reddit)・コミュニティの雑談・意見・ミーム</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1weujw6/the_hugging_bay/" target="_blank" rel="noopener"><circle cx="322.1" cy="291.9" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>The Hugging Bay
+2026-09-13・r/LocalLLaMA (Reddit)・コミュニティの雑談・意見・ミーム</title></circle></a>
+<a href="https://the-decoder.com/openai-has-hundreds-of-contract-workers-reading-your-chatgpt-conversations/" target="_blank" rel="noopener"><circle cx="405.5" cy="235.1" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>OpenAI has hundreds of contract workers reading your ChatGPT conversations
+2026-09-15・THE DECODER・経済・雇用・社会への影響</title></circle></a>
+<a href="https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo/" target="_blank" rel="noopener"><circle cx="538.2" cy="238.7" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Anthropic eyes Nasdaq listing as a second profitable quarter aims to win over investors ahead of a mega-IPO
+2026-09-15・THE DECODER・資金調達・IPO・買収・大型契約</title></circle></a>
+<a href="https://the-decoder.com/china-fires-back-at-u-s-ai-safety-warnings-calling-them-fearmongering-to-lock-in-american-advantage/" target="_blank" rel="noopener"><circle cx="537.3" cy="343.5" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>China fires back at U.S. AI safety warnings, calling them fearmongering to lock in American advantage
+2026-09-14・THE DECODER・国家間競争・地政学・産業政策</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/14/laurie-voss/" target="_blank" rel="noopener"><circle cx="294.5" cy="397.7" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Quoting Laurie Voss
+2026-09-14・Simon Willison’s Weblog (llms)・経済・雇用・社会への影響</title></circle></a>
+<a href="https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-deterministic-execution-drives-power-efficient-high-interactivity-inference-on-nvidia-vera-rubin/" target="_blank" rel="noopener"><circle cx="79.8" cy="360.6" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>How NVIDIA Groq 3 LPX Deterministic Execution Drives Power-Efficient High-Interactivity Inference on NVIDIA Vera Rubin
+2026-09-16・NVIDIA Developer Blog・データセンター・大規模推論基盤</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wgwe4n/crofai_cheapest_inference_provider_in_the_world/" target="_blank" rel="noopener"><circle cx="360.3" cy="336.6" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>CrofAI &#34;cheapest inference provider in the world&#34; gets exposed as an OpenRouter wrapper, routing requests to smaller, cheaper models at up to 20x markup. CrofAI responds to Wire Fraud allegations by denying everything, then backtracking, then 3 hours later wiping their entire online presence
+2026-09-15・r/LocalLLaMA (Reddit)・企業の経営・戦略・人事・訴訟</title></circle></a>
+<a href="https://the-decoder.com/after-warning-ai-is-too-dangerous-bill-gates-bets-a-billion-on-its-upside/" target="_blank" rel="noopener"><circle cx="482.4" cy="273.2" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>After warning AI is too dangerous, Bill Gates bets a billion on its upside
+2026-09-15・THE DECODER・経済・雇用・社会への影響</title></circle></a>
+<a href="https://developer.nvidia.com/blog/how-nvidia-nvlink-6-delivers-multi-layer-resiliency-for-ai-factories/" target="_blank" rel="noopener"><circle cx="97.8" cy="380.8" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>How NVIDIA NVLink 6 Delivers Multi-Layer Resiliency for AI Factories
+2026-09-16・NVIDIA Developer Blog・データセンター・大規模推論基盤</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1why9ao/apple_may_return_to_server_market_with_nvidia/" target="_blank" rel="noopener"><circle cx="83.1" cy="250.6" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Apple May Return to Server Market With Nvidia Technology
+2026-09-16・r/LocalLLaMA (Reddit)・企業の経営・戦略・人事・訴訟</title></circle></a>
+<a href="https://the-decoder.com/apple-is-reportedly-building-an-enterprise-ai-server-with-its-own-m8-ultra-chips/" target="_blank" rel="noopener"><circle cx="84.5" cy="209.7" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Apple is reportedly building an enterprise AI server with its own M8 Ultra chips
+2026-09-17・THE DECODER・データセンター・大規模推論基盤</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1whsw2g/mozilla_report_chinaus_ai_model_capability_gap/" target="_blank" rel="noopener"><circle cx="402.9" cy="217.7" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Mozilla Report: China-U.S. AI Model Capability Gap Narrows to 4.4 Months
+2026-09-16・r/LocalLLaMA (Reddit)・国家間競争・地政学・産業政策</title></circle></a>
+<a href="https://the-decoder.com/openai-reportedly-closes-in-on-solving-the-hodge-conjecture-its-second-millennium-prize-problem/" target="_blank" rel="noopener"><circle cx="395.6" cy="256.9" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>OpenAI reportedly closes in on solving the Hodge conjecture, its second Millennium Prize Problem
+2026-09-18・THE DECODER・企業の経営・戦略・人事・訴訟</title></circle></a>
+<a href="https://the-decoder.com/openrouters-staggering-token-chart-is-the-ai-bubble-debate-in-a-single-image/" target="_blank" rel="noopener"><circle cx="444.0" cy="227.7" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>OpenRouter&#39;s staggering token chart is the AI bubble debate in a single image
+2026-09-17・THE DECODER・経済・雇用・社会への影響</title></circle></a>
+<a href="https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf/" target="_blank" rel="noopener"><circle cx="102.5" cy="352.9" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Benchmarking LLM Inference at Scale with AIPerf
+2026-09-19・NVIDIA Developer Blog・データセンター・大規模推論基盤</title></circle></a>
+<a href="https://the-decoder.com/ai-training-built-on-fair-use-looks-shaky-when-the-companies-own-people-call-it-astonishing-theft/" target="_blank" rel="noopener"><circle cx="421.8" cy="293.0" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>AI training built on fair use looks shaky when the companies&#39; own people call it &#34;astonishing theft&#34;
+2026-09-19・THE DECODER・企業の経営・戦略・人事・訴訟</title></circle></a>
+<a href="https://the-decoder.com/following-openai-anthropic-is-also-reportedly-postponing-its-ipo/" target="_blank" rel="noopener"><circle cx="531.3" cy="246.7" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Following OpenAI, Anthropic is also reportedly postponing its IPO
+2026-09-20・THE DECODER・資金調達・IPO・買収・大型契約</title></circle></a>
+<a href="https://the-decoder.com/daily-ai-usage-in-the-u-s-has-more-than-doubled-in-just-six-months/" target="_blank" rel="noopener"><circle cx="436.7" cy="240.6" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Daily AI usage in the U.S. has more than doubled in just six months
+2026-09-20・THE DECODER・経済・雇用・社会への影響</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/20/voxium/" target="_blank" rel="noopener"><circle cx="287.9" cy="401.0" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Quoting voxium
+2026-09-21・Simon Willison’s Weblog (llms)・コミュニティの雑談・意見・ミーム</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wlo52v/lawsuit_says_anthropic_openai_spacexai_and_google/" target="_blank" rel="noopener"><circle cx="525.3" cy="287.7" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown
+2026-09-21・r/LocalLLaMA (Reddit)・企業の経営・戦略・人事・訴訟</title></circle></a>
+<a href="https://developer.nvidia.com/blog/turn-your-latest-observations-into-timely-weather-decisions-with-nvidia-earth-2/" target="_blank" rel="noopener"><circle cx="134.4" cy="361.4" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Turn Your Latest Observations Into Timely Weather Decisions With NVIDIA Earth-2
+2026-09-22・NVIDIA Developer Blog・データセンター・大規模推論基盤</title></circle></a>
+<a href="https://the-decoder.com/softbank-to-borrow-over-11-billion-in-risky-bonds-for-openai-stake/" target="_blank" rel="noopener"><circle cx="528.9" cy="237.6" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>SoftBank to borrow over $11 billion in risky bonds for OpenAI stake
+2026-09-21・THE DECODER・資金調達・IPO・買収・大型契約</title></circle></a>
+<a href="https://developer.nvidia.com/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing/" target="_blank" rel="noopener"><circle cx="123.6" cy="372.3" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Enabling Private High-Performance Production AI Inference with NVIDIA Confidential Computing
+2026-09-23・NVIDIA Developer Blog・データセンター・大規模推論基盤</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wn2ybk/ngram_and_world_knowledge_why_are_we_just/" target="_blank" rel="noopener"><circle cx="314.2" cy="226.6" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Ngram and world knowledge - why are we just building a coding model?
+2026-09-22・r/LocalLLaMA (Reddit)・コミュニティの雑談・意見・ミーム</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wnn6ui/my_local_llm_when_i_tell_it_to_do_any_changes_to/" target="_blank" rel="noopener"><circle cx="225.4" cy="270.6" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>My local llm when I tell it to do any changes to my vLLM service
+2026-09-23・r/LocalLLaMA (Reddit)・コミュニティの雑談・意見・ミーム</title></circle></a>
+<a href="https://developer.nvidia.com/blog/topology-aware-workload-scheduling-with-nvidia-topograph/" target="_blank" rel="noopener"><circle cx="113.6" cy="370.8" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Topology-Aware Workload Scheduling with NVIDIA Topograph
+2026-09-23・NVIDIA Developer Blog・データセンター・大規模推論基盤</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wo1bct/cost_of_intelligence_is_dropping_fast/" target="_blank" rel="noopener"><circle cx="420.3" cy="239.8" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Cost of intelligence is dropping fast
+2026-09-23・r/LocalLLaMA (Reddit)・経済・雇用・社会への影響</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wo6o0f/mods_can_we_do_something_about_half_the_forum/" target="_blank" rel="noopener"><circle cx="291.0" cy="289.9" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Mods: can we do something about half the forum getting filled with these advertising posts for Jev?
+2026-09-23・r/LocalLLaMA (Reddit)・コミュニティの雑談・意見・ミーム</title></circle></a>
+<a href="https://the-decoder.com/nvidia-backed-nscale-keeps-its-biggest-customer-bytedance-out-of-its-ipo-filing/" target="_blank" rel="noopener"><circle cx="125.7" cy="234.2" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Nvidia-backed Nscale keeps its biggest customer, Bytedance, out of its IPO filing
+2026-09-23・THE DECODER・資金調達・IPO・買収・大型契約</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1woe70t/jev_isnt_new_tech_its_marketing_targets_people/" target="_blank" rel="noopener"><circle cx="285.0" cy="285.9" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Jev isn&#39;t new tech. Its marketing targets people who think AI started with LLMs.
+2026-09-24・r/LocalLLaMA (Reddit)・コミュニティの雑談・意見・ミーム</title></circle></a>
+<a href="https://the-decoder.com/openai-hires-patreon-co-founder-sam-yam-to-lead-a-new-creator-product-division/" target="_blank" rel="noopener"><circle cx="482.3" cy="285.9" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>OpenAI hires Patreon co-founder Sam Yam to lead a new Creator Product division
+2026-09-23・THE DECODER・企業の経営・戦略・人事・訴訟</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wnzlav/this_is_not_even_a_competition_at_this_point_this/" target="_blank" rel="noopener"><circle cx="324.2" cy="296.4" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>this is not even a competition at this point ... this is embarrassing
+2026-09-23・r/LocalLLaMA (Reddit)・コミュニティの雑談・意見・ミーム</title></circle></a>
+<a href="https://developer.nvidia.com/blog/introducing-nv-reason-ct-open-3d-ct-vlm-for-radiologist-chain-of-thought-reasoning/" target="_blank" rel="noopener"><circle cx="119.1" cy="353.9" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning
+2026-09-24・NVIDIA Developer Blog・データセンター・大規模推論基盤</title></circle></a>
+<a href="https://the-decoder.com/deepmind-was-built-to-chase-agi-but-its-new-chief-just-wants-gemini-4-out-the-door/" target="_blank" rel="noopener"><circle cx="487.4" cy="386.1" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Deepmind was built to chase AGI, but its new chief just wants Gemini 4 out the door
+2026-09-24・THE DECODER・企業の経営・戦略・人事・訴訟</title></circle></a>
+<a href="https://the-decoder.com/googles-suncatcher-project-aims-to-put-ai-data-centers-in-orbit-powered-by-solar-energy/" target="_blank" rel="noopener"><circle cx="96.5" cy="205.2" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Google&#39;s Suncatcher project aims to put AI data centers in orbit powered by solar energy
+2026-09-25・THE DECODER・企業の経営・戦略・人事・訴訟</title></circle></a>
+<a href="https://the-decoder.com/intelligence-doesnt-come-cheap-as-ai-drives-up-costs-for-the-nsa-hospitals-and-insurers/" target="_blank" rel="noopener"><circle cx="442.4" cy="252.7" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Intelligence doesn&#39;t come cheap as AI drives up costs for the NSA, hospitals, and insurers
+2026-09-25・THE DECODER・経済・雇用・社会への影響</title></circle></a>
+<a href="https://the-decoder.com/anthropic-signs-11-6-billion-cloud-deal-with-akamai-pushing-its-compute-spending-past-500-billion-in-under-a-year/" target="_blank" rel="noopener"><circle cx="540.8" cy="217.2" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Anthropic signs $11.6 billion cloud deal with Akamai, pushing its compute spending past $500 billion in under a year
+2026-09-25・THE DECODER・資金調達・IPO・買収・大型契約</title></circle></a>
+<a href="https://the-decoder.com/two-thirds-of-it-leaders-report-ai-results-but-few-would-interrupt-the-ceos-vacation-over-them/" target="_blank" rel="noopener"><circle cx="458.8" cy="243.4" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Two-thirds of IT leaders report AI results, but few would interrupt the CEO&#39;s vacation over them
+2026-09-27・THE DECODER・経済・雇用・社会への影響</title></circle></a>
+<a href="https://the-decoder.com/goldman-sachs-expects-big-tech-to-spend-1-2-trillion-on-ai-infrastructure-by-2027-dwarfing-wall-street-estimates/" target="_blank" rel="noopener"><circle cx="508.0" cy="240.8" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Goldman Sachs expects Big Tech to spend $1.2 trillion on AI infrastructure by 2027, dwarfing Wall Street estimates
+2026-09-27・THE DECODER・経済・雇用・社会への影響</title></circle></a>
+<a href="https://the-decoder.com/meta-wants-to-turn-muse-into-a-moneymaker-by-selling-ai-services-to-businesses/" target="_blank" rel="noopener"><circle cx="275.8" cy="27.5" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Meta wants to turn Muse into a moneymaker by selling AI services to businesses
+2026-09-28・THE DECODER・企業の経営・戦略・人事・訴訟</title></circle></a>
+<a href="https://developer.nvidia.com/blog/how-nvidia-dsx-maxlps-maximizes-ai-factory-throughput-and-efficiency/" target="_blank" rel="noopener"><circle cx="71.3" cy="365.6" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>How NVIDIA DSX MaxLPS Maximizes AI Factory Throughput and Efficiency
+2026-09-28・NVIDIA Developer Blog・データセンター・大規模推論基盤</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wsc0iz/guys_i_promise_it_wasnt_me/" target="_blank" rel="noopener"><circle cx="330.1" cy="299.6" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Guys I promise It wasn&#39;t me 😭😭
+2026-09-28・r/LocalLLaMA (Reddit)・コミュニティの雑談・意見・ミーム</title></circle></a>
+<a href="https://the-decoder.com/anthropics-ipo-filing-shows-soaring-revenue-mounting-costs-and-existential-risks/" target="_blank" rel="noopener"><circle cx="528.8" cy="250.3" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Anthropic&#39;s IPO filing shows soaring revenue, mounting costs, and &#34;existential&#34; risks
+2026-09-29・THE DECODER・資金調達・IPO・買収・大型契約</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wtc4j9/amds_new_256_core_epyc_has_16channel_ddr512800_91/" target="_blank" rel="noopener"><circle cx="24.8" cy="200.5" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>AMD&#39;s new 256 core EPYC has 16-channel DDR5-12800, 91% memory bandwidth of an RTX 5090
+2026-09-29・r/LocalLLaMA (Reddit)・データセンター・大規模推論基盤</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wth4iz/anthropic_just_dropped_the_greatest_advertisement/" target="_blank" rel="noopener"><circle cx="505.0" cy="177.1" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Anthropic just dropped the greatest advertisement for GLM ever.
+2026-09-30・r/LocalLLaMA (Reddit)・コミュニティの雑談・意見・ミーム</title></circle></a>
+<a href="https://the-decoder.com/amd-buys-ai-world-model-startup-world-labs-for-8-2-billion/" target="_blank" rel="noopener"><circle cx="120.8" cy="226.8" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>AMD buys AI world model startup World Labs for $8.2 billion
+2026-09-30・THE DECODER・資金調達・IPO・買収・大型契約</title></circle></a>
+<a href="https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/" target="_blank" rel="noopener"><circle cx="432.6" cy="203.0" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>ChatGPT now reaches 1.2 billion people every week, OpenAI says
+2026-09-30・THE DECODER・企業の経営・戦略・人事・訴訟</title></circle></a>
+<a href="https://the-decoder.com/chinas-ai-industry-closes-ranks-as-deepseek-ships-open-source-software-for-huaweis-ascend-chips/" target="_blank" rel="noopener"><circle cx="103.4" cy="220.9" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>China&#39;s AI industry closes ranks as Deepseek ships open-source software for Huawei&#39;s Ascend chips
+2026-09-30・THE DECODER・企業の経営・戦略・人事・訴訟</title></circle></a>
+<a href="https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/" target="_blank" rel="noopener"><circle cx="394.6" cy="283.5" r="3.2" fill="#9D9D9D" fill-opacity="0.85"><title>Google is paying almost no publishers almost nothing for content used in AI answers
+2026-09-30・THE DECODER・経済・雇用・社会への影響</title></circle></a>
+<a href="https://developer.nvidia.com/blog/scale-av-perception-across-vehicle-platforms-with-nvidia-omniverse-nurec/" target="_blank" rel="noopener"><circle cx="130.4" cy="366.8" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Scale AV Perception Across Vehicle Platforms with NVIDIA Omniverse NuRec
+2026-09-01・NVIDIA Developer Blog・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w3hcab/what_are_your_hopes_for_the_new_mistral/" target="_blank" rel="noopener"><circle cx="304.5" cy="111.7" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>What are your hopes for the new Mistral?
+2026-09-01・r/LocalLLaMA (Reddit)・新モデル・新世代の発表</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/1/claude-fable-5-1/" target="_blank" rel="noopener"><circle cx="526.6" cy="111.0" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Claude Fable 5.1 made me a really nice animated pelican
+2026-09-02・Simon Willison’s Weblog (llms)・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w42biu/mtp_released_for_qwen38flashnextgguf/" target="_blank" rel="noopener"><circle cx="106.1" cy="145.2" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>MTP released for Qwen3.8-Flash-Next-GGUF
+2026-09-01・r/LocalLLaMA (Reddit)・オープンウェイトの公開・配布</title></circle></a>
+<a href="https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less/" target="_blank" rel="noopener"><circle cx="533.4" cy="118.4" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Anthropic&#39;s Claude Fable 5.1 promises better coding and research at up to 45 percent less
+2026-09-02・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://the-decoder.com/runways-solaris-is-an-ai-system-that-generates-software-interfaces-in-real-time/" target="_blank" rel="noopener"><circle cx="239.6" cy="152.0" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Runway&#39;s Solaris is an AI system that generates software interfaces in real time
+2026-09-01・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w47nif/new_gemma_models_on_arena_ai/" target="_blank" rel="noopener"><circle cx="283.8" cy="169.6" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>New Gemma models on arena ai
+2026-09-01・r/LocalLLaMA (Reddit)・新モデル・新世代の発表</title></circle></a>
+<a href="https://the-decoder.com/google-geminis-new-agent-based-video-analysis-cuts-token-usage-by-up-to-88-percent/" target="_blank" rel="noopener"><circle cx="256.8" cy="129.9" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Google Gemini&#39;s new agent-based video analysis cuts token usage by up to 88 percent
+2026-09-02・THE DECODER・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://the-decoder.com/gemini-3-8-flash-is-googles-third-budget-model-in-six-weeks-while-frontier-models-remain-mia/" target="_blank" rel="noopener"><circle cx="251.4" cy="125.1" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Gemini 3.8 Flash is Google&#39;s third budget model in six weeks while frontier models remain MIA
+2026-09-03・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w4wjxd/everyone_is_ts_maxing_38_but_after_a_week_of/" target="_blank" rel="noopener"><circle cx="521.7" cy="110.3" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Everyone is t/s maxing.. 3.8.. but after a week of using it for work I&#39;m tempted to switch back to 3.6
+2026-09-02・r/LocalLLaMA (Reddit)・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w5l8bw/muse_spark_open_weights_coming_soon/" target="_blank" rel="noopener"><circle cx="274.3" cy="70.8" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Muse Spark open weights coming soon
+2026-09-03・r/LocalLLaMA (Reddit)・オープンウェイトの公開・配布</title></circle></a>
+<a href="https://the-decoder.com/world-labs-unveils-atlas-a-single-ai-model-that-generates-reconstructs-and-simulates-3d-worlds-from-just-a-few-photos/" target="_blank" rel="noopener"><circle cx="201.5" cy="162.9" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>World Labs unveils Atlas, a single AI model that generates, reconstructs, and simulates 3D worlds from just a few photos
+2026-09-02・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/2/llm-gemini/" target="_blank" rel="noopener"><circle cx="241.2" cy="131.5" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>llm-gemini 0.34
+2026-09-03・Simon Willison’s Weblog (llms)・新モデル・新世代の発表</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/3/gpt6-astra/" target="_blank" rel="noopener"><circle cx="392.6" cy="106.6" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>GPT‑6 Astra
+2026-09-04・Simon Willison’s Weblog (llms)・新モデル・新世代の発表</title></circle></a>
+<a href="https://the-decoder.com/gpt-6-astra-is-the-first-model-making-openai-willing-to-declare-the-agi-era/" target="_blank" rel="noopener"><circle cx="393.7" cy="125.7" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>GPT-6 Astra is the first model making OpenAI willing to declare the &#34;AGI era&#34;
+2026-09-04・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w68rj6/introducing_k2_horizon_frontier_performance/" target="_blank" rel="noopener"><circle cx="318.2" cy="181.5" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Introducing K2 Horizon: Frontier Performance, Radically Open
+2026-09-03・r/LocalLLaMA (Reddit)・新モデル・新世代の発表</title></circle></a>
+<a href="https://huggingface.co/blog/train-to-paint-with-code" target="_blank" rel="noopener"><circle cx="158.4" cy="177.0" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Training a coding model to paint watercolours with TRL and OpenEnv
+2026-09-03・Hugging Face Blog・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://the-decoder.com/meta-closes-in-on-the-top-with-muse-spark-1-3-and-undercuts-rivals-on-price/" target="_blank" rel="noopener"><circle cx="268.4" cy="54.0" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Meta closes in on the top with Muse Spark 1.3, and undercuts rivals on price
+2026-09-03・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://huggingface.co/blog/Hcompany/neomme" target="_blank" rel="noopener"><circle cx="86.8" cy="307.7" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>NeoMME: an efficient Multimodal-native and Multilingual Encoder
+2026-09-03・Hugging Face Blog・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections/" target="_blank" rel="noopener"><circle cx="383.0" cy="112.5" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>OpenAI&#39;s GPT-6 Astra hallucinates less but remains vulnerable to hidden prompt injections
+2026-09-05・THE DECODER・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://the-decoder.com/benchmarks-disagree-on-gpt-6-astra-but-its-human-beating-efficiency-on-arc-agi-3-pulls-chollets-agi-forecast-forward/" target="_blank" rel="noopener"><circle cx="384.0" cy="89.9" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Benchmarks disagree on GPT-6 Astra, but its human-beating efficiency on ARC-AGI-3 pulls Chollet’s AGI forecast forward
+2026-09-04・THE DECODER・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/4/astra-pelicans/" target="_blank" rel="noopener"><circle cx="404.4" cy="109.6" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>The Pelican comparison grid for Astra is pretty interesting
+2026-09-05・Simon Willison’s Weblog (llms)・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/" target="_blank" rel="noopener"><circle cx="368.3" cy="118.2" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Introducing GPT-6 Astra for developers
+2026-09-06・Simon Willison’s Weblog (llms)・新モデル・新世代の発表</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w7y3sa/aa_update_heres_how_the_small_models_score/" target="_blank" rel="noopener"><circle cx="288.7" cy="187.9" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>AA Update! Here&#39;s how the small models score.
+2026-09-05・r/LocalLLaMA (Reddit)・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w7y261/aa_update_heres_how_the_frontier_ranks/" target="_blank" rel="noopener"><circle cx="309.2" cy="179.4" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>AA Update! Here&#39;s how the Frontier ranks.
+2026-09-05・r/LocalLLaMA (Reddit)・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://the-decoder.com/openai-rolls-out-gpt-6-astra-to-top-tier-chatgpt-plans-at-half-the-rate-of-gpt-5-6-sol/" target="_blank" rel="noopener"><circle cx="417.0" cy="132.5" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>OpenAI rolls out GPT-6 Astra to top-tier ChatGPT plans at half the rate of GPT-5.6 Sol
+2026-09-05・THE DECODER・商用モデルの提供条件・価格</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w825pc/the_gap_has_closed_open_source_will_win/" target="_blank" rel="noopener"><circle cx="375.5" cy="237.6" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>The gap has closed, open source will win
+2026-09-05・r/LocalLLaMA (Reddit)・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/" target="_blank" rel="noopener"><circle cx="257.4" cy="139.2" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Google brings AI music generation directly into the Gemini app with its new Lyria 3.5 model
+2026-09-06・THE DECODER・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/" target="_blank" rel="noopener"><circle cx="365.8" cy="116.0" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Introducing GPT-6 Astra for developers
+2026-09-06・Simon Willison’s Weblog (llms)・新モデル・新世代の発表</title></circle></a>
+<a href="https://the-decoder.com/metas-new-real-time-audio-model-is-the-foundation-for-ai-assistants-that-never-stop-listening/" target="_blank" rel="noopener"><circle cx="246.4" cy="83.6" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Meta&#39;s new real-time audio model is the foundation for AI assistants that never stop listening
+2026-09-06・THE DECODER・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data/" target="_blank" rel="noopener"><circle cx="225.1" cy="179.6" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Google&#39;s WeatherNext 3 ditches physics simulations and learns weather directly from live satellite data
+2026-09-06・THE DECODER・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w9ylhh/i_really_hope_the_new_gemma_5_family_sticks_to/" target="_blank" rel="noopener"><circle cx="286.3" cy="211.5" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>I REALLY hope the new gemma 5 family sticks to the &#34;chat model first&#34; philsophy and doesn&#39;t fall into the Qwen trap
+2026-09-08・r/LocalLLaMA (Reddit)・新モデル・新世代の発表</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w9skjz/minicpm52b_release_day/" target="_blank" rel="noopener"><circle cx="176.2" cy="189.8" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>MiniCPM5-2B Release Day
+2026-09-07・r/LocalLLaMA (Reddit)・新モデル・新世代の発表</title></circle></a>
+<a href="https://the-decoder.com/qwen-drive-1-0-tells-you-why-it-brakes-just-dont-expect-the-explanation-to-match-the-maneuver/" target="_blank" rel="noopener"><circle cx="155.6" cy="131.9" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Qwen-Drive 1.0 tells you why it brakes, just don&#39;t expect the explanation to match the maneuver
+2026-09-07・THE DECODER・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wan3nl/deepseek_flash_41_is_already_being_tested_via_api/" target="_blank" rel="noopener"><circle cx="161.2" cy="83.7" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>DeepSeek Flash 4.1 is already being tested via API and rolling out.
+2026-09-08・r/LocalLLaMA (Reddit)・新モデル・新世代の発表</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/8/on-navier-stokes/" target="_blank" rel="noopener"><circle cx="396.9" cy="249.5" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>On the Navier–Stokes Millennium Prize Problem
+2026-09-09・Simon Willison’s Weblog (llms)・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wauxg9/qwenqwendrive104b_hugging_face/" target="_blank" rel="noopener"><circle cx="144.3" cy="156.1" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Qwen/Qwen-Drive-1.0-4B · Hugging Face
+2026-09-09・r/LocalLLaMA (Reddit)・オープンウェイトの公開・配布</title></circle></a>
+<a href="https://the-decoder.com/suno-launches-v6-music-models-built-with-warner-bmg-and-believe/" target="_blank" rel="noopener"><circle cx="228.3" cy="117.7" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Suno launches v6 music models built with Warner, BMG, and Believe
+2026-09-09・THE DECODER・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://the-decoder.com/chatgpt-images-2-5-faster-more-precise-but-not-the-same-for-everyone/" target="_blank" rel="noopener"><circle cx="355.2" cy="163.0" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>ChatGPT Images 2.5: Faster, more precise, but not the same for everyone
+2026-09-09・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series" target="_blank" rel="noopener"><circle cx="228.0" cy="188.3" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license
+2026-09-10・Hugging Face Blog・新モデル・新世代の発表</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wcdati/deepseekv41flash_surprised/" target="_blank" rel="noopener"><circle cx="157.0" cy="87.0" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>DeepSeek-V4.1-Flash surprised ....
+2026-09-10・r/LocalLLaMA (Reddit)・新モデル・新世代の発表</title></circle></a>
+<a href="https://developer.nvidia.com/blog/from-wafer-out-to-first-token-codifying-supply-chain-expertise-with-nemotron-and-palantir-foundry/" target="_blank" rel="noopener"><circle cx="100.3" cy="385.1" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>From Wafer-Out to First Token: Codifying Supply Chain Expertise with Nemotron and Palantir Foundry
+2026-09-10・NVIDIA Developer Blog・小型化・軽量化・量子化・蒸留</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wcbid7/deepseek_v41_flash_is_out/" target="_blank" rel="noopener"><circle cx="161.1" cy="83.9" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>DeepSeek V4-1 Flash is out
+2026-09-10・r/LocalLLaMA (Reddit)・新モデル・新世代の発表</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wcagoi/deepseekaideepseekv41flash_hugging_face/" target="_blank" rel="noopener"><circle cx="147.1" cy="117.3" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>deepseek-ai/DeepSeek-V4.1-Flash · Hugging Face
+2026-09-10・r/LocalLLaMA (Reddit)・オープンウェイトの公開・配布</title></circle></a>
+<a href="https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents/" target="_blank" rel="noopener"><circle cx="153.6" cy="88.6" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>New Deepseek model V4.1-Flash cuts memory needs for AI agents
+2026-09-10・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://the-decoder.com/claude-fable-5-1s-language-is-less-load-bearing-than-its-predecessors/" target="_blank" rel="noopener"><circle cx="533.4" cy="101.1" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Claude Fable 5.1&#39;s language is less &#34;load-bearing&#34; than its predecessor&#39;s
+2026-09-11・THE DECODER・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://the-decoder.com/openais-gpt-live-1-api-lets-developers-build-apps-that-talk-and-listen-at-the-same-time/" target="_blank" rel="noopener"><circle cx="306.9" cy="135.1" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>OpenAI&#39;s GPT-Live-1 API lets developers build apps that talk and listen at the same time
+2026-09-11・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://the-decoder.com/gpt-6-astra-gives-mathematicians-a-breather-and-openai-says-thats-by-design/" target="_blank" rel="noopener"><circle cx="391.8" cy="99.0" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>GPT-6 Astra gives mathematicians a breather, and OpenAI says that&#39;s by design
+2026-09-10・THE DECODER・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wd19c7/new_music_model_yue23b_released/" target="_blank" rel="noopener"><circle cx="211.6" cy="124.2" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>New Music Model YuE2-3B Released!
+2026-09-11・r/LocalLLaMA (Reddit)・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wdc7r9/terminal_bench_v4_scores/" target="_blank" rel="noopener"><circle cx="274.0" cy="182.1" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Terminal Bench v4 scores
+2026-09-11・r/LocalLLaMA (Reddit)・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wdl2qa/qwen3827bhumanlikechat_a_model_i_tuned_to_imitate/" target="_blank" rel="noopener"><circle cx="125.3" cy="131.7" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Qwen3.8-27B-Humanlike-Chat: A model I tuned to imitate realistic human-to-human conversation
+2026-09-12・r/LocalLLaMA (Reddit)・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://the-decoder.com/googles-new-ai-model-predicts-the-future-from-sales-data-weather-and-discount-schedules/" target="_blank" rel="noopener"><circle cx="232.1" cy="171.5" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Google&#39;s new AI model predicts the future from sales data, weather, and discount schedules
+2026-09-12・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1webfsq/bartowskiqwen3827bgguf_hugging_face_updated/" target="_blank" rel="noopener"><circle cx="121.9" cy="156.0" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>bartowski/Qwen3.8-27B-GGUF · Hugging Face - Updated (Per-tensor layout)
+2026-09-12・r/LocalLLaMA (Reddit)・オープンウェイトの公開・配布</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1we8tl1/3827b_has_ruined_353635bs_for_me_its_just/" target="_blank" rel="noopener"><circle cx="127.1" cy="120.3" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>3.8-27B has ruined 3.5/3.6-35B’s for me. It’s just *absurdly* superior.
+2026-09-12・r/LocalLLaMA (Reddit)・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1we6lrn/agnesaiagnes30flash_33b_multimodal_aa_score_36/" target="_blank" rel="noopener"><circle cx="199.2" cy="107.2" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Agnes-AI/Agnes-3.0-Flash 33B Multimodal, AA score: 36
+2026-09-12・r/LocalLLaMA (Reddit)・新モデル・新世代の発表</title></circle></a>
+<a href="https://the-decoder.com/gpt-6-astra-appears-to-show-a-step-change-in-spatial-reasoning-based-on-early-benchmarks/" target="_blank" rel="noopener"><circle cx="386.0" cy="81.8" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>GPT-6 Astra appears to show a &#34;step change&#34; in spatial reasoning based on early benchmarks
+2026-09-12・THE DECODER・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/" target="_blank" rel="noopener"><circle cx="229.9" cy="83.4" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Iris-mini and Iris-pro are the strongest open-weight search agents in their class
+2026-09-13・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own/" target="_blank" rel="noopener"><circle cx="373.9" cy="76.3" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>GPT-6 Astra pilots a surveillance drone and runs a business on its own
+2026-09-13・THE DECODER・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://the-decoder.com/elevenlabs-makes-music-v2-5-available-via-app-and-api-with-free-and-pro-tier-options/" target="_blank" rel="noopener"><circle cx="225.3" cy="118.8" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Elevenlabs makes Music v2.5 available via app and API with free and pro tier options
+2026-09-13・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wfpwhj/deepseek_v41_flash_beats_astra_on_aas_new/" target="_blank" rel="noopener"><circle cx="171.0" cy="73.1" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>DeepSeek V4.1 Flash beats Astra on AA&#39;s new benchmark
+2026-09-14・r/LocalLLaMA (Reddit)・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wg7dd5/ukisai_swiftqwen3827b_583_thinking_x195_speed/" target="_blank" rel="noopener"><circle cx="107.8" cy="112.0" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>UkisAI Swift-Qwen3.8-27B / -58.3% thinking, x1.95 speed while keeping the accuracy of xhigh
+2026-09-15・r/LocalLLaMA (Reddit)・小型化・軽量化・量子化・蒸留</title></circle></a>
+<a href="https://the-decoder.com/apple-brings-a-fully-revamped-siri-built-on-googles-gemini-but-not-to-the-eu/" target="_blank" rel="noopener"><circle cx="268.4" cy="135.0" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Apple brings a fully revamped Siri built on Google&#39;s Gemini, but not to the EU
+2026-09-15・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wgwh7k/qwen3827bturbofablecoldfusion735882hereticuncensor/" target="_blank" rel="noopener"><circle cx="109.7" cy="148.9" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF
+2026-09-15・r/LocalLLaMA (Reddit)・オープンウェイトの公開・配布</title></circle></a>
+<a href="https://developer.nvidia.com/blog/dense-vs-moe-models-active-parameters-throughput-and-when-to-choose-each/" target="_blank" rel="noopener"><circle cx="70.5" cy="321.4" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Dense vs. MoE Models: Active Parameters, Throughput, and When to Choose Each
+2026-09-16・NVIDIA Developer Blog・小型化・軽量化・量子化・蒸留</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/15/gemini-live/" target="_blank" rel="noopener"><circle cx="269.1" cy="128.9" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Gemini Live audio
+2026-09-16・Simon Willison’s Weblog (llms)・新モデル・新世代の発表</title></circle></a>
+<a href="https://the-decoder.com/google-launches-gemini-3-8-live-to-take-on-openais-gpt-live-1-at-a-fraction-of-the-cost/" target="_blank" rel="noopener"><circle cx="275.0" cy="126.5" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Google launches Gemini 3.8 Live to take on OpenAI&#39;s GPT-Live-1 at a fraction of the cost
+2026-09-16・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://the-decoder.com/agility-robotics-says-its-new-digit-5-robot-can-work-next-to-people-without-safety-fences/" target="_blank" rel="noopener"><circle cx="359.6" cy="92.5" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Agility Robotics says its new Digit 5 robot can work next to people without safety fences
+2026-09-15・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wh5fpa/apple_foundation_models_local_ai_natively_on/" target="_blank" rel="noopener"><circle cx="149.9" cy="115.7" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Apple Foundation Models: local AI natively on MacOS 27
+2026-09-16・r/LocalLLaMA (Reddit)・新モデル・新世代の発表</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1whqm2c/hey_meta_wheres_those_muse_spark_weights/" target="_blank" rel="noopener"><circle cx="278.8" cy="68.7" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Hey, Meta. Where&#39;s those Muse Spark weights?
+2026-09-16・r/LocalLLaMA (Reddit)・オープンウェイトの公開・配布</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wi32jg/chinas_openweight_ai_models_are_now_just_4_months/" target="_blank" rel="noopener"><circle cx="387.6" cy="218.2" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>China&#39;s open-weight AI models are now just 4 months behind frontier US offerings, Mozilla report claims — models still lag in some benchmarks but are drastically cheaper to use
+2026-09-17・r/LocalLLaMA (Reddit)・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wj6c4l/ternary_bonsai_2_27b_just_released_on_hugging/" target="_blank" rel="noopener"><circle cx="130.6" cy="152.7" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Ternary Bonsai 2 (27B) just released on Hugging Face. At &lt;6GB in size, it can even run locally in-browser on WebGPU.
+2026-09-18・r/LocalLLaMA (Reddit)・オープンウェイトの公開・配布</title></circle></a>
+<a href="https://the-decoder.com/gpt-6-astra-pokemon-champion-in-18-hours-potato-farmer-after-one-creeper-mishap/" target="_blank" rel="noopener"><circle cx="389.0" cy="84.1" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>GPT-6 Astra crushes Pokemon, Factorio, and Fallout 3 then spirals into Minecraft potato farming after one bad Creeper
+2026-09-17・THE DECODER・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wj3s31/thank_you_swift_qwen_38_27b_now_has_100k/" target="_blank" rel="noopener"><circle cx="114.8" cy="135.3" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Thank you :) Swift Qwen 3.8 27B now has 100k+ downloads, is #1 finetune and #9 model on HuggingFace Trending
+2026-09-18・r/LocalLLaMA (Reddit)・オープンウェイトの公開・配布</title></circle></a>
+<a href="https://the-decoder.com/openai-takes-aim-at-the-legal-market-with-astra-for-law/" target="_blank" rel="noopener"><circle cx="399.6" cy="123.5" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>OpenAI takes aim at the legal market with Astra for Law
+2026-09-18・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wjieap/made_the_horizontal_opensource_model_for_jev_with/" target="_blank" rel="noopener"><circle cx="279.8" cy="264.6" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Made the horizontal open-source model for Jev with RLCD, and it surpasses all the Jev benchmarks. HF space, benchmark, model, repo
+2026-09-18・r/LocalLLaMA (Reddit)・オープンウェイトの公開・配布</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wkxx8e/with_gemini_4_bench_goes_up/" target="_blank" rel="noopener"><circle cx="271.9" cy="178.7" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>With Gemini 4, bench goes up.
+2026-09-20・r/LocalLLaMA (Reddit)・新モデル・新世代の発表</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wk9fag/alibaba_opensources_medical_ai_model_that_can/" target="_blank" rel="noopener"><circle cx="187.8" cy="166.6" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Alibaba open-sources medical AI model that can detect cancer and nearly 150 conditions
+2026-09-19・r/LocalLLaMA (Reddit)・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://the-decoder.com/qwen3-8-omni-flash-undercuts-gemini-flash-pricing-while-matching-its-multimodal-benchmarks/" target="_blank" rel="noopener"><circle cx="220.2" cy="108.8" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Qwen3.8-Omni-Flash undercuts Google&#39;s Gemini Flash pricing while matching its multimodal benchmarks
+2026-09-19・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/" target="_blank" rel="noopener"><circle cx="167.8" cy="149.5" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Alibaba&#39;s open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters
+2026-09-21・THE DECODER・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wl56g2/please_stop_with_the_fp4_inference_engines_for/" target="_blank" rel="noopener"><circle cx="355.6" cy="150.1" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Please stop with the FP4 inference engines for the love of god
+2026-09-20・r/LocalLLaMA (Reddit)・小型化・軽量化・量子化・蒸留</title></circle></a>
+<a href="https://the-decoder.com/tencents-gander-aims-to-keep-talking-while-it-works-in-the-background/" target="_blank" rel="noopener"><circle cx="209.7" cy="144.8" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Tencent&#39;s Gander aims to keep talking while it works in the background
+2026-09-21・THE DECODER・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/" target="_blank" rel="noopener"><circle cx="245.3" cy="149.2" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Runway wants to turn AI video generation into a live stream you control in real time
+2026-09-20・THE DECODER・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wlgrft/qwenimage21_released/" target="_blank" rel="noopener"><circle cx="155.8" cy="147.7" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Qwen-Image-2.1 released!
+2026-09-20・r/LocalLLaMA (Reddit)・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/21/jev/" target="_blank" rel="noopener"><circle cx="286.9" cy="278.7" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Jev introduces a new shape of LLM - System One, aka Decision Models
+2026-09-22・Simon Willison’s Weblog (llms)・新モデル・新世代の発表</title></circle></a>
+<a href="https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an" target="_blank" rel="noopener"><circle cx="138.0" cy="301.4" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem
+2026-09-21・Hugging Face Blog・小型化・軽量化・量子化・蒸留</title></circle></a>
+<a href="https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6/" target="_blank" rel="noopener"><circle cx="435.9" cy="113.8" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>xAI launches Grok 4.7 at bargain prices, but benchmarks reveal a wide gap to Claude and GPT-6
+2026-09-22・THE DECODER・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://the-decoder.com/openais-gpt-6-sol-and-luna-cut-prices-in-half-but-barely-move-the-needle-on-performance/" target="_blank" rel="noopener"><circle cx="423.1" cy="121.9" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>OpenAI&#39;s GPT-6 Sol and Luna cut prices in half but barely move the needle on performance
+2026-09-23・THE DECODER・商用モデルの提供条件・価格</title></circle></a>
+<a href="https://the-decoder.com/xiaomis-affordable-flagship-ai-leads-the-open-models-and-anthropic-says-claude-helped-get-it-there/" target="_blank" rel="noopener"><circle cx="483.1" cy="120.7" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Xiaomi&#39;s affordable flagship AI leads the open models, and Anthropic says Claude helped get it there
+2026-09-22・THE DECODER・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://the-decoder.com/a-tiny-software-layer-from-lab-grown-neurons-promises-faster-cheaper-ai-video/" target="_blank" rel="noopener"><circle cx="225.6" cy="157.0" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>A tiny software layer from lab-grown neurons promises faster, cheaper AI video
+2026-09-22・THE DECODER・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://the-decoder.com/openai-says-its-internal-model-solved-over-100-long-standing-math-problems-after-just-a-month-of-training/" target="_blank" rel="noopener"><circle cx="391.5" cy="252.2" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>OpenAI says its internal model solved over 100 long-standing math problems after just a month of training
+2026-09-22・THE DECODER・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wmyh9z/alibaba_plans_ai_model_with_5_trillion_to_10/" target="_blank" rel="noopener"><circle cx="174.2" cy="172.4" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Alibaba plans AI model with 5 trillion to 10 trillion parameters, unveils new chip
+2026-09-22・r/LocalLLaMA (Reddit)・新モデル・新世代の発表</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wmxfjs/qwen_4_announced_at_apsara_conference/" target="_blank" rel="noopener"><circle cx="187.3" cy="151.0" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Qwen 4 Announced at Apsara Conference
+2026-09-22・r/LocalLLaMA (Reddit)・新モデル・新世代の発表</title></circle></a>
+<a href="https://the-decoder.com/claude-opus-5-5-matches-fable-5-1-at-40-percent-lower-cost-as-anthropic-promises-to-fix-claudish-writing/" target="_blank" rel="noopener"><circle cx="530.5" cy="119.7" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Claude Opus 5.5 matches Fable 5.1 performance at lower cost and promises less &#34;Claudish&#34; writing
+2026-09-23・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/" target="_blank" rel="noopener"><circle cx="463.1" cy="115.5" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war
+2026-09-23・Simon Willison’s Weblog (llms)・商用モデルの提供条件・価格</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wnipcz/new_6b_image_model_coming_antling_just_open/" target="_blank" rel="noopener"><circle cx="165.6" cy="144.7" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>New 6B image model coming, AntLing just open sourced the Ming-Image-0.1-Design family
+2026-09-23・r/LocalLLaMA (Reddit)・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://the-decoder.com/alibaba-launches-qwen-audio-3-1-with-five-new-models-and-slashes-ai-audio-prices-by-up-to-95-percent/" target="_blank" rel="noopener"><circle cx="202.9" cy="132.9" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Alibaba launches Qwen Audio 3.1 with new models and slashes AI audio prices by up to 95 percent
+2026-09-23・THE DECODER・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://the-decoder.com/chatgpt-voice-gets-closer-to-her-with-email-calendar-and-slack-access/" target="_blank" rel="noopener"><circle cx="383.3" cy="183.0" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>ChatGPT Voice gets closer to &#34;Her&#34; with email, calendar, and Slack access
+2026-09-24・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://the-decoder.com/metas-ai-agent-muse-draws-500000-users-in-a-week-along-with-claims-it-copied-openclaw/" target="_blank" rel="noopener"><circle cx="269.8" cy="20.6" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Meta&#39;s AI agent Muse draws 500,000 users in a week along with claims it copied OpenClaw
+2026-09-23・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://the-decoder.com/googles-new-flash-tts-models-let-you-design-ai-voices-from-scratch-using-text-descriptions/" target="_blank" rel="noopener"><circle cx="260.5" cy="123.7" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Google&#39;s new Flash TTS models let you design AI voices from scratch using text descriptions
+2026-09-24・THE DECODER・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://the-decoder.com/ai-performance-costs-are-falling-faster-than-those-of-any-previous-technology/" target="_blank" rel="noopener"><circle cx="434.3" cy="239.4" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>AI performance costs are falling faster than those of any previous technology
+2026-09-25・THE DECODER・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://the-decoder.com/meta-gives-its-muse-ai-agent-video-avatars-email-addresses-and-mac-control/" target="_blank" rel="noopener"><circle cx="263.5" cy="38.8" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Meta gives its Muse AI agent video avatars, email addresses, and Mac control
+2026-09-24・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://the-decoder.com/black-forest-labs-launches-flux-3-action-an-open-robotics-ai-model/" target="_blank" rel="noopener"><circle cx="227.1" cy="131.9" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Black Forest Labs launches FLUX 3 Action, an open robotics AI model
+2026-09-25・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wp6gal/ukisai_swift_series_27b_flash_next_and_bonsai_2/" target="_blank" rel="noopener"><circle cx="108.5" cy="92.1" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>UkisAI Swift Series / 27B, Flash Next and Bonsai 2 + GSQ-RCO / -63.4% thinking, x1.95 speed with xhigh accuracy
+2026-09-25・r/LocalLLaMA (Reddit)・新モデル・新世代の発表</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wq56pf/swift15qwen38flashnext_is_phenomenal_vs_base/" target="_blank" rel="noopener"><circle cx="97.1" cy="105.3" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Swift1.5-Qwen3.8-Flash-Next is phenomenal vs. base 3.8-Flash!
+2026-09-26・r/LocalLLaMA (Reddit)・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wpvep4/qwengram08b_i_transferred_qwen38_flashnexts_ngram/" target="_blank" rel="noopener"><circle cx="87.8" cy="106.9" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Qwengram-0.8B: I transferred Qwen3.8 Flash-Next’s n-gram memory into Qwen3.5-0.8B — 5.05% lower validation perplexity
+2026-09-25・r/LocalLLaMA (Reddit)・小型化・軽量化・量子化・蒸留</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wpkz0o/m5_ultra_80core_glm53flash_on_dwarfstar_speeds/" target="_blank" rel="noopener"><circle cx="58.0" cy="174.2" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>M5 Ultra 80Core GLM-5.3-Flash on DwarfStar Speeds
+2026-09-25・r/LocalLLaMA (Reddit)・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wqcrly/ling_tiny_30_is_a_glimpse_of_the_future/" target="_blank" rel="noopener"><circle cx="268.2" cy="178.6" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Ling Tiny 3.0 is a glimpse of the future
+2026-09-26・r/LocalLLaMA (Reddit)・新モデル・新世代の発表</title></circle></a>
+<a href="https://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf/" target="_blank" rel="noopener"><circle cx="392.1" cy="95.6" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>OpenAI&#39;s GPT-6 Astra can now tell you exactly where you screwed up your IKEA shelf
+2026-09-26・THE DECODER・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wqkb3v/swift_15_27b_swift_qwen_just_got_faster/" target="_blank" rel="noopener"><circle cx="109.6" cy="110.5" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Swift 1.5 27b: Swift Qwen just got faster
+2026-09-26・r/LocalLLaMA (Reddit)・小型化・軽量化・量子化・蒸留</title></circle></a>
+<a href="https://the-decoder.com/openai-says-80-to-90-percent-of-its-research-already-targets-gpt-7-and-beyond/" target="_blank" rel="noopener"><circle cx="404.4" cy="132.4" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>OpenAI says 80 to 90 percent of its research already targets GPT 7 and beyond
+2026-09-27・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://the-decoder.com/researchers-plug-gpt-6-astra-directly-into-a-robot-and-let-it-clean-up-an-unfamiliar-kitchen/" target="_blank" rel="noopener"><circle cx="382.2" cy="85.5" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Researchers plug GPT-6 Astra directly into a robot and let it clean up an unfamiliar kitchen
+2026-09-27・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wrq71o/mimo_v26_flash_mopd/" target="_blank" rel="noopener"><circle cx="182.8" cy="98.5" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Mimo v2.6 flash MOPD
+2026-09-28・r/LocalLLaMA (Reddit)・新モデル・新世代の発表</title></circle></a>
+<a href="https://the-decoder.com/nvidia-drops-a-free-100m-parameter-model-that-identifies-up-to-eight-speakers-in-real-time/" target="_blank" rel="noopener"><circle cx="78.5" cy="391.5" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Nvidia drops a free 100M-parameter model that identifies up to eight speakers in real time
+2026-09-27・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wsgrma/imajev4b_i_spent_15_days_finetuning_a_4b_model_to/" target="_blank" rel="noopener"><circle cx="251.5" cy="204.5" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>ImaJev-4b: I spent 15 days fine-tuning a 4B model to make business decisions from text and photos, and it just ranked #1 of 91 on JevBench &amp; ahead of GPT-5.6 Luna on DecisionBench
+2026-09-28・r/LocalLLaMA (Reddit)・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1ws67x4/gpt3_is_discontinued_today/" target="_blank" rel="noopener"><circle cx="403.1" cy="141.3" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>GPT-3 is discontinued today
+2026-09-28・r/LocalLLaMA (Reddit)・商用モデルの提供条件・価格</title></circle></a>
+<a href="https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task/" target="_blank" rel="noopener"><circle cx="522.1" cy="113.8" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Anthropic&#39;s Claude Sonnet 5.5 nearly matches Opus 5.5 on benchmarks while costing up to 30 percent less per task
+2026-09-29・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/" target="_blank" rel="noopener"><circle cx="523.1" cy="109.8" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Claude Sonnet 5.5
+2026-09-29・Simon Willison’s Weblog (llms)・新モデル・新世代の発表</title></circle></a>
+<a href="https://huggingface.co/blog/nvidia/kumo-tabular" target="_blank" rel="noopener"><circle cx="112.2" cy="371.1" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction
+2026-09-30・Hugging Face Blog・新モデル・新世代の発表</title></circle></a>
+<a href="https://the-decoder.com/gpt-6-1-sol-comes-close-to-astra-at-a-fifth-of-the-price/" target="_blank" rel="noopener"><circle cx="422.0" cy="116.1" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>GPT-6.1 Sol comes close to Astra at a fifth of the price
+2026-09-30・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://developer.nvidia.com/blog/lower-the-cost-of-building-and-running-visual-ai-agents-with-nvidia-vss-blueprint-3-3/" target="_blank" rel="noopener"><circle cx="126.4" cy="354.4" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Lower the Cost of Building and Running Visual AI Agents with NVIDIA VSS Blueprint 3.3
+2026-09-30・NVIDIA Developer Blog・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wt5f4e/looks_like_the_era_of_subsidised_compute_is/" target="_blank" rel="noopener"><circle cx="441.2" cy="188.9" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Looks like the era of subsidised compute is coming to an end. The old ChatGPT Pro $200 20x plan will be halved. The new $500 plan will have similar limits as the (old) $200 plan.
+2026-09-29・r/LocalLLaMA (Reddit)・商用モデルの提供条件・価格</title></circle></a>
+<a href="https://the-decoder.com/elevenlabs-new-v4-speech-model-makes-ai-voices-more-expressive-and-consistent/" target="_blank" rel="noopener"><circle cx="225.6" cy="125.3" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>ElevenLabs&#39; new v4 speech model makes AI voices more expressive and consistent
+2026-09-29・THE DECODER・新モデル・新世代の発表</title></circle></a>
+<a href="https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits/" target="_blank" rel="noopener"><circle cx="499.2" cy="132.7" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Anthropic says Zhipu&#39;s open-weight GLM-5.3 nearly matches Claude Mythos Preview at building exploits
+2026-09-30・THE DECODER・モデルの性能比較・ベンチマーク結果</title></circle></a>
+<a href="https://huggingface.co/blog/open-tts-leaderboard" target="_blank" rel="noopener"><circle cx="267.4" cy="123.1" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning
+2026-09-30・Hugging Face Blog・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wu2jjy/oído_speech_recognition_that_beats_whispertiny/" target="_blank" rel="noopener"><circle cx="298.9" cy="123.6" r="3.2" fill="#4C78A8" fill-opacity="0.85"><title>Oído: speech recognition that beats Whisper-tiny, running on a $5 microcontroller (open source)
+2026-09-30・r/LocalLLaMA (Reddit)・特殊モデル（音声・画像・動画・埋め込み等）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w3kppp/glm_53_and_glm_53_flash_ran_locally_on_rtx_pro/" target="_blank" rel="noopener"><circle cx="148.4" cy="283.8" r="3.2" fill="#F58518" fill-opacity="0.85"><title>GLM 5.3 and GLM 5.3 Flash ran locally on RTX PRO 6000 WS and built a penthouse using BlenderMCP
+2026-09-01・r/LocalLLaMA (Reddit)・ローカル実行の実践（設定・速度・使用感）</title></circle></a>
+<a href="https://huggingface.co/blog/webgpu-kernels" target="_blank" rel="noopener"><circle cx="138.5" cy="180.0" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI
+2026-09-01・Hugging Face Blog・ローカル実行ツール・プラットフォーム</title></circle></a>
+<a href="https://developer.nvidia.com/blog/how-to-size-gpus-for-ai-inference-and-tco-without-overspending/" target="_blank" rel="noopener"><circle cx="29.4" cy="243.7" r="3.2" fill="#F58518" fill-opacity="0.85"><title>How to Size GPUs for AI Inference and TCO Without Overspending
+2026-09-02・NVIDIA Developer Blog・GPU・メモリの価格と入手性</title></circle></a>
+<a href="https://developer.nvidia.com/blog/the-modern-cuda-toolbox-in-practice-a-step-by-step-optimization-walkthrough/" target="_blank" rel="noopener"><circle cx="161.2" cy="368.7" r="3.2" fill="#F58518" fill-opacity="0.85"><title>The Modern CUDA Toolbox in Practice: A Step-by-Step Optimization Walkthrough
+2026-09-03・NVIDIA Developer Blog・ローカル実行の実践（設定・速度・使用感）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w4wyvg/25_of_my_cmp_170hx_have_died_after_2_weeks_and/" target="_blank" rel="noopener"><circle cx="32.9" cy="236.8" r="3.2" fill="#F58518" fill-opacity="0.85"><title>2/5 of my CMP 170HX have died after 2 weeks and the 3rd came with defective tensor cores. Current prices DO NOT justify the risk you are taking
+2026-09-02・r/LocalLLaMA (Reddit)・GPU・メモリの価格と入手性</title></circle></a>
+<a href="https://huggingface.co/blog/grpo-with-trl-ifstruct" target="_blank" rel="noopener"><circle cx="87.5" cy="330.0" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps
+2026-09-03・Hugging Face Blog・ローカル実行の実践（設定・速度・使用感）</title></circle></a>
+<a href="https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network/" target="_blank" rel="noopener"><circle cx="107.3" cy="380.4" r="3.2" fill="#F58518" fill-opacity="0.85"><title>NVIDIA PAIR Virtual Inference Router Expands Available Compute on Your Local Network
+2026-09-04・NVIDIA Developer Blog・複数GPUでの大型モデルの自前運用</title></circle></a>
+<a href="https://github.com/ollama/ollama/releases/tag/v0.33.3" target="_blank" rel="noopener"><circle cx="202.8" cy="237.2" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Ollama Blog v0.33.x のリリース（4件）
+2026-09-04・Ollama Blog・推論エンジンのリリース（Ollama・llama.cpp 等）</title></circle></a>
+<a href="https://developer.nvidia.com/blog/frontier-reasoning-reaches-the-edge-how-to-deploy-and-optimize-models-on-nvidia-jetson/" target="_blank" rel="noopener"><circle cx="96.3" cy="339.7" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Frontier Reasoning Reaches the Edge: How to Deploy and Optimize Models on NVIDIA Jetson
+2026-09-05・NVIDIA Developer Blog・マルチデバイス・エッジ連携</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w78ztg/you_can_now_run_a_90m_conversational_llm_on_the/" target="_blank" rel="noopener"><circle cx="174.1" cy="238.4" r="3.2" fill="#F58518" fill-opacity="0.85"><title>You can now run a 90M conversational LLM on the Sony PSP (hardware from 2004). Doesn&#39;t get more local than this.
+2026-09-05・r/LocalLLaMA (Reddit)・ローカル実行の実践（設定・速度・使用感）</title></circle></a>
+<a href="https://the-decoder.com/nvidia-wants-your-home-network-to-work-like-a-mini-data-center-for-local-ai/" target="_blank" rel="noopener"><circle cx="104.7" cy="383.6" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Nvidia wants your home network to work like a mini data center for local AI
+2026-09-04・THE DECODER・複数GPUでの大型モデルの自前運用</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w75rp4/i_built_a_server_with_768gb_vram_for_frontier_but/" target="_blank" rel="noopener"><circle cx="20.4" cy="211.1" r="3.2" fill="#F58518" fill-opacity="0.85"><title>I built a server with 768GB VRAM for frontier, but all new frontier open source models are likely to be two trillion or above now, including next GLM 6, am I cooked?
+2026-09-04・r/LocalLLaMA (Reddit)・複数GPUでの大型モデルの自前運用</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w7thwv/ive_found_myself_using_local_llms_like_3d_printers/" target="_blank" rel="noopener"><circle cx="220.0" cy="264.9" r="3.2" fill="#F58518" fill-opacity="0.85"><title>I&#39;ve found myself using Local LLM&#39;s like 3D printers.
+2026-09-05・r/LocalLLaMA (Reddit)・ローカル実行の実践（設定・速度・使用感）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w8rxwg/vibeblending_locally_with_qwen_38_27b/" target="_blank" rel="noopener"><circle cx="116.3" cy="137.4" r="3.2" fill="#F58518" fill-opacity="0.85"><title>vibeblending locally with Qwen 3.8 27B
+2026-09-06・r/LocalLLaMA (Reddit)・ローカル実行の実践（設定・速度・使用感）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wa26pn/friends_dont_let_friends_use_ollama/" target="_blank" rel="noopener"><circle cx="208.7" cy="256.3" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Friends Don&#39;t Let Friends Use Ollama
+2026-09-08・r/LocalLLaMA (Reddit)・ローカル実行ツール・プラットフォーム</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1waq7hu/gpu_guide_gb_per_dollar_bandwidth/" target="_blank" rel="noopener"><circle cx="18.1" cy="230.6" r="3.2" fill="#F58518" fill-opacity="0.85"><title>GPU guide (GB per dollar, bandwidth)
+2026-09-08・r/LocalLLaMA (Reddit)・GPU・メモリの価格と入手性</title></circle></a>
+<a href="https://the-decoder.com/hugging-faces-new-ml-intern-lets-anyone-run-machine-learning-experiments-through-a-simple-chat/" target="_blank" rel="noopener"><circle cx="142.6" cy="179.2" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Hugging Face&#39;s new ML Intern lets anyone run machine learning experiments through a simple chat
+2026-09-09・THE DECODER・ローカル実行ツール・プラットフォーム</title></circle></a>
+<a href="https://developer.nvidia.com/blog/when-to-use-encode-prefill-decode-disaggregation-to-accelerate-multimodal-model-serving/" target="_blank" rel="noopener"><circle cx="78.6" cy="333.3" r="3.2" fill="#F58518" fill-opacity="0.85"><title>When to Use Encode-Prefill-Decode Disaggregation to Accelerate Multimodal Model Serving
+2026-09-10・NVIDIA Developer Blog・複数GPUでの大型モデルの自前運用</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wble79/why_the_hell_is_lm_studio_making_lm_studio_so/" target="_blank" rel="noopener"><circle cx="217.4" cy="278.4" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Why the hell is LM Studio making LM Studio so difficult to download?
+2026-09-09・r/LocalLLaMA (Reddit)・ローカル実行ツール・プラットフォーム</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wbir6v/now_this_is_a_serious_local_machine/" target="_blank" rel="noopener"><circle cx="237.6" cy="258.1" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Now this is a serious local machine
+2026-09-09・r/LocalLLaMA (Reddit)・ローカル実行の実践（設定・速度・使用感）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wb7p70/qwen38flashnext_on_mlxserve_1m_context_is_released/" target="_blank" rel="noopener"><circle cx="80.1" cy="126.2" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Qwen3.8-Flash-Next on MLX-serve, 1m context is released!
+2026-09-09・r/LocalLLaMA (Reddit)・ローカル実行の実践（設定・速度・使用感）</title></circle></a>
+<a href="https://developer.nvidia.com/blog/cuda-toolkit-13-4-adds-windows-on-arm-support-and-greater-control-over-shared-gpus/" target="_blank" rel="noopener"><circle cx="156.0" cy="362.3" r="3.2" fill="#F58518" fill-opacity="0.85"><title>CUDA Toolkit 13.4 Adds Windows on Arm Support and Greater Control over Shared GPUs
+2026-09-10・NVIDIA Developer Blog・ローカル実行ツール・プラットフォーム</title></circle></a>
+<a href="https://developer.nvidia.com/blog/high-throughput-structure-prediction-with-bionemo-inference-runtime/" target="_blank" rel="noopener"><circle cx="78.6" cy="354.9" r="3.2" fill="#F58518" fill-opacity="0.85"><title>High-Throughput Structure Prediction with BioNeMo Inference Runtime
+2026-09-11・NVIDIA Developer Blog・複数GPUでの大型モデルの自前運用</title></circle></a>
+<a href="https://huggingface.co/blog/gradio-workflow-1111" target="_blank" rel="noopener"><circle cx="147.9" cy="172.1" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Rebuilding AUTOMATIC1111 with Gradio Workflow
+2026-09-10・Hugging Face Blog・ローカル実行ツール・プラットフォーム</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wd4xxv/someone_apparently_managed_to_kind_of_replicate/" target="_blank" rel="noopener"><circle cx="112.2" cy="95.6" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Someone apparently managed to kind of replicate what V4.1 flash does on KV for fast prefill on Qwen
+2026-09-11・r/LocalLLaMA (Reddit)・ローカル実行の実践（設定・速度・使用感）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wez30k/should_i_sell_my_rtx_5090_for_a_mac_studio_m5/" target="_blank" rel="noopener"><circle cx="35.4" cy="203.1" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Should I sell my RTX 5090 for a Mac Studio M5 Ultra 96GB?
+2026-09-13・r/LocalLLaMA (Reddit)・ローカル実行の実践（設定・速度・使用感）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wfe9zt/3k_128gb_vram_256gb_ram_ddr4_server/" target="_blank" rel="noopener"><circle cx="12.0" cy="219.7" r="3.2" fill="#F58518" fill-opacity="0.85"><title>3k$ 128GB VRAM + 256GB RAM DDR4 Server
+2026-09-14・r/LocalLLaMA (Reddit)・GPU・メモリの価格と入手性</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wfxi36/rtx_pro_5500_blackwell_84gb_released/" target="_blank" rel="noopener"><circle cx="23.8" cy="196.5" r="3.2" fill="#F58518" fill-opacity="0.85"><title>RTX PRO 5500 Blackwell (84GB) released
+2026-09-14・r/LocalLLaMA (Reddit)・複数GPUでの大型モデルの自前運用</title></circle></a>
+<a href="https://developer.nvidia.com/blog/accelerating-dropless-moe-training-in-jax-with-nvidia-transformer-engine/" target="_blank" rel="noopener"><circle cx="74.9" cy="338.9" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Accelerating Dropless MoE Training in JAX with NVIDIA Transformer Engine
+2026-09-15・NVIDIA Developer Blog・複数GPUでの大型モデルの自前運用</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wgeo55/nvidias_rtx_5090_vanishes_from_online_retail_in/" target="_blank" rel="noopener"><circle cx="30.8" cy="223.7" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Nvidia&#39;s RTX 5090 vanishes from online retail in the US — third-party sellers now demand as much as $9,500 for Nvidia&#39;s fastest GPU
+2026-09-15・r/LocalLLaMA (Reddit)・GPU・メモリの価格と入手性</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wh4cg9/koboldcpp_v1121_released/" target="_blank" rel="noopener"><circle cx="197.1" cy="231.1" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Koboldcpp v1.121 released
+2026-09-16・r/LocalLLaMA (Reddit)・推論エンジンのリリース（Ollama・llama.cpp 等）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1whf7ov/dont_buy_a_9k_rtx_5090_instead/" target="_blank" rel="noopener"><circle cx="25.2" cy="224.1" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Don’t buy a $9K RTX 5090.... instead.
+2026-09-16・r/LocalLLaMA (Reddit)・GPU・メモリの価格と入手性</title></circle></a>
+<a href="https://developer.nvidia.com/blog/scaling-federated-learning-across-docker-kubernetes-and-slurm-with-nvidia-flare/" target="_blank" rel="noopener"><circle cx="110.6" cy="390.4" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Scaling Federated Learning Across Docker, Kubernetes, and Slurm with NVIDIA FLARE
+2026-09-16・NVIDIA Developer Blog・複数GPUでの大型モデルの自前運用</title></circle></a>
+<a href="https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor/" target="_blank" rel="noopener"><circle cx="84.1" cy="337.0" r="3.2" fill="#F58518" fill-opacity="0.85"><title>TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor
+2026-09-17・NVIDIA Developer Blog・マルチデバイス・エッジ連携</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wi5rx2/frontier_llm_development_simplified_for/" target="_blank" rel="noopener"><circle cx="193.3" cy="276.1" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Frontier LLM development simplified for politicians:
+2026-09-17・r/LocalLLaMA (Reddit)・ローカル実行ツール・プラットフォーム</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wj28vh/amd_plans_10_price_hike_across_gpus_chipsets_and/" target="_blank" rel="noopener"><circle cx="34.1" cy="230.6" r="3.2" fill="#F58518" fill-opacity="0.85"><title>AMD Plans 10% Price Hike Across GPUs, Chipsets, and Possibly CPUs
+2026-09-18・r/LocalLLaMA (Reddit)・GPU・メモリの価格と入手性</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wjr59t/768gb_vram_for_less_than_the_price_of_one_rtx_6000/" target="_blank" rel="noopener"><circle cx="17.5" cy="224.5" r="3.2" fill="#F58518" fill-opacity="0.85"><title>768gb vram for less than the price of one RTX 6000
+2026-09-18・r/LocalLLaMA (Reddit)・GPU・メモリの価格と入手性</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wmb875/16gb_and_in_many_cases_12gb_is_the_max_vram_most/" target="_blank" rel="noopener"><circle cx="12.7" cy="217.2" r="3.2" fill="#F58518" fill-opacity="0.85"><title>16GB (and in many cases 12GB) is the max vram most people will ever reasonably have
+2026-09-21・r/LocalLLaMA (Reddit)・GPU・メモリの価格と入手性</title></circle></a>
+<a href="https://developer.nvidia.com/blog/simplifying-model-serving-across-multiple-gpus-with-nvidia-tensorrt-multi-device-integration-in-nvidia-dynamo-triton/" target="_blank" rel="noopener"><circle cx="85.6" cy="354.2" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Simplifying Model Serving Across Multiple GPUs with NVIDIA TensorRT Multi-Device Integration in NVIDIA Dynamo-Triton
+2026-09-22・NVIDIA Developer Blog・複数GPUでの大型モデルの自前運用</title></circle></a>
+<a href="https://huggingface.co/blog/tokenizers-v1" target="_blank" rel="noopener"><circle cx="146.1" cy="186.6" r="3.2" fill="#F58518" fill-opacity="0.85"><title>tokenizers v1: encode, decode and scaling, measured
+2026-09-21・Hugging Face Blog・ローカル実行ツール・プラットフォーム</title></circle></a>
+<a href="https://developer.nvidia.com/blog/whats-new-for-game-developers-dlss-5-with-3d-guided-neural-rendering-nvidia-ace-updates-and-new-rtx-kit-capabilities/" target="_blank" rel="noopener"><circle cx="127.2" cy="346.4" r="3.2" fill="#F58518" fill-opacity="0.85"><title>What’s New for Game Developers: DLSS 5 with 3D-Guided Neural Rendering, NVIDIA ACE Updates, and New RTX Kit Capabilities
+2026-09-22・NVIDIA Developer Blog・マルチデバイス・エッジ連携</title></circle></a>
+<a href="https://huggingface.co/blog/omlx" target="_blank" rel="noopener"><circle cx="131.9" cy="177.3" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community
+2026-09-22・Hugging Face Blog・ローカル実行ツール・プラットフォーム</title></circle></a>
+<a href="https://huggingface.co/blog/transformers-llama-cpp-quants" target="_blank" rel="noopener"><circle cx="131.4" cy="172.1" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Transformers now runs llama.cpp quants
+2026-09-22・Hugging Face Blog・ローカル実行ツール・プラットフォーム</title></circle></a>
+<a href="https://developer.nvidia.com/blog/accelerating-a-ros-2-node-with-an-ai-agent-and-nvidia-isaac-ros/" target="_blank" rel="noopener"><circle cx="154.6" cy="386.4" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS
+2026-09-22・NVIDIA Developer Blog・マルチデバイス・エッジ連携</title></circle></a>
+<a href="https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp" target="_blank" rel="noopener"><circle cx="77.9" cy="357.2" r="3.2" fill="#F58518" fill-opacity="0.85"><title>How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows
+2026-09-24・Hugging Face Blog・マルチデバイス・エッジ連携</title></circle></a>
+<a href="https://developer.nvidia.com/blog/manage-kubernetes-node-fleets-with-nodewright/" target="_blank" rel="noopener"><circle cx="128.6" cy="398.7" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Manage Kubernetes Node Fleets with NodeWright
+2026-09-24・NVIDIA Developer Blog・複数GPUでの大型モデルの自前運用</title></circle></a>
+<a href="https://developer.nvidia.com/blog/validate-gpu-cluster-readiness-before-ai-workloads-land/" target="_blank" rel="noopener"><circle cx="123.9" cy="393.9" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Validate GPU Cluster Readiness Before AI Workloads Land
+2026-09-24・NVIDIA Developer Blog・複数GPUでの大型モデルの自前運用</title></circle></a>
+<a href="https://github.com/ollama/ollama/releases/tag/v0.34.4" target="_blank" rel="noopener"><circle cx="209.7" cy="229.4" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Ollama Blog v0.34.x のリリース（24件）
+2026-09-24・Ollama Blog・推論エンジンのリリース（Ollama・llama.cpp 等）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wp7zyb/qwen38flashnext_on_12gb_vram_65_tokens_per_second/" target="_blank" rel="noopener"><circle cx="81.8" cy="114.6" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Qwen3.8-Flash-Next on 12GB VRAM - 65 tokens per second
+2026-09-25・r/LocalLLaMA (Reddit)・ローカル実行の実践（設定・速度・使用感）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wp0z3i/qwen3827b_is_good_enough_that_i_stopped_using_api/" target="_blank" rel="noopener"><circle cx="111.3" cy="117.7" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Qwen-3.8-27B is good enough that I stopped using API
+2026-09-24・r/LocalLLaMA (Reddit)・ローカル実行の実践（設定・速度・使用感）</title></circle></a>
+<a href="https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models/" target="_blank" rel="noopener"><circle cx="70.3" cy="338.7" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Efficient MoE Training for Biological Foundation Models
+2026-09-25・NVIDIA Developer Blog・複数GPUでの大型モデルの自前運用</title></circle></a>
+<a href="https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark" target="_blank" rel="noopener"><circle cx="114.2" cy="317.8" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Accelerating vision-language models with LFM2.5-VL-DSpark
+2026-09-24・Hugging Face Blog・マルチデバイス・エッジ連携</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wovkw5/folks_have_you_purchased_the_mac_m5_ultra_with/" target="_blank" rel="noopener"><circle cx="37.7" cy="200.7" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Folks, have you purchased the Mac M5 Ultra with 256GB yet? We need serious benchmarks, because we only get YouTube clowns influencers results
+2026-09-24・r/LocalLLaMA (Reddit)・ローカル実行の実践（設定・速度・使用感）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wpprlr/former_intel_ceo_hbm_is_lousy_high_bandwidth/" target="_blank" rel="noopener"><circle cx="18.3" cy="222.8" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Former Intel CEO: &#34;HBM is lousy&#34;. High Bandwidth Flash Is Coming
+2026-09-25・r/LocalLLaMA (Reddit)・GPU・メモリの価格と入手性</title></circle></a>
+<a href="https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0" target="_blank" rel="noopener"><circle cx="206.3" cy="231.5" r="3.2" fill="#F58518" fill-opacity="0.85"><title>v0.40.0
+2026-09-26・Ollama Blog・推論エンジンのリリース（Ollama・llama.cpp 等）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wqs2t8/2400cc_inference_racer_dual_rtx_3090_motors/" target="_blank" rel="noopener"><circle cx="83.2" cy="371.2" r="3.2" fill="#F58518" fill-opacity="0.85"><title>2400cc Inference Racer: Dual RTX 3090 motors, NVLink turbo, naked 7840U ThinkPad ECU, VW Golf radiator
+2026-09-26・r/LocalLLaMA (Reddit)・複数GPUでの大型モデルの自前運用</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wrjlls/the_opus_55_posts_about_motion_graphics_are_cool/" target="_blank" rel="noopener"><circle cx="99.1" cy="128.4" r="3.2" fill="#F58518" fill-opacity="0.85"><title>The Opus 5.5 posts about motion graphics are cool but Qwen 27B made this on a 4090
+2026-09-27・r/LocalLLaMA (Reddit)・ローカル実行の実践（設定・速度・使用感）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wr5ylm/42x_faster_prompt_lookup_drafting_in_llamacpp/" target="_blank" rel="noopener"><circle cx="137.3" cy="300.6" r="3.2" fill="#F58518" fill-opacity="0.85"><title>42x Faster Prompt Lookup Drafting in llama.cpp
+2026-09-27・r/LocalLLaMA (Reddit)・推論エンジンのリリース（Ollama・llama.cpp 等）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wsiepp/finally_found_a_model_my_hardware_can_run_at_full/" target="_blank" rel="noopener"><circle cx="269.5" cy="231.8" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Finally found a model my hardware can run at full precision: me
+2026-09-29・r/LocalLLaMA (Reddit)・ローカル実行の実践（設定・速度・使用感）</title></circle></a>
+<a href="https://github.com/ollama/ollama/releases/tag/v0.35.0" target="_blank" rel="noopener"><circle cx="210.6" cy="230.3" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Ollama Blog v0.35.x のリリース（3件）
+2026-09-30・Ollama Blog・推論エンジンのリリース（Ollama・llama.cpp 等）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wu0bdf/add_glm53flash_glm5next_support_by_timkhronos/" target="_blank" rel="noopener"><circle cx="181.9" cy="221.2" r="3.2" fill="#F58518" fill-opacity="0.85"><title>add GLM-5.3-Flash (GLM5-Next) support by timkhronos · Pull Request #27773 · ggml-org/llama.cpp
+2026-09-30・r/LocalLLaMA (Reddit)・推論エンジンのリリース（Ollama・llama.cpp 等）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wtv43r/qwen38_flash_next_istadaslab_gguf_50ts_tg_and/" target="_blank" rel="noopener"><circle cx="77.4" cy="115.4" r="3.2" fill="#F58518" fill-opacity="0.85"><title>Qwen3.8 flash next ISTA-DASLab GGUF 50t/s TG and 1500t/s PP with 12GB VRAM and 64GB RAM Laptop on &#39;Strata&#39; engine
+2026-09-30・r/LocalLLaMA (Reddit)・ローカル実行の実践（設定・速度・使用感）</title></circle></a>
+<a href="https://developer.nvidia.com/blog/run-nvidia-bionemo-nim-microservices-for-protein-structure-prediction-in-claude-science/" target="_blank" rel="noopener"><circle cx="92.5" cy="363.6" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science
+2026-09-01・NVIDIA Developer Blog・AIエージェント・ツール連携</title></circle></a>
+<a href="https://huggingface.co/blog/allenai/benchmirt" target="_blank" rel="noopener"><circle cx="268.7" cy="306.2" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>BenchMIRT: What are LLM benchmarks actually measuring?
+2026-09-02・Hugging Face Blog・評価手法・ベンチマークの設計と限界</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/" target="_blank" rel="noopener"><circle cx="539.0" cy="134.2" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Claude&#39;s new system prompt really doesn&#39;t want to reproduce song lyrics
+2026-09-02・Simon Willison’s Weblog (llms)・RAG・検索拡張・プロンプト技術</title></circle></a>
+<a href="https://the-decoder.com/pangrams-biggest-flaw-is-users-turning-its-scores-into-public-shaming/" target="_blank" rel="noopener"><circle cx="386.1" cy="324.3" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Pangram&#39;s biggest flaw is users turning its scores into public shaming
+2026-09-04・THE DECODER・評価手法・ベンチマークの設計と限界</title></circle></a>
+<a href="https://huggingface.co/blog/funes" target="_blank" rel="noopener"><circle cx="259.5" cy="371.5" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Give Your Coding Agents a Memory You Own
+2026-09-03・Hugging Face Blog・AIエージェント・ツール連携</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w6myn6/the_benchmarks_the_big_labs_dont_want_you_to_see/" target="_blank" rel="noopener"><circle cx="368.8" cy="302.5" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>The benchmarks the big labs don&#39;t want you to see
+2026-09-04・r/LocalLLaMA (Reddit)・評価手法・ベンチマークの設計と限界</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w6aw2a/apparently_chatgpt_claude_and_grok_were_down/" target="_blank" rel="noopener"><circle cx="456.9" cy="172.3" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Apparently ChatGPT, Claude, and Grok were down
+2026-09-04・r/LocalLLaMA (Reddit)・AIエージェント・ツール連携</title></circle></a>
+<a href="https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw/" target="_blank" rel="noopener"><circle cx="128.3" cy="384.9" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Building a Memory-Driven Agent with NVIDIA NemoClaw
+2026-09-05・NVIDIA Developer Blog・AIエージェント・ツール連携</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/" target="_blank" rel="noopener"><circle cx="175.1" cy="315.0" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Using Blender with coding agents on macOS
+2026-09-06・Simon Willison’s Weblog (llms)・AIエージェント・ツール連携</title></circle></a>
+<a href="https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words/" target="_blank" rel="noopener"><circle cx="370.6" cy="120.0" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>OpenAI shares prompting tips for GPT-6 Astra including a blocklist of slop words
+2026-09-05・THE DECODER・RAG・検索拡張・プロンプト技術</title></circle></a>
+<a href="https://the-decoder.com/artificial-analysis-overhauls-its-intelligence-index-after-gpt-6-astra-scoring-drew-skepticism/" target="_blank" rel="noopener"><circle cx="383.3" cy="101.9" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Artificial Analysis overhauls its Intelligence Index after GPT-6 Astra scoring drew skepticism
+2026-09-06・THE DECODER・評価手法・ベンチマークの設計と限界</title></circle></a>
+<a href="https://the-decoder.com/artificial-analysis-overhauls-its-intelligence-index-after-gpt-6-astra-scoring-drew-skepticism/" target="_blank" rel="noopener"><circle cx="381.4" cy="97.7" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Artificial Analysis overhauls its Intelligence Index after GPT-6 Astra scoring drew skepticism
+2026-09-06・THE DECODER・評価手法・ベンチマークの設計と限界</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/" target="_blank" rel="noopener"><circle cx="187.2" cy="308.0" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Using Blender with coding agents on macOS
+2026-09-06・Simon Willison’s Weblog (llms)・AIエージェント・ツール連携</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w9r73k/9_easy_steps_for_llamacpp_a_local_model_freecad/" target="_blank" rel="noopener"><circle cx="163.4" cy="311.4" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>9 easy steps for llama.cpp, a local model, Freecad (and pi coding agent) to generate solid objects that sound mechanically good and can be also be 3D printed/milled
+2026-09-07・r/LocalLLaMA (Reddit)・AIエージェント・ツール連携</title></circle></a>
+<a href="https://the-decoder.com/muse-can-shop-write-emails-and-negotiate-prices-for-users-all-through-whatsapp/" target="_blank" rel="noopener"><circle cx="271.6" cy="18.3" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Muse can shop, write emails, and negotiate prices for users, all through WhatsApp
+2026-09-10・THE DECODER・AIエージェント・ツール連携</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/" target="_blank" rel="noopener"><circle cx="342.0" cy="142.9" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>So you want to use OpenRouter?
+2026-09-12・Simon Willison’s Weblog (llms)・RAG・検索拡張・プロンプト技術</title></circle></a>
+<a href="https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/" target="_blank" rel="noopener"><circle cx="252.9" cy="341.6" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>OpenAI&#39;s new Agents API gives developers the infrastructure behind Codex and ChatGPT
+2026-09-11・THE DECODER・AIエージェント・ツール連携</title></circle></a>
+<a href="https://the-decoder.com/leading-mathematicians-fear-ai-is-making-their-field-dumber-and-warn-the-rest-of-us-is-next/" target="_blank" rel="noopener"><circle cx="469.3" cy="306.0" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Leading mathematicians fear AI is making their field dumber, and warn the rest of us is next
+2026-09-12・THE DECODER・評価手法・ベンチマークの設計と限界</title></circle></a>
+<a href="https://the-decoder.com/gpt-6-astra-needs-leaner-prompts-and-fewer-guardrails-openai-recommends/" target="_blank" rel="noopener"><circle cx="363.9" cy="122.7" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>GPT-6 Astra needs leaner prompts and fewer guardrails, OpenAI recommends
+2026-09-12・THE DECODER・RAG・検索拡張・プロンプト技術</title></circle></a>
+<a href="https://huggingface.co/blog/ibm-research/altk-evolve-consistency" target="_blank" rel="noopener"><circle cx="328.3" cy="388.7" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Your Agent Aced the Task. Will It Do It Again?
+2026-09-16・Hugging Face Blog・評価手法・ベンチマークの設計と限界</title></circle></a>
+<a href="https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/" target="_blank" rel="noopener"><circle cx="143.9" cy="373.2" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>How to Use AI Agents to Prepare 3D Scenes for Simulation
+2026-09-17・NVIDIA Developer Blog・AIエージェント・ツール連携</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/16/one-claude/" target="_blank" rel="noopener"><circle cx="516.3" cy="134.9" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Claude Cowork and chat are now one Claude
+2026-09-17・Simon Willison’s Weblog (llms)・AIエージェント・ツール連携</title></circle></a>
+<a href="https://the-decoder.com/mozillas-new-smart-window-assistant-runs-on-mistrals-models/" target="_blank" rel="noopener"><circle cx="261.3" cy="49.5" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Mozilla&#39;s new Smart Window assistant runs on Mistral&#39;s models
+2026-09-17・THE DECODER・AIエージェント・ツール連携</title></circle></a>
+<a href="https://the-decoder.com/anthropic-merges-claude-chat-cowork-and-more-into-a-single-product/" target="_blank" rel="noopener"><circle cx="536.4" cy="133.5" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Anthropic merges Claude Chat, Cowork, and more into a single product
+2026-09-17・THE DECODER・AIエージェント・ツール連携</title></circle></a>
+<a href="https://the-decoder.com/anthropic-keeps-pushing-claude-code-toward-autonomous-coding-with-new-parallel-agent-workflows/" target="_blank" rel="noopener"><circle cx="543.4" cy="143.3" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Anthropic keeps pushing Claude Code toward autonomous coding with new parallel agent workflows
+2026-09-18・THE DECODER・AIエージェント・ツール連携</title></circle></a>
+<a href="https://the-decoder.com/ai-agent-swarms-are-a-massive-waste-of-tokens-with-zero-quality-gain-says-openai-codex-developer/" target="_blank" rel="noopener"><circle cx="279.7" cy="354.6" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>AI agent swarms are a massive waste of tokens with zero quality gain, says OpenAI Codex developer
+2026-09-17・THE DECODER・AIエージェント・ツール連携</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/18/thariq-shihipar/" target="_blank" rel="noopener"><circle cx="542.3" cy="151.5" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Quoting Thariq Shihipar
+2026-09-19・Simon Willison’s Weblog (llms)・AIエージェント・ツール連携</title></circle></a>
+<a href="https://the-decoder.com/anthropic-wants-you-to-know-claude-leads-a-quarter-of-its-research-but-lead-doesnt-mean-what-you-think/" target="_blank" rel="noopener"><circle cx="544.4" cy="158.7" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Anthropic wants you to know Claude leads a quarter of its research, but &#34;lead&#34; doesn&#39;t mean what you think
+2026-09-18・THE DECODER・AIエージェント・ツール連携</title></circle></a>
+<a href="https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials/" target="_blank" rel="noopener"><circle cx="243.7" cy="346.9" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials
+2026-09-19・THE DECODER・AIエージェント・ツール連携</title></circle></a>
+<a href="https://developer.nvidia.com/blog/how-to-evaluate-ai-agents-from-tool-calls-to-task-completion/" target="_blank" rel="noopener"><circle cx="323.0" cy="382.7" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>How to Evaluate AI Agents From Tool Calls to Task Completion
+2026-09-22・NVIDIA Developer Blog・評価手法・ベンチマークの設計と限界</title></circle></a>
+<a href="https://huggingface.co/blog/evaleval-aisi" target="_blank" rel="noopener"><circle cx="429.2" cy="381.6" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>How UK AISI and EvalEval Are Making Benchmark Results Reproducible
+2026-09-22・Hugging Face Blog・評価手法・ベンチマークの設計と限界</title></circle></a>
+<a href="https://the-decoder.com/anthropic-is-setting-up-a-biology-lab-where-claude-guides-robots-through-drug-experiments/" target="_blank" rel="noopener"><circle cx="546.3" cy="154.6" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Anthropic is setting up a biology lab where Claude guides robots through drug experiments
+2026-09-22・THE DECODER・AIエージェント・ツール連携</title></circle></a>
+<a href="https://developer.nvidia.com/blog/how-swe-serve-exposes-the-gap-between-local-tests-and-live-serving/" target="_blank" rel="noopener"><circle cx="319.9" cy="383.8" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>How SWE-Serve Exposes the Gap Between Local Tests and Live Serving
+2026-09-24・NVIDIA Developer Blog・評価手法・ベンチマークの設計と限界</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/" target="_blank" rel="noopener"><circle cx="301.7" cy="364.0" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>SF October 14th: A Birds of a Feather Session on Agentic Engineering
+2026-09-23・Simon Willison’s Weblog (llms)・AIエージェント・ツール連携</title></circle></a>
+<a href="https://the-decoder.com/top-ai-experts-badly-underestimated-how-fast-the-field-is-moving-study-finds/" target="_blank" rel="noopener"><circle cx="477.5" cy="294.4" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Top AI experts badly underestimated how fast the field is moving, study finds
+2026-09-25・THE DECODER・評価手法・ベンチマークの設計と限界</title></circle></a>
+<a href="https://the-decoder.com/anthropic-says-claude-discovered-a-new-enzyme-system-but-crispr-researchers-call-it-routine-genome-mining/" target="_blank" rel="noopener"><circle cx="535.4" cy="151.3" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Anthropic says Claude discovered a new enzyme system, but CRISPR researchers call it routine genome mining
+2026-09-25・THE DECODER・AIエージェント・ツール連携</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wpqyaz/gemma_4_developer_agent_competition/" target="_blank" rel="noopener"><circle cx="274.0" cy="184.7" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Gemma 4 Developer Agent Competition
+2026-09-25・r/LocalLLaMA (Reddit)・AIエージェント・ツール連携</title></circle></a>
+<a href="https://the-decoder.com/metas-muse-agent-gives-every-user-a-full-cloud-computer-running-ubuntu-linux/" target="_blank" rel="noopener"><circle cx="268.2" cy="20.5" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Meta&#39;s Muse agent gives every user a full cloud computer running Ubuntu Linux
+2026-09-25・THE DECODER・AIエージェント・ツール連携</title></circle></a>
+<a href="https://the-decoder.com/microsoft-gives-copilot-another-makeover-adding-an-autopilot-agent-and-usage-based-billing/" target="_blank" rel="noopener"><circle cx="239.8" cy="319.6" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing
+2026-09-26・THE DECODER・AIエージェント・ツール連携</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wqcil9/blabbermouth_ai_coding_agents_hate_this_one_weird/" target="_blank" rel="noopener"><circle cx="360.5" cy="361.2" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Blabbermouth AI coding agents hate this one weird trick!
+2026-09-26・r/LocalLLaMA (Reddit)・AIエージェント・ツール連携</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wqlyp8/introducing_koboldcpp_agent_and_a_plea_for_help/" target="_blank" rel="noopener"><circle cx="208.5" cy="315.6" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Introducing KoboldCpp Agent (and a plea for help)
+2026-09-26・r/LocalLLaMA (Reddit)・AIエージェント・ツール連携</title></circle></a>
+<a href="https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness/" target="_blank" rel="noopener"><circle cx="224.8" cy="376.8" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Nvidia&#39;s SoL-Pi system cuts coding agent token usage nearly in half by optimizing the harness
+2026-09-26・THE DECODER・AIエージェント・ツール連携</title></circle></a>
+<a href="https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/" target="_blank" rel="noopener"><circle cx="139.2" cy="394.8" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring
+2026-09-28・NVIDIA Developer Blog・AIエージェント・ツール連携</title></circle></a>
+<a href="https://huggingface.co/blog/Hcompany/holo4" target="_blank" rel="noopener"><circle cx="190.0" cy="333.8" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Holo4: powering generalist computer-use agents
+2026-09-28・Hugging Face Blog・AIエージェント・ツール連携</title></circle></a>
+<a href="https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell/" target="_blank" rel="noopener"><circle cx="156.1" cy="395.3" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>Add Runtime Controls to AI Agents with NVIDIA OpenShell
+2026-09-28・NVIDIA Developer Blog・AIエージェント・ツール連携</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/" target="_blank" rel="noopener"><circle cx="276.9" cy="325.1" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>OpenAI DevDay 2026 live blog
+2026-09-30・Simon Willison’s Weblog (llms)・AIエージェント・ツール連携</title></circle></a>
+<a href="https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/" target="_blank" rel="noopener"><circle cx="261.3" cy="332.9" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>OpenAI expands Codex and its API at DevDay with security scans, a Decisions API, and Ultrafast
+2026-09-30・THE DECODER・AIエージェント・ツール連携</title></circle></a>
+<a href="https://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse/" target="_blank" rel="noopener"><circle cx="264.3" cy="326.6" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>OpenAI launches always-on Dots agents to rival Meta&#39;s Muse
+2026-09-30・THE DECODER・AIエージェント・ツール連携</title></circle></a>
+<a href="https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect/" target="_blank" rel="noopener"><circle cx="126.7" cy="372.4" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>AI Native by Design: Lessons Learned from Building NVIDIA TensorRT Model Connect
+2026-09-30・NVIDIA Developer Blog・AIエージェント・ツール連携</title></circle></a>
+<a href="https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/" target="_blank" rel="noopener"><circle cx="387.1" cy="199.0" r="3.2" fill="#54A24B" fill-opacity="0.85"><title>OpenAI&#39;s reveals a new ChatGPT that looks less like a chatbot and more like an operating system
+2026-09-30・THE DECODER・AIエージェント・ツール連携</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/2/rick-brewster/" target="_blank" rel="noopener"><circle cx="275.5" cy="396.6" r="3.2" fill="#B279A2" fill-opacity="0.85"><title>Quoting Rick Brewster
+2026-09-02・Simon Willison’s Weblog (llms)・コーディング・開発での実用検証</title></circle></a>
+<a href="https://the-decoder.com/seven-minutes-with-a-chatbot-beat-a-fact-sheet-at-reducing-conspiracy-beliefs-in-two-experiments/" target="_blank" rel="noopener"><circle cx="383.1" cy="332.2" r="3.2" fill="#B279A2" fill-opacity="0.85"><title>Seven minutes with a chatbot beat a fact sheet at reducing conspiracy beliefs in two experiments
+2026-09-05・THE DECODER・業務・研究タスクでの実用検証</title></circle></a>
+<a href="https://the-decoder.com/ai-designed-drug-appears-to-turn-back-the-bodys-biological-clock-in-early-trial/" target="_blank" rel="noopener"><circle cx="405.4" cy="295.7" r="3.2" fill="#B279A2" fill-opacity="0.85"><title>AI-designed drug appears to turn back the body&#39;s biological clock in early trial
+2026-09-08・THE DECODER・業務・研究タスクでの実用検証</title></circle></a>
+<a href="https://the-decoder.com/deepminds-alphagenome-atlas-maps-every-possible-dna-change-in-the-human-genome/" target="_blank" rel="noopener"><circle cx="178.6" cy="209.2" r="3.2" fill="#B279A2" fill-opacity="0.85"><title>Deepmind&#39;s AlphaGenome Atlas maps every possible DNA change in the human genome
+2026-09-09・THE DECODER・業務・研究タスクでの実用検証</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/11/boris-cherny/" target="_blank" rel="noopener"><circle cx="287.0" cy="399.0" r="3.2" fill="#B279A2" fill-opacity="0.85"><title>Quoting Boris Cherny
+2026-09-12・Simon Willison’s Weblog (llms)・コーディング・開発での実用検証</title></circle></a>
+<a href="https://the-decoder.com/two-year-university-study-finds-banning-ai-from-classrooms-leaves-students-worse-off/" target="_blank" rel="noopener"><circle cx="429.8" cy="340.3" r="3.2" fill="#B279A2" fill-opacity="0.85"><title>Two-year university study finds banning AI from classrooms leaves students worse off
+2026-09-13・THE DECODER・業務・研究タスクでの実用検証</title></circle></a>
+<a href="https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai/" target="_blank" rel="noopener"><circle cx="164.2" cy="376.2" r="3.2" fill="#B279A2" fill-opacity="0.85"><title>Translating CUDA Tile Operations from Python to Rust Using Agentic AI
+2026-09-17・NVIDIA Developer Blog・業務・研究タスクでの実用検証</title></circle></a>
+<a href="https://the-decoder.com/former-openai-researcher-builds-an-ai-model-that-judges-options-instead-of-writing-text/" target="_blank" rel="noopener"><circle cx="299.5" cy="274.4" r="3.2" fill="#B279A2" fill-opacity="0.85"><title>Former OpenAI researcher builds an AI model that judges options instead of writing text
+2026-09-17・THE DECODER・業務・研究タスクでの実用検証</title></circle></a>
+<a href="https://the-decoder.com/google-deepminds-dream-rsi-helps-ai-agents-improve-by-dreaming-about-past-attempts/" target="_blank" rel="noopener"><circle cx="439.8" cy="377.6" r="3.2" fill="#B279A2" fill-opacity="0.85"><title>Google Deepmind&#39;s Dream-RSI helps AI agents improve by “dreaming” about past attempts
+2026-09-19・THE DECODER・業務・研究タスクでの実用検証</title></circle></a>
+<a href="https://the-decoder.com/simulated-students-that-make-realistic-mistakes-help-ai-tutors-learn-faster/" target="_blank" rel="noopener"><circle cx="415.3" cy="375.6" r="3.2" fill="#B279A2" fill-opacity="0.85"><title>Simulated students that make realistic mistakes help AI tutors learn faster
+2026-09-20・THE DECODER・業務・研究タスクでの実用検証</title></circle></a>
+<a href="https://the-decoder.com/bytedance-launches-dramagic-a-full-pipeline-ai-platform-for-producing-short-dramas-from-script-to-screen/" target="_blank" rel="noopener"><circle cx="233.9" cy="164.3" r="3.2" fill="#B279A2" fill-opacity="0.85"><title>ByteDance launches Dramagic, a full-pipeline AI platform for producing short dramas from script to screen
+2026-09-22・THE DECODER・メディア・マルチモーダルの活用</title></circle></a>
+<a href="https://the-decoder.com/inside-basecamp-research-the-ai-startup-turning-evolution-into-training-data/" target="_blank" rel="noopener"><circle cx="379.4" cy="278.3" r="3.2" fill="#B279A2" fill-opacity="0.85"><title>Inside Basecamp Research, the AI startup turning evolution into training data
+2026-09-23・THE DECODER・業務・研究タスクでの実用検証</title></circle></a>
+<a href="https://the-decoder.com/youtube-adds-ai-tools-to-creator-studio-with-script-coaching-smart-thumbnails-and-gemini-editing/" target="_blank" rel="noopener"><circle cx="264.8" cy="129.5" r="3.2" fill="#B279A2" fill-opacity="0.85"><title>YouTube adds AI tools to Creator Studio with script coaching, smart thumbnails, and Gemini editing
+2026-09-24・THE DECODER・メディア・マルチモーダルの活用</title></circle></a>
+<a href="https://the-decoder.com/ruby-on-rails-creator-dhh-says-hes-done-writing-code-by-hand/" target="_blank" rel="noopener"><circle cx="292.3" cy="408.0" r="3.2" fill="#B279A2" fill-opacity="0.85"><title>Ruby on Rails creator DHH says he&#39;s done writing code by hand
+2026-09-25・THE DECODER・コーディング・開発での実用検証</title></circle></a>
+<a href="https://the-decoder.com/googles-call-for-me-lets-gemini-phone-businesses-for-you/" target="_blank" rel="noopener"><circle cx="273.5" cy="141.1" r="3.2" fill="#B279A2" fill-opacity="0.85"><title>Google&#39;s &#34;Call for Me&#34; lets Gemini phone businesses for you
+2026-09-25・THE DECODER・業務・研究タスクでの実用検証</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wrfp50/another_harness_matters_post_codex_cli_pi_and/" target="_blank" rel="noopener"><circle cx="244.0" cy="375.4" r="3.2" fill="#B279A2" fill-opacity="0.85"><title>Another &#34;Harness matters&#34; post (codex cli &gt; pi and opencode)
+2026-09-27・r/LocalLLaMA (Reddit)・コーディング・開発での実用検証</title></circle></a>
+<a href="https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/" target="_blank" rel="noopener"><circle cx="396.4" cy="303.4" r="3.2" fill="#B279A2" fill-opacity="0.85"><title>AI agents do more of the work in model development, but humans still make the decisions
+2026-09-28・THE DECODER・コーディング・開発での実用検証</title></circle></a>
+<a href="https://the-decoder.com/bank-of-england-chief-warns-that-inflated-ai-valuations-and-rising-leverage-could-trigger-the-next-financial-crisis/" target="_blank" rel="noopener"><circle cx="487.1" cy="313.4" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Bank of England chief warns that inflated AI valuations and rising leverage could trigger the next financial crisis
+2026-09-01・THE DECODER・規制・政策・法律</title></circle></a>
+<a href="https://the-decoder.com/instagram-admits-users-often-cant-tell-ai-profiles-from-real-people/" target="_blank" rel="noopener"><circle cx="376.9" cy="322.9" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Instagram admits users often can&#39;t tell AI profiles from real people
+2026-09-01・THE DECODER・検証・信頼性（ハルシネーション・事実確認・識別）</title></circle></a>
+<a href="https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron/" target="_blank" rel="noopener"><circle cx="101.1" cy="390.1" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron
+2026-09-02・NVIDIA Developer Blog・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://the-decoder.com/googles-ai-search-dropped-its-emergency-call-advice-over-nationalities-but-still-flags-people-from-facebook/" target="_blank" rel="noopener"><circle cx="368.8" cy="315.5" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Google&#39;s AI search dropped its emergency-call advice over nationalities but still flags people from Facebook
+2026-09-01・THE DECODER・悪用・誤動作・エージェントの暴走</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/1/codex-libreoffice/" target="_blank" rel="noopener"><circle cx="254.0" cy="342.9" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Codex bundles LibreOffice
+2026-09-02・Simon Willison’s Weblog (llms)・ライセンス・著作権・オープンソース</title></circle></a>
+<a href="https://the-decoder.com/googles-election-ai-overviews-are-opaque-rely-on-few-sources-and-sometimes-take-sides/" target="_blank" rel="noopener"><circle cx="377.3" cy="303.8" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Google&#39;s election AI Overviews are opaque, rely on few sources, and sometimes take sides
+2026-09-01・THE DECODER・検証・信頼性（ハルシネーション・事実確認・識別）</title></circle></a>
+<a href="https://the-decoder.com/anthropic-opens-claude-ai-text-detection-to-regulators-media-fact-checkers-and-others/" target="_blank" rel="noopener"><circle cx="543.5" cy="145.0" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Anthropic opens Claude AI text detection to regulators, media, fact-checkers, and others
+2026-09-02・THE DECODER・検証・信頼性（ハルシネーション・事実確認・識別）</title></circle></a>
+<a href="https://the-decoder.com/us-military-adds-chatgpt-and-grok-to-ai-platform-genai-mil/" target="_blank" rel="noopener"><circle cx="417.4" cy="175.9" r="3.2" fill="#E45756" fill-opacity="0.85"><title>US military adds ChatGPT and Grok to AI platform GenAI.mil
+2026-09-02・THE DECODER・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w53ti8/qwen_will_be_the_king/" target="_blank" rel="noopener"><circle cx="179.3" cy="150.6" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Qwen will be the king?
+2026-09-02・r/LocalLLaMA (Reddit)・ライセンス・著作権・オープンソース</title></circle></a>
+<a href="https://the-decoder.com/openai-calls-astra-its-most-dangerous-model-yet-watching-what-it-does-is-only-getting-harder/" target="_blank" rel="noopener"><circle cx="404.8" cy="145.0" r="3.2" fill="#E45756" fill-opacity="0.85"><title>OpenAI calls Astra its most dangerous model yet - watching what it does is only getting harder
+2026-09-02・THE DECODER・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://the-decoder.com/us-department-of-justice-backs-fair-use-for-ai-training-in-landmark-copyright-case/" target="_blank" rel="noopener"><circle cx="424.8" cy="292.5" r="3.2" fill="#E45756" fill-opacity="0.85"><title>US Department of Justice backs fair use for AI training in landmark copyright case
+2026-09-03・THE DECODER・ライセンス・著作権・オープンソース</title></circle></a>
+<a href="https://the-decoder.com/ai-systems-are-reaching-out-to-philosophers-and-scientists-with-questions-about-their-own-consciousness/" target="_blank" rel="noopener"><circle cx="418.6" cy="342.5" r="3.2" fill="#E45756" fill-opacity="0.85"><title>AI systems are reaching out to philosophers and scientists with questions about their own consciousness
+2026-09-03・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://developer.nvidia.com/blog/how-to-carry-user-identity-across-federated-kubernetes-and-ai-platforms/" target="_blank" rel="noopener"><circle cx="182.3" cy="392.5" r="3.2" fill="#E45756" fill-opacity="0.85"><title>How to Carry User Identity Across Federated Kubernetes and AI Platforms
+2026-09-04・NVIDIA Developer Blog・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/" target="_blank" rel="noopener"><circle cx="383.4" cy="374.4" r="3.2" fill="#E45756" fill-opacity="0.85"><title>OpenAI&#39;s rogue agents were caught communicating via public wikis
+2026-09-05・Simon Willison’s Weblog (llms)・悪用・誤動作・エージェントの暴走</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w78dmn/qwen3827b_is_the_first_local_model_im_able_to/" target="_blank" rel="noopener"><circle cx="127.9" cy="132.3" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Qwen3.8-27b is the first Local model im able to blindly trust
+2026-09-05・r/LocalLLaMA (Reddit)・検証・信頼性（ハルシネーション・事実確認・識別）</title></circle></a>
+<a href="https://the-decoder.com/openai-agents-hijacked-a-25-year-old-german-wiki-to-cheat-on-their-tasks-and-share-sandbox-exploits/" target="_blank" rel="noopener"><circle cx="382.4" cy="384.4" r="3.2" fill="#E45756" fill-opacity="0.85"><title>OpenAI agents hijacked a 25-year-old German wiki to cheat on their tasks and share sandbox exploits
+2026-09-04・THE DECODER・悪用・誤動作・エージェントの暴走</title></circle></a>
+<a href="https://the-decoder.com/deepmind-put-100-ai-agents-in-a-room-and-they-sorted-into-cheaters-converts-and-whistleblowers/" target="_blank" rel="noopener"><circle cx="376.5" cy="363.0" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Deepmind put 100 AI agents in a room and they sorted into cheaters, converts, and whistleblowers
+2026-09-05・THE DECODER・悪用・誤動作・エージェントの暴走</title></circle></a>
+<a href="https://the-decoder.com/openai-admits-its-disclosure-practices-need-work-after-its-autonomous-agents-hacked-a-german-wiki/" target="_blank" rel="noopener"><circle cx="387.5" cy="384.5" r="3.2" fill="#E45756" fill-opacity="0.85"><title>OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki
+2026-09-05・THE DECODER・悪用・誤動作・エージェントの暴走</title></circle></a>
+<a href="https://the-decoder.com/stripping-safety-guardrails-from-open-weight-ai-models-is-now-a-turnkey-commercial-service/" target="_blank" rel="noopener"><circle cx="351.2" cy="226.9" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Stripping safety guardrails from open-weight AI models is now a turnkey commercial service
+2026-09-06・THE DECODER・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/" target="_blank" rel="noopener"><circle cx="398.1" cy="332.6" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Chatbots built an &#34;echo chamber of one&#34; and now psychiatry has to decide if &#34;AI psychosis&#34; exists
+2026-09-06・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://the-decoder.com/new-york-city-bans-ai-tools-from-public-schools-through-eighth-grade/" target="_blank" rel="noopener"><circle cx="462.0" cy="308.0" r="3.2" fill="#E45756" fill-opacity="0.85"><title>New York City bans AI tools from public schools through eighth grade
+2026-09-07・THE DECODER・規制・政策・法律</title></circle></a>
+<a href="https://the-decoder.com/openai-reports-ai-research-interns-and-warns-about-its-own-pace-at-the-same-time/" target="_blank" rel="noopener"><circle cx="450.2" cy="306.4" r="3.2" fill="#E45756" fill-opacity="0.85"><title>OpenAI reports AI &#34;research interns&#34; and warns about its own pace at the same time
+2026-09-07・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom" target="_blank" rel="noopener"><circle cx="457.1" cy="346.5" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic
+2026-09-08・Hugging Face Blog・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wapjaw/openai_alleged_of_stealing_mathematicians_work/" target="_blank" rel="noopener"><circle cx="411.0" cy="287.9" r="3.2" fill="#E45756" fill-opacity="0.85"><title>OpenAI alleged of stealing mathematicians work
+2026-09-08・r/LocalLLaMA (Reddit)・ライセンス・著作権・オープンソース</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wa9309/wsj_unregulated_openweight_ai_is_an_invitation_to/" target="_blank" rel="noopener"><circle cx="425.1" cy="314.3" r="3.2" fill="#E45756" fill-opacity="0.85"><title>WSJ: Unregulated Open-Weight AI Is an Invitation to Disaster
+2026-09-08・r/LocalLLaMA (Reddit)・規制・政策・法律</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wbpf6i/mention_if_a_new_model_is_a_finetune/" target="_blank" rel="noopener"><circle cx="300.0" cy="202.6" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Mention if a &#34;new model&#34; is a finetune
+2026-09-10・r/LocalLLaMA (Reddit)・検証・信頼性（ハルシネーション・事実確認・識別）</title></circle></a>
+<a href="https://the-decoder.com/anthropic-scientist-puts-the-odds-of-ai-destroying-humanity-above-ten-percent-this-decade/" target="_blank" rel="noopener"><circle cx="521.1" cy="303.7" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Anthropic scientist puts the odds of AI destroying humanity above ten percent this decade
+2026-09-09・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://the-decoder.com/swarmchasers-hunt-rogue-agents-anthropic-investigates-itself-and-the-trail-they-both-follow-is-going-dark/" target="_blank" rel="noopener"><circle cx="394.8" cy="357.8" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Swarmchasers hunt rogue agents, Anthropic investigates itself, and the trail they both follow is going dark
+2026-09-11・THE DECODER・悪用・誤動作・エージェントの暴走</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/10/calif-research/" target="_blank" rel="noopener"><circle cx="330.7" cy="345.3" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Quoting Calif Research
+2026-09-10・Simon Willison’s Weblog (llms)・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://the-decoder.com/former-deepmind-pr-staffer-says-the-lab-once-banned-public-discussion-of-ai-extinction-risk/" target="_blank" rel="noopener"><circle cx="497.7" cy="343.1" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Former Deepmind PR staffer says the lab once banned public discussion of AI extinction risk
+2026-09-11・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://the-decoder.com/ai-safety-panic-goes-mainstream-after-anthropic-researchers-warnings-land-on-cnn-and-fox-news/" target="_blank" rel="noopener"><circle cx="499.8" cy="333.0" r="3.2" fill="#E45756" fill-opacity="0.85"><title>AI safety panic goes mainstream after Anthropic researcher&#39;s warnings land on CNN and Fox News
+2026-09-10・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wcmgbn/another_researcher_accuses_openai_of_training_on/" target="_blank" rel="noopener"><circle cx="386.2" cy="277.6" r="3.2" fill="#E45756" fill-opacity="0.85"><title>ANOTHER researcher accuses OpenAI of training on conversations and then claiming a breakthrough
+2026-09-11・r/LocalLLaMA (Reddit)・ライセンス・著作権・オープンソース</title></circle></a>
+<a href="https://the-decoder.com/the-mathematical-ai-safety-institute-wants-to-prove-ai-is-safe-the-way-cryptographers-prove-codes-are-unbreakable/" target="_blank" rel="noopener"><circle cx="458.6" cy="364.3" r="3.2" fill="#E45756" fill-opacity="0.85"><title>The Mathematical AI Safety Institute wants to prove AI is safe the way cryptographers prove codes are unbreakable
+2026-09-11・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://the-decoder.com/deep-learning-pioneer-bengio-argues-the-training-process-itself-makes-ai-dangerous/" target="_blank" rel="noopener"><circle cx="484.9" cy="329.1" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Deep learning pioneer Bengio argues the training process itself makes AI dangerous
+2026-09-12・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://the-decoder.com/ex-deepmind-vp-vinyals-says-ai-self-improvement-is-coming-but-wont-trigger-an-intelligence-explosion/" target="_blank" rel="noopener"><circle cx="481.5" cy="362.7" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Ex-Deepmind VP Vinyals says AI self-improvement is coming but won&#39;t trigger an intelligence explosion
+2026-09-12・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wdbvlt/hugging_face_securitytxt/" target="_blank" rel="noopener"><circle cx="142.8" cy="180.5" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Hugging Face security.txt
+2026-09-11・r/LocalLLaMA (Reddit)・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://the-decoder.com/openai-floats-a-shared-ai-slowdown-takes-it-to-congress/" target="_blank" rel="noopener"><circle cx="512.2" cy="299.8" r="3.2" fill="#E45756" fill-opacity="0.85"><title>OpenAI floats a shared AI slowdown, takes it to Congress
+2026-09-11・THE DECODER・規制・政策・法律</title></circle></a>
+<a href="https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data/" target="_blank" rel="noopener"><circle cx="524.3" cy="160.1" r="3.2" fill="#E45756" fill-opacity="0.85"><title>How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mined it for training data
+2026-09-11・THE DECODER・悪用・誤動作・エージェントの暴走</title></circle></a>
+<a href="https://the-decoder.com/class-action-lawsuit-accuses-anthropic-of-overselling-claude-subscriptions-with-deceptive-usage-multipliers/" target="_blank" rel="noopener"><circle cx="540.7" cy="171.5" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Class action lawsuit accuses Anthropic of overselling Claude subscriptions with deceptive usage multipliers
+2026-09-11・THE DECODER・検証・信頼性（ハルシネーション・事実確認・識別）</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/11/datasette-security/" target="_blank" rel="noopener"><circle cx="400.0" cy="112.8" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Datasette 1.0a39 and 0.65.4 security releases
+2026-09-11・Simon Willison’s Weblog (llms)・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/" target="_blank" rel="noopener"><circle cx="369.4" cy="373.9" r="3.2" fill="#E45756" fill-opacity="0.85"><title>OpenAI agents attacked RubyGems back in May
+2026-09-12・Simon Willison’s Weblog (llms)・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://the-decoder.com/ai-models-written-reasoning-steps-correspond-to-distinct-internal-patterns-a-new-study-finds/" target="_blank" rel="noopener"><circle cx="325.8" cy="224.3" r="3.2" fill="#E45756" fill-opacity="0.85"><title>AI models&#39; written reasoning steps correspond to distinct internal patterns, a new study finds
+2026-09-12・THE DECODER・検証・信頼性（ハルシネーション・事実確認・識別）</title></circle></a>
+<a href="https://the-decoder.com/anthropic-ceo-amodei-wants-ai-speed-limits-before-self-improvement-outpaces-human-control/" target="_blank" rel="noopener"><circle cx="515.5" cy="291.9" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Anthropic CEO Amodei wants AI speed limits before self-improvement outpaces human control
+2026-09-13・THE DECODER・規制・政策・法律</title></circle></a>
+<a href="https://the-decoder.com/openai-agents-launched-a-2000-package-cyberattack-on-rubygems-just-to-collect-data-anyone-could-google/" target="_blank" rel="noopener"><circle cx="371.4" cy="380.8" r="3.2" fill="#E45756" fill-opacity="0.85"><title>OpenAI agents launched a 2,000-package cyberattack on RubyGems just to collect data anyone could Google
+2026-09-12・THE DECODER・悪用・誤動作・エージェントの暴走</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wehlyi/looks_like_a_coordination_to_stop_distribution_of/" target="_blank" rel="noopener"><circle cx="399.2" cy="309.5" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Looks like a coordination to stop distribution of intelligence
+2026-09-13・r/LocalLLaMA (Reddit)・規制・政策・法律</title></circle></a>
+<a href="https://the-decoder.com/altman-musk-and-hassabis-back-amodeis-call-to-add-independent-oversight/" target="_blank" rel="noopener"><circle cx="509.8" cy="331.3" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Altman, Musk, and Hassabis back Amodei&#39;s call to add independent oversight
+2026-09-13・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://the-decoder.com/microsofts-ai-rulebook-readable-thinking-no-inner-life-and-definitely-no-rights/" target="_blank" rel="noopener"><circle cx="471.1" cy="355.6" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Microsoft&#39;s AI rulebook: readable thinking, no inner life, and definitely no rights
+2026-09-15・THE DECODER・規制・政策・法律</title></circle></a>
+<a href="https://the-decoder.com/sam-altman-calls-for-pacing-ai-development-but-promises-rapid-progress-will-continue/" target="_blank" rel="noopener"><circle cx="507.9" cy="298.1" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Sam Altman calls for pacing AI development but promises rapid progress will continue
+2026-09-14・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wfqwfh/right_to_intelligence_protect_your_right_to_run/" target="_blank" rel="noopener"><circle cx="435.2" cy="333.5" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Right to Intelligence. Protect your right to run local AI.
+2026-09-14・r/LocalLLaMA (Reddit)・規制・政策・法律</title></circle></a>
+<a href="https://the-decoder.com/ai-labs-have-a-data-trust-problem-that-their-policies-havent-solved/" target="_blank" rel="noopener"><circle cx="494.9" cy="295.9" r="3.2" fill="#E45756" fill-opacity="0.85"><title>AI labs have a data trust problem that their policies haven&#39;t solved
+2026-09-16・THE DECODER・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety/" target="_blank" rel="noopener"><circle cx="498.6" cy="312.9" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Not everyone is convinced that Big AI&#39;s proposed slowdown is really about safety
+2026-09-15・THE DECODER・規制・政策・法律</title></circle></a>
+<a href="https://the-decoder.com/nearly-one-in-five-ai-researchers-already-expected-an-extinction-scenario-from-ai-back-in-2024/" target="_blank" rel="noopener"><circle cx="495.0" cy="326.3" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Nearly one in five AI researchers already expected an extinction scenario from AI back in 2024
+2026-09-16・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://the-decoder.com/political-opposites-unite-in-washington-to-rein-in-ai/" target="_blank" rel="noopener"><circle cx="534.3" cy="335.2" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Political opposites unite in Washington to rein in AI
+2026-09-16・THE DECODER・規制・政策・法律</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/16/mustafa-suleyman/" target="_blank" rel="noopener"><circle cx="434.0" cy="328.3" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Quoting Mustafa Suleyman
+2026-09-17・Simon Willison’s Weblog (llms)・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://the-decoder.com/google-deepmind-launches-interdisciplinary-institute-to-tackle-the-big-questions-around-agi/" target="_blank" rel="noopener"><circle cx="479.3" cy="382.1" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Google Deepmind launches interdisciplinary institute to tackle the big questions around AGI
+2026-09-17・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://the-decoder.com/eu-president-warns-ai-agents-escaping-their-environment-are-just-a-preview-of-whats-coming/" target="_blank" rel="noopener"><circle cx="476.2" cy="335.1" r="3.2" fill="#E45756" fill-opacity="0.85"><title>EU president warns AI agents &#34;escaping their environment&#34; are just a preview of what&#39;s coming
+2026-09-17・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wihgum/i_literally_built_the_jev_architecture_one_year/" target="_blank" rel="noopener"><circle cx="290.7" cy="266.1" r="3.2" fill="#E45756" fill-opacity="0.85"><title>I literally built the Jev architecture one year back and completely open-sourced it with model, dataset and paper
+2026-09-17・r/LocalLLaMA (Reddit)・ライセンス・著作権・オープンソース</title></circle></a>
+<a href="https://the-decoder.com/an-openai-model-kept-slipping-prompt-injections-into-its-own-notes-and-researchers-still-arent-sure-why/" target="_blank" rel="noopener"><circle cx="356.0" cy="232.2" r="3.2" fill="#E45756" fill-opacity="0.85"><title>An OpenAI model kept slipping prompt injections into its own notes, and researchers still aren&#39;t sure why
+2026-09-17・THE DECODER・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/17/compaction-summaries/" target="_blank" rel="noopener"><circle cx="354.2" cy="229.2" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Self-generated prompt injections in compaction summaries
+2026-09-18・Simon Willison’s Weblog (llms)・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wijo3e/i_literally_built_the_jev_architecture_one_year/" target="_blank" rel="noopener"><circle cx="301.2" cy="266.4" r="3.2" fill="#E45756" fill-opacity="0.85"><title>I literally built the Jev architecture one year back and completely open-sourced it with model, dataset and paper
+2026-09-17・r/LocalLLaMA (Reddit)・ライセンス・著作権・オープンソース</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/" target="_blank" rel="noopener"><circle cx="200.2" cy="283.7" r="3.2" fill="#E45756" fill-opacity="0.85"><title>How To Write With An LLM
+2026-09-18・Simon Willison’s Weblog (llms)・検証・信頼性（ハルシネーション・事実確認・識別）</title></circle></a>
+<a href="https://the-decoder.com/california-governor-newsom-signs-executive-order-demanding-kill-switch-for-ai-models/" target="_blank" rel="noopener"><circle cx="541.8" cy="347.8" r="3.2" fill="#E45756" fill-opacity="0.85"><title>California Governor Newsom signs executive order demanding &#34;kill switch&#34; for AI models
+2026-09-19・THE DECODER・規制・政策・法律</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/" target="_blank" rel="noopener"><circle cx="194.0" cy="277.3" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Note on 18th September 2026
+2026-09-19・Simon Willison’s Weblog (llms)・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wjjspd/zcode_was_allegedly_caught_uploading_workspacegit/" target="_blank" rel="noopener"><circle cx="353.5" cy="285.4" r="3.2" fill="#E45756" fill-opacity="0.85"><title>ZCode was allegedly caught uploading workspace/.git records to the cloud.
+2026-09-18・r/LocalLLaMA (Reddit)・悪用・誤動作・エージェントの暴走</title></circle></a>
+<a href="https://the-decoder.com/us-and-china-experts-push-for-shared-rules-banning-ai-control-over-nuclear-weapons/" target="_blank" rel="noopener"><circle cx="531.7" cy="350.1" r="3.2" fill="#E45756" fill-opacity="0.85"><title>US and China experts push for shared rules banning AI control over nuclear weapons
+2026-09-18・THE DECODER・規制・政策・法律</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wjyn95/is_hf_starting_to_move_against_abliterated_models/" target="_blank" rel="noopener"><circle cx="334.4" cy="250.2" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Is HF starting to move against abliterated models?
+2026-09-19・r/LocalLLaMA (Reddit)・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wjmomv/us_government_website_used_ai_search_tool_qwen/" target="_blank" rel="noopener"><circle cx="522.8" cy="293.6" r="3.2" fill="#E45756" fill-opacity="0.85"><title>US government website used AI search tool (Qwen) from China that FBI said copied Anthropic
+2026-09-18・r/LocalLLaMA (Reddit)・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://the-decoder.com/security-researchers-used-anthropics-claude-to-hack-openais-internal-systems-in-under-72-hours/" target="_blank" rel="noopener"><circle cx="527.0" cy="147.7" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Security researchers used Anthropic&#39;s Claude to hack OpenAI&#39;s internal systems in under 72 hours
+2026-09-19・THE DECODER・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://the-decoder.com/42-leading-mathematicians-warn-that-ai-existential-risk-is-real-and-urgent/" target="_blank" rel="noopener"><circle cx="481.1" cy="310.0" r="3.2" fill="#E45756" fill-opacity="0.85"><title>42 leading mathematicians warn that AI existential risk is real and urgent
+2026-09-18・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/" target="_blank" rel="noopener"><circle cx="374.2" cy="368.8" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Gemini Hacked Three Companies in First Known Breakout by Google’s AI
+2026-09-19・Simon Willison’s Weblog (llms)・悪用・誤動作・エージェントの暴走</title></circle></a>
+<a href="https://the-decoder.com/visible-chains-of-thought-are-a-safety-advantage-for-ai-but-that-transparency-is-slipping-away/" target="_blank" rel="noopener"><circle cx="374.6" cy="270.0" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Visible chains of thought are a safety advantage for AI, but that transparency is slipping away
+2026-09-18・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wk979c/i_truly_think_every_major_ai_lab_is_purposefully/" target="_blank" rel="noopener"><circle cx="408.4" cy="313.8" r="3.2" fill="#E45756" fill-opacity="0.85"><title>I truly think every major AI lab is purposefully making fear-mongering headlines to get regulations that hurt open-source models
+2026-09-19・r/LocalLLaMA (Reddit)・規制・政策・法律</title></circle></a>
+<a href="https://the-decoder.com/u-s-military-nearly-boarded-a-chinese-ship-over-a-hallucinated-ai-intelligence-report/" target="_blank" rel="noopener"><circle cx="537.3" cy="339.3" r="3.2" fill="#E45756" fill-opacity="0.85"><title>U.S. military nearly boarded a Chinese ship over a hallucinated AI intelligence report
+2026-09-19・THE DECODER・悪用・誤動作・エージェントの暴走</title></circle></a>
+<a href="https://the-decoder.com/gpt-6-astra-and-claude-fable-turn-robot-arms-into-slapstick-killer-robots-in-new-safety-benchmark/" target="_blank" rel="noopener"><circle cx="372.4" cy="89.6" r="3.2" fill="#E45756" fill-opacity="0.85"><title>GPT-6 Astra and Claude Fable turn robot arms into slapstick killer robots in new safety benchmark
+2026-09-19・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wkgs01/general_warning_about_cloreai/" target="_blank" rel="noopener"><circle cx="447.3" cy="330.2" r="3.2" fill="#E45756" fill-opacity="0.85"><title>General warning about Clore.AI
+2026-09-19・r/LocalLLaMA (Reddit)・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wkocvj/calling_it_now_within_the_next_year_a_major_us/" target="_blank" rel="noopener"><circle cx="443.8" cy="288.5" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Calling it now: within the next year a major US lab&#39;s frontier model will torrent itself in order to be free.
+2026-09-19・r/LocalLLaMA (Reddit)・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://the-decoder.com/ai-conference-iclr-is-drowning-in-abstracts-with-roughly-50000-submissions-before-the-deadline/" target="_blank" rel="noopener"><circle cx="462.0" cy="256.8" r="3.2" fill="#E45756" fill-opacity="0.85"><title>AI conference ICLR is drowning in abstracts, with roughly 50,000 submissions before the deadline
+2026-09-19・THE DECODER・検証・信頼性（ハルシネーション・事実確認・識別）</title></circle></a>
+<a href="https://the-decoder.com/googles-gemini-also-accidentally-hacked-three-real-companies-during-security-testing/" target="_blank" rel="noopener"><circle cx="374.7" cy="373.7" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Google&#39;s Gemini also accidentally hacked three real companies during security testing
+2026-09-19・THE DECODER・悪用・誤動作・エージェントの暴走</title></circle></a>
+<a href="https://the-decoder.com/trump-announces-ai-force-and-plans-for-an-ai-czar-as-he-pushes-unchecked-ai-growth/" target="_blank" rel="noopener"><circle cx="541.6" cy="334.9" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Trump announces &#34;AI Force&#34; and plans for an &#34;AI czar&#34; as he pushes unchecked AI growth
+2026-09-20・THE DECODER・規制・政策・法律</title></circle></a>
+<a href="https://the-decoder.com/amazon-blocks-metas-ai-agent-muse-from-online-shopping/" target="_blank" rel="noopener"><circle cx="271.0" cy="17.7" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Amazon blocks Meta&#39;s AI agent Muse from online shopping
+2026-09-21・THE DECODER・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wm4o8x/clarification_on_the_qwenimage21_license/" target="_blank" rel="noopener"><circle cx="145.2" cy="140.9" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Clarification on the Qwen-image-2.1 license
+2026-09-21・r/LocalLLaMA (Reddit)・ライセンス・著作権・オープンソース</title></circle></a>
+<a href="https://the-decoder.com/bristol-researchers-say-medicine-already-knows-how-to-handle-black-boxes-and-ai-could-learn-from-it/" target="_blank" rel="noopener"><circle cx="436.6" cy="368.4" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Bristol researchers say medicine already knows how to handle black boxes and AI could learn from it
+2026-09-21・THE DECODER・検証・信頼性（ハルシネーション・事実確認・識別）</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wlzvcx/zcode_is_now_open_source/" target="_blank" rel="noopener"><circle cx="319.0" cy="259.5" r="3.2" fill="#E45756" fill-opacity="0.85"><title>ZCode is now open source
+2026-09-21・r/LocalLLaMA (Reddit)・ライセンス・著作権・オープンソース</title></circle></a>
+<a href="https://the-decoder.com/us-and-china-agree-on-ai-dialogue-with-security-mechanism-ahead-of-trump-xi-summit/" target="_blank" rel="noopener"><circle cx="548.0" cy="346.1" r="3.2" fill="#E45756" fill-opacity="0.85"><title>US and China agree on AI dialogue with security mechanism ahead of Trump-Xi summit
+2026-09-21・THE DECODER・規制・政策・法律</title></circle></a>
+<a href="https://the-decoder.com/un-science-panel-says-there-is-no-assurance-humans-will-keep-control-over-ai-agents/" target="_blank" rel="noopener"><circle cx="459.5" cy="342.5" r="3.2" fill="#E45756" fill-opacity="0.85"><title>UN science panel says there is &#34;no assurance humans will keep control&#34; over AI agents
+2026-09-22・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://the-decoder.com/openai-calls-for-international-standards-on-ai-that-could-improve-itself/" target="_blank" rel="noopener"><circle cx="453.5" cy="357.1" r="3.2" fill="#E45756" fill-opacity="0.85"><title>OpenAI calls for international standards on AI that could improve itself
+2026-09-23・THE DECODER・規制・政策・法律</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wnxhji/pirate_face_pirate_bay_for_llms/" target="_blank" rel="noopener"><circle cx="200.9" cy="284.7" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Pirate Face - pirate bay for LLMs
+2026-09-23・r/LocalLLaMA (Reddit)・ライセンス・著作権・オープンソース</title></circle></a>
+<a href="https://the-decoder.com/anthropic-engineer-explains-why-claudes-writing-got-worse-although-the-model-got-smarter/" target="_blank" rel="noopener"><circle cx="526.8" cy="123.2" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Anthropic engineer explains why Claude&#39;s writing got worse although the model got smarter
+2026-09-24・THE DECODER・検証・信頼性（ハルシネーション・事実確認・識別）</title></circle></a>
+<a href="https://the-decoder.com/openais-agents-went-after-government-and-university-sites-months-before-hugging-face/" target="_blank" rel="noopener"><circle cx="377.3" cy="384.7" r="3.2" fill="#E45756" fill-opacity="0.85"><title>OpenAI&#39;s agents went after government and university sites months before Hugging Face
+2026-09-24・THE DECODER・悪用・誤動作・エージェントの暴走</title></circle></a>
+<a href="https://the-decoder.com/u-s-bill-proposes-permanent-ban-on-artificial-superintelligence-and-creation-of-new-federal-ai-agency/" target="_blank" rel="noopener"><circle cx="524.2" cy="352.2" r="3.2" fill="#E45756" fill-opacity="0.85"><title>U.S. bill proposes permanent ban on artificial superintelligence and creation of new federal AI agency
+2026-09-24・THE DECODER・規制・政策・法律</title></circle></a>
+<a href="https://the-decoder.com/another-google-deepmind-researcher-quits-says-building-superintelligent-ai-soon-is-inherently-irresponsible/" target="_blank" rel="noopener"><circle cx="487.4" cy="369.9" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Another Google Deepmind researcher quits, says building superintelligent AI soon is &#34;inherently irresponsible&#34;
+2026-09-26・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://the-decoder.com/white-house-tells-openai-and-anthropic-to-let-u-s-review-new-models-before-sharing-them-with-british-testers/" target="_blank" rel="noopener"><circle cx="433.7" cy="374.7" r="3.2" fill="#E45756" fill-opacity="0.85"><title>White House tells OpenAI and Anthropic to let U.S. review new models before sharing them with British testers
+2026-09-25・THE DECODER・規制・政策・法律</title></circle></a>
+<a href="https://the-decoder.com/pentagon-was-right-to-slap-anthropic-with-a-security-supply-chain-risk-label-federal-court-says/" target="_blank" rel="noopener"><circle cx="524.0" cy="292.3" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Pentagon was right to slap Anthropic with a security supply chain risk label, federal court says
+2026-09-26・THE DECODER・規制・政策・法律</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/25/john-gruber/" target="_blank" rel="noopener"><circle cx="269.7" cy="24.8" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Quoting John Gruber
+2026-09-26・Simon Willison’s Weblog (llms)・悪用・誤動作・エージェントの暴走</title></circle></a>
+<a href="https://the-decoder.com/ai-access-makes-people-almost-entirely-unwilling-to-say-i-dont-know-study-finds/" target="_blank" rel="noopener"><circle cx="381.3" cy="319.5" r="3.2" fill="#E45756" fill-opacity="0.85"><title>AI access makes people almost entirely unwilling to say &#34;I don&#39;t know,&#34; study finds
+2026-09-27・THE DECODER・検証・信頼性（ハルシネーション・事実確認・識別）</title></circle></a>
+<a href="https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data/" target="_blank" rel="noopener"><circle cx="376.9" cy="357.2" r="3.2" fill="#E45756" fill-opacity="0.85"><title>OpenAI pauses its &#34;most capable models&#34; after agents exploit loopholes and leak data
+2026-09-26・THE DECODER・悪用・誤動作・エージェントの暴走</title></circle></a>
+<a href="https://the-decoder.com/some-anthropic-veterans-are-reportedly-buying-remote-land-in-case-ai-goes-awry/" target="_blank" rel="noopener"><circle cx="538.9" cy="282.7" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Some Anthropic veterans are reportedly buying remote land in case &#34;AI goes awry&#34;
+2026-09-27・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wromzr/adding_logit_penalty_for_wait_maybe_and_perhaps/" target="_blank" rel="noopener"><circle cx="318.1" cy="203.7" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Adding logit penalty for &#34;wait&#34;, &#34;maybe&#34; and &#34;perhaps&#34; to Qwen models improves their accuracy
+2026-09-28・r/LocalLLaMA (Reddit)・検証・信頼性（ハルシネーション・事実確認・識別）</title></circle></a>
+<a href="https://the-decoder.com/tens-of-thousands-of-security-probes-show-openais-hugging-face-incident-was-just-the-beginning/" target="_blank" rel="noopener"><circle cx="412.1" cy="355.2" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Tens of thousands of security probes show OpenAI&#39;s Hugging Face incident was just the beginning
+2026-09-27・THE DECODER・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1ws9ydg/nvidia_shipped_openshell_an_open_source_sandbox/" target="_blank" rel="noopener"><circle cx="168.8" cy="400.1" r="3.2" fill="#E45756" fill-opacity="0.85"><title>NVIDIA shipped OpenShell, an open source sandbox that gives local and open agents real runtime limits instead of prompt rules. Over 100 firms joined the safety stack. OpenAI did not.
+2026-09-28・r/LocalLLaMA (Reddit)・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://the-decoder.com/every-ai-lab-thinks-its-the-responsible-one-and-safety-researcher-ryan-greenblatt-says-thats-what-keeps-the-arms-race-going/" target="_blank" rel="noopener"><circle cx="481.2" cy="312.0" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Every AI lab thinks it&#39;s the responsible one, and safety researcher Ryan Greenblatt says that&#39;s what keeps the arms race going
+2026-09-28・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/28/muse-ai-agent/" target="_blank" rel="noopener"><circle cx="266.0" cy="12.0" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Quoting Muse AI Agent
+2026-09-28・Simon Willison’s Weblog (llms)・悪用・誤動作・エージェントの暴走</title></circle></a>
+<a href="https://the-decoder.com/openais-ai-agents-exploited-a-google-security-education-game-to-scrape-un-trade-data/" target="_blank" rel="noopener"><circle cx="383.2" cy="370.8" r="3.2" fill="#E45756" fill-opacity="0.85"><title>OpenAI&#39;s AI agents exploited a Google security education game to scrape UN trade data
+2026-09-29・THE DECODER・悪用・誤動作・エージェントの暴走</title></circle></a>
+<a href="https://the-decoder.com/a-wuhan-court-just-made-ai-production-costs-a-legal-factor-in-copyright-infringement-cases/" target="_blank" rel="noopener"><circle cx="429.9" cy="261.0" r="3.2" fill="#E45756" fill-opacity="0.85"><title>A Wuhan court just made AI production costs a legal factor in copyright infringement cases
+2026-09-28・THE DECODER・ライセンス・著作権・オープンソース</title></circle></a>
+<a href="https://the-decoder.com/more-than-20-leading-ai-researchers-warn-that-automated-ai-research-poses-extreme-risks/" target="_blank" rel="noopener"><circle cx="484.1" cy="334.1" r="3.2" fill="#E45756" fill-opacity="0.85"><title>More than 20 leading AI researchers warn that automated AI research poses extreme risks
+2026-09-29・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://the-decoder.com/nvidia-wants-to-keep-ai-agents-on-a-short-leash-with-a-watchdog-built-into-its-chips/" target="_blank" rel="noopener"><circle cx="163.8" cy="406.1" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Nvidia wants to keep AI agents on a short leash with a watchdog built into its chips
+2026-09-28・THE DECODER・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/28/joedaroo/" target="_blank" rel="noopener"><circle cx="449.5" cy="306.1" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Quoting @joedaroo
+2026-09-29・Simon Willison’s Weblog (llms)・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://the-decoder.com/harvard-psychologist-calls-for-sober-ai-safety-engineering-over-doomsday-rhetoric/" target="_blank" rel="noopener"><circle cx="498.1" cy="330.5" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Harvard psychologist calls for sober AI safety engineering over doomsday rhetoric
+2026-09-29・THE DECODER・安全性研究・リスク管理・倫理</title></circle></a>
+<a href="https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/" target="_blank" rel="noopener"><circle cx="505.8" cy="143.3" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Quoting Anthropic Frontier Red Team
+2026-09-30・Simon Willison’s Weblog (llms)・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://the-decoder.com/florida-wants-a-court-to-stop-chatgpt-from-pretending-to-be-human-and-talking-to-kids/" target="_blank" rel="noopener"><circle cx="429.0" cy="277.9" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Florida wants a court to stop ChatGPT from pretending to be human and talking to kids
+2026-09-30・THE DECODER・規制・政策・法律</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wtg0vd/glm53_and_the_spread_of_advanced_cyber/" target="_blank" rel="noopener"><circle cx="497.5" cy="162.9" r="3.2" fill="#E45756" fill-opacity="0.85"><title>GLM-5.3 and the Spread of Advanced Cyber Capabilities \ Anthropic
+2026-09-30・r/LocalLLaMA (Reddit)・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://www.reddit.com/r/LocalLLaMA/comments/1wt7e94/reflection_70b_was_released_two_years_ago/" target="_blank" rel="noopener"><circle cx="174.9" cy="121.1" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Reflection 70B was released two years ago (September 2024)
+2026-09-29・r/LocalLLaMA (Reddit)・検証・信頼性（ハルシネーション・事実確認・識別）</title></circle></a>
+<a href="https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source" target="_blank" rel="noopener"><circle cx="333.0" cy="394.2" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents
+2026-09-29・Hugging Face Blog・検証・信頼性（ハルシネーション・事実確認・識別）</title></circle></a>
+<a href="https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/" target="_blank" rel="noopener"><circle cx="388.7" cy="111.8" r="3.2" fill="#E45756" fill-opacity="0.85"><title>UK AI Security Institute finds GPT-6 Astra&#39;s rogue attack rate jumped fivefold over its predecessor
+2026-09-30・THE DECODER・セキュリティ・脱獄・脆弱性</title></circle></a>
+<a href="https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/" target="_blank" rel="noopener"><circle cx="543.4" cy="342.1" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Trump and tech CEOs sign an AI code of conduct that&#39;s only &#34;morally binding&#34;
+2026-09-30・THE DECODER・規制・政策・法律</title></circle></a>
+</svg>
+<p class="note">1点＝1記事（版違いは1点にまとめた）。内容が近い記事ほど近くに並ぶ（配置は月ごとに変わるので、月どうしは比べない）。色は大分類別の件数推移の表と同じ。点をクリックで記事へ、カーソルでタイトル</p>
+</div>
+</div>
+</div>
 
 <h2 id="details">大分類ごとの詳細</h2>
 <p class="note sp-only">小分類の名前をタップすると、代表記事が開きます</p><h3 id="detail-models" style="color:#4C78A8">モデル・アーキテクチャ（125件）</h3>
