@@ -14,6 +14,9 @@ h3{font-size:1rem;margin:1.4em 0 .4em}
 .scroll{overflow-x:auto} table{border-collapse:collapse;font-size:.85rem} th,td{padding:4px 8px;border-bottom:1px solid #EEE;text-align:left;white-space:nowrap}
 th.wk,td.wk{color:#555;font-size:.8rem;text-align:center;min-width:34px} th.wk1,td.wk1{border-left:2px solid #DDD}
 td.name{white-space:normal;min-width:7em;max-width:14em}
+/* 推移の表の大分類の色の縦線は内側の影で描く（枠線だと表の外へはみ出して数えられ、収集状況の表と列がずれるため） */
+table.aligned th.name,table.aligned td.name{box-sizing:border-box}
+td.name.cat{padding-left:13px}
 td.n{text-align:right} td.hm{text-align:center;min-width:40px} td.up{color:#2E7D32} td.down{color:#C62828}
 tr.total td{border-top:2px solid #DDD;font-weight:bold}
 /* 大分類ごとの詳細・対象外の内訳の表：小分類名の列と月の列を固定幅にし、大分類が違っても列の位置を揃える。長い名前は折り返す */
@@ -31,7 +34,10 @@ td.reps{white-space:normal;font-size:.82rem} td.reps a,td.reps span{display:bloc
 .date{color:#777;font-size:.8rem;margin-right:6px}
 details{margin:4px 0} details summary{cursor:pointer;font-size:.9rem} details ul{margin:.3em 0;padding-left:1.4em;font-size:.88rem}
 .note{font-size:.8rem;color:#666}
-nav.pages{font-size:.85rem;margin:.2em 0 .6em} nav.pages a,nav.pages span{margin-right:12px;white-space:nowrap} nav.pages span{font-weight:bold}
+nav.pages{font-size:.85rem;margin:.2em 0 .6em;line-height:1.9} nav.pages a,nav.pages span{white-space:nowrap} nav.pages span[aria-current]{font-weight:bold} nav.pages .sep{color:#BBB;margin:0 6px}
+/* 月次レポート一覧（§9.8）：スマートフォンでは月ごとに縦に積み、PC では列にそろえる */
+.ix-row{display:block;padding:8px 0;border-bottom:1px solid #EEE;font-size:.88rem} .ix-row>span{display:block} .ix-month{font-size:1rem;font-weight:bold}
+.ix-row .ix-label.sp-only{display:inline;color:#777;font-size:.78rem;margin-right:4px}
 .sp-only{display:block} .pc-only{display:none}
 /* スマートフォン（900px 未満）：表は直近 sp_months か月だけ（古い月の列 .old を隠す）。
    名前の列を左端に固定し、余白を詰め、まとめる前の件数は数字の下の行に出す */
@@ -46,8 +52,13 @@ nav.pages{font-size:.85rem;margin:.2em 0 .6em} nav.pages a,nav.pages span{margin
 .chart{width:100%;height:auto;display:block;border:1px solid #EEE;border-radius:6px}
 .legend .sw{display:inline-block;width:.8em;height:.8em;border-radius:50%;margin-right:4px;vertical-align:-1px}
 @media (min-width:900px){
+  div.ix-row,div.ix-row.pc-only{display:grid;grid-template-columns:5.5rem 3.4rem 8.6rem minmax(0,1fr) minmax(0,1fr) minmax(0,1.2fr) 10rem;gap:10px;align-items:baseline}
+  .ix-row .ix-label.sp-only{display:none}
+  .ix-row>span{display:block} .ix-head{color:#555;font-size:.8rem;font-weight:bold;border-bottom:2px solid #DDD;align-items:end} .ix-head>span{text-align:center} .ix-n,.ix-month{text-align:center;white-space:nowrap}
   .two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;align-items:start}
   td.name{white-space:nowrap;max-width:none}
+  /* 推移と収集状況の表は名前の列を同じ幅にして、月の列の開始位置をそろえる */
+  table.aligned th.name,table.aligned td.name{width:var(--name-w);min-width:var(--name-w)}
   .sp-only{display:none} .pc-only{display:revert} div.pc-only,details.pc-only{display:block}
 }
 </style>
@@ -55,7 +66,8 @@ nav.pages{font-size:.85rem;margin:.2em 0 .6em} nav.pages a,nav.pages span{margin
 <body>
 <main>
 <h1>2026-09 AI/LLM記事 月次レポート</h1>
-<p class="note">分類体系 version 1（大分類 6・小分類 30）／ 推移 2026-07〜2026-09 ／ 生成 2026-10-11 17:42 JST</p>
+<nav class="pages"><a href="2026-07.html">← 2026-07</a><span class="sep">｜</span><span aria-current="page">2026-09</span><span class="sep">｜</span><a href="index.html">月次レポート一覧</a><span class="sep">｜</span><a href="../index.html">日次まとめ（最新）</a></nav>
+<p class="note">分類体系 version 1（大分類 6・小分類 30）／ 推移 2026-07〜2026-09 ／ 更新 2026-10-11 17:42 JST</p>
 <div class="kpi">
 <div>記事<b>479</b><small>収集 507・版違い 28 をまとめた</small></div>
 <div>分類済み<b>369</b></div>
@@ -65,7 +77,7 @@ nav.pages{font-size:.85rem;margin:.2em 0 .6em} nav.pages a,nav.pages span{margin
 
 <h2 id="sources">収集状況</h2>
 <p class="note">収集日 30日（09-01〜09-30）。少なかった日：09-07 7件、09-14 9件。</p>
-<div class="scroll"><table>
+<div class="scroll"><table class="aligned" style="--name-w:20.0em">
 <tr><th class="name">情報源</th><th>26-07</th><th>26-08</th><th>26-09</th><th>前月比</th></tr>
 <tr><td class="name">THE DECODER</td><td class="hm" style="background:rgba(96,125,139,0.85);color:#FFF">180</td><td class="hm" style="background:rgba(96,125,139,0.90);color:#FFF">209</td><td class="hm" style="background:rgba(96,125,139,0.93);color:#FFF">222</td><td class="n up">+13</td></tr>
 <tr><td class="name">r/LocalLLaMA (Reddit)</td><td class="hm" style="background:rgba(96,125,139,0.71);color:#FFF">121</td><td class="hm" style="background:rgba(96,125,139,0.76);color:#FFF">143</td><td class="hm" style="background:rgba(96,125,139,0.77);color:#FFF">148</td><td class="n up">+5</td></tr>
@@ -78,15 +90,15 @@ nav.pages{font-size:.85rem;margin:.2em 0 .6em} nav.pages a,nav.pages span{margin
 <p class="note">件数は版違いをまとめた後の記事数。（ ）内はまとめる前の件数</p>
 
 <h2 id="trend">大分類別の件数推移</h2>
-<div class="scroll"><table>
+<div class="scroll"><table class="aligned" style="--name-w:20.0em">
 <tr><th class="name">大分類</th><th>26-07</th><th>26-08</th><th>26-09</th><th>前月比</th><th class="wk pc-only wk1">1〜7日</th><th class="wk pc-only">8〜14日</th><th class="wk pc-only">15〜21日</th><th class="wk pc-only">22〜30日</th></tr>
-<tr><td class="name" style="border-left:5px solid #4C78A8"><b>モデル・アーキテクチャ</b><span class="badge top">最多</span></td><td class="hm" style="background:rgba(76,120,168,0.90);color:#FFF">117</td><td class="hm" style="background:rgba(76,120,168,0.93);color:#FFF">126</td><td class="hm" style="background:rgba(76,120,168,0.93);color:#FFF">125</td><td class="n down">-1</td><td class="wk pc-only wk1" style="background:rgba(76,120,168,0.37)">33</td><td class="wk pc-only" style="background:rgba(76,120,168,0.31)">27</td><td class="wk pc-only" style="background:rgba(76,120,168,0.28)">24</td><td class="wk pc-only" style="background:rgba(76,120,168,0.45)">41</td></tr>
-<tr><td class="name" style="border-left:5px solid #F58518"><b>ローカル実行環境・ハードウェア</b></td><td class="hm" style="background:rgba(245,133,24,0.51);color:#222">32</td><td class="hm" style="background:rgba(245,133,24,0.65);color:#FFF">57</td><td class="hm" style="background:rgba(245,133,24,0.68);color:#FFF">62</td><td class="n up">+5</td><td class="wk pc-only wk1" style="background:rgba(245,133,24,0.19)">14</td><td class="wk pc-only" style="background:rgba(245,133,24,0.19)">14</td><td class="wk pc-only" style="background:rgba(245,133,24,0.16)">11</td><td class="wk pc-only" style="background:rgba(245,133,24,0.27)">23</td></tr>
-<tr><td class="name" style="border-left:5px solid #54A24B"><b>実装技術・応用システム</b></td><td class="hm" style="background:rgba(84,162,75,0.55);color:#222">38</td><td class="hm" style="background:rgba(84,162,75,0.58);color:#FFF">44</td><td class="hm" style="background:rgba(84,162,75,0.62);color:#FFF">50</td><td class="n up">+6</td><td class="wk pc-only wk1" style="background:rgba(84,162,75,0.19)">14</td><td class="wk pc-only" style="background:rgba(84,162,75,0.10)">5</td><td class="wk pc-only" style="background:rgba(84,162,75,0.15)">10</td><td class="wk pc-only" style="background:rgba(84,162,75,0.25)">21</td></tr>
-<tr><td class="name" style="border-left:5px solid #B279A2"><b>ユースケース・実証検証</b></td><td class="hm" style="background:rgba(178,121,162,0.48);color:#222">28</td><td class="hm" style="background:rgba(178,121,162,0.49);color:#222">29</td><td class="hm" style="background:rgba(178,121,162,0.39);color:#222">17</td><td class="n down">-12</td><td class="wk pc-only wk1" style="background:rgba(178,121,162,0.07)">2</td><td class="wk pc-only" style="background:rgba(178,121,162,0.09)">4</td><td class="wk pc-only" style="background:rgba(178,121,162,0.09)">4</td><td class="wk pc-only" style="background:rgba(178,121,162,0.12)">7</td></tr>
-<tr><td class="name" style="border-left:5px solid #E45756"><b>安全性・リスク・ルール</b><span class="badge grow">最増</span></td><td class="hm" style="background:rgba(228,87,86,0.77);color:#FFF">82</td><td class="hm" style="background:rgba(228,87,86,0.76);color:#FFF">80</td><td class="hm" style="background:rgba(228,87,86,0.89);color:#FFF">115</td><td class="n up">+35</td><td class="wk pc-only wk1" style="background:rgba(228,87,86,0.26)">22</td><td class="wk pc-only" style="background:rgba(228,87,86,0.30)">26</td><td class="wk pc-only" style="background:rgba(228,87,86,0.40)">36</td><td class="wk pc-only" style="background:rgba(228,87,86,0.35)">31</td></tr>
-<tr><td class="name" style="border-left:5px solid #9D9D9D"><b>対象外</b></td><td class="hm" style="background:rgba(157,157,157,0.80);color:#FFF">90</td><td class="hm" style="background:rgba(157,157,157,0.87);color:#FFF">110</td><td class="hm" style="background:rgba(157,157,157,0.79);color:#FFF">89</td><td class="n down">-21</td><td class="wk pc-only wk1" style="background:rgba(157,157,157,0.26)">22</td><td class="wk pc-only" style="background:rgba(157,157,157,0.25)">21</td><td class="wk pc-only" style="background:rgba(157,157,157,0.23)">18</td><td class="wk pc-only" style="background:rgba(157,157,157,0.32)">28</td></tr>
-<tr><td class="name" style="border-left:5px solid #C8C8C8"><b>未分類</b></td><td class="hm" style="background:rgba(200,200,200,0.31);color:#222">9</td><td class="hm" style="background:rgba(200,200,200,0.29);color:#222">8</td><td class="hm" style="background:rgba(200,200,200,0.43);color:#222">21</td><td class="n up">+13</td><td class="wk pc-only wk1" style="background:rgba(200,200,200,0.07)">2</td><td class="wk pc-only" style="background:rgba(200,200,200,0.14)">9</td><td class="wk pc-only" style="background:rgba(200,200,200,0.09)">4</td><td class="wk pc-only" style="background:rgba(200,200,200,0.11)">6</td></tr>
+<tr><td class="name cat" style="box-shadow:inset 5px 0 0 #4C78A8"><b>モデル・アーキテクチャ</b><span class="badge top">最多</span></td><td class="hm" style="background:rgba(76,120,168,0.90);color:#FFF">117</td><td class="hm" style="background:rgba(76,120,168,0.93);color:#FFF">126</td><td class="hm" style="background:rgba(76,120,168,0.93);color:#FFF">125</td><td class="n down">-1</td><td class="wk pc-only wk1" style="background:rgba(76,120,168,0.37)">33</td><td class="wk pc-only" style="background:rgba(76,120,168,0.31)">27</td><td class="wk pc-only" style="background:rgba(76,120,168,0.28)">24</td><td class="wk pc-only" style="background:rgba(76,120,168,0.45)">41</td></tr>
+<tr><td class="name cat" style="box-shadow:inset 5px 0 0 #F58518"><b>ローカル実行環境・ハードウェア</b></td><td class="hm" style="background:rgba(245,133,24,0.51);color:#222">32</td><td class="hm" style="background:rgba(245,133,24,0.65);color:#FFF">57</td><td class="hm" style="background:rgba(245,133,24,0.68);color:#FFF">62</td><td class="n up">+5</td><td class="wk pc-only wk1" style="background:rgba(245,133,24,0.19)">14</td><td class="wk pc-only" style="background:rgba(245,133,24,0.19)">14</td><td class="wk pc-only" style="background:rgba(245,133,24,0.16)">11</td><td class="wk pc-only" style="background:rgba(245,133,24,0.27)">23</td></tr>
+<tr><td class="name cat" style="box-shadow:inset 5px 0 0 #54A24B"><b>実装技術・応用システム</b></td><td class="hm" style="background:rgba(84,162,75,0.55);color:#222">38</td><td class="hm" style="background:rgba(84,162,75,0.58);color:#FFF">44</td><td class="hm" style="background:rgba(84,162,75,0.62);color:#FFF">50</td><td class="n up">+6</td><td class="wk pc-only wk1" style="background:rgba(84,162,75,0.19)">14</td><td class="wk pc-only" style="background:rgba(84,162,75,0.10)">5</td><td class="wk pc-only" style="background:rgba(84,162,75,0.15)">10</td><td class="wk pc-only" style="background:rgba(84,162,75,0.25)">21</td></tr>
+<tr><td class="name cat" style="box-shadow:inset 5px 0 0 #B279A2"><b>ユースケース・実証検証</b></td><td class="hm" style="background:rgba(178,121,162,0.48);color:#222">28</td><td class="hm" style="background:rgba(178,121,162,0.49);color:#222">29</td><td class="hm" style="background:rgba(178,121,162,0.39);color:#222">17</td><td class="n down">-12</td><td class="wk pc-only wk1" style="background:rgba(178,121,162,0.07)">2</td><td class="wk pc-only" style="background:rgba(178,121,162,0.09)">4</td><td class="wk pc-only" style="background:rgba(178,121,162,0.09)">4</td><td class="wk pc-only" style="background:rgba(178,121,162,0.12)">7</td></tr>
+<tr><td class="name cat" style="box-shadow:inset 5px 0 0 #E45756"><b>安全性・リスク・ルール</b><span class="badge grow">最増</span></td><td class="hm" style="background:rgba(228,87,86,0.77);color:#FFF">82</td><td class="hm" style="background:rgba(228,87,86,0.76);color:#FFF">80</td><td class="hm" style="background:rgba(228,87,86,0.89);color:#FFF">115</td><td class="n up">+35</td><td class="wk pc-only wk1" style="background:rgba(228,87,86,0.26)">22</td><td class="wk pc-only" style="background:rgba(228,87,86,0.30)">26</td><td class="wk pc-only" style="background:rgba(228,87,86,0.40)">36</td><td class="wk pc-only" style="background:rgba(228,87,86,0.35)">31</td></tr>
+<tr><td class="name cat" style="box-shadow:inset 5px 0 0 #9D9D9D"><b>対象外</b></td><td class="hm" style="background:rgba(157,157,157,0.80);color:#FFF">90</td><td class="hm" style="background:rgba(157,157,157,0.87);color:#FFF">110</td><td class="hm" style="background:rgba(157,157,157,0.79);color:#FFF">89</td><td class="n down">-21</td><td class="wk pc-only wk1" style="background:rgba(157,157,157,0.26)">22</td><td class="wk pc-only" style="background:rgba(157,157,157,0.25)">21</td><td class="wk pc-only" style="background:rgba(157,157,157,0.23)">18</td><td class="wk pc-only" style="background:rgba(157,157,157,0.32)">28</td></tr>
+<tr><td class="name cat" style="box-shadow:inset 5px 0 0 #C8C8C8"><b>未分類</b></td><td class="hm" style="background:rgba(200,200,200,0.31);color:#222">9</td><td class="hm" style="background:rgba(200,200,200,0.29);color:#222">8</td><td class="hm" style="background:rgba(200,200,200,0.43);color:#222">21</td><td class="n up">+13</td><td class="wk pc-only wk1" style="background:rgba(200,200,200,0.07)">2</td><td class="wk pc-only" style="background:rgba(200,200,200,0.14)">9</td><td class="wk pc-only" style="background:rgba(200,200,200,0.09)">4</td><td class="wk pc-only" style="background:rgba(200,200,200,0.11)">6</td></tr>
 </table></div>
 <p class="note pc-only">右の列は当月の週別件数</p><div class="hl">
 最も記事が多かった小分類：<a href="#detail-models"><b>新モデル・新世代の発表</b></a> 53件<br>前月から最も増えた小分類：<a href="#detail-safety"><b>安全性研究・リスク管理・倫理</b></a> 11 → 28件（+17）</div>
