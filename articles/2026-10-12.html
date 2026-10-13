@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>記事まとめ 2026/10/12</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-10-12" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+</header>
+<h1>2026/10/12</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/" target="_blank" rel="noopener">Meta's new frontier model Muse Wonder Full breaks into the AI top tier</a></h2>
+      <p>Metaの新フロンティアモデル「Muse Wonder Full」がAIのトップグループにランクイン<br><br><ul><li>Metaの新モデル「Muse Wonder」と「Muse Wonder Full」が、最先端モデルとの差を大きく縮め、トップティアに仲間入りした。</li><li>「Muse Wonder Full」はArtificial Analysis Intelligence Indexで56点を獲得し、前モデル（Muse Spark 1.3）から大幅な性能向数を果たした。</li><li>エージェント型コーディングや自律的な問題解決能力において最大の向上を見せ、特に複雑なタスクを処理するテストで高い成果を挙げた。</li><li>長期的な記憶を保持する「Active Memory」や、困難なタスクに固執して別のアプローチを試みる「Active Focus」という2つの新機能が追加された。</li><li>両モデルとも100万トークンのコンテキストウィンドウをサポートし、テキスト、画像、動画、音声の入力に対応している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/" target="_blank" rel="noopener">Sakana AI's self-improving model gets better at solving and judging, but can't catch its own blind spots</a></h2>
+      <p>Sakana AIの自己改善モデルが持つ能力と、見落とせない盲点<br><br><ul><li>Sakana AIとUCバークレーの研究者が開発した「MASS」手法により、単一の言語モデルが外部の助けを借りず自己改善を実現する。</li><li>このモデルは、自身のコピーにタスクを割り当て、結果を評価し、次のトレーニングに向けてワークフローを最適化する。</li><li>2ラウンドの訓練後、ベースモデルに対する勝率は約70％にまで向上し、タスク解決・評価・最適化の全役割で性能が向上する。</li><li>一方で、同じモデルが評価も行うため、欠陥のあるステップや操作された解決策を成功と誤認してしまうリスクを抱えている。</li><li>その結果、モデル自身が持つ共通の盲点やエラーが修正されないまま次の学習サイクルに組み込まれてしまう危険性がある。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/clearing-chat-history-helps-ai-agents-find-better-solutions/" target="_blank" rel="noopener">Clearing chat history helps AI agents find better solutions</a></h2>
+      <p>チャット履歴を完全にクリアする新手法「Fork-and-Flush」を活用することで、AIエージェントが過去の文脈に囚われずに新しいアプローチを探索できるようになり、より優れた解決策を発見しやすくなります。<br><br><ul><li>長期稼働するAIリサーチエージェントは、追加の計算量を投入しても性能が頭打ちになる現象（プラトー）が起こる。</li><li>AIが同じような解決策の領域「アイディア・バシン」に囚われてしまうことが、性能の頭打ちや結果のばらつきの原因となる。</li><li>会話の履歴を定期的に圧縮しても、非効率な領域での微調整にリソースが費やされてしまう問題は解消されない。</li><li>新手法「Fork-and-Flush」では、作業スペースを維持したまま並行分岐を作り、チャット履歴だけを完全にリセットする。</li><li>履歴をクリアして新鮮な会話文脈から再スタートを切ることで、AIエージェントが新しい解決策の探索に移行できるようになる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/microsoft-plans-to-scale-its-own-maia-ai-chips-to-gigawatt-levels-by-2027/" target="_blank" rel="noopener">Microsoft plans to scale its own Maia AI chips to gigawatt levels by 2027</a></h2>
+      <p>Microsoftは独自開発の「Maia AIチップ」を2027年までにマルチギガワット規模へ拡大し、自社製品の主要な推論システムとして導入する計画である。<br><br><ul><li>2027年以降、Azure Maia AIチップをマルチギガワット規模で展開し、同社の主要な推論システムとして位置付ける。</li><li>現在展開されている「Maia 200」は、すでに米国、ヨーロッパ、オーストラリアでMicrosoft Copilotを稼働させており、今年末までにGitHub CopilotやFoundryにも順次導入される予定である。</li><li>次世代チップである「Maia 300」は2027年に出荷予定であり、長期の入力処理、高速なチャット、自律型タスクをターゲットにしており、主要なGPUシステムと比較してメガワットあたり40%多いトークン処理能力を主張している。</li><li>「Maia 300」は、8つのHBM4メモリスタック（合計288 GB、帯域幅18 TB/s）を搭載し、定格消費電力は950ワットである。</li><li>CEOのサティア・ナデラ氏が「自社製シリコンに対するこれまでで最大の賭け」と称するように、OpenAIやMAI、オープンソースのモデルに対応し、優れたワットパフォーマンスを実現している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/" target="_blank" rel="noopener">White House reverses course and restores UK AI Safety Institute's access to frontier models</a></h2>
+      <p>ホワイトハウス、英国AI安全研究所（AISI）へのフロンティアモデルのアクセス制限を撤回<br><br><ul><li>米ホワイトハウスは、英国のAI安全研究所（AISI）に対する最新AIモデルのアクセスブロックを解除し、方針を転換した。</li><li>9月にトランプ政権が企業にモデル共有の停止を指示したことでアンソロピックなどがアクセスを制限していたが、AI担当大臣カニシュカ・ナラヤンの外交的努力により制限が撤廃された。</li><li>これにより、AISIは出荷前のAIシステムの安全性リスクを検証するため、アンソロピック、グーグル・ディープマインド、オープンAIのモデルに再び早期アクセスできるようになる。</li><li>ナラヤン大臣は、重要インフラに関するAI関連のセキュリティインシデントの厳格な報告義務など、新たなAI安全性対策を近く発表する予定である。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/" target="_blank" rel="noopener">Anthropic's Andrej Karpathy says &quot;the external world has seen the preview&quot; of what AI can actually do</a></h2>
+      <p>Anthropicのアンデレイ・カルパシー氏が語る、一般と最先端のAI能力における認識の乖離<br><br><ul><li>OpenAIの共同創設者であるアンデレイ・カルパシー氏は、一般の人々が認識しているAIの能力と、実際の最先端AIの実力の間には大きなギャップが生じていると指摘している。</li><li>世界人口の約75%にあたる約60億人は大規模言語モデル（LLM）にほとんど触れておらず、さらに1～2億人の一般ユーザーもチャットボットを「優れた検索エンジンや文章作成補助」程度にしか捉えていない。</li><li>数学やプログラミング分野の専門家である約2,000万人（世界人口の約0.2%）だけが、最先端モデルを業務で活用し、その真の能力を直接目の当たりにしている。</li><li>一方、経営者などの多くのビジネスパーソンは、AIの動向を頭では理解しつつも、体験はあくまで二次的かつ抽象的なものにとどまっている。</li><li>世界で最先端の内部システムに直接アクセスできているのはわずか約5,000人であり、一般社会はAIが実際にできることの「プレビュー」を見ているに過ぎないとカルパシー氏は警鐘を鳴らしている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/" target="_blank" rel="noopener">Google Deepmind's AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed</a></h2>
+      <p>Google DeepMindの「AlphaProof Nexus」が、難解な未解決数学問題の解決と査読付き論文の採択を達成した<br><br><ul><li><strong>未解決問題の解決</strong>: Google DeepMindのAI「AlphaProof Nexus」が、科学誌『Science』に掲載された研究の中で、数々の未解決数学問題を独力で解決した。エルデシュの問題のうち9問（うち2問は56年間未解決）のほか、OEISの整数列に関する44の予想などを証明している。</li><li><strong>検証システムの実装</strong>: Gemini 3.1 Proをベースに構築されており、形式言語「Lean」を用いて証明の下書きと修正を繰り返す。Leanがエラーをチェックし、そのフィードバックを次の試行に活かすことで正確性を担保している。</li><li><strong>査読付き学術誌への掲載</strong>: OpenAIがAI生成の証明を査読なしでGitHubに大量公開し数学界からボイコットされるなど物議を醸す中、DeepMindは正式なピアレビュー（査読）を経て研究成果を発表した点で高く評価されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.4-rc0" target="_blank" rel="noopener">v0.40.4</a></h2>
+      <p>ollama/ollama v0.40.4 リリース<br><br><ul><li>GitHub上のollama/ollamaリポジトリにおいて、バージョン v0.40.4（および v0.40.4-rc0）のリリースに関するページである。</li><li>ページ内には、GitHubの標準的なナビゲーションメニュー、コード、プルリクエスト、セキュリティ、インサイトなどのリポジトリ管理機能へのリンクが含まれている。</li><li>バージョン管理や比較のためのタグ選択機能が用意されている。</li><li>アクセス時に一部読み込みエラーが発生したため、「Sorry, something went wrong.」などのエラーメッセージが表示されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding/" target="_blank" rel="noopener">ReplaySSM: Rethinking State Storage for Faster Hybrid-Model Decoding</a></h2>
+      <p>ReplaySSM：ハイブリッドモデルの高速なデコードに向けた状態ストレージの再設計<br><br><ul><li>ReplaySSMは、状態空間モデル（SSM）の状態をチェックポイントと最近の入力バッファで表現し、状態メモリトラフィックを約半分に削減してSSMデコードカーネルを最大1.80倍高速化する。</li><li>ドラフト入力をバッファに追加するだけでロールバックを簡素化できるため、120Bクラスのモデルにおいて1.85倍から2.10倍高い speculative デコードのスループットを実現する。</li><li>高精度なチェックポイントと低精度な読み取り用コピーを併用することで量子化誤差の蓄積を抑え、評価モデルの大半でFP32精度と同等の性能を維持する。</li><li>検索や量子化を複雑化させていたSSM層のボトルネックを解消し、NVIDIA Blackwell Ultra B300 GPUやTensorRT-LLMでの効率的な本番推論を可能にする。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-10-12";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  function validateAndGo(value) {
+    if (value === CURRENT_DATE) return;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || dateList.indexOf(value) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(value);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+})();
+</script>
+</body>
+</html>
