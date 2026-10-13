@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "months": [
+    {
+      "month": "2026-07",
+      "generated_at": "2026-10-13T09:32:29Z",
+      "closed": true,
+      "taxonomy_version": 1
+    },
+    {
+      "month": "2026-08",
+      "generated_at": "2026-10-13T08:07:22Z",
+      "closed": false,
+      "taxonomy_version": 1
+    },
+    {
+      "month": "2026-09",
+      "generated_at": "2026-10-11T08:42:40Z",
+      "closed": false,
+      "taxonomy_version": 1
+    }
+  ]
+}
