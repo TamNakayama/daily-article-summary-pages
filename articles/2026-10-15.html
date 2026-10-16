@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>記事まとめ 2026/10/15</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-10-15" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+</header>
+<h1>2026/10/15</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/" target="_blank" rel="noopener">Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race</a></h2>
+      <p>Metaがオープンウェイトモデルの新たな競争に向けて「Muse Spark Open」を発表しました。このモデルはコーディングやエージェントタスクに特化しており、米国製オープンウェイトモデルの中で最高峰の性能を誇ります。<br><br><ul><li>パラメータ数は総数8160億（アクティブ420億）で、最大100万トークンのコンテキストを処理し、テキスト、画像、動画、音声に対応している。</li><li>JobBenchやMCP-Atlasなどのベンチマークで、Qwen 3.8やGLM 5.3、Kimi K3などの競合モデルを多くのカテゴリで大きく上回っている。</li><li>AppleのM5 Ultra向けに最適化されており、512GBのユニファイドメモリを搭載した2台のMac Studioでローカル実行が可能である。</li><li>ライセンスは基本的に無料で利用できるが、「Built with Muse Spark Open」のラベル表示が義務付けられており、年間2000万ドル以上の収益を上げるAPI提供者には個別契約が求められる。</li><li>Metaの有料モデルである「Muse Wonder Full」の性能には及ばないものの、オープンウェイト市場において強力な選択肢となる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram/" target="_blank" rel="noopener">Black Forest Labs' open-weights image model FLUX 3 Image Klein runs on consumer GPUs with just 8 GB of VRAM</a></h2>
+      <p>Black Forest Labs、8GBのVRAMを搭載した一般向けGPUで動作するオープンウェイト画像生成モデル「FLUX 3 Image Klein」を発表<br><br><ul><li>Black Forest Labsが、テキストからの画像生成や画像編集、最大10枚の参照画像を用いた生成が可能な「FLUX 3 Image Klein」をリリースした。</li><li>モデルのパラメータ数は56億で、前身である9億パラメータのモデルと比較して38%削減されながらも、内部テストではオープンモデル最高のエロレーティングを記録し、競合モデルを上回る性能を持つ。</li><li>INT8ビルドを採用することにより、わずか8GBのVRAMを搭載したNVIDIAのコンシューマー向けGPU（RTX 4070など）でも動作し、9秒未満で画像を生成できる。</li><li>ネイティブ4K出力、ピクセル単位の高精度な編集、要素配置のためのバウンディングボックス機能をサポートしている。</li><li>重みデータは「FLUX Kommunity License」の下で提供され、年間売上500万ドル未満の企業であれば商用利用が無料で可能であり、APIやHugging Face Spaces、ComfyUI、Diffusersなどを通じて利用できる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/google-wants-gemini-4-argon-to-be-the-only-ai-model-robots-need/" target="_blank" rel="noopener">Google wants Gemini 4 Argon to be the only AI model robots need</a></h2>
+      <p>Googleはロボット制御、3D訓練環境の生成、訓練データの評価を単一でこなすAIモデル「Gemini 4 Argon」を発表した。<br><br><ul><li>Gemini 4 Argonは、ロボットの制御から仮想空間の構築、訓練データの評価まで、ロボット開発の全工程を1つで担うことを目指した汎用AIモデルである。</li><li>写真やスケッチなどのシンプルな入力から、ロボットが現実世界での展開前に動作練習を行える仮想のシミュレーション環境を自動で構築できる。</li><li>デモでは、ボストン・ダイナミクス社のロボット「Spot」がゴミ箱に空き缶を捨てるタスクなどが示され、空間把握能力の高さや制御コードの生成、物理法則に基づいた動画の解釈能力が示されている。</li><li>現状のシステムでは、詳細な人間のプロンプトや手動によるガイダンス、さらには追加のAIエージェントによる検証が必要であり、完全な自律にはまだ人間のサポートが求められる。</li><li>GoogleおよびDeepMindが長年追求してきた「物理AGI（汎用人工知能）」の実現に向けた重要な一歩として位置づけられており、現在はGoogleの有料開発者アクセスプログラムを通じて提供されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/" target="_blank" rel="noopener">Nvidia's Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop</a></h2>
+      <p>Nvidia、エンタープライズAIエージェント向けオープンモデル「Nemotron 3.5 Super VL」を発表<br><br><ul><li>Nvidiaは、企業向けのオープンなマルチモーダルAIモデル「Nemotron 3.5 Super VL」を発表した。本モデルは、テキストや画像、動画などの処理を継続的に行い、エージェントタスクや文書分析を実行できるように設計されている。</li><li>モデルは1,200億のパラメータを持つMixture-of-Experts（Mixture-of-Experts）アーキテクチャを採用しており、1トークンあたり120億のパラメータがアクティブになる仕組みになっている。また、Mistral AIなどの企業を含む「Nemotron Coalition」と共に開発された。</li><li>ローカル環境向けとして、2つの小型モデル「Bolt」シリーズも同時に展開される。24GB以上のメモリを搭載したシステム向けの「74B-A9B 24GB」と、高速な音声アシスタント向けの「E4B 4GB」が用意されており、高いメモリ効率を実現している。</li><li>Nvidiaはモデルの重みに加え、データセットや学習レシピも公開しているが、ハードウェアの販売促進を見据えて同社製システムに最適化されている。</li><li>今回発表されたモデル群は、既存の「Lightning」や「Ultra」といったNemotronシリーズのラインナップに加わり、用途に応じた選択肢を提供する。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/bank-of-america-puts-4000-people-on-fixing-vulnerabilities-uncovered-by-anthropics-mythos-and-other-ai-models/" target="_blank" rel="noopener">Bank of America puts 4,000 people on fixing vulnerabilities uncovered by Anthropic's Mythos and other AI models</a></h2>
+      <p>Bank of AmericaがAnthropic社の「Mythos」などのAIが発見した脆弱性を修正するため、4,000人規模の人員を動員<br><br><ul><li>バンク・オブ・アメリカ（BofA）は、Anthropic社の「Mythos」などのAIモデルが発見したソフトウェアの脆弱性を修正するため、外部委託の1,000人を含む合計4,000人の人員を動員している。</li><li>同行のCEOであるブライアン・モイニハン氏によると、外部コントラクターは第2四半期から社内従業員3,000人と協力して脆弱性の修正にあたっている。</li><li>BofAは第3四半期に、このソフトウェア関連の作業とマネーロンダリング対策の要件を合わせて数億ドルを費やした。</li><li>Anthropic社が4月に「Mythos」を限定パートナー向けに公開した際、同モデルが数千件の深刻なセキュリティ脆弱性を発見したことが報告されていた。</li><li>BofAは、AIによって見つかった脆弱性の修正に割り当てた具体的な人員数を公表した最初の主要な米企業の一つであり、今後は修正コストが時間の経過とともに低下すると予想している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/gpt-6-astra-solves-49-of-50-physics-research-problems-at-2-40-apiece/" target="_blank" rel="noopener">GPT-6-Astra solves 49 of 50 physics research problems at $2.40 apiece</a></h2>
+      <p>GPT-6-Astraが理論物理学の未発表の研究問題50問中49問を1問あたり2.40ドルで解決<br><br><ul><li>国際理論科学センター（ICTS）、ハーバード大学、Google DeepMindなどの研究者35人が、理論物理学の評価ベンチマーク「TheoPhysEval」を公開した。</li><li>ベンチマークには、専門家なら1日以内に解けるがAIのヒントなしでは困難な、未発表の理論物理学の厳選された50問が含まれている。</li><li>OpenAIのコーディング環境で稼働する「GPT-6-Astra」が最高成績を収め、50問中49問（98%）に正解し、1問あたりの平均コストは3ドル未満であった。</li><li>このテストは世紀の大発見ではなく、既存の手法を応用して解く「日常的な研究作業（ターン・ザ・クランク問題）」に焦点を当てて検証された。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/" target="_blank" rel="noopener">Anthropic's Q3 revenue hits $16.8B but growth slows ahead of planned November IPO</a></h2>
+      <p>Anthropicの2026年第3四半期決算と11月のIPOに向けた動向<br><br><ul><li>Anthropicの第3四半期（Q3）の売上高は168億ドルに達し、前四半期から約45％増加したものの、成長ペースは鈍化した。</li><li>成長鈍化の要因として、夏季の季節的な需要低下に加え、9月にOpenAIが強力な競合ツール「Astra」を投入したことなどが挙げられる。</li><li>一方で財務面では改善が見られ、調整後営業利益率は11％を記録し、2四半期連続で調整後黒字を達成したほか、キャッシュフローもプラスとなっている。</li><li>計算能力（コンピュート）への投資1ドルあたり1.70ドルの収益を上げており、価格競争が続く中でもAIモデルが収益化可能であることを実証している。</li><li>順調な収益化の一方で、巨額の人件費やモデルの訓練コスト、オープンウェイト（オープンソース系）モデルとの競争リスクなど、今後の課題も残されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Oct/15/chirp-pong/" target="_blank" rel="noopener">Chirp Pong</a></h2>
+      <p>Chirp Pong<br><br><ul><li>サイモン・ウィリソン氏が開発した「Chirp Pong」は、2台のスマートフォンを近づけて遊ぶ、静的HTMLベースの2人用の対戦型ゲーム実験である。</li><li>最大の特徴は、ネットワーク通信にサーバー等を使わず、マイクから送信される「チャープ音（音声ノイズ）」のWeb Audio API解釈を利用している点である。</li><li>元祖ポンのような単純な対戦にとどまらず、グラフィックやゲームプレイに独自のひねりを加えることで、より面白く一体感のある内容に仕上げている。</li><li>このゲームの開発には、AIツールである「Claude Opus 5.5 Extra in Claude Code」が活用されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/" target="_blank" rel="noopener">Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO</a></h2>
+      <p>AnthropicがIPOに向けて投資家に公開した財務データと事業展開<br><br><ul><li>Anthropicの四半期売上高は順調に拡大しており、Q1は約48億ドル、Q2は115億ドル、Q3は前四半期比約50%増の168億ドルに達した。</li><li>Q3における計算パワーへの投資対効果は、1ドルの支出に対して1.70ドルの売上を生み出しており、株式報酬を除いた調整後営業利益率は11%を記録した。</li><li>他社がAnthropicのモデルを模倣する「蒸留（ディスティレーション）」による売上の割合は5%〜7%を占めていたが、Q3に大幅な削減が行われた。</li><li>以前は年間換算実行レート売上（ARR）に依存していたが、今回の投資家向けコミュニケーションでは使用されなくなっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/ibm-granite/granite-switch-4-1" target="_blank" rel="noopener">Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint</a></h2>
+      <p>Granite Switch 4.1：1つのエンドポイントでチャット・意思決定・音声認識を実現<br><br><ul><li>Granite Switch 4.1は、自然言語応答、汎用および専門的な意思決定、音声認識タスクを1つのホストエンドポイントから効率的に実行できる。</li><li>汎用意思決定用の「Decision aLoRA」、安全性タスクで優れた性能を発揮する「Guardian aLoRA」、最速のASRモデル「Granite-Speech-5.0-Turbo-CTC」がベースモデルに統合されている。</li><li>これら複数の技術がベース modelと同程度のVRAM消費量に抑えられており、少ないGPUでより多くの機能を利用可能である。</li><li>キャッシュ効率に優れたActivated LoRAsやvLLMの最適化により、チャット、意思決定、音声認識の間を超高速で切り替えることができる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/meta-muse-spark-open" target="_blank" rel="noopener">Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta</a></h2>
+      <p>Meta社が発表したオープンウェイトの最先端マルチモーダル混合エキスパートモデル「Muse Spark Open」に関する記事の要約です。<br><br>Meta、最先端のオープンウェイトマルチモーダル混合エキスパートモデル「Muse Spark Open」を発表<br><br><ul><li>約8160億の総パラメータ数を持ち、トークンあたり約420億がアクティブに稼働する大規模なMixture-of-Experts（MoE）モデルである。</li><li>テキスト、画像、音声、動画を入力として受け付け、テキストを出力するマルチモーダル機能を備えている。</li><li>最大100万トークンのコンテキストウィンドウに対応し、長時間のタスク処理が可能である。</li><li>エージェント型のコーディングに特化してトレーニングされており、コードベースの読取、複数ファイルの修正、デバッグ、ツールやウェブの利用などを自己修正しながら実行できる。</li><li>BF16およびNVFP4のチェックポイントフォーマットが提供されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/flux-3" target="_blank" rel="noopener">Welcome FLUX.3 Image Klein in Diffusers</a></h2>
+      <p>DiffusersにおけるFLUX.3 Image Kleinの公開と機能概要<br><br><ul><li>Black Forest Labsの最新画像生成モデル「FLUX.3 Image Klein」が、Diffusersで初日から利用可能になりました。</li><li>テキストからの画像生成、マルチ参照による画像間変換に加え、プロンプトで位置を指定できる「レイアウト制御（バウンディングボックス）」を新たに搭載しています。</li><li>蒸留済みチェックポイントは、H100 GPU上で1024×1024サイズの画像を約2秒で高速生成可能です。</li><li>NVFP4やFP8などの量子化ウェイトやLoRAファインチューニングスクリプトにも対応し、多様な環境での運用をサポートします。</li><li>モジュラー型のDiffusersパイプラインとして提供され、コンポーネントの入れ替えや独自のカスタマイズが容易に行えます。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1x6r9pz/introducing_muse_spark_open_the_most_capable_us/" target="_blank" rel="noopener">Introducing Muse Spark Open: the most capable US open-weight model to date</a></h2>
+      <p>Muse Spark Openの発表：これまでに最も優れた米国製オープンウェイトモデル<br><br><ul><li>米国発のオープンウェイトモデルとして、これまでで最も高い性能と能力を備えた「Muse Spark Open」が発表された。</li><li>高い処理能力を持ちながらオープンウェイトとして公開されることで、開発者や研究者が最先端のAI技術を自由に利用・カスタマイズできる環境が提供される。</li><li>AI市場における米国の競争力を強化するとともに、オープンソースコミュニティ全体のイノベーションを加速させる重要なマイルストーンとなるモデルである。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1x6o31q/nvidianvidianemotron35bolt74ba9b24gb_hugging_face/" target="_blank" rel="noopener">nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB · Hugging Face</a></h2>
+      <p>NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB: Hugging Faceのモデルページ<br><br><ul><li>NVIDIAが開発した大規模言語モデル「NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB」に関するHugging Faceのリポジトリページである。</li><li>モデル名に含まれる「74B」は大規模なパラメータ数を示しており、高度な処理能力を持つことが推測される。</li><li>AI開発者や研究者がモデルウェイトのダウンロード、詳細なスペックの確認、利用規約の確認を行うためのプラットフォームとして機能している。</li><li>自然言語処理のタスクにおいて、NVIDIAの技術を活用した高性能なAIモデルとして利用することが可能である。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1x6f9p2/new_tts_king_in_town_fishs_drama_3_35b3a/" target="_blank" rel="noopener">New TTS king in town: Fish's Drama 3 35B3A!</a></h2>
+      <p>Fish Audioの「Drama 3 35B3A」が、新たな音声合成（TTS）の王座に君臨しました。このモデルは、これまでの音声合成技術の常識を覆すほどの高い表現力と自然さを実現しており、AI音声業界において大きな注目を集めています。以下にその重要なポイントを解説します。<br><br><ul><li>Fish Audioの「Drama 3 35B3A」が、新たな音声合成の王座（最高峰モデル）として登場した。</li><li>従来の音声合成モデルを大きく凌駕する、非常に自然で人間らしい音声生成を実現している。</li><li>感情表現や抑揚の豊かさが際立っており、ドラマや物語の朗読など、高度な表現力が求められる用途での活躍が期待される。</li><li>AI音声技術の品質とリアリティを次のレベルへと引き上げるマイルストーンとなるモデルである。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1x6ijlk/nvidia_ai_so_many_models_launching_this_week_and/" target="_blank" rel="noopener">NVIDIA AI: So many models launching this week! And we have one of our own coming...</a></h2>
+      <p>NVIDIA AI関連の最新動向と今後の展開<br><br><ul><li>今週はNVIDIA AIに関連する多数の新しいモデルが続々とリリースされている。</li><li>AI業界や開発者の間で、モデルの発表ラッシュによる大きな盛り上がりを見せている。</li><li>NVIDIAエコシステム全体で、最先端のAI技術を活用した多様なソリューションが展開されている。</li><li>今回の発表ラッシュに合わせ、NVIDIA自身も独自の新しいAIモデルを近日中にリリースする予定である。</li><li>自社モデルの登場により、さらなる性能向上や新たなユースケースの創出が期待されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1x6nl8m/nvidianvidianemotron35supervl120ba12b_model/" target="_blank" rel="noopener">nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B model family released (base, NVFP4, BF16, and LiLiCorr speculative decoding)</a></h2>
+      <p>NVIDIA、大規模ビジョン言語モデル「NVIDIA-Nemotron-3.5-Super-VL-120B-A12B」ファミリーをリリース<br><br><ul><li>NVIDIAから最新の大規模ビジョン言語モデル「NVIDIA-Nemotron-3.5-Super-VL-120B-A12B」ファミリーが新たにリリースされた。</li><li>今回公開されたモデルファミリーには、ベースモデルに加え、NVFP4量子化モデル、BF16モデル、LiLiCorrを活用した投機的デコーディングモデルが含まれている。</li><li>本モデルは、画像認識と自然言語処理を高度に統合し、複雑なマルチモーダルタスクにおいて優れた処理能力を発揮するように設計されている。</li><li>NVFP4量子化の採用により、モデルの精度を維持しながらメモリ効率の大幅な向上と推論の高速化が図られている。</li><li>LiLiCorrによる投機的デコーディングのサポートにより、大規模モデルでありながら実運用における高速なテキスト生成と高いスループットを実現している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.5" target="_blank" rel="noopener">v0.40.5</a></h2>
+      <p>Ollama v0.40.5 リリース情報<br><br><ul><li>AIモデルの実行・管理ツール「Ollama」の新しいバージョン「v0.40.5」がリリースされた。</li><li>GitHubのollama/ollamaリポジトリにおける公式のリリース情報ページである。</li><li>最新版（Latest）として公開されているが、本文中では読み込みエラーや「No results found」といった表示が含まれており、詳細な変更履歴やアップデート内容はページ内で正常に取得・表示されていない状態となっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.5-rc2" target="_blank" rel="noopener">v0.40.5-rc2</a></h2>
+      <p>ollama/ollama v0.40.5-rc2 リリース情報<br><br><ul><li>AI関連のオープンソースプロジェクト「ollama/ollama」の新しいリリース候補版（RC版）である「v0.40.5-rc2」が公開された。</li><li>本リリースは、GitHub上の公式リポジトリにおけるリリース（Releases）ページで公開されている。</li><li>コミットID「d919272」に関連付けられており、GitHubのGPG署名によって安全性が検証済みの状態となっている。</li><li>正式リリース前のテスト段階のバージョンであり、バグ修正や新機能の最終確認などを目的として提供されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.5-rc1" target="_blank" rel="noopener">v0.40.5-rc1: New model... (#19030)</a></h2>
+      <p>ollama/ollama v0.40.5-rc1 リリース情報<br><br><ul><li>ローカル環境で大規模言語モデルを手軽に実行・管理できるツール「Ollama」の新しいリリース候補版（v0.40.5-rc1）に関するGitHub上のページである。</li><li>本バージョンでは、新しいモデルへの対応などのアップデートや変更が含まれていると推測される。</li><li>GitHubの公式リポジトリ（ollama/ollama）にて公開され、ソースコードの変更履歴やリリースノートの確認、および検証済みコミットとして管理されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/" target="_blank" rel="noopener">NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning</a></h2>
+      <p>NVIDIA Nemotron 3.5 Super VLがマルチモーダル推論で特化型AIエージェントを強化<br><br><ul><li>120BパラメータのMoE（Mixture-of-Experts）アーキテクチャを採用し、トークンあたり12Bをアクティブ化することで、高いモデル能力と推論効率を両立している。</li><li>テキスト、画像、ドキュメント、動画の理解に加え、推論、指示追従、ツール利用を単一モデルで統合し、1基のGPU上で同クラスのオープンモデルと比較して最大5倍のスループットを実現する。</li><li>Scale AIやRamp、AI21などの企業が専門的なワークフロー向けにポストトレーニングを実施し、推論コストの大幅な削減や低レイテンシ化、精度向上を達成している。</li><li>NVIDIA NeMoを用いた教師ありファインチューニング（SFT）やLoRA、強化学習（RL）により、Hugging Face上で公開されたデータセットを活用してカスタマイズが可能である。</li><li>LiLiCorrの予測デコーディングやNVFP4量子化、マルチトークン予測、コンテキスト再利用などの技術を活用し、プラットフォーム上での推論効率を最適化している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/" target="_blank" rel="noopener">Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72  </a></h2>
+      <p>MetaのMuse Spark OpenをNVIDIA GB300 NVL72で活用し、エージェント型コーディングワークフローをスケールさせる手法についての要約です。<br><br>Meta社が開発した「Muse Spark Open」は、エージェント型コーディングワークフローに特化した816B（8,160億）パラメータを持つMixture-of-Experts（MoE）モデルであり、NVIDIA GB300 NVL72（Blackwell Ultra）上で訓練されています。本モデルの主な特徴と性能は以下の通りです。<br><br><ul><li><strong>高いコーディング性能と効率性</strong>: 総パラメータ816Bのうち、トークンあたり42Bを有効化するトップ8ルーティング（256エキスパート）を採用し、高い初回正解率や確実なツール呼び出し、深いコードベースの理解を実現している。</li><li><strong>100万トークンのコンテキストウィンドウ</strong>: 複雑な依存関係やレガシーコード、数千ファイルを含むプロジェクト全体を分割せずに保持できる。</li><li><strong>マルチモーダル知覚機能</strong>: 画像やドキュメントの理解に加え、音声や動画の知覚機能を追加し、1.8Bのパーセプションエンコーダーを通じてネイティブに処理する。</li><li><strong>NVFP4によるメモリ最適化</strong>: NVIDIA Blackwell Ultra向けに最適化されたNVFP4チェックポイントにより、ネイティブなFP4 Tensor Coreアクセラレーションを活用しながら全816Bパラメータのメモリフットプリントを削減している。</li><li><strong>圧倒的な処理速度</strong>: NVIDIA GB300 NVL72上でエージェント型ワークロードを実行することにより、1GPUあたり最大50,000トークン/秒、ユーザーあたり最大600トークン/秒の処理性能を発揮する。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-10-15";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  function validateAndGo(value) {
+    if (value === CURRENT_DATE) return;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || dateList.indexOf(value) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(value);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+})();
+</script>
+</body>
+</html>
