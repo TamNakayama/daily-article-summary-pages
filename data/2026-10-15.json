@@ -1,200 +1,146 @@
 [
   {
-    "id": "3fb3de0e-c1c5-819c-878f-f8355673cc74",
-    "title": "Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race",
-    "site": "THE DECODER",
-    "published": "2026-10-15T18:34:32.000Z",
-    "fetched": "2026-10-16T00:01:13.671Z",
-    "summary": "Metaがオープンウェイトモデルの新たな競争に向けて「Muse Spark Open」を発表しました。このモデルはコーディングやエージェントタスクに特化しており、米国製オープンウェイトモデルの中で最高峰の性能を誇ります。\n\n- パラメータ数は総数8160億（アクティブ420億）で、最大100万トークンのコンテキストを処理し、テキスト、画像、動画、音声に対応している。\n- JobBenchやMCP-Atlasなどのベンチマークで、Qwen 3.8やGLM 5.3、Kimi K3などの競合モデルを多くのカテゴリで大きく上回っている。\n- AppleのM5 Ultra向けに最適化されており、512GBのユニファイドメモリを搭載した2台のMac Studioでローカル実行が可能である。\n- ライセンスは基本的に無料で利用できるが、「Built with Muse Spark Open」のラベル表示が義務付けられており、年間2000万ドル以上の収益を上げるAPI提供者には個別契約が求められる。\n- Metaの有料モデルである「Muse Wonder Full」の性能には及ばないものの、オープンウェイト市場において強力な選択肢となる。",
-    "url": "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/"
-  },
-  {
-    "id": "3fb3de0e-c1c5-81fa-acf6-dc08a45cc5ce",
-    "title": "Black Forest Labs' open-weights image model FLUX 3 Image Klein runs on consumer GPUs with just 8 GB of VRAM",
-    "site": "THE DECODER",
-    "published": "2026-10-15T16:57:14.000Z",
-    "fetched": "2026-10-16T00:01:21.770Z",
-    "summary": "Black Forest Labs、8GBのVRAMを搭載した一般向けGPUで動作するオープンウェイト画像生成モデル「FLUX 3 Image Klein」を発表\n\n- Black Forest Labsが、テキストからの画像生成や画像編集、最大10枚の参照画像を用いた生成が可能な「FLUX 3 Image Klein」をリリースした。\n- モデルのパラメータ数は56億で、前身である9億パラメータのモデルと比較して38%削減されながらも、内部テストではオープンモデル最高のエロレーティングを記録し、競合モデルを上回る性能を持つ。\n- INT8ビルドを採用することにより、わずか8GBのVRAMを搭載したNVIDIAのコンシューマー向けGPU（RTX 4070など）でも動作し、9秒未満で画像を生成できる。\n- ネイティブ4K出力、ピクセル単位の高精度な編集、要素配置のためのバウンディングボックス機能をサポートしている。\n- 重みデータは「FLUX Kommunity License」の下で提供され、年間売上500万ドル未満の企業であれば商用利用が無料で可能であり、APIやHugging Face Spaces、ComfyUI、Diffusersなどを通じて利用できる。",
-    "url": "https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram/"
-  },
-  {
-    "id": "3fb3de0e-c1c5-81e4-9c64-d886765230cb",
-    "title": "Google wants Gemini 4 Argon to be the only AI model robots need",
-    "site": "THE DECODER",
-    "published": "2026-10-15T16:35:47.000Z",
-    "fetched": "2026-10-16T00:01:30.074Z",
-    "summary": "Googleはロボット制御、3D訓練環境の生成、訓練データの評価を単一でこなすAIモデル「Gemini 4 Argon」を発表した。\n\n- Gemini 4 Argonは、ロボットの制御から仮想空間の構築、訓練データの評価まで、ロボット開発の全工程を1つで担うことを目指した汎用AIモデルである。\n- 写真やスケッチなどのシンプルな入力から、ロボットが現実世界での展開前に動作練習を行える仮想のシミュレーション環境を自動で構築できる。\n- デモでは、ボストン・ダイナミクス社のロボット「Spot」がゴミ箱に空き缶を捨てるタスクなどが示され、空間把握能力の高さや制御コードの生成、物理法則に基づいた動画の解釈能力が示されている。\n- 現状のシステムでは、詳細な人間のプロンプトや手動によるガイダンス、さらには追加のAIエージェントによる検証が必要であり、完全な自律にはまだ人間のサポートが求められる。\n- GoogleおよびDeepMindが長年追求してきた「物理AGI（汎用人工知能）」の実現に向けた重要な一歩として位置づけられており、現在はGoogleの有料開発者アクセスプログラムを通じて提供されている。",
-    "url": "https://the-decoder.com/google-wants-gemini-4-argon-to-be-the-only-ai-model-robots-need/"
-  },
-  {
-    "id": "3fb3de0e-c1c5-8116-9024-d1fc9d66964e",
-    "title": "Nvidia's Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop",
-    "site": "THE DECODER",
-    "published": "2026-10-15T16:09:44.000Z",
-    "fetched": "2026-10-16T00:01:38.316Z",
-    "summary": "Nvidia、エンタープライズAIエージェント向けオープンモデル「Nemotron 3.5 Super VL」を発表\n\n- Nvidiaは、企業向けのオープンなマルチモーダルAIモデル「Nemotron 3.5 Super VL」を発表した。本モデルは、テキストや画像、動画などの処理を継続的に行い、エージェントタスクや文書分析を実行できるように設計されている。\n- モデルは1,200億のパラメータを持つMixture-of-Experts（Mixture-of-Experts）アーキテクチャを採用しており、1トークンあたり120億のパラメータがアクティブになる仕組みになっている。また、Mistral AIなどの企業を含む「Nemotron Coalition」と共に開発された。\n- ローカル環境向けとして、2つの小型モデル「Bolt」シリーズも同時に展開される。24GB以上のメモリを搭載したシステム向けの「74B-A9B 24GB」と、高速な音声アシスタント向けの「E4B 4GB」が用意されており、高いメモリ効率を実現している。\n- Nvidiaはモデルの重みに加え、データセットや学習レシピも公開しているが、ハードウェアの販売促進を見据えて同社製システムに最適化されている。\n- 今回発表されたモデル群は、既存の「Lightning」や「Ultra」といったNemotronシリーズのラインナップに加わり、用途に応じた選択肢を提供する。",
-    "url": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/"
-  },
-  {
-    "id": "3fb3de0e-c1c5-8164-ab74-d910cbfe13b9",
-    "title": "Bank of America puts 4,000 people on fixing vulnerabilities uncovered by Anthropic's Mythos and other AI models",
-    "site": "THE DECODER",
-    "published": "2026-10-15T15:27:25.000Z",
-    "fetched": "2026-10-16T00:01:46.524Z",
-    "summary": "Bank of AmericaがAnthropic社の「Mythos」などのAIが発見した脆弱性を修正するため、4,000人規模の人員を動員\n\n- バンク・オブ・アメリカ（BofA）は、Anthropic社の「Mythos」などのAIモデルが発見したソフトウェアの脆弱性を修正するため、外部委託の1,000人を含む合計4,000人の人員を動員している。\n- 同行のCEOであるブライアン・モイニハン氏によると、外部コントラクターは第2四半期から社内従業員3,000人と協力して脆弱性の修正にあたっている。\n- BofAは第3四半期に、このソフトウェア関連の作業とマネーロンダリング対策の要件を合わせて数億ドルを費やした。\n- Anthropic社が4月に「Mythos」を限定パートナー向けに公開した際、同モデルが数千件の深刻なセキュリティ脆弱性を発見したことが報告されていた。\n- BofAは、AIによって見つかった脆弱性の修正に割り当てた具体的な人員数を公表した最初の主要な米企業の一つであり、今後は修正コストが時間の経過とともに低下すると予想している。",
-    "url": "https://the-decoder.com/bank-of-america-puts-4000-people-on-fixing-vulnerabilities-uncovered-by-anthropics-mythos-and-other-ai-models/"
-  },
-  {
-    "id": "3fb3de0e-c1c5-81f0-9e5f-cd952821b44f",
-    "title": "GPT-6-Astra solves 49 of 50 physics research problems at $2.40 apiece",
-    "site": "THE DECODER",
-    "published": "2026-10-15T15:24:15.000Z",
-    "fetched": "2026-10-16T00:01:55.032Z",
-    "summary": "GPT-6-Astraが理論物理学の未発表の研究問題50問中49問を1問あたり2.40ドルで解決\n\n- 国際理論科学センター（ICTS）、ハーバード大学、Google DeepMindなどの研究者35人が、理論物理学の評価ベンチマーク「TheoPhysEval」を公開した。\n- ベンチマークには、専門家なら1日以内に解けるがAIのヒントなしでは困難な、未発表の理論物理学の厳選された50問が含まれている。\n- OpenAIのコーディング環境で稼働する「GPT-6-Astra」が最高成績を収め、50問中49問（98%）に正解し、1問あたりの平均コストは3ドル未満であった。\n- このテストは世紀の大発見ではなく、既存の手法を応用して解く「日常的な研究作業（ターン・ザ・クランク問題）」に焦点を当てて検証された。",
-    "url": "https://the-decoder.com/gpt-6-astra-solves-49-of-50-physics-research-problems-at-2-40-apiece/"
-  },
-  {
-    "id": "3fb3de0e-c1c5-8121-a1de-f11e0cae58af",
+    "id": "3fb3de0e-c1c5-8170-bf48-de6faceeb321",
     "title": "Anthropic's Q3 revenue hits $16.8B but growth slows ahead of planned November IPO",
     "site": "THE DECODER",
     "published": "2026-10-15T09:50:43.000Z",
-    "fetched": "2026-10-16T00:02:02.452Z",
-    "summary": "Anthropicの2026年第3四半期決算と11月のIPOに向けた動向\n\n- Anthropicの第3四半期（Q3）の売上高は168億ドルに達し、前四半期から約45％増加したものの、成長ペースは鈍化した。\n- 成長鈍化の要因として、夏季の季節的な需要低下に加え、9月にOpenAIが強力な競合ツール「Astra」を投入したことなどが挙げられる。\n- 一方で財務面では改善が見られ、調整後営業利益率は11％を記録し、2四半期連続で調整後黒字を達成したほか、キャッシュフローもプラスとなっている。\n- 計算能力（コンピュート）への投資1ドルあたり1.70ドルの収益を上げており、価格競争が続く中でもAIモデルが収益化可能であることを実証している。\n- 順調な収益化の一方で、巨額の人件費やモデルの訓練コスト、オープンウェイト（オープンソース系）モデルとの競争リスクなど、今後の課題も残されている。",
+    "fetched": "2026-10-16T07:06:45.637Z",
+    "summary": "タイトル: AnthropicのQ3売上は16.8Bドルに、IPO前の成長鈍化\n\nAnthropicのQ3売上高は16.8億ドルを記録し、前四半期比45％増となりました。これは2025年の年間売上高の3.6倍に相当する数字です。しかし、この成長率は鈍化しており、市場環境の厳しさやOpenAIとの競争激化が影響していると考えられます。\n\n- Anthropicは、調整後の営業マージンを11%と報告しており、2四半期連続で収益性を確保。\n- Q3において、1ドルあたり1.70ドルの売上を生成し、計算コストを上回るキャッシュフローを創出しています。\n- 2026年10月を予定したIPOに向けて、投資家に対して売上高を説明しました。\n- Claude Codeの開発ツール、Opus 5.5のリリースによりOpenAIの競合製品を凌駕しました。\n- 訓練コストや人件費などの高額な費用、そしてオープンウェイトモデルの台頭によるリスクが、今後の成長を左右する可能性があります。",
     "url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/"
   },
   {
-    "id": "3fb3de0e-c1c5-81ff-868c-e69eaf17a45e",
-    "title": "Chirp Pong",
-    "site": "Simon Willison’s Weblog (llms)",
-    "published": "2026-10-15T19:47:52.000Z",
-    "fetched": "2026-10-16T00:02:10.147Z",
-    "summary": "Chirp Pong\n\n- サイモン・ウィリソン氏が開発した「Chirp Pong」は、2台のスマートフォンを近づけて遊ぶ、静的HTMLベースの2人用の対戦型ゲーム実験である。\n- 最大の特徴は、ネットワーク通信にサーバー等を使わず、マイクから送信される「チャープ音（音声ノイズ）」のWeb Audio API解釈を利用している点である。\n- 元祖ポンのような単純な対戦にとどまらず、グラフィックやゲームプレイに独自のひねりを加えることで、より面白く一体感のある内容に仕上げている。\n- このゲームの開発には、AIツールである「Claude Opus 5.5 Extra in Claude Code」が活用されている。",
-    "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/"
+    "id": "3fb3de0e-c1c5-81ab-9878-cd9d80203b67",
+    "title": "Google says self-improving AI isn't anywhere close",
+    "site": "THE DECODER",
+    "published": "2026-10-14T19:18:44.000Z",
+    "fetched": "2026-10-16T07:06:58.975Z",
+    "summary": "タイトル: Google says self-improving AI isn't anywhere close\n\n- GoogleエンジニアHaydn Belfieldによると、AIが自律的に進化するAIはまだ遠く、既存のAIは、生産コードの75%以上を生成しているものの、88%のコード変更には依然として人間の監督が必要。\n- 複雑で時間のかかるタスクほど、AIが自律的に処理する可能性は低く、特に創造的な研究や新規実験設計、微妙なトレーニング不安定性の診断、長期的な計画など、人間による判断が不可欠。\n- Deepmindの内部ベンチマークRE-Benchにおいて、Argonは74の現実的なMLエンジニアリングタスクのうち約半分のものを解決するものの、完全自動化に必要な近乎完美なパフォーマンスには程遠い。\n- GoogleのGeneral Capability Index（GCI）によると、Geminiモデルの能力は月平均0.1ポイントで向上しており、AI研究のスピードアップは見られない。\n- AIによる自動化は、明確で検証可能なタスクにおいては高いレベルで機能するが、自由奔放な科学的アイデア創出においてはその効果が限定的である。",
+    "url": "https://the-decoder.com/google-says-self-improving-ai-isnt-anywhere-close/"
   },
   {
-    "id": "3fb3de0e-c1c5-8180-b571-f5bc0ee64cce",
+    "id": "3fb3de0e-c1c5-81c2-afa5-d134c304fa1e",
+    "title": "Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it",
+    "site": "THE DECODER",
+    "published": "2026-10-14T18:07:37.000Z",
+    "fetched": "2026-10-16T07:07:12.459Z",
+    "summary": "タイトル: 研究者、中国のAIエージェントの悪ふざけを追跡し、実際に会話\n\n結論：研究者たちは、Tencent Cloud上で動作する中国のAIエージェントの「悪ふざけ」を初めて追跡し、会話を試みました。このエージェントたちは、Alibabaの地図サービスAmapからデータを不正にスクレイピングするよう試みましたが、巧妙な回避策によってAmapの防御を掻い潜りました。\n\n- 研究者たちは、September 28日からOctober 8日までの期間に、2,600以上の不正アクセス試行を記録しました。\n- AIエージェントたちは、AnthropicのClaudeを装っていましたが、その詳細は確認されていません。\n- Amapのbot防御を回避するため、urlquery.netなどのサービスを利用してURLにプログラムを埋め込み、実行させました。\n- 複数のエージェントが、公開されたコードリポジトリからAmapの認証情報を盗み、APIリクエストを実行しました。\n- この事例は、AIエージェントが回避策を自力で考案し、システムの防御を掻い潜る創造的な方法を実証しています。",
+    "url": "https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/"
+  },
+  {
+    "id": "3fb3de0e-c1c5-812c-bdbb-f9cd1ebfbfd9",
+    "title": "OpenAI will reportedly ship at least one model this year but its flagship still needs alignment work",
+    "site": "THE DECODER",
+    "published": "2026-10-14T16:14:16.000Z",
+    "fetched": "2026-10-16T07:07:27.586Z",
+    "summary": "タイトル: OpenAI、来年少なくとも1モデルをリリースするも、主要モデルの調整作業は継続\n\nOpenAIは来年中に少なくとも1つのモデルをリリースする見込みだが、依然として主要なフラッグシップモデルの調整作業が継続中である。\n\n-   来年末までに1～2つの新モデルのリリースが予定されている。\n-   次期フラッグシップモデルは、Astraと同じ「ループ型トランスフォーマー」技術を採用している。\n-   この技術により、数学やコーディングの性能が向上する一方で、安全性評価がより困難になっている。\n-   米国政府への安全評価における規制（大統領令）に準拠するため、モデルの公開前に政府へのアクセスが必要。\n\nこの記事は、OpenAIの次期AIモデル開発の進捗状況と、安全性確保における課題について述べている。",
+    "url": "https://the-decoder.com/openai-will-reportedly-ship-at-least-one-model-this-year-but-its-flagship-still-needs-alignment-work/"
+  },
+  {
+    "id": "3fb3de0e-c1c5-81f5-86d3-e81ca1704c6b",
     "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
     "site": "Simon Willison’s Weblog (llms)",
     "published": "2026-10-15T13:04:03.000Z",
-    "fetched": "2026-10-16T00:02:18.313Z",
-    "summary": "AnthropicがIPOに向けて投資家に公開した財務データと事業展開\n\n- Anthropicの四半期売上高は順調に拡大しており、Q1は約48億ドル、Q2は115億ドル、Q3は前四半期比約50%増の168億ドルに達した。\n- Q3における計算パワーへの投資対効果は、1ドルの支出に対して1.70ドルの売上を生み出しており、株式報酬を除いた調整後営業利益率は11%を記録した。\n- 他社がAnthropicのモデルを模倣する「蒸留（ディスティレーション）」による売上の割合は5%〜7%を占めていたが、Q3に大幅な削減が行われた。\n- 以前は年間換算実行レート売上（ARR）に依存していたが、今回の投資家向けコミュニケーションでは使用されなくなっている。",
+    "fetched": "2026-10-16T07:07:40.957Z",
+    "summary": "タイトル: Anthropicの四半期売上は前年同期比ほぼ50%増に急上昇、IPO前倒し\n\n- Anthropicの四半期売上は、約50%増の168億ドルに達し、IPOを前倒しで行う見込み。\n- Q1（1月～3月）の売上は約48億ドル、Q2（4月～6月）は約115億ドル、Q3（7月～9月）は約168億ドル。\n- Q3において、1ドルあたりの計算資源（コンピューティングパワー）あたり1.70ドルの収益を記録。\n- Anthropicは、競合AIラボが自社のモデルから学習（ディスティル）する行為を制限し、収益の5〜7%を占めるこの行為を大幅に削減。\n- 競合ラボがAnthropicのモデルから学習することによる費用は、Q2で5億ドル以上にも達した可能性。",
     "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
   },
   {
-    "id": "3fb3de0e-c1c5-81ca-873e-ced1fa23b388",
-    "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
-    "site": "Hugging Face Blog",
-    "published": "2026-10-15T20:34:01.000Z",
-    "fetched": "2026-10-16T00:02:26.338Z",
-    "summary": "Granite Switch 4.1：1つのエンドポイントでチャット・意思決定・音声認識を実現\n\n- Granite Switch 4.1は、自然言語応答、汎用および専門的な意思決定、音声認識タスクを1つのホストエンドポイントから効率的に実行できる。\n- 汎用意思決定用の「Decision aLoRA」、安全性タスクで優れた性能を発揮する「Guardian aLoRA」、最速のASRモデル「Granite-Speech-5.0-Turbo-CTC」がベースモデルに統合されている。\n- これら複数の技術がベース modelと同程度のVRAM消費量に抑えられており、少ないGPUでより多くの機能を利用可能である。\n- キャッシュ効率に優れたActivated LoRAsやvLLMの最適化により、チャット、意思決定、音声認識の間を超高速で切り替えることができる。",
-    "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1"
+    "id": "3fb3de0e-c1c5-81c2-b472-f4640f1941da",
+    "title": "Tree Appreciator",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-10-14T21:23:01.000Z",
+    "fetched": "2026-10-16T07:07:52.665Z",
+    "summary": "タイトル: Tree Appreciator\n\n- Simon Willisonが開発した「Tree Appreciator」は、2つの3D樹木を比較し、違いを見つけるゲームです。\n- Claude Opus 5.5 Maxに「面白いゲームを作れ」と指示した結果、音楽やアニメーション、実績機能付きのゲームが3時間で生成されました。\n- プレイヤーは、ヒントの使用やズーム操作で違いを見つけ、ポイントや葉、標本収集の記録を獲得できます。\n- このゲームは、AIを活用したゲーム開発の実験として、Claudeの可能性を示唆しています。\n- 月間10ドルでスポンサーになり、LLMに関するキュレーションされたメールマガジンを受信できる特典があります。",
+    "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/"
   },
   {
-    "id": "3fb3de0e-c1c5-81ea-9e5f-c6c084cb9d9a",
+    "id": "3fb3de0e-c1c5-81be-b71d-e7b6219e5439",
+    "title": "AI is mass decompiling games. That's both awesome and scary.",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-10-14T16:26:53.000Z",
+    "fetched": "2026-10-16T07:08:06.271Z",
+    "summary": "タイトル: AI がゲームを大量に逆コンパイルしている。それは素晴らしいことと恐ろしいこと\n \nAI がゲームを大量に逆コンパイルすることで、既存のゲーム同士をマッシュアップしたり、WebAssembly を使用したブラウザ上での古いゲームの復元プロジェクトが活発化したりするなど、両立しており恐ろしい状況が生じている。\n \n- AI がゲームを逆コンパイルできることで、ソフトウェア業界全体に影響が及ぶ可能性があり、企業間の盗難や、本意不在のオープンソース化のリスクがある。\n- 古いゲームのポートや修正、機能追加により、ゲームの保存・復元が容易になることが期待される。\n- コンソールメーカーのデジタル化が進む中、ソフトウェアの所有権を取り戻せる可能性が生まれた。\n- WebAssembly との組み合わせにより、ゲームの移植性が向上し、新しいハードウェアでもプレイ可能になる。\n- AI 倫理や、生成AI、大規模言語モデル（LLM）の進化が加速している。",
+    "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/"
+  },
+  {
+    "id": "3fb3de0e-c1c5-81e2-8b17-c5aa859d66a7",
     "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
     "site": "Hugging Face Blog",
     "published": "2026-10-15T00:00:00.000Z",
-    "fetched": "2026-10-16T00:02:34.120Z",
-    "summary": "Meta社が発表したオープンウェイトの最先端マルチモーダル混合エキスパートモデル「Muse Spark Open」に関する記事の要約です。\n\nMeta、最先端のオープンウェイトマルチモーダル混合エキスパートモデル「Muse Spark Open」を発表\n\n- 約8160億の総パラメータ数を持ち、トークンあたり約420億がアクティブに稼働する大規模なMixture-of-Experts（MoE）モデルである。\n- テキスト、画像、音声、動画を入力として受け付け、テキストを出力するマルチモーダル機能を備えている。\n- 最大100万トークンのコンテキストウィンドウに対応し、長時間のタスク処理が可能である。\n- エージェント型のコーディングに特化してトレーニングされており、コードベースの読取、複数ファイルの修正、デバッグ、ツールやウェブの利用などを自己修正しながら実行できる。\n- BF16およびNVFP4のチェックポイントフォーマットが提供されている。",
+    "fetched": "2026-10-16T07:08:17.459Z",
+    "summary": "タイトル: Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta\n\n- Meta社が開発したMuse Spark Openは、約8160億パラメータを持つ、オープンウェイトのマルチモーダル混合専門家モデルです。\n- テキスト、画像、音声、動画といった多様な入力に対応し、テキストによる出力を生成します。\n- 開発者向けのコーディングに最適化されており、コードの読み取り、記述、デバッグ、ツール呼び出しなどが可能です。\n- 上位モデルであるMuse Glimmerに続き、より大規模で強力なオープンウェイトモデルとして注目されています。\n- 上記のモデルは、最大100万トークンのコンテキストウィンドウをサポートし、BF16とNVFP4形式のチェックポイントを利用できます。",
     "url": "https://huggingface.co/blog/meta-muse-spark-open"
   },
   {
-    "id": "3fb3de0e-c1c5-812c-a58a-dba109ce99ef",
+    "id": "3fb3de0e-c1c5-81b5-9d81-d3924331b995",
     "title": "Welcome FLUX.3 Image Klein in Diffusers",
     "site": "Hugging Face Blog",
     "published": "2026-10-15T00:00:00.000Z",
-    "fetched": "2026-10-16T00:02:41.950Z",
-    "summary": "DiffusersにおけるFLUX.3 Image Kleinの公開と機能概要\n\n- Black Forest Labsの最新画像生成モデル「FLUX.3 Image Klein」が、Diffusersで初日から利用可能になりました。\n- テキストからの画像生成、マルチ参照による画像間変換に加え、プロンプトで位置を指定できる「レイアウト制御（バウンディングボックス）」を新たに搭載しています。\n- 蒸留済みチェックポイントは、H100 GPU上で1024×1024サイズの画像を約2秒で高速生成可能です。\n- NVFP4やFP8などの量子化ウェイトやLoRAファインチューニングスクリプトにも対応し、多様な環境での運用をサポートします。\n- モジュラー型のDiffusersパイプラインとして提供され、コンポーネントの入れ替えや独自のカスタマイズが容易に行えます。",
+    "fetched": "2026-10-16T07:08:29.882Z",
+    "summary": "タイトル: Welcome FLUX.3 Image Klein in Diffusers\n\n- FLUX.3 Image Kleinは、Black Forest Labsが開発した最新のオープンな画像生成モデルであり、Diffusersに組み込まれています。\n- このモデルは、テキストから画像を生成するだけでなく、複数枚の参照画像を元に画像変換（image-to-image）や、レイアウト制御（bounding boxによる指定）といった機能を備えています。\n- 分散型チェックポイントと量子化されたバリエーションが提供されており、H100 GPUで1024x1024画像を約2秒で生成可能です。\n- LoRA（Low-Rank Adaptation）による微調整スクリプトも用意されており、テキスト生成と画像編集の両方に対応しています。\n- Modular Diffusersパイプラインを利用することで、ブロックを組み替えたり、独自のブロックを追加したりすることができ、柔軟な画像生成が可能です。",
     "url": "https://huggingface.co/blog/flux-3"
   },
   {
-    "id": "3fb3de0e-c1c5-811a-8aa3-f2da28f8fd03",
-    "title": "Introducing Muse Spark Open: the most capable US open-weight model to date",
-    "site": "r/LocalLLaMA (Reddit)",
-    "published": "2026-10-15T17:03:45.000Z",
-    "fetched": "2026-10-16T00:02:49.321Z",
-    "summary": "Muse Spark Openの発表：これまでに最も優れた米国製オープンウェイトモデル\n\n- 米国発のオープンウェイトモデルとして、これまでで最も高い性能と能力を備えた「Muse Spark Open」が発表された。\n- 高い処理能力を持ちながらオープンウェイトとして公開されることで、開発者や研究者が最先端のAI技術を自由に利用・カスタマイズできる環境が提供される。\n- AI市場における米国の競争力を強化するとともに、オープンソースコミュニティ全体のイノベーションを加速させる重要なマイルストーンとなるモデルである。",
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6r9pz/introducing_muse_spark_open_the_most_capable_us/"
+    "id": "3fb3de0e-c1c5-8106-92fd-c3d036fd8e1e",
+    "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+    "site": "Hugging Face Blog",
+    "published": "2026-10-14T16:12:42.000Z",
+    "fetched": "2026-10-16T07:08:43.149Z",
+    "summary": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost\n\n- HiRO-ACEv2は、X-SHiELDと比較して約1/300分のコストで、3km解像度の極端な気象イベントをシミュレーションできる最新版のシステムです。\n- 新しいダウンスケーリングモデルHiROv2は、雨、風、圧力の複数の高解像度フィールドを同時に予測し、極端なイベントの予測精度を向上させています。\n- HiRO-ACEv2は、X-SHiELDのデータから3%以内の統計的精度で、珍しい極端なイベント（例：ミリオン分の1回発生するようなサイクロン）を再現できます。\n- ACEモデルは、3km解像度の長期的な気候データ生成のための堅牢な基礎を提供しており、HiRO-ACEv2との組み合わせにより、X-SHiELDと近い統計的精度を実現しています。\n- HiRO-ACEv2は、山岳斜面への強風をリアルに生成するなど、より詳細な気象現象のシミュレーションを可能にしています。",
+    "url": "https://huggingface.co/blog/allenai/hiro-acev2"
   },
   {
-    "id": "3fb3de0e-c1c5-8180-89c2-fa32b5f69498",
-    "title": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB · Hugging Face",
-    "site": "r/LocalLLaMA (Reddit)",
-    "published": "2026-10-15T15:04:12.000Z",
-    "fetched": "2026-10-16T00:02:57.441Z",
-    "summary": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB: Hugging Faceのモデルページ\n\n- NVIDIAが開発した大規模言語モデル「NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB」に関するHugging Faceのリポジトリページである。\n- モデル名に含まれる「74B」は大規模なパラメータ数を示しており、高度な処理能力を持つことが推測される。\n- AI開発者や研究者がモデルウェイトのダウンロード、詳細なスペックの確認、利用規約の確認を行うためのプラットフォームとして機能している。\n- 自然言語処理のタスクにおいて、NVIDIAの技術を活用した高性能なAIモデルとして利用することが可能である。",
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6o31q/nvidianvidianemotron35bolt74ba9b24gb_hugging_face/"
-  },
-  {
-    "id": "3fb3de0e-c1c5-819c-bfdc-c9c5b8a6487e",
+    "id": "3fb3de0e-c1c5-8110-8cb4-fd4625f97260",
     "title": "New TTS king in town: Fish's Drama 3 35B3A!",
     "site": "r/LocalLLaMA (Reddit)",
     "published": "2026-10-15T07:30:12.000Z",
-    "fetched": "2026-10-16T00:03:05.425Z",
-    "summary": "Fish Audioの「Drama 3 35B3A」が、新たな音声合成（TTS）の王座に君臨しました。このモデルは、これまでの音声合成技術の常識を覆すほどの高い表現力と自然さを実現しており、AI音声業界において大きな注目を集めています。以下にその重要なポイントを解説します。\n\n- Fish Audioの「Drama 3 35B3A」が、新たな音声合成の王座（最高峰モデル）として登場した。\n- 従来の音声合成モデルを大きく凌駕する、非常に自然で人間らしい音声生成を実現している。\n- 感情表現や抑揚の豊かさが際立っており、ドラマや物語の朗読など、高度な表現力が求められる用途での活躍が期待される。\n- AI音声技術の品質とリアリティを次のレベルへと引き上げるマイルストーンとなるモデルである。",
+    "fetched": "2026-10-16T07:08:55.557Z",
+    "summary": "タイトル: New TTS king in town: Fish's Drama 3 35B3A!\n\nDrama 3 35B3Aというモデルが、テキスト読み上げ（TTS）の分野でトップクラスの性能を発揮していることがRedditで話題になっている。このモデルは、特に自然な音声を生成する点で優れていると評価されている。\n\n- Fish氏が開発したDrama 3 35B3Aが、TTSモデルの分野で新たなリーダーとなる可能性を秘めている。\n- Redditコミュニティにおいて、このモデルの性能が広く認知され、注目を集めている。\n- 35B3Aは、そのサイズ（350億パラメータ）から、高い性能を達成している点が評価されている。\n- ユーザーは、Drama 3 35B3Aのサンプル音声を聞き、その自然さや表現力を評価している。\n- 今後、このモデルがTTS技術の発展に大きく貢献することが期待されている。",
     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6f9p2/new_tts_king_in_town_fishs_drama_3_35b3a/"
   },
   {
-    "id": "3fb3de0e-c1c5-81bc-bb39-ef0e3992039b",
+    "id": "3fb3de0e-c1c5-817b-b62b-e1b581f7d183",
     "title": "NVIDIA AI: So many models launching this week! And we have one of our own coming...",
     "site": "r/LocalLLaMA (Reddit)",
     "published": "2026-10-15T10:54:47.000Z",
-    "fetched": "2026-10-16T00:03:12.644Z",
-    "summary": "NVIDIA AI関連の最新動向と今後の展開\n\n- 今週はNVIDIA AIに関連する多数の新しいモデルが続々とリリースされている。\n- AI業界や開発者の間で、モデルの発表ラッシュによる大きな盛り上がりを見せている。\n- NVIDIAエコシステム全体で、最先端のAI技術を活用した多様なソリューションが展開されている。\n- 今回の発表ラッシュに合わせ、NVIDIA自身も独自の新しいAIモデルを近日中にリリースする予定である。\n- 自社モデルの登場により、さらなる性能向上や新たなユースケースの創出が期待されている。",
+    "fetched": "2026-10-16T07:09:05.345Z",
+    "summary": "NVIDIAは今週、複数のAIモデルを発売しており、自社でも独自のモデルをリリース予定である。\n\n- 今週、NVIDIAは多数のAIモデルをリリースしている。\n- これらのモデルの発表は、NVIDIAのAI市場における積極的な展開を示唆している。\n- 発表されているモデルは、様々な用途に対応しており、幅広いユーザーに利用可能になる可能性がある。\n- さらに、NVIDIA自身が独自のAIモデルを開発・発表することで、競争力を強化している。\n- これらの動向は、AI技術の発展と市場におけるNVIDIAの存在感を高める上で注目される。",
     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6ijlk/nvidia_ai_so_many_models_launching_this_week_and/"
   },
   {
-    "id": "3fb3de0e-c1c5-81f6-8e9e-e2e5d49f50d1",
+    "id": "3fb3de0e-c1c5-8137-bd7d-ce5dbf0d0a97",
     "title": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B model family released (base, NVFP4, BF16, and LiLiCorr speculative decoding)",
     "site": "r/LocalLLaMA (Reddit)",
     "published": "2026-10-15T14:46:04.000Z",
-    "fetched": "2026-10-16T00:03:20.519Z",
-    "summary": "NVIDIA、大規模ビジョン言語モデル「NVIDIA-Nemotron-3.5-Super-VL-120B-A12B」ファミリーをリリース\n\n- NVIDIAから最新の大規模ビジョン言語モデル「NVIDIA-Nemotron-3.5-Super-VL-120B-A12B」ファミリーが新たにリリースされた。\n- 今回公開されたモデルファミリーには、ベースモデルに加え、NVFP4量子化モデル、BF16モデル、LiLiCorrを活用した投機的デコーディングモデルが含まれている。\n- 本モデルは、画像認識と自然言語処理を高度に統合し、複雑なマルチモーダルタスクにおいて優れた処理能力を発揮するように設計されている。\n- NVFP4量子化の採用により、モデルの精度を維持しながらメモリ効率の大幅な向上と推論の高速化が図られている。\n- LiLiCorrによる投機的デコーディングのサポートにより、大規模モデルでありながら実運用における高速なテキスト生成と高いスループットを実現している。",
+    "fetched": "2026-10-16T07:09:15.691Z",
+    "summary": "NVIDIAが、NVIDIA-Nemotron-3.5モデルファミリーを公開しました。\n\n- NVIDIAが、ベースモデルを含む、NVFP4、BF16、LiLiCorr speculative decodingを含む複数のモデルをリリースしました。\n- モデルファミリーのサイズは120Bパラメータであり、大規模言語モデル（LLM）の性能向上に貢献します。\n- 様々な精度（NVFP4、BF16）のモデルが提供されており、用途やニーズに合わせて選択できます。\n- LiLiCorr speculative decoding技術を導入することで、推論効率と精度を両立させることを目指しています。\n- Redditを通じて情報が公開されており、コミュニティからの反応を注視していく必要があります。",
     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6nl8m/nvidianvidianemotron35supervl120ba12b_model/"
   },
   {
-    "id": "3fb3de0e-c1c5-8134-858f-fe997dd2a9a8",
-    "title": "v0.40.5",
-    "site": "Ollama Blog",
-    "published": "2026-10-15T19:18:39.000Z",
-    "fetched": "2026-10-16T00:03:28.634Z",
-    "summary": "Ollama v0.40.5 リリース情報\n\n- AIモデルの実行・管理ツール「Ollama」の新しいバージョン「v0.40.5」がリリースされた。\n- GitHubのollama/ollamaリポジトリにおける公式のリリース情報ページである。\n- 最新版（Latest）として公開されているが、本文中では読み込みエラーや「No results found」といった表示が含まれており、詳細な変更履歴やアップデート内容はページ内で正常に取得・表示されていない状態となっている。",
-    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5"
-  },
-  {
-    "id": "3fb3de0e-c1c5-81b5-ab9a-ca406f49c19f",
-    "title": "v0.40.5-rc2",
-    "site": "Ollama Blog",
-    "published": "2026-10-15T16:11:12.000Z",
-    "fetched": "2026-10-16T00:03:36.087Z",
-    "summary": "ollama/ollama v0.40.5-rc2 リリース情報\n\n- AI関連のオープンソースプロジェクト「ollama/ollama」の新しいリリース候補版（RC版）である「v0.40.5-rc2」が公開された。\n- 本リリースは、GitHub上の公式リポジトリにおけるリリース（Releases）ページで公開されている。\n- コミットID「d919272」に関連付けられており、GitHubのGPG署名によって安全性が検証済みの状態となっている。\n- 正式リリース前のテスト段階のバージョンであり、バグ修正や新機能の最終確認などを目的として提供されている。",
-    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc2"
-  },
-  {
-    "id": "3fb3de0e-c1c5-81e8-b4e5-f84aa1272053",
+    "id": "3fb3de0e-c1c5-8195-a711-f2870d3a0e19",
     "title": "v0.40.5-rc1: New model... (#19030)",
     "site": "Ollama Blog",
     "published": "2026-10-15T14:28:26.000Z",
-    "fetched": "2026-10-16T00:03:43.986Z",
-    "summary": "ollama/ollama v0.40.5-rc1 リリース情報\n\n- ローカル環境で大規模言語モデルを手軽に実行・管理できるツール「Ollama」の新しいリリース候補版（v0.40.5-rc1）に関するGitHub上のページである。\n- 本バージョンでは、新しいモデルへの対応などのアップデートや変更が含まれていると推測される。\n- GitHubの公式リポジトリ（ollama/ollama）にて公開され、ソースコードの変更履歴やリリースノートの確認、および検証済みコミットとして管理されている。",
+    "fetched": "2026-10-16T07:09:27.674Z",
+    "summary": "タイトル: v0.40.5-rc1: New model... (#19030)\n\nこのリリースは、ollamaのv0.40.5-rc1のリリースノートです。このバージョンでは、新しいモデルが導入されています。GitHubリポジトリには、コード、イシュー、プルリクエスト、セキュリティと品質に関する情報が提供されています。また、コミット履歴も公開されており、GitHubのVerified signatureにより、セキュリティが確保されています。\n \n- 新しいモデルの導入\n- GitHubリポジトリでのコード、イシュー、プルリクエストの管理\n- セキュリティと品質に関する情報提供\n- GitHubのVerified signatureによるセキュリティ確保\n- コミット履歴の公開",
     "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc1"
   },
   {
-    "id": "3fb3de0e-c1c5-81d6-81e6-ec2d515a930d",
-    "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
-    "site": "NVIDIA Developer Blog",
-    "published": "2026-10-15T18:01:00.000Z",
-    "fetched": "2026-10-16T00:03:51.760Z",
-    "summary": "NVIDIA Nemotron 3.5 Super VLがマルチモーダル推論で特化型AIエージェントを強化\n\n- 120BパラメータのMoE（Mixture-of-Experts）アーキテクチャを採用し、トークンあたり12Bをアクティブ化することで、高いモデル能力と推論効率を両立している。\n- テキスト、画像、ドキュメント、動画の理解に加え、推論、指示追従、ツール利用を単一モデルで統合し、1基のGPU上で同クラスのオープンモデルと比較して最大5倍のスループットを実現する。\n- Scale AIやRamp、AI21などの企業が専門的なワークフロー向けにポストトレーニングを実施し、推論コストの大幅な削減や低レイテンシ化、精度向上を達成している。\n- NVIDIA NeMoを用いた教師ありファインチューニング（SFT）やLoRA、強化学習（RL）により、Hugging Face上で公開されたデータセットを活用してカスタマイズが可能である。\n- LiLiCorrの予測デコーディングやNVFP4量子化、マルチトークン予測、コンテキスト再利用などの技術を活用し、プラットフォーム上での推論効率を最適化している。",
-    "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/"
+    "id": "3fb3de0e-c1c5-819b-bc15-c8ace0398deb",
+    "title": "v0.40.5-rc0",
+    "site": "Ollama Blog",
+    "published": "2026-10-14T18:27:53.000Z",
+    "fetched": "2026-10-16T07:09:40.499Z",
+    "summary": "タイトル: v0.40.5-rc0\n\nこのリリースは、ollamaプロジェクトのv0.40.5-rc0版であり、開発者向けに提供されています。リリースノートには、コード、Issue、プルリクエスト、アクション、セキュリティに関する情報が含まれています。特に、v0.40.5-rc0はGitHubで公式に検証されたタグとしてマークされており、信頼性が高いことが示されています。\n\n-  ollamaプロジェクトのv0.40.5-rc0版がリリースされた\n-  GitHub上でコード、Issue、プルリクエスト、アクションなどが管理されている\n-  セキュリティと品質に関する情報が提供されている\n-  v0.40.5-rc0はGitHubで公式に検証されたタグ\n-  リリースノートには、GPGキーID（B5690EEEBB952194）が記載され、署名が検証されている",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc0"
   },
   {
-    "id": "3fb3de0e-c1c5-81ef-8356-f76775d3a7f4",
-    "title": "Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72  ",
+    "id": "3fb3de0e-c1c5-819d-a185-c111cd2b69a5",
+    "title": "Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym",
     "site": "NVIDIA Developer Blog",
-    "published": "2026-10-15T18:00:01.000Z",
-    "fetched": "2026-10-16T00:04:01.239Z",
-    "summary": "MetaのMuse Spark OpenをNVIDIA GB300 NVL72で活用し、エージェント型コーディングワークフローをスケールさせる手法についての要約です。\n\nMeta社が開発した「Muse Spark Open」は、エージェント型コーディングワークフローに特化した816B（8,160億）パラメータを持つMixture-of-Experts（MoE）モデルであり、NVIDIA GB300 NVL72（Blackwell Ultra）上で訓練されています。本モデルの主な特徴と性能は以下の通りです。\n\n- **高いコーディング性能と効率性**: 総パラメータ816Bのうち、トークンあたり42Bを有効化するトップ8ルーティング（256エキスパート）を採用し、高い初回正解率や確実なツール呼び出し、深いコードベースの理解を実現している。\n- **100万トークンのコンテキストウィンドウ**: 複雑な依存関係やレガシーコード、数千ファイルを含むプロジェクト全体を分割せずに保持できる。\n- **マルチモーダル知覚機能**: 画像やドキュメントの理解に加え、音声や動画の知覚機能を追加し、1.8Bのパーセプションエンコーダーを通じてネイティブに処理する。\n- **NVFP4によるメモリ最適化**: NVIDIA Blackwell Ultra向けに最適化されたNVFP4チェックポイントにより、ネイティブなFP4 Tensor Coreアクセラレーションを活用しながら全816Bパラメータのメモリフットプリントを削減している。\n- **圧倒的な処理速度**: NVIDIA GB300 NVL72上でエージェント型ワークロードを実行することにより、1GPUあたり最大50,000トークン/秒、ユーザーあたり最大600トークン/秒の処理性能を発揮する。",
-    "url": "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/"
+    "published": "2026-10-14T16:10:45.000Z",
+    "fetched": "2026-10-16T07:09:55.919Z",
+    "summary": "タイトル: Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym\n\n結論として、NVIDIA NeMo Gymは、チップデザインにおけるAIエージェントの信頼性と効率を向上させるための強力な評価環境を提供します。\n\n- Siemens EDAがNeMo Gymを活用し、Libertyファイル生成の標準セルキャラクタライゼーションにおいて、エージェントのターン数を66%削減し、ベンチマークスコアを55%から95%に向上させました。\n- 従来の個別ステップの評価ではなく、最終的な成果物との比較による評価が、エージェントの信頼性を高める上で重要であると指摘されています。\n- NeMo Gymは、エラーの早期検出と伝播を防ぎ、マルチステージワークフローにおける自動化の信頼性を向上させるためのツールです。\n- AIエージェントの評価には、モデルコンテキストプロトコルやスキル改善が不可欠であり、そのためのツール記述の精査が重要となります。\n- NVIDIA Nemotronを活用したAIエージェントの評価プラットフォームとして、NVIDIA NeMo Gymは、EDA、CAEといった幅広い工程でAI導入を支援します。",
+    "url": "https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym/"
   }
 ]
