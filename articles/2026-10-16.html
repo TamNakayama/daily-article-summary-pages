@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>記事まとめ 2026/10/16</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-10-16" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+</header>
+<h1>2026/10/16</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/" target="_blank" rel="noopener">ChatGPT becomes a full Chrome browser assistant that reads and acts on your open tabs</a></h2>
+      <p>ChatGPTがChromeのブラウザアシスタント機能に進化し、開いているタブの読み取りや操作が可能になりました。<br><br><ul><li>ChatGPTのChrome拡張機能がアップデートされ、開いているタブの読み取りやアクション実行ができるようになった</li><li>「@chrome」を使用するか、チャットモードを活用することで、複数のタブから同時にデータを取得して比較や要約ができる</li><li>ワークモードでは、Computer Use機能を介してメッセージの送信、フォームの入力、ファイルのダウンロード、タブのグループ化などの操作を自動で行える</li><li>アップグレードされたサイドバーにチャット履歴全体が表示され、閲覧中のWebページのすぐ隣で作業が可能になる</li><li>新しいChrome拡張機能はすべてのChatGPTプランで利用可能であり、複雑な複数ステップのワークフロー処理をサポートする</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/china-plans-to-tighten-export-controls-on-open-weight-models-and-23-key-ai-technologies/" target="_blank" rel="noopener">China plans to tighten export controls on open-weight models and 23 key AI technologies</a></h2>
+      <p>中国は、フロンティアモデルや自律型マルウェアツールなど23の主要なAI技術を対象とした輸出管理の強化に向け、新たな規制案を発表した。<br><br><ul><li>中国の商務省と科学技術省がAI分野の輸出規制を強化する方針を示し、大規模モデル、AIエージェント、計算クラスター、データ処理など23の重要技術を対象とした規制案を公開した。</li><li>重要インフラや軍事、政府機関などを標的にする自動マルウェア作成・改変AIツールについては、全面的な輸出禁止措置がとられる。</li><li>大規模モデルの輸出規制は、中国の機密データを使用して訓練されたサービスや、パラメータ数が2兆、訓練計算量が10の26乗FLOPsを超えるもの、または世界トップ10にランクインするシステムなどを対象とする。</li><li>国内のAI研究開発の速度を落とさないため、登録時の自動承認によるオープンウェイトの迅速なリリース制度が計画されており、すでに一般公開されている技術は完全に免除される。</li><li>モデルの重み、チェックポイント、ソースコード、アーキテクチャ、訓練・推論手法など、大規模モデルの根幹をなす技術も規制の対象に含まれる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/" target="_blank" rel="noopener">Google's Gemini 4 Argon is closer to the AI frontier than any Google model in months</a></h2>
+      <p>Googleの新しいフロンティアモデル「Gemini 4 Argon」は、汎用問題解決ベンチマーク「ARC-AGI-3」で97.5%を記録し、OpenAIに次いで95%の壁を突破した。この結果は、ベンチマークにおけるテスト方法や設定に大きく依存している。<br><br><ul><li>Google Deepmindの新型モデル「Gemini 4 Argon」が、難度の高いARC-AGI-3で97.5%を高スコアを記録した。</li><li>ベンチマークの25の公開ゲームにおいて、人間基準と比較して行動数が62%少なく、スピードランの記録に迫る性能を示した。</li><li>テスト結果は、ベンチマークで使用される検証環境（プロバイダー・アダプター・ハーネスなど）の設定に大きく左右される。</li><li>Epoch AIによると、数学やソフトウェア工学の分野では、競合他社のモデルと比較してまだ遅れをとっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/is-ai-interpretability-close-to-a-breakthrough-a-new-essay-has-researchers-divided/" target="_blank" rel="noopener">Is AI interpretability close to a breakthrough? A new essay has researchers divided</a></h2>
+      <p>AIの解釈可能性における大ブレイクスルーの可能性をめぐり、研究者の間で意見が分かれている。<br><br><ul><li>グッドファイア社の研究者ニック・カマラタ氏は、論文「Neural Networks Are Already Clean」において、AIモデルの内部構造は従来考えられていたよりもはるかに理解しやすいと主張した。</li><li>かつてカマラタ氏は、1つのニューロンが複数の異なる概念に反応する「多義性（ポリセマンティシティ）」や「重ね合わせ（スーパーポジション）」の仮説を支持していたが、自らの初期説を否定する形となった。</li><li>従来は、ニューロン不足により無関係な概念が同じニューロンに詰め込まれていると考えられていたが、カマラタ氏はこれを単純な図形検出器などとして捉え直すべきだと主張している。</li><li>OpenAIのRoon氏はこれを「歴史的瞬間」と評価する一方で、Google DeepMindのニール・ナンダ氏は過度な誇大広告に対して警鐘を鳴らすなど、研究者の間で評価が分かれている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/openais-new-rosalind-academic-plan-gives-research-labs-up-to-30-free-seats-for-a-year/" target="_blank" rel="noopener">OpenAI's new Rosalind Academic Plan gives research labs up to 30 free seats for a year</a></h2>
+      <p>OpenAI、生命科学研究向けAIプラン「Rosalind Academic Plan」を発表<br><br><ul><li>米国の大学の研究室を対象に、ビジネススタンダードプランのシートを最大30席まで1年間無料で提供する（APIアクセスは対象外）。</li><li>生命科学分野向けに構築されたAIモデル「GPT-Rosalind」と、医薬品化学やゲノム科学などの専門ツールを繋ぐ「Rosalind Workbench」を利用できる。</li><li>利用には、機関や研究代表者、利用目的に関するOpenAIによる審査と承認が必要となり、承認後も利用状況のモニタリングが行われる。</li><li>機密性の高い科学的問いに対応できる一方で、承認された研究コンテキストに基づいた安全確認やセーフガードが適用される。</li><li>OpenAIは、デフォルトでは研究データを使用してモデルの学習を行わない方針を示している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropic-gives-metr-inside-access-to-audit-its-ai-models-and-safety-practices/" target="_blank" rel="noopener">Anthropic gives METR inside access to audit its AI models and safety practices</a></h2>
+      <p>Anthropic社がAIモデルと安全性監査を非営利団体METRに許可<br><br><ul><li>Anthropic社は、非営利団体METRのスタッフ6名に社内ハードウェアやオフィススペース、内部ツールへのアクセスを提供し、自社のリスクチームと同等の内部監査を許可した。</li><li>顧客データやモデルのアーキテクチャなどの機密情報は制限されるものの、METRは調査結果を独自に公開する予定である。</li><li>Anthropic社は特定の事前定義されたカテゴリーに限り非公開部分の修正を要請できるが、METRはその修正が正当であったかを公に表明することが可能である。</li><li>このMETRとの提携は、SecureBioやアクセンチュアなどの他の外部レビューアーに提供されたものよりも踏み込んだ内容となっている。</li><li>本件は、外部レビューアーとの協力を誓約したホワイトハウスの超知能に関する合意（White House Accord on Super Intelligence）の署名に続く動きである。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Oct/16/code-review/" target="_blank" rel="noopener">Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang</a></h2>
+      <p>AI時代におけるコードレビューのあり方と、Claude Codeチームが実践する継続的なレビュープロセスについて解説しています。<br><br><ul><li>「人間がコードを読んだか」という問いよりも、変更におけるリスクと適切なチェック手法を見極めることの方が重要である。</li><li>AIの活用により、コードレビューは従来の「最後に待ち受けるゲート」から、執筆中の「リアルタイムなスペルチェック」のように継続的なものへと変化した。</li><li>人間のレビュー前に、Claudeがほとんどの変更を少なくとも1度は確認して修正を行う。</li><li>定型的なミスが自動で処理されるため、チームの注意力をより高度な質問や精査に向けることが可能になっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/nvidia/scaling-indic-pretraining" target="_blank" rel="noopener">Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline</a></h2>
+      <p>インドの22言語に対応した約2.8兆トークンの事前学習用コーパス「Nemotron-pretraining-Indic-v1」と、そのオープンなデータ生成パイプラインが発表されました。<br><br><ul><li>NVIDIAとインド工科大学マドラス校（AI4Bharat）の共同開発により、インド憲法公認の22言語（人口の97%をカバー）に対応する約2.8兆トークンの大規模コーパスが構築された。</li><li>翻訳、品質評価、修復を行うGPU加速型のオープンなデータ生成パイプラインが公開され、開発者は自身の目的に応じてデータのカスタマイズや生成が可能である。</li><li>数学、コード、質問応答など、厳選された英語の多様なソース素材を各インド言語へ拡張し、モデルの能力向上に寄与する。</li><li>AI4Bharatの「Sangraha」などの先行研究を基盤としつつ、オープンな合成インド言語トレーニングデータの規模を大幅に拡大するものである。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/reflection-beam" target="_blank" rel="noopener">Welcome Beam: a 501B open model you can own, customize, and scale</a></h2>
+      <p>新興の米研究所「Reflection」が開発した、所有・カスタマイズ・スケーリングが可能なオープンモデル「Beam」のHugging Faceでの公開について解説しています。<br><br><ul><li>総パラメータ数501B（トークンあたり23Bアクティブ）の混合エキスパート（MoE）モデルであり、Apache 2.0ライセンスで公開されている。</li><li>100万トークンのコンテキストウィンドウを持ち、コーディングやエージェント用途、および最先端規模のモデルを自社インフラで運用したいチームに最適化されている。</li><li>BF16、FP8、NVFP4のチェックポイント形式に対応し、専用文法によるツール呼び出しや、5段階の推論レベル調整機能を備えている。</li><li>transformers、vLLM、SGLangなどの主要ライブラリやRust製のカスタムハーネスを初日からサポートしており、推論からファインチューニング、強化学習まで対応する。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.6-rc1" target="_blank" rel="noopener">v0.40.6</a></h2>
+      <p>Ollamaのバージョン0.40.6のリリースに関するGitHubのページ情報<br><br><ul><li>ソフトウェア「Ollama」のバージョン「v0.40.6」およびそのRC版である「v0.40.6-rc1」のリリース情報ページである。</li><li>ページ内には、GitHubの標準的なナビゲーションメニュー、コード、Issues、プルリクエスト、セキュリティ、インサイトなどのリポジトリ機能へのリンクが含まれている。</li><li>読み込みエラーが発生したことを示すメッセージ（「Sorry, something went wrong.」や「There was an error while loading.」）が複数含まれており、ページの完全なコンテンツが正常にロードされなかった状態を示している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.6-rc0" target="_blank" rel="noopener">v0.40.6-rc0: Merge pull request #19041 from ollama/jberg/clef-question-ids</a></h2>
+      <p>Ollamaプロジェクトのリリース情報（v0.40.6-rc0）<br><br><ul><li>AIモデルの実行・管理プラットフォームを提供する「Ollama/ollama」のリポジトリにおいて、新しいリリース候補版である「v0.40.6-rc0」が公開された。</li><li>本リリースは、jberg氏によるプルリクエスト「#19041 from ollama/jberg/clef-question-ids」の統合（マージ）に伴うものである。</li><li>コミットIDは `d9b8601` であり、GitHub上で作成され、公式のGPGキー（ID: B5690EEEBB952194）によって署名・検証された安全なコミットとなっている。</li><li>オープンソース開発プラットフォームであるGitHub上のリポジトリ履歴として記録され、開発者向けにコードの変更やタグの比較機能が提供されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/" target="_blank" rel="noopener">Code, Test, and Deploy on One Machine with NVIDIA RTX Spark</a></h2>
+      <p>NVIDIA RTX Spark：1台のPCでコーディングからテスト・デプロイまでを実現するAI開発プラットフォーム<br><br><ul><li>NVIDIA RTX Sparkは、GB10システム-on-a-chipと最大128GBのユニファイドメモリを搭載し、ラップトップやコンパクトデスクトップなどの1台のPCで、ローカルでのコーディングエージェントの実行、テスト、デプロイを完結させるプラットフォームです。</li><li>Intel Panther Lake 12Xeと比較して、コーディングエージェントの性能は4.6倍、ファインチューニングは2.7倍、コードコンパイルは1.8倍高速化されています。</li><li>マイクロソフトとの提携によりWindows on Armのソフトウェアスタックが拡充され、初のPyTorch-CUDAビルドや、上位15,000件の97%以上を占めるArm互換のPythonパッケージなどが提供されます。</li><li>RTX Spark向けに専用設計された74Bパラメータの混合専門家モデル「Nemotron 3.5 Bolt 74B-A9B 24GB」により、 llama.cppやvLLMなどの主要ツールを活用したローカルエージェントの実行が可能です。</li><li>ビデオ超解像やフレーム生成機能を含む「NVIDIA AI for Media SDKs」がPyPIやNGC経由で利用でき、AIを活用したメディア開発も強力にサポートします。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-10-16";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  function validateAndGo(value) {
+    if (value === CURRENT_DATE) return;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || dateList.indexOf(value) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(value);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+})();
+</script>
+</body>
+</html>
