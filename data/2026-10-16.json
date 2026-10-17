@@ -1,0 +1,110 @@
+[
+  {
+    "id": "3fc3de0e-c1c5-81e7-9a78-eb210b24f6f1",
+    "title": "ChatGPT becomes a full Chrome browser assistant that reads and acts on your open tabs",
+    "site": "THE DECODER",
+    "published": "2026-10-16T18:10:27.000Z",
+    "fetched": "2026-10-17T00:01:14.154Z",
+    "summary": "ChatGPTがChromeのブラウザアシスタント機能に進化し、開いているタブの読み取りや操作が可能になりました。\n\n- ChatGPTのChrome拡張機能がアップデートされ、開いているタブの読み取りやアクション実行ができるようになった\n- 「@chrome」を使用するか、チャットモードを活用することで、複数のタブから同時にデータを取得して比較や要約ができる\n- ワークモードでは、Computer Use機能を介してメッセージの送信、フォームの入力、ファイルのダウンロード、タブのグループ化などの操作を自動で行える\n- アップグレードされたサイドバーにチャット履歴全体が表示され、閲覧中のWebページのすぐ隣で作業が可能になる\n- 新しいChrome拡張機能はすべてのChatGPTプランで利用可能であり、複雑な複数ステップのワークフロー処理をサポートする",
+    "url": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/"
+  },
+  {
+    "id": "3fc3de0e-c1c5-81ce-8557-c2140f6ac5a0",
+    "title": "China plans to tighten export controls on open-weight models and 23 key AI technologies",
+    "site": "THE DECODER",
+    "published": "2026-10-16T17:42:47.000Z",
+    "fetched": "2026-10-17T00:01:21.823Z",
+    "summary": "中国は、フロンティアモデルや自律型マルウェアツールなど23の主要なAI技術を対象とした輸出管理の強化に向け、新たな規制案を発表した。\n\n- 中国の商務省と科学技術省がAI分野の輸出規制を強化する方針を示し、大規模モデル、AIエージェント、計算クラスター、データ処理など23の重要技術を対象とした規制案を公開した。\n- 重要インフラや軍事、政府機関などを標的にする自動マルウェア作成・改変AIツールについては、全面的な輸出禁止措置がとられる。\n- 大規模モデルの輸出規制は、中国の機密データを使用して訓練されたサービスや、パラメータ数が2兆、訓練計算量が10の26乗FLOPsを超えるもの、または世界トップ10にランクインするシステムなどを対象とする。\n- 国内のAI研究開発の速度を落とさないため、登録時の自動承認によるオープンウェイトの迅速なリリース制度が計画されており、すでに一般公開されている技術は完全に免除される。\n- モデルの重み、チェックポイント、ソースコード、アーキテクチャ、訓練・推論手法など、大規模モデルの根幹をなす技術も規制の対象に含まれる。",
+    "url": "https://the-decoder.com/china-plans-to-tighten-export-controls-on-open-weight-models-and-23-key-ai-technologies/"
+  },
+  {
+    "id": "3fc3de0e-c1c5-8191-99de-e37d762ef5ba",
+    "title": "Google's Gemini 4 Argon is closer to the AI frontier than any Google model in months",
+    "site": "THE DECODER",
+    "published": "2026-10-16T15:03:46.000Z",
+    "fetched": "2026-10-17T00:01:28.946Z",
+    "summary": "Googleの新しいフロンティアモデル「Gemini 4 Argon」は、汎用問題解決ベンチマーク「ARC-AGI-3」で97.5%を記録し、OpenAIに次いで95%の壁を突破した。この結果は、ベンチマークにおけるテスト方法や設定に大きく依存している。\n\n- Google Deepmindの新型モデル「Gemini 4 Argon」が、難度の高いARC-AGI-3で97.5%を高スコアを記録した。\n- ベンチマークの25の公開ゲームにおいて、人間基準と比較して行動数が62%少なく、スピードランの記録に迫る性能を示した。\n- テスト結果は、ベンチマークで使用される検証環境（プロバイダー・アダプター・ハーネスなど）の設定に大きく左右される。\n- Epoch AIによると、数学やソフトウェア工学の分野では、競合他社のモデルと比較してまだ遅れをとっている。",
+    "url": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/"
+  },
+  {
+    "id": "3fc3de0e-c1c5-81b5-8bcb-e11d0b9ecd72",
+    "title": "Is AI interpretability close to a breakthrough? A new essay has researchers divided",
+    "site": "THE DECODER",
+    "published": "2026-10-16T13:48:08.000Z",
+    "fetched": "2026-10-17T00:01:36.569Z",
+    "summary": "AIの解釈可能性における大ブレイクスルーの可能性をめぐり、研究者の間で意見が分かれている。\n\n- グッドファイア社の研究者ニック・カマラタ氏は、論文「Neural Networks Are Already Clean」において、AIモデルの内部構造は従来考えられていたよりもはるかに理解しやすいと主張した。\n- かつてカマラタ氏は、1つのニューロンが複数の異なる概念に反応する「多義性（ポリセマンティシティ）」や「重ね合わせ（スーパーポジション）」の仮説を支持していたが、自らの初期説を否定する形となった。\n- 従来は、ニューロン不足により無関係な概念が同じニューロンに詰め込まれていると考えられていたが、カマラタ氏はこれを単純な図形検出器などとして捉え直すべきだと主張している。\n- OpenAIのRoon氏はこれを「歴史的瞬間」と評価する一方で、Google DeepMindのニール・ナンダ氏は過度な誇大広告に対して警鐘を鳴らすなど、研究者の間で評価が分かれている。",
+    "url": "https://the-decoder.com/is-ai-interpretability-close-to-a-breakthrough-a-new-essay-has-researchers-divided/"
+  },
+  {
+    "id": "3fc3de0e-c1c5-811f-827a-cf05a38036c9",
+    "title": "OpenAI's new Rosalind Academic Plan gives research labs up to 30 free seats for a year",
+    "site": "THE DECODER",
+    "published": "2026-10-16T13:15:09.000Z",
+    "fetched": "2026-10-17T00:01:43.944Z",
+    "summary": "OpenAI、生命科学研究向けAIプラン「Rosalind Academic Plan」を発表\n\n- 米国の大学の研究室を対象に、ビジネススタンダードプランのシートを最大30席まで1年間無料で提供する（APIアクセスは対象外）。\n- 生命科学分野向けに構築されたAIモデル「GPT-Rosalind」と、医薬品化学やゲノム科学などの専門ツールを繋ぐ「Rosalind Workbench」を利用できる。\n- 利用には、機関や研究代表者、利用目的に関するOpenAIによる審査と承認が必要となり、承認後も利用状況のモニタリングが行われる。\n- 機密性の高い科学的問いに対応できる一方で、承認された研究コンテキストに基づいた安全確認やセーフガードが適用される。\n- OpenAIは、デフォルトでは研究データを使用してモデルの学習を行わない方針を示している。",
+    "url": "https://the-decoder.com/openais-new-rosalind-academic-plan-gives-research-labs-up-to-30-free-seats-for-a-year/"
+  },
+  {
+    "id": "3fc3de0e-c1c5-8152-a2fc-e2b1412f4b4b",
+    "title": "Anthropic gives METR inside access to audit its AI models and safety practices",
+    "site": "THE DECODER",
+    "published": "2026-10-16T13:11:55.000Z",
+    "fetched": "2026-10-17T00:01:51.646Z",
+    "summary": "Anthropic社がAIモデルと安全性監査を非営利団体METRに許可\n\n- Anthropic社は、非営利団体METRのスタッフ6名に社内ハードウェアやオフィススペース、内部ツールへのアクセスを提供し、自社のリスクチームと同等の内部監査を許可した。\n- 顧客データやモデルのアーキテクチャなどの機密情報は制限されるものの、METRは調査結果を独自に公開する予定である。\n- Anthropic社は特定の事前定義されたカテゴリーに限り非公開部分の修正を要請できるが、METRはその修正が正当であったかを公に表明することが可能である。\n- このMETRとの提携は、SecureBioやアクセンチュアなどの他の外部レビューアーに提供されたものよりも踏み込んだ内容となっている。\n- 本件は、外部レビューアーとの協力を誓約したホワイトハウスの超知能に関する合意（White House Accord on Super Intelligence）の署名に続く動きである。",
+    "url": "https://the-decoder.com/anthropic-gives-metr-inside-access-to-audit-its-ai-models-and-safety-practices/"
+  },
+  {
+    "id": "3fc3de0e-c1c5-81ee-bee4-f259ee90b6bd",
+    "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-10-16T22:06:37.000Z",
+    "fetched": "2026-10-17T00:02:00.575Z",
+    "summary": "AI時代におけるコードレビューのあり方と、Claude Codeチームが実践する継続的なレビュープロセスについて解説しています。\n\n- 「人間がコードを読んだか」という問いよりも、変更におけるリスクと適切なチェック手法を見極めることの方が重要である。\n- AIの活用により、コードレビューは従来の「最後に待ち受けるゲート」から、執筆中の「リアルタイムなスペルチェック」のように継続的なものへと変化した。\n- 人間のレビュー前に、Claudeがほとんどの変更を少なくとも1度は確認して修正を行う。\n- 定型的なミスが自動で処理されるため、チームの注意力をより高度な質問や精査に向けることが可能になっている。",
+    "url": "https://simonwillison.net/2026/Oct/16/code-review/"
+  },
+  {
+    "id": "3fc3de0e-c1c5-81ff-a60c-d65543c1c837",
+    "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+    "site": "Hugging Face Blog",
+    "published": "2026-10-16T01:44:47.000Z",
+    "fetched": "2026-10-17T00:02:07.943Z",
+    "summary": "インドの22言語に対応した約2.8兆トークンの事前学習用コーパス「Nemotron-pretraining-Indic-v1」と、そのオープンなデータ生成パイプラインが発表されました。\n\n- NVIDIAとインド工科大学マドラス校（AI4Bharat）の共同開発により、インド憲法公認の22言語（人口の97%をカバー）に対応する約2.8兆トークンの大規模コーパスが構築された。\n- 翻訳、品質評価、修復を行うGPU加速型のオープンなデータ生成パイプラインが公開され、開発者は自身の目的に応じてデータのカスタマイズや生成が可能である。\n- 数学、コード、質問応答など、厳選された英語の多様なソース素材を各インド言語へ拡張し、モデルの能力向上に寄与する。\n- AI4Bharatの「Sangraha」などの先行研究を基盤としつつ、オープンな合成インド言語トレーニングデータの規模を大幅に拡大するものである。",
+    "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining"
+  },
+  {
+    "id": "3fc3de0e-c1c5-8125-8114-f6a6c5a01b7f",
+    "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+    "site": "Hugging Face Blog",
+    "published": "2026-10-16T00:00:00.000Z",
+    "fetched": "2026-10-17T00:02:15.119Z",
+    "summary": "新興の米研究所「Reflection」が開発した、所有・カスタマイズ・スケーリングが可能なオープンモデル「Beam」のHugging Faceでの公開について解説しています。\n\n- 総パラメータ数501B（トークンあたり23Bアクティブ）の混合エキスパート（MoE）モデルであり、Apache 2.0ライセンスで公開されている。\n- 100万トークンのコンテキストウィンドウを持ち、コーディングやエージェント用途、および最先端規模のモデルを自社インフラで運用したいチームに最適化されている。\n- BF16、FP8、NVFP4のチェックポイント形式に対応し、専用文法によるツール呼び出しや、5段階の推論レベル調整機能を備えている。\n- transformers、vLLM、SGLangなどの主要ライブラリやRust製のカスタムハーネスを初日からサポートしており、推論からファインチューニング、強化学習まで対応する。",
+    "url": "https://huggingface.co/blog/reflection-beam"
+  },
+  {
+    "id": "3fc3de0e-c1c5-8116-a84f-e92609d00854",
+    "title": "v0.40.6",
+    "site": "Ollama Blog",
+    "published": "2026-10-16T22:43:31.000Z",
+    "fetched": "2026-10-17T00:02:23.548Z",
+    "summary": "Ollamaのバージョン0.40.6のリリースに関するGitHubのページ情報\n\n- ソフトウェア「Ollama」のバージョン「v0.40.6」およびそのRC版である「v0.40.6-rc1」のリリース情報ページである。\n- ページ内には、GitHubの標準的なナビゲーションメニュー、コード、Issues、プルリクエスト、セキュリティ、インサイトなどのリポジトリ機能へのリンクが含まれている。\n- 読み込みエラーが発生したことを示すメッセージ（「Sorry, something went wrong.」や「There was an error while loading.」）が複数含まれており、ページの完全なコンテンツが正常にロードされなかった状態を示している。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc1"
+  },
+  {
+    "id": "3fc3de0e-c1c5-813a-844f-d73a6c92c286",
+    "title": "v0.40.6-rc0: Merge pull request #19041 from ollama/jberg/clef-question-ids",
+    "site": "Ollama Blog",
+    "published": "2026-10-16T01:09:41.000Z",
+    "fetched": "2026-10-17T00:02:30.830Z",
+    "summary": "Ollamaプロジェクトのリリース情報（v0.40.6-rc0）\n\n- AIモデルの実行・管理プラットフォームを提供する「Ollama/ollama」のリポジトリにおいて、新しいリリース候補版である「v0.40.6-rc0」が公開された。\n- 本リリースは、jberg氏によるプルリクエスト「#19041 from ollama/jberg/clef-question-ids」の統合（マージ）に伴うものである。\n- コミットIDは `d9b8601` であり、GitHub上で作成され、公式のGPGキー（ID: B5690EEEBB952194）によって署名・検証された安全なコミットとなっている。\n- オープンソース開発プラットフォームであるGitHub上のリポジトリ履歴として記録され、開発者向けにコードの変更やタグの比較機能が提供されている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc0"
+  },
+  {
+    "id": "3fc3de0e-c1c5-81be-b975-f89a6638f9a6",
+    "title": "Code, Test, and Deploy on One Machine with NVIDIA RTX Spark",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-10-16T17:00:00.000Z",
+    "fetched": "2026-10-17T00:02:38.120Z",
+    "summary": "NVIDIA RTX Spark：1台のPCでコーディングからテスト・デプロイまでを実現するAI開発プラットフォーム\n\n- NVIDIA RTX Sparkは、GB10システム-on-a-chipと最大128GBのユニファイドメモリを搭載し、ラップトップやコンパクトデスクトップなどの1台のPCで、ローカルでのコーディングエージェントの実行、テスト、デプロイを完結させるプラットフォームです。\n- Intel Panther Lake 12Xeと比較して、コーディングエージェントの性能は4.6倍、ファインチューニングは2.7倍、コードコンパイルは1.8倍高速化されています。\n- マイクロソフトとの提携によりWindows on Armのソフトウェアスタックが拡充され、初のPyTorch-CUDAビルドや、上位15,000件の97%以上を占めるArm互換のPythonパッケージなどが提供されます。\n- RTX Spark向けに専用設計された74Bパラメータの混合専門家モデル「Nemotron 3.5 Bolt 74B-A9B 24GB」により、 llama.cppやvLLMなどの主要ツールを活用したローカルエージェントの実行が可能です。\n- ビデオ超解像やフレーム生成機能を含む「NVIDIA AI for Media SDKs」がPyPIやNGC経由で利用でき、AIを活用したメディア開発も強力にサポートします。",
+    "url": "https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/"
+  }
+]
