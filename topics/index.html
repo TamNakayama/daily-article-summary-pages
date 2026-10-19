@@ -9,6 +9,10 @@ body{font-family:system-ui,-apple-system,"Hiragino Sans","Noto Sans JP",sans-ser
 main{max-width:1100px;margin:0 auto;padding:16px;overflow-wrap:anywhere}
 h1{font-size:1.5rem;margin:.4em 0} h2{font-size:1.15rem;margin:1.8em 0 .6em;border-bottom:2px solid #EEE;padding-bottom:.2em}
 h3{font-size:1rem;margin:1.4em 0 .4em}
+/* ページ内リンクで飛んだ先の見出しが、固定したナビゲーション（スマートフォンで2行になっても）に隠れないように */
+h2[id],h3[id]{scroll-margin-top:4.5rem}
+/* ナビゲーションの名前：スマートフォンでは短い名前（.lbl-sp）、PC では元の名前（.lbl-pc） */
+.lbl-pc{display:none}
 .kpi{display:flex;flex-wrap:wrap;gap:10px;margin:10px 0} .kpi div{background:#F4F6F8;border-radius:8px;padding:6px 14px}
 .kpi b{display:block;font-size:1.3rem} .kpi small{display:block;font-size:.7rem;color:#666}
 .scroll{overflow-x:auto} table{border-collapse:collapse;font-size:.85rem} th,td{padding:4px 8px;border-bottom:1px solid #EEE;text-align:left;white-space:nowrap}
@@ -26,16 +30,20 @@ table.subtable th.diff,table.subtable td.n{width:3.6em;min-width:3.6em}
 /* 代表記事の列がある表は本文の幅いっぱいに広げ、固定幅の列の残りを代表記事の欄に充てる（月数が少ないほど広い）。
    狭い画面では最小幅（report.py が月数から計算。代表記事の欄に 20em を残す）を超えた分を表の中で横スクロールする */
 table.subtable.with-reps{width:100%;table-layout:fixed}
-td.reps{white-space:normal;font-size:.82rem} td.reps a,td.reps span{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+/* 代表記事の欄：1件1行に日付とタイトルを並べ、タイトルだけを … で省略する（日付は省略しない） */
+td.reps{white-space:normal;font-size:.82rem} td.reps .rep{display:flex;gap:6px;align-items:baseline}
+td.reps .rep .date{flex:none;margin-right:0} td.reps .rep a:not(.date),td.reps .rep .nolink{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .badge{color:#FFF;font-size:.68rem;border-radius:3px;padding:1px 5px;margin-left:4px;white-space:nowrap}
 .badge.top{background:#37474F} .badge.grow{background:#2E7D32} .badge.wip{background:#B26A00}
 .in-progress{background:#FFF4E5;border-left:4px solid #B26A00;padding:6px 10px;font-size:.88rem;margin:8px 0}
 .terms span{display:inline-block;background:#E8EEF6;border-radius:12px;padding:2px 9px;margin:2px;font-size:.85rem} .terms.down span{background:#F3E5E5}
 .hl{background:#F8F9FA;border-radius:8px;padding:8px 14px;margin:10px 0;font-size:.9rem}
-.date{color:#777;font-size:.8rem;margin-right:6px}
+.date{color:#777;font-size:.8rem;margin-right:6px} a.date{text-decoration:underline} /* 日次ページへのリンク（灰色のまま下線） */
 details{margin:4px 0} details summary{cursor:pointer;font-size:.9rem} details ul{margin:.3em 0;padding-left:1.4em;font-size:.88rem}
 .note{font-size:.8rem;color:#666}
-nav.pages{font-size:.85rem;margin:.2em 0 .6em;line-height:1.9} nav.pages a,nav.pages span{white-space:nowrap} nav.pages span[aria-current]{font-weight:bold} nav.pages .sep{color:#BBB;margin:0 6px}
+/* ナビゲーションの行はスクロールしても先頭に固定する（他の月へ移りやすく。§9.7）。背景を塗り、表の固定列（z-index:1）より上に重ねる。
+   固定中は margin の部分が透明になり本文が透けるので、下の余白は padding で取る */
+nav.pages{font-size:.85rem;line-height:1.9;position:sticky;top:0;z-index:5;background:#FFF;border-bottom:1px solid #EEE;margin:0;padding:.2em 0 .5em} nav.pages a,nav.pages span{white-space:nowrap} nav.pages span[aria-current]{font-weight:bold} nav.pages .sep{color:#BBB;margin:0 6px}
 /* 月次レポート一覧（§9.8）：スマートフォンでは月ごとに縦に積み、PC では列にそろえる */
 .ix-row{display:block;padding:8px 0;border-bottom:1px solid #EEE;font-size:.88rem} .ix-row>span{display:block} .ix-month{font-size:1rem;font-weight:bold}
 .ix-row .ix-label.sp-only{display:inline;color:#777;font-size:.78rem;margin-right:4px}
@@ -43,6 +51,10 @@ nav.pages{font-size:.85rem;margin:.2em 0 .6em;line-height:1.9} nav.pages a,nav.p
 /* スマートフォン（900px 未満）：表は直近 sp_months か月だけ（古い月の列 .old を隠す）。
    名前の列を左端に固定し、余白を詰め、まとめる前の件数は数字の下の行に出す */
 @media (max-width:899.98px){
+  /* ページ名は1行に収める（幅 390px で既定のページ名が折り返さない大きさ） */
+  h1{font-size:1.2rem}
+  /* ナビゲーションを1行に収めるため、区切りの両側の余白を詰める */
+  nav.pages .sep{margin:0 3px}
   .scroll table th,.scroll table td{padding:4px 5px}
   .scroll table th.name,.scroll table td.name{position:sticky;left:0;z-index:1;background:#FFF;min-width:6.5em;max-width:8.5em}
   table.subtable th.sub,table.subtable td.sub{width:auto;min-width:6.5em;max-width:8.5em}
@@ -60,6 +72,7 @@ nav.pages{font-size:.85rem;margin:.2em 0 .6em;line-height:1.9} nav.pages a,nav.p
   td.name{white-space:nowrap;max-width:none}
   /* 推移と収集状況の表は名前の列を同じ幅にして、月の列の開始位置をそろえる */
   table.aligned th.name,table.aligned td.name{width:var(--name-w);min-width:var(--name-w)}
+  .lbl-sp{display:none} .lbl-pc{display:inline}
   .sp-only{display:none} .pc-only{display:revert} div.pc-only,details.pc-only{display:block}
 }
 </style>
@@ -67,7 +80,7 @@ nav.pages{font-size:.85rem;margin:.2em 0 .6em;line-height:1.9} nav.pages a,nav.p
 <body>
 <main>
 <h1>AI/LLM記事 月次レポート一覧</h1>
-<nav class="pages"><span aria-current="page">月次レポート一覧</span><span class="sep">｜</span><a href="../index.html">日次まとめ（最新）</a></nav>
+<nav class="pages"><span aria-current="page"><span class="lbl-pc">月次レポート一覧</span><span class="lbl-sp">一覧</span></span><span class="sep">｜</span><a href="../index.html"><span class="lbl-pc">日次まとめ（最新）</span><span class="lbl-sp">日次</span></a></nav>
 <h2>2026年</h2>
 <div class="ix">
 <div class="ix-row ix-head pc-only"><span>月</span><span>記事</span><span>分類済み／<br>対象外／未分類</span><span>最も多かった大分類</span><span>最も増えた小分類</span><span>特徴語</span><span>分類体系・更新日</span></div>
@@ -96,7 +109,7 @@ nav.pages{font-size:.85rem;margin:.2em 0 .6em;line-height:1.9} nav.pages a,nav.p
 <span><span class="sp-only ix-label">最も多かった大分類 </span>モデル・アーキテクチャ</span>
 <span><span class="sp-only ix-label">最も増えた小分類 </span>—</span>
 <span><span class="sp-only ix-label">特徴語 </span>—</span>
-<span class="note">version 1・2026-10-13</span>
+<span class="note">version 1・2026-10-19</span>
 </div>
 </div>
 <p class="note" style="margin-top:3em">各行の値は、その月を最後に公開・更新したときのもの（分類体系の version と更新日）。分類体系を変えた後に作り直していない月は、古い version のまま並ぶ。</p>
