@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI/LLM記事まとめ 2026/10/19</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; flex-wrap: wrap; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  .date-nav .monthly-link { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; font-size: 1em; color: #222; text-decoration: none; white-space: nowrap; }
+  .date-nav .monthly-link:hover { background: #f5f5f5; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+  @media (max-width: 600px) {
+    .date-nav-title { display: none; }
+    .date-nav input[type="text"] { width: 100px; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">AI/LLM記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-10-19" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+  <a id="monthly-link" class="monthly-link" href="../topics/index.html" target="_blank" rel="noopener" aria-label="月次一覧（新しいタブで開きます）" title="月次一覧（新しいタブで開きます）">月次一覧<span class="ext" aria-hidden="true"> ↗</span></a>
+</header>
+<h1>2026/10/19</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/" target="_blank" rel="noopener">MiniMax M3.1 Flash shows China's AI price race has no floor in sight</a></h2>
+      <p>中国のAI企業MiniMaxが発表した新型推論モデル「M3.1 Flash」は、性能を大幅に向上させながらコストを半分以下に抑え、中国のAI業界における価格競争がさらに激化していることを示している。<br><br><ul><li>MiniMaxの新型推論モデル「M3.1 Flash」は、前モデルから性能が大幅に向上し、AIインデックスで42点を記録した。</li><li>複雑な推論能力が大きく向上し、特定の難関テストでは競合他社を上回る成果を出している。</li><li>効率的な出力トークンの活用により、タスクあたりのコストが約0.22ドルにまで削減された。</li><li>API料金は入力100万トークンあたり0.15ドル、出力100万トークンあたり0.60ドルと低価格に設定されており、10月23日にはオープンウェイト版の公開も予定されている。</li><li>不確実な質問でも回答しようとする傾向があるため、幻覚（ハルシネーション）率が93％と高い点が弱点として挙げられている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/kling-ai-drops-version-4-0-with-stereo-audio-multilingual-lip-sync-and-a-lighter-flash-variant/" target="_blank" rel="noopener">Kling AI drops version 4.0 with stereo audio, multilingual lip sync, and a lighter Flash variant</a></h2>
+      <p>Kling AIがバージョン4.0をリリースし、高解像度化や長尺動画の生成機能、多彩な新機能を追加しました。AI動画生成とプロの映像との差を縮めることを目指しています。<br><br><ul><li>一度の処理で最大30秒の動画生成が可能になり、最大10枚のキーフレーム画像を用いたシーンやキャラクターの状態制御に対応した。</li><li>最大15個の参照アセット（画像や動画など）を組み込める「Omni Reference」システムを搭載し、多様な素材をベースにした生成ができる。</li><li>既存の動画をテンプレートにして、表情や背景、キャラクターなどを部分的に置き換えられる「Creative Recreation」機能が追加された。</li><li>2チャンネルのステレオ音声出力に対応し、ドイツ語や英語、日本語など10言語以上をサポートする多言語リップシンク機能が強化された。</li><li>高速処理が可能な「Flash」バリアントが追加され、プロンプトの理解力も最大8,000トークンへと大幅に拡張された。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/" target="_blank" rel="noopener">Two German courts now hold Google liable for what its AI overviews say</a></h2>
+      <p>ドイツの2つの裁判所が、GoogleのAI検索概要（AI Overviews）が表示した内容について、同社に直接的な責任があるとの判断を下した。この法的見解が定着すれば、Googleのビジネスモデルに重大な影響を及ぼす可能性がある。<br><br><ul><li>アーヘン地方裁判所が、AI検索結果で医師に関する虚偽の犯罪情報を拡散したとして、Googleに対し仮処分命令を下した。</li><li>裁判所はAI生成テキストを単なる第三者サイトへのリンクではなく、Google自身の発言とみなして直接的な責任を問うた。</li><li>過去のミュンヘン地方裁判所の判例と同様の法理が適用されており、Googleはもはや中立的な仲介者としての立場を主張できなくなっている。</li><li>Googleはミュンヘンでの訴訟で上級審の判断を避けるために和解したものの、下級審では同様の論理による司法判断が続いている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/stripe-says-ai-agent-purchases-are-adding-up-but-it-wont-share-the-numbers/" target="_blank" rel="noopener">Stripe says AI agent purchases are adding up, but it won't share the numbers</a></h2>
+      <p>Stripeの決済サービス「Link」をAIエージェントがショッピング利用するケースが増えており、取扱高や取引数が急成長している。<br><br><ul><li>AIエージェントによる決済が急増しており、9月には取引数が38倍、決済総額が20倍に拡大した（具体的な金額や件数は非公開）。</li><li>利用するAIエージェントは約70から約200に増加し、Metaの「Muse」や「Grok Bot」などが含まれる。</li><li>1回あたりの平均支出額は約100ドルだが、航空券や数千ドルの家具購入に利用されるケースもある。</li><li>セキュリティ面では、実際のクレジットカード番号ではなく、個別の16桁の番号を発行して利用限度額を設定できる仕組みをとっている。</li><li>Stripeの幹部ダン・ヒル氏は、PayPalやShopifyの「Shop Pay」なども競合になると述べ、市場はまだ初期段階であるとしている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose/" target="_blank" rel="noopener">The neocloud shakeout is coming, and Nvidia has the most to lose</a></h2>
+      <p>新興AIクラウド企業「ネオクラウド」の淘汰が迫っており、多額のデータセンター向け売上を依存し、支援を行ってきたエヌビディアが最も大きな打撃を受けるリスクを抱えている。<br><br><ul><li>業界の専門家や幹部は、株価の急落やIPO計画の頓挫を経て、新興AIクラウド企業（ネオクラウド）の大部分が淘汰され、数年後には数社しか生き残らないと予測している。</li><li>エヌビディアは、大口テック企業以外の顧客がデータセンター向け売上の45%を占めており、パートナー企業に対して信用支援や立地探しを積極的に行っているため、今回の業界再編リスクに最もさらされている。</li><li>ネオクラウド企業は、電力接続の不足や投資家の慎重姿勢に加え、将来的なコンピュートの供給過多による価格下落という課題にも直面している。</li><li>豪州のFirmusがIPOを急遽取りやめ、CoreWeaveなどの株価が20%以上下落するなど、投資家の信頼低下と業界の動揺がすで表面化している。</li><li>今後は資金力のある資産運用会社や通信・光ファイバー企業による、ネオクラウド企業の買収や統廃合が不可避と見られている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropic-plans-fund-for-workers-threatened-by-ai-musk-counters-with-spacex-shares-for-children/" target="_blank" rel="noopener">Anthropic plans fund for workers threatened by AI, Musk counters with SpaceX shares for children</a></h2>
+      <p>AIがもたらす労働市場への脅威に対応するため、Anthropic社が公的利益基金の設立を計画している一方、イーロン・マスク氏がそれに異議を唱えている件についての要約です。<br><br>Anthropic社はAIによる失職のリスクに直面する労働者支援などを目的とした「Anthropic Public Benefit Fund」の設立を計画しており、株主の承認を経て、伝統的な非営利団体への寄付や特定の労働者への直接給付を検討している。<br>同社のCEOであるダリオ・アモデイ氏は急速なAIの進化による社会・経済的混乱への懸念を繰り返し表明しており、労働市場への影響を調査するため既に2億ドルを拠出しているが、AIの急速な進化に伴い「より大胆なアプローチ」が必要であると説明している。<br>基金には当初5%の株式が拠出され、企業の評価額が基準値を超えて上昇した場合、さらに2%の株式が追加される可能性があり、共同創業者による株式拠出などと合わせると、会社の株式の約20%が公共の利益のために充てられる仕組みとなっている。<br>税制優遇を受けられる非営利団体ではなく、完全子会社であるLLC（有限責任会社）として基金を設立する法的構造をとることで、Anthropic社は資金配分の柔軟性を維持しつつ主導権を握り続ける方針を示している。<br>この動きに対し、イーロン・マスク氏は同社が株式を直接一般市民に譲渡すべきだと反発している。<br></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/hf-torchneuron" target="_blank" rel="noopener">TorchNeuron: running HF models on AWS Trainium is easier than ever</a></h2>
+      <p>TorchNeuron：AWS TrainiumでのHugging Faceモデル実行がこれまで以上に容易に<br><br><ul><li>TorchNeuronは、AWS Trainium上でPyTorchを動かすための新しいネイティブバックエンドであり、TransformersやDiffusersなどのHugging Faceライブラリから直接利用できる。</li><li>従来のPyTorch XLAベースの「optimum-neuron」とは異なり、eager実行、torch.compile、FSDP2やTPなどのネイティブ分散APIをサポートし、コンパイラを意識した特殊な実装が不要になった。</li><li>2026年10月20日よりパブリックベータ版として提供され、`pip install torch-neuronx`コマンドで簡単にインストールして利用可能になる。</li><li>Hugging Faceのライブラリ（Transformers、Diffusers、Accelerate、PEFT、TRLなど）からTrainiumが他のアクセラレータと同様に直接扱えるため、通常のスクリプトをそのまま実行できる。</li><li>Transformersではテキスト生成などの推論がネイティブサポートされ、トップ100のテキスト生成モデルアーキテクチャのうち89%が標準で利用可能になった。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1x9uzv9/minimax_m31_flash_released_model_weights_oct_23/" target="_blank" rel="noopener">MiniMax M3.1 Flash released, Model weights Oct 23</a></h2>
+      <p>MiniMax M3.1 Flashのリリースとモデルウェイトの公開に関する情報<br><br><ul><li>MiniMax社から新モデル「M3.1 Flash」がリリースされた。</li><li>本モデルの重み（モデルウェイト）の公開日は10月23日である。</li><li>高い性能を持ちながらも効率的な処理が可能なFlashシリーズの最新モデルとして注目されている。</li><li>AI開発者や研究者に向けて、オープンまたはアクセス可能な形式での提供が進められている。</li><li>今後の自然言語処理やAIアプリケーションへの活用が期待される。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1x9suvs/minimaxm31flash_is_coming/" target="_blank" rel="noopener">MiniMax-M3.1-Flash is coming</a></h2>
+      <p>MiniMax-M3.1-Flashの登場と特徴について<br><br><ul><li>MiniMax社から新しいAIモデル「MiniMax-M3.1-Flash」がリリースされること。</li><li>処理速度の高速化と効率性が大幅に向上していること。</li><li>コストパフォーマンスに優れ、開発者や企業が導入しやすい設計になっていること。</li><li>高い性能を維持しながらも、レイテンシ（遅延）が削減されていること。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1x9skrx/ai_labs_report_benchmark_scores_64_higher_than/" target="_blank" rel="noopener">AI labs report benchmark scores 6.4% higher than independent testers, on average</a></h2>
+      <p>AI研究所によるベンチマーク結果は、第三者によるテスト結果よりも平均して6.4%高いスコアを示している。<br><br><ul><li>AI研究所が発表するAIモデルの性能ベンチマークスコアは、独立した第三者機関によるテスト結果と比較して、平均して6.4%高い数値が出ている。</li><li>この乖離は、自社開発のモデルをより優れて見せようとするバイアスや、テスト環境の最適化などが影響している可能性がある。</li><li>AIの性能を正確に評価するためには、開発元による公式発表だけでなく、第三者による客観的な検証結果を確認することが重要である。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1x9rq3r/incoaiqwen38flashnextdflash2/" target="_blank" rel="noopener">incoai/Qwen3.8-Flash-Next-DFlash2</a></h2>
+      <p>incoai/Qwen3.8-Flash-Next-DFlash2<br><br><ul><li>本記事は、AIモデルの開発や公開に関連するHugging Face上のリポジトリ「incoai/Qwen3.8-Flash-Next-DFlash2」についての情報ページです。</li><li>タイトルに含まれる「Qwen」シリーズに関連する派生モデルや、実験的な次世代モデルの構成要素を示していると推測されます。</li><li>詳細なベンチマークや具体的な利用方法についての本文記載はないものの、新しい言語モデルの名称やバージョン管理のデータとして登録されています。</li><li>オープンソースAIコミュニティにおいて、開発者や研究者が最新のモデルアーキテクチャを共有・検証するために利用されるプラットフォームの一部です。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1x9yvgw/istadaslabqwen38flashnextgsqrcocodergguf_updated/" target="_blank" rel="noopener">ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF updated</a></h2>
+      <p>ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUFのアップデート<br><br><ul><li>AIモデル「ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder」のGGUF形式ファイルが新しく更新された。</li><li>プログラミングやコーディング特化型の言語モデルとして、開発作業の効率化や高度なコード生成をサポートする。</li><li>GGUF形式に対応したことで、ローカル環境や多様なハードウェア上での実行が容易になり、軽量かつ高速な推論が期待できる。</li><li>量子化技術（GSQやRCOなど）が適用されており、モデルのファイルサイズを削減しながらも精度の低下を最小限に抑えている。</li><li>オープンソースのAIコミュニティや開発者向けに、最新の最適化が施されたモデルウェイトが提供されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/accelerating-mamba-2-with-high-performance-forward-pass-kernels-in-nvidia-cuda-tile/" target="_blank" rel="noopener">Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile</a></h2>
+      <p>NVIDIA CUDA Tile (cuTile) を用いた Mamba-2 モデルの高速化とカスタムカーネルの実装<br><br><ul><li>NVIDIA CUDA Tile（cuTile）は、PythonベースのDSLおよび並列プログラミングモデルであり、高度なGPUハードウェア機能を活用して高性能なカーネル開発を容易にします。</li><li>Jane Streetの機械学習エンジニアとNVIDIAは提携し、Mamba-2の状態空間モデルにおけるフォワードパス用の3つのカスタムカーネル（chunk_cumsum、fwd_pass_state、compute_out）をcuTileで実装しました。</li><li>`chunk_cumsum`はログ空間で減衰項の累積和を計算し、`fwd_pass_state`はTensor Coreの行列積演算を用いてシーケンスチャンク全体の状態を進行させます。</li><li>`compute_out`は、中間行列をレジスタに保持しTF32にキャストしながら、キャリー状態、減衰・因果マスクされた相互作用行列、スキップ接続を単一のタイル化されたカーネルに統合します。</li><li>レイテンシヒント、オペランドのスワップ、TMAフレンドリーなメモリレイアウト、入力形状ごとに最適なブロックサイズや占有率を探索するオートチューナーにより、高いパフォーマンスを実現しています。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-10-19";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+  var TOPICS_PATH_PREFIX = '../topics/';
+  var CURRENT_MONTH = CURRENT_DATE.slice(0, 7);
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+  var monthlyLink = document.getElementById('monthly-link');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  // 入力値を YYYY-MM-DD に揃える。判定できなければ null（テンプレートリテラル内のため、バックスラッシュを使わない書き方にする）
+  function normalizeDateInput(value) {
+    var v = String(value).normalize('NFKC').trim();
+    if (/^[0-9]{8}$/.test(v)) {
+      return v.slice(0, 4) + '-' + v.slice(4, 6) + '-' + v.slice(6, 8);
+    }
+    if (/^[0-9]{4}[-/][0-9]{2}[-/][0-9]{2}$/.test(v)) {
+      return v.replace(/[/]/g, '-');
+    }
+    return null;
+  }
+
+  function validateAndGo(value) {
+    var date = normalizeDateInput(value);
+    if (date === CURRENT_DATE) { dateInput.value = CURRENT_DATE; return; }
+    if (date === null || dateList.indexOf(date) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(date);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  function setMonthlyLink(label, href) {
+    var text = label + '（新しいタブで開きます）';
+    // 前提: <a> の最初の子ノードがラベルのテキストノード（<a>月次一覧<span>…</span></a>）
+    monthlyLink.firstChild.nodeValue = label;
+    monthlyLink.href = href;
+    monthlyLink.setAttribute('aria-label', text);
+    monthlyLink.title = text;
+  }
+
+  function loadMonthly() {
+    fetch(TOPICS_PATH_PREFIX + 'index.json')
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var months = ((data && data.months) || []).map(function (m) { return m.month; });
+        if (months.indexOf(CURRENT_MONTH) !== -1) {
+          setMonthlyLink('月次', TOPICS_PATH_PREFIX + CURRENT_MONTH + '.html');
+        }
+      })
+      .catch(function (err) {
+        console.error('monthly-link: index.json fetch failed', err);
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+  // 数字キーパッド（Return キーなし）向け: 数字だけ8桁になったら自動で移動する。日付一覧の取得前・失敗時は何もしない
+  dateInput.addEventListener('input', function (e) {
+    if (e.isComposing) return;
+    if (dateList.length === 0) return;
+    if (/^[0-9]{8}$/.test(dateInput.value.normalize('NFKC').trim())) {
+      validateAndGo(dateInput.value.trim());
+    }
+  });
+  // フォーカス時に全選択する（数字キーパッドで打ち直しやすくする）。iOS Safari はフォーカス直後のタップでキャレットを置き直し、選択が解除されることがあるため、タイマーでかけ直す
+  dateInput.addEventListener('focus', function () {
+    dateInput.select();
+    setTimeout(function () { dateInput.setSelectionRange(0, dateInput.value.length); }, 0);
+  });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+  loadMonthly();
+})();
+</script>
+</body>
+</html>
