@@ -1,0 +1,119 @@
+[
+  {
+    "id": "3ff3de0e-c1c5-817b-be61-cd2396559b30",
+    "title": "MiniMax M3.1 Flash shows China's AI price race has no floor in sight",
+    "site": "THE DECODER",
+    "published": "2026-10-19T18:22:30.000Z",
+    "fetched": "2026-10-20T00:01:13.281Z",
+    "summary": "中国のAI企業MiniMaxが発表した新型推論モデル「M3.1 Flash」は、性能を大幅に向上させながらコストを半分以下に抑え、中国のAI業界における価格競争がさらに激化していることを示している。\n\n- MiniMaxの新型推論モデル「M3.1 Flash」は、前モデルから性能が大幅に向上し、AIインデックスで42点を記録した。\n- 複雑な推論能力が大きく向上し、特定の難関テストでは競合他社を上回る成果を出している。\n- 効率的な出力トークンの活用により、タスクあたりのコストが約0.22ドルにまで削減された。\n- API料金は入力100万トークンあたり0.15ドル、出力100万トークンあたり0.60ドルと低価格に設定されており、10月23日にはオープンウェイト版の公開も予定されている。\n- 不確実な質問でも回答しようとする傾向があるため、幻覚（ハルシネーション）率が93％と高い点が弱点として挙げられている。",
+    "url": "https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/"
+  },
+  {
+    "id": "3ff3de0e-c1c5-817f-aa64-ff519e51fbc1",
+    "title": "Kling AI drops version 4.0 with stereo audio, multilingual lip sync, and a lighter Flash variant",
+    "site": "THE DECODER",
+    "published": "2026-10-19T17:36:26.000Z",
+    "fetched": "2026-10-20T00:01:25.455Z",
+    "summary": "Kling AIがバージョン4.0をリリースし、高解像度化や長尺動画の生成機能、多彩な新機能を追加しました。AI動画生成とプロの映像との差を縮めることを目指しています。\n\n- 一度の処理で最大30秒の動画生成が可能になり、最大10枚のキーフレーム画像を用いたシーンやキャラクターの状態制御に対応した。\n- 最大15個の参照アセット（画像や動画など）を組み込める「Omni Reference」システムを搭載し、多様な素材をベースにした生成ができる。\n- 既存の動画をテンプレートにして、表情や背景、キャラクターなどを部分的に置き換えられる「Creative Recreation」機能が追加された。\n- 2チャンネルのステレオ音声出力に対応し、ドイツ語や英語、日本語など10言語以上をサポートする多言語リップシンク機能が強化された。\n- 高速処理が可能な「Flash」バリアントが追加され、プロンプトの理解力も最大8,000トークンへと大幅に拡張された。",
+    "url": "https://the-decoder.com/kling-ai-drops-version-4-0-with-stereo-audio-multilingual-lip-sync-and-a-lighter-flash-variant/"
+  },
+  {
+    "id": "3ff3de0e-c1c5-811b-a0d5-e0bd55ef7bff",
+    "title": "Two German courts now hold Google liable for what its AI overviews say",
+    "site": "THE DECODER",
+    "published": "2026-10-19T14:54:39.000Z",
+    "fetched": "2026-10-20T00:01:37.599Z",
+    "summary": "ドイツの2つの裁判所が、GoogleのAI検索概要（AI Overviews）が表示した内容について、同社に直接的な責任があるとの判断を下した。この法的見解が定着すれば、Googleのビジネスモデルに重大な影響を及ぼす可能性がある。\n\n- アーヘン地方裁判所が、AI検索結果で医師に関する虚偽の犯罪情報を拡散したとして、Googleに対し仮処分命令を下した。\n- 裁判所はAI生成テキストを単なる第三者サイトへのリンクではなく、Google自身の発言とみなして直接的な責任を問うた。\n- 過去のミュンヘン地方裁判所の判例と同様の法理が適用されており、Googleはもはや中立的な仲介者としての立場を主張できなくなっている。\n- Googleはミュンヘンでの訴訟で上級審の判断を避けるために和解したものの、下級審では同様の論理による司法判断が続いている。",
+    "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/"
+  },
+  {
+    "id": "3ff3de0e-c1c5-81a5-8e48-c8383f5528c8",
+    "title": "Stripe says AI agent purchases are adding up, but it won't share the numbers",
+    "site": "THE DECODER",
+    "published": "2026-10-19T12:51:12.000Z",
+    "fetched": "2026-10-20T00:01:45.099Z",
+    "summary": "Stripeの決済サービス「Link」をAIエージェントがショッピング利用するケースが増えており、取扱高や取引数が急成長している。\n\n- AIエージェントによる決済が急増しており、9月には取引数が38倍、決済総額が20倍に拡大した（具体的な金額や件数は非公開）。\n- 利用するAIエージェントは約70から約200に増加し、Metaの「Muse」や「Grok Bot」などが含まれる。\n- 1回あたりの平均支出額は約100ドルだが、航空券や数千ドルの家具購入に利用されるケースもある。\n- セキュリティ面では、実際のクレジットカード番号ではなく、個別の16桁の番号を発行して利用限度額を設定できる仕組みをとっている。\n- Stripeの幹部ダン・ヒル氏は、PayPalやShopifyの「Shop Pay」なども競合になると述べ、市場はまだ初期段階であるとしている。",
+    "url": "https://the-decoder.com/stripe-says-ai-agent-purchases-are-adding-up-but-it-wont-share-the-numbers/"
+  },
+  {
+    "id": "3ff3de0e-c1c5-819d-87cb-e37b5a523f5c",
+    "title": "The neocloud shakeout is coming, and Nvidia has the most to lose",
+    "site": "THE DECODER",
+    "published": "2026-10-19T11:33:36.000Z",
+    "fetched": "2026-10-20T00:01:54.177Z",
+    "summary": "新興AIクラウド企業「ネオクラウド」の淘汰が迫っており、多額のデータセンター向け売上を依存し、支援を行ってきたエヌビディアが最も大きな打撃を受けるリスクを抱えている。\n\n- 業界の専門家や幹部は、株価の急落やIPO計画の頓挫を経て、新興AIクラウド企業（ネオクラウド）の大部分が淘汰され、数年後には数社しか生き残らないと予測している。\n- エヌビディアは、大口テック企業以外の顧客がデータセンター向け売上の45%を占めており、パートナー企業に対して信用支援や立地探しを積極的に行っているため、今回の業界再編リスクに最もさらされている。\n- ネオクラウド企業は、電力接続の不足や投資家の慎重姿勢に加え、将来的なコンピュートの供給過多による価格下落という課題にも直面している。\n- 豪州のFirmusがIPOを急遽取りやめ、CoreWeaveなどの株価が20%以上下落するなど、投資家の信頼低下と業界の動揺がすで表面化している。\n- 今後は資金力のある資産運用会社や通信・光ファイバー企業による、ネオクラウド企業の買収や統廃合が不可避と見られている。",
+    "url": "https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose/"
+  },
+  {
+    "id": "3ff3de0e-c1c5-81ce-abd1-d69ab57c0953",
+    "title": "Anthropic plans fund for workers threatened by AI, Musk counters with SpaceX shares for children",
+    "site": "THE DECODER",
+    "published": "2026-10-19T11:19:12.000Z",
+    "fetched": "2026-10-20T00:02:05.632Z",
+    "summary": "AIがもたらす労働市場への脅威に対応するため、Anthropic社が公的利益基金の設立を計画している一方、イーロン・マスク氏がそれに異議を唱えている件についての要約です。\n\nAnthropic社はAIによる失職のリスクに直面する労働者支援などを目的とした「Anthropic Public Benefit Fund」の設立を計画しており、株主の承認を経て、伝統的な非営利団体への寄付や特定の労働者への直接給付を検討している。\n同社のCEOであるダリオ・アモデイ氏は急速なAIの進化による社会・経済的混乱への懸念を繰り返し表明しており、労働市場への影響を調査するため既に2億ドルを拠出しているが、AIの急速な進化に伴い「より大胆なアプローチ」が必要であると説明している。\n基金には当初5%の株式が拠出され、企業の評価額が基準値を超えて上昇した場合、さらに2%の株式が追加される可能性があり、共同創業者による株式拠出などと合わせると、会社の株式の約20%が公共の利益のために充てられる仕組みとなっている。\n税制優遇を受けられる非営利団体ではなく、完全子会社であるLLC（有限責任会社）として基金を設立する法的構造をとることで、Anthropic社は資金配分の柔軟性を維持しつつ主導権を握り続ける方針を示している。\nこの動きに対し、イーロン・マスク氏は同社が株式を直接一般市民に譲渡すべきだと反発している。",
+    "url": "https://the-decoder.com/anthropic-plans-fund-for-workers-threatened-by-ai-musk-counters-with-spacex-shares-for-children/"
+  },
+  {
+    "id": "3ff3de0e-c1c5-816e-921c-df8953cb5133",
+    "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+    "site": "Hugging Face Blog",
+    "published": "2026-10-19T00:00:00.000Z",
+    "fetched": "2026-10-20T00:02:12.999Z",
+    "summary": "TorchNeuron：AWS TrainiumでのHugging Faceモデル実行がこれまで以上に容易に\n\n- TorchNeuronは、AWS Trainium上でPyTorchを動かすための新しいネイティブバックエンドであり、TransformersやDiffusersなどのHugging Faceライブラリから直接利用できる。\n- 従来のPyTorch XLAベースの「optimum-neuron」とは異なり、eager実行、torch.compile、FSDP2やTPなどのネイティブ分散APIをサポートし、コンパイラを意識した特殊な実装が不要になった。\n- 2026年10月20日よりパブリックベータ版として提供され、`pip install torch-neuronx`コマンドで簡単にインストールして利用可能になる。\n- Hugging Faceのライブラリ（Transformers、Diffusers、Accelerate、PEFT、TRLなど）からTrainiumが他のアクセラレータと同様に直接扱えるため、通常のスクリプトをそのまま実行できる。\n- Transformersではテキスト生成などの推論がネイティブサポートされ、トップ100のテキスト生成モデルアーキテクチャのうち89%が標準で利用可能になった。",
+    "url": "https://huggingface.co/blog/hf-torchneuron"
+  },
+  {
+    "id": "3ff3de0e-c1c5-8156-9f9a-f6d6ae672d70",
+    "title": "MiniMax M3.1 Flash released, Model weights Oct 23",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-19T12:01:44.000Z",
+    "fetched": "2026-10-20T00:02:21.239Z",
+    "summary": "MiniMax M3.1 Flashのリリースとモデルウェイトの公開に関する情報\n\n- MiniMax社から新モデル「M3.1 Flash」がリリースされた。\n- 本モデルの重み（モデルウェイト）の公開日は10月23日である。\n- 高い性能を持ちながらも効率的な処理が可能なFlashシリーズの最新モデルとして注目されている。\n- AI開発者や研究者に向けて、オープンまたはアクセス可能な形式での提供が進められている。\n- 今後の自然言語処理やAIアプリケーションへの活用が期待される。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9uzv9/minimax_m31_flash_released_model_weights_oct_23/"
+  },
+  {
+    "id": "3ff3de0e-c1c5-81e0-8523-ef4e93689e37",
+    "title": "MiniMax-M3.1-Flash is coming",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-19T10:05:08.000Z",
+    "fetched": "2026-10-20T00:02:30.873Z",
+    "summary": "MiniMax-M3.1-Flashの登場と特徴について\n\n- MiniMax社から新しいAIモデル「MiniMax-M3.1-Flash」がリリースされること。\n- 処理速度の高速化と効率性が大幅に向上していること。\n- コストパフォーマンスに優れ、開発者や企業が導入しやすい設計になっていること。\n- 高い性能を維持しながらも、レイテンシ（遅延）が削減されていること。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9suvs/minimaxm31flash_is_coming/"
+  },
+  {
+    "id": "3ff3de0e-c1c5-81a7-8bc4-c8cfdbe092d0",
+    "title": "AI labs report benchmark scores 6.4% higher than independent testers, on average",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-19T09:47:55.000Z",
+    "fetched": "2026-10-20T00:02:42.683Z",
+    "summary": "AI研究所によるベンチマーク結果は、第三者によるテスト結果よりも平均して6.4%高いスコアを示している。\n\n- AI研究所が発表するAIモデルの性能ベンチマークスコアは、独立した第三者機関によるテスト結果と比較して、平均して6.4%高い数値が出ている。\n- この乖離は、自社開発のモデルをより優れて見せようとするバイアスや、テスト環境の最適化などが影響している可能性がある。\n- AIの性能を正確に評価するためには、開発元による公式発表だけでなく、第三者による客観的な検証結果を確認することが重要である。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9skrx/ai_labs_report_benchmark_scores_64_higher_than/"
+  },
+  {
+    "id": "3ff3de0e-c1c5-815a-b3e5-e33587ca643d",
+    "title": "incoai/Qwen3.8-Flash-Next-DFlash2",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-19T08:55:02.000Z",
+    "fetched": "2026-10-20T00:02:49.860Z",
+    "summary": "incoai/Qwen3.8-Flash-Next-DFlash2\n\n- 本記事は、AIモデルの開発や公開に関連するHugging Face上のリポジトリ「incoai/Qwen3.8-Flash-Next-DFlash2」についての情報ページです。\n- タイトルに含まれる「Qwen」シリーズに関連する派生モデルや、実験的な次世代モデルの構成要素を示していると推測されます。\n- 詳細なベンチマークや具体的な利用方法についての本文記載はないものの、新しい言語モデルの名称やバージョン管理のデータとして登録されています。\n- オープンソースAIコミュニティにおいて、開発者や研究者が最新のモデルアーキテクチャを共有・検証するために利用されるプラットフォームの一部です。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9rq3r/incoaiqwen38flashnextdflash2/"
+  },
+  {
+    "id": "3ff3de0e-c1c5-81ab-aab7-c8c89671d904",
+    "title": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF updated",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-19T14:47:14.000Z",
+    "fetched": "2026-10-20T00:02:57.629Z",
+    "summary": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUFのアップデート\n\n- AIモデル「ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder」のGGUF形式ファイルが新しく更新された。\n- プログラミングやコーディング特化型の言語モデルとして、開発作業の効率化や高度なコード生成をサポートする。\n- GGUF形式に対応したことで、ローカル環境や多様なハードウェア上での実行が容易になり、軽量かつ高速な推論が期待できる。\n- 量子化技術（GSQやRCOなど）が適用されており、モデルのファイルサイズを削減しながらも精度の低下を最小限に抑えている。\n- オープンソースのAIコミュニティや開発者向けに、最新の最適化が施されたモデルウェイトが提供されている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9yvgw/istadaslabqwen38flashnextgsqrcocodergguf_updated/"
+  },
+  {
+    "id": "3ff3de0e-c1c5-8143-a2c8-f2a9ca8e4c43",
+    "title": "Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-10-19T17:00:00.000Z",
+    "fetched": "2026-10-20T00:03:05.551Z",
+    "summary": "NVIDIA CUDA Tile (cuTile) を用いた Mamba-2 モデルの高速化とカスタムカーネルの実装\n\n- NVIDIA CUDA Tile（cuTile）は、PythonベースのDSLおよび並列プログラミングモデルであり、高度なGPUハードウェア機能を活用して高性能なカーネル開発を容易にします。\n- Jane Streetの機械学習エンジニアとNVIDIAは提携し、Mamba-2の状態空間モデルにおけるフォワードパス用の3つのカスタムカーネル（chunk_cumsum、fwd_pass_state、compute_out）をcuTileで実装しました。\n- `chunk_cumsum`はログ空間で減衰項の累積和を計算し、`fwd_pass_state`はTensor Coreの行列積演算を用いてシーケンスチャンク全体の状態を進行させます。\n- `compute_out`は、中間行列をレジスタに保持しTF32にキャストしながら、キャリー状態、減衰・因果マスクされた相互作用行列、スキップ接続を単一のタイル化されたカーネルに統合します。\n- レイテンシヒント、オペランドのスワップ、TMAフレンドリーなメモリレイアウト、入力形状ごとに最適なブロックサイズや占有率を探索するオートチューナーにより、高いパフォーマンスを実現しています。",
+    "url": "https://developer.nvidia.com/blog/accelerating-mamba-2-with-high-performance-forward-pass-kernels-in-nvidia-cuda-tile/"
+  }
+]
