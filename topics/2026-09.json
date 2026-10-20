@@ -1,6 +1,6 @@
 {
   "month": "2026-09",
-  "generated_at": "2026-10-19T08:48:57Z",
+  "generated_at": "2026-10-20T07:42:36Z",
   "closed": true,
   "taxonomy_version": 1,
   "classifier": {
@@ -7758,6 +7758,43 @@
     "units": 479,
     "min_units": 16
   },
+  "landmarks": [
+    {
+      "term": "claude",
+      "x": 0.9607,
+      "y": 0.6923,
+      "units": 28,
+      "share": 0.75
+    },
+    {
+      "term": "astra",
+      "x": 0.7028,
+      "y": 0.761,
+      "units": 27,
+      "share": 0.8889
+    },
+    {
+      "term": "jev",
+      "x": 0.5173,
+      "y": 0.3146,
+      "units": 9,
+      "share": 1.0
+    },
+    {
+      "term": "openai agents",
+      "x": 0.676,
+      "y": 0.0774,
+      "units": 6,
+      "share": 0.8333
+    },
+    {
+      "term": "millennium",
+      "x": 0.7168,
+      "y": 0.3893,
+      "units": 4,
+      "share": 1.0
+    }
+  ],
   "article_topic_map": {
     "3ce3de0e-c1c5-8196-8f7d-c76060a1860c": "out_of_scope.geopolitics",
     "3ce3de0e-c1c5-81a0-8380-f0474081469b": "out_of_scope.funding",
