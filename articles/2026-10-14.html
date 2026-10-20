@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>記事まとめ 2026/10/14</title>
+<title>AI/LLM記事まとめ 2026/10/14</title>
 <style>
   body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
   h1 { font-size: 1.4em; }
@@ -14,21 +14,27 @@
   .card h2 a:hover { text-decoration: underline; }
   .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
   footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
-  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; flex-wrap: wrap; }
   .date-nav-title { font-weight: bold; margin-right: auto; }
   .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
   .date-nav button:disabled { opacity: 0.35; cursor: default; }
   .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
   .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
   .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  .date-nav .monthly-link { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; font-size: 1em; color: #222; text-decoration: none; white-space: nowrap; }
+  .date-nav .monthly-link:hover { background: #f5f5f5; }
   @media (pointer: coarse) {
     .date-nav-calendar-wrap { display: none; }
+  }
+  @media (max-width: 600px) {
+    .date-nav-title { display: none; }
+    .date-nav input[type="text"] { width: 100px; }
   }
 </style>
 </head>
 <body>
 <header class="date-nav">
-  <span class="date-nav-title">記事まとめ</span>
+  <span class="date-nav-title">AI/LLM記事まとめ</span>
   <button id="prev-btn" aria-label="前日へ">◀</button>
   <input id="date-input" type="text" value="2026-10-14" inputmode="numeric" placeholder="YYYY-MM-DD">
   <span class="date-nav-calendar-wrap">
@@ -36,6 +42,7 @@
     <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
   </span>
   <button id="next-btn" aria-label="翌日へ">▶</button>
+  <a id="monthly-link" class="monthly-link" href="../topics/index.html" target="_blank" rel="noopener" aria-label="月次一覧（新しいタブで開きます）" title="月次一覧（新しいタブで開きます）">月次一覧<span class="ext" aria-hidden="true"> ↗</span></a>
 </header>
 <h1>2026/10/14</h1>
 
@@ -147,11 +154,14 @@
   var ARTICLES_PATH_PREFIX = '';
   var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
   var CACHE_KEY = 'dateNavList';
+  var TOPICS_PATH_PREFIX = '../topics/';
+  var CURRENT_MONTH = CURRENT_DATE.slice(0, 7);
 
   var prevBtn = document.getElementById('prev-btn');
   var nextBtn = document.getElementById('next-btn');
   var dateInput = document.getElementById('date-input');
   var datePicker = document.getElementById('date-picker');
+  var monthlyLink = document.getElementById('monthly-link');
 
   var dateList = [];
   var prevDate = null;
@@ -166,14 +176,27 @@
     location.href = ARTICLES_PATH_PREFIX + date + '.html';
   }
 
+  // 入力値を YYYY-MM-DD に揃える。判定できなければ null（テンプレートリテラル内のため、バックスラッシュを使わない書き方にする）
+  function normalizeDateInput(value) {
+    var v = String(value).normalize('NFKC').trim();
+    if (/^[0-9]{8}$/.test(v)) {
+      return v.slice(0, 4) + '-' + v.slice(4, 6) + '-' + v.slice(6, 8);
+    }
+    if (/^[0-9]{4}[-/][0-9]{2}[-/][0-9]{2}$/.test(v)) {
+      return v.replace(/[/]/g, '-');
+    }
+    return null;
+  }
+
   function validateAndGo(value) {
-    if (value === CURRENT_DATE) return;
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || dateList.indexOf(value) === -1) {
+    var date = normalizeDateInput(value);
+    if (date === CURRENT_DATE) { dateInput.value = CURRENT_DATE; return; }
+    if (date === null || dateList.indexOf(date) === -1) {
       alert('指定した日付のページは存在しません');
       dateInput.value = CURRENT_DATE;
       return;
     }
-    goTo(value);
+    goTo(date);
   }
 
   function initNav(list) {
@@ -217,6 +240,32 @@
       });
   }
 
+  function setMonthlyLink(label, href) {
+    var text = label + '（新しいタブで開きます）';
+    // 前提: <a> の最初の子ノードがラベルのテキストノード（<a>月次一覧<span>…</span></a>）
+    monthlyLink.firstChild.nodeValue = label;
+    monthlyLink.href = href;
+    monthlyLink.setAttribute('aria-label', text);
+    monthlyLink.title = text;
+  }
+
+  function loadMonthly() {
+    fetch(TOPICS_PATH_PREFIX + 'index.json')
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var months = ((data && data.months) || []).map(function (m) { return m.month; });
+        if (months.indexOf(CURRENT_MONTH) !== -1) {
+          setMonthlyLink('月次', TOPICS_PATH_PREFIX + CURRENT_MONTH + '.html');
+        }
+      })
+      .catch(function (err) {
+        console.error('monthly-link: index.json fetch failed', err);
+      });
+  }
+
   prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
   nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
 
@@ -224,6 +273,19 @@
     if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
   });
   dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+  // 数字キーパッド（Return キーなし）向け: 数字だけ8桁になったら自動で移動する。日付一覧の取得前・失敗時は何もしない
+  dateInput.addEventListener('input', function (e) {
+    if (e.isComposing) return;
+    if (dateList.length === 0) return;
+    if (/^[0-9]{8}$/.test(dateInput.value.normalize('NFKC').trim())) {
+      validateAndGo(dateInput.value.trim());
+    }
+  });
+  // フォーカス時に全選択する（数字キーパッドで打ち直しやすくする）。iOS Safari はフォーカス直後のタップでキャレットを置き直し、選択が解除されることがあるため、タイマーでかけ直す
+  dateInput.addEventListener('focus', function () {
+    dateInput.select();
+    setTimeout(function () { dateInput.setSelectionRange(0, dateInput.value.length); }, 0);
+  });
 
   datePicker.addEventListener('change', function () {
     if (datePicker.value) validateAndGo(datePicker.value);
@@ -231,6 +293,7 @@
 
   disableAllNav();
   loadDateList();
+  loadMonthly();
 })();
 </script>
 </body>
