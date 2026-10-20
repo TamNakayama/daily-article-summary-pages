@@ -63,6 +63,8 @@ nav.pages{font-size:.85rem;line-height:1.9;position:sticky;top:0;z-index:5;backg
 }
 /* 記事の分布（§9.6）：図は幅いっぱい、凡例の色の見本 */
 .chart{width:100%;height:auto;display:block;border:1px solid #EEE;border-radius:6px}
+/* 記事の分布の語ラベル。縁を図の背景色で塗り、点のクリックとホバーを妨げない */
+.chart .lm{font-size:15px;font-weight:600;fill:#333;stroke:#FAFAFA;stroke-width:3px;stroke-linejoin:round;paint-order:stroke;pointer-events:none}
 .legend .sw{display:inline-block;width:.8em;height:.8em;border-radius:50%;margin-right:4px;vertical-align:-1px}
 @media (min-width:900px){
   div.ix-row,div.ix-row.pc-only{display:grid;grid-template-columns:5.5rem 3.4rem 8.6rem minmax(0,1fr) minmax(0,1fr) minmax(0,1.2fr) 10rem;gap:10px;align-items:baseline}
@@ -109,7 +111,7 @@ nav.pages{font-size:.85rem;line-height:1.9;position:sticky;top:0;z-index:5;backg
 <span><span class="sp-only ix-label">最も多かった大分類 </span>モデル・アーキテクチャ</span>
 <span><span class="sp-only ix-label">最も増えた小分類 </span>—</span>
 <span><span class="sp-only ix-label">特徴語 </span>—</span>
-<span class="note">version 1・2026-10-19</span>
+<span class="note">version 1・2026-10-20</span>
 </div>
 </div>
 <p class="note" style="margin-top:3em">各行の値は、その月を最後に公開・更新したときのもの（分類体系の version と更新日）。分類体系を変えた後に作り直していない月は、古い version のまま並ぶ。</p>

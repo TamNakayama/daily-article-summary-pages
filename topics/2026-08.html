@@ -63,6 +63,8 @@ nav.pages{font-size:.85rem;line-height:1.9;position:sticky;top:0;z-index:5;backg
 }
 /* 記事の分布（§9.6）：図は幅いっぱい、凡例の色の見本 */
 .chart{width:100%;height:auto;display:block;border:1px solid #EEE;border-radius:6px}
+/* 記事の分布の語ラベル。縁を図の背景色で塗り、点のクリックとホバーを妨げない */
+.chart .lm{font-size:15px;font-weight:600;fill:#333;stroke:#FAFAFA;stroke-width:3px;stroke-linejoin:round;paint-order:stroke;pointer-events:none}
 .legend .sw{display:inline-block;width:.8em;height:.8em;border-radius:50%;margin-right:4px;vertical-align:-1px}
 @media (min-width:900px){
   div.ix-row,div.ix-row.pc-only{display:grid;grid-template-columns:5.5rem 3.4rem 8.6rem minmax(0,1fr) minmax(0,1fr) minmax(0,1.2fr) 10rem;gap:10px;align-items:baseline}

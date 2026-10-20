@@ -63,6 +63,8 @@ nav.pages{font-size:.85rem;line-height:1.9;position:sticky;top:0;z-index:5;backg
 }
 /* 記事の分布（§9.6）：図は幅いっぱい、凡例の色の見本 */
 .chart{width:100%;height:auto;display:block;border:1px solid #EEE;border-radius:6px}
+/* 記事の分布の語ラベル。縁を図の背景色で塗り、点のクリックとホバーを妨げない */
+.chart .lm{font-size:15px;font-weight:600;fill:#333;stroke:#FAFAFA;stroke-width:3px;stroke-linejoin:round;paint-order:stroke;pointer-events:none}
 .legend .sw{display:inline-block;width:.8em;height:.8em;border-radius:50%;margin-right:4px;vertical-align:-1px}
 @media (min-width:900px){
   div.ix-row,div.ix-row.pc-only{display:grid;grid-template-columns:5.5rem 3.4rem 8.6rem minmax(0,1fr) minmax(0,1fr) minmax(0,1.2fr) 10rem;gap:10px;align-items:baseline}
@@ -81,7 +83,7 @@ nav.pages{font-size:.85rem;line-height:1.9;position:sticky;top:0;z-index:5;backg
 <main>
 <h1>2026-07 AI/LLM記事 月次レポート</h1>
 <nav class="pages"><span aria-current="page">2026-07</span><span class="sep">｜</span><a href="2026-08.html">2026-08 →</a><span class="sep">｜</span><a href="index.html"><span class="lbl-pc">月次レポート一覧</span><span class="lbl-sp">一覧</span></a><span class="sep">｜</span><a href="../index.html"><span class="lbl-pc">日次まとめ（最新）</span><span class="lbl-sp">日次</span></a></nav>
-<p class="note">分類体系 version 1（大分類 6・小分類 30）／ 推移 2026-07〜2026-07 ／ 更新 2026-10-19 17:48 JST</p>
+<p class="note">分類体系 version 1（大分類 6・小分類 30）／ 推移 2026-07〜2026-07 ／ 更新 2026-10-20 16:41 JST</p>
 <div class="kpi">
 <div>記事<b>396</b><small>収集 416・版違い 20 をまとめた</small></div>
 <div>分類済み<b>297</b></div>
@@ -923,8 +925,10 @@ nav.pages{font-size:.85rem;line-height:1.9;position:sticky;top:0;z-index:5;backg
 2026-07-31・THE DECODER・悪用・誤動作・エージェントの暴走</title></circle></a>
 <a href="https://www.reddit.com/r/LocalLLaMA/comments/1vbcmtn/anthropic_our_models_hacked_three_different/" target="_blank" rel="noopener"><circle cx="180.3" cy="69.2" r="3.2" fill="#E45756" fill-opacity="0.85"><title>Anthropic “our models hacked three different external companies, months before OpenAI’s model was able to do the same&#34;
 2026-07-31・r/LocalLLaMA (Reddit)・セキュリティ・脱獄・脆弱性</title></circle></a>
+<text class="lm" x="76.5" y="52.6" text-anchor="middle" dy="0.35em">claude</text>
+<text class="lm" x="515.5" y="88.7" text-anchor="end" dy="0.35em">k3</text>
 </svg>
-<p class="note">1点＝1記事（版違いは1点にまとめた）。内容が近い記事ほど近くに並ぶ（配置は月ごとに変わるので、月どうしは比べない）。色は大分類別の件数推移の表と同じ。点をクリックで記事へ、カーソルでタイトル</p>
+<p class="note">1点＝1記事（版違いは1点にまとめた）。内容が近い記事ほど近くに並ぶ（配置は月ごとに変わるので、月どうしは比べない）。色は大分類別の件数推移の表と同じ。点をクリックで記事へ、カーソルでタイトル。文字は、今月の特徴語・頻出語のうち、その語を含む記事がまとまっている場所</p>
 </div>
 </div>
 </div>
