@@ -1,6 +1,6 @@
 {
   "month": "2026-08",
-  "generated_at": "2026-10-19T08:48:39Z",
+  "generated_at": "2026-10-20T07:42:18Z",
   "closed": true,
   "taxonomy_version": 1,
   "classifier": {
@@ -7368,6 +7368,43 @@
     "units": 454,
     "min_units": 16
   },
+  "landmarks": [
+    {
+      "term": "qwen",
+      "x": 0.0508,
+      "y": 0.5124,
+      "units": 25,
+      "share": 0.76
+    },
+    {
+      "term": "claude",
+      "x": 0.9653,
+      "y": 0.2473,
+      "units": 22,
+      "share": 0.8636
+    },
+    {
+      "term": "qwen3.8-27b",
+      "x": 0.0568,
+      "y": 0.4237,
+      "units": 15,
+      "share": 1.0
+    },
+    {
+      "term": "glimmer",
+      "x": 0.4284,
+      "y": 0.4612,
+      "units": 5,
+      "share": 1.0
+    },
+    {
+      "term": "google gemini",
+      "x": 0.3178,
+      "y": 0.5908,
+      "units": 5,
+      "share": 0.8
+    }
+  ],
   "article_topic_map": {
     "3af3de0e-c1c5-8117-832c-eb4dfc982a1e": "out_of_scope.datacenter",
     "3af3de0e-c1c5-818a-b793-d79957919d9e": "out_of_scope.geopolitics",
