@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI/LLM記事まとめ 2026/10/20</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; flex-wrap: wrap; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  .date-nav .monthly-link { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; font-size: 1em; color: #222; text-decoration: none; white-space: nowrap; }
+  .date-nav .monthly-link:hover { background: #f5f5f5; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+  @media (max-width: 600px) {
+    .date-nav-title { display: none; }
+    .date-nav input[type="text"] { width: 100px; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">AI/LLM記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-10-20" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+  <a id="monthly-link" class="monthly-link" href="../topics/index.html" target="_blank" rel="noopener" aria-label="月次一覧（新しいタブで開きます）" title="月次一覧（新しいタブで開きます）">月次一覧<span class="ext" aria-hidden="true"> ↗</span></a>
+</header>
+<h1>2026/10/20</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations/" target="_blank" rel="noopener">Elevenlabs releases two new speech-to-speech models designed for real-time AI conversations</a></h2>
+      <p>ElevenLabsがリアルタイムAI会話向けの音声対音声モデル「Eleven Realtime」を発表<br><br><ul><li>ElevenLabsがリアルタイムAI会話向けに「Eleven Realtime」のv1 Maxとv1 Miniの2つの新しい音声対音声モデルを発表した。</li><li>上位モデルの「v1 Max」は、Big Bench Audioベンチマークで98.8%のスコアを記録し、応答時間は0.57秒で、高い精度と低レイテンシーを両立している。</li><li>小型モデルの「v1 Mini」は、コストを抑えて自然な会話を実現するように設計されており、相手の発話終了や相槌を判別できる。</li><li>両モデルは「ElevenAgents」プラットフォームやOpenAI互換のRealtime APIを通じて利用可能で、料金は分単位およびトークンコスト制となっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/" target="_blank" rel="noopener">Deepseek open-sources the inference engine that powers its fastest and cheapest AI model</a></h2>
+      <p>Deepseekが最速かつ最安のAIモデルを支える推論エンジン「DeepInfer」をオープンソース化<br><br><ul><li>Deepseekは、同社の最速かつ最安のAIモデル「V4.1-Flash」を高速かつ大規模に動作させる内部推論エンジン「DeepInfer」を、Apache License 2.0のもとでオープンソース化した。</li><li>DeepInferは「vLLM」を基盤とし、最適化されたコンピュートカーネル、複数チップ間での分散処理、高速なテキスト生成技術を取り入れており、今後のモデルのコードもオープンソースとして提供される予定である。</li><li>公式APIのトークン処理を再現し、セルフホスト環境でも同様の動作を可能にする「deepseek-recipe」も同時に公開された。</li><li>このオープンソース化により、コミュニティ全体の計算コスト削減や省エネ、AIの低価格化が促進される一方、欧米のAI企業（OpenAIやAnthropicなど）に対してさらなる価格競争の圧力をかけることになる。</li><li>中国とアメリカのAI開発競争の文脈において、西側のプロバイダーの成長目標達成に影響を与える可能性があり、政治的な動機が含まれているとの見方もされている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/" target="_blank" rel="noopener">Mistral AI launches Voxtral 3, a full voice agent stack that listens, thinks, and talks in real time</a></h2>
+      <p>Mistral AIがリアルタイム音声エージェント向けの新モデルファミリー「Voxtral 3」を発表<br><br><ul><li>「Voxtral 3」は、音声認識（Voxtral Small Transcribe 3）、音声合成（Voxtral Mini TTS 3）、LiveKitベースの音声エージェントSDKを統合したフルスタックシステムです。</li><li>音声認識は50言語以上、音声合成は35言語・50方言以上に対応しており、感情表現豊かな発話やリアルタイムのツール連携（予約や請求書確認など）が可能です。</li><li>システムは自社インフラでの稼働またはEUホスト型のAPI利用に対応しており、データの管理性を高めています。</li><li>料金は音声認識が1分あたり0.035ドルから提供されます。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/sam-altman-reportedly-pitched-three-endgames-for-ai-safety-one-involving-a-single-firm-melting-everyone-elses-gpus/" target="_blank" rel="noopener">Sam Altman reportedly pitched three endgames for AI safety, one involving a single firm melting everyone else's GPUs</a></h2>
+      <p>Sam Altman氏が提示した高度なAI安全保障に関する3つの最終シナリオ<br><br><ul><li>OpenAIのサム・アルトマンCEOが、高度なAIの将来的な管理体制について、社内で3つのシナリオを提示したことが報じられた。</li><li>1つ目は国際原子力機関（IAEA）をモデルにした組織を作り、安全性基準の強制や査察、計算資源の監視を行うアプローチである。</li><li>2つ目は主要なAI研究所が単一の組織に統合、またはその傘下で連携し、モデルを協力国に供給する「デミス・プラン」と呼ばれるアプローチである。</li><li>3つ目は単一企業が圧倒的な経済力と計算資源の優位性を持ち、他社のGPUを無力化するようなシナリオを想定した「エリイーザー・プラン」である。</li><li>OpenAIは今後1年間で進むべき道を選択する方針だが、ライバルに遅れをとることはできない状況にある。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/openai-says-gpt-6-is-much-better-with-legacy-programming-languages-such-as-cobol-and-fortran/" target="_blank" rel="noopener">OpenAI says GPT-6 is much better with legacy programming languages such as COBOL and Fortran</a></h2>
+      <p>OpenAIが最新のAIモデルにおいて、COBOLやFortranなどのレガシープログラミング言語の処理能力を大幅に向上させたことが発表された。<br><br><ul><li>OpenAIは、Pythonなどに比べて学習データが少ない「低リソース」言語であるCOBOL、Fortran、Visual Basicなどの処理能力を最新AIモデルで改善した。</li><li>COBOLは世界中のオンラインバンキングシステムの40%以上やATMトランザクションの95%を支える基幹インフラとして現在も活用されている。</li><li>進捗測定用の「MultiLangBench」テストにおいて、「GPT-6 Astra」は20言語平均で87.4%のテスト合格率を記録し、旧モデルの約38%から大きく性能が向上した。</li><li>COBOLをC++やJava、Pythonなどに変換する移行ベンチマークでは、「GPT-6.1 Sol」が推論の努力量を引き上げることで97.9%という高い精度を達成した。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/army-cyber-commands-echotribble-would-turn-ai-agents-into-self-spreading-cyberweapons/" target="_blank" rel="noopener">Army Cyber Command's ECHOTRIBBLE would turn AI agents into self-spreading cyberweapons</a></h2>
+      <p>米陸軍サイバーコマンドが開発を進める自律型AIサイバー兵器「ECHOTRIBBLE」は、人間による監視を最小限に抑え、ネットワーク内を自己増殖しながら標的を無力化する機能を持つ。<br><br><ul><li>米陸軍サイバーコマンド（ARCYBER）は、AIエージェントを自律型の攻撃的サイバー兵器へ転換するプラットフォーム「ECHOTRIBBLE」を開発している。</li><li>このシステムはコンピュータワームのようにデバイス間を検知されずに移動し、クラウドや外部から隔離された「エアギャップ」環境でも動作する。</li><li>標的に到達した後は、脅威の完全な無力化や一時的無力化、データの削除を行い、任務完了後には自己破壊する仕組みとなっている。</li><li>ソフトウェアは事前の定義されたトリガーに基づき、最小限の人間の介入で「自己誘導的行動」を行うよう設計されている。</li><li>専門家からは、このような自己拡散型AI兵器がもたらす偶発的な被害や連鎖的な影響を制御することは極めて困難であると強い懸念が示されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/cloudflares-clairic-pulls-data-from-documents-faster-and-cheaper-than-llms/" target="_blank" rel="noopener">Cloudflare's Clairic pulls data from documents faster and cheaper than LLMs</a></h2>
+      <p>Cloudflareの新AIモデル「Clairic」は、大規模言語モデル（LLM）よりも高速かつ低コストでドキュメントからデータを抽出する。<br><br><ul><li>ユーザーが抽出したい項目を指定すると、適切な形式の値と信頼度スコアを返し、値がない場合は「null」を返す</li><li>トークンを1つずつ生成するLLMとは異なり、1回の処理ですべてのフィールドに回答し、簡単な計算や予測も行える</li><li>より大きなエージェントチェーンの一部として機能するように設計されており、他のモデルと連携して処理時間を短縮しコストを削減できる</li><li>現在は計算処理が長く続くタスクには確実に対応できず、開発者は自身のコードで実行する必要がある</li><li>Workers AI上でプレビュー版が利用可能となっており、オープンウェイトの公開も近々予定されている</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/us-bans-deepseek-technology-across-federal-civilian-agencies/" target="_blank" rel="noopener">US bans Deepseek technology across federal civilian agencies</a></h2>
+      <p>米国政府が連邦政府の非軍事機関における中国・Deepseek製AI技術の使用を禁止<br><br><ul><li>米国土安全保障省が連邦民間機関に対し、中国のDeepseek社製AI技術の使用を禁止し、既存製品の削除と新規購入の停止を命じた。</li><li>この禁止令は、提携企業やDeepseekの技術を組み込んだサードパーティ製サービスにも及ぶが、具体的な期限やセキュリティ上の懸念については明示されていない。</li><li>根拠となったのは連邦調達におけるサプライチェーン安全保障に関する2018年の法律である。</li><li>米国政府は今年夏にも中国製オープンウェイトモデルへの規制を検討していたが、テック大手の反対により見送られていた経緯がある。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Oct/20/battledrones/" target="_blank" rel="noopener">Battle Drones - a vibe coded RTS with audio-based multiplayer</a></h2>
+      <p>Battle Drones: 音声同期マルチプレイを備えた「バイブコーディング」によるRTSゲーム<br><br><ul><li>サイモン・ウィリソン氏が開発した「Command &amp; Conquer」風のブラウザ向けリアルタイムストラテジー（RTS）ゲームである。</li><li>コーディングエージェント（主にClaude Code）を活用し、12回の主要なアップデートと321回のコミットを経て構築された。</li><li>モバイルやデスクトップに対応し、3Dモデル、多彩なマップやユニット、霧の視界、動的なBGMなど豊富な機能を備えている。</li><li>マイクの音声範囲内にある近くのデバイス同士でゲーム状態を同期し、マルチプレイを楽しめるユニークな機能を搭載している。</li><li>AI同士の対戦やLLM（大規模言語モデル）同士の対戦モード、ランダムマップ生成など、実験的で多彩なゲームモードが実装されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/nvidia/cosmos3-h-dreams" target="_blank" rel="noopener">NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation</a></h2>
+      <p>NVIDIA Cosmos3-H-Dreams: 臨床手術を生成シミュレーションでリアルに再現<br><br><ul><li>NVIDIAは、臨床手術の視覚的および手技的な複雑さに対応するインタラクティブな生成シミュレーション「Cosmos3-H-Dreams」を発表した。</li><li>本システムは、CMR Surgical Versiusプラットフォームを用いた実際の臨床手術（胆嚢摘出術）の映像とロボット運動学データから学習している。</li><li>従来の数値シミュレーションとは異なり、シーンの幾何学形状や物理相互作用を明示的にモデル化せず、映像と運動学データから視覚的ダイナミクスを直接学習するワールド基盤モデルである。</li><li>NVIDIAの高速ストリーミング推論ライブラリ「FlashDreams」とCosmos 3を搭載し、単一のNVIDIA RTX PRO 6000 GPU上でリアルタイムかつインタラクティブに動作する。</li><li>組織の伸展、反射の変化、遮蔽、煙による視界の変化など、複雑な体内環境におけるライブの運動学制御をサポートする初のリアルタイム生成手術シミュレーターである。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/allenai/fairstress" target="_blank" rel="noopener">FairStress: A deeper evaluation of fairness in LLM decision-making</a></h2>
+      <p>LLMの意思決定における真の公平性を評価する新ベンチマーク「FairStress」の概要と重要性<br><br><ul><li>従来の公平性ベンチマークは、属性を入れ替えても最終的な選択が同じかどうかを測るものだったが、これだけではモデル内部の隠れた偏見を見落とす危険性がある。</li><li>新たに導入された「FairStress」は、最終結果だけでなく、批判や説得（ adversarial prefixes ）を受けた際にモデルの意思決定がどう揺らぐかを測定する。</li><li>最終的な出力結果が同じに見えるモデルであっても、有利なデモグラフィック属性に対する説得を受けた際、グループによって決定を変えやすさが異なるという非対称性が確認されている。</li><li>Olmo、Llama、Qwen、Gemma、Claude、GPTなどの主要なオープンウェイトおよびフロンティアモデルを対象に、トレーニングの各段階における公平性の評価が可能になる。</li><li>採用、融資、医療、教育など、人々の機会に重大な影響を与える高リスクな場面でLLMが使用される中、より深く堅牢な公平性を担保するためのオープンな評価ツールとして活用が期待されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/ibm-research/altk-evolve-bc" target="_blank" rel="noopener">ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model</a></h2>
+      <p>ALTK-Evolve：学習されたメモリが最先端モデルを使わずカスタマーサービス用ベンチマーク「τ²-bench」で首位を獲得する方法<br><br><ul><li>IBMの研究チームが開発した「ALTK-Evolve」は、モデルの重みを更新せず、学習されたメモリ（プレイブック）を活用することで、カスタマーサービス向けベンチマーク「τ²-bench」の小売部門でトップの成績を記録した。</li><li>本手法では、非推論モデルであるGPT-4.1をベースにした基本的なReActエージェントを使用し、過去の成功や失敗から短い行動ルール（ガイドライン）を自動抽出してシステムプロンプトに追加する。</li><li>ガイドラインの抽出とエージェントの実行に同じモデルを使用しており、人間のアノテーションやモデルの重みの更新を必要とせずに性能を向上させることができる。</li><li>τ²-benchのようなポリシーに縛られたカスタマーサービス領域において、ドメイン方針の遵守、顧客の意図の理解、正確なツール実行能力の向上に効果を発揮することが示されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/hf-torchtpu" target="_blank" rel="noopener">Hugging Face ❤️ TorchTPU: TPUs, Natively</a></h2>
+      <p>Hugging FaceがTorchTPUに対応し、TPUをPyTorchのネイティブデバイスとして直接利用できるようになりました。<br><br><ul><li>TPUs（Tensor Processing Unit）は、Googleが開発したAIアクセラレータであり、大規模な機械学習のトレーニングや推論に優れた性能を発揮します。</li><li>従来、PyTorchをTPUで動かすには「torch_xla」の導入が必要でしたが、TorchTPUの登場により、コードを「tpu」デバイスに送るだけで簡単に実行できるようになりました。</li><li>新しいネイティブ対応に伴い、今後は「Optimum TPU」を使用しなくても、TransformersやDiffusersなどのHugging FaceライブラリがTPU上で直接動作します。</li><li>TorchTPUは通常のPyTorchコードをサポートしており、分散学習や、さらなる高速化を実現する「torch.compile」との統合機能も備えています。</li><li>TP0の仮想マシンへのインストールは「pip install torch-tpu」の1コマンドで行うことが可能です。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/anylanguagemodel-1-0" target="_blank" rel="noopener">AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms</a></h2>
+      <p>Appleプラットフォーム向けローカルモデル統合フレームワーク「AnyLanguageModel 1.0」のリリースについて、1年間の進化や新機能が紹介されています。<br><br>AnyLanguageModel 1.0: Appleプラットフォームにおけるローカルモデルの1年<br><br><ul><li>AppleのFoundation Modelsフレームワークと互換性を持つドロップインAPIを提供し、インポート文を変更するだけでシステムモデルやオープンウェイトモデル、ホスト型モデルを利用可能。</li><li>ツール呼び出しや、ネストされた型や配列を含むガイド付き生成がすべてのプロバイダでサポートされるようになった。</li><li>iOS、macOS、visionOSにおいて、プロンプトへの画像添付やCore AIモデルとの連携機能が強化された。</li><li>OpenAI、Anthropic、Google Gemini、Ollama、Hugging Faceなどの主要なホスト型モデルやエンドポイントへの対応が大幅に拡大した。</li><li>高速なモデルダウンロードを実現する「swift-huggingface 1.0」と「swift-xet 1.0」が同時にリリースされた。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/mps-pytorch-2-15" target="_blank" rel="noopener">MPS in PyTorch 2.15</a></h2>
+      <p>PyTorch 2.15におけるApple Silicon（MPSバックエンド）のアップデート<br><br><ul><li>FP8（float8_e4m3fn）がMPSに対応し、モデルのメモリ使用量をBF16の半分に抑えつつ、CUDAやCPUと同様にスケーリングされた行列乗算などの演算が可能になりました。</li><li>MoEモデルのデコード速度がPyTorch 2.14と比較して5〜6.5倍に高速化し、専用のデコードパスや最適化されたルーターにより、M3 Ultraで大幅な性能向歩を実現しました。</li><li>単行の線形レイヤー用特殊カーネルや、約8倍高速化したボキャブラリー上のソフトマックスなどにより、あらゆるLLMのトークン処理時間が短縮されました。</li><li>複素数のLU分解や三角方程式の求解、小規模行列の逆行列計算、QR分解など、多くの線形代数演算がGPU上で高速に処理できるようになりました。</li><li>畳み込みやパディング、ドロップアウト、補間処理などの最適化により、音声、画像、動画処理およびトレーニング性能が全体的に向上しました。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1" target="_blank" rel="noopener">v0.40.7-rc1: mlx: deduplicate CUDA runtime payloads (#17956)</a></h2>
+      <p>ollama/ollama v0.40.7-rc1のリリース情報<br><br><ul><li>Ollamaのオープンソースリポジトリにおける、バージョン「v0.40.7-rc1」のリリースに関するGitHub上のページである。</li><li>本リリースの主な変更点として、「mlx: deduplicate CUDA runtime payloads (#17956)」というコミットが含まれており、MLXおよびCUDAランタイムのペイロードの重複排除（デデュプリケーション）が行われている。</li><li>コミットはGitHub上で作成され、公式の検証済み署名（Verified）が付与されている信頼性の高いものである。</li><li>このバージョンはリリース候補版（rc1）であり、正式リリースに向けたテストや検証段階のビルドとして提供されている。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-10-20";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+  var TOPICS_PATH_PREFIX = '../topics/';
+  var CURRENT_MONTH = CURRENT_DATE.slice(0, 7);
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+  var monthlyLink = document.getElementById('monthly-link');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  // 入力値を YYYY-MM-DD に揃える。判定できなければ null（テンプレートリテラル内のため、バックスラッシュを使わない書き方にする）
+  function normalizeDateInput(value) {
+    var v = String(value).normalize('NFKC').trim();
+    if (/^[0-9]{8}$/.test(v)) {
+      return v.slice(0, 4) + '-' + v.slice(4, 6) + '-' + v.slice(6, 8);
+    }
+    if (/^[0-9]{4}[-/][0-9]{2}[-/][0-9]{2}$/.test(v)) {
+      return v.replace(/[/]/g, '-');
+    }
+    return null;
+  }
+
+  function validateAndGo(value) {
+    var date = normalizeDateInput(value);
+    if (date === CURRENT_DATE) { dateInput.value = CURRENT_DATE; return; }
+    if (date === null || dateList.indexOf(date) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(date);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  function setMonthlyLink(label, href) {
+    var text = label + '（新しいタブで開きます）';
+    // 前提: <a> の最初の子ノードがラベルのテキストノード（<a>月次一覧<span>…</span></a>）
+    monthlyLink.firstChild.nodeValue = label;
+    monthlyLink.href = href;
+    monthlyLink.setAttribute('aria-label', text);
+    monthlyLink.title = text;
+  }
+
+  function loadMonthly() {
+    fetch(TOPICS_PATH_PREFIX + 'index.json')
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var months = ((data && data.months) || []).map(function (m) { return m.month; });
+        if (months.indexOf(CURRENT_MONTH) !== -1) {
+          setMonthlyLink('月次', TOPICS_PATH_PREFIX + CURRENT_MONTH + '.html');
+        }
+      })
+      .catch(function (err) {
+        console.error('monthly-link: index.json fetch failed', err);
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+  // 数字キーパッド（Return キーなし）向け: 数字だけ8桁になったら自動で移動する。日付一覧の取得前・失敗時は何もしない
+  dateInput.addEventListener('input', function (e) {
+    if (e.isComposing) return;
+    if (dateList.length === 0) return;
+    if (/^[0-9]{8}$/.test(dateInput.value.normalize('NFKC').trim())) {
+      validateAndGo(dateInput.value.trim());
+    }
+  });
+  // フォーカス時に全選択する（数字キーパッドで打ち直しやすくする）。iOS Safari はフォーカス直後のタップでキャレットを置き直し、選択が解除されることがあるため、タイマーでかけ直す
+  dateInput.addEventListener('focus', function () {
+    dateInput.select();
+    setTimeout(function () { dateInput.setSelectionRange(0, dateInput.value.length); }, 0);
+  });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+  loadMonthly();
+})();
+</script>
+</body>
+</html>
