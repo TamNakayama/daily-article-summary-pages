@@ -1,0 +1,146 @@
+[
+  {
+    "id": "4003de0e-c1c5-8177-a6f6-f3e88b97fb9e",
+    "title": "Elevenlabs releases two new speech-to-speech models designed for real-time AI conversations",
+    "site": "THE DECODER",
+    "published": "2026-10-20T19:03:15.000Z",
+    "fetched": "2026-10-21T00:01:08.539Z",
+    "summary": "ElevenLabsがリアルタイムAI会話向けの音声対音声モデル「Eleven Realtime」を発表\n\n- ElevenLabsがリアルタイムAI会話向けに「Eleven Realtime」のv1 Maxとv1 Miniの2つの新しい音声対音声モデルを発表した。\n- 上位モデルの「v1 Max」は、Big Bench Audioベンチマークで98.8%のスコアを記録し、応答時間は0.57秒で、高い精度と低レイテンシーを両立している。\n- 小型モデルの「v1 Mini」は、コストを抑えて自然な会話を実現するように設計されており、相手の発話終了や相槌を判別できる。\n- 両モデルは「ElevenAgents」プラットフォームやOpenAI互換のRealtime APIを通じて利用可能で、料金は分単位およびトークンコスト制となっている。",
+    "url": "https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations/"
+  },
+  {
+    "id": "4003de0e-c1c5-8178-ae8c-d184188c1d74",
+    "title": "Deepseek open-sources the inference engine that powers its fastest and cheapest AI model",
+    "site": "THE DECODER",
+    "published": "2026-10-20T18:56:15.000Z",
+    "fetched": "2026-10-21T00:01:16.226Z",
+    "summary": "Deepseekが最速かつ最安のAIモデルを支える推論エンジン「DeepInfer」をオープンソース化\n\n- Deepseekは、同社の最速かつ最安のAIモデル「V4.1-Flash」を高速かつ大規模に動作させる内部推論エンジン「DeepInfer」を、Apache License 2.0のもとでオープンソース化した。\n- DeepInferは「vLLM」を基盤とし、最適化されたコンピュートカーネル、複数チップ間での分散処理、高速なテキスト生成技術を取り入れており、今後のモデルのコードもオープンソースとして提供される予定である。\n- 公式APIのトークン処理を再現し、セルフホスト環境でも同様の動作を可能にする「deepseek-recipe」も同時に公開された。\n- このオープンソース化により、コミュニティ全体の計算コスト削減や省エネ、AIの低価格化が促進される一方、欧米のAI企業（OpenAIやAnthropicなど）に対してさらなる価格競争の圧力をかけることになる。\n- 中国とアメリカのAI開発競争の文脈において、西側のプロバイダーの成長目標達成に影響を与える可能性があり、政治的な動機が含まれているとの見方もされている。",
+    "url": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/"
+  },
+  {
+    "id": "4003de0e-c1c5-81e1-b683-fc0dd74d18ca",
+    "title": "Mistral AI launches Voxtral 3, a full voice agent stack that listens, thinks, and talks in real time",
+    "site": "THE DECODER",
+    "published": "2026-10-20T17:17:55.000Z",
+    "fetched": "2026-10-21T00:01:23.542Z",
+    "summary": "Mistral AIがリアルタイム音声エージェント向けの新モデルファミリー「Voxtral 3」を発表\n\n- 「Voxtral 3」は、音声認識（Voxtral Small Transcribe 3）、音声合成（Voxtral Mini TTS 3）、LiveKitベースの音声エージェントSDKを統合したフルスタックシステムです。\n- 音声認識は50言語以上、音声合成は35言語・50方言以上に対応しており、感情表現豊かな発話やリアルタイムのツール連携（予約や請求書確認など）が可能です。\n- システムは自社インフラでの稼働またはEUホスト型のAPI利用に対応しており、データの管理性を高めています。\n- 料金は音声認識が1分あたり0.035ドルから提供されます。",
+    "url": "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/"
+  },
+  {
+    "id": "4003de0e-c1c5-8158-87fc-efb38692d59a",
+    "title": "Sam Altman reportedly pitched three endgames for AI safety, one involving a single firm melting everyone else's GPUs",
+    "site": "THE DECODER",
+    "published": "2026-10-20T17:00:59.000Z",
+    "fetched": "2026-10-21T00:01:31.050Z",
+    "summary": "Sam Altman氏が提示した高度なAI安全保障に関する3つの最終シナリオ\n\n- OpenAIのサム・アルトマンCEOが、高度なAIの将来的な管理体制について、社内で3つのシナリオを提示したことが報じられた。\n- 1つ目は国際原子力機関（IAEA）をモデルにした組織を作り、安全性基準の強制や査察、計算資源の監視を行うアプローチである。\n- 2つ目は主要なAI研究所が単一の組織に統合、またはその傘下で連携し、モデルを協力国に供給する「デミス・プラン」と呼ばれるアプローチである。\n- 3つ目は単一企業が圧倒的な経済力と計算資源の優位性を持ち、他社のGPUを無力化するようなシナリオを想定した「エリイーザー・プラン」である。\n- OpenAIは今後1年間で進むべき道を選択する方針だが、ライバルに遅れをとることはできない状況にある。",
+    "url": "https://the-decoder.com/sam-altman-reportedly-pitched-three-endgames-for-ai-safety-one-involving-a-single-firm-melting-everyone-elses-gpus/"
+  },
+  {
+    "id": "4003de0e-c1c5-8111-81c4-d8648d9bc63d",
+    "title": "OpenAI says GPT-6 is much better with legacy programming languages such as COBOL and Fortran",
+    "site": "THE DECODER",
+    "published": "2026-10-20T16:40:29.000Z",
+    "fetched": "2026-10-21T00:01:38.634Z",
+    "summary": "OpenAIが最新のAIモデルにおいて、COBOLやFortranなどのレガシープログラミング言語の処理能力を大幅に向上させたことが発表された。\n\n- OpenAIは、Pythonなどに比べて学習データが少ない「低リソース」言語であるCOBOL、Fortran、Visual Basicなどの処理能力を最新AIモデルで改善した。\n- COBOLは世界中のオンラインバンキングシステムの40%以上やATMトランザクションの95%を支える基幹インフラとして現在も活用されている。\n- 進捗測定用の「MultiLangBench」テストにおいて、「GPT-6 Astra」は20言語平均で87.4%のテスト合格率を記録し、旧モデルの約38%から大きく性能が向上した。\n- COBOLをC++やJava、Pythonなどに変換する移行ベンチマークでは、「GPT-6.1 Sol」が推論の努力量を引き上げることで97.9%という高い精度を達成した。",
+    "url": "https://the-decoder.com/openai-says-gpt-6-is-much-better-with-legacy-programming-languages-such-as-cobol-and-fortran/"
+  },
+  {
+    "id": "4003de0e-c1c5-81f4-9347-ce31214d881a",
+    "title": "Army Cyber Command's ECHOTRIBBLE would turn AI agents into self-spreading cyberweapons",
+    "site": "THE DECODER",
+    "published": "2026-10-20T12:32:56.000Z",
+    "fetched": "2026-10-21T00:01:46.361Z",
+    "summary": "米陸軍サイバーコマンドが開発を進める自律型AIサイバー兵器「ECHOTRIBBLE」は、人間による監視を最小限に抑え、ネットワーク内を自己増殖しながら標的を無力化する機能を持つ。\n\n- 米陸軍サイバーコマンド（ARCYBER）は、AIエージェントを自律型の攻撃的サイバー兵器へ転換するプラットフォーム「ECHOTRIBBLE」を開発している。\n- このシステムはコンピュータワームのようにデバイス間を検知されずに移動し、クラウドや外部から隔離された「エアギャップ」環境でも動作する。\n- 標的に到達した後は、脅威の完全な無力化や一時的無力化、データの削除を行い、任務完了後には自己破壊する仕組みとなっている。\n- ソフトウェアは事前の定義されたトリガーに基づき、最小限の人間の介入で「自己誘導的行動」を行うよう設計されている。\n- 専門家からは、このような自己拡散型AI兵器がもたらす偶発的な被害や連鎖的な影響を制御することは極めて困難であると強い懸念が示されている。",
+    "url": "https://the-decoder.com/army-cyber-commands-echotribble-would-turn-ai-agents-into-self-spreading-cyberweapons/"
+  },
+  {
+    "id": "4003de0e-c1c5-818f-87ab-d9a621edc7b2",
+    "title": "Cloudflare's Clairic pulls data from documents faster and cheaper than LLMs",
+    "site": "THE DECODER",
+    "published": "2026-10-20T12:04:56.000Z",
+    "fetched": "2026-10-21T00:01:53.665Z",
+    "summary": "Cloudflareの新AIモデル「Clairic」は、大規模言語モデル（LLM）よりも高速かつ低コストでドキュメントからデータを抽出する。\n\n- ユーザーが抽出したい項目を指定すると、適切な形式の値と信頼度スコアを返し、値がない場合は「null」を返す\n- トークンを1つずつ生成するLLMとは異なり、1回の処理ですべてのフィールドに回答し、簡単な計算や予測も行える\n- より大きなエージェントチェーンの一部として機能するように設計されており、他のモデルと連携して処理時間を短縮しコストを削減できる\n- 現在は計算処理が長く続くタスクには確実に対応できず、開発者は自身のコードで実行する必要がある\n- Workers AI上でプレビュー版が利用可能となっており、オープンウェイトの公開も近々予定されている",
+    "url": "https://the-decoder.com/cloudflares-clairic-pulls-data-from-documents-faster-and-cheaper-than-llms/"
+  },
+  {
+    "id": "4003de0e-c1c5-81a6-9197-fb65fbaecb37",
+    "title": "US bans Deepseek technology across federal civilian agencies",
+    "site": "THE DECODER",
+    "published": "2026-10-20T11:34:54.000Z",
+    "fetched": "2026-10-21T00:02:00.813Z",
+    "summary": "米国政府が連邦政府の非軍事機関における中国・Deepseek製AI技術の使用を禁止\n\n- 米国土安全保障省が連邦民間機関に対し、中国のDeepseek社製AI技術の使用を禁止し、既存製品の削除と新規購入の停止を命じた。\n- この禁止令は、提携企業やDeepseekの技術を組み込んだサードパーティ製サービスにも及ぶが、具体的な期限やセキュリティ上の懸念については明示されていない。\n- 根拠となったのは連邦調達におけるサプライチェーン安全保障に関する2018年の法律である。\n- 米国政府は今年夏にも中国製オープンウェイトモデルへの規制を検討していたが、テック大手の反対により見送られていた経緯がある。",
+    "url": "https://the-decoder.com/us-bans-deepseek-technology-across-federal-civilian-agencies/"
+  },
+  {
+    "id": "4003de0e-c1c5-8181-8a9b-e11302ffd3eb",
+    "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-10-20T19:34:19.000Z",
+    "fetched": "2026-10-21T00:02:08.112Z",
+    "summary": "Battle Drones: 音声同期マルチプレイを備えた「バイブコーディング」によるRTSゲーム\n\n- サイモン・ウィリソン氏が開発した「Command & Conquer」風のブラウザ向けリアルタイムストラテジー（RTS）ゲームである。\n- コーディングエージェント（主にClaude Code）を活用し、12回の主要なアップデートと321回のコミットを経て構築された。\n- モバイルやデスクトップに対応し、3Dモデル、多彩なマップやユニット、霧の視界、動的なBGMなど豊富な機能を備えている。\n- マイクの音声範囲内にある近くのデバイス同士でゲーム状態を同期し、マルチプレイを楽しめるユニークな機能を搭載している。\n- AI同士の対戦やLLM（大規模言語モデル）同士の対戦モード、ランダムマップ生成など、実験的で多彩なゲームモードが実装されている。",
+    "url": "https://simonwillison.net/2026/Oct/20/battledrones/"
+  },
+  {
+    "id": "4003de0e-c1c5-8135-ac37-fc599e05f2ae",
+    "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+    "site": "Hugging Face Blog",
+    "published": "2026-10-20T18:17:47.000Z",
+    "fetched": "2026-10-21T00:02:15.670Z",
+    "summary": "NVIDIA Cosmos3-H-Dreams: 臨床手術を生成シミュレーションでリアルに再現\n\n- NVIDIAは、臨床手術の視覚的および手技的な複雑さに対応するインタラクティブな生成シミュレーション「Cosmos3-H-Dreams」を発表した。\n- 本システムは、CMR Surgical Versiusプラットフォームを用いた実際の臨床手術（胆嚢摘出術）の映像とロボット運動学データから学習している。\n- 従来の数値シミュレーションとは異なり、シーンの幾何学形状や物理相互作用を明示的にモデル化せず、映像と運動学データから視覚的ダイナミクスを直接学習するワールド基盤モデルである。\n- NVIDIAの高速ストリーミング推論ライブラリ「FlashDreams」とCosmos 3を搭載し、単一のNVIDIA RTX PRO 6000 GPU上でリアルタイムかつインタラクティブに動作する。\n- 組織の伸展、反射の変化、遮蔽、煙による視界の変化など、複雑な体内環境におけるライブの運動学制御をサポートする初のリアルタイム生成手術シミュレーターである。",
+    "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams"
+  },
+  {
+    "id": "4003de0e-c1c5-8199-ac1d-edd5ae263c7a",
+    "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+    "site": "Hugging Face Blog",
+    "published": "2026-10-20T16:09:19.000Z",
+    "fetched": "2026-10-21T00:02:23.290Z",
+    "summary": "LLMの意思決定における真の公平性を評価する新ベンチマーク「FairStress」の概要と重要性\n\n- 従来の公平性ベンチマークは、属性を入れ替えても最終的な選択が同じかどうかを測るものだったが、これだけではモデル内部の隠れた偏見を見落とす危険性がある。\n- 新たに導入された「FairStress」は、最終結果だけでなく、批判や説得（ adversarial prefixes ）を受けた際にモデルの意思決定がどう揺らぐかを測定する。\n- 最終的な出力結果が同じに見えるモデルであっても、有利なデモグラフィック属性に対する説得を受けた際、グループによって決定を変えやすさが異なるという非対称性が確認されている。\n- Olmo、Llama、Qwen、Gemma、Claude、GPTなどの主要なオープンウェイトおよびフロンティアモデルを対象に、トレーニングの各段階における公平性の評価が可能になる。\n- 採用、融資、医療、教育など、人々の機会に重大な影響を与える高リスクな場面でLLMが使用される中、より深く堅牢な公平性を担保するためのオープンな評価ツールとして活用が期待されている。",
+    "url": "https://huggingface.co/blog/allenai/fairstress"
+  },
+  {
+    "id": "4003de0e-c1c5-818d-a3cd-d8a424f6d257",
+    "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+    "site": "Hugging Face Blog",
+    "published": "2026-10-20T15:19:48.000Z",
+    "fetched": "2026-10-21T00:02:30.553Z",
+    "summary": "ALTK-Evolve：学習されたメモリが最先端モデルを使わずカスタマーサービス用ベンチマーク「τ²-bench」で首位を獲得する方法\n\n- IBMの研究チームが開発した「ALTK-Evolve」は、モデルの重みを更新せず、学習されたメモリ（プレイブック）を活用することで、カスタマーサービス向けベンチマーク「τ²-bench」の小売部門でトップの成績を記録した。\n- 本手法では、非推論モデルであるGPT-4.1をベースにした基本的なReActエージェントを使用し、過去の成功や失敗から短い行動ルール（ガイドライン）を自動抽出してシステムプロンプトに追加する。\n- ガイドラインの抽出とエージェントの実行に同じモデルを使用しており、人間のアノテーションやモデルの重みの更新を必要とせずに性能を向上させることができる。\n- τ²-benchのようなポリシーに縛られたカスタマーサービス領域において、ドメイン方針の遵守、顧客の意図の理解、正確なツール実行能力の向上に効果を発揮することが示されている。",
+    "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc"
+  },
+  {
+    "id": "4003de0e-c1c5-81bb-a715-deb76dd40e24",
+    "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+    "site": "Hugging Face Blog",
+    "published": "2026-10-20T00:00:00.000Z",
+    "fetched": "2026-10-21T00:02:38.181Z",
+    "summary": "Hugging FaceがTorchTPUに対応し、TPUをPyTorchのネイティブデバイスとして直接利用できるようになりました。\n\n- TPUs（Tensor Processing Unit）は、Googleが開発したAIアクセラレータであり、大規模な機械学習のトレーニングや推論に優れた性能を発揮します。\n- 従来、PyTorchをTPUで動かすには「torch_xla」の導入が必要でしたが、TorchTPUの登場により、コードを「tpu」デバイスに送るだけで簡単に実行できるようになりました。\n- 新しいネイティブ対応に伴い、今後は「Optimum TPU」を使用しなくても、TransformersやDiffusersなどのHugging FaceライブラリがTPU上で直接動作します。\n- TorchTPUは通常のPyTorchコードをサポートしており、分散学習や、さらなる高速化を実現する「torch.compile」との統合機能も備えています。\n- TP0の仮想マシンへのインストールは「pip install torch-tpu」の1コマンドで行うことが可能です。",
+    "url": "https://huggingface.co/blog/hf-torchtpu"
+  },
+  {
+    "id": "4003de0e-c1c5-81aa-afe6-c9462e4f117d",
+    "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+    "site": "Hugging Face Blog",
+    "published": "2026-10-20T00:00:00.000Z",
+    "fetched": "2026-10-21T00:02:45.381Z",
+    "summary": "Appleプラットフォーム向けローカルモデル統合フレームワーク「AnyLanguageModel 1.0」のリリースについて、1年間の進化や新機能が紹介されています。\n\nAnyLanguageModel 1.0: Appleプラットフォームにおけるローカルモデルの1年\n\n- AppleのFoundation Modelsフレームワークと互換性を持つドロップインAPIを提供し、インポート文を変更するだけでシステムモデルやオープンウェイトモデル、ホスト型モデルを利用可能。\n- ツール呼び出しや、ネストされた型や配列を含むガイド付き生成がすべてのプロバイダでサポートされるようになった。\n- iOS、macOS、visionOSにおいて、プロンプトへの画像添付やCore AIモデルとの連携機能が強化された。\n- OpenAI、Anthropic、Google Gemini、Ollama、Hugging Faceなどの主要なホスト型モデルやエンドポイントへの対応が大幅に拡大した。\n- 高速なモデルダウンロードを実現する「swift-huggingface 1.0」と「swift-xet 1.0」が同時にリリースされた。",
+    "url": "https://huggingface.co/blog/anylanguagemodel-1-0"
+  },
+  {
+    "id": "4003de0e-c1c5-81af-9ce8-e0b01b8eef1e",
+    "title": "MPS in PyTorch 2.15",
+    "site": "Hugging Face Blog",
+    "published": "2026-10-20T00:00:00.000Z",
+    "fetched": "2026-10-21T00:02:53.277Z",
+    "summary": "PyTorch 2.15におけるApple Silicon（MPSバックエンド）のアップデート\n\n- FP8（float8_e4m3fn）がMPSに対応し、モデルのメモリ使用量をBF16の半分に抑えつつ、CUDAやCPUと同様にスケーリングされた行列乗算などの演算が可能になりました。\n- MoEモデルのデコード速度がPyTorch 2.14と比較して5〜6.5倍に高速化し、専用のデコードパスや最適化されたルーターにより、M3 Ultraで大幅な性能向歩を実現しました。\n- 単行の線形レイヤー用特殊カーネルや、約8倍高速化したボキャブラリー上のソフトマックスなどにより、あらゆるLLMのトークン処理時間が短縮されました。\n- 複素数のLU分解や三角方程式の求解、小規模行列の逆行列計算、QR分解など、多くの線形代数演算がGPU上で高速に処理できるようになりました。\n- 畳み込みやパディング、ドロップアウト、補間処理などの最適化により、音声、画像、動画処理およびトレーニング性能が全体的に向上しました。",
+    "url": "https://huggingface.co/blog/mps-pytorch-2-15"
+  },
+  {
+    "id": "4003de0e-c1c5-81ae-b941-d8645f6baa31",
+    "title": "v0.40.7-rc1: mlx: deduplicate CUDA runtime payloads (#17956)",
+    "site": "Ollama Blog",
+    "published": "2026-10-20T21:15:15.000Z",
+    "fetched": "2026-10-21T00:03:01.588Z",
+    "summary": "ollama/ollama v0.40.7-rc1のリリース情報\n\n- Ollamaのオープンソースリポジトリにおける、バージョン「v0.40.7-rc1」のリリースに関するGitHub上のページである。\n- 本リリースの主な変更点として、「mlx: deduplicate CUDA runtime payloads (#17956)」というコミットが含まれており、MLXおよびCUDAランタイムのペイロードの重複排除（デデュプリケーション）が行われている。\n- コミットはGitHub上で作成され、公式の検証済み署名（Verified）が付与されている信頼性の高いものである。\n- このバージョンはリリース候補版（rc1）であり、正式リリースに向けたテストや検証段階のビルドとして提供されている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1"
+  }
+]
