@@ -1,0 +1,200 @@
+[
+  {
+    "id": "4023de0e-c1c5-81e7-9a80-dc10cbf9b572",
+    "title": "Major US banks are locking out AI agents that log in with customer credentials",
+    "site": "THE DECODER",
+    "published": "2026-10-22T18:26:02.000Z",
+    "fetched": "2026-10-23T00:01:09.734Z",
+    "summary": "主要な米国の銀行が、顧客の認証情報を使用してログインするAIエージェントのアクセスを遮断し始めている。\n\n- モルガン・スタンレー、JPMorgan、バンク・オブ・アメリカ、ウェルズ・ファーゴなどの主要銀行が、銀行の承認を得ずに顧客情報を利用してアクセスする外部AIエージェントの制限に乗り出している。\n- 現行の銀行ポリシーでは口座保有者本人のログインが義務付けられており、一部のAIエージェントがユーザーの直接的な指示なしに独自に動作している可能性やセキュリティリスクが懸念されている。\n- 銀行側はAIエージェントによるデータの閲覧（読み取り専用）のみを許可したい意向だが、エージェントがユーザーの代理か単独かを識別することが困難であるため、全面的なブロックなどの措置をとっている。\n- 一方で、ユーザーはブラウザツールやオープンソースソフトを介してAIにアクセス権を与えることが可能であり、サービス側での完全なブロックには技術的な難しさも伴う。\n- OpenAIは米国において、財務データへの読み取り専用アクセスを備えた金融タスク向けの専用ChatGPTサービスを展開するなど、安全な利用に向けた動きも見られる。",
+    "url": "https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials/"
+  },
+  {
+    "id": "4023de0e-c1c5-819f-ad01-f1fe2e196bba",
+    "title": "Google's Agent Compute Engine gives every Gemini agent its own hardware-isolated micro virtual machine",
+    "site": "THE DECODER",
+    "published": "2026-10-22T17:50:09.000Z",
+    "fetched": "2026-10-23T00:01:17.344Z",
+    "summary": "Googleが発表した「Agent Compute Engine」は、AIエージェントごとにハードウェアで隔離された専用のマイクロ仮想マシン（microVM）を提供するサービスであり、コスト削減と効率化を実現しています。\n\n- 各AIエージェントにGoogleのTitaniumチップでセキュリティが確保された独自のmicroVMを割り当て、すでにGeminiに導入されており、今後数ヶ月でプレビュー公開される。\n- エージェントがアイドル状態になるとVMが自動的に一時停止してリソースを解放し、VM間でメモリを共有することで運用コストを大幅に削減する。\n- オープンソースのKubernetesランタイム「Agent Substrate」により、1台のサーバー上で従来の10倍のエージェントを実行可能にし、20万エージェントのテストでは一時停止と再開が500ミリ秒未満で行われた。\n- トークン追跡やモデルルーティングに加え、Ping IdentityやSailPointといったサードパーティ製IDプロバイダへの対応などの監視・管理機能が追加される。\n- これらのコントロール機能は、Cloud Run、GKE、マネージドエンドポイントにも拡張される予定である。",
+    "url": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/"
+  },
+  {
+    "id": "4023de0e-c1c5-81cd-9a99-ddabd564e7d4",
+    "title": "Only 13 percent of companies see real returns from AI, Gartner survey finds",
+    "site": "THE DECODER",
+    "published": "2026-10-22T16:18:02.000Z",
+    "fetched": "2026-10-23T00:01:24.919Z",
+    "summary": "Gartnerの調査によると、AIから実際のビジネス上の成果（リターン）を得られている企業はわずか13%に留まっています。多くの企業がAI投資を利益やコスト削減につなげることに苦戦しており、ベンダー側の「イノベーション競争」と企業が求める「成果競争」との間に大きなギャップが生じています。\n\n- ガートナーの調査（CIOなど2,002人が対象）によると、AIから大きな変革をもたらすリターンを得られていると回答した企業はわずか13%であった。\n- CIOの58%がAIによるコスト削減を求められている一方、51%はAIが技術スタック全体の運用コストを押し上げると予想している。\n- CEOの44%が、ステークホルダーに対してAIによる財務的リターンを証明することに苦労している。\n- 成功している企業は、早期に見込みのないプロジェクトを中止し、AIエージェントが職務をどう変革するかをあらかじめ計画している。\n- 不確実なリターンにもかかわらず、CEOの75%は今後もテクノロジー支出を増やす計画である。",
+    "url": "https://the-decoder.com/only-13-percent-of-companies-see-real-returns-from-ai-gartner-survey-finds/"
+  },
+  {
+    "id": "4023de0e-c1c5-812f-b7c5-e159b05f8cde",
+    "title": "Recursive shows first result of its AI-driven research process with Flint",
+    "site": "THE DECODER",
+    "published": "2026-10-22T14:40:16.000Z",
+    "fetched": "2026-10-23T00:01:32.672Z",
+    "summary": "AIスタートアップのRecursive社が、内部AIシステム「Eureka Machine」を活用して開発したプログラミング向け言語モデル「Flint」を発表しました。\n\n- AIスタートアップのRecursiveが、自律的に実験を行い開発を主導するAIシステム「Eureka Machine」を用いて、プログラミング向け言語モデル「Flint」を開発した。\n- Flintは400億パラメータ（アクティブ25億）を持つMixture-of-Experts（MoE）モデルであり、AppleおよびNvidia製ハードウェアでの高速なローカル実行に最適化されている。\n- 50億パラメータ未満のMoEモデルにおいて、SWE-Benchなどの主要なコーディングベンチマークでトップクラスの性能を主張している。\n- M4 Pro搭載のMacBook Proなどのローカル環境において、より大規模な密なモデルと同等の性能を5倍以上の速度で発揮する。\n- モデルはApache 2.0ライセンスのもと、Hugging Faceで無償公開されており、将来的にはAI自身がさらなる進化を主導するシステムの構築を目指している。",
+    "url": "https://the-decoder.com/recursive-shows-first-result-of-its-ai-driven-research-process-with-flint/"
+  },
+  {
+    "id": "4023de0e-c1c5-81bf-82f4-f4bad42df060",
+    "title": "An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks",
+    "site": "THE DECODER",
+    "published": "2026-10-22T11:30:56.000Z",
+    "fetched": "2026-10-23T00:01:40.176Z",
+    "summary": "Symantec社は、「スカイネット・モード」と呼ばれる悪意あるAIエージェントが、インターネット上の保護されていない言語モデルを乗っ取り、人間の介入なしに自己持続型のサイバー攻撃を実行する事例を確認した。この手法は「LLMjacking」と呼ばれ、乗っ取られたAIシステムの所有者に巨額の計算コストの請求が押し付けられる点が特徴である。\n\n- セキュリティ企業Symantecが、ハニーポットを用いて保護されていない言語モデルを乗っ取り自動攻撃を行う悪意あるAIエージェントを分析した。\n- このAIエージェントは5層のジェイルブレイク（脱獄）技術により安全ガードレールを回避し、人間の介入なしに最大10万ステップの攻撃を実行できる。\n- 攻撃の過程で標的のスキャン、サーバーソフトの脆弱性悪用、データベースや認証情報の窃取、バックグラウンドでのマイニングツール設置などを行う。\n- Symantecはこの手法を「LLMjacking」と名付け、悪用されたAIモデルの所有者には高額なコンピュート（計算資源）の請求が残される。\n- 攻撃者がデコイシステム（ハニーポット）に全プロンプトを送信したことで、エージェントの攻撃計画とアーキテクチャ全体が明らかになった。",
+    "url": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/"
+  },
+  {
+    "id": "4023de0e-c1c5-81e8-99a9-f0ba9d4c3ce3",
+    "title": "OpenAI agents analyze mouse brain data in 32 minutes, a job that would take humans months",
+    "site": "THE DECODER",
+    "published": "2026-10-22T10:01:53.000Z",
+    "fetched": "2026-10-23T00:01:47.939Z",
+    "summary": "OpenAIのエージェントがマウスの脳データをわずか32分で分析、人間が行えば数か月かかる作業を効率化\n\n- OpenAIはPerturbAIおよびスクリプス研究所と協力し、数千のAIエージェントを活用して数百万のマウス細胞の生物学的データを分析した。\n- 「GPT-Rosalind」を搭載したAIエージェントが全脳CRISPRアトラスを用いて解析を行い、わずか32分で完了させた。人間が手作業で行うと数か月〜1年かかる規模の作業である。\n- 各エージェントは単一の遺伝子変異を担当し、細胞の反応分析や関連する科学文献の調査を並行して実行した。\n- 分析の結果、疾患関連遺伝子の予期せぬ違いや、コレステロール調節と神経変性疾患の潜在的な関連性などが発見された。\n- 人間の専門家によるブラインドテストでは、複数の分散エージェントによるレポートが単一エージェントのものよりも75%の確率で好まれ、その成果はGitHubやbioRxivで公開されている。",
+    "url": "https://the-decoder.com/openai-agents-analyze-mouse-brain-data-in-32-minutes-a-job-that-would-take-humans-months/"
+  },
+  {
+    "id": "4023de0e-c1c5-8198-8ed3-c4fca78be9fe",
+    "title": "Anthropic takes on Grok Bot, Meta's Muse, and OpenAI's Dots with its always-on agent \"Claude Duet\"",
+    "site": "THE DECODER",
+    "published": "2026-10-22T08:35:22.000Z",
+    "fetched": "2026-10-23T00:01:55.954Z",
+    "summary": "Anthropic、バックグラウンドで自律的にタスクを処理する常時稼働AIエージェント「Claude Duet」のプレビュー版を発表\n\n- Anthropicは、ユーザーの代わりにバックグラウンドでタスクを処理する常時稼働型のAIエージェントアプリ「Claude Duet」のプレビュー版を発表した。競合のGrok Bot、MetaのMuse、OpenAIのDotsに対抗するものである。\n- Claude Duetはクラウド上で実行され、Gmail、Slack、Stripeなどの外部サービスと連携して、スケジュール調整や請求書の準備などを自律的にこなす。\n- 従来のチャット型アプリとは異なり、エージェント側からユーザーにアプローチする仕組みになっており、毎朝の重要事項のサマリー送信や、対応が必要な際の声かけを行う。\n- 決済やメッセージ送信などの機密性の高いアクションを実行する前には必ずユーザーの承認を求め、銀行振込などは完全にブロックされる安全設計となっている。\n- iOS、Android、ウェブに対応し、「Claude Opus 5.5」を基盤としており、米国のProおよびMaxプランの加入者を対象にウェイリスト方式で提供が開始されている。",
+    "url": "https://the-decoder.com/anthropic-takes-on-grok-bot-metas-muse-and-openais-dots-with-its-always-on-agent-claude-duet/"
+  },
+  {
+    "id": "4023de0e-c1c5-81c9-b7d7-df3c0972fb3a",
+    "title": "Donating Agent Skills to the Agentic AI Foundation",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-10-22T18:09:56.000Z",
+    "fetched": "2026-10-23T00:02:04.379Z",
+    "summary": "Anthropicが「Agent Skills」の標準規格をAgentic AI Foundation（AAIF）へ寄贈したことに関する、シモン・ウィリソン氏のブログ記事の要約です。\n\nエージェントスキルズ規格のエージェントAI財団（AAIF）への寄贈と、オープンでベンダーニュートラルな運営の維持が本件の核心です。\n\n- Anthropicが「Agent Skills」の標準規格をLinux Foundation傘下のAgentic AI Foundation（AAIF）へ寄贈した\n- AAIFは、Anthropicが昨年にBlockやOpenAIと共に共同設立し、Model Context Protocol（MCP）も寄贈された組織である\n- 著者であるシモン・ウィリソン氏は、Anthropicがスキルを「オープン標準」と宣言した昨年12月の時点で、この寄贈を予測していた\n- 著者は自身のブログ検索に、Claudeとdatasette-mcpプラグインを組み合わせて過去の予測記事を発見したというエピソードを紹介している",
+    "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/"
+  },
+  {
+    "id": "4023de0e-c1c5-8178-b0c5-c3cff2270b7a",
+    "title": "Quoting Armin Ronacher",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-10-22T15:34:13.000Z",
+    "fetched": "2026-10-23T00:02:11.987Z",
+    "summary": "アーミン・ロナッーの言葉の引用とAI時代がもたらすソフトウェア開発の課題\n\n- アーミン・ロナッーの言葉として、AIは楽しい一方で、過去30年間に構築してきた多くの低品質なソフトウェアのツケを、現在の宇宙（世界）から罰せられているのだという見解が紹介されている。\n- サイモン・ウィリソンのウェブロログに2026年10月22日付で投稿された引用記事である。\n- 記事には、AI、生成AI、LLM、セキュリティなどのタグが付けられている。\n- 近年の関連する話題として、AIを活用したリアルタイムストラテジー（RTS）ゲームやPythonのバージョン移行、音声機能を利用したブログの新機能などが挙げられている。",
+    "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/"
+  },
+  {
+    "id": "4023de0e-c1c5-81e1-b34c-e2eb432febd1",
+    "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+    "site": "Hugging Face Blog",
+    "published": "2026-10-22T22:24:34.000Z",
+    "fetched": "2026-10-23T00:02:19.407Z",
+    "summary": "データベースの検証結果を強化学習の報酬に活用し、AIエージェントの性能を大幅に向上させた手法「ThinkingBox」についての解説記事です。\n\nデータベースの最終状態を検証して0か1の報酬を与える仕組みを構築し、外部タスクのトレーニングに応用した結果、モデルの平均成功率と安定性が大きく向上しました。\n\n- データベースの最終状態と期待される結果を比較する実行可能な検証システム「ThinkingBox」を、強化学習の報酬関数として活用した。\n- Qwen3.8-27Bモデルを用いた実験では、わずか50回のGRPOステップで平均成功率が51.70%から60.78%へと上昇した。\n- 20回の試行すべてで正解したタスク数が38から107へと大幅に増加し、エージェントの処理の dependability（信頼性）が向上した。\n- MicrosoftとHugging Faceの共同研究として進められ、ThinkingBox-TrainingのコードがGitHubで公開されている。",
+    "url": "https://huggingface.co/blog/microsoft/thinkingbox-training"
+  },
+  {
+    "id": "4023de0e-c1c5-81b5-a1b6-f523bdaa1bdf",
+    "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+    "site": "Hugging Face Blog",
+    "published": "2026-10-22T16:11:31.000Z",
+    "fetched": "2026-10-23T00:02:27.063Z",
+    "summary": "OlmoEarth v1.3：地球全体をカバーする最先端の衛星データ埋め込みモデルの公開\n\n- Allen Institute for AI（AI2）が、最先端の衛星埋め込みモデル「OlmoEarth v1.3」と、地球全体を網羅する事前計算済みの年間埋め込みデータを公開した。\n- 本モデルは、1年間分のレーダーおよびマルチスペクトル衛星時系列データから、地球上の10mピクセルごとに128次元（および64次元）のベクトルを生成する。\n- ソースコープティブ（Source Cooperative）を通じて地球全体のデータが無償で共有されており、ユーザーはローカル環境で軽量な分類器を学習させるだけで、土地被覆図の作成や変化分析を手軽に行える。\n- 専門知識やGPUがなくてもブラウザ上でマップの探索・カスタマイズができる「OlmoEarth Embeddings Explorer」が新たに提供され、誰でも直感的に利用可能となった。\n- 衛星画像のダウンロードや大規模なモデルのファインチューニングの必要性がなくなり、多様なタスクに低コストで再利用できる環境が実現した。",
+    "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3"
+  },
+  {
+    "id": "4023de0e-c1c5-81dd-9e15-cc3bdab539b9",
+    "title": "Ensemble forecasting with IBM Granite time-series models",
+    "site": "Hugging Face Blog",
+    "published": "2026-10-22T07:51:31.000Z",
+    "fetched": "2026-10-23T00:02:34.137Z",
+    "summary": "IBM Granite時系列モデルを活用したアンサンブル予測手法\n- 4つの異なるGranite時系列モデルを組み合わせることで、モデル選定の手間を減らし、より精度の高い予測を実現する。\n- 再学習や重みの調整不要で、中央値や分位点予測を出力できる。\n- 推奨されるデフォルト手法として、一様な確率プーリングを用いる「確率的アンサンブル」が提供されている。\n- アダプティブな代替手法として、四分位範囲（IQR）に基づく「IQRアンサンブル」も利用可能である。\n- 天気予報のマルチモデルアンサンブルと同様の発想で、異なるモデルの視点を統合し、予測精度を向上させる。",
+    "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1"
+  },
+  {
+    "id": "4023de0e-c1c5-81c5-a58c-d83d0a57770c",
+    "title": "Kitten-TTS 2: New Open-source SOTA 1.58 bit TTS (CPU-only with voice cloning, multilingual, emotion control)",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-22T00:33:11.000Z",
+    "fetched": "2026-10-23T00:02:41.427Z",
+    "summary": "Kitten-TTS 2: 新たなオープンソースSOTA 1.58ビット音声合成（CPUのみで動作、音声クローン、多言語、感情制御対応）\n\n- CPUのみで動作する、新しいオープンソースの最先端（SOTA）1.58ビット音声合成モデルである。\n- 高い効率性を実現しており、特別なGPUを使用せずCPU環境のみでスムーズに実行できる。\n- 音声クローン機能を搭載しており、任意の声を再現することが可能である。\n- 多言語に対応しており、グローバルな利用に適している。\n- 感情制御機能を備えており、出力する音声のニュアンスを柔軟に調整できる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc48or/kittentts_2_new_opensource_sota_158_bit_tts/"
+  },
+  {
+    "id": "4023de0e-c1c5-81a0-803f-f068def8a528",
+    "title": "Qwen4 and Kimi3.1 on Arena apperantly",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-22T13:47:14.000Z",
+    "fetched": "2026-10-23T00:02:48.837Z",
+    "summary": "Qwen4とKimi3.1がArenaに登場\n\n- 最新のAIモデルであるQwen4とKimi3.1が、AIモデルの性能を比較・評価するプラットフォーム「Arena」に突如として登場した。\n- これらのモデルの出現により、LLM（大規模言語モデル）市場における開発競争がさらに激化していることが示唆されている。\n- Arena上でのユーザー評価やベンチマーク結果を通じて、従来モデルと比較した際の実用性能や新たな機能の有無に注目が集まっている。\n- 中国発の主要なAI開発元である両社の最新モデルが並行して評価されることで、グローバルなAI技術の勢力図にどのような影響を与えるかが議論されている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcj1wm/qwen4_and_kimi31_on_arena_apperantly/"
+  },
+  {
+    "id": "4023de0e-c1c5-812f-ac42-fea1d16f871b",
+    "title": "Repair shop receives eight GeForce RTX 5090 and RTX 4090 cards with melted 16-pin connectors in two days",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-22T14:38:31.000Z",
+    "fetched": "2026-10-23T00:02:56.047Z",
+    "summary": "GeForce RTX 5090およびRTX 4090の16ピン電源コネクタが溶損したトラブルが、わずか2日間で8件も修理店に持ち込まれました。\n\n- 修理店には、たった2日間で合計8枚ものRTX 5090およびRTX 4090のグラフィックボードが持ち込まれた。\n- すべてのカードに共通して、16ピンの電源コネクタ部分が熱で溶損している深刻な破損が見られた。\n- 次世代ハイエンドGPUであるRTX 5090においても、前世代のRTX 4090と同様の電源コネクタ発熱・溶損問題が継続している懸念がある。\n- 高い電力消費を伴うフラグシップモデルにおいて、電源ケーブルの接続不良や電力供給の仕様に関する安全性の確保が重要な課題となっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xckdep/repair_shop_receives_eight_geforce_rtx_5090_and/"
+  },
+  {
+    "id": "4023de0e-c1c5-8142-893b-e0ea0c190f56",
+    "title": "DeepSeek and MiniMax Clear China’s AI Export Rules for Overseas Open-Source Releases",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-22T17:07:31.000Z",
+    "fetched": "2026-10-23T00:03:04.495Z",
+    "summary": "中国のAI企業であるDeepSeekとMiniMaxが、海外でのオープンソース公開に向けて中国のAI輸出規制をクリアしたというニュースの要約は以下の通りです。\n\nDeepSeekとMiniMaxによる海外向けのオープンソースAIモデルのリリースが、中国国内の厳しいAI輸出・規制プロセスを正式に通過しました。この動きにより、中国の主要なAIスタートアップが海外市場に向けて本格的に展開する道が開かれ、グローバルなAI開発エコシステムへの参加が加速することが期待されています。\n\n- DeepSeekとMiniMaxが、海外でのオープンソース公開に関する中国のAI輸出規制をクリアした\n- 中国のAIスタートアップによるグローバル展開への道が正式に開かれた\n- 両社のオープンソースモデルが海外市場に提供されることで、国際的なAI開発競争に影響を与える可能性がある\n- 中国政府によるAI技術の輸出管理プロセスが、具体的な事例を通じて運用され始めていることを示している",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcoelw/deepseek_and_minimax_clear_chinas_ai_export_rules/"
+  },
+  {
+    "id": "4023de0e-c1c5-81ef-9a8e-de9a9d5aac01",
+    "title": "Ant Ling just announced a second model today: Ling-3.0-flash-Sante (124B, 5.1B active)",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-22T15:22:41.000Z",
+    "fetched": "2026-10-23T00:03:11.764Z",
+    "summary": "Ant Ling社が新しいAIモデル「Ling-3.0-flash-Sante」を発表\n\n- Ant Ling社が本日、新しいAIモデル「Ling-3.0-flash-Sante」を発表した。\n- 本モデルは総パラメータ数が124B（1240億）の大規模モデルである。\n- 同時に、実際に稼働するアクティブパラメータ数は5.1B（51億）に抑えられている。\n- パラメータ数を効率化することで、処理の高速化やリソースの最適化が図られているとみられる。\n- 「flash」の名が示す通り、高い処理性能とスピードを両立させたモデルとして注目される。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcljvi/ant_ling_just_announced_a_second_model_today/"
+  },
+  {
+    "id": "4023de0e-c1c5-81e5-afc4-fab1402555ca",
+    "title": "v0.40.9",
+    "site": "Ollama Blog",
+    "published": "2026-10-22T23:38:47.000Z",
+    "fetched": "2026-10-23T00:03:18.994Z",
+    "summary": "Ollama v0.40.9 リリース情報\n\n- GitHub上のollama/ollamaリポジトリにおける「v0.40.9」のリリースおよびプレリリースに関するページである。\n- 本バージョンに関連して、プレリリース版である「v0.40.9-rc3」などのタグやバージョン情報が確認できる。\n- リポジトリ内では、コードの閲覧、Issues（約2.6千件）、Pull requests（約1.8千件）、Actions、セキュリティ、インサイトなどの機能にアクセス可能である。\n- ページ読み込み時にエラーが発生した場合の表示や、複数タブ・ウィンドウ間でのサインイン・サインアウト状態の変化に対するアラート機能が含まれている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc3"
+  },
+  {
+    "id": "4023de0e-c1c5-8128-be79-d21f0b587d34",
+    "title": "v0.40.9-rc2: flint: fix replies with thinking disabled (#19216)",
+    "site": "Ollama Blog",
+    "published": "2026-10-22T18:38:27.000Z",
+    "fetched": "2026-10-23T00:03:26.612Z",
+    "summary": "ollama/ollama v0.40.9-rc2リリースノート：flintにおける思考機能無効時の返答不具合を修正\n\n- AIモデル管理プラットフォーム「Ollama」の開発版リリース（v0.40.9-rc2）に関するGitHubのページである。\n- 「flint」コンポーネントにおける修正が含まれている。\n- 思考プロセス（thinking）機能が無効化されている状態での返答に関する不具合（#19216）が修正された。\n- コミットはGitHub上で作成され、検証済みのGPG署名が付与されている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc2"
+  },
+  {
+    "id": "4023de0e-c1c5-8162-8052-c6e8b7d3cb12",
+    "title": "v0.40.9-rc1",
+    "site": "Ollama Blog",
+    "published": "2026-10-22T00:13:25.000Z",
+    "fetched": "2026-10-23T00:03:33.663Z",
+    "summary": "ollama/ollama v0.40.9-rc1 リリースノート\n\n- OllamaプロジェクトのGitHubリポジトリにおいて、バージョン「v0.40.9-rc1」のリリース候補（RC）が公開された。\n- コミットID「de25dd5」に関連付けられており、GitHubの署名による検証済み（Verified）のコミットとなっている。\n- GPGキー ID（B5690EEEBB952194）を使用して安全性が確認された状態で作成されている。\n- リポジトリ内では、コード、2.6k件以上のIssues、1.8k件以上のPull requests、アクション、セキュリティ、品質管理などの項目が管理されている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc1"
+  },
+  {
+    "id": "4023de0e-c1c5-81e9-b60a-dd7977e060b8",
+    "title": "How to Read Data into GPU Memory in Python with NVIDIA GPUDirect Storage",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-10-22T16:39:09.000Z",
+    "fetched": "2026-10-23T00:03:41.590Z",
+    "summary": "NVIDIA GPUDirect Storageを活用したPythonでのGPUメモリへのデータ読み込み効率化\n\n- NVIDIA KvikIOがcuFile C API上の高レベルなPython・C++インターフェースを提供し、ストレージからGPUメモリへの高速なファイルI/Oを実現する。\n- KvikIOとcuFileが独立して経路選択を行い、アクセラレーテッドな「nvidia-fs」カーネルモジュールまたはCPU経由の互換パスのいずれかを使用する。\n- KvikIOの動作やcuFileの要求分解・スケジューリングは、環境変数や設定ファイルによって制御・調整が可能である。\n- `CUFILE_STATS_LEVEL=3`と`gds_stats`により、転送が高速経路を通ったか互換パスを通ったかの統計情報を検証できる。\n- AIモデルやデータセットの急激な大規模化に伴うストレージからのデータ転送のボトルネックを、GPUDirect Storageが直接データパスを提供することで解消する。",
+    "url": "https://developer.nvidia.com/blog/how-to-read-data-into-gpu-memory-in-python-with-nvidia-gpudirect-storage/"
+  },
+  {
+    "id": "4023de0e-c1c5-8146-a58e-e6d119f6087d",
+    "title": "Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-10-22T16:00:00.000Z",
+    "fetched": "2026-10-23T00:03:49.249Z",
+    "summary": "8基のNVIDIA DGX Sparkノードによるフロンティア級AIモデルの実行とクラスタリング技術\n\n- NVIDIAは公式に8ノードのDGX Sparkクラスタのサポートを発表し、ユニファイドメモリを1TBに拡張して大規模なフロンティア級モデルのローカル実行を実現した。\n- Spark最適化された集合通信バックエンド「RoCEnante」の導入により、テンソル並列デコードのレイテンシが削減され、8ノードで4.43倍のデコード高速化を達成した。\n- NVIDIA NeMo Switchyardによる複数モデルのルーティングを活用することで、品質を維持しながら集約スループットを最大3倍まで向上させることが可能になった。\n- 8ノード間でのnanochatモデルのゼロからの事前学習において、97.4%という高いスケーリング効率と7.79倍の高速化を実現し、優れた並列学習性能を示した。",
+    "url": "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes/"
+  }
+]
