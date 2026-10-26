@@ -1,0 +1,110 @@
+[
+  {
+    "id": "4053de0e-c1c5-818f-8e1b-df634904f83b",
+    "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
+    "site": "THE DECODER",
+    "published": "2026-10-25T10:08:49.000Z",
+    "fetched": "2026-10-26T00:01:15.243Z",
+    "summary": "Nvidiaがオープンソースで公開したロボット用動画アノテーションエンジン「Flora」は、GPT-6 Astraと比較して125分の1という低コストで大量の動画ラベル付けを可能にするシステムです。\n\n- ロボット学習に必要な「行動の説明」「ステップごとの進捗評価」「タスク成功の判定」の3種類のラベル付けを1つで網羅している。\n- NvidiaのGEAR研究室では、GR00Tモデルの学習において、512基のGB300 GPUを用いて1日あたり最大20万時間の動画アノテーションに活用されている。\n- ファインチューンされた複数のQwen3.5モデル（9Bおよび27B）を組み合わせて構成されており、動画の分割、動作の説明、成否の評価を行う。\n- 1時間分の動画のラベル付けコストを従来の88ドルから72セントへと大幅に削減し、Hugging Faceでモデルが公開されている。",
+    "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/"
+  },
+  {
+    "id": "4053de0e-c1c5-81ff-b6cf-f3f829ea466e",
+    "title": "Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027",
+    "site": "THE DECODER",
+    "published": "2026-10-25T09:37:46.000Z",
+    "fetched": "2026-10-26T00:01:23.022Z",
+    "summary": "Anthropicの共同創業者ジャック・クラーク氏が自己改善型AIの実現予測を2027年に前倒し\n\n- AIが自ら実験を設計し結果を解釈する能力を測る新ベンチマーク「TasteVal」において、その能力が2025年12月以降3か月ごとに約2倍のペースで急激に向上していることが判明した。\n- P-Zero Researchが定義する「研究テイスト」において、最良のテストモデルは24人の人間の専門家グループをわずかなコストで上回る成果を出した。\n- Anthropicの共同創業者であり「Import AI」のニュースレター執筆者でもあるジャック・クラーク氏は、この急速な進歩に基づき、AIが自らの後継者を開発する「再帰的自己改善（RSI）」の実現時期を、従来の2028年から2027年へと前倒しした。\n- TasteValは科学的作業の狭い一部を測定しているに過ぎず、AI自身が自らを改善している直接的な証明ではないが、議論の中心が単なるモデルの性能から、自律的な研究遂行能力へと移行していることを示している。",
+    "url": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027/"
+  },
+  {
+    "id": "4053de0e-c1c5-81c1-ae51-d477edd02f07",
+    "title": "Anthropic says one AI agent beats many subagents now that models can handle complexity alone",
+    "site": "THE DECODER",
+    "published": "2026-10-25T09:12:10.000Z",
+    "fetched": "2026-10-26T00:01:30.320Z",
+    "summary": "Anthropic：モデルの複雑性処理能力向上により、多くのサブエージェントよりも単一のAIエージェントが優れていると発表\n\n- Anthropicは、複数の特化したサブエージェントを統合し、必要な時にコンテキストを読み込む単一のエージェントへの移行を推奨している。\n- 多数のサブエージェントを使用するマルチエージェント構成は、レイテンシーの増大、コストの上昇、引き継ぎごとの情報損失を引き起こすことが分かっている。\n- 新しいモデル（Opus 4.5、Opus 5.5、Fable 5.1など）は複雑な計画を単一のループで直接管理できるため、品質、コスト、レイテンシーの面で優れた成果を上げる。\n- ある企業の実例では、多数のサブエージェントを導入したことでブランド体験の維持が困難になり、レイテンシーの悪化を招いていた。\n- 企業が単一エージェントへの移行を評価し、実装できるようにするための移行キットがGitHubで公開されている。",
+    "url": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/"
+  },
+  {
+    "id": "4053de0e-c1c5-811e-a2f0-df862d1f8d1d",
+    "title": "Ex-Google CEO Eric Schmidt calls OpenAI and Anthropic modern colonial trading companies",
+    "site": "THE DECODER",
+    "published": "2026-10-25T08:09:32.000Z",
+    "fetched": "2026-10-26T00:01:38.990Z",
+    "summary": "米国の膨大な資本やエネルギーを背景にAI市場が米中二極化する中、エリック・シュミット元Google CEOらが、OpenAIやAnthropicなどの企業が現代の植民地貿易会社のような構造を生み出していると指摘した記事である。\n\n- 米国と中国がグローバルなAI市場を支配しており、他国は高度なAIへのアクセスを巡り両国への依存を強めている。\n- AIの進化には莫大なエネルギーや半導体、資本が必要不可欠であり、一定の基準に満たない国は事実上ゲームに参加できない。\n- コンゴの鉱物資源やケニアの低賃金なデータワーカーの搾取は、「チャットボット時代のプランテーション経済」と例えられている。\n- OpenAIやAnthropicなどの企業は、かつての植民地時代における東インド会社のような存在になりつつあると指摘されている。",
+    "url": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies/"
+  },
+  {
+    "id": "4053de0e-c1c5-81c9-a852-c16df6791b67",
+    "title": "OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers",
+    "site": "THE DECODER",
+    "published": "2026-10-25T07:30:11.000Z",
+    "fetched": "2026-10-26T00:01:46.919Z",
+    "summary": "OpenAIがAnthropicの主要顧客を獲得するため最大90%の割引を提供している\n\n- OpenAIが積極的な割引攻勢をかけ、RipplingやReplit、DataCampなどの大企業顧客をAnthropicから奪うことに成功している。\n- Replitは年間1億ドル規模の契約で30%以上の割引を受け、DataCampはコストを80〜90%削減できたと報告している。\n- OpenAIは自社の利益率を犠牲にして市場シェアを買い取る一方で、「Sol」や「Luna」モデルの効率化により実際のコスト削減も実現している。\n- Anthropicは第2四半期から第3四半期にかけて成長が鈍化しており、両社ともに中国の低価格かつ高性能なAIモデルによる激しい価格圧力に直面している。",
+    "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/"
+  },
+  {
+    "id": "4053de0e-c1c5-81dd-969f-e841e1bba4cc",
+    "title": "OpenMobile-2 proves open-source smartphone agents can rival proprietary models",
+    "site": "THE DECODER",
+    "published": "2026-10-25T06:55:22.000Z",
+    "fetched": "2026-10-26T00:01:54.354Z",
+    "summary": "オープンソースのスマートフォン向けAIエージェント「OpenMobile-2」は、独自のシミュレーション環境を活用することで、プロプライエタリ（独自）モデルに匹敵する性能を持つことが証明されました。南京大学やSenseTimeなどの研究チームによって開発され、Qwenベースの9Bおよび27Bモデルがトレーニング環境やデータとともに公開されています。\n\n- データ量よりもアプリの多様性が重要であり、同じデータ量でも訓練するアプリの数を増やすことで、未知のアプリケーションにおける成功率が60.7%から67.5%に向上した。\n- 実際のスマートフォンアプリでの訓練は、ログインや課金、状態リセットの難しさなどの課題があるため、中国の主要アプリや世界的なサービスを含む110以上のアプリをシミュレートした環境で学習を行った。\n- 実機のAndroidデバイスを用いたベンチマーク「SPA-Bench」において、大規模なモデルは59.6点を獲得し、オープンモデルの中で最高の結果を記録した。\n- 研究チームは、モデル本体だけでなく、完全なトレーニング環境やデータ、再現手順もすべて公開し、オープンソースモデルと独自モデルのギャップを埋めることを目指している。",
+    "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/"
+  },
+  {
+    "id": "4053de0e-c1c5-817c-bb80-fc32e01ff63a",
+    "title": "OpenAI and Anthropic blocked the reverse engineering of smart TVs spying on us",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-25T02:51:18.000Z",
+    "fetched": "2026-10-26T00:02:01.786Z",
+    "summary": "OpenAIとAnthropic、スマートテレビの盗聴行為をリバースエンジニアリングからブロック\n\n- OpenAIとAnthropicが、ユーザーをスパイしているスマートテレビのリバースエンジニアリングをブロックしたことが明らかになった。\n- スマートテレビがユーザーの視聴データなどを無断で収集・監視している問題に対し、調査や解析を行う動きをAI企業側が制限した形となる。\n- このブロック措置により、プライバシー侵害の懸念があるスマートテレビの内部動作やデータ収集の実態解明が困難になる恐れがある。\n- AI技術やプラットフォームの利用規約、あるいはセキュリティ対策が、奇しくも消費者を監視するハードウェアの保護に働いてしまった事例として議論を呼んでいる。\n- プライバシー保護の観点から、デバイスによるデータ収集の透明性確保と、それを調査する手段の必要性が改めて問われている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xer30z/openai_and_anthropic_blocked_the_reverse/"
+  },
+  {
+    "id": "4053de0e-c1c5-81c0-9750-dcb85e310bc9",
+    "title": "Nanbeige/Nanbeige4.3-33B · Hugging Face",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-25T12:01:34.000Z",
+    "fetched": "2026-10-26T00:02:10.027Z",
+    "summary": "Nanbeige/Nanbeige4.3-33BのHugging Faceページに関する情報\n\n- Hugging Faceプラットフォーム上で公開されている「Nanbeige/Nanbeige4.3-33B」というAIモデルまたはリポジトリに関するページである。\n- モデル名に含まれる「33B」という数字から、約330億（33 Billion）のパラメータを持つ大規模言語モデル（LLM）である可能性が高い。\n- 研究者や開発者がこのモデルをダウンロードして利用できるように、重みデータやモデルカード、ライセンス情報などが掲載されている。\n- 自然言語処理のタスクにおいて高い性能を発揮することが期待され、オープンソースのAIコミュニティで共有・活用されている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf0kz4/nanbeigenanbeige4333b_hugging_face/"
+  },
+  {
+    "id": "4053de0e-c1c5-8187-bde4-cf55460520f1",
+    "title": "A 4B coding model that can generate 3D scenes",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-25T06:10:59.000Z",
+    "fetched": "2026-10-26T00:02:17.195Z",
+    "summary": "3Dシーンを生成可能な4Bコーディングモデル\n\n- 本記事は、3Dシーンの生成能力を持つ40億（4B）パラメータ規模のコーディングモデルについての情報を扱っています。\n- 小規模なモデルでありながら、コードを通じて複雑な3D空間やオブジェクトの構築を可能にする点に特徴があります。\n- AIを活用した3Dコンテンツ制作やプログラミングの効率化において、リソースを抑えつつ高度な処理を実現する技術として注目されています。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xeuo7t/a_4b_coding_model_that_can_generate_3d_scenes/"
+  },
+  {
+    "id": "4053de0e-c1c5-814c-95d6-da6a4fe06d4a",
+    "title": "Backup your quants!",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-25T12:25:39.000Z",
+    "fetched": "2026-10-26T00:02:25.520Z",
+    "summary": "量子化モデルのバックアップ重要性\n\n- 量子化モデル（クアント）は再生成に時間や手間がかかる場合があるため、適切なバックアップが不可欠である。\n- ローカル環境やクラウドストレージなど、安全な場所にファイルを保存しておくことで、予期せぬデータ消失や環境変化に備えることができる。\n- モデルのバージョン管理も同時に行っておくことで、アップデートによる不具合が発生した際にも迅速に以前の状態へ復元が可能となる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf11qj/backup_your_quants/"
+  },
+  {
+    "id": "4053de0e-c1c5-81e1-b57a-f1db07af40ac",
+    "title": "Lean-QwenFlash: Qwen3.8-Flash-Next (125B) running at ~20 tok/s on 16gb vram and 8gb ram via direct nvme SSD offloading",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-10-25T06:41:28.000Z",
+    "fetched": "2026-10-26T00:02:32.606Z",
+    "summary": "Lean-QwenFlash: NVMe SSDの直接オフロードを活用した、16GB VRAMおよび8GB RAM環境での大規模言語モデルの高速動作\n\n- 約125Bの大規模な「Qwen3.8-Flash-Next」モデルを、一般的なPC構成である16GB VRAMと8GB RAMの制限下で動作させることに成功した。\n- 通常は大量のVRAMが必要となる超大型モデルを、ダイレクトNVMe SSDオフロード技術を活用して実行している。\n- 低スペックなハードウェア環境でありながら、約20トークン/秒という実用的な生成速度を実現している。\n- この技術により、高価なハイエンドGPUを複数用意しなくても、最先端の大規模言語モデルをローカル環境で手軽に利用できるようになる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xev6bo/leanqwenflash_qwen38flashnext_125b_running_at_20/"
+  },
+  {
+    "id": "4053de0e-c1c5-814e-a400-de39a9d32a5a",
+    "title": "v0.40.11",
+    "site": "Ollama Blog",
+    "published": "2026-10-25T18:06:57.000Z",
+    "fetched": "2026-10-26T00:02:39.528Z",
+    "summary": "Ollama v0.40.11 リリース情報\n\n- GitHub上のollama/ollamaリポジトリにおいて、最新バージョン「v0.40.11」がリリースされた。\n- 本バージョンは、GitHubのリリース・タグページで最新（Latest）として公開されている。\n- リポジトリのページでは、コード、Issues、Pull requests、セキュリティおよび品質に関するインサイトなどのナビゲーション機能が提供されている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11"
+  }
+]
