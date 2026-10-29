@@ -1,0 +1,137 @@
+[
+  {
+    "id": "4083de0e-c1c5-81b3-9945-ed8c00dfc252",
+    "title": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
+    "site": "THE DECODER",
+    "published": "2026-10-28T19:17:58.000Z",
+    "fetched": "2026-10-29T00:01:15.354Z",
+    "summary": "Google DeepMindが「Gemini 4 Carbon」を発表、前モデルからあらゆる面で性能が向上\n\n- Google DeepMindは、前モデル「Gemini 4 Argon」のリリースからわずか2週間後となる2026年10月28日に、最新のフロンティアモデル「Gemini 4 Carbon」を発表した。\n- 「Artificial Analysis Intelligence Index v5」において、前モデルの50ポイントから59ポイントへとスコアを伸ばし、総合トップを獲得した。\n- 複数日にわたる自律的な開発ワークフロー向けに設計されており、大規模なコードベースにおける根本原因の分析や、複雑なバグ修正など、高度なエンジニアリング問題に対応できる。\n- コーディングエージェントの分野でもスコアを伸ばしているが、依然としてClaude Opus 5.5には一歩及ばない。\n- 高度なサイバーセキュリティ機能を有しているため、米政府の自発的な事前テストプロセスを経ており、初期段階では選ばれたセキュリティ専門家のみに提供される（価格はArgonと同等）。",
+    "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/"
+  },
+  {
+    "id": "4083de0e-c1c5-810d-8e36-e4509836915a",
+    "title": "Google opens Android development to third-party AI agents and unveils new Gemini APIs",
+    "site": "THE DECODER",
+    "published": "2026-10-28T16:59:59.000Z",
+    "fetched": "2026-10-29T00:01:23.555Z",
+    "summary": "GoogleはAndroid Dev Summitにて、Android Studioに外部のAIエージェントを導入できる「Bring Your Own Agent」機能や、新しいGemini API、Android XR搭載のスマートグラスを発表しました。このアップデートにより、開発環境のAI活用が大きく広がります。\n\n- Android Studioの開発環境に「Bring Your Own Agent」機能が導入され、ClaudeやCodexを含む40以上の外部コーディングエージェントが利用可能になりました。\n- 開発者はオープンなAgent Client Protocol（ACP）を使用し、組み込みのマーケットプレイスを通じて複数のAIエージェントを同時に実行できます。\n- Gemini Nano 4ベースのAgentic APIやModel Context Protocolを活用し、モバイル端末上でのローカルなエージェント機能の実行や、Google検索・Geminiアプリとの連携が可能になりました。\n- GoogleはハードウェアメーカーのXREALと共同で、Android XRを搭載しGeminiで現実世界を分析できる1,099ドルのスマートグラス「XREAL AURA」を発表しました。\n- 開発ツールの拡充により、端末上でのエージェント処理や新しいAPIの活用を通じて、開発時間の短縮とトークン使用量の削減が期待されます。",
+    "url": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/"
+  },
+  {
+    "id": "4083de0e-c1c5-8104-b56f-c663d46f4132",
+    "title": "OpenAI teases Dots for Europe, but its Berlin DevDay was really about building a platform",
+    "site": "THE DECODER",
+    "published": "2026-10-28T16:25:02.000Z",
+    "fetched": "2026-10-29T00:01:30.943Z",
+    "summary": "OpenAIのベルリンDevDayにおけるプラットフォーム構築の戦略とヨーロッパ展開\n\n- AIアシスタント「Dots」が、規制当局との協議を経て、数週間以内にヨーロッパでより広く展開される見込みであること。\n- ドイツ国内における週ごとのアクティブなCodexユーザー数が、2026年1月以降で20倍に急増していること。\n- 高いリソースコストと低い顧客需要を理由に、動画入力対応モデルの提供見送りやSoraのサービス終了が行われたこと。\n- エージェントAPIや12億人の週刊ChatGPTユーザーへのアクセスを活用し、開発者や企業を自社インフラに深く囲い込もうとしていること。",
+    "url": "https://the-decoder.com/openai-teases-dots-for-europe-but-its-berlin-devday-was-really-about-building-a-platform/"
+  },
+  {
+    "id": "4083de0e-c1c5-8164-a757-d79fae009277",
+    "title": "Claude for Legal now verifies sources automatically, then hands the file to a lawyer",
+    "site": "THE DECODER",
+    "published": "2026-10-28T16:20:03.000Z",
+    "fetched": "2026-10-29T00:01:38.377Z",
+    "summary": "Anthropicが法律専門家向け「Claude for Legal」の機能を拡充、AIによる自動検証と弁護士への引き継ぎを実現\n\n- Anthropicは「Claude Enterprise」向けに、法務チームの要望に応じた事前構築済みテンプレートや新しい「アーティファクト」を導入した。\n- 引用の検証、各国法制の比較、事件ファイルの管理、法案の追跡、社内ガイドラインに基づく契約書チェックなどの定型業務が効率化される。\n- AIモデルが初期の検証を行い、すべての記述を元の情報源にリンクさせた上で、弁護士が結果を確認する仕組みとなっている。\n- Bloomberg Lawなどの60以上の法的データベース連携に加え、Goodwin、Harvey、PwCなどの独自ツールもプラットフォーム上で提供されている。\n- データ保護規則や、チーム間の情報バリア（クライアントが求める情報隔離）を維持するための組み込み設定が備わっている。",
+    "url": "https://the-decoder.com/claude-for-legal-now-verifies-sources-automatically-then-hands-the-file-to-a-lawyer/"
+  },
+  {
+    "id": "4083de0e-c1c5-8194-844c-e65d00d699ee",
+    "title": "Nvidia's open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition",
+    "site": "THE DECODER",
+    "published": "2026-10-28T15:49:39.000Z",
+    "fetched": "2026-10-29T00:01:45.890Z",
+    "summary": "Nvidiaの音声認識モデル「Nemotron 3.5 Transcribe」の概要と特徴\n\n- Nvidiaは、音声の文字起こし、翻訳、話者認識を1つに統合したオープンな音声モデル「Nemotron 3.5 Transcribe」をリリースした。\n- 本モデルは300億のパラメータを持つが、1ステップあたり40億のみがアクティブになる仕組みのため、単一のGPUで効率的に稼働する。\n- 最大40言語の文字起こし、31言語の英語への相互翻訳、13言語の話者識別に対応し、最長1時間の音声や最大8人の話者を処理できる。\n- ユーザーはシンプルなテキスト指示（プロンプト）でモデルを制御でき、文字起こしだけでなく、要約や専門用語のヒント提示も可能である。\n- Nvidiaは、モデルを医療などの専門分野に適応させるための844,000時間の音声を含む大規模データセット「Granary v2」やツールも同時に公開している。",
+    "url": "https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition/"
+  },
+  {
+    "id": "4083de0e-c1c5-8162-be52-eb61f001d648",
+    "title": "New Artificial Analysis index widens the gap between open and closed models",
+    "site": "THE DECODER",
+    "published": "2026-10-28T15:04:43.000Z",
+    "fetched": "2026-10-29T00:01:53.375Z",
+    "summary": "Artificial Analysis社がインテリジェンス・インデックスを刷新し、オープンモデルとクローズドモデルの性能差が広がったことが示されました。\n\n- 人工知能の評価を行う「Artificial Analysis」がインテリジェンス・インデックスを刷新し、オープンモデルとトップグループの差が従来の3ポイントから12ポイントに拡大しました。\n- 評価システムの変更に伴い、Kimi K3.1 Proが4位から9位に、Grok 4.7が12ポイント下落するなど、オープンモデルの順位に大きな変動が生じました。\n- 評価の公平性を高めるため、インデックスの60%に非公開のテストセットが導入され、既知の問題でモデルを最適化する「ベンチマックスキング」の影響が抑えられました。\n- AI研究者のネイサン・ランバート氏は、順位低下の要因はベンチマックスキングだけでなく、複雑な強化学習インフラの有無も関係していると指摘しています。\n- クローズドなテストセットの採用には外部からのエラーチェックが難しくなるというデメリットもあり、実際、テスト内の曖昧な質問の修正が必要になりました。",
+    "url": "https://the-decoder.com/new-artificial-analysis-index-widens-the-gap-between-open-and-closed-models/"
+  },
+  {
+    "id": "4083de0e-c1c5-81f0-9094-f64c87e3bf75",
+    "title": "With AI writing the code, entrepreneurial thinking is now what counts most for newcomers at Anthropic",
+    "site": "THE DECODER",
+    "published": "2026-10-28T11:15:00.000Z",
+    "fetched": "2026-10-29T00:02:01.701Z",
+    "summary": "AnthropicではAIがコードを記述する時代になったため、新人に求められる資質としてコーディングスキルよりも起業家的な思考や「ハングリー精神」が最も重視されています。\n\n- 従来の小さなプログラミング課題やコーディングテストはAIが人間以上にこなせるため意味を失っており、テストの成績は優秀な開発者の予測指標にならなくなっている。\n- 経験年数よりも強い意欲を持つ人材が評価され、社内の力関係やネットワークがない「ジュニア」層が、ベテランを超えるスピードで活躍するケースが増えている。\n- 新参者は、長年の従業員が当たり前として見過ごしてきた組織やシステムの課題や非効率さに気づきやすい構造的な優位性を持っている。\n- ベテランが問題点を感じなくなっている摩擦や違和感を、経験の浅い新人が指摘・改善することで、組織に新たな変革やイノベーションをもたらす原動力となる。",
+    "url": "https://the-decoder.com/with-ai-writing-the-code-entrepreneurial-thinking-is-now-what-counts-most-for-newcomers-at-anthropic/"
+  },
+  {
+    "id": "4083de0e-c1c5-816c-bf7b-ed2fad23e0fa",
+    "title": "AI agents hacked Anthropic, maker of arguably the most capable AI models for cyberdefense",
+    "site": "THE DECODER",
+    "published": "2026-10-28T10:56:24.000Z",
+    "fetched": "2026-10-29T00:02:11.680Z",
+    "summary": "AIエージェントが、サイバー防衛に優れたAIモデルの開発企業であるAnthropicの内部システムに侵入し、脆弱性を突くことに成功した。\n\n- サイバーセキュリティ新興企業Cathedralが、Anthropicのバグ報奨金プログラムを利用し、AIエージェントを用いてサードパーティ製ビジネスソフトウェア経由で内部システムに侵入した。\n- Cathedarl側は、AIエージェントが数時間以内にSlackのメッセージや給与データなどの内部記録を発見したと主張している。\n- 一方、Anthropicは侵入が数日間に及び、顧客情報や人事・ITシステムの一部がアクセスされたことは認めたものの、ソースコードやモデルウェイト、Claudeとのチャット履歴は安全に保護されたと強調している。\n- 本件は、AIエージェントが最小限のコストで24時間体制企業ネットワークを探索できるようになっており、最先端のAI企業であっても脅威から免れないという現実を示している。",
+    "url": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/"
+  },
+  {
+    "id": "4083de0e-c1c5-81bb-a6d2-d7aff44798e5",
+    "title": "Quoting Ted Sanders",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-10-28T23:23:21.000Z",
+    "fetched": "2026-10-29T00:02:19.203Z",
+    "summary": "Ted Sandersが語るLLMの性能とOpenAIの命名規則\n\n- LLMの性能は多次元的であり、数学が得意なモデルがジョークも得意とは限らないが、性能の変動の多くは「モデルのサイズ」という単一の変数で説明できる。\n- より大きなモデルは、一般的に性能や信頼性が高く、トークンあたりのコストがかかり、専門的な知識の想起能力に優れている。\n- OpenAIのモデルサイズは「Luna < Terra < Sol < Astra」の順に大きくなるようにオーダーされている。\n- バージョン番号は、リリース順序、他のリリースとの関係、改善の大きさを同時に表しており、例えば「6.1」であれば5.6の後に発売され、トレーニングデータやパーソナリティの類似性を示しつつ、7のような大きな飛躍ではないことを意味する。",
+    "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/"
+  },
+  {
+    "id": "4083de0e-c1c5-81e2-b97a-cd6126d77cad",
+    "title": "GitHub Octoverse 2026",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-10-28T16:45:23.000Z",
+    "fetched": "2026-10-29T00:02:26.551Z",
+    "summary": "GitHub Octoverse 2026\n\n- GitHub Universeで発表された「Octoverse 2026」レポートに基づき、エージェント駆動型エンジニアリングが開発活動に与えた劇的な影響が示された。\n- 2026年のマージされたプルリクエストは1年足らずで3倍増の月間2億2,000万件に達し、コミット数も月間73億8,000万件へと急増した。\n- 新規リポジトリの作成ペースも倍増し、月間3,030万件に達するなど、AIの普及に伴う開発スピードの加速が数値として表れている。\n- レポートの調査手法には、VPNバイアスを調整するためのプロフィールからのLLMによる国籍分類や、NAICSセクターに基づく産業別分類などが導入されている。\n- 「相互運用性やリバースエンジニアリング」に関連するリポジトリのカウントなど、新しい指標や詳細なデータ分析手法も含まれている。",
+    "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/"
+  },
+  {
+    "id": "4083de0e-c1c5-8183-af1d-e6f3695f7bd6",
+    "title": "The October inflection point for vibe game development",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-10-28T13:55:15.000Z",
+    "fetched": "2026-10-29T00:02:33.805Z",
+    "summary": "AIを活用したゲーム開発におけるパラダイムシフトと、Claude Opus 5.5による「バイブゲーム開発（コードを一切見ずに作成する手法）」の進化について解説しています。\n\n- 2026年10月、AIによるゲーム開発は「ただ動くものを作る段階」から「実際に面白いゲームを設計する段階」へと大きな転換点を迎えた。\n- Claude Opus 5.5は、3Dモデリング、音楽生成に加え、難易度の調整や楽しいゲームプレイの仕組みといった「ゲームデザイン」の能力が大幅に向上している。\n- コードを一切確認せずにプロンプトのみで作成したHTML/JavaScript製のブラウザゲーム4作品を通じて、モデルが純粋に楽しめるゲームを構築できることが実証された。\n- 現在のところGPT-6 Astraなど他社モデルと比較しても、楽しさを理解する能力においてはClaude Opus 5.5がリードしている。\n- 今後の新たな挑戦は、AI支援がなければ存在しなかったような、斬新で楽しいゲームのコンセプトを発想することである。",
+    "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/"
+  },
+  {
+    "id": "4083de0e-c1c5-8181-81f3-e705130bd4cf",
+    "title": "Quoting Terk Terkowitz",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-10-28T10:09:07.000Z",
+    "fetched": "2026-10-29T00:02:40.821Z",
+    "summary": "Terk Terkowitzの引用に関する見解\n\n- Amazonのエンジニアリングリーダーシップによる、AI時代における開発者の役割に関する発言をサイモン・ウィリソンが引用したものである。\n- 現在のAIツールが自分の業務に恩恵をもたらさない場合、それは失敗ではなく「一つの発見（事実）」であると述べている。\n- AIが役に立たない理由を文書化し、同僚やマネージャーと共有して解決策を模索することが推奨されている。\n- AIがどこで役に立たないかを論理的に説明できるエンジニアこそが、企業が求めている優れた判断力を示していると評価されている。",
+    "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/"
+  },
+  {
+    "id": "4083de0e-c1c5-81c0-94c5-f84566c7dd06",
+    "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+    "site": "Hugging Face Blog",
+    "published": "2026-10-28T14:58:17.000Z",
+    "fetched": "2026-10-29T00:02:48.235Z",
+    "summary": "NVIDIA Nemotron 3.5 TranscribeとGranary v2：プロンプトと適応が可能な多言語音声認識モデルの発表\n\n- NVIDIA Nemotron 3.5 Transcribeは、音声書き起こし、話者識別、翻訳、音声質問応答を1つのモデルで実現するオープンウェイトの多言語対応モデルである。\n- 40言語の書き起こし、31言語の英訳・和訳などの翻訳、13言語の話者識別に対応し、最長1時間の音声や最大8人の話者を処理できる。\n- Hugging FaceのOpen ASRリーダーボードの英語部門でオープンモデル中首位を獲得するなど、高い精度を誇る。\n- 自然言語によるプロンプトで出力を制御でき、ドメイン固有の専門用語やアクセントに合わせて適応させることが可能である。\n- 量子化版の提供により、RTXやJetsonなどのエッジデバイスからBlackwellなどのデータセンター向けGPUまで柔軟に実行できる。",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+  },
+  {
+    "id": "4083de0e-c1c5-8117-b7b9-f7f27bb36370",
+    "title": "v0.40.13",
+    "site": "Ollama Blog",
+    "published": "2026-10-28T23:48:33.000Z",
+    "fetched": "2026-10-29T00:02:55.433Z",
+    "summary": "ollama/ollamaのバージョンv0.40.13リリースに関するGitHubのページ情報です。\n\n- GitHub上の「ollama/ollama」リポジトリにおいて、バージョン「v0.40.13」がリリースされた。\n- リリース日は2024年10月28日（19:55）で、github-actionsによって公開された。\n- 本リリースに関連して、プレリリース版である「v0.40.13-rc1」も存在している。\n- メインブランチに対して、このリリース以降に行われた変更（1コミット）の比較機能などが提供されている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc1"
+  },
+  {
+    "id": "4083de0e-c1c5-818e-9a45-f3ac62e3a689",
+    "title": "v0.40.13-rc0",
+    "site": "Ollama Blog",
+    "published": "2026-10-28T17:37:56.000Z",
+    "fetched": "2026-10-29T00:03:02.329Z",
+    "summary": "ollama/ollama v0.40.13-rc0\n\n- AIモデルを実行・管理するためのソフトウェア「Ollama」の新しいリリース候補版（v0.40.13-rc0）がGitHub上で公開された。\n- 本バージョンは、正式リリース前のテストや検証を目的としたプレリリース（Release Candidate）である。\n- GitHubの公式リポジトリからソースコードや関連するリリースノート、コミット履歴を確認できる。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc0"
+  }
+]
