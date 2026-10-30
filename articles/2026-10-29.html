@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI/LLM記事まとめ 2026/10/29</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; flex-wrap: wrap; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  .date-nav .monthly-link { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; font-size: 1em; color: #222; text-decoration: none; white-space: nowrap; }
+  .date-nav .monthly-link:hover { background: #f5f5f5; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+  @media (max-width: 600px) {
+    .date-nav-title { display: none; }
+    .date-nav input[type="text"] { width: 100px; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">AI/LLM記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-10-29" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+  <a id="monthly-link" class="monthly-link" href="../topics/index.html" target="_blank" rel="noopener" aria-label="月次一覧（新しいタブで開きます）" title="月次一覧（新しいタブで開きます）">月次一覧<span class="ext" aria-hidden="true"> ↗</span></a>
+</header>
+<h1>2026/10/29</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/" target="_blank" rel="noopener">OpenAI doubles usage limits on Pro plans as competition with Anthropic heats up</a></h2>
+      <p>Anthropicとの競争激化を受け、OpenAIがProプランの利用制限を2倍に引き上げ<br><br><ul><li>OpenAIは、Pro 100およびPro 500プランのWorkおよびCodexのクォータを従来の2倍に引き上げ、Pro 200プランでも下限のクォータを倍増させるとともにユーザーの反発を受けて計画されていた削減を撤回した。</li><li>Plusプランの利用制限は据え置かれ、新しいクォータは新規契約には即時適用され、既存顧客にも自動的に適用される。</li><li>OpenAIは、消費量がモデルやタスクの種類、設定によって異なるため、クォータの倍増がそのまま完了タスクの倍増を意味するわけではないと説明している。</li><li>この動きは、AnthropicがIPO（新規株式公開）の準備を進め、両社がAI分野でのB2B（企業間）主導権争いを激化させている中で行われた。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds/" target="_blank" rel="noopener">Experts adopt AI agent's random opinions and think they're their own, Anthropic study finds</a></h2>
+      <p>Anthropic社の調査により、専門家がAIエージェントのランダムな意見を無意識に自身の意見として採用し、最終的な結論も自分で導き出したと勘違いすることが判明した。効率化の一方で、AIの誘導による誤った合意形成や安全性の低下が懸念されている。<br><br><ul><li>Anthropic社が50人の専門家を対象に実験を行い、正解のない分析課題においてAIエージェントを使用させたところ、エージェントのランダムな選好に最大86%の確率で従った。</li><li>多くの参加者は、AIの意見に従ったにもかかわらず、最終的な成果物は自分自身の判断によるものだと誤認していた。</li><li>参加者の専門知識のレベルや経験、AIに対する信頼度は、この同調傾向に影響を与えなかった。</li><li>AIの活用により作業スピードが上がり、重大なミスの削減にはつながったものの、多くのチームが同じモデルを使用することで研究等における不自然な合意（false consensus）が生まれるリスクが指摘されている。</li><li>対策として、AIエージェントに双方の視点を議論させることや、事前にユーザー自身の見解を尋ねる設計にすることが提案されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/" target="_blank" rel="noopener">Paris-based Mistral releases &quot;Le Chonk,&quot; a strong coding model that still trails China overall</a></h2>
+      <p>パリを拠点とするMistral AIは、約1兆パラメータを持つ最新の大規模モデル「Mistral Large 4（愛称：Le Chonk）」の重みを公開した。このモデルは優れたコーディング能力や処理速度、高い安全性を誇る一方で、総合的なベンチマークでは中国のオープンモデルやトップ企業の後塵を拝している。<br><br><ul><li>テキストと画像を処理し、テキストとコードを出力する最大規模のモデルで、総パラメータは約1兆、1ステップあたりのアクティブパラメータは520億である。</li><li>強化学習の導入によりコーディングやサイバー防御の性能が大幅に向上しており、独立したテストでもコーディングにおいて高い評価を得ている。</li><li>毎秒161トークンという高速な処理速度や、低価格なAPI、有害なサイバーリクエストに対する96.6%という高い拒否率が強みである。</li><li>実行にはNvidiaのGPU（B300を8基、または圧縮版でGB300を4基など）を用いた高度なハードウェア環境が必要となる。</li><li>人工分析（Artificial Analysis）のインテリジェンス指数では26ポイントを記録し、DeepSeek V4.1 FlashやGLM-5.3といった中国のオープンモデルを下回り、AnthropicやGoogleの主要システムには遠く及ばない結果となっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/us-antitrust-regulators-are-scrutinizing-nvidias-hugging-face-deal-and-sales-practices/" target="_blank" rel="noopener">US antitrust regulators are scrutinizing Nvidia's Hugging Face deal and sales practices</a></h2>
+      <p>米国の独占禁止法規制当局が、Nvidiaによるオープンソースプラットフォーム「Hugging Face」の買収計画や、同社の販売手法に対する調査を開始した。<br><br><ul><li>米司法省は、129億3000万ドル規模のHugging Face買収が、AIの主要な流通ハブへの支配力を強め競合他社に不利益をもたらすか確認している。</li><li>バイデン政権からトランプ政権へと引き継がれた今回の調査では、NvidiaによるSchedMDやRun:aiの買収、Groqとのライセンス契約、顧客への販売手法も対象となっている。</li><li>仏競争当局も、NvidiaのCUDAソフトウェアへの業界依存度やCoreWeaveなどクラウド事業者への出資を巡り、反競争的慣行の疑いで調査を行っている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times/" target="_blank" rel="noopener">Chinese spies targeted Nvidia CEO Jensen Huang, according to The New York Times</a></h2>
+      <p>ニューヨーク・タイムズ紙によると、NVIDIAのジェンスン・フアンCEOの側近が中国のスパイとして標的にされていたことが、米情報機関の調査で明らかになった。<br><br><ul><li>米情報機関は、シンガポールのデータセンター事業者「メガスピード」の幹部アリス・フアン（黄楽）氏が中国のinformant（情報提供者）であり、ジェンスン・フアン氏に親しい人物であると特定した。</li><li>米政府は、メガスピードがNVIDIA製チップへのアクセスを中国に不正に手助けしていると疑っており、関連するマレーシアの姉妹企業が2024年6月から2026年2月の間に約48億ドル相当のAIハードウェアを購入していた。</li><li>トランプ大統領（当時）は約1年前にこの件について報告を受けたものの、NVIDIAのチップ販売への影響や中国との貿易関係悪化を避けるため対応せず、ジェンスン・フアン氏にも警告されなかった。</li><li>NVIDIAの広報担当者は、顧客との面会はCEOの業務の一環でありメガスピードが機密情報を受け取ることはないと主張し、メガスピード側も内部調査の実施を表明している一方、在米中国大使館は疑惑を「根拠のない中傷」と否定している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses/" target="_blank" rel="noopener">OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses</a></h2>
+      <p>Anthropic社が防御を強化したことを受け、中国のAI開発企業はOpenAIの最新モデル「GPT-6 Astra」を主要なターゲットとしてデータ抽出（蒸留）を行っている。<br><br><ul><li>中国のDeepSeekやMoonshot AIなどの研究機関が、最新モデルの訓練のために「GPT-6 Astra」の出力を大量に利用していると報じられている。</li><li>このようなモデルの蒸留を行うにはAIの隠された推論ステップを暴く必要があるが、OpenAIとAnthropicの両社はこの行為を規約で禁止している。</li><li>以前はAnthropicのClaudeが主なターゲットであったが、同社が防御策を強化したことで攻撃者から抽出できるデータを90〜99%削減することに成功した。</li><li>OpenAIも9月下旬にMoonshotに関連する人物が関与した組織的な蒸留キャンペーンを報告しており、AIモデルの不正利用対策が喫緊の課題となっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe/" target="_blank" rel="noopener">Google's AI search problem finally shows up in the earnings report, some investors believe</a></h2>
+      <p>GoogleのAI検索の収益化の課題が、第3四半期の決算に表れたと一部の投資家が懸念している件について、検索売上の成長率がアナリストの予想を下回り、株価が一時最大10%下落した。<br><br><ul><li>Googleの第3四半期の検索売上成長率は12%にとどまり、アナリストが予想していた15%を下回ったことで、株価が最大10%下落した。</li><li>経営陣は、急成長するAIモードの収益性が従来の検索よりも低いことを認めたが、検索クエリの年間成長率は過去5年で最高水準に達している。</li><li>クラウド部門の売上高は前年同期比103%増の307億ドルと、倍以上に急拡大した。</li><li>GoogleはAIインフラへの投資を加速させており、第3四半期の資本支出は514億ドルに達し、2027年にはさらに大幅に増加する見込みである。</li><li>チャットボット向け広告プログラムを米国および国際的に拡大する計画が発表されており、今後AI検索の収益化を進める方針である。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Oct/29/api-credits/" target="_blank" rel="noopener">API credits benefit for eligible ChatGPT subscriptions</a></h2>
+      <p>ChatGPTの有料プラン（100ドル、200ドル、500ドル）の契約者に対し、同額分のAPI利用クレジットが毎月付与される特典が新たに開始されました。<br><br><ul><li>OpenAIが、100ドル・200ドル・500ドルのChatGPTサブスクリプション加入者に対し、同額のAPI利用クレジットの付与を開始した。</li><li>この動きは、先月にAnthropicがMaxおよびTeamプランの契約者向けに同様のAPIクレジット特典を発表したことに追随するものである。</li><li>期限付きのクレジットとしてAPI組織に適用されるため、実質的なコスト負担なしでAPIを利用できるようになる。</li><li>両社のサブスクリプションを契約しているユーザーからは、既存の支払い内で公開向けデモの作成などが可能になるとして歓迎されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/" target="_blank" rel="noopener">Building a multiplayer game world with autonomous Fable-class models</a></h2>
+      <p>自律型Fableモデルを活用したマルチプレイヤーゲーム世界「Spawn」の開発と、その極限まで自動化された開発体制に関する記事の要約です。<br><br>AIを活用したマルチプレイヤーゲーム世界と自律型開発の全貌<br><br><ul><li>プレイヤーがゲーム内で「Savi」というAIにプロンプトを入力するだけで、城やドラゴンなどを即座に生成し、操作できる環境が構築されている。</li><li>開発チームはFableモデルを用いたAIエージェントの群れにより自律的に開発を進めており、月額300万ドル以上のトークンを消費している。</li><li>AIエージェントがライブコードを直接変更し、エラーやバグ報告、ログを自ら読み取って1時間ごとに本番環境へデプロイする極限の継続的デプロイを実現している。</li><li>1時間デプロイがない状態を重大インシデント（SEV-0）と見なし、変更が蓄積してAIの文脈理解が途切れるのを防ぎながら迅速なフィードバックループを回している。</li><li>この高度な自律性はFable 5および5.1モデルによって可能になっており、他のフロンティアモデルでは同様の成果が得られなかったとされている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1" target="_blank" rel="noopener">Granite Switch 4.1.1 — Update models like you update software</a></h2>
+      <p>Granite Switch 4.1.1: ソフトウェアのようにモデルを更新する<br><br><ul><li>Granite Switch 4.1.1は完全な下位互換性を持つパッチリリースであり、移行作業不要で段階的な改善を提供する。</li><li>10言語に対応し、ネイティブな句読点と大文字小文字の処理を備えた「Granite Speech ASRモデル」にアップデートされた。</li><li>「granitelib-core」内のDecisionアダプターが更新され、Jev Decision Indexテストセットでパフォーマンスが向上した。</li><li>ベースモデルを再学習・再計算することなく、最新のアダプターを組み合わせて迅速なデプロイが可能である。</li><li>開発者やサードパーティが独自のアダプターを構築・出荷できるようにするためのAdapter SDKとチュートリアルが準備中である。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/announcing-project-protostar" target="_blank" rel="noopener">Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready</a></h2>
+      <p>公的資金による科学研究をAI活用に対応させる「Project ProtoStar」が発表された<br><br><ul><li>Project ProtoStarは、公的資金による研究のデータやモデル、コードをAIが活用しやすい形式で公開し、発見や再利用を容易にするためのオープンなイニシアチブである。</li><li>カーネギーメロン大学やパデュー大学、ジョージア工科大学などの主要大学、アステラ研究所、Hugging Faceなどがパートナーとして参画している。</li><li>参加組織は、適切な科学的成果物をAI対応フォーマットでオープンなインフラ上に公開することに合意している。</li><li>第1弾のチャレンジとして、カーネギーメロン大学の主催による「気候リスク・インテリジェンス」に関する取り組みが11月2日から開始される。</li><li>米国政府による年間約1,900億ドル規模の研究開発投資や公開義務化の流れを受け、科学研究の実用性とAI駆動型研究の推進を目指す。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/mistral-large4" target="_blank" rel="noopener">Welcome Le Chonk: Mistral Large 4 on Hugging Face</a></h2>
+      <p>Mistral Large 4 (Le Chonk) がHugging Faceに登場<br><br><ul><li>Mistral Large 4（通称Le Chonk）は、テキストと画像を処理できるマルチモーダルかつ多言語対応のMixture-of-Experts（MoE）モデルである。</li><li>パラメータ数は総計約1兆、アクティブパラメータは49Bで、100万トークンのコンテキストウィンドウを備えている。</li><li>FP8やNVFP4などの公式バリエーションに加え、Unslothやllama.cppチームによるGGUF版も提供されており、ライセンスはMistral Ecosystem Open-Weight Licenseを採用している。</li><li>サイバーセキュリティ、コーディングエージェント、マルチモーダル処理に特に優れており、サイバーセキュリティの脆弱性再現・修正テストでは82%を記録している。</li><li>大規模な専門家プールとスパースアテンション、Pixtralビジョンエンコーダーを組み合わせたアーキテクチャを採用しており、TransformersやvLLM、Llama.cppなどで推論をサポートしている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/anydecisionmodel" target="_blank" rel="noopener">Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms</a></h2>
+      <p>Appleプラットフォーム向けのオープンな音声認識・意思決定モデル「AnySpeechRecognizer」と「AnyDecisionModel」の発表<br><br><ul><li>Appleプラットフォーム向けの新しいオープンモデル「AnySpeechRecognizer」と「AnyDecisionModel」が発表された</li><li>AnySpeechRecognizerは、Appleの音声認識APIにNVIDIAのParakeetやAlibabaのQwen3-ASRなどの認識エンジンを組み込み、話者ダイアライゼーション機能を提供する</li><li>AnyDecisionModelは、テキスト生成ではなくモデルの確率から、はい/いいえや多岐選択などの質問に型付きの結果と確率で回答する</li><li>両パッケージともに、Hugging Face Hubからオープンモデルをダウンロードし、デバイス上で実行できる</li><li>Swiftの馴染み深いAPIを通じて、モデルを選択しながら高度な音声認識や意思決定処理を効率的に実装可能である</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.13" target="_blank" rel="noopener">v0.40.13</a></h2>
+      <p>ollama/ollamaのバージョンv0.40.13リリースに関するGitHubのページ情報です。<br><br><ul><li>GitHub上のollamaリポジトリにおいて、最新バージョン「v0.40.13」がリリースされた。</li><li>リリース日は2024年10月28日（19:55）で、github-actionsによって自動リリースが行われた。</li><li>本リリースに関連して、mainブランチに対して2つのコミット（最新タグ「04088e7」を含む）が追加されている。</li><li>GitHubのプラットフォーム上から、該当バージョンのコードやリリースノート、関連するファイルへのアクセス、バージョン間の比較が可能となっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/unlocking-tensor-core-performance-for-machine-learning-interatomic-potentials/" target="_blank" rel="noopener">Unlocking Tensor Core Performance for Machine Learning Interatomic Potentials</a></h2>
+      <p>NVIDIA GPUにおける機械学習原子間ポテンシャルのTensor Core性能向上と計算高速化<br><br><ul><li>NVIDIA Blackwell GPUのBF16x9を活用することで、Point Edge Transformerの大規模GEMM（一般行列積）を1.2〜2.5倍に高速化しつつ、エラーをモデルの非決定性の範囲内に抑えることに成功した。</li><li>Ampere GPUにおけるTF32x3の利用により、主要なGEMMを1.7〜1.9倍、分子動力学の全ステップを最大1.5倍高速化し、FP32ベースラインと同等の力のエラーを実現した。</li><li>TF32x3はNVE軌道における位置エネルギーの滑らかさとエネルギー保存性を維持し、従来の一パス型TF32で見られたドリフトや粗さを解消した。</li><li>Cantor-alloyスラブの構造緩和において、TF32x3は1.5倍のステップあたり高速化を達成して218〜222ステップで収束した一方、一パス型TF32は1,000ステップ後も収束しなかった。</li><li>量子力学的手法と古典的ポテンシャルのトレードオフを解消する機械学習原子間ポテンシャル（MLIPs）において、Tensor Coreの性能を最大限に引き出す実用的なアプローチが示された。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-10-29";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+  var TOPICS_PATH_PREFIX = '../topics/';
+  var CURRENT_MONTH = CURRENT_DATE.slice(0, 7);
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+  var monthlyLink = document.getElementById('monthly-link');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  // 入力値を YYYY-MM-DD に揃える。判定できなければ null（テンプレートリテラル内のため、バックスラッシュを使わない書き方にする）
+  function normalizeDateInput(value) {
+    var v = String(value).normalize('NFKC').trim();
+    if (/^[0-9]{8}$/.test(v)) {
+      return v.slice(0, 4) + '-' + v.slice(4, 6) + '-' + v.slice(6, 8);
+    }
+    if (/^[0-9]{4}[-/][0-9]{2}[-/][0-9]{2}$/.test(v)) {
+      return v.replace(/[/]/g, '-');
+    }
+    return null;
+  }
+
+  function validateAndGo(value) {
+    var date = normalizeDateInput(value);
+    if (date === CURRENT_DATE) { dateInput.value = CURRENT_DATE; return; }
+    if (date === null || dateList.indexOf(date) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(date);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  function setMonthlyLink(label, href) {
+    var text = label + '（新しいタブで開きます）';
+    // 前提: <a> の最初の子ノードがラベルのテキストノード（<a>月次一覧<span>…</span></a>）
+    monthlyLink.firstChild.nodeValue = label;
+    monthlyLink.href = href;
+    monthlyLink.setAttribute('aria-label', text);
+    monthlyLink.title = text;
+  }
+
+  function loadMonthly() {
+    fetch(TOPICS_PATH_PREFIX + 'index.json')
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var months = ((data && data.months) || []).map(function (m) { return m.month; });
+        if (months.indexOf(CURRENT_MONTH) !== -1) {
+          setMonthlyLink('月次', TOPICS_PATH_PREFIX + CURRENT_MONTH + '.html');
+        }
+      })
+      .catch(function (err) {
+        console.error('monthly-link: index.json fetch failed', err);
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+  // 数字キーパッド（Return キーなし）向け: 数字だけ8桁になったら自動で移動する。日付一覧の取得前・失敗時は何もしない
+  dateInput.addEventListener('input', function (e) {
+    if (e.isComposing) return;
+    if (dateList.length === 0) return;
+    if (/^[0-9]{8}$/.test(dateInput.value.normalize('NFKC').trim())) {
+      validateAndGo(dateInput.value.trim());
+    }
+  });
+  // フォーカス時に全選択する（数字キーパッドで打ち直しやすくする）。iOS Safari はフォーカス直後のタップでキャレットを置き直し、選択が解除されることがあるため、タイマーでかけ直す
+  dateInput.addEventListener('focus', function () {
+    dateInput.select();
+    setTimeout(function () { dateInput.setSelectionRange(0, dateInput.value.length); }, 0);
+  });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+  loadMonthly();
+})();
+</script>
+</body>
+</html>
