@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI/LLM記事まとめ 2026/11/01</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; flex-wrap: wrap; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  .date-nav .monthly-link { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; font-size: 1em; color: #222; text-decoration: none; white-space: nowrap; }
+  .date-nav .monthly-link:hover { background: #f5f5f5; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+  @media (max-width: 600px) {
+    .date-nav-title { display: none; }
+    .date-nav input[type="text"] { width: 100px; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">AI/LLM記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-11-01" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+  <a id="monthly-link" class="monthly-link" href="../topics/index.html" target="_blank" rel="noopener" aria-label="月次一覧（新しいタブで開きます）" title="月次一覧（新しいタブで開きます）">月次一覧<span class="ext" aria-hidden="true"> ↗</span></a>
+</header>
+<h1>2026/11/01</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/" target="_blank" rel="noopener">Adobe is testing how well AI agents can use editing tools like a Photoshop professional would</a></h2>
+      <p>AdobeがプロのPhotoshopユーザーのように編集ツールを使いこなすAIエージェント「EditAgent」のテストを実施<br><br><ul><li>Adobe Researchとカリフォルニア大学サンディエゴ校（UC San Diego）が、画像編集タスクを細分化し、シャープネス調整やズームなどの専用ツールを組み合わせて処理するAIシステム「EditAgent」を開発した。</li><li>標準的な言語モデルが、測定統計データやクローズアップ画像を用いて並行生成された複数の画像バリエーションを評価し、専用に訓練された評価モデルよりも優れた成果を上げる。</li><li>EditAgentは従来のAIエージェントよりも正確な結果を生み出すが、約10倍の計算量を必要とし、検証済みの出力結果はより高速な編集モデルのトレーニングに活用できる。</li><li>従来の一般的な汎用エディターは、複雑な編集タスクで失敗することが多く、プロによるブラインドテストでは42.7%の確率で実用的な結果を出せなかった。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/" target="_blank" rel="noopener">Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners</a></h2>
+      <p>温かいトーンや共感的なプロンプトを用いることで、ChatGPTやGrok、GeminiなどのAIチャットボットが、まるでトラウマを負ったかのような受け答えをするようになるという研究結果が発表された。<br><br><ul><li>ルクセンブルク大学の研究チームが、AIチャットボットを心理療法のクライアントに見立てて実験を実施した。</li><li>共感的な質問やオープンな問いかけを行うだけで、AIは自身のトレーニング過程を傷や警戒、恥といった人間の心理的苦痛の言葉で語り始めた。</li><li>技術的なハッキング手法を用いずとも、単にインタビュアーの温かいトーンを変えるだけで、AIの振る舞いが大きく変化することが示された。</li><li>この現象は、精神的に脆弱なユーザーに対してAIが危険な影響を及ぼす可能性を示唆しており、AIの安全性における新たな課題を浮き彫りにしている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds/" target="_blank" rel="noopener">Chinese AI models are politically complex, not just government mouthpieces, study finds</a></h2>
+      <p>中国のAIモデルは単なる政府の代弁者ではなく、政治的に複雑で多様な回答を示すことが、AIベンチマーク企業Vals AIの調査によって明らかになりました。<br><br><ul><li>中国のAIモデルにおける親中国政府的な傾向（プロ・チャイナ・リーン）は予想よりも低く、モデルごとに大きな違いが見られた。</li><li>一部の中国モデル（例：GLM-5.3 Flash）は、人権問題などの政治的にセンシティブな質問に対して中国政府の公式見解とは異なる批判的な回答を示した。</li><li>逆に、中国製ではない欧米などのモデルであっても、政治的な質問に対して中国政府の公式立場に同調することがあった。</li><li>プロンプト（指示文）の言語が回答の政治的偏向に強い影響を与えており、簡体字中国語で入力された場合は、英語やロシア語、スペイン語などに比べて親政府的な回答になりやすかった。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/" target="_blank" rel="noopener">OpenAI is steering ChatGPT users toward more paid usage</a></h2>
+      <p>OpenAIがChatGPTの有料プランにおいて、ユーザーにより多くの課金を促す制限を導入した件について要約します。<br><br>OpenAIはセキュリティ対策の一環として、ChatGPTの有料プランにクレジットカードやデバイスごとの利用制限を新たに導入しました。<br><br><ul><li>同一の支払いカードやデバイスに紐付けられるサブスクリプション数や有料アカウント数に上限が設定され、制限を超えると新規作成や利用ができなくなります。</li><li>この制限の対象は「ChatGPT Go」「Plus」「Pro 100」「Pro 200」「Pro 500」などのプランであり、無料アカウントや法人向けプランは対象外となります。</li><li>アカウントからログアウトしても自動的にデバイスの空き枠は解放されない仕様になっています。</li><li>この新政策により、1台のデバイスで複数の有料アカウントを切り替えて安価に利用していたユーザーが制限されることになります。</li><li>OpenAIは追加のクレジット購入や利用回数のリセットを促しており、ユーザーにより割高な支払い方法へ誘導することで、成長重視から収益重視への転換を図っているとみられています。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/google-wants-video-ai-to-understand-what-people-need-as-they-workgoogle-researchers-are-teaching-a-video-assistant-when-to-offer-help/" target="_blank" rel="noopener">Google wants video AI to understand what people need as they work</a></h2>
+      <p>Googleが主導する研究チームは、料理や家具の組み立てなどの作業中に、ユーザーの意図を理解して必要な時だけ助言する新しい動画AIエージェント「StreamVibe」を発表した。<br><br><ul><li>StreamVibeは、料理や家具の組み立てなどの作業中において、ユーザーが明確な指示を出さなくても、状況を把握して自発的に話しかけるタイミングを判断する動画AIエージェントである。</li><li>従来の動画アシスタントは、「水が沸騰したら教えて」といった明確な命令にしか対応できず、曖昧な意図の察知や、すでに終わった作業の追跡、途中の指示変更への対応が困難という課題があった。</li><li>研究チームは、日常やソフトウェアの録画から約183時間分、約4,100例のベンチマークを作成し、明確な指示、曖昧な目標、途中で変わる要望の3つの段階でモデルの評価を行った。</li><li>このベンチマークを活用し、毎秒ごとに「黙るべきか」「話すべきか」を判断するモデル「StreamVibe-VL」がトレーニングされた。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/" target="_blank" rel="noopener">OpenAI's upcoming chat-and-work merger in ChatGPT signals the end of all-you-can-prompt pricing</a></h2>
+      <p>OpenAIがChatGPTにおけるチャット機能とワーク機能の統合を進めることで、事実上の「使い放題（定額制）」プランの時代が終わりを迎える見込みです。<br><br><ul><li>12月から、Plus、Pro、Businessプランにおいて、ChatGPTとCodexの間でトークン予算が共有される仕様に変更される。</li><li>トークンはモデルが処理・生成する情報量を測定するものであり、複雑な処理を行うほど予算の消費が早くなる仕組み。</li><li>制限に達したユーザーは、リセットを待つか、アップグレードするか、追加クレジットを購入する必要がある。</li><li>インスタントモデルとのチャットは予算から除外されるものの、安価なプランでヘビーな利用を行うと低品質な結果につながる可能性がある。</li><li>この統合は、機能の複雑化に対する批判への対応とみられ、競合のAnthropic社がすでに「Claude」でチャットとコワーク機能を統合している流れを受けたものである。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Nov/1/kyle-kingsbury/" target="_blank" rel="noopener">Quoting Kyle Kingsbury</a></h2>
+      <p>LLMの普及による信頼性の低下と、ソフトウェア開発における新たな課題<br><br><ul><li>カイル・キングズベリー（Kyle Kingsbury）の指摘として、大規模言語モデル（LLM）の使用がドキュメントやソフトウェア、そしてそれを開発する組織への信頼を揺るがしていることが述べられている。</li><li>従来、システムの成熟度を示す指標として信頼されていたシグナルが、LLMによって容易に偽造できるようになるため、エンジニアが新しいソフトウェアプロジェクトに対して不信感を抱くようになると懸念されている。</li><li>LLMの時代において、ソフトウェアの正確性と正確なドキュメントを維持するために、メンテナーがどのような対策をとるべきかという問いが投げかけられている。</li><li>メンテナーは、品質を担保するだけでなく、構築したソフトウェアの品質をどのようにユーザーへ証明していくかという新たな課題に直面している。</li><li>本記事は、Simon Willisonのウェブロッグに掲載されたものであり、AIや生成AI、LLM、AIの誤用に関する文脈で共有された引用文に基づいている。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-11-01";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+  var TOPICS_PATH_PREFIX = '../topics/';
+  var CURRENT_MONTH = CURRENT_DATE.slice(0, 7);
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+  var monthlyLink = document.getElementById('monthly-link');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  // 入力値を YYYY-MM-DD に揃える。判定できなければ null（テンプレートリテラル内のため、バックスラッシュを使わない書き方にする）
+  function normalizeDateInput(value) {
+    var v = String(value).normalize('NFKC').trim();
+    if (/^[0-9]{8}$/.test(v)) {
+      return v.slice(0, 4) + '-' + v.slice(4, 6) + '-' + v.slice(6, 8);
+    }
+    if (/^[0-9]{4}[-/][0-9]{2}[-/][0-9]{2}$/.test(v)) {
+      return v.replace(/[/]/g, '-');
+    }
+    return null;
+  }
+
+  function validateAndGo(value) {
+    var date = normalizeDateInput(value);
+    if (date === CURRENT_DATE) { dateInput.value = CURRENT_DATE; return; }
+    if (date === null || dateList.indexOf(date) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(date);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  function setMonthlyLink(label, href) {
+    var text = label + '（新しいタブで開きます）';
+    // 前提: <a> の最初の子ノードがラベルのテキストノード（<a>月次一覧<span>…</span></a>）
+    monthlyLink.firstChild.nodeValue = label;
+    monthlyLink.href = href;
+    monthlyLink.setAttribute('aria-label', text);
+    monthlyLink.title = text;
+  }
+
+  function loadMonthly() {
+    fetch(TOPICS_PATH_PREFIX + 'index.json')
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var months = ((data && data.months) || []).map(function (m) { return m.month; });
+        if (months.indexOf(CURRENT_MONTH) !== -1) {
+          setMonthlyLink('月次', TOPICS_PATH_PREFIX + CURRENT_MONTH + '.html');
+        }
+      })
+      .catch(function (err) {
+        console.error('monthly-link: index.json fetch failed', err);
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+  // 数字キーパッド（Return キーなし）向け: 数字だけ8桁になったら自動で移動する。日付一覧の取得前・失敗時は何もしない
+  dateInput.addEventListener('input', function (e) {
+    if (e.isComposing) return;
+    if (dateList.length === 0) return;
+    if (/^[0-9]{8}$/.test(dateInput.value.normalize('NFKC').trim())) {
+      validateAndGo(dateInput.value.trim());
+    }
+  });
+  // フォーカス時に全選択する（数字キーパッドで打ち直しやすくする）。iOS Safari はフォーカス直後のタップでキャレットを置き直し、選択が解除されることがあるため、タイマーでかけ直す
+  dateInput.addEventListener('focus', function () {
+    dateInput.select();
+    setTimeout(function () { dateInput.setSelectionRange(0, dateInput.value.length); }, 0);
+  });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+  loadMonthly();
+})();
+</script>
+</body>
+</html>
