@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI/LLM記事まとめ 2026/11/03</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; flex-wrap: wrap; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  .date-nav .monthly-link { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; font-size: 1em; color: #222; text-decoration: none; white-space: nowrap; }
+  .date-nav .monthly-link:hover { background: #f5f5f5; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+  @media (max-width: 600px) {
+    .date-nav-title { display: none; }
+    .date-nav input[type="text"] { width: 100px; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">AI/LLM記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-11-03" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+  <a id="monthly-link" class="monthly-link" href="../topics/index.html" target="_blank" rel="noopener" aria-label="月次一覧（新しいタブで開きます）" title="月次一覧（新しいタブで開きます）">月次一覧<span class="ext" aria-hidden="true"> ↗</span></a>
+</header>
+<h1>2026/11/03</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/" target="_blank" rel="noopener">OpenAI says GPT-6 Astra designed a hardware device from scratch in under a week</a></h2>
+      <p>OpenAIの次世代AIモデル「GPT-6 Astra」が、わずか1週間未満でゼロからハードウェアデバイスを設計したことが報じられました。<br><br><ul><li>OpenAIのハードウェアチームが、コーディングエージェント「Codex」と対話するためのデバイス開発に「GPT-6 Astra」をサイドプロジェクトとして活用した。</li><li>Astraは、筐体の設計、部品選定や配線を含む基板（PCB）レイアウト、ファームウェア、ユーザーインターフェースに至るまでの全工程を単独で処理した。</li><li>製造制約や公差などの考慮不足により数回の試作修正は必要だったものの、受託製造業者により1ヶ月未満で小ロットの試作が完了した。</li><li>3Dパーツの再構築や基板の接続識別をテストするベンチマーク「BenchCAD 2.0」において、最高推論レベルのGPT-6 Astraは0.594を記録し、さらに新しい未発表の内部モデルは0.875を記録した。</li><li>OpenAI内ではCADモデルやシミュレーションなどにおけるAI活用が進んでおり、2月以降でトークン使用量が23倍に急増しているほか、独自のハードウェア端末の開発も進められている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds/" target="_blank" rel="noopener">Rapid LLM development is outrunning the research meant to explain it, study finds</a></h2>
+      <p>LLMの急速な開発スピードが、その仕組みを説明するための研究のペースを追い越しており、研究結果の多くが短期間で陳腐化していることが、スタンフォード大学の研究で明らかになりました。<br><br><ul><li>スタンフォード大学の研究者らが大規模言語モデル（LLM）に関する50の広く引用されている主張を検証した結果、44%がすでに「期限切れ」となっていることが判明しました。</li><li>期限切れと判定された研究の平均寿命はわずか15.7ヶ月であり、時間が経つにつれてその割合は急速に増加し、2年後には39%が無効化しています。</li><li>特に「モデルができないこと」に関する主張の陳腐化が最も速く、文字数カウントや推論の弱点など、かつての弱点とされた特性の多くが開発によって克服され消滅しています。</li><li>一方で、モデルの好みや傾向に関する研究、特に評価者としての挙動などについては、比較的長く持続するか、むしろ影響力が強まっているものもあります。</li><li>元の効果が完全に消失したものが大部分を占める一方で、34%の主張が弱まり、現在も有効に機能しているのはわずか16%にとどまっています。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/ai-agents-take-over-at-setis-allen-telescope-array-scanning-for-extraterrestrial-intelligence/" target="_blank" rel="noopener">AI agents take over at SETI's Allen Telescope Array, scanning for extraterrestrial intelligence</a></h2>
+      <p>SETIの「アレン・テレスコープ・アレイ」において、AIエージェントが望遠鏡の制御と電波信号のリアルタイム解析を開始し、地球外知的生命体の探索を大きく加速させています。<br><br><ul><li>SETI研究所とBreakthrough Listenは、Nvidiaの「Holoscan」プラットフォームを導入し、毎秒最大2.4テラビットのデータをリアルタイムで処理可能にした。</li><li>このシステムにより、従来は数週間かかっていたデータ処理が数時間で完了するようになり、AIを用いたかに星雲のパルサーのリアルタイム検出にも世界で初めて成功した。</li><li>研究チームは今後、ローカル環境やエッジ側で動作するオープンソースAIのテストを進め、将来的に月の裏側へのセンサー設置も見据えている。</li><li>1960年のSETI実験開始以来、地球外知的生命体からの信号はまだ発見されていないが、AIエージェントの導入により探索能力の大幅な効率化が期待されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/openai-hires-ex-army-secretary-gaining-bipartisan-reach-just-as-midterms-loom/" target="_blank" rel="noopener">OpenAI hires ex-Army Secretary, gaining bipartisan reach just as midterms loom</a></h2>
+      <p>OpenAIが元陸軍長官を国家安全保障アドバイザーに起用し、国防分野での政府契約獲得や軍との連携強化を急ぐ動き<br><br><ul><li>OpenAIは、元米陸軍長官のダン・ドリスコール氏を「国家安全保障近代化担当シニア・カウンセラー」として採用し、国防分野での影響力を急速に拡大している。</li><li>ドリスコール氏は在任中に陸軍のAI近代化を推進した実績があり、今後はその議会の人脈や専門知識を活用して政府との大型契約獲得を目指す。</li><li>今回の採用により、AI規制の策定プロセスへ関与を強めるとともに、米軍や情報機関の現場における具体的なAIニーズの把握を狙う。</li><li>OpenAIは2026年2月に機密ネットワーク向けの国防総省（ペンタゴン）向け契約を獲得するなど、国家安全保障および防衛分野への参入を戦略的に加速させている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations/" target="_blank" rel="noopener">Anthropic's Message Threads cut time to first token by 35 percent for long conversations</a></h2>
+      <p>Anthropic、長時間の会話における初トークンまでの時間を35%短縮する「Message Threads」を発表<br><br><ul><li>Anthropicは、Claudeプラットフォーム上で「Message Threads」のパブリックベータ版をリリースした。</li><li>これまで全会話履歴を再送信していたAPIリクエストとは異なり、Message Threadsは前回からの変更点のみを送信する仕組みである。</li><li>トークン数が50万から100万のリクエストにおいて、初トークンまでの時間が約35%短縮される。</li><li>コーディングエージェントや、大量の文書・画像を処理するワークフローにおいて最も効果を発揮する。</li><li>スレッドはリクエスト間でメモリ内に暗号化されて保持され、5分間の非アクティブ状態で失効するが、Claudeが全履歴を読み込むためトークン使用量自体は変わらない。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/nvidia-pushes-cloud-customers-to-cut-back-on-china-business/" target="_blank" rel="noopener">Nvidia pushes cloud customers to cut back on China business</a></h2>
+      <p>Nvidiaがクラウド顧客に対し中国向けビジネスを縮小するよう要請<br><br><ul><li>Nvidiaは、中国企業との取引を減らし、顧客基盤の多様化を図るよう一部のクラウド顧客に要請した。</li><li>この要請は強制ではなく将来の契約が対象であり、既存の契約には影響しない。また、顧客にはチップにアクセスするエンドユーザーの身元開示も求めている。</li><li>背景には、米国による輸出規制の抜け穴が存在する。規制はハードウェアの輸出を制限しているが、クラウドサービスを通じた遠隔アクセスは対象外となっているためである。</li><li>この抜け穴を利用し、中国のAI開発企業は海外のデータセンターで計算能力を借りることで、ハードウェアを輸入せずにNvidiaの先進的なチップを利用している。</li><li>中国のAI企業による海外データセンター経由でのチップアクセスを巡っては、チャットボット「Kimi」の開発企業であるMoonshot AIに関連する疑惑が浮上し、米国当局が調査を行っていた。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/huawei-tells-customers-to-find-their-own-ai-chip-memory-effectively-outsourcing-procurement-to-the-black-market/" target="_blank" rel="noopener">Huawei tells customers to find their own AI chip memory, effectively outsourcing procurement to the black market</a></h2>
+      <p>米国の制裁と供給不足に直面する華為技術（ファーウェイ）が、新型AIチップ用のメモリ調達を顧客自身に委ね、事実上ブラックマーケット（闇市場）に外注している。<br><br><ul><li>ファーウェイは来年初頭に現行の2倍の性能を持つ新型AIチップ「Ascend 960DT」の投入を予定しているが、米国の輸出規制と国内サプライヤーの生産能力不足により、AI向けの高帯域メモリ（HBM）を自社で十分に確保できていない。</li><li>密輸業者たちは、輸出規制の抜け穴を利用して、HBMを規制対象外の安価なサーバー用プロセッサと組み合わせて香港経由で中国本土へ密輸している。</li><li>中国本土に到着したパッケージは、作業所によってメモリチップとプロセッサに解体されるが、このプロセスは壊れやすくエラー率も高い。</li><li>供給不足と高いリスクを背景に、闇市場におけるHBMの価格は1基あたり約4,000ドルにまで高騰しており、韓国では違法な半導体輸出が過去最高レベルを記録している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/bug-hunters-can-now-earn-up-to-172000-from-openai-as-company-ramps-up-security/" target="_blank" rel="noopener">Bug hunters can now earn up to $172,000 from OpenAI as company ramps up security</a></h2>
+      <p>OpenAIがセキュリティを強化し、脆弱性発見の報酬を最大約172,000ドルに引き上げ<br><br><ul><li>OpenAIはバグ報奨金制度の報酬を最大4倍に引き上げ、ChatGPTやCodexなどの主要製品における重大な脆弱性の発見に対して、外部研究者に最大3万ドル、例外的な発見には最大10万ドルを支払う。</li><li>品質、ロイヤルティ、期間限定のキャンペーンボーナスを組み合わせることで、報奨金の総額は最大約172,000ドルに達する。</li><li>この改定には、新たに5段階のロイヤルティプログラムや、新機能のリリースに連動した報酬上乗せのキャンペーンが含まれており、過去30日以内に脆弱性を報告した人にも新旧の差額が遡って適用される。</li><li>報酬の引き上げに加え、セキュリティ企業「Cathedral」と自社エンジニアが協力してシステムをストレステストする内部セキュリティスプリントも準備されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs/" target="_blank" rel="noopener">Anthropic cracks down on game cloning in Claude Code after wave of AI-built knockoffs</a></h2>
+      <p>Anthropicが「Claude Code」での既存ゲームのクローン作成を制限、AIによる知的財産侵害への対策を強化<br><br><ul><li>Anthropicは、コーディング支援ツール「Claude Code」において、既存のビデオゲームを再現することをブロックする対策を導入した。</li><li>システムプロンプトに2文を追加し、名前を変えたりオリジナルと偽ったりした場合でも、他人のゲームのクローン作成を防ぐ仕組みとなっている。</li><li>この背景には、AI（Opus 5.5やGPT-6 Astraなど）を活用して有名タイトルの非公式ブラウザ版やソフトのクローンが大量に作成された問題がある。</li><li>ユーザーは自身のオリジナルゲームやカスタム素材を使ったプロジェクトの作成を続けられるが、一部ではオリジナル作品の構築時にも制限の影響を受けるという報告が出ている。</li><li>画像や動画に続き、知的財産をめぐる争いがソフトウェアやゲーム業界にも波及しており、Anthropicは今後もルールの調整を続けていく方針を示している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/" target="_blank" rel="noopener">Qwen 3.8 27B on my laptop can interpret model weights, too</a></h2>
+      <p>LLMがニューロンの生ウェイト（数値データ）を直接解釈・修正できる「ウェイト空間プログラミング」という手法が注目を集めており、最新のフロンティアモデルだけでなく、筆者のノートPC上で動く小規模なQwenモデルでも同様の処理が可能であることが示された。<br><br><ul><li>最新の研究論文・ブログ記事により、GPT-6 Astraなどの最先端LLMが、コード実行ツールを使わずにニューラルネットワークの生ウェイトを読み取り、その機能を理解・修正できることが示された。</li><li>この技術は「ウェイト空間プログラミング」と呼ばれ、LLMがモデルの重みを見ただけで学習タスクを推測したり、数学能力を向上させるためのウェイト修正を行ったりすることが可能である。</li><li>ただし、「ツールを使わず生ウェイトだけで理解できるか」という点と、「コード実行でモデルを更新するか」という点については、専門家の間で議論や批判も存在している。</li><li>筆者が検証したところ、最先端モデルだけでなく、自身のノートPC上で稼働する「Qwen 3.8 27B」でも、モデルの重みを解釈する同様の能力を確認できた。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/allenai/statebench" target="_blank" rel="noopener">StateBench: Testing how language models track state changes over long documents</a></h2>
+      <p>StateBench：長文における言語モデルの状態変化追跡能力の評価<br><br><ul><li>StateBenchは、長文中のエンティティの状態変化を言語モデルがどこまで追跡できるかを評価する新しいベンチマークである。</li><li>状態追跡には、単純な最新情報の検索から、1つのミスが致命的になる複雑な変更チェーンの追跡まで、4つの難易度レベルが存在する。</li><li>トランスフォーマーモデルには長い依存関係の処理に理論的限界があり、再帰型やハイブリッドアーキテクチャ（Gated DeltaNetなど）の研究が進められている。</li><li>ベンチマークの評価により、Gemini 3.8 FlashやClaude Opus 5.5などの最先端モデルでも、入力が長くなると複雑な状態追跡で破綻することが判明した。</li><li>再帰型・ハイブリッドモデルは、タスク直接訓練時にトランスフォーマーよりも優れた汎化性能を示すことが明らかになった。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/ibm-research/palette-deck-building" target="_blank" rel="noopener">Palette: teaching a small model to build decks in your design language</a></h2>
+      <p>IBM Researchが開発した「Palette」は、小規模なオープンウェイトモデルに企業の独自デザイン言語（IBM Design Language）を学習させ、高品質なプレゼンテーション資料を作成できるようにする技術である。<br><br><ul><li>フロンティアモデルは独自のデザインスタイルに固執しがちで機密情報の外部送信リスクもあるが、Paletteを用いることで自社インフラ上で安全かつ自社デザインに準拠した資料作成が可能になる。</li><li>小規模モデルはレイアウトの計算やコンテンツとデザインの同時決定が苦手で、テキストのはみ出しや重なりが発生しやすいという課題があった。</li><li>デザイナーが計画しコーダーが描画するという人間のプロセスを模倣した合成データを用いて、20B（200億パラメータ）モデルを微調整した。</li><li>IBM Design Languageに則った訓練により、評価用ベンチマーク「PresentBench」の測定3ドメインのうち2つで首位を獲得し、フロンティアシステムに匹敵する性能を実証した。</li><li>モデルの出力を検証・修正するハーネス（仕組み）を構築することで、エラーの少ない確実な資料生成を実現している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/cwe-bench" target="_blank" rel="noopener">CWE-bench v2: More coverage, quality, and transparency</a></h2>
+      <p>CWE-bench v2の公開とサイバーセキュリティ評価の向上<br><br><ul><li>Collinear AIは、AIモデルのサイバーセキュリティ能力をテストするためのベンチマーク「CWE-bench v2」を公開した。</li><li>今回公開されたパブリックセットには100のタスクが含まれ、91種類の異なるCWE（共通脆弱性タイプ一覧）を網羅している。</li><li>各タスクは、実際のオープンソースリポジトリに対してエージェントがセキュリティ脆弱性を修正できるかを検証し、結果は決定的かつ再現可能である。</li><li>品質向上のため、指示の現実性、検証方法の公平性、既存機能の維持、既知のパッチの暗記による不正防止など、厳格な基準で全タスクが手作業でレビューされた。</li><li>パブリックセットは誰でも実行・評価が可能であり、モデル未公開の非公開テストセットも用意されており、リーダーボードで結果が追跡される。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/transformers-mic" target="_blank" rel="noopener">Transformers Model Integration Contracts</a></h2>
+      <p>Transformersモデル統合コントラクト（MIC）：軽量モデルを活用した効率的な回帰テストの導入<br><br><ul><li>Hugging Faceの「Transformers」では、大規模なモデルや膨大なテストスイートにより、GPUリソースの制限からメインブランチへのバグ流出を防ぎきれない課題があった。</li><li>この課題を解決するため、実モデルの設定を保持しつつ軽量化した「フィクスチャ（縮小モデル）」を作成し、安価なCPUランナー上で高速な統合テストを実行するアプローチを導入した。</li><li>過去に発生したUMT5モデルのデコーダーにおける未来トークン参照バグのような、単なるフォワードパスの実行では検知できない不具合も、軽量モデルを用いたテストで効果的に検出できる。</li><li>「transformers-mic」として提案されているモデル統合コントラクト（MIC）は、一度公開してピン留めされる縮小モデルの「フィクスチャ」と、実行可能な「使用パス」などで構成される新しいテスト標準である。</li><li>フィクスチャは完全な統合テストの完全な代替にはならないものの、プルリクエストの段階でバグを事前に捕捉する非常に有効な手段となる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max/" target="_blank" rel="noopener">Alibaba's Qwen Code repo just leaked qwen4-max, qwen4-coder-plus, and qwen4-omni-120b</a></h2>
+      <p>Alibabaの次世代AIモデル「Qwen 4」シリーズの情報が公式コードリポジトリから流出<br><br><ul><li>Alibabaの「Qwen Code」公式リポジトリにおいて、未発表である次世代AIモデル「Qwen 4」シリーズの存在が確認された。</li><li>流出したモデルには、テキスト処理に特化した「qwen4-max」、プログラミング支援向けの「qwen4-coder-plus」、および大規模なマルチモーダル対応が期待される「qwen4-omni-120b」が含まれている。</li><li>これらのモデルの詳細は公式に発表されていないものの、コード上での言及や設定ファイルのリークにより、Alibabaが次世代の大規模言語モデルの開発を大きく進めていることが明らかになった。</li><li>「omni-120b」という名称から、音声や画像などを統合して処理できるマルチモーダル機能を備え、120B（1200億）パラメータ規模の大型モデルであることが示唆されている。</li><li>今回の予期せぬ情報流出は、AI業界や開発者の間で大きな話題となっており、Alibabaによる正式発表や今後の展開に高い関心が寄せられている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xn568h/british_fintech_revolut_slashes_ai_coding_costs/" target="_blank" rel="noopener">British fintech Revolut slashes AI coding costs 10x by cutting out Claude and going self-hosted</a></h2>
+      <p>英フィンテック企業のRevolutは、外部のClaudeの利用を止め、自社ホスト型のAIシステムへ移行することで、AIコーディングのコストを10分の1に削減することに成功しました。<br><br><ul><li>Revolutが外部AIサービスであるClaudeの利用を停止し、自社ホスト型（セルフホスト）のAIシステムへ移行した</li><li>AIを活用したコーディングにかかるコストを10分の1（10x）にまで大幅削減することに成功した</li><li>コスト削減と同時に、社内データ管理のセキュリティや運用のコントロール強化も実現している</li><li>多くの企業が外部の大規模言語モデルに依存する中、自社インフラを活用した効率的なAI運用の先進的な成功事例となった</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xmqq2a/rtx_5090_with_64gb_and_96gb_vram_confirmed_by_us/" target="_blank" rel="noopener">RTX 5090 with 64GB and 96GB VRAM 'confirmed' by US GPU repair tech</a></h2>
+      <p>US GPU Repair TechがRTX 5090に64GBと96GBのVRAM搭載モデルが存在することを確認<br><br><ul><li>米国のGPU修理技術者が、GeForce RTX 5090に64GBおよび96GBのVRAMを搭載したモデルが存在することを確認したと主張している。</li><li>これらの大容量VRAMモデルは、通常のコンシューマー向けではなく、ワークステーションやAI・ディープラーニング用途などの専門的な需要を見据えた特殊な仕様である可能性が高い。</li><li>次世代フラッグシップGPUであるRTX 5090は、極めて高い処理能力だけでなく、VRAM容量の面でも大幅な進化を遂げることが示唆されている。</li><li>AI開発や大規模言語モデルのローカル実行において、VRAM容量の大きさは極めて重要な要素であるため、今回の情報はプロフェッショナルユーザーの間で大きな注目を集めている。</li><li>現時点では公式な発表ではないため、最終的な製品仕様や市場投入の有無については今後の続報を待つ必要がある。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xmz9ca/like_gpt6_astra_qwen_38_27b_can_interpret_model/" target="_blank" rel="noopener">Like GPT-6 Astra, Qwen 3.8 27B can interpret model weights</a></h2>
+      <p>Qwen 3.8 27Bがモデルウェイトの直接解釈機能を獲得し、高度なAIモデル解析においてGPT-6 Astraと同等の能力を発揮することが示されました。<br><br><ul><li>Qwen 3.8 27Bは、GPT-6 Astraのようにモデルウェイトを直接解釈する先進的な機能を備えている。</li><li>この機能により、AIモデル内部の動作メカニズムや構造をより深く分析・理解することが可能になる。</li><li>従来モデルと比較して、大規模言語モデルの挙動解析や透明性の向上が期待される。</li><li>AIのオープンソース開発において、モデルの内部理解を進めるための重要なマイルストーンとなる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xmfbam/i_found_another_niche_use_case_for_local_llms_but/" target="_blank" rel="noopener">I found another niche use case for local LLMs, but need some advice</a></h2>
+      <p>ローカルLLMの新たなニッチなユースケースを発見したが、その活用方法についてアドバイスを求めている。<br><br><ul><li>ローカルLLMを活用できる新たなニッチなユースケースを見つけた。</li><li>具体的な活用シナリオや実用性において、さらなる最適化やアイデアを必要としている。</li><li>クラウド型とは異なるローカル環境ならではの特性を活かした用途である可能性が高い。</li><li>効果的なプロンプト設計や運用方法について、他のユーザーからの知見やアドバイスを募っている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0" target="_blank" rel="noopener">v0.40.15</a></h2>
+      <p>Ollama v0.40.15 リリース情報<br><br><ul><li>GitHub上のollama/ollamaリポジトリにおいて、バージョン「v0.40.15」がリリースされた。</li><li>リリース日は2024年11月3日（22:52）で、github-actionsによって自動リリースが行われた。</li><li>本リリースに関連して、事前に「v0.40.15-rc0」（プレリリース）などのタグが作成されていた。</li><li>メインブランチに対して、このリリース以降のコミットや変更管理が行われている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.14" target="_blank" rel="noopener">v0.40.14</a></h2>
+      <p>ollama/ollama v0.40.14 リリース情報<br><br><ul><li>GitHub上のollamaリポジトリにおいて、バージョン「v0.40.14」が最新のリリースとして公開された。</li><li>リリース日は2024年11月3日（日本時間では未明の01:40）で、github-actionsによって自動リリースされた。</li><li>本リリースは「Latest（最新）」タグが付けられており、メインブランチに対して直近で3つのコミットが行われている。</li><li>GitHubのプラットフォーム上で、コードの管理やIssues、Pull requestsといった開発者向けの機能とともに対象のバージョンが提供されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.14-rc0" target="_blank" rel="noopener">v0.40.14-rc0</a></h2>
+      <p>OllamaのGitHubリポジトリにおいて、バージョン「v0.40.14-rc0」のリリース（候補版）が公開されたことを伝えるページです。<br><br><ul><li>ローカルLLM実行ツール「Ollama」の新しいリリース候補（rc0）である「v0.40.14-rc0」が公開された。</li><li>GitHub上のollama/ollamaリポジトリのリリース画面に掲載されている。</li><li>コミットはGitHub上で作成され、検証済みのGPG署名が付与されている。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-11-03";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+  var TOPICS_PATH_PREFIX = '../topics/';
+  var CURRENT_MONTH = CURRENT_DATE.slice(0, 7);
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+  var monthlyLink = document.getElementById('monthly-link');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  // 入力値を YYYY-MM-DD に揃える。判定できなければ null（テンプレートリテラル内のため、バックスラッシュを使わない書き方にする）
+  function normalizeDateInput(value) {
+    var v = String(value).normalize('NFKC').trim();
+    if (/^[0-9]{8}$/.test(v)) {
+      return v.slice(0, 4) + '-' + v.slice(4, 6) + '-' + v.slice(6, 8);
+    }
+    if (/^[0-9]{4}[-/][0-9]{2}[-/][0-9]{2}$/.test(v)) {
+      return v.replace(/[/]/g, '-');
+    }
+    return null;
+  }
+
+  function validateAndGo(value) {
+    var date = normalizeDateInput(value);
+    if (date === CURRENT_DATE) { dateInput.value = CURRENT_DATE; return; }
+    if (date === null || dateList.indexOf(date) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(date);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  function setMonthlyLink(label, href) {
+    var text = label + '（新しいタブで開きます）';
+    // 前提: <a> の最初の子ノードがラベルのテキストノード（<a>月次一覧<span>…</span></a>）
+    monthlyLink.firstChild.nodeValue = label;
+    monthlyLink.href = href;
+    monthlyLink.setAttribute('aria-label', text);
+    monthlyLink.title = text;
+  }
+
+  function loadMonthly() {
+    fetch(TOPICS_PATH_PREFIX + 'index.json')
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var months = ((data && data.months) || []).map(function (m) { return m.month; });
+        if (months.indexOf(CURRENT_MONTH) !== -1) {
+          setMonthlyLink('月次', TOPICS_PATH_PREFIX + CURRENT_MONTH + '.html');
+        }
+      })
+      .catch(function (err) {
+        console.error('monthly-link: index.json fetch failed', err);
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+  // 数字キーパッド（Return キーなし）向け: 数字だけ8桁になったら自動で移動する。日付一覧の取得前・失敗時は何もしない
+  dateInput.addEventListener('input', function (e) {
+    if (e.isComposing) return;
+    if (dateList.length === 0) return;
+    if (/^[0-9]{8}$/.test(dateInput.value.normalize('NFKC').trim())) {
+      validateAndGo(dateInput.value.trim());
+    }
+  });
+  // フォーカス時に全選択する（数字キーパッドで打ち直しやすくする）。iOS Safari はフォーカス直後のタップでキャレットを置き直し、選択が解除されることがあるため、タイマーでかけ直す
+  dateInput.addEventListener('focus', function () {
+    dateInput.select();
+    setTimeout(function () { dateInput.setSelectionRange(0, dateInput.value.length); }, 0);
+  });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+  loadMonthly();
+})();
+</script>
+</body>
+</html>
