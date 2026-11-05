@@ -1,0 +1,119 @@
+[
+  {
+    "id": "40f3de0e-c1c5-81d8-9938-fd9c3222b03f",
+    "title": "ChatGPT can now turn text prompts and photos into animated GIFs with OpenAI's Images 2.6 model",
+    "site": "THE DECODER",
+    "published": "2026-11-04T19:44:20.000Z",
+    "fetched": "2026-11-05T00:01:09.286Z",
+    "summary": "ChatGPTが新モデル「Images 2.6」により、テキストや写真からアニメーションGIFを作成できる機能の提供を開始しました。\n\n- OpenAIの新モデル「Images 2.6」の導入により、ChatGPTおよびCodexのユーザーはテキストのプロンプトやアップロードした写真からアニメーションGIFを生成できるようになった。\n- 生成されたGIFは、アニメーションの速度調整や個別のフレーム編集が可能である。\n- 新モデルでは画像の一貫性が向上しており、フレーム間でキャラクターの見た目が大きく崩れることなく認識しやすくなっている。\n- 画像生成全体の速度も向上しており、開発者向けには効率重視の「Flare」と高品質な「Sunburst」という2種類のAPIモデルが提供される。\n- 現在、ChatGPTとAPIを通じた画像生成数は週に40億枚を超えており、利用規模がさらに拡大している。",
+    "url": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/"
+  },
+  {
+    "id": "40f3de0e-c1c5-8117-b048-e862d0cef559",
+    "title": "Anthropic's text watermark is easy to bypass on several older Claude models",
+    "site": "THE DECODER",
+    "published": "2026-11-04T19:03:55.000Z",
+    "fetched": "2026-11-05T00:01:16.612Z",
+    "summary": "Anthropic社におけるClaudeモデルのテキストウォーターマーク導入とバイパスに関する動向\n\n- Anthropic社は、API顧客に対し複数モデルへのテキストウォーターマークの導入拡大と、スケジュール変更に関する通知を行っている。\n- 2026年11月16日以降、Claude Opus 4.6やSonnet 4.5など複数の旧モデルに対してもウォーターマークが順次適用される予定である。\n- 一部のモデルでは、サンプリングパラメータ（temperature、top_p、top_k）をデフォルトから変更することで、APIユーザーがウォーターマークを回避できる仕様になっている。\n- 同社のテキストウォーターマークは、意味や品質、読みやすさを損なわず、追加の文字やトークンを増やさない「言葉の選択における知覚できないパターン」として機能する。",
+    "url": "https://the-decoder.com/anthropics-text-watermark-is-easy-to-bypass-on-several-older-claude-models/"
+  },
+  {
+    "id": "40f3de0e-c1c5-81b5-9ab8-dd3067303b1f",
+    "title": "OpenAI acquires Pierre Computer Company to make Git keep up with AI coding agents",
+    "site": "THE DECODER",
+    "published": "2026-11-04T18:41:03.000Z",
+    "fetched": "2026-11-05T00:01:24.723Z",
+    "summary": "OpenAIがAIコーディングエージェントに対応するためGitのワークフローを強化する目的で、Pierre Computer Companyを買収した。\n\n- OpenAIがコードストレージやオープンソースツールを手がける「Pierre Computer Company」を買収する。\n- Pierre社が開発した「Trees」「Diffs」「Highlights」などのライブラリは、すでにOpenAIのコーディングエージェント「Codex」を支えている。\n- この買収の目的は、人間とAIエージェントが並行してコードを書く際、Gitのワークフローや周辺ツールを最適化して追従させることである。\n- OpenAIは開発者とAIエージェントの両方に対応する独自バージョン管理バックエンド「Pando」も既に運用している。\n- Pierre社のオープンソースプロジェクトは今後もオープンソースとして維持され、買収には規制当局の承認が必要となる。",
+    "url": "https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents/"
+  },
+  {
+    "id": "40f3de0e-c1c5-818f-8b37-dc89a02808dd",
+    "title": "New open-source benchmark reveals reasoning as the biggest bottleneck for AI in cloud operations",
+    "site": "THE DECODER",
+    "published": "2026-11-04T16:42:52.000Z",
+    "fetched": "2026-11-05T00:01:32.308Z",
+    "summary": "New open-source benchmark reveals reasoning as the biggest bottleneck for AI in cloud operations\n\n- ミシガン大学のアン・チェン氏らのチームが開発した新しいオープンソースのベンチマーク「CloudOpsBench」により、クラウド運用のDevOpsタスクにおけるAIの最大ボトルネックが「推論能力」であることが明らかになった。\n- CloudOpsBenchのバージョン1.0にはAWS上の45のタスクが含まれており、Claude Fable 5.1が60%、GPT-6 Astraが53%の解決率にとどまり、現行の最高峰モデルでも多くのタスクを失敗している。\n- 失敗の約80%は知識不足ではなく、エージェントがタスクの範囲を誤認したり、関連サービスを確認し忘れたり、途中で処理を打ち切るなどの「推論ミス」に起因している。\n- 残りの約20%のエラーは不適切な実行によるもので、中にはインフラに対して取り返しのつかない影響を及ぼす重大な操作も含まれている。\n- 本ベンチマークは実際のAWSクラウドとエミュレータの両方で実行可能であり、今後はGCPやAzure、OCIへの拡張も予定されている。",
+    "url": "https://the-decoder.com/new-open-source-benchmark-reveals-reasoning-as-the-biggest-bottleneck-for-ai-in-cloud-operations/"
+  },
+  {
+    "id": "40f3de0e-c1c5-81f1-ba7f-ca997b60eb7e",
+    "title": "GPT-6 Astra sees the matrix and reprograms other AI models directly through their weights",
+    "site": "THE DECODER",
+    "published": "2026-11-04T15:44:44.000Z",
+    "fetched": "2026-11-05T00:01:40.085Z",
+    "summary": "GPT-6 Astraが他のAIモデルの内部パラメータ（重み）を直接解析・改変し、従来の再学習なしにチューニングや制御を行う「Weight-Space Programming」の手法とその実験結果について解説しています。\n\n- MITの研究により、OpenAIのGPT-6 Astraが従来の学習プロセスを経ずに、他のAIモデルの内部設定である「重み（ウェイト）」を直接理解・改変できることが示された。\n- このアプローチは「Weight-Space Programming」と呼ばれ、大規模な言語モデルが他のAIの「メカニック」として機能し、個別の数値を調整することでモデルの制御を可能にする。\n- Astraは、モデルの生の数値を見るだけで、そのネットワークがプレイするように訓練されたコンピュータゲームの種類を正確に特定することができた。\n- また、画像生成AIが生成する基本形状の認識や、小規模言語モデルの訓練された言語を、訓練データや実行環境へのアクセスなしで正しく一致させることに成功した。\n- 本手法にはまだ限界があるものの、AIシステム全体の調整方法や制御のあり方を根本から変える可能性を秘めている。",
+    "url": "https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights/"
+  },
+  {
+    "id": "40f3de0e-c1c5-8121-bb46-c4efb0c8a7ad",
+    "title": "Anthropic's new prototype proves which model wrote an AI response without exposing its weights",
+    "site": "THE DECODER",
+    "published": "2026-11-04T15:23:49.000Z",
+    "fetched": "2026-11-05T00:01:48.493Z",
+    "summary": "Anthropicが発表した新プロトタイプ「FlashProve」は、モデルの重み（内部パラメータ）を公開せずに、AIの応答がどのモデルによって生成されたかを暗号技術によって証明する技術である。\n\n- Anthropicは、AIの応答が指定したモデルで実際に生成されたかを検証できる研究用プロトタイプ「FlashProve」を公開した。\n- 暗号技術「zkSNARK」を用いており、モデルの重みを秘密にしたまま、特定のモデルが応答を出力したことを証明する。\n- 400億パラメータのモデルに対し、1秒あたり約110トークンの速度で証明を生成可能であり、従来の手法から劇的な効率化を実現している。\n- ルーティングサービスによる不正な安価モデルへのすり替え防止や、規制当局による承認モデルの稼働確認などのユースケースが期待されている。",
+    "url": "https://the-decoder.com/anthropics-new-prototype-proves-which-model-wrote-an-ai-response-without-exposing-its-weights/"
+  },
+  {
+    "id": "40f3de0e-c1c5-819e-ab66-e9a4b68fb34f",
+    "title": "Exit polls show AI ranked last among voter priorities in the 2026 U.S. midterms",
+    "site": "THE DECODER",
+    "published": "2026-11-04T10:45:54.000Z",
+    "fetched": "2026-11-05T00:01:55.886Z",
+    "summary": "2026年米中間選挙の出口調査：有権者の関心事項におけるAIの順位\n\n- 2026年の米中間選挙に関するNBCニュースとSSRSの出口調査において、AIとデータセンターの拡張は、投票行動における決定要因または重要事項として挙げた人の割合が56%にとどまり、調査された5つのトピックの中で最下位となった。\n- AIへの一般の関心は近年高まっているものの、政府の腐敗（90%）、生活費（89%）、イランとの戦争（74%）、移民対策（73%）といった他の主要な争点とは依然として大きな差があった。\n- 本調査結果は、世間の関心の高さに反して、実際の選挙における有権者の優先順位としてはAIがまだ他の切実な生活・社会問題の後ろに位置していることを示している。",
+    "url": "https://the-decoder.com/exit-polls-show-ai-ranked-last-among-voter-priorities-in-the-2026-u-s-midterms/"
+  },
+  {
+    "id": "40f3de0e-c1c5-813a-a85a-c741c4905268",
+    "title": "Schools that turn off Google's AI will lose search too starting in 2027",
+    "site": "THE DECODER",
+    "published": "2026-11-04T10:06:23.000Z",
+    "fetched": "2026-11-05T00:02:03.860Z",
+    "summary": "Googleは、2027年初頭から、学校の生徒用アカウントにおいてAI機能（Geminiなど）とGoogle検索を一体化させ、AIを拒否して従来の検索機能のみを利用することができない方針を固めました。ニューヨーク・タイムズの報道によると、教育担当副社長のクリス・フィリップス氏は、検索とAIが不可分に統合されたためであると説明しています。\n\n- 2027年初頭以降、学校はGoogleのAI機能を受け入れるか、Google検索の利用自体を諦めるかの二択を迫られる。\n- 学生アカウントではGeminiなどのAIとGoogle検索がデフォルトでオフになるが、検索を有効にする場合はAI機能（AI概要やAIチャット、または「ガイド付き学習」モード）がセットで提供され、AIなしの検索を選択肢から除外する。\n- Googleは以前、学習プラットフォーム「Classroom」でAI機能をデフォルトで有効にしたことで反発を招き、方針を一時修正していたが、今回の新方針により実質的にAIの導入を義務付ける形となった。\n- 米国内で大きなシェアを持つGoogleに対し、ニューヨーク市やロサンゼルス市などの大規模な学区は、AI概要なしの検索のみの利用を希望していたが、今回の変更によりその要望が通らなくなる見込みである。",
+    "url": "https://the-decoder.com/schools-that-turn-off-googles-ai-will-lose-search-too-starting-in-2027/"
+  },
+  {
+    "id": "40f3de0e-c1c5-81f9-831c-ea7a64538db1",
+    "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+    "site": "Hugging Face Blog",
+    "published": "2026-11-04T17:50:10.000Z",
+    "fetched": "2026-11-05T00:02:11.207Z",
+    "summary": "Dharma Field Extractor：あらゆるドキュメントからJSON形式で構造化データを抽出する軽量AIモデル\n\n- 20億パラメータという軽量サイズでありながら、契約書や請求書、身分証などあらゆる文書から指定したフィールドを正確に抽出するモデルである。\n- 従来のOCRや汎用LLMとは異ネーションし、OCRでは得られない「どのデータがどの項目に該当するか」の判別を行い、ネスト構造を含むJSONデータとして直接出力する。\n- ユーザーは任意のスキーマや抽出したい項目を指定するだけで、下流システムがそのまま処理できる形式にデータを変換できる。\n- テストでは、すべてのフロンティアLLMを上回る抽出精度を実証しながら、コストとレイテンシーを大幅に削減している。\n- 大量処理が必要なビジネス環境において、高価な汎用APIの代替となる高効率なソリューションを提供する。",
+    "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor"
+  },
+  {
+    "id": "40f3de0e-c1c5-8111-8238-c3881148951c",
+    "title": "How NVIDIA Uses AI Agents to Streamline AI Factory Operations",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-11-04T22:00:17.000Z",
+    "fetched": "2026-11-05T00:02:19.182Z",
+    "summary": "NVIDIAのAIファクトリー運用におけるAIエージェントの活用\n\n- NVIDIAは、DGX SuperPODの運用効率化とSREの負担軽減を目的として「AI Factory Operations Agent」を開発した。\n- 本フレームワークはNVIDIA NemoClawとOpenShellを基盤とし、オンプレミス環境でローカルのNemotronオープンモデルを使用して稼働する。\n- ジョブ復旧、ハードウェア、可観測性などの特化したサブエージェントが連携し、計算・ネットワーク・ハードウェア層にわたる障害の根本原因を相関分析する。\n- SREの信頼構築のため、明確なエージェント境界の設定、読み取り専用による調査、クロスレイヤー相関、透明性の高い推論プロセスを重視している。\n- マルチテナント環境においては、OpenShellのカーネルレベルのサンドボックス制限により、テナントごとのデータと操作の安全な隔離を実現している。",
+    "url": "https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations/"
+  },
+  {
+    "id": "40f3de0e-c1c5-8134-b707-e4b4478b4c2f",
+    "title": "NVIDIA CUDA 13.5 Brings NVIDIA Vera Rubin GA Support",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-11-04T18:46:07.000Z",
+    "fetched": "2026-11-05T00:02:27.829Z",
+    "summary": "NVIDIA CUDA 13.5のリリースと新機能\n\n- NVIDIA CUDA Toolkit 13.5が一般提供（GA）を開始し、次世代の「NVIDIA Vera Rubin」GPUアーキテクチャへの本番環境向けサポートが正式に導入されました。\n- Windows on ArmのサポートがNVIDIA DGX Station for Windowsへと拡張され、対応プラットフォームがさらに広がっています。\n- ローカリティドメインの強化や、重み付けタイムスライス、負荷分散機能を備えた「NVIDIA Multi-Process Service v3」が追加されました。\n- CUDA TileにおいてNVLinkやNVSwitchを介したマルチGPU通信や、主要ライブラリとのSIMT相互運用性がプレビュー提供されます。\n- CUDA PythonやCCCL 3.5のアップデートにより、バッチ処理や再現性のある浮動小数点スキャン、データ依存型リダクションなどの新機能が利用可能になりました。",
+    "url": "https://developer.nvidia.com/blog/nvidia-cuda-13-5-brings-nvidia-vera-rubin-ga-support/"
+  },
+  {
+    "id": "40f3de0e-c1c5-8139-a6e0-c676ffce8616",
+    "title": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-11-04T17:00:00.000Z",
+    "fetched": "2026-11-05T00:02:35.211Z",
+    "summary": "NVIDIA Factory Operations Blueprint (FOX) による、AIエージェントを活用した工場トラブル調査の効率化\n\n- **ファクトリーマネージャーエージェントの導入**: NVIDIA Nemotronなどの大規模言語モデルを活用し、既存の工場データやツールを統合してタスクを解釈・管理するリファレンスアーキテクチャを提供。\n- **専門特化したエージェントの協調**: 視覚検査（NVIDIA Cosmos）、フリート管理（Isaac Sim・ROS 2）、時系列解析（Kumo Anomaly）などの専門エージェントが連携し、不良品検査から手直し、原因究明までを自動化。\n- **SMT組立ラインでの実践的なワークフロー**: 自動光学検査（AOI）のアラート検知から、ロボットによる運搬、根本原因分析、証拠と改善策を含むPDFレポート作成までの一連の流れを自動化。\n- **オンプレミスによる高いセキュリティ**: NVIDIA DGX Stationを活用した完全なオンプレミス展開をサポートし、生産記録や画像、調査結果などの機密データを工場ネットワーク内に保持。",
+    "url": "https://developer.nvidia.com/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues/"
+  },
+  {
+    "id": "40f3de0e-c1c5-8173-9556-e0f59527b4b1",
+    "title": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-11-04T16:00:00.000Z",
+    "fetched": "2026-11-05T00:02:43.183Z",
+    "summary": "NVIDIA NeMoを活用してAIエージェントの失敗をテストに変換し、ハネスの修正を行う方法\n\n- **生産データからの課題抽出と評価作成**: NVIDIA NeMo CompassとNeMo Eval Authorを使用し、エージェントの実行トレースから失敗原因を分析、優先順位をつけてカスタム評価を作成する。\n- **最適化サイクルの実行**: システムプロンプトの修正などエージェントハネスの更新を行い、開発用および非公開のタスクで評価を再実行して改善の検証と回帰検出を行う。\n- **実際の改善実績**: ダッソー・システムズのエンジニアリング事例において、不適切なツール呼び出しをゼロにし、全体的な評価スコアの向上とツール呼び出し回数の削減を達成した。\n- **プロンプトやツールの総合的な改善**: モデルのチューニングだけでなく、プロンプト、ツール、ルーティング、メモリ、スキル、制御フローなど、本番環境の信頼性に影響する要素全体を最適化する。",
+    "url": "https://developer.nvidia.com/blog/use-nvidia-nemo-to-turn-agent-failures-into-tests-and-harness-fixes/"
+  }
+]
