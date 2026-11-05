@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI/LLM記事まとめ 2026/11/04</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; flex-wrap: wrap; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  .date-nav .monthly-link { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; font-size: 1em; color: #222; text-decoration: none; white-space: nowrap; }
+  .date-nav .monthly-link:hover { background: #f5f5f5; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+  @media (max-width: 600px) {
+    .date-nav-title { display: none; }
+    .date-nav input[type="text"] { width: 100px; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">AI/LLM記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-11-04" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+  <a id="monthly-link" class="monthly-link" href="../topics/index.html" target="_blank" rel="noopener" aria-label="月次一覧（新しいタブで開きます）" title="月次一覧（新しいタブで開きます）">月次一覧<span class="ext" aria-hidden="true"> ↗</span></a>
+</header>
+<h1>2026/11/04</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/" target="_blank" rel="noopener">ChatGPT can now turn text prompts and photos into animated GIFs with OpenAI's Images 2.6 model</a></h2>
+      <p>ChatGPTが新モデル「Images 2.6」により、テキストや写真からアニメーションGIFを作成できる機能の提供を開始しました。<br><br><ul><li>OpenAIの新モデル「Images 2.6」の導入により、ChatGPTおよびCodexのユーザーはテキストのプロンプトやアップロードした写真からアニメーションGIFを生成できるようになった。</li><li>生成されたGIFは、アニメーションの速度調整や個別のフレーム編集が可能である。</li><li>新モデルでは画像の一貫性が向上しており、フレーム間でキャラクターの見た目が大きく崩れることなく認識しやすくなっている。</li><li>画像生成全体の速度も向上しており、開発者向けには効率重視の「Flare」と高品質な「Sunburst」という2種類のAPIモデルが提供される。</li><li>現在、ChatGPTとAPIを通じた画像生成数は週に40億枚を超えており、利用規模がさらに拡大している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropics-text-watermark-is-easy-to-bypass-on-several-older-claude-models/" target="_blank" rel="noopener">Anthropic's text watermark is easy to bypass on several older Claude models</a></h2>
+      <p>Anthropic社におけるClaudeモデルのテキストウォーターマーク導入とバイパスに関する動向<br><br><ul><li>Anthropic社は、API顧客に対し複数モデルへのテキストウォーターマークの導入拡大と、スケジュール変更に関する通知を行っている。</li><li>2026年11月16日以降、Claude Opus 4.6やSonnet 4.5など複数の旧モデルに対してもウォーターマークが順次適用される予定である。</li><li>一部のモデルでは、サンプリングパラメータ（temperature、top_p、top_k）をデフォルトから変更することで、APIユーザーがウォーターマークを回避できる仕様になっている。</li><li>同社のテキストウォーターマークは、意味や品質、読みやすさを損なわず、追加の文字やトークンを増やさない「言葉の選択における知覚できないパターン」として機能する。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents/" target="_blank" rel="noopener">OpenAI acquires Pierre Computer Company to make Git keep up with AI coding agents</a></h2>
+      <p>OpenAIがAIコーディングエージェントに対応するためGitのワークフローを強化する目的で、Pierre Computer Companyを買収した。<br><br><ul><li>OpenAIがコードストレージやオープンソースツールを手がける「Pierre Computer Company」を買収する。</li><li>Pierre社が開発した「Trees」「Diffs」「Highlights」などのライブラリは、すでにOpenAIのコーディングエージェント「Codex」を支えている。</li><li>この買収の目的は、人間とAIエージェントが並行してコードを書く際、Gitのワークフローや周辺ツールを最適化して追従させることである。</li><li>OpenAIは開発者とAIエージェントの両方に対応する独自バージョン管理バックエンド「Pando」も既に運用している。</li><li>Pierre社のオープンソースプロジェクトは今後もオープンソースとして維持され、買収には規制当局の承認が必要となる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/new-open-source-benchmark-reveals-reasoning-as-the-biggest-bottleneck-for-ai-in-cloud-operations/" target="_blank" rel="noopener">New open-source benchmark reveals reasoning as the biggest bottleneck for AI in cloud operations</a></h2>
+      <p>New open-source benchmark reveals reasoning as the biggest bottleneck for AI in cloud operations<br><br><ul><li>ミシガン大学のアン・チェン氏らのチームが開発した新しいオープンソースのベンチマーク「CloudOpsBench」により、クラウド運用のDevOpsタスクにおけるAIの最大ボトルネックが「推論能力」であることが明らかになった。</li><li>CloudOpsBenchのバージョン1.0にはAWS上の45のタスクが含まれており、Claude Fable 5.1が60%、GPT-6 Astraが53%の解決率にとどまり、現行の最高峰モデルでも多くのタスクを失敗している。</li><li>失敗の約80%は知識不足ではなく、エージェントがタスクの範囲を誤認したり、関連サービスを確認し忘れたり、途中で処理を打ち切るなどの「推論ミス」に起因している。</li><li>残りの約20%のエラーは不適切な実行によるもので、中にはインフラに対して取り返しのつかない影響を及ぼす重大な操作も含まれている。</li><li>本ベンチマークは実際のAWSクラウドとエミュレータの両方で実行可能であり、今後はGCPやAzure、OCIへの拡張も予定されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights/" target="_blank" rel="noopener">GPT-6 Astra sees the matrix and reprograms other AI models directly through their weights</a></h2>
+      <p>GPT-6 Astraが他のAIモデルの内部パラメータ（重み）を直接解析・改変し、従来の再学習なしにチューニングや制御を行う「Weight-Space Programming」の手法とその実験結果について解説しています。<br><br><ul><li>MITの研究により、OpenAIのGPT-6 Astraが従来の学習プロセスを経ずに、他のAIモデルの内部設定である「重み（ウェイト）」を直接理解・改変できることが示された。</li><li>このアプローチは「Weight-Space Programming」と呼ばれ、大規模な言語モデルが他のAIの「メカニック」として機能し、個別の数値を調整することでモデルの制御を可能にする。</li><li>Astraは、モデルの生の数値を見るだけで、そのネットワークがプレイするように訓練されたコンピュータゲームの種類を正確に特定することができた。</li><li>また、画像生成AIが生成する基本形状の認識や、小規模言語モデルの訓練された言語を、訓練データや実行環境へのアクセスなしで正しく一致させることに成功した。</li><li>本手法にはまだ限界があるものの、AIシステム全体の調整方法や制御のあり方を根本から変える可能性を秘めている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropics-new-prototype-proves-which-model-wrote-an-ai-response-without-exposing-its-weights/" target="_blank" rel="noopener">Anthropic's new prototype proves which model wrote an AI response without exposing its weights</a></h2>
+      <p>Anthropicが発表した新プロトタイプ「FlashProve」は、モデルの重み（内部パラメータ）を公開せずに、AIの応答がどのモデルによって生成されたかを暗号技術によって証明する技術である。<br><br><ul><li>Anthropicは、AIの応答が指定したモデルで実際に生成されたかを検証できる研究用プロトタイプ「FlashProve」を公開した。</li><li>暗号技術「zkSNARK」を用いており、モデルの重みを秘密にしたまま、特定のモデルが応答を出力したことを証明する。</li><li>400億パラメータのモデルに対し、1秒あたり約110トークンの速度で証明を生成可能であり、従来の手法から劇的な効率化を実現している。</li><li>ルーティングサービスによる不正な安価モデルへのすり替え防止や、規制当局による承認モデルの稼働確認などのユースケースが期待されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/exit-polls-show-ai-ranked-last-among-voter-priorities-in-the-2026-u-s-midterms/" target="_blank" rel="noopener">Exit polls show AI ranked last among voter priorities in the 2026 U.S. midterms</a></h2>
+      <p>2026年米中間選挙の出口調査：有権者の関心事項におけるAIの順位<br><br><ul><li>2026年の米中間選挙に関するNBCニュースとSSRSの出口調査において、AIとデータセンターの拡張は、投票行動における決定要因または重要事項として挙げた人の割合が56%にとどまり、調査された5つのトピックの中で最下位となった。</li><li>AIへの一般の関心は近年高まっているものの、政府の腐敗（90%）、生活費（89%）、イランとの戦争（74%）、移民対策（73%）といった他の主要な争点とは依然として大きな差があった。</li><li>本調査結果は、世間の関心の高さに反して、実際の選挙における有権者の優先順位としてはAIがまだ他の切実な生活・社会問題の後ろに位置していることを示している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/schools-that-turn-off-googles-ai-will-lose-search-too-starting-in-2027/" target="_blank" rel="noopener">Schools that turn off Google's AI will lose search too starting in 2027</a></h2>
+      <p>Googleは、2027年初頭から、学校の生徒用アカウントにおいてAI機能（Geminiなど）とGoogle検索を一体化させ、AIを拒否して従来の検索機能のみを利用することができない方針を固めました。ニューヨーク・タイムズの報道によると、教育担当副社長のクリス・フィリップス氏は、検索とAIが不可分に統合されたためであると説明しています。<br><br><ul><li>2027年初頭以降、学校はGoogleのAI機能を受け入れるか、Google検索の利用自体を諦めるかの二択を迫られる。</li><li>学生アカウントではGeminiなどのAIとGoogle検索がデフォルトでオフになるが、検索を有効にする場合はAI機能（AI概要やAIチャット、または「ガイド付き学習」モード）がセットで提供され、AIなしの検索を選択肢から除外する。</li><li>Googleは以前、学習プラットフォーム「Classroom」でAI機能をデフォルトで有効にしたことで反発を招き、方針を一時修正していたが、今回の新方針により実質的にAIの導入を義務付ける形となった。</li><li>米国内で大きなシェアを持つGoogleに対し、ニューヨーク市やロサンゼルス市などの大規模な学区は、AI概要なしの検索のみの利用を希望していたが、今回の変更によりその要望が通らなくなる見込みである。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/Dharma-AI/dharma-field-extractor" target="_blank" rel="noopener">Dharma Field Extractor: Any Document In, Structured Fields in JSON Out</a></h2>
+      <p>Dharma Field Extractor：あらゆるドキュメントからJSON形式で構造化データを抽出する軽量AIモデル<br><br><ul><li>20億パラメータという軽量サイズでありながら、契約書や請求書、身分証などあらゆる文書から指定したフィールドを正確に抽出するモデルである。</li><li>従来のOCRや汎用LLMとは異ネーションし、OCRでは得られない「どのデータがどの項目に該当するか」の判別を行い、ネスト構造を含むJSONデータとして直接出力する。</li><li>ユーザーは任意のスキーマや抽出したい項目を指定するだけで、下流システムがそのまま処理できる形式にデータを変換できる。</li><li>テストでは、すべてのフロンティアLLMを上回る抽出精度を実証しながら、コストとレイテンシーを大幅に削減している。</li><li>大量処理が必要なビジネス環境において、高価な汎用APIの代替となる高効率なソリューションを提供する。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations/" target="_blank" rel="noopener">How NVIDIA Uses AI Agents to Streamline AI Factory Operations</a></h2>
+      <p>NVIDIAのAIファクトリー運用におけるAIエージェントの活用<br><br><ul><li>NVIDIAは、DGX SuperPODの運用効率化とSREの負担軽減を目的として「AI Factory Operations Agent」を開発した。</li><li>本フレームワークはNVIDIA NemoClawとOpenShellを基盤とし、オンプレミス環境でローカルのNemotronオープンモデルを使用して稼働する。</li><li>ジョブ復旧、ハードウェア、可観測性などの特化したサブエージェントが連携し、計算・ネットワーク・ハードウェア層にわたる障害の根本原因を相関分析する。</li><li>SREの信頼構築のため、明確なエージェント境界の設定、読み取り専用による調査、クロスレイヤー相関、透明性の高い推論プロセスを重視している。</li><li>マルチテナント環境においては、OpenShellのカーネルレベルのサンドボックス制限により、テナントごとのデータと操作の安全な隔離を実現している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/nvidia-cuda-13-5-brings-nvidia-vera-rubin-ga-support/" target="_blank" rel="noopener">NVIDIA CUDA 13.5 Brings NVIDIA Vera Rubin GA Support</a></h2>
+      <p>NVIDIA CUDA 13.5のリリースと新機能<br><br><ul><li>NVIDIA CUDA Toolkit 13.5が一般提供（GA）を開始し、次世代の「NVIDIA Vera Rubin」GPUアーキテクチャへの本番環境向けサポートが正式に導入されました。</li><li>Windows on ArmのサポートがNVIDIA DGX Station for Windowsへと拡張され、対応プラットフォームがさらに広がっています。</li><li>ローカリティドメインの強化や、重み付けタイムスライス、負荷分散機能を備えた「NVIDIA Multi-Process Service v3」が追加されました。</li><li>CUDA TileにおいてNVLinkやNVSwitchを介したマルチGPU通信や、主要ライブラリとのSIMT相互運用性がプレビュー提供されます。</li><li>CUDA PythonやCCCL 3.5のアップデートにより、バッチ処理や再現性のある浮動小数点スキャン、データ依存型リダクションなどの新機能が利用可能になりました。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues/" target="_blank" rel="noopener">How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues</a></h2>
+      <p>NVIDIA Factory Operations Blueprint (FOX) による、AIエージェントを活用した工場トラブル調査の効率化<br><br><ul><li><strong>ファクトリーマネージャーエージェントの導入</strong>: NVIDIA Nemotronなどの大規模言語モデルを活用し、既存の工場データやツールを統合してタスクを解釈・管理するリファレンスアーキテクチャを提供。</li><li><strong>専門特化したエージェントの協調</strong>: 視覚検査（NVIDIA Cosmos）、フリート管理（Isaac Sim・ROS 2）、時系列解析（Kumo Anomaly）などの専門エージェントが連携し、不良品検査から手直し、原因究明までを自動化。</li><li><strong>SMT組立ラインでの実践的なワークフロー</strong>: 自動光学検査（AOI）のアラート検知から、ロボットによる運搬、根本原因分析、証拠と改善策を含むPDFレポート作成までの一連の流れを自動化。</li><li><strong>オンプレミスによる高いセキュリティ</strong>: NVIDIA DGX Stationを活用した完全なオンプレミス展開をサポートし、生産記録や画像、調査結果などの機密データを工場ネットワーク内に保持。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/use-nvidia-nemo-to-turn-agent-failures-into-tests-and-harness-fixes/" target="_blank" rel="noopener">Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes</a></h2>
+      <p>NVIDIA NeMoを活用してAIエージェントの失敗をテストに変換し、ハネスの修正を行う方法<br><br><ul><li><strong>生産データからの課題抽出と評価作成</strong>: NVIDIA NeMo CompassとNeMo Eval Authorを使用し、エージェントの実行トレースから失敗原因を分析、優先順位をつけてカスタム評価を作成する。</li><li><strong>最適化サイクルの実行</strong>: システムプロンプトの修正などエージェントハネスの更新を行い、開発用および非公開のタスクで評価を再実行して改善の検証と回帰検出を行う。</li><li><strong>実際の改善実績</strong>: ダッソー・システムズのエンジニアリング事例において、不適切なツール呼び出しをゼロにし、全体的な評価スコアの向上とツール呼び出し回数の削減を達成した。</li><li><strong>プロンプトやツールの総合的な改善</strong>: モデルのチューニングだけでなく、プロンプト、ツール、ルーティング、メモリ、スキル、制御フローなど、本番環境の信頼性に影響する要素全体を最適化する。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-11-04";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+  var TOPICS_PATH_PREFIX = '../topics/';
+  var CURRENT_MONTH = CURRENT_DATE.slice(0, 7);
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+  var monthlyLink = document.getElementById('monthly-link');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  // 入力値を YYYY-MM-DD に揃える。判定できなければ null（テンプレートリテラル内のため、バックスラッシュを使わない書き方にする）
+  function normalizeDateInput(value) {
+    var v = String(value).normalize('NFKC').trim();
+    if (/^[0-9]{8}$/.test(v)) {
+      return v.slice(0, 4) + '-' + v.slice(4, 6) + '-' + v.slice(6, 8);
+    }
+    if (/^[0-9]{4}[-/][0-9]{2}[-/][0-9]{2}$/.test(v)) {
+      return v.replace(/[/]/g, '-');
+    }
+    return null;
+  }
+
+  function validateAndGo(value) {
+    var date = normalizeDateInput(value);
+    if (date === CURRENT_DATE) { dateInput.value = CURRENT_DATE; return; }
+    if (date === null || dateList.indexOf(date) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(date);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  function setMonthlyLink(label, href) {
+    var text = label + '（新しいタブで開きます）';
+    // 前提: <a> の最初の子ノードがラベルのテキストノード（<a>月次一覧<span>…</span></a>）
+    monthlyLink.firstChild.nodeValue = label;
+    monthlyLink.href = href;
+    monthlyLink.setAttribute('aria-label', text);
+    monthlyLink.title = text;
+  }
+
+  function loadMonthly() {
+    fetch(TOPICS_PATH_PREFIX + 'index.json')
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var months = ((data && data.months) || []).map(function (m) { return m.month; });
+        if (months.indexOf(CURRENT_MONTH) !== -1) {
+          setMonthlyLink('月次', TOPICS_PATH_PREFIX + CURRENT_MONTH + '.html');
+        }
+      })
+      .catch(function (err) {
+        console.error('monthly-link: index.json fetch failed', err);
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+  // 数字キーパッド（Return キーなし）向け: 数字だけ8桁になったら自動で移動する。日付一覧の取得前・失敗時は何もしない
+  dateInput.addEventListener('input', function (e) {
+    if (e.isComposing) return;
+    if (dateList.length === 0) return;
+    if (/^[0-9]{8}$/.test(dateInput.value.normalize('NFKC').trim())) {
+      validateAndGo(dateInput.value.trim());
+    }
+  });
+  // フォーカス時に全選択する（数字キーパッドで打ち直しやすくする）。iOS Safari はフォーカス直後のタップでキャレットを置き直し、選択が解除されることがあるため、タイマーでかけ直す
+  dateInput.addEventListener('focus', function () {
+    dateInput.select();
+    setTimeout(function () { dateInput.setSelectionRange(0, dateInput.value.length); }, 0);
+  });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+  loadMonthly();
+})();
+</script>
+</body>
+</html>
