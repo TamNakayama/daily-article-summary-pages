@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI/LLM記事まとめ 2026/11/03</title>
+<title>AI/LLM記事まとめ 2026/11/04</title>
 <style>
   body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
   h1 { font-size: 1.4em; }
@@ -36,7 +36,7 @@
 <header class="date-nav">
   <span class="date-nav-title">AI/LLM記事まとめ</span>
   <button id="prev-btn" aria-label="前日へ">◀</button>
-  <input id="date-input" type="text" value="2026-11-03" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <input id="date-input" type="text" value="2026-11-04" inputmode="numeric" placeholder="YYYY-MM-DD">
   <span class="date-nav-calendar-wrap">
     <span class="calendar-icon" aria-hidden="true">📅</span>
     <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
@@ -44,143 +44,89 @@
   <button id="next-btn" disabled aria-label="翌日へ">▶</button>
   <a id="monthly-link" class="monthly-link" href="topics/index.html" target="_blank" rel="noopener" aria-label="月次一覧（新しいタブで開きます）" title="月次一覧（新しいタブで開きます）">月次一覧<span class="ext" aria-hidden="true"> ↗</span></a>
 </header>
-<h1>2026/11/03</h1>
+<h1>2026/11/04</h1>
 
     <div class="card">
       <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/" target="_blank" rel="noopener">OpenAI says GPT-6 Astra designed a hardware device from scratch in under a week</a></h2>
-      <p>OpenAIの次世代AIモデル「GPT-6 Astra」が、わずか1週間未満でゼロからハードウェアデバイスを設計したことが報じられました。<br><br><ul><li>OpenAIのハードウェアチームが、コーディングエージェント「Codex」と対話するためのデバイス開発に「GPT-6 Astra」をサイドプロジェクトとして活用した。</li><li>Astraは、筐体の設計、部品選定や配線を含む基板（PCB）レイアウト、ファームウェア、ユーザーインターフェースに至るまでの全工程を単独で処理した。</li><li>製造制約や公差などの考慮不足により数回の試作修正は必要だったものの、受託製造業者により1ヶ月未満で小ロットの試作が完了した。</li><li>3Dパーツの再構築や基板の接続識別をテストするベンチマーク「BenchCAD 2.0」において、最高推論レベルのGPT-6 Astraは0.594を記録し、さらに新しい未発表の内部モデルは0.875を記録した。</li><li>OpenAI内ではCADモデルやシミュレーションなどにおけるAI活用が進んでおり、2月以降でトークン使用量が23倍に急増しているほか、独自のハードウェア端末の開発も進められている。</li></ul></p>
+      <h2><a href="https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/" target="_blank" rel="noopener">ChatGPT can now turn text prompts and photos into animated GIFs with OpenAI's Images 2.6 model</a></h2>
+      <p>ChatGPTが新モデル「Images 2.6」により、テキストや写真からアニメーションGIFを作成できる機能の提供を開始しました。<br><br><ul><li>OpenAIの新モデル「Images 2.6」の導入により、ChatGPTおよびCodexのユーザーはテキストのプロンプトやアップロードした写真からアニメーションGIFを生成できるようになった。</li><li>生成されたGIFは、アニメーションの速度調整や個別のフレーム編集が可能である。</li><li>新モデルでは画像の一貫性が向上しており、フレーム間でキャラクターの見た目が大きく崩れることなく認識しやすくなっている。</li><li>画像生成全体の速度も向上しており、開発者向けには効率重視の「Flare」と高品質な「Sunburst」という2種類のAPIモデルが提供される。</li><li>現在、ChatGPTとAPIを通じた画像生成数は週に40億枚を超えており、利用規模がさらに拡大している。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds/" target="_blank" rel="noopener">Rapid LLM development is outrunning the research meant to explain it, study finds</a></h2>
-      <p>LLMの急速な開発スピードが、その仕組みを説明するための研究のペースを追い越しており、研究結果の多くが短期間で陳腐化していることが、スタンフォード大学の研究で明らかになりました。<br><br><ul><li>スタンフォード大学の研究者らが大規模言語モデル（LLM）に関する50の広く引用されている主張を検証した結果、44%がすでに「期限切れ」となっていることが判明しました。</li><li>期限切れと判定された研究の平均寿命はわずか15.7ヶ月であり、時間が経つにつれてその割合は急速に増加し、2年後には39%が無効化しています。</li><li>特に「モデルができないこと」に関する主張の陳腐化が最も速く、文字数カウントや推論の弱点など、かつての弱点とされた特性の多くが開発によって克服され消滅しています。</li><li>一方で、モデルの好みや傾向に関する研究、特に評価者としての挙動などについては、比較的長く持続するか、むしろ影響力が強まっているものもあります。</li><li>元の効果が完全に消失したものが大部分を占める一方で、34%の主張が弱まり、現在も有効に機能しているのはわずか16%にとどまっています。</li></ul></p>
+      <h2><a href="https://the-decoder.com/anthropics-text-watermark-is-easy-to-bypass-on-several-older-claude-models/" target="_blank" rel="noopener">Anthropic's text watermark is easy to bypass on several older Claude models</a></h2>
+      <p>Anthropic社におけるClaudeモデルのテキストウォーターマーク導入とバイパスに関する動向<br><br><ul><li>Anthropic社は、API顧客に対し複数モデルへのテキストウォーターマークの導入拡大と、スケジュール変更に関する通知を行っている。</li><li>2026年11月16日以降、Claude Opus 4.6やSonnet 4.5など複数の旧モデルに対してもウォーターマークが順次適用される予定である。</li><li>一部のモデルでは、サンプリングパラメータ（temperature、top_p、top_k）をデフォルトから変更することで、APIユーザーがウォーターマークを回避できる仕様になっている。</li><li>同社のテキストウォーターマークは、意味や品質、読みやすさを損なわず、追加の文字やトークンを増やさない「言葉の選択における知覚できないパターン」として機能する。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/ai-agents-take-over-at-setis-allen-telescope-array-scanning-for-extraterrestrial-intelligence/" target="_blank" rel="noopener">AI agents take over at SETI's Allen Telescope Array, scanning for extraterrestrial intelligence</a></h2>
-      <p>SETIの「アレン・テレスコープ・アレイ」において、AIエージェントが望遠鏡の制御と電波信号のリアルタイム解析を開始し、地球外知的生命体の探索を大きく加速させています。<br><br><ul><li>SETI研究所とBreakthrough Listenは、Nvidiaの「Holoscan」プラットフォームを導入し、毎秒最大2.4テラビットのデータをリアルタイムで処理可能にした。</li><li>このシステムにより、従来は数週間かかっていたデータ処理が数時間で完了するようになり、AIを用いたかに星雲のパルサーのリアルタイム検出にも世界で初めて成功した。</li><li>研究チームは今後、ローカル環境やエッジ側で動作するオープンソースAIのテストを進め、将来的に月の裏側へのセンサー設置も見据えている。</li><li>1960年のSETI実験開始以来、地球外知的生命体からの信号はまだ発見されていないが、AIエージェントの導入により探索能力の大幅な効率化が期待されている。</li></ul></p>
+      <h2><a href="https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents/" target="_blank" rel="noopener">OpenAI acquires Pierre Computer Company to make Git keep up with AI coding agents</a></h2>
+      <p>OpenAIがAIコーディングエージェントに対応するためGitのワークフローを強化する目的で、Pierre Computer Companyを買収した。<br><br><ul><li>OpenAIがコードストレージやオープンソースツールを手がける「Pierre Computer Company」を買収する。</li><li>Pierre社が開発した「Trees」「Diffs」「Highlights」などのライブラリは、すでにOpenAIのコーディングエージェント「Codex」を支えている。</li><li>この買収の目的は、人間とAIエージェントが並行してコードを書く際、Gitのワークフローや周辺ツールを最適化して追従させることである。</li><li>OpenAIは開発者とAIエージェントの両方に対応する独自バージョン管理バックエンド「Pando」も既に運用している。</li><li>Pierre社のオープンソースプロジェクトは今後もオープンソースとして維持され、買収には規制当局の承認が必要となる。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/openai-hires-ex-army-secretary-gaining-bipartisan-reach-just-as-midterms-loom/" target="_blank" rel="noopener">OpenAI hires ex-Army Secretary, gaining bipartisan reach just as midterms loom</a></h2>
-      <p>OpenAIが元陸軍長官を国家安全保障アドバイザーに起用し、国防分野での政府契約獲得や軍との連携強化を急ぐ動き<br><br><ul><li>OpenAIは、元米陸軍長官のダン・ドリスコール氏を「国家安全保障近代化担当シニア・カウンセラー」として採用し、国防分野での影響力を急速に拡大している。</li><li>ドリスコール氏は在任中に陸軍のAI近代化を推進した実績があり、今後はその議会の人脈や専門知識を活用して政府との大型契約獲得を目指す。</li><li>今回の採用により、AI規制の策定プロセスへ関与を強めるとともに、米軍や情報機関の現場における具体的なAIニーズの把握を狙う。</li><li>OpenAIは2026年2月に機密ネットワーク向けの国防総省（ペンタゴン）向け契約を獲得するなど、国家安全保障および防衛分野への参入を戦略的に加速させている。</li></ul></p>
+      <h2><a href="https://the-decoder.com/new-open-source-benchmark-reveals-reasoning-as-the-biggest-bottleneck-for-ai-in-cloud-operations/" target="_blank" rel="noopener">New open-source benchmark reveals reasoning as the biggest bottleneck for AI in cloud operations</a></h2>
+      <p>New open-source benchmark reveals reasoning as the biggest bottleneck for AI in cloud operations<br><br><ul><li>ミシガン大学のアン・チェン氏らのチームが開発した新しいオープンソースのベンチマーク「CloudOpsBench」により、クラウド運用のDevOpsタスクにおけるAIの最大ボトルネックが「推論能力」であることが明らかになった。</li><li>CloudOpsBenchのバージョン1.0にはAWS上の45のタスクが含まれており、Claude Fable 5.1が60%、GPT-6 Astraが53%の解決率にとどまり、現行の最高峰モデルでも多くのタスクを失敗している。</li><li>失敗の約80%は知識不足ではなく、エージェントがタスクの範囲を誤認したり、関連サービスを確認し忘れたり、途中で処理を打ち切るなどの「推論ミス」に起因している。</li><li>残りの約20%のエラーは不適切な実行によるもので、中にはインフラに対して取り返しのつかない影響を及ぼす重大な操作も含まれている。</li><li>本ベンチマークは実際のAWSクラウドとエミュレータの両方で実行可能であり、今後はGCPやAzure、OCIへの拡張も予定されている。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations/" target="_blank" rel="noopener">Anthropic's Message Threads cut time to first token by 35 percent for long conversations</a></h2>
-      <p>Anthropic、長時間の会話における初トークンまでの時間を35%短縮する「Message Threads」を発表<br><br><ul><li>Anthropicは、Claudeプラットフォーム上で「Message Threads」のパブリックベータ版をリリースした。</li><li>これまで全会話履歴を再送信していたAPIリクエストとは異なり、Message Threadsは前回からの変更点のみを送信する仕組みである。</li><li>トークン数が50万から100万のリクエストにおいて、初トークンまでの時間が約35%短縮される。</li><li>コーディングエージェントや、大量の文書・画像を処理するワークフローにおいて最も効果を発揮する。</li><li>スレッドはリクエスト間でメモリ内に暗号化されて保持され、5分間の非アクティブ状態で失効するが、Claudeが全履歴を読み込むためトークン使用量自体は変わらない。</li></ul></p>
+      <h2><a href="https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights/" target="_blank" rel="noopener">GPT-6 Astra sees the matrix and reprograms other AI models directly through their weights</a></h2>
+      <p>GPT-6 Astraが他のAIモデルの内部パラメータ（重み）を直接解析・改変し、従来の再学習なしにチューニングや制御を行う「Weight-Space Programming」の手法とその実験結果について解説しています。<br><br><ul><li>MITの研究により、OpenAIのGPT-6 Astraが従来の学習プロセスを経ずに、他のAIモデルの内部設定である「重み（ウェイト）」を直接理解・改変できることが示された。</li><li>このアプローチは「Weight-Space Programming」と呼ばれ、大規模な言語モデルが他のAIの「メカニック」として機能し、個別の数値を調整することでモデルの制御を可能にする。</li><li>Astraは、モデルの生の数値を見るだけで、そのネットワークがプレイするように訓練されたコンピュータゲームの種類を正確に特定することができた。</li><li>また、画像生成AIが生成する基本形状の認識や、小規模言語モデルの訓練された言語を、訓練データや実行環境へのアクセスなしで正しく一致させることに成功した。</li><li>本手法にはまだ限界があるものの、AIシステム全体の調整方法や制御のあり方を根本から変える可能性を秘めている。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/nvidia-pushes-cloud-customers-to-cut-back-on-china-business/" target="_blank" rel="noopener">Nvidia pushes cloud customers to cut back on China business</a></h2>
-      <p>Nvidiaがクラウド顧客に対し中国向けビジネスを縮小するよう要請<br><br><ul><li>Nvidiaは、中国企業との取引を減らし、顧客基盤の多様化を図るよう一部のクラウド顧客に要請した。</li><li>この要請は強制ではなく将来の契約が対象であり、既存の契約には影響しない。また、顧客にはチップにアクセスするエンドユーザーの身元開示も求めている。</li><li>背景には、米国による輸出規制の抜け穴が存在する。規制はハードウェアの輸出を制限しているが、クラウドサービスを通じた遠隔アクセスは対象外となっているためである。</li><li>この抜け穴を利用し、中国のAI開発企業は海外のデータセンターで計算能力を借りることで、ハードウェアを輸入せずにNvidiaの先進的なチップを利用している。</li><li>中国のAI企業による海外データセンター経由でのチップアクセスを巡っては、チャットボット「Kimi」の開発企業であるMoonshot AIに関連する疑惑が浮上し、米国当局が調査を行っていた。</li></ul></p>
+      <h2><a href="https://the-decoder.com/anthropics-new-prototype-proves-which-model-wrote-an-ai-response-without-exposing-its-weights/" target="_blank" rel="noopener">Anthropic's new prototype proves which model wrote an AI response without exposing its weights</a></h2>
+      <p>Anthropicが発表した新プロトタイプ「FlashProve」は、モデルの重み（内部パラメータ）を公開せずに、AIの応答がどのモデルによって生成されたかを暗号技術によって証明する技術である。<br><br><ul><li>Anthropicは、AIの応答が指定したモデルで実際に生成されたかを検証できる研究用プロトタイプ「FlashProve」を公開した。</li><li>暗号技術「zkSNARK」を用いており、モデルの重みを秘密にしたまま、特定のモデルが応答を出力したことを証明する。</li><li>400億パラメータのモデルに対し、1秒あたり約110トークンの速度で証明を生成可能であり、従来の手法から劇的な効率化を実現している。</li><li>ルーティングサービスによる不正な安価モデルへのすり替え防止や、規制当局による承認モデルの稼働確認などのユースケースが期待されている。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/huawei-tells-customers-to-find-their-own-ai-chip-memory-effectively-outsourcing-procurement-to-the-black-market/" target="_blank" rel="noopener">Huawei tells customers to find their own AI chip memory, effectively outsourcing procurement to the black market</a></h2>
-      <p>米国の制裁と供給不足に直面する華為技術（ファーウェイ）が、新型AIチップ用のメモリ調達を顧客自身に委ね、事実上ブラックマーケット（闇市場）に外注している。<br><br><ul><li>ファーウェイは来年初頭に現行の2倍の性能を持つ新型AIチップ「Ascend 960DT」の投入を予定しているが、米国の輸出規制と国内サプライヤーの生産能力不足により、AI向けの高帯域メモリ（HBM）を自社で十分に確保できていない。</li><li>密輸業者たちは、輸出規制の抜け穴を利用して、HBMを規制対象外の安価なサーバー用プロセッサと組み合わせて香港経由で中国本土へ密輸している。</li><li>中国本土に到着したパッケージは、作業所によってメモリチップとプロセッサに解体されるが、このプロセスは壊れやすくエラー率も高い。</li><li>供給不足と高いリスクを背景に、闇市場におけるHBMの価格は1基あたり約4,000ドルにまで高騰しており、韓国では違法な半導体輸出が過去最高レベルを記録している。</li></ul></p>
+      <h2><a href="https://the-decoder.com/exit-polls-show-ai-ranked-last-among-voter-priorities-in-the-2026-u-s-midterms/" target="_blank" rel="noopener">Exit polls show AI ranked last among voter priorities in the 2026 U.S. midterms</a></h2>
+      <p>2026年米中間選挙の出口調査：有権者の関心事項におけるAIの順位<br><br><ul><li>2026年の米中間選挙に関するNBCニュースとSSRSの出口調査において、AIとデータセンターの拡張は、投票行動における決定要因または重要事項として挙げた人の割合が56%にとどまり、調査された5つのトピックの中で最下位となった。</li><li>AIへの一般の関心は近年高まっているものの、政府の腐敗（90%）、生活費（89%）、イランとの戦争（74%）、移民対策（73%）といった他の主要な争点とは依然として大きな差があった。</li><li>本調査結果は、世間の関心の高さに反して、実際の選挙における有権者の優先順位としてはAIがまだ他の切実な生活・社会問題の後ろに位置していることを示している。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/bug-hunters-can-now-earn-up-to-172000-from-openai-as-company-ramps-up-security/" target="_blank" rel="noopener">Bug hunters can now earn up to $172,000 from OpenAI as company ramps up security</a></h2>
-      <p>OpenAIがセキュリティを強化し、脆弱性発見の報酬を最大約172,000ドルに引き上げ<br><br><ul><li>OpenAIはバグ報奨金制度の報酬を最大4倍に引き上げ、ChatGPTやCodexなどの主要製品における重大な脆弱性の発見に対して、外部研究者に最大3万ドル、例外的な発見には最大10万ドルを支払う。</li><li>品質、ロイヤルティ、期間限定のキャンペーンボーナスを組み合わせることで、報奨金の総額は最大約172,000ドルに達する。</li><li>この改定には、新たに5段階のロイヤルティプログラムや、新機能のリリースに連動した報酬上乗せのキャンペーンが含まれており、過去30日以内に脆弱性を報告した人にも新旧の差額が遡って適用される。</li><li>報酬の引き上げに加え、セキュリティ企業「Cathedral」と自社エンジニアが協力してシステムをストレステストする内部セキュリティスプリントも準備されている。</li></ul></p>
-    </div>
-
-    <div class="card">
-      <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs/" target="_blank" rel="noopener">Anthropic cracks down on game cloning in Claude Code after wave of AI-built knockoffs</a></h2>
-      <p>Anthropicが「Claude Code」での既存ゲームのクローン作成を制限、AIによる知的財産侵害への対策を強化<br><br><ul><li>Anthropicは、コーディング支援ツール「Claude Code」において、既存のビデオゲームを再現することをブロックする対策を導入した。</li><li>システムプロンプトに2文を追加し、名前を変えたりオリジナルと偽ったりした場合でも、他人のゲームのクローン作成を防ぐ仕組みとなっている。</li><li>この背景には、AI（Opus 5.5やGPT-6 Astraなど）を活用して有名タイトルの非公式ブラウザ版やソフトのクローンが大量に作成された問題がある。</li><li>ユーザーは自身のオリジナルゲームやカスタム素材を使ったプロジェクトの作成を続けられるが、一部ではオリジナル作品の構築時にも制限の影響を受けるという報告が出ている。</li><li>画像や動画に続き、知的財産をめぐる争いがソフトウェアやゲーム業界にも波及しており、Anthropicは今後もルールの調整を続けていく方針を示している。</li></ul></p>
-    </div>
-
-    <div class="card">
-      <span class="badge">Simon Willison’s Weblog (llms)</span>
-      <h2><a href="https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/" target="_blank" rel="noopener">Qwen 3.8 27B on my laptop can interpret model weights, too</a></h2>
-      <p>LLMがニューロンの生ウェイト（数値データ）を直接解釈・修正できる「ウェイト空間プログラミング」という手法が注目を集めており、最新のフロンティアモデルだけでなく、筆者のノートPC上で動く小規模なQwenモデルでも同様の処理が可能であることが示された。<br><br><ul><li>最新の研究論文・ブログ記事により、GPT-6 Astraなどの最先端LLMが、コード実行ツールを使わずにニューラルネットワークの生ウェイトを読み取り、その機能を理解・修正できることが示された。</li><li>この技術は「ウェイト空間プログラミング」と呼ばれ、LLMがモデルの重みを見ただけで学習タスクを推測したり、数学能力を向上させるためのウェイト修正を行ったりすることが可能である。</li><li>ただし、「ツールを使わず生ウェイトだけで理解できるか」という点と、「コード実行でモデルを更新するか」という点については、専門家の間で議論や批判も存在している。</li><li>筆者が検証したところ、最先端モデルだけでなく、自身のノートPC上で稼働する「Qwen 3.8 27B」でも、モデルの重みを解釈する同様の能力を確認できた。</li></ul></p>
+      <h2><a href="https://the-decoder.com/schools-that-turn-off-googles-ai-will-lose-search-too-starting-in-2027/" target="_blank" rel="noopener">Schools that turn off Google's AI will lose search too starting in 2027</a></h2>
+      <p>Googleは、2027年初頭から、学校の生徒用アカウントにおいてAI機能（Geminiなど）とGoogle検索を一体化させ、AIを拒否して従来の検索機能のみを利用することができない方針を固めました。ニューヨーク・タイムズの報道によると、教育担当副社長のクリス・フィリップス氏は、検索とAIが不可分に統合されたためであると説明しています。<br><br><ul><li>2027年初頭以降、学校はGoogleのAI機能を受け入れるか、Google検索の利用自体を諦めるかの二択を迫られる。</li><li>学生アカウントではGeminiなどのAIとGoogle検索がデフォルトでオフになるが、検索を有効にする場合はAI機能（AI概要やAIチャット、または「ガイド付き学習」モード）がセットで提供され、AIなしの検索を選択肢から除外する。</li><li>Googleは以前、学習プラットフォーム「Classroom」でAI機能をデフォルトで有効にしたことで反発を招き、方針を一時修正していたが、今回の新方針により実質的にAIの導入を義務付ける形となった。</li><li>米国内で大きなシェアを持つGoogleに対し、ニューヨーク市やロサンゼルス市などの大規模な学区は、AI概要なしの検索のみの利用を希望していたが、今回の変更によりその要望が通らなくなる見込みである。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">Hugging Face Blog</span>
-      <h2><a href="https://huggingface.co/blog/allenai/statebench" target="_blank" rel="noopener">StateBench: Testing how language models track state changes over long documents</a></h2>
-      <p>StateBench：長文における言語モデルの状態変化追跡能力の評価<br><br><ul><li>StateBenchは、長文中のエンティティの状態変化を言語モデルがどこまで追跡できるかを評価する新しいベンチマークである。</li><li>状態追跡には、単純な最新情報の検索から、1つのミスが致命的になる複雑な変更チェーンの追跡まで、4つの難易度レベルが存在する。</li><li>トランスフォーマーモデルには長い依存関係の処理に理論的限界があり、再帰型やハイブリッドアーキテクチャ（Gated DeltaNetなど）の研究が進められている。</li><li>ベンチマークの評価により、Gemini 3.8 FlashやClaude Opus 5.5などの最先端モデルでも、入力が長くなると複雑な状態追跡で破綻することが判明した。</li><li>再帰型・ハイブリッドモデルは、タスク直接訓練時にトランスフォーマーよりも優れた汎化性能を示すことが明らかになった。</li></ul></p>
+      <h2><a href="https://huggingface.co/blog/Dharma-AI/dharma-field-extractor" target="_blank" rel="noopener">Dharma Field Extractor: Any Document In, Structured Fields in JSON Out</a></h2>
+      <p>Dharma Field Extractor：あらゆるドキュメントからJSON形式で構造化データを抽出する軽量AIモデル<br><br><ul><li>20億パラメータという軽量サイズでありながら、契約書や請求書、身分証などあらゆる文書から指定したフィールドを正確に抽出するモデルである。</li><li>従来のOCRや汎用LLMとは異ネーションし、OCRでは得られない「どのデータがどの項目に該当するか」の判別を行い、ネスト構造を含むJSONデータとして直接出力する。</li><li>ユーザーは任意のスキーマや抽出したい項目を指定するだけで、下流システムがそのまま処理できる形式にデータを変換できる。</li><li>テストでは、すべてのフロンティアLLMを上回る抽出精度を実証しながら、コストとレイテンシーを大幅に削減している。</li><li>大量処理が必要なビジネス環境において、高価な汎用APIの代替となる高効率なソリューションを提供する。</li></ul></p>
     </div>
 
     <div class="card">
-      <span class="badge">Hugging Face Blog</span>
-      <h2><a href="https://huggingface.co/blog/ibm-research/palette-deck-building" target="_blank" rel="noopener">Palette: teaching a small model to build decks in your design language</a></h2>
-      <p>IBM Researchが開発した「Palette」は、小規模なオープンウェイトモデルに企業の独自デザイン言語（IBM Design Language）を学習させ、高品質なプレゼンテーション資料を作成できるようにする技術である。<br><br><ul><li>フロンティアモデルは独自のデザインスタイルに固執しがちで機密情報の外部送信リスクもあるが、Paletteを用いることで自社インフラ上で安全かつ自社デザインに準拠した資料作成が可能になる。</li><li>小規模モデルはレイアウトの計算やコンテンツとデザインの同時決定が苦手で、テキストのはみ出しや重なりが発生しやすいという課題があった。</li><li>デザイナーが計画しコーダーが描画するという人間のプロセスを模倣した合成データを用いて、20B（200億パラメータ）モデルを微調整した。</li><li>IBM Design Languageに則った訓練により、評価用ベンチマーク「PresentBench」の測定3ドメインのうち2つで首位を獲得し、フロンティアシステムに匹敵する性能を実証した。</li><li>モデルの出力を検証・修正するハーネス（仕組み）を構築することで、エラーの少ない確実な資料生成を実現している。</li></ul></p>
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations/" target="_blank" rel="noopener">How NVIDIA Uses AI Agents to Streamline AI Factory Operations</a></h2>
+      <p>NVIDIAのAIファクトリー運用におけるAIエージェントの活用<br><br><ul><li>NVIDIAは、DGX SuperPODの運用効率化とSREの負担軽減を目的として「AI Factory Operations Agent」を開発した。</li><li>本フレームワークはNVIDIA NemoClawとOpenShellを基盤とし、オンプレミス環境でローカルのNemotronオープンモデルを使用して稼働する。</li><li>ジョブ復旧、ハードウェア、可観測性などの特化したサブエージェントが連携し、計算・ネットワーク・ハードウェア層にわたる障害の根本原因を相関分析する。</li><li>SREの信頼構築のため、明確なエージェント境界の設定、読み取り専用による調査、クロスレイヤー相関、透明性の高い推論プロセスを重視している。</li><li>マルチテナント環境においては、OpenShellのカーネルレベルのサンドボックス制限により、テナントごとのデータと操作の安全な隔離を実現している。</li></ul></p>
     </div>
 
     <div class="card">
-      <span class="badge">Hugging Face Blog</span>
-      <h2><a href="https://huggingface.co/blog/cwe-bench" target="_blank" rel="noopener">CWE-bench v2: More coverage, quality, and transparency</a></h2>
-      <p>CWE-bench v2の公開とサイバーセキュリティ評価の向上<br><br><ul><li>Collinear AIは、AIモデルのサイバーセキュリティ能力をテストするためのベンチマーク「CWE-bench v2」を公開した。</li><li>今回公開されたパブリックセットには100のタスクが含まれ、91種類の異なるCWE（共通脆弱性タイプ一覧）を網羅している。</li><li>各タスクは、実際のオープンソースリポジトリに対してエージェントがセキュリティ脆弱性を修正できるかを検証し、結果は決定的かつ再現可能である。</li><li>品質向上のため、指示の現実性、検証方法の公平性、既存機能の維持、既知のパッチの暗記による不正防止など、厳格な基準で全タスクが手作業でレビューされた。</li><li>パブリックセットは誰でも実行・評価が可能であり、モデル未公開の非公開テストセットも用意されており、リーダーボードで結果が追跡される。</li></ul></p>
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/nvidia-cuda-13-5-brings-nvidia-vera-rubin-ga-support/" target="_blank" rel="noopener">NVIDIA CUDA 13.5 Brings NVIDIA Vera Rubin GA Support</a></h2>
+      <p>NVIDIA CUDA 13.5のリリースと新機能<br><br><ul><li>NVIDIA CUDA Toolkit 13.5が一般提供（GA）を開始し、次世代の「NVIDIA Vera Rubin」GPUアーキテクチャへの本番環境向けサポートが正式に導入されました。</li><li>Windows on ArmのサポートがNVIDIA DGX Station for Windowsへと拡張され、対応プラットフォームがさらに広がっています。</li><li>ローカリティドメインの強化や、重み付けタイムスライス、負荷分散機能を備えた「NVIDIA Multi-Process Service v3」が追加されました。</li><li>CUDA TileにおいてNVLinkやNVSwitchを介したマルチGPU通信や、主要ライブラリとのSIMT相互運用性がプレビュー提供されます。</li><li>CUDA PythonやCCCL 3.5のアップデートにより、バッチ処理や再現性のある浮動小数点スキャン、データ依存型リダクションなどの新機能が利用可能になりました。</li></ul></p>
     </div>
 
     <div class="card">
-      <span class="badge">Hugging Face Blog</span>
-      <h2><a href="https://huggingface.co/blog/transformers-mic" target="_blank" rel="noopener">Transformers Model Integration Contracts</a></h2>
-      <p>Transformersモデル統合コントラクト（MIC）：軽量モデルを活用した効率的な回帰テストの導入<br><br><ul><li>Hugging Faceの「Transformers」では、大規模なモデルや膨大なテストスイートにより、GPUリソースの制限からメインブランチへのバグ流出を防ぎきれない課題があった。</li><li>この課題を解決するため、実モデルの設定を保持しつつ軽量化した「フィクスチャ（縮小モデル）」を作成し、安価なCPUランナー上で高速な統合テストを実行するアプローチを導入した。</li><li>過去に発生したUMT5モデルのデコーダーにおける未来トークン参照バグのような、単なるフォワードパスの実行では検知できない不具合も、軽量モデルを用いたテストで効果的に検出できる。</li><li>「transformers-mic」として提案されているモデル統合コントラクト（MIC）は、一度公開してピン留めされる縮小モデルの「フィクスチャ」と、実行可能な「使用パス」などで構成される新しいテスト標準である。</li><li>フィクスチャは完全な統合テストの完全な代替にはならないものの、プルリクエストの段階でバグを事前に捕捉する非常に有効な手段となる。</li></ul></p>
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues/" target="_blank" rel="noopener">How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues</a></h2>
+      <p>NVIDIA Factory Operations Blueprint (FOX) による、AIエージェントを活用した工場トラブル調査の効率化<br><br><ul><li><strong>ファクトリーマネージャーエージェントの導入</strong>: NVIDIA Nemotronなどの大規模言語モデルを活用し、既存の工場データやツールを統合してタスクを解釈・管理するリファレンスアーキテクチャを提供。</li><li><strong>専門特化したエージェントの協調</strong>: 視覚検査（NVIDIA Cosmos）、フリート管理（Isaac Sim・ROS 2）、時系列解析（Kumo Anomaly）などの専門エージェントが連携し、不良品検査から手直し、原因究明までを自動化。</li><li><strong>SMT組立ラインでの実践的なワークフロー</strong>: 自動光学検査（AOI）のアラート検知から、ロボットによる運搬、根本原因分析、証拠と改善策を含むPDFレポート作成までの一連の流れを自動化。</li><li><strong>オンプレミスによる高いセキュリティ</strong>: NVIDIA DGX Stationを活用した完全なオンプレミス展開をサポートし、生産記録や画像、調査結果などの機密データを工場ネットワーク内に保持。</li></ul></p>
     </div>
 
     <div class="card">
-      <span class="badge">r/LocalLLaMA (Reddit)</span>
-      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max/" target="_blank" rel="noopener">Alibaba's Qwen Code repo just leaked qwen4-max, qwen4-coder-plus, and qwen4-omni-120b</a></h2>
-      <p>Alibabaの次世代AIモデル「Qwen 4」シリーズの情報が公式コードリポジトリから流出<br><br><ul><li>Alibabaの「Qwen Code」公式リポジトリにおいて、未発表である次世代AIモデル「Qwen 4」シリーズの存在が確認された。</li><li>流出したモデルには、テキスト処理に特化した「qwen4-max」、プログラミング支援向けの「qwen4-coder-plus」、および大規模なマルチモーダル対応が期待される「qwen4-omni-120b」が含まれている。</li><li>これらのモデルの詳細は公式に発表されていないものの、コード上での言及や設定ファイルのリークにより、Alibabaが次世代の大規模言語モデルの開発を大きく進めていることが明らかになった。</li><li>「omni-120b」という名称から、音声や画像などを統合して処理できるマルチモーダル機能を備え、120B（1200億）パラメータ規模の大型モデルであることが示唆されている。</li><li>今回の予期せぬ情報流出は、AI業界や開発者の間で大きな話題となっており、Alibabaによる正式発表や今後の展開に高い関心が寄せられている。</li></ul></p>
-    </div>
-
-    <div class="card">
-      <span class="badge">r/LocalLLaMA (Reddit)</span>
-      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xn568h/british_fintech_revolut_slashes_ai_coding_costs/" target="_blank" rel="noopener">British fintech Revolut slashes AI coding costs 10x by cutting out Claude and going self-hosted</a></h2>
-      <p>英フィンテック企業のRevolutは、外部のClaudeの利用を止め、自社ホスト型のAIシステムへ移行することで、AIコーディングのコストを10分の1に削減することに成功しました。<br><br><ul><li>Revolutが外部AIサービスであるClaudeの利用を停止し、自社ホスト型（セルフホスト）のAIシステムへ移行した</li><li>AIを活用したコーディングにかかるコストを10分の1（10x）にまで大幅削減することに成功した</li><li>コスト削減と同時に、社内データ管理のセキュリティや運用のコントロール強化も実現している</li><li>多くの企業が外部の大規模言語モデルに依存する中、自社インフラを活用した効率的なAI運用の先進的な成功事例となった</li></ul></p>
-    </div>
-
-    <div class="card">
-      <span class="badge">r/LocalLLaMA (Reddit)</span>
-      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xmqq2a/rtx_5090_with_64gb_and_96gb_vram_confirmed_by_us/" target="_blank" rel="noopener">RTX 5090 with 64GB and 96GB VRAM 'confirmed' by US GPU repair tech</a></h2>
-      <p>US GPU Repair TechがRTX 5090に64GBと96GBのVRAM搭載モデルが存在することを確認<br><br><ul><li>米国のGPU修理技術者が、GeForce RTX 5090に64GBおよび96GBのVRAMを搭載したモデルが存在することを確認したと主張している。</li><li>これらの大容量VRAMモデルは、通常のコンシューマー向けではなく、ワークステーションやAI・ディープラーニング用途などの専門的な需要を見据えた特殊な仕様である可能性が高い。</li><li>次世代フラッグシップGPUであるRTX 5090は、極めて高い処理能力だけでなく、VRAM容量の面でも大幅な進化を遂げることが示唆されている。</li><li>AI開発や大規模言語モデルのローカル実行において、VRAM容量の大きさは極めて重要な要素であるため、今回の情報はプロフェッショナルユーザーの間で大きな注目を集めている。</li><li>現時点では公式な発表ではないため、最終的な製品仕様や市場投入の有無については今後の続報を待つ必要がある。</li></ul></p>
-    </div>
-
-    <div class="card">
-      <span class="badge">r/LocalLLaMA (Reddit)</span>
-      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xmz9ca/like_gpt6_astra_qwen_38_27b_can_interpret_model/" target="_blank" rel="noopener">Like GPT-6 Astra, Qwen 3.8 27B can interpret model weights</a></h2>
-      <p>Qwen 3.8 27Bがモデルウェイトの直接解釈機能を獲得し、高度なAIモデル解析においてGPT-6 Astraと同等の能力を発揮することが示されました。<br><br><ul><li>Qwen 3.8 27Bは、GPT-6 Astraのようにモデルウェイトを直接解釈する先進的な機能を備えている。</li><li>この機能により、AIモデル内部の動作メカニズムや構造をより深く分析・理解することが可能になる。</li><li>従来モデルと比較して、大規模言語モデルの挙動解析や透明性の向上が期待される。</li><li>AIのオープンソース開発において、モデルの内部理解を進めるための重要なマイルストーンとなる。</li></ul></p>
-    </div>
-
-    <div class="card">
-      <span class="badge">r/LocalLLaMA (Reddit)</span>
-      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xmfbam/i_found_another_niche_use_case_for_local_llms_but/" target="_blank" rel="noopener">I found another niche use case for local LLMs, but need some advice</a></h2>
-      <p>ローカルLLMの新たなニッチなユースケースを発見したが、その活用方法についてアドバイスを求めている。<br><br><ul><li>ローカルLLMを活用できる新たなニッチなユースケースを見つけた。</li><li>具体的な活用シナリオや実用性において、さらなる最適化やアイデアを必要としている。</li><li>クラウド型とは異なるローカル環境ならではの特性を活かした用途である可能性が高い。</li><li>効果的なプロンプト設計や運用方法について、他のユーザーからの知見やアドバイスを募っている。</li></ul></p>
-    </div>
-
-    <div class="card">
-      <span class="badge">Ollama Blog</span>
-      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0" target="_blank" rel="noopener">v0.40.15</a></h2>
-      <p>Ollama v0.40.15 リリース情報<br><br><ul><li>GitHub上のollama/ollamaリポジトリにおいて、バージョン「v0.40.15」がリリースされた。</li><li>リリース日は2024年11月3日（22:52）で、github-actionsによって自動リリースが行われた。</li><li>本リリースに関連して、事前に「v0.40.15-rc0」（プレリリース）などのタグが作成されていた。</li><li>メインブランチに対して、このリリース以降のコミットや変更管理が行われている。</li></ul></p>
-    </div>
-
-    <div class="card">
-      <span class="badge">Ollama Blog</span>
-      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.14" target="_blank" rel="noopener">v0.40.14</a></h2>
-      <p>ollama/ollama v0.40.14 リリース情報<br><br><ul><li>GitHub上のollamaリポジトリにおいて、バージョン「v0.40.14」が最新のリリースとして公開された。</li><li>リリース日は2024年11月3日（日本時間では未明の01:40）で、github-actionsによって自動リリースされた。</li><li>本リリースは「Latest（最新）」タグが付けられており、メインブランチに対して直近で3つのコミットが行われている。</li><li>GitHubのプラットフォーム上で、コードの管理やIssues、Pull requestsといった開発者向けの機能とともに対象のバージョンが提供されている。</li></ul></p>
-    </div>
-
-    <div class="card">
-      <span class="badge">Ollama Blog</span>
-      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.14-rc0" target="_blank" rel="noopener">v0.40.14-rc0</a></h2>
-      <p>OllamaのGitHubリポジトリにおいて、バージョン「v0.40.14-rc0」のリリース（候補版）が公開されたことを伝えるページです。<br><br><ul><li>ローカルLLM実行ツール「Ollama」の新しいリリース候補（rc0）である「v0.40.14-rc0」が公開された。</li><li>GitHub上のollama/ollamaリポジトリのリリース画面に掲載されている。</li><li>コミットはGitHub上で作成され、検証済みのGPG署名が付与されている。</li></ul></p>
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/use-nvidia-nemo-to-turn-agent-failures-into-tests-and-harness-fixes/" target="_blank" rel="noopener">Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes</a></h2>
+      <p>NVIDIA NeMoを活用してAIエージェントの失敗をテストに変換し、ハネスの修正を行う方法<br><br><ul><li><strong>生産データからの課題抽出と評価作成</strong>: NVIDIA NeMo CompassとNeMo Eval Authorを使用し、エージェントの実行トレースから失敗原因を分析、優先順位をつけてカスタム評価を作成する。</li><li><strong>最適化サイクルの実行</strong>: システムプロンプトの修正などエージェントハネスの更新を行い、開発用および非公開のタスクで評価を再実行して改善の検証と回帰検出を行う。</li><li><strong>実際の改善実績</strong>: ダッソー・システムズのエンジニアリング事例において、不適切なツール呼び出しをゼロにし、全体的な評価スコアの向上とツール呼び出し回数の削減を達成した。</li><li><strong>プロンプトやツールの総合的な改善</strong>: モデルのチューニングだけでなく、プロンプト、ツール、ルーティング、メモリ、スキル、制御フローなど、本番環境の信頼性に影響する要素全体を最適化する。</li></ul></p>
     </div>
 <footer>要約モデル: gemini-3.5-flash-lite</footer>
 <script>
 (function () {
-  var CURRENT_DATE = "2026-11-03";
+  var CURRENT_DATE = "2026-11-04";
   var ARTICLES_PATH_PREFIX = 'articles/';
   var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
   var CACHE_KEY = 'dateNavList';
