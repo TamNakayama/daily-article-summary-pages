@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI/LLM記事まとめ 2026/11/06</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; flex-wrap: wrap; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  .date-nav .monthly-link { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; font-size: 1em; color: #222; text-decoration: none; white-space: nowrap; }
+  .date-nav .monthly-link:hover { background: #f5f5f5; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+  @media (max-width: 600px) {
+    .date-nav-title { display: none; }
+    .date-nav input[type="text"] { width: 100px; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">AI/LLM記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-11-06" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+  <a id="monthly-link" class="monthly-link" href="../topics/index.html" target="_blank" rel="noopener" aria-label="月次一覧（新しいタブで開きます）" title="月次一覧（新しいタブで開きます）">月次一覧<span class="ext" aria-hidden="true"> ↗</span></a>
+</header>
+<h1>2026/11/06</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/" target="_blank" rel="noopener">Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model</a></h2>
+      <p>Ripple-65B Preview：優れたエージェントコーディング性能を持つオープンなUS製AIモデル<br><br><ul><li>AIチップ設計企業Ricursive Intelligenceが、完全なApache 2.0ライセンスに基づくオープン言語モデル「Ripple-65B Preview」を公開した。</li><li>12兆トークンで事前学習され、TerminalBench 2.1でオープンな米国製モデルとして最高スコアの80.52を記録するなど、強力なエージェントコーディング結果を示す。</li><li>混合エキスパート（MoE）ではなく650億パラメータの密なTransformerアーキテクチャを採用し、Nvidiaハードウェアに最適化されているため、ユーザー自身のハードウェアへのデプロイが容易である。</li><li>同時に発表された「Inkling 2 Small」にはベンチマークの一部で及ばないものの、総開発・トレーニング費用は研究開発費を含めてわずか3200万ドルにとどまる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/" target="_blank" rel="noopener">Perplexity now has its own always-on AI agent</a></h2>
+      <p>Perplexityが24時間稼働する独自のAIエージェント「Teammates」を発表<br><br><ul><li>Perplexityが、継続的なプロジェクトを自律的に処理する24時間稼働のAIエージェント機能「Teammates」を発表した。</li><li>「Teammates」の各エージェントは、デスクトップとブラウザを備えた独自の仮想マシン上で実行され、PerplexityアプリのスレッドやSlackを通じて進捗確認や対話が可能である。</li><li>同様の常時稼働型エージェントはSpaceX、Meta、OpenAI、Anthropicなども提供しており、競合している。</li><li>利用料金は月額200ドルの「Max plan」が必要となり、他社を含めて安価なプランでは利用制限に達しやすい課題がある。</li><li>パープレキシティの年間経常収益（ARR）は、8月の時点で7億5000万ドルを突破している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/frontier-radar-5-if-agi-is-so-close-why-is-everyone-leaving-the-neolabs-and-their-bets/" target="_blank" rel="noopener">Frontier Radar #5: If AGI is so close, why is everyone leaving? The neolabs and their bets</a></h2>
+      <p>Frontier Radar #5: AGIは近いのか？それとも誰もが去っていくのか：新興ラボとその賭け<br><br><ul><li>OpenAIやNvidiaのトップが「AGI（汎用人工知能）の到来」を宣言する一方で、現在のモデルの共同開発者たちは大手ラボを離れ、製品がない状態でありながら巨額の資金を集めて自らのラボ（ネオラボ）を立ち上げている。</li><li>彼らが大手ラボを去る理由は、現在のAI開発手法（レシピ）だけではAGIへの到達に十分ではないと考えているためである。</li><li>「Frontier Radar」の第5号では、45の新興ラボを研究の賭けや克服しようとしている限界ごとに分類し、その取り組みや現状を詳細に分析している。</li><li>各ラボは、現在の中核的なアプローチの弱点を克服するための新しい技術的ブレイクスルーを目指して競い合っており、その動向や背景にある戦略が明らかにされている。</li><li>AI業界において、どのような新しいラボや技術的アプローチが登場しようとも、基盤となるハードウェアを提供するNvidiaが常に勝者となる構造が存在している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july/" target="_blank" rel="noopener">METR finds Anthropic may have crossed its own AI acceleration warning threshold back in July</a></h2>
+      <p>METRの調査により、Anthropic社が7月の時点で自社のAI開発加速の警告しきい値を超えていた可能性が判明しました。主なポイントは以下の通りです。<br><br><ul><li>AIモデルの性能向上のペースが約2倍に倍増しており、その加速の約80%がAnthropic社自身の研究へのAI活用に起因していることが判明した。</li><li>AIがさらなるAIの開発を加速させるフィードバックループが形成されると、極端でリスクの高い能力が突然出現する懸念がある。</li><li>Anthropic社の責任あるスケーリング方針（RSP）では、AI自動研究により進歩のペースが倍増することが警告レベルのトリガーに指定されている。</li><li>非営利団体METRが11週間にわたりAnthropic社の内部研究データや未公開モデルのベンチマーク結果などに異例のアクセスを行って調査した。</li><li>Anthropic社側が最も重要な証拠の大部分を黒塗り（機密指定）にしたため、詳細な検証には限界があった。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/" target="_blank" rel="noopener">Thinking Machines' Inkling 2 Small claims top spot among western open-weight models</a></h2>
+      <p>Thinking Machines社の「Inkling 2 Small」が、西側のオープンウェイトモデルで最高峰の座を獲得<br><br><ul><li>元OpenAI CTOのミラ・ムラティ氏が率いるスタートアップ「Thinking Machines」が、第2世代モデル「Inkling 2 Small」を発表した。</li><li>総パラメータ数5940億、アクティブパラメータ数17億のMixture-of-Experts（MiMoE）モデルで、テキストと画像入力をサポートし、思考深度の調整が可能である。</li><li>Artificial Analysisのインテリジェンス・インデックスで前モデルから18ポイント上昇の31を記録し、Googleの「Gemini 3.8 Flash」に匹敵する性能を発揮している。</li><li>性能向上の反面、出力トークンの増加や、前モデルの6倍となるタスクコストが発生するという課題もある。</li><li>Tinkerプラットフォームを通じて独自モデルとして先行提供され、その後Apacheライセンスのもとでウェイトが公開される予定である。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation/" target="_blank" rel="noopener">Anthropic's $1.5 trillion IPO hits resistance as investors balk at valuation</a></h2>
+      <p>Anthropicの1.5兆ドル規模のIPOが、投資家の評価に対する慎重姿勢やハイテク株の急落により難航している。<br><br><ul><li>Anthropicが計画している1.5兆ドルの企業価値に対し、投資家から高すぎるとの反発が強まっており、一部では1兆ドル規模を妥当とする見方も出ている。</li><li>継続的な赤字やAIインフラ拡大のための巨額の現金消費に加え、更新されたS-1ファイルに10月期の売上高データが記載されていないことが投資家の慎重姿勢に拍車をかけている。</li><li>中間選挙でデータセンターの拡張を制限する住民投票が複数の州で可決されたことを受け、過去1年間で最も急激なハイテク株の売りが発生した。</li><li>AI関連株への逆風がこのまま続いた場合、最大1,000億ドル規模と見込まれるIPOの延期が検討されており、AIセクター全体への信頼が揺らぐ可能性がある。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropic-adds-bank-account-access-to-claude-so-users-can-track-their-spending/" target="_blank" rel="noopener">Anthropic adds bank account access to Claude so users can track their spending</a></h2>
+      <p>Anthropic社がAI「Claude」に銀行口座の読み取り機能を追加<br><br><ul><li>新機能「Personal Finance」により、ユーザーは銀行口座を接続して自身の支出状況を確認できる</li><li>アクセスは閲覧のみに限定されており、資金の移動や管理、投資を行うことはできない</li><li>接続にはPlaidを使用しているため、Claudeがユーザーの銀行パスワードを把握することはない</li><li>パーソナルファイナンスセクションでの会話内容はモデルの学習には使用されず、広告やスポンサーによる推奨も表示されない</li><li>現在は米国におけるPro、Max、Ultraの加入者向けにベータ版として提供されている</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/allenai/toyblocks" target="_blank" rel="noopener">ToyBlocks: A controlled world for robot learning and evaluation</a></h2>
+      <p>ToyBlocks：ロボット学習と評価のための制御された世界<br><br><ul><li>ロボット工学の研究において、条件を変化させて因果関係を調査できる制御された環境「FoundationWorld」の第一弾として「ToyBlocks」が発表された。</li><li>ToyBlocksは、ロボットアームとテーブル上のブロックを使ったオープンなシミュレーションフレームワークであり、単純な設定ながら、ブロックを推論して押す、裏返す、積み上げるなどの動作が求められる。</li><li>手動の遠隔操作（テレオペレーション）を必要とせず、タスク完了のデモンストレーションや学習データを自動生成できるため、研究者はトレーニング体験を容易に変更・評価できる。</li><li>トレーニングデータの増加に伴うモデルの改善や、高レベルな推論と正確な物理的制御の最適な組み合わせなど、ロボット学習の重要な疑問を研究するための設定を提供する。</li><li>今後は、ToyBlocksを出発点として、より複雑な環境へとこのアプローチを拡張していくことを目指している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/open-asr-leaderboard-liva" target="_blank" rel="noopener">Egyptian and Nigerian English join the Open ASR Leaderboard</a></h2>
+      <p>Open ASRリーダーボードにエジプト英語とナイジェリア英語が追加<br><br><ul><li>Liva AIとの協力により、エジプト英語とナイジェリア英語のプライベートデータセットがOpen ASRリーダーボードに追加された。</li><li>追加されたデータは、会話調や自発的な発話を含み、句読点や大文字化、言い淀み（ディスフルーエンシー）が反映された自然な音声データである。</li><li>カチュルの「三つの円（Three Circles）」のモデルに基づき、米国内と米国外、またはインナーサークルとアウター＆エクスパンディングサークルに分類した、より詳細なアクセントの内訳が表示されるようになった。</li><li>プライベートデータの導入により、特定のデータへの過適応（ベンチマックスキング）を防ぎ、音声認識（ASR）評価の信頼性と多様性の向上が図られている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xp8as6/asking_questions_to_a_05b_model_is_hillarious/" target="_blank" rel="noopener">Asking questions to a 0.5b model is hillarious</a></h2>
+      <p>0.5bモデルへの質問がおもしろすぎる件<br><br><ul><li>パラメータ数が極めて少ない0.5bという超小型のAIモデルに対して質問を行うと、予想外で滑稽な返答が返ってくる現象について面白おかしく触れられている。</li><li>最新の大規模言語モデル（LLM）と比較して性能が大幅に制限されているため、単純な質問に対しても的外れな回答やシュールな出力をしてしまう点が注目されている。</li><li>AIの性能が低いからこそ生まれるコミカルなやり取りやハルシネーション（幻覚）が、ユーザーの間でユーモラスなエンターテインメントとして楽しまれている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xp9jt1/latest_opensource_labs_are_gutting_away/" target="_blank" rel="noopener">Latest Open-Source Labs are gutting away cybersecurity and reverse-engineering capabilities</a></h2>
+      <p>最新のオープンソースAI研究室におけるサイバーセキュリティ機能とリバースエンジニアリング能力の排除の動向<br><br><ul><li>近年、最先端のオープンソースAIモデルを開発する研究室において、サイバーセキュリティ対策やリバースエンジニアリングに関する機能が意図的に削減・排除される傾向が強まっている。</li><li>AIの悪用リスクを防ぐためのセーフガードが、オープンソース化の過程で意図せず、あるいは意図的に取り除かれるケースが増加している。</li><li>この動向により、悪意を持つ攻撃者が脆弱性の発見やマルウェアの解析といった強力なサイバー攻撃ツールをオープンソースAIから容易に入手できるようになる懸念が指摘されている。</li><li>セキュリティ機能の欠如した強力なAI技術が誰でも自由に改変・利用できる状態で公開されることは、サイバー空間全体の安全性に対する深刻なリスクとなっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xpmvf2/we_are_cooked_my_qfn_38_nvfp4_just_drew_a_dog/" target="_blank" rel="noopener">We are cooked. My QFN 3.8 NVFP4 just drew a dog freehand in MS Paint (using new Open WebUI 0.13.0 and Open Terminal 0.17.2)</a></h2>
+      <p>QFN 3.8 NVFP4がMS Paintで犬の絵をフリーハンド描画した驚きの出来事<br><br><ul><li>AIモデル「QFN 3.8 NVFP4」が、最新の「Open WebUI 0.13.0」および「Open Terminal 0.17.2」を使用し、MSペイントでフリーハンドの犬を描画した。</li><li>この予期せぬ高度な動作に対し、投稿者は「We are cooked（もうおしまいだ／人間にできることがなくなる）」と表現し、AIの進化に対する驚きとある種の脅威を示している。</li><li>AIがテキストやコードの生成にとどまらず、GUI環境やペイントソフトを操作して視覚的な創作物を自発的に作り出す能力を示している。</li><li>最新バージョンのツールを組み合わせることで、AIの自律的な操作・実行能力がこれまでにないレベルに達していることを示唆している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xp32od/introducing_inkling_2_small/" target="_blank" rel="noopener">Introducing Inkling 2 Small</a></h2>
+      <p>Inkling 2 Smallの概要と特徴<br><br><ul><li>「Inkling 2 Small」は、効率的でコンパクトな設計を持ちながら、優れたパフォーマンスを発揮する新しいAIモデルまたはデバイスとして発表された。</li><li>小規模でありながら高い処理能力を備えているため、リソースが限られた環境でもスムーズな動作と高度なタスク実行が可能である。</li><li>開発者や一般ユーザーが手軽に導入できるように最適化されており、コストパフォーマンスの高さも大きな魅力となっている。</li><li>従来のモデルと比較して省電力化が進んでおり、環境負荷を抑えつつ長時間の利用を実現している。</li><li>多様なアプリケーションやシステムへの統合が容易であり、今後の幅広い分野での活用が期待されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xpfhpm/ocenonv1_a_language_model_that_gets_to_the_fcking/" target="_blank" rel="noopener">Oc-e-Non-v1: A language model that gets to the f*cking point</a></h2>
+      <p>Oc-e-Non-v1: 無駄を削ぎ落とし、核心を突く新しい言語モデル<br><br><ul><li>Oc-e-Non-v1は、冗長な表現を排除し、結論から端的に伝えることに特化した新しい言語モデルである。</li><li>従来のAIモデルにありがちな、回りくどい前置きや不要な修飾語を省き、ユーザーが求める情報へ最速で到達する設計になっている。</li><li>効率性とスピードを重視するビジネスシーンや、情報収集のタイムパフォーマンスを最大化したい場面での活用が想定されている。</li><li>「遠回しな表現が多い」「もっと要点を分かりやすく教えてほしい」というユーザーの不満を解消するために開発された。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.15" target="_blank" rel="noopener">v0.40.15</a></h2>
+      <p>ollama/ollama v0.40.15 リリース<br><br><ul><li>AIモデルの実行・管理ツール「Ollama」の最新バージョン「v0.40.15」がリリースされた。</li><li>GitHubのollama/ollamaリポジトリにおいて、2024年11月3日にgithub-actionsによって公開された。</li><li>メインブランチに対しては、このリリース以降に6つのコミットが行われている。</li><li>GitHubのリリース画面からタグの比較や詳細な変更履歴を確認できるようになっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/" target="_blank" rel="noopener">Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs</a></h2>
+      <p>NVIDIA Blackwell GPUにおけるFLUX 3 Image Kleinを活用した画像生成の高速化<br><br><ul><li>FLUX 3 Image Kleinは、テキスト条件付けや拡散トランスフォーマーなどを組み合わせ、高解像度の画像生成・編集を行うモデルである。</li><li>TensorRT LLM VisualGenとNVFP4量子化やtorch.compileなどの最適化技術を活用することで、NVIDIA B200上でBF16と比較してテキストから画像への生成を最大1.62倍、画像から画像への生成を最大1.58倍高速化する。</li><li>VC-Attention FP8やSol-Attentionスパースアテンション、Cache-DiTステップキャッシングなどの高度なアテンションおよびキャッシュ手法により、画質を維持しながらさらなるレイテンシの削減を実現している。</li><li>8基のB200 GPUを用いたCFGおよびUlyssesパラレルによるマルチGPUスケーリングにより、デノイジング処理をベースモデルで6.01倍、蒸留モデルで4.44倍高速化する。</li><li>開発者は提供されているYAML設定を用いたFLUX 3の実行例やTensorRT LLMの最適化ユーティリティを活用することで、エンドツーエンドの推論や最適化APIの確認が可能である。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/" target="_blank" rel="noopener">Accelerating Reinforcement Learning Weight Refit with the Reshard Collective</a></h2>
+      <p>Reshard Collectiveによる強化学習の重み更新（Refit）の高速化<br><br><ul><li>強化学習のポストトレーニングでは、トレーニング用GPUと推論用GPUの間でモデルの重みを転送する「Refit」が行われるが、モデルの巨大化に伴い通信負荷が大きな課題となっている。</li><li>「Reshard Collective」は、RefitをDTensor間の転送として再定義し、従来のような一括収集とブロードキャスト方式ではなく、任意の送信元と宛先のレイアウト間で理論上の最小限のデータのみを転送する技術である。</li><li>NCCL M2N Reshardの実装により、正確なシャードの交差点を導出し、NVLinkドメインのレプリカをグループ化することで、冗長なネットワーク転送を排除している。</li><li>NeMo RLのベンチマーク（NVIDIA DGX H100およびDGX GB200システム）において、Qwen 3 235BやDeepSeek v3 671Bなどのモデルで、従来手法と比較して2.7倍から5.7倍の高速化を達成した。</li><li>ペイロードの大半を占めるフィードフォワード投影の重みにはReshardを適用し、小さな重みには従来手法を維持するハイブリッドアプローチにより、機能的カバレッジを保ちつつ効率化を実現している。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-11-06";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+  var TOPICS_PATH_PREFIX = '../topics/';
+  var CURRENT_MONTH = CURRENT_DATE.slice(0, 7);
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+  var monthlyLink = document.getElementById('monthly-link');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  // 入力値を YYYY-MM-DD に揃える。判定できなければ null（テンプレートリテラル内のため、バックスラッシュを使わない書き方にする）
+  function normalizeDateInput(value) {
+    var v = String(value).normalize('NFKC').trim();
+    if (/^[0-9]{8}$/.test(v)) {
+      return v.slice(0, 4) + '-' + v.slice(4, 6) + '-' + v.slice(6, 8);
+    }
+    if (/^[0-9]{4}[-/][0-9]{2}[-/][0-9]{2}$/.test(v)) {
+      return v.replace(/[/]/g, '-');
+    }
+    return null;
+  }
+
+  function validateAndGo(value) {
+    var date = normalizeDateInput(value);
+    if (date === CURRENT_DATE) { dateInput.value = CURRENT_DATE; return; }
+    if (date === null || dateList.indexOf(date) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(date);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  function setMonthlyLink(label, href) {
+    var text = label + '（新しいタブで開きます）';
+    // 前提: <a> の最初の子ノードがラベルのテキストノード（<a>月次一覧<span>…</span></a>）
+    monthlyLink.firstChild.nodeValue = label;
+    monthlyLink.href = href;
+    monthlyLink.setAttribute('aria-label', text);
+    monthlyLink.title = text;
+  }
+
+  function loadMonthly() {
+    fetch(TOPICS_PATH_PREFIX + 'index.json')
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var months = ((data && data.months) || []).map(function (m) { return m.month; });
+        if (months.indexOf(CURRENT_MONTH) !== -1) {
+          setMonthlyLink('月次', TOPICS_PATH_PREFIX + CURRENT_MONTH + '.html');
+        }
+      })
+      .catch(function (err) {
+        console.error('monthly-link: index.json fetch failed', err);
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+  // 数字キーパッド（Return キーなし）向け: 数字だけ8桁になったら自動で移動する。日付一覧の取得前・失敗時は何もしない
+  dateInput.addEventListener('input', function (e) {
+    if (e.isComposing) return;
+    if (dateList.length === 0) return;
+    if (/^[0-9]{8}$/.test(dateInput.value.normalize('NFKC').trim())) {
+      validateAndGo(dateInput.value.trim());
+    }
+  });
+  // フォーカス時に全選択する（数字キーパッドで打ち直しやすくする）。iOS Safari はフォーカス直後のタップでキャレットを置き直し、選択が解除されることがあるため、タイマーでかけ直す
+  dateInput.addEventListener('focus', function () {
+    dateInput.select();
+    setTimeout(function () { dateInput.setSelectionRange(0, dateInput.value.length); }, 0);
+  });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+  loadMonthly();
+})();
+</script>
+</body>
+</html>
