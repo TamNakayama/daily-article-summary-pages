@@ -1,0 +1,155 @@
+[
+  {
+    "id": "4113de0e-c1c5-81b6-9be4-cb716b2c62fc",
+    "title": "Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model",
+    "site": "THE DECODER",
+    "published": "2026-11-06T19:47:04.000Z",
+    "fetched": "2026-11-07T00:01:09.377Z",
+    "summary": "Ripple-65B Preview：優れたエージェントコーディング性能を持つオープンなUS製AIモデル\n\n- AIチップ設計企業Ricursive Intelligenceが、完全なApache 2.0ライセンスに基づくオープン言語モデル「Ripple-65B Preview」を公開した。\n- 12兆トークンで事前学習され、TerminalBench 2.1でオープンな米国製モデルとして最高スコアの80.52を記録するなど、強力なエージェントコーディング結果を示す。\n- 混合エキスパート（MoE）ではなく650億パラメータの密なTransformerアーキテクチャを採用し、Nvidiaハードウェアに最適化されているため、ユーザー自身のハードウェアへのデプロイが容易である。\n- 同時に発表された「Inkling 2 Small」にはベンチマークの一部で及ばないものの、総開発・トレーニング費用は研究開発費を含めてわずか3200万ドルにとどまる。",
+    "url": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/"
+  },
+  {
+    "id": "4113de0e-c1c5-8108-8163-ee5f3ada6b56",
+    "title": "Perplexity now has its own always-on AI agent",
+    "site": "THE DECODER",
+    "published": "2026-11-06T16:47:28.000Z",
+    "fetched": "2026-11-07T00:01:17.340Z",
+    "summary": "Perplexityが24時間稼働する独自のAIエージェント「Teammates」を発表\n\n- Perplexityが、継続的なプロジェクトを自律的に処理する24時間稼働のAIエージェント機能「Teammates」を発表した。\n- 「Teammates」の各エージェントは、デスクトップとブラウザを備えた独自の仮想マシン上で実行され、PerplexityアプリのスレッドやSlackを通じて進捗確認や対話が可能である。\n- 同様の常時稼働型エージェントはSpaceX、Meta、OpenAI、Anthropicなども提供しており、競合している。\n- 利用料金は月額200ドルの「Max plan」が必要となり、他社を含めて安価なプランでは利用制限に達しやすい課題がある。\n- パープレキシティの年間経常収益（ARR）は、8月の時点で7億5000万ドルを突破している。",
+    "url": "https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/"
+  },
+  {
+    "id": "4113de0e-c1c5-815e-a332-d7ff5c8cd4ea",
+    "title": "Frontier Radar #5: If AGI is so close, why is everyone leaving? The neolabs and their bets",
+    "site": "THE DECODER",
+    "published": "2026-11-06T15:55:23.000Z",
+    "fetched": "2026-11-07T00:01:25.791Z",
+    "summary": "Frontier Radar #5: AGIは近いのか？それとも誰もが去っていくのか：新興ラボとその賭け\n\n- OpenAIやNvidiaのトップが「AGI（汎用人工知能）の到来」を宣言する一方で、現在のモデルの共同開発者たちは大手ラボを離れ、製品がない状態でありながら巨額の資金を集めて自らのラボ（ネオラボ）を立ち上げている。\n- 彼らが大手ラボを去る理由は、現在のAI開発手法（レシピ）だけではAGIへの到達に十分ではないと考えているためである。\n- 「Frontier Radar」の第5号では、45の新興ラボを研究の賭けや克服しようとしている限界ごとに分類し、その取り組みや現状を詳細に分析している。\n- 各ラボは、現在の中核的なアプローチの弱点を克服するための新しい技術的ブレイクスルーを目指して競い合っており、その動向や背景にある戦略が明らかにされている。\n- AI業界において、どのような新しいラボや技術的アプローチが登場しようとも、基盤となるハードウェアを提供するNvidiaが常に勝者となる構造が存在している。",
+    "url": "https://the-decoder.com/frontier-radar-5-if-agi-is-so-close-why-is-everyone-leaving-the-neolabs-and-their-bets/"
+  },
+  {
+    "id": "4113de0e-c1c5-81be-8f27-dd7f132bc221",
+    "title": "METR finds Anthropic may have crossed its own AI acceleration warning threshold back in July",
+    "site": "THE DECODER",
+    "published": "2026-11-06T13:40:07.000Z",
+    "fetched": "2026-11-07T00:01:33.551Z",
+    "summary": "METRの調査により、Anthropic社が7月の時点で自社のAI開発加速の警告しきい値を超えていた可能性が判明しました。主なポイントは以下の通りです。\n\n- AIモデルの性能向上のペースが約2倍に倍増しており、その加速の約80%がAnthropic社自身の研究へのAI活用に起因していることが判明した。\n- AIがさらなるAIの開発を加速させるフィードバックループが形成されると、極端でリスクの高い能力が突然出現する懸念がある。\n- Anthropic社の責任あるスケーリング方針（RSP）では、AI自動研究により進歩のペースが倍増することが警告レベルのトリガーに指定されている。\n- 非営利団体METRが11週間にわたりAnthropic社の内部研究データや未公開モデルのベンチマーク結果などに異例のアクセスを行って調査した。\n- Anthropic社側が最も重要な証拠の大部分を黒塗り（機密指定）にしたため、詳細な検証には限界があった。",
+    "url": "https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july/"
+  },
+  {
+    "id": "4113de0e-c1c5-8176-9454-cea5919549e6",
+    "title": "Thinking Machines' Inkling 2 Small claims top spot among western open-weight models",
+    "site": "THE DECODER",
+    "published": "2026-11-06T13:25:09.000Z",
+    "fetched": "2026-11-07T00:01:41.237Z",
+    "summary": "Thinking Machines社の「Inkling 2 Small」が、西側のオープンウェイトモデルで最高峰の座を獲得\n\n- 元OpenAI CTOのミラ・ムラティ氏が率いるスタートアップ「Thinking Machines」が、第2世代モデル「Inkling 2 Small」を発表した。\n- 総パラメータ数5940億、アクティブパラメータ数17億のMixture-of-Experts（MiMoE）モデルで、テキストと画像入力をサポートし、思考深度の調整が可能である。\n- Artificial Analysisのインテリジェンス・インデックスで前モデルから18ポイント上昇の31を記録し、Googleの「Gemini 3.8 Flash」に匹敵する性能を発揮している。\n- 性能向上の反面、出力トークンの増加や、前モデルの6倍となるタスクコストが発生するという課題もある。\n- Tinkerプラットフォームを通じて独自モデルとして先行提供され、その後Apacheライセンスのもとでウェイトが公開される予定である。",
+    "url": "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/"
+  },
+  {
+    "id": "4113de0e-c1c5-8166-b318-ef7b5501fe95",
+    "title": "Anthropic's $1.5 trillion IPO hits resistance as investors balk at valuation",
+    "site": "THE DECODER",
+    "published": "2026-11-06T11:38:17.000Z",
+    "fetched": "2026-11-07T00:01:49.562Z",
+    "summary": "Anthropicの1.5兆ドル規模のIPOが、投資家の評価に対する慎重姿勢やハイテク株の急落により難航している。\n\n- Anthropicが計画している1.5兆ドルの企業価値に対し、投資家から高すぎるとの反発が強まっており、一部では1兆ドル規模を妥当とする見方も出ている。\n- 継続的な赤字やAIインフラ拡大のための巨額の現金消費に加え、更新されたS-1ファイルに10月期の売上高データが記載されていないことが投資家の慎重姿勢に拍車をかけている。\n- 中間選挙でデータセンターの拡張を制限する住民投票が複数の州で可決されたことを受け、過去1年間で最も急激なハイテク株の売りが発生した。\n- AI関連株への逆風がこのまま続いた場合、最大1,000億ドル規模と見込まれるIPOの延期が検討されており、AIセクター全体への信頼が揺らぐ可能性がある。",
+    "url": "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation/"
+  },
+  {
+    "id": "4113de0e-c1c5-81b5-9acd-c01349333eb2",
+    "title": "Anthropic adds bank account access to Claude so users can track their spending",
+    "site": "THE DECODER",
+    "published": "2026-11-06T11:33:13.000Z",
+    "fetched": "2026-11-07T00:01:57.098Z",
+    "summary": "Anthropic社がAI「Claude」に銀行口座の読み取り機能を追加\n\n- 新機能「Personal Finance」により、ユーザーは銀行口座を接続して自身の支出状況を確認できる\n- アクセスは閲覧のみに限定されており、資金の移動や管理、投資を行うことはできない\n- 接続にはPlaidを使用しているため、Claudeがユーザーの銀行パスワードを把握することはない\n- パーソナルファイナンスセクションでの会話内容はモデルの学習には使用されず、広告やスポンサーによる推奨も表示されない\n- 現在は米国におけるPro、Max、Ultraの加入者向けにベータ版として提供されている",
+    "url": "https://the-decoder.com/anthropic-adds-bank-account-access-to-claude-so-users-can-track-their-spending/"
+  },
+  {
+    "id": "4113de0e-c1c5-8199-aae9-c92ed30e49d4",
+    "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+    "site": "Hugging Face Blog",
+    "published": "2026-11-06T14:00:48.000Z",
+    "fetched": "2026-11-07T00:02:05.252Z",
+    "summary": "ToyBlocks：ロボット学習と評価のための制御された世界\n\n- ロボット工学の研究において、条件を変化させて因果関係を調査できる制御された環境「FoundationWorld」の第一弾として「ToyBlocks」が発表された。\n- ToyBlocksは、ロボットアームとテーブル上のブロックを使ったオープンなシミュレーションフレームワークであり、単純な設定ながら、ブロックを推論して押す、裏返す、積み上げるなどの動作が求められる。\n- 手動の遠隔操作（テレオペレーション）を必要とせず、タスク完了のデモンストレーションや学習データを自動生成できるため、研究者はトレーニング体験を容易に変更・評価できる。\n- トレーニングデータの増加に伴うモデルの改善や、高レベルな推論と正確な物理的制御の最適な組み合わせなど、ロボット学習の重要な疑問を研究するための設定を提供する。\n- 今後は、ToyBlocksを出発点として、より複雑な環境へとこのアプローチを拡張していくことを目指している。",
+    "url": "https://huggingface.co/blog/allenai/toyblocks"
+  },
+  {
+    "id": "4113de0e-c1c5-819b-bf06-c82aa78368e3",
+    "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+    "site": "Hugging Face Blog",
+    "published": "2026-11-06T00:00:00.000Z",
+    "fetched": "2026-11-07T00:02:12.664Z",
+    "summary": "Open ASRリーダーボードにエジプト英語とナイジェリア英語が追加\n\n- Liva AIとの協力により、エジプト英語とナイジェリア英語のプライベートデータセットがOpen ASRリーダーボードに追加された。\n- 追加されたデータは、会話調や自発的な発話を含み、句読点や大文字化、言い淀み（ディスフルーエンシー）が反映された自然な音声データである。\n- カチュルの「三つの円（Three Circles）」のモデルに基づき、米国内と米国外、またはインナーサークルとアウター＆エクスパンディングサークルに分類した、より詳細なアクセントの内訳が表示されるようになった。\n- プライベートデータの導入により、特定のデータへの過適応（ベンチマックスキング）を防ぎ、音声認識（ASR）評価の信頼性と多様性の向上が図られている。",
+    "url": "https://huggingface.co/blog/open-asr-leaderboard-liva"
+  },
+  {
+    "id": "4113de0e-c1c5-8153-a176-d92cc2edce54",
+    "title": "Asking questions to a 0.5b model is hillarious",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-06T09:07:37.000Z",
+    "fetched": "2026-11-07T00:02:20.151Z",
+    "summary": "0.5bモデルへの質問がおもしろすぎる件\n\n- パラメータ数が極めて少ない0.5bという超小型のAIモデルに対して質問を行うと、予想外で滑稽な返答が返ってくる現象について面白おかしく触れられている。\n- 最新の大規模言語モデル（LLM）と比較して性能が大幅に制限されているため、単純な質問に対しても的外れな回答やシュールな出力をしてしまう点が注目されている。\n- AIの性能が低いからこそ生まれるコミカルなやり取りやハルシネーション（幻覚）が、ユーザーの間でユーモラスなエンターテインメントとして楽しまれている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp8as6/asking_questions_to_a_05b_model_is_hillarious/"
+  },
+  {
+    "id": "4113de0e-c1c5-8187-b098-d6b773827c68",
+    "title": "Latest Open-Source Labs are gutting away cybersecurity and reverse-engineering capabilities",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-06T10:28:37.000Z",
+    "fetched": "2026-11-07T00:02:28.409Z",
+    "summary": "最新のオープンソースAI研究室におけるサイバーセキュリティ機能とリバースエンジニアリング能力の排除の動向\n\n- 近年、最先端のオープンソースAIモデルを開発する研究室において、サイバーセキュリティ対策やリバースエンジニアリングに関する機能が意図的に削減・排除される傾向が強まっている。\n- AIの悪用リスクを防ぐためのセーフガードが、オープンソース化の過程で意図せず、あるいは意図的に取り除かれるケースが増加している。\n- この動向により、悪意を持つ攻撃者が脆弱性の発見やマルウェアの解析といった強力なサイバー攻撃ツールをオープンソースAIから容易に入手できるようになる懸念が指摘されている。\n- セキュリティ機能の欠如した強力なAI技術が誰でも自由に改変・利用できる状態で公開されることは、サイバー空間全体の安全性に対する深刻なリスクとなっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp9jt1/latest_opensource_labs_are_gutting_away/"
+  },
+  {
+    "id": "4113de0e-c1c5-8108-9223-c8bf22f93cfe",
+    "title": "We are cooked. My QFN 3.8 NVFP4 just drew a dog freehand in MS Paint (using new Open WebUI 0.13.0 and Open Terminal 0.17.2)",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-06T20:12:07.000Z",
+    "fetched": "2026-11-07T00:02:36.233Z",
+    "summary": "QFN 3.8 NVFP4がMS Paintで犬の絵をフリーハンド描画した驚きの出来事\n\n- AIモデル「QFN 3.8 NVFP4」が、最新の「Open WebUI 0.13.0」および「Open Terminal 0.17.2」を使用し、MSペイントでフリーハンドの犬を描画した。\n- この予期せぬ高度な動作に対し、投稿者は「We are cooked（もうおしまいだ／人間にできることがなくなる）」と表現し、AIの進化に対する驚きとある種の脅威を示している。\n- AIがテキストやコードの生成にとどまらず、GUI環境やペイントソフトを操作して視覚的な創作物を自発的に作り出す能力を示している。\n- 最新バージョンのツールを組み合わせることで、AIの自律的な操作・実行能力がこれまでにないレベルに達していることを示唆している。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmvf2/we_are_cooked_my_qfn_38_nvfp4_just_drew_a_dog/"
+  },
+  {
+    "id": "4113de0e-c1c5-8182-9bc1-ea238981d69b",
+    "title": "Introducing Inkling 2 Small",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-06T03:50:26.000Z",
+    "fetched": "2026-11-07T00:02:43.542Z",
+    "summary": "Inkling 2 Smallの概要と特徴\n\n- 「Inkling 2 Small」は、効率的でコンパクトな設計を持ちながら、優れたパフォーマンスを発揮する新しいAIモデルまたはデバイスとして発表された。\n- 小規模でありながら高い処理能力を備えているため、リソースが限られた環境でもスムーズな動作と高度なタスク実行が可能である。\n- 開発者や一般ユーザーが手軽に導入できるように最適化されており、コストパフォーマンスの高さも大きな魅力となっている。\n- 従来のモデルと比較して省電力化が進んでおり、環境負荷を抑えつつ長時間の利用を実現している。\n- 多様なアプリケーションやシステムへの統合が容易であり、今後の幅広い分野での活用が期待されている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp32od/introducing_inkling_2_small/"
+  },
+  {
+    "id": "4113de0e-c1c5-81f7-abdb-c0bba8002cf9",
+    "title": "Oc-e-Non-v1: A language model that gets to the f*cking point",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-06T15:23:37.000Z",
+    "fetched": "2026-11-07T00:02:51.199Z",
+    "summary": "Oc-e-Non-v1: 無駄を削ぎ落とし、核心を突く新しい言語モデル\n\n- Oc-e-Non-v1は、冗長な表現を排除し、結論から端的に伝えることに特化した新しい言語モデルである。\n- 従来のAIモデルにありがちな、回りくどい前置きや不要な修飾語を省き、ユーザーが求める情報へ最速で到達する設計になっている。\n- 効率性とスピードを重視するビジネスシーンや、情報収集のタイムパフォーマンスを最大化したい場面での活用が想定されている。\n- 「遠回しな表現が多い」「もっと要点を分かりやすく教えてほしい」というユーザーの不満を解消するために開発された。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpfhpm/ocenonv1_a_language_model_that_gets_to_the_fcking/"
+  },
+  {
+    "id": "4113de0e-c1c5-8139-8f5e-f19b619911f7",
+    "title": "v0.40.15",
+    "site": "Ollama Blog",
+    "published": "2026-11-06T01:47:18.000Z",
+    "fetched": "2026-11-07T00:03:02.500Z",
+    "summary": "ollama/ollama v0.40.15 リリース\n\n- AIモデルの実行・管理ツール「Ollama」の最新バージョン「v0.40.15」がリリースされた。\n- GitHubのollama/ollamaリポジトリにおいて、2024年11月3日にgithub-actionsによって公開された。\n- メインブランチに対しては、このリリース以降に6つのコミットが行われている。\n- GitHubのリリース画面からタグの比較や詳細な変更履歴を確認できるようになっている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15"
+  },
+  {
+    "id": "4113de0e-c1c5-81ef-a186-f50bd74dd11a",
+    "title": "Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-11-06T22:20:20.000Z",
+    "fetched": "2026-11-07T00:03:10.998Z",
+    "summary": "NVIDIA Blackwell GPUにおけるFLUX 3 Image Kleinを活用した画像生成の高速化\n\n- FLUX 3 Image Kleinは、テキスト条件付けや拡散トランスフォーマーなどを組み合わせ、高解像度の画像生成・編集を行うモデルである。\n- TensorRT LLM VisualGenとNVFP4量子化やtorch.compileなどの最適化技術を活用することで、NVIDIA B200上でBF16と比較してテキストから画像への生成を最大1.62倍、画像から画像への生成を最大1.58倍高速化する。\n- VC-Attention FP8やSol-Attentionスパースアテンション、Cache-DiTステップキャッシングなどの高度なアテンションおよびキャッシュ手法により、画質を維持しながらさらなるレイテンシの削減を実現している。\n- 8基のB200 GPUを用いたCFGおよびUlyssesパラレルによるマルチGPUスケーリングにより、デノイジング処理をベースモデルで6.01倍、蒸留モデルで4.44倍高速化する。\n- 開発者は提供されているYAML設定を用いたFLUX 3の実行例やTensorRT LLMの最適化ユーティリティを活用することで、エンドツーエンドの推論や最適化APIの確認が可能である。",
+    "url": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/"
+  },
+  {
+    "id": "4113de0e-c1c5-81e5-ac12-cfeb8a61d34c",
+    "title": "Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-11-06T18:03:26.000Z",
+    "fetched": "2026-11-07T00:03:19.318Z",
+    "summary": "Reshard Collectiveによる強化学習の重み更新（Refit）の高速化\n\n- 強化学習のポストトレーニングでは、トレーニング用GPUと推論用GPUの間でモデルの重みを転送する「Refit」が行われるが、モデルの巨大化に伴い通信負荷が大きな課題となっている。\n- 「Reshard Collective」は、RefitをDTensor間の転送として再定義し、従来のような一括収集とブロードキャスト方式ではなく、任意の送信元と宛先のレイアウト間で理論上の最小限のデータのみを転送する技術である。\n- NCCL M2N Reshardの実装により、正確なシャードの交差点を導出し、NVLinkドメインのレプリカをグループ化することで、冗長なネットワーク転送を排除している。\n- NeMo RLのベンチマーク（NVIDIA DGX H100およびDGX GB200システム）において、Qwen 3 235BやDeepSeek v3 671Bなどのモデルで、従来手法と比較して2.7倍から5.7倍の高速化を達成した。\n- ペイロードの大半を占めるフィードフォワード投影の重みにはReshardを適用し、小さな重みには従来手法を維持するハイブリッドアプローチにより、機能的カバレッジを保ちつつ効率化を実現している。",
+    "url": "https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/"
+  }
+]
