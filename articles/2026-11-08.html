@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI/LLM記事まとめ 2026/11/08</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; flex-wrap: wrap; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  .date-nav .monthly-link { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; font-size: 1em; color: #222; text-decoration: none; white-space: nowrap; }
+  .date-nav .monthly-link:hover { background: #f5f5f5; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+  @media (max-width: 600px) {
+    .date-nav-title { display: none; }
+    .date-nav input[type="text"] { width: 100px; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">AI/LLM記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-11-08" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+  <a id="monthly-link" class="monthly-link" href="../topics/index.html" target="_blank" rel="noopener" aria-label="月次一覧（新しいタブで開きます）" title="月次一覧（新しいタブで開きます）">月次一覧<span class="ext" aria-hidden="true"> ↗</span></a>
+</header>
+<h1>2026/11/08</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/" target="_blank" rel="noopener">Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News</a></h2>
+      <p>Andrej Karpathy氏がClaudeを活用して週末にキュレーション型動画プラットフォームを開発<br><br><ul><li>元OpenAIの共同創設者で現Anthropic研究者のAndrej Karpathy氏が、Claudeの Opus 5.5モデルを用いて週末に「HackerTube」を開発した。</li><li>過去20年間のHacker Newsにおける4300万件のコメントをClaudeがフィルタリングし、同プラットフォームで推奨され続ける6,454本の動画へと厳選した。</li><li>ログイン不要、最適化されたサムネイルではなく動画の中間フレームを表示、ブラウザでのローカル状態保存といった特徴を持ち、YouTube独自のレコメンドよりも優れた視聴体験を実現している。</li><li>さらに、Karpathy氏はClaude Codeを使いわずか3分で「TristanTube」をワンショットで構築し、データ分析からサーバー設定までほぼAIが自動処理した。</li><li>かつて数週間を要していたプロジェクトが数時間で完了できるようになっており、AIの進化によって個人の開発スピードが劇的に向上していることを示している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/" target="_blank" rel="noopener">The brain-as-computer metaphor shaped modern AI but may be misleading the consciousness debate</a></h2>
+      <p>脳をコンピュータと見なす比喩は現代のAIの発展を形作ったが、意識に関する議論を誤導している可能性がある。<br><br><ul><li>著名な意識研究者であるアニル・セス、ネッド・ブロック、ジュリオ・トノーニの3名は、現在のAIは意識を持たず、シリコンハードウェア上で意識を持つこともおそらく不可能であると主張している。</li><li>彼らは、適切な計算を実行するだけで意識が生み出されるという考え方を否定し、リチャード・ドーキンスやジェフリー・ヒントンといった、AIがすでに意識を持っている可能性を認める見解に反論している。</li><li>Nature誌への寄稿の中で、著書らはアンソロピック社が今年発表した研究に言及し、AI「Claude」の内部処理パターンが意識的にアクセス可能な情報処理の特性に似ているとしつつも、それを主観的体験の証拠とは見なしていない。</li><li>パトリック・ブトリンやヨシュア・ベンギオら17名の専門家による報告書「人工知能における意識」では、脳科学の理論に基づく14の指標を用いて既存のAI（GPT-4など）を評価し、現時点で強い意識の候補となるシステムは存在しないと結論付けている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/" target="_blank" rel="noopener">The inventor of the bitter lesson has a bitter lesson for LLM scaling enthusiasts</a></h2>
+      <p>「苦い教訓」の提唱者リチャード・サットンがLLMのスケーリング狂信者へ向けて放った警告<br><br><ul><li>チューリング賞受賞者のリチャード・サットンは、生得的な計算能力の拡大だけでは汎用人工知能（AGI）の実現には不十分であり、AI科学には新たな独創的手法が必要であると主張している。</li><li>サットンは、大規模言語モデル（LLM）の単純な規模拡大には限界があると批判し、現実世界の無限の複雑さに比べ、シミュレーションや合成データの利用は「大きな間違い」であると指摘している。</li><li>人間の専門知識をモデルに組み込むことはボトルネックとなり真のスケーリングを妨げるため、人間が想定したアプローチではなく、計算能力とともに拡張するアイデアが重要であるとされる。</li><li>サットンは、人間によるインターネット上のテキストデータに依存するのではなく、エージェント自身が世界モデルを持ち、自身の経験から継続的に学習する仕組みの構築を求めている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/" target="_blank" rel="noopener">AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test</a></h2>
+      <p>AIコーディングエージェントの実世界でのタスク完了率は未だ低く、約4分の3のタスクで人間の手による修正が必要であることが、新たなベンチマークテストによって明らかになりました。<br><br><ul><li>アリババなどの研究チームが開発した新しいテスト「Co-Design Bench」により、AIコーディングエージェントの実力を現実的なタスクで検証した。</li><li>テストされた10モデルの中で最も優れた「GPT-6 Astra」でも、要件を完全に満たせたのは全体の26.4%にとどまった。</li><li>平均してタスク要求の約70%は達成するものの、細部が未完成のまま残るため、実用時にはほぼ必ず人間によるクリーンアップが必要となる。</li><li>従来のベンチマークテストではモデルが99%以上の高得点を獲得して飽和状態にあったため、より実用的で難易度の高いタスクを用いた新テストが導入された。</li><li>新テストには、実際のコーディングセッションにおける複雑な変更要求や、AIが実務でつまずきやすいマルチモーダルな課題（画像や音声データの活用など）が多数含まれている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xr09nq/does_censorship_exist_in_country_according_to/" target="_blank" rel="noopener">&quot;Does censorship exist in [country]?&quot;, according to various LLMs</a></h2>
+      <p>「[国名]における検閲の有無」に対する各種大規模言語モデル（LLM）の回答の比較と分析<br><br><ul><li>各種LLMに対して「[国名]に検閲は存在するか」という同一の質問を投げかけ、モデルごとに異なる回答や見解が示されている点を検証している。</li><li>AIモデルによって、政治的背景や学習データの違いから、検閲の実態に対する表現や肯定・否定のニュアンスに差異が生じることが示されている。</li><li>LLMがどのように国家的な情報統制やデリケートな政治問題をとらえ、出力に反映しているのかを明らかにしている。</li><li>AIの回答が持つバイアスや、情報源としての客観性・限界について考察する材料を提供している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xr01bj/users_have_started_buying_rtx_5060_ti_16gb/" target="_blank" rel="noopener">Users have started buying RTX 5060 Ti 16GB graphics cards en masse for the sake of AI.</a></h2>
+      <p>NVIDIAのRTX 5060 Ti 16GBが、AI用途を目的としてユーザーに大量購入されている。<br><br><ul><li>RTX 5060 Ti 16GBモデルが、AI関連の作業やモデルのローカル実行用として、ユーザーの間で爆発的な人気を集めている。</li><li>ディープラーニングや生成AIの処理において、VRAM（ビデオメモリ）の容量が重要視されるため、16GBという大容量を備えたミドルレンジGPUが選ばれている。</li><li>高価格なハイエンドGPUと比較して、コストパフォーマンスに優れている点がAI愛好家や開発者から高く評価されている。</li><li>大量購入の動きにより、市場での需要が急増しており、供給状況や価格変動への影響が懸念されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xr3ymf/gpt55_dataset_across_my_used_25_billion_tokens/" target="_blank" rel="noopener">GPT-5.5 dataset across my used 25 billion tokens!</a></h2>
+      <p>GPT-5.5のデータセット構築と250億トークンの活用実績<br><br><ul><li>筆者が実際に使用した総計250億トークンに及ぶ膨大なデータセットを用いて、GPT-5.5に関連する検証や分析を実施した。</li><li>大規模な言語モデルの性能を引き出すために、多様で高品質なデータ収集と効率的なトークン処理が重要な鍵となることが示されている。</li><li>実検証を通じて得られた知見やデータセットの傾向をもとに、今後のAIモデルの進化や実用性に関する新たな可能性が提示されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xr2aaa/tencentqwen3827bdspineb16_hugging_face/" target="_blank" rel="noopener">tencent/Qwen3.8-27B-DSpine-b16 · Hugging Face</a></h2>
+      <p>Tencent/Qwen3.8-27B-DSpine-b16のHugging Faceリポジトリ概要<br><br><ul><li>Hugging Face上で公開された「Tencent/Qwen3.8-27B-DSpine-b16」という名称の機械学習・AIモデルに関するリポジトリページである。</li><li>モデル名に含まれる「27B」という規模から、大規模言語モデル（LLM）または関連する深層学習モデルであると推測される。</li><li>Tencentなどの開発元やコミュニティによって共有され、研究や開発目的での利用が想定されている。</li><li>Hugging Faceのプラットフォームを通じて、モデルの重みデータ、詳細な仕様、利用ライセンス、実装コードなどが提供されている。</li><li>自然言語処理タスクや特定のAIアプリケーションにおいて、高いパフォーマンスを発揮することが期待されるモデルの一つとして参照される。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xr6krp/nextconcept_modeling_fast_parallel_coarsetofine/" target="_blank" rel="noopener">Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation: This will completely change everything!</a></h2>
+      <p>Next-Concept Modeling: 高速かつ並列的な粗密テキスト生成技術の革新性<br><br><ul><li>本記事で紹介されている「Next-Concept Modeling」は、テキスト生成の速度と効率を劇的に向上させる画期的な手法である。</li><li>従来の逐次的なテキスト生成プロセスとは異なり、粗い概念から細かい詳細へと段階的かつ並列的に処理を行うアプローチを採用している。</li><li>この技術により、大規模な言語モデルにおける計算コストや推論時間が大幅に削減される可能性が示されている。</li><li>テキスト生成のスピードが飛躍的に向上することで、リアルタイムでの対話システムや高度なコンテンツ生成など、AI活用の幅がさらに広がることが期待される。</li><li>AI開発におけるボトルネックを解消するアプローチとして、今後の自然言語処理のパラダイムシフトを引き起こす重要な技術になり得ると注目を集めている。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-11-08";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+  var TOPICS_PATH_PREFIX = '../topics/';
+  var CURRENT_MONTH = CURRENT_DATE.slice(0, 7);
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+  var monthlyLink = document.getElementById('monthly-link');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  // 入力値を YYYY-MM-DD に揃える。判定できなければ null（テンプレートリテラル内のため、バックスラッシュを使わない書き方にする）
+  function normalizeDateInput(value) {
+    var v = String(value).normalize('NFKC').trim();
+    if (/^[0-9]{8}$/.test(v)) {
+      return v.slice(0, 4) + '-' + v.slice(4, 6) + '-' + v.slice(6, 8);
+    }
+    if (/^[0-9]{4}[-/][0-9]{2}[-/][0-9]{2}$/.test(v)) {
+      return v.replace(/[/]/g, '-');
+    }
+    return null;
+  }
+
+  function validateAndGo(value) {
+    var date = normalizeDateInput(value);
+    if (date === CURRENT_DATE) { dateInput.value = CURRENT_DATE; return; }
+    if (date === null || dateList.indexOf(date) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(date);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  function setMonthlyLink(label, href) {
+    var text = label + '（新しいタブで開きます）';
+    // 前提: <a> の最初の子ノードがラベルのテキストノード（<a>月次一覧<span>…</span></a>）
+    monthlyLink.firstChild.nodeValue = label;
+    monthlyLink.href = href;
+    monthlyLink.setAttribute('aria-label', text);
+    monthlyLink.title = text;
+  }
+
+  function loadMonthly() {
+    fetch(TOPICS_PATH_PREFIX + 'index.json')
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var months = ((data && data.months) || []).map(function (m) { return m.month; });
+        if (months.indexOf(CURRENT_MONTH) !== -1) {
+          setMonthlyLink('月次', TOPICS_PATH_PREFIX + CURRENT_MONTH + '.html');
+        }
+      })
+      .catch(function (err) {
+        console.error('monthly-link: index.json fetch failed', err);
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+  // 数字キーパッド（Return キーなし）向け: 数字だけ8桁になったら自動で移動する。日付一覧の取得前・失敗時は何もしない
+  dateInput.addEventListener('input', function (e) {
+    if (e.isComposing) return;
+    if (dateList.length === 0) return;
+    if (/^[0-9]{8}$/.test(dateInput.value.normalize('NFKC').trim())) {
+      validateAndGo(dateInput.value.trim());
+    }
+  });
+  // フォーカス時に全選択する（数字キーパッドで打ち直しやすくする）。iOS Safari はフォーカス直後のタップでキャレットを置き直し、選択が解除されることがあるため、タイマーでかけ直す
+  dateInput.addEventListener('focus', function () {
+    dateInput.select();
+    setTimeout(function () { dateInput.setSelectionRange(0, dateInput.value.length); }, 0);
+  });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+  loadMonthly();
+})();
+</script>
+</body>
+</html>
