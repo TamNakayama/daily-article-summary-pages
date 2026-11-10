@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI/LLM記事まとめ 2026/11/09</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; flex-wrap: wrap; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  .date-nav .monthly-link { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; font-size: 1em; color: #222; text-decoration: none; white-space: nowrap; }
+  .date-nav .monthly-link:hover { background: #f5f5f5; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+  @media (max-width: 600px) {
+    .date-nav-title { display: none; }
+    .date-nav input[type="text"] { width: 100px; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">AI/LLM記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-11-09" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+  <a id="monthly-link" class="monthly-link" href="../topics/index.html" target="_blank" rel="noopener" aria-label="月次一覧（新しいタブで開きます）" title="月次一覧（新しいタブで開きます）">月次一覧<span class="ext" aria-hidden="true"> ↗</span></a>
+</header>
+<h1>2026/11/09</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo/" target="_blank" rel="noopener">Claude Fable 5.2 and Mythos 5.2 cement Anthropic's AI lead just before its IPO</a></h2>
+      <p>Anthropic社のIPO直前に発表された新型AIモデル「Claude Fable 5.2」と「Mythos 5.2」に関する記事の要約です。<br><br>Anthropic社は、IPOを目前に控える中、最も要求の厳しい技術的タスク向けの新フラッグシップモデル「Claude Fable 5.2」および「Mythos 5.2」を発表し、AI性能の主導権を再び確実なものにしました。<br><br><ul><li>「Fable 5.2」はArtificial Analysis Intelligence Index v5で65点を獲得し首位に立ち、他社モデルや前作を大きく引き離す性能を示しています。</li><li>両モデルは基盤を共通としながら、利用制限が異なり、Fableは一般向け、Mythosは厳格な審査を通過した組織のみに提供されます。</li><li>価格は入力トークンが100万あたり8ドル、出力トークンが40ドルへと改定され、日常的な用途には引き続き「Opus 5.5」が推奨されています。</li><li>Anthropic社は、AI開発を直接加速させるような危険な能力が訓練中に発現しないよう、意図的に抑制措置を講じています。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do/" target="_blank" rel="noopener">Meta launches Muse Ember, a small AI model built for the repetitive work agents actually do</a></h2>
+      <p>Meta社がAIエージェントの反復作業向けに開発した小型AIモデル「Muse Ember」を発表<br><br><ul><li>Muse Emberは、ツール呼び出し、軽微なコーディング、リクエストのルーティング、データ抽出、長文処理といったAIエージェントの日常的なルーチン作業を効率化するために設計された、メタ社史上最小かつ最も効率的なAIモデルである。</li><li>コストパフォーマンスに優れており、Artificial Analysisのテストでは1タスクあたり約0.14ドルと低価格ながら、Claude Haiku 5.5やGPT-6 Lunaと比較して、各推論レベルで優れた費用対効果を実現している。</li><li>テキスト、画像、音声、動画のマルチモーダルに対応し、最大100万トークンを一度に処理することが可能である。</li><li>Meta Model APIなどを通じて提供され、価格は入力トークンが100万あたり0.10ドル、出力トークンが100万あたり0.50ドルに設定されている。</li><li>メタ社のテストでは多くの項目でリードしているものの、実際のコーディングタスク（FrontierCode 2.0-AA）ではClaude Haikuが上回る結果も見せている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/" target="_blank" rel="noopener">Bytedance's Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift</a></h2>
+      <p>ByteDance社がプロフェッショナル向けに発表した画像生成モデル「Seedream 5.5」は、複数回の編集における高い安定性と優れた表現力を実現しています。<br><br><ul><li>画質や色味を維持したまま、最大100回に及ぶピクセル単位での多段階編集が可能である。</li><li>背景が透明なネイティブRGBA画像の生成に対応しており、手動で切り抜くことなくそのままデザイン素材として活用できる。</li><li>光や質感、肌のテクスチャをよりリアルに表現し、密集した小さなテキストも正確に再現できる。</li><li>テキストの構造やリアリティの面で、GPT Image 2.5 Sunburstなどの他モデルを凌駕すると主張されている。</li><li>Jimeng、Doubao、Doubao Work、Volcengine Arkを通じて順次展開されており、今後はPro版のリリースも予定されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire/" target="_blank" rel="noopener">Disney bets on Adobe's Firefly to create brand-safe AI models for its entertainment empire</a></h2>
+      <p>ディズニー、AdobeのFireflyを活用してブランド安全なAIモデルをエンターテインメント事業に導入<br><br><ul><li>ディズニーとアドビが数年間のパートナーシップを締結し、ディズニーの制作物向けにカスタムAIツールを共同開発する。</li><li>アドビの「Adobe Firefly Foundry」を用い、ディズニーのキャラクターや視覚スタイルを学習させた商用利用に安全なカスタムモデルを構築する。</li><li>テーマパークの開発を手がけるディズニーの「Imagineering」部門ですでにFireflyが利用されているほか、ウォルト・ディズニー・スタジオやESPNのイノベーションハブにも適用範囲が拡大される。</li><li>ESPNでは、スポーツコンテンツにおけるファンのエンゲージメント向上や、アーカイブの新たな活用法にAIが役立てられる予定である。</li><li>ディズニーは過去にOpenAIとの提携から撤退した経緯があり、現在はコスト削減や人員削減を進める中で今回のAI導入を進めている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/tencents-ai-chief-says-ai-bioweapons-are-coming-but-closing-off-models-isnt-the-answer/" target="_blank" rel="noopener">Tencent's AI chief says AI bioweapons are coming, but closing off models isn't the answer</a></h2>
+      <p>TencentのAI責任者が警告するAIバイオ兵器の脅威とオープンモデルの是非<br><br><ul><li>TencentのチーフAIサイエンティストであるVinces Yao Shunyu氏は、AIが近い将来バイオ兵器を開発できるようになると警告している。</li><li>Yao氏は、AIモデルの全面的なオープン化も完全なクローズド化も解決策にはならず、防衛側の利用も含めてオープンソースとクローズドソースを組み合わせた中道的なアプローチが必要だと主張している。</li><li>生物学分野では、サイバーセキュリティ分野と異なり、攻撃能力と防御能力の境界線を明確に分けることが極めて困難である。</li><li>米国企業のアントロピックなどは安全性の観点からクローズドモデルを支持しているが、Hugging Faceのハッキング事案において、安全フィルターが厳しすぎるクローズドモデルの代わりにオープンな中国製モデル（GLM-5.2）がフォレンジック分析に活用された事例もある。</li><li>米中間のAIモデルの性能差は大きくないため、Yao氏は業界全体が慎重に行動するよう求めている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/" target="_blank" rel="noopener">Google ships four TPU variants in one year as it ramps up competition with Nvidia</a></h2>
+      <p>GoogleがNVIDIAとの競争を激化させるため、1年間に4種類のTPU（テンソル・プロセッシング・ユニット）を提供<br><br><ul><li>Googleは第8世代AIチップのラインアップに、既存のプロセッサをベースとした「TPU 8tx」と「TPU 8i Max」の2つの新システムを追加し、1年間に4つのTPUシステムを出荷した。</li><li>「TPU 8tx」は、機密データ処理中も暗号化を維持する設計になっており、企業や政府機関の機密性の高いAIワークロードをターゲットにしている。</li><li>「TPU 8i Max」は、1つのパッケージに2つのチップを統合することで、同一ラック内でメモリと演算能力を倍増させ、メモリ集約型アプリケーションに対応する。</li><li>Googleは新しいチップ世代の投入ではなく、パッケージング、ネットワーク、メモリ設定を変更するモジュール方式を採用することで、短期間でのハードウェア展開を実現している。</li><li>「TorchTPU」などのソフトウェアツールと組み合わせることで、開発者のハードウェア導入障壁を下げ、外部顧客へのAIチップの市場展開を積極的に進めている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls/" target="_blank" rel="noopener">Nvidia espionage scandal weakens Huang's lobby against tighter AI chip export controls</a></h2>
+      <p>NvidiaのスキャンダルがAIチップの対中輸出規制強化を巡るロビー活動に与える影響<br><br><ul><li>Nvidiaのジェンスン・フアンCEOが、米国情報機関から中国のスパイ容疑がかけられている女性との交際を認め、取締役会が独立した調査を開始した。</li><li>問題の女性は、Nvidia製AIチップを中国へ密輸するバックドア疑惑のあるデータセンター運営企業「Megaspeed」に勤務していた。</li><li>このスキャンダルにより、厳格な対中輸出規制への反対を訴えてきたフアンCEOのロビー活動の立場が著しく弱まっている。</li><li>米国では新たに選出された民主党議会がAIチップの密輸に対する監視を強めており、より厳しい規制を求める動きが加速する可能性が高い。</li><li>フアンCEOは明確な後継者計画を持たず、支配株も保有していないため、今回の問題は同社のリーダーシップにおける重大なリスクとなっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Nov/9/hn-50421091/" target="_blank" rel="noopener">The Web Is More Than Enough, by Paul Ford</a></h2>
+      <p>The Web Is More Than Enough, by Paul Ford<br><br><ul><li>サイモン・ウィリソンは、Paul Fordの記事やHacker Newsでのコメントに影響を受け、Claude（Opus 5.5）を活用した3Dモグラフィの実験を行った。</li><li>今朝、Three.jsを用いてウミウシをテーマにした「ファベルジェの卵」の3Dオブジェクトを作成した。</li><li>その後、同じチャットスレッド上でClaudeに依頼し、Three.jsを使わずにVanilla JS（純粋なJavaScript）とWebGLのみのコードへ移植させることに成功した。</li><li>ClaudeはThree.jsなしでも3Dモデリングを完璧に行う能力があることが実証された。</li><li>コードの可読性ではThree.js版の方がやや理解しやすいものの、AIを活用することで手軽に高度な3Dコンテンツが作成できることを示している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Nov/9/details-summary/" target="_blank" rel="noopener">Hide your slop PR descriptions behind &lt;details&gt;&lt;summary&gt;</a></h2>
+      <p>AI時代におけるプルリクエスト（PR）説明文のスマートな運用術<br><br><ul><li>近年のコーディング支援AIは詳細で正確なPR説明文を作成できるが、情報量が多すぎると人間が読む気をなくしてしまう「スロップ（粗製乱造）」のように感じられてしまう問題がある。</li><li>人間には、PRの目的を素早く把握するための高レベルな要約と、必要に応じて確認できる編集上の判断が必要とされる。</li><li>GitHubのMarkdownでもサポートされているHTMLの `&lt;details&gt;&lt;summary&gt;` タグを活用し、AIが生成した詳細な解説文を折りたたんで隠す手法が提案されている。</li><li>PRの冒頭には人間が把握しやすい短い導入文やスクリーンショットを配置し、折りたたみ部分の概要には使用したAIモデル名（例：「Claude Opus 5.5 Medium」など）を記載する。</li><li>この方法を取り入れることで、AI生成の長文説明による圧倒感を和らげ、PR全体をすっきりと読みやすく改善することができる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan" target="_blank" rel="noopener">Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context </a></h2>
+      <p>Nemotron-Personas-Finance-Japan: 日本の人口統計と金融文脈を捉えた合成データセット<br><br><ul><li>金融分野におけるAI活用は、厳格なプライバシー規制やコンプライアンス要件により実データの利用が制限されているという課題を抱えている。</li><li>本データセットは、現実世界の分布に基づいた日本特有のペルソナを生成するために、コンパウンドAIアプローチを採用して構築された。</li><li>日本の文化や金融の文脈に深く根ざしたデータを包含し、プライバシーに配慮した設計（プライベート・バイ・デザイン）となっている。</li><li>金融業界におけるAIの導入障壁を低くし、プライバシーの壁を打ち破るためのオープンデータとして提供される。</li><li>同時に発表・提供されている「Nemotron-PII-Japan」と組み合わせることで、より実用的かつ安全なAIアプリケーションの開発が可能となる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/amazon/higher-order-pruning-experts" target="_blank" rel="noopener">Your Experts Have Partners. There's HOPE for Keeping Them Together</a></h2>
+      <p>混合エキスパート（MoE）言語モデルの効率的な削減を実現する高次エキスパートプルーニング手法「HOPE」についての解説。<br><br><ul><li>混合エキスパート（MoE）モデルは優れた性能を持つ一方で、推論時に大多数のエキスパートがアイドル状態でありながらメモリを大量消費するという課題を抱えている。</li><li>従来のエキスパートプルーニング手法は各エキスパートを独立して評価する「一次手法」であり、エキスパート間の協力関係を無視しているため最適とは言えなかった。</li><li>新手法「HOPE（Higher-Order Pruning of Experts）」は、ペア単位のエキスパート間相互作用（協力関係）を考慮する「二次手法」である。</li><li>HOPEを50%のプルーニング率で適用した場合、エージェントコーディングタスクにおいて従来手法と比較して最大+6.1%の性能向上の達成や、全手法中で最高の平均順位を実現している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Ollama Blog</span>
+      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.16" target="_blank" rel="noopener">v0.40.16</a></h2>
+      <p>ollama/ollama v0.40.16 リリース<br><br><ul><li>ollamaのGitHubリポジトリにおいて、バージョン「v0.40.16」が最新のリリースとして公開された。</li><li>リリース日は2024年11月9日（18:21）で、GitHub Actionsによって自動リリースされた。</li><li>このリリースには、メインブランチに対して2コミットが含まれている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/make-a-robot-arm-feel-weightless-with-nvidia-holoscan-5/" target="_blank" rel="noopener">Make a Robot Arm Feel Weightless with NVIDIA Holoscan 5</a></h2>
+      <p>NVIDIA Holoscan 5を活用したロボットアームの重力補償システムの構築<br><br><ul><li>NVIDIA Holoscan 5を用いることで、単一のプログラミングモデル上でCPUとGPUのワークロードを処理し、低遅延なロボット制御と高スループットな認識を実現できる。</li><li>Pinocchioを用いた逆動力学計算やSeeed Studio reBot Armへのトルク指令送信などを行う3つのカスタムオペレーターで構成される重力補償ループを構築し、400Hzで関節状態を読み取る。</li><li>ホロスカンのパーティション機能や古いサンプルを破棄するキューにより、スレッド間の手渡しを回避し、遅延の蓄積を防ぐ効率的なデータ処理を行う。</li><li>Nsight Systemsによるプロファイリング結果から、制御パーティションを特定のCPUコアに固定することで、p99.99の遅延をC++で約5倍、Pythonで約9.6倍削減できる。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-11-09";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+  var TOPICS_PATH_PREFIX = '../topics/';
+  var CURRENT_MONTH = CURRENT_DATE.slice(0, 7);
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+  var monthlyLink = document.getElementById('monthly-link');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  // 入力値を YYYY-MM-DD に揃える。判定できなければ null（テンプレートリテラル内のため、バックスラッシュを使わない書き方にする）
+  function normalizeDateInput(value) {
+    var v = String(value).normalize('NFKC').trim();
+    if (/^[0-9]{8}$/.test(v)) {
+      return v.slice(0, 4) + '-' + v.slice(4, 6) + '-' + v.slice(6, 8);
+    }
+    if (/^[0-9]{4}[-/][0-9]{2}[-/][0-9]{2}$/.test(v)) {
+      return v.replace(/[/]/g, '-');
+    }
+    return null;
+  }
+
+  function validateAndGo(value) {
+    var date = normalizeDateInput(value);
+    if (date === CURRENT_DATE) { dateInput.value = CURRENT_DATE; return; }
+    if (date === null || dateList.indexOf(date) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(date);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  function setMonthlyLink(label, href) {
+    var text = label + '（新しいタブで開きます）';
+    // 前提: <a> の最初の子ノードがラベルのテキストノード（<a>月次一覧<span>…</span></a>）
+    monthlyLink.firstChild.nodeValue = label;
+    monthlyLink.href = href;
+    monthlyLink.setAttribute('aria-label', text);
+    monthlyLink.title = text;
+  }
+
+  function loadMonthly() {
+    fetch(TOPICS_PATH_PREFIX + 'index.json')
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var months = ((data && data.months) || []).map(function (m) { return m.month; });
+        if (months.indexOf(CURRENT_MONTH) !== -1) {
+          setMonthlyLink('月次', TOPICS_PATH_PREFIX + CURRENT_MONTH + '.html');
+        }
+      })
+      .catch(function (err) {
+        console.error('monthly-link: index.json fetch failed', err);
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+  // 数字キーパッド（Return キーなし）向け: 数字だけ8桁になったら自動で移動する。日付一覧の取得前・失敗時は何もしない
+  dateInput.addEventListener('input', function (e) {
+    if (e.isComposing) return;
+    if (dateList.length === 0) return;
+    if (/^[0-9]{8}$/.test(dateInput.value.normalize('NFKC').trim())) {
+      validateAndGo(dateInput.value.trim());
+    }
+  });
+  // フォーカス時に全選択する（数字キーパッドで打ち直しやすくする）。iOS Safari はフォーカス直後のタップでキャレットを置き直し、選択が解除されることがあるため、タイマーでかけ直す
+  dateInput.addEventListener('focus', function () {
+    dateInput.select();
+    setTimeout(function () { dateInput.setSelectionRange(0, dateInput.value.length); }, 0);
+  });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+  loadMonthly();
+})();
+</script>
+</body>
+</html>
