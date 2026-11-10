@@ -1,0 +1,119 @@
+[
+  {
+    "id": "4143de0e-c1c5-8110-83ec-fe4829a7a02c",
+    "title": "Claude Fable 5.2 and Mythos 5.2 cement Anthropic's AI lead just before its IPO",
+    "site": "THE DECODER",
+    "published": "2026-11-09T21:15:23.000Z",
+    "fetched": "2026-11-10T00:02:05.005Z",
+    "summary": "Anthropic社のIPO直前に発表された新型AIモデル「Claude Fable 5.2」と「Mythos 5.2」に関する記事の要約です。\n\nAnthropic社は、IPOを目前に控える中、最も要求の厳しい技術的タスク向けの新フラッグシップモデル「Claude Fable 5.2」および「Mythos 5.2」を発表し、AI性能の主導権を再び確実なものにしました。\n\n- 「Fable 5.2」はArtificial Analysis Intelligence Index v5で65点を獲得し首位に立ち、他社モデルや前作を大きく引き離す性能を示しています。\n- 両モデルは基盤を共通としながら、利用制限が異なり、Fableは一般向け、Mythosは厳格な審査を通過した組織のみに提供されます。\n- 価格は入力トークンが100万あたり8ドル、出力トークンが40ドルへと改定され、日常的な用途には引き続き「Opus 5.5」が推奨されています。\n- Anthropic社は、AI開発を直接加速させるような危険な能力が訓練中に発現しないよう、意図的に抑制措置を講じています。",
+    "url": "https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo/"
+  },
+  {
+    "id": "4143de0e-c1c5-81dc-aa57-cae42e0b81d3",
+    "title": "Meta launches Muse Ember, a small AI model built for the repetitive work agents actually do",
+    "site": "THE DECODER",
+    "published": "2026-11-09T19:41:51.000Z",
+    "fetched": "2026-11-10T00:02:17.187Z",
+    "summary": "Meta社がAIエージェントの反復作業向けに開発した小型AIモデル「Muse Ember」を発表\n\n- Muse Emberは、ツール呼び出し、軽微なコーディング、リクエストのルーティング、データ抽出、長文処理といったAIエージェントの日常的なルーチン作業を効率化するために設計された、メタ社史上最小かつ最も効率的なAIモデルである。\n- コストパフォーマンスに優れており、Artificial Analysisのテストでは1タスクあたり約0.14ドルと低価格ながら、Claude Haiku 5.5やGPT-6 Lunaと比較して、各推論レベルで優れた費用対効果を実現している。\n- テキスト、画像、音声、動画のマルチモーダルに対応し、最大100万トークンを一度に処理することが可能である。\n- Meta Model APIなどを通じて提供され、価格は入力トークンが100万あたり0.10ドル、出力トークンが100万あたり0.50ドルに設定されている。\n- メタ社のテストでは多くの項目でリードしているものの、実際のコーディングタスク（FrontierCode 2.0-AA）ではClaude Haikuが上回る結果も見せている。",
+    "url": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do/"
+  },
+  {
+    "id": "4143de0e-c1c5-81eb-afe6-d1ac1d2a2428",
+    "title": "Bytedance's Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift",
+    "site": "THE DECODER",
+    "published": "2026-11-09T18:50:01.000Z",
+    "fetched": "2026-11-10T00:02:25.644Z",
+    "summary": "ByteDance社がプロフェッショナル向けに発表した画像生成モデル「Seedream 5.5」は、複数回の編集における高い安定性と優れた表現力を実現しています。\n\n- 画質や色味を維持したまま、最大100回に及ぶピクセル単位での多段階編集が可能である。\n- 背景が透明なネイティブRGBA画像の生成に対応しており、手動で切り抜くことなくそのままデザイン素材として活用できる。\n- 光や質感、肌のテクスチャをよりリアルに表現し、密集した小さなテキストも正確に再現できる。\n- テキストの構造やリアリティの面で、GPT Image 2.5 Sunburstなどの他モデルを凌駕すると主張されている。\n- Jimeng、Doubao、Doubao Work、Volcengine Arkを通じて順次展開されており、今後はPro版のリリースも予定されている。",
+    "url": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/"
+  },
+  {
+    "id": "4143de0e-c1c5-8138-bcb1-e4a7283eebc4",
+    "title": "Disney bets on Adobe's Firefly to create brand-safe AI models for its entertainment empire",
+    "site": "THE DECODER",
+    "published": "2026-11-09T16:54:16.000Z",
+    "fetched": "2026-11-10T00:02:42.066Z",
+    "summary": "ディズニー、AdobeのFireflyを活用してブランド安全なAIモデルをエンターテインメント事業に導入\n\n- ディズニーとアドビが数年間のパートナーシップを締結し、ディズニーの制作物向けにカスタムAIツールを共同開発する。\n- アドビの「Adobe Firefly Foundry」を用い、ディズニーのキャラクターや視覚スタイルを学習させた商用利用に安全なカスタムモデルを構築する。\n- テーマパークの開発を手がけるディズニーの「Imagineering」部門ですでにFireflyが利用されているほか、ウォルト・ディズニー・スタジオやESPNのイノベーションハブにも適用範囲が拡大される。\n- ESPNでは、スポーツコンテンツにおけるファンのエンゲージメント向上や、アーカイブの新たな活用法にAIが役立てられる予定である。\n- ディズニーは過去にOpenAIとの提携から撤退した経緯があり、現在はコスト削減や人員削減を進める中で今回のAI導入を進めている。",
+    "url": "https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire/"
+  },
+  {
+    "id": "4143de0e-c1c5-8114-9426-c1b067b98e99",
+    "title": "Tencent's AI chief says AI bioweapons are coming, but closing off models isn't the answer",
+    "site": "THE DECODER",
+    "published": "2026-11-09T15:44:53.000Z",
+    "fetched": "2026-11-10T00:02:53.074Z",
+    "summary": "TencentのAI責任者が警告するAIバイオ兵器の脅威とオープンモデルの是非\n\n- TencentのチーフAIサイエンティストであるVinces Yao Shunyu氏は、AIが近い将来バイオ兵器を開発できるようになると警告している。\n- Yao氏は、AIモデルの全面的なオープン化も完全なクローズド化も解決策にはならず、防衛側の利用も含めてオープンソースとクローズドソースを組み合わせた中道的なアプローチが必要だと主張している。\n- 生物学分野では、サイバーセキュリティ分野と異なり、攻撃能力と防御能力の境界線を明確に分けることが極めて困難である。\n- 米国企業のアントロピックなどは安全性の観点からクローズドモデルを支持しているが、Hugging Faceのハッキング事案において、安全フィルターが厳しすぎるクローズドモデルの代わりにオープンな中国製モデル（GLM-5.2）がフォレンジック分析に活用された事例もある。\n- 米中間のAIモデルの性能差は大きくないため、Yao氏は業界全体が慎重に行動するよう求めている。",
+    "url": "https://the-decoder.com/tencents-ai-chief-says-ai-bioweapons-are-coming-but-closing-off-models-isnt-the-answer/"
+  },
+  {
+    "id": "4143de0e-c1c5-8122-ad44-e236ce8ed42b",
+    "title": "Google ships four TPU variants in one year as it ramps up competition with Nvidia",
+    "site": "THE DECODER",
+    "published": "2026-11-09T12:59:02.000Z",
+    "fetched": "2026-11-10T00:03:04.163Z",
+    "summary": "GoogleがNVIDIAとの競争を激化させるため、1年間に4種類のTPU（テンソル・プロセッシング・ユニット）を提供\n\n- Googleは第8世代AIチップのラインアップに、既存のプロセッサをベースとした「TPU 8tx」と「TPU 8i Max」の2つの新システムを追加し、1年間に4つのTPUシステムを出荷した。\n- 「TPU 8tx」は、機密データ処理中も暗号化を維持する設計になっており、企業や政府機関の機密性の高いAIワークロードをターゲットにしている。\n- 「TPU 8i Max」は、1つのパッケージに2つのチップを統合することで、同一ラック内でメモリと演算能力を倍増させ、メモリ集約型アプリケーションに対応する。\n- Googleは新しいチップ世代の投入ではなく、パッケージング、ネットワーク、メモリ設定を変更するモジュール方式を採用することで、短期間でのハードウェア展開を実現している。\n- 「TorchTPU」などのソフトウェアツールと組み合わせることで、開発者のハードウェア導入障壁を下げ、外部顧客へのAIチップの市場展開を積極的に進めている。",
+    "url": "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/"
+  },
+  {
+    "id": "4143de0e-c1c5-8182-a420-c55ea1ca436b",
+    "title": "Nvidia espionage scandal weakens Huang's lobby against tighter AI chip export controls",
+    "site": "THE DECODER",
+    "published": "2026-11-09T11:38:43.000Z",
+    "fetched": "2026-11-10T00:03:23.280Z",
+    "summary": "NvidiaのスキャンダルがAIチップの対中輸出規制強化を巡るロビー活動に与える影響\n\n- Nvidiaのジェンスン・フアンCEOが、米国情報機関から中国のスパイ容疑がかけられている女性との交際を認め、取締役会が独立した調査を開始した。\n- 問題の女性は、Nvidia製AIチップを中国へ密輸するバックドア疑惑のあるデータセンター運営企業「Megaspeed」に勤務していた。\n- このスキャンダルにより、厳格な対中輸出規制への反対を訴えてきたフアンCEOのロビー活動の立場が著しく弱まっている。\n- 米国では新たに選出された民主党議会がAIチップの密輸に対する監視を強めており、より厳しい規制を求める動きが加速する可能性が高い。\n- フアンCEOは明確な後継者計画を持たず、支配株も保有していないため、今回の問題は同社のリーダーシップにおける重大なリスクとなっている。",
+    "url": "https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls/"
+  },
+  {
+    "id": "4143de0e-c1c5-8139-b40b-c45031257d87",
+    "title": "The Web Is More Than Enough, by Paul Ford",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-11-09T04:32:33.000Z",
+    "fetched": "2026-11-10T00:03:30.848Z",
+    "summary": "The Web Is More Than Enough, by Paul Ford\n\n- サイモン・ウィリソンは、Paul Fordの記事やHacker Newsでのコメントに影響を受け、Claude（Opus 5.5）を活用した3Dモグラフィの実験を行った。\n- 今朝、Three.jsを用いてウミウシをテーマにした「ファベルジェの卵」の3Dオブジェクトを作成した。\n- その後、同じチャットスレッド上でClaudeに依頼し、Three.jsを使わずにVanilla JS（純粋なJavaScript）とWebGLのみのコードへ移植させることに成功した。\n- ClaudeはThree.jsなしでも3Dモデリングを完璧に行う能力があることが実証された。\n- コードの可読性ではThree.js版の方がやや理解しやすいものの、AIを活用することで手軽に高度な3Dコンテンツが作成できることを示している。",
+    "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/"
+  },
+  {
+    "id": "4143de0e-c1c5-81ee-a444-eceebf20dfad",
+    "title": "Hide your slop PR descriptions behind <details><summary>",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-11-09T04:25:05.000Z",
+    "fetched": "2026-11-10T00:03:38.637Z",
+    "summary": "AI時代におけるプルリクエスト（PR）説明文のスマートな運用術\n\n- 近年のコーディング支援AIは詳細で正確なPR説明文を作成できるが、情報量が多すぎると人間が読む気をなくしてしまう「スロップ（粗製乱造）」のように感じられてしまう問題がある。\n- 人間には、PRの目的を素早く把握するための高レベルな要約と、必要に応じて確認できる編集上の判断が必要とされる。\n- GitHubのMarkdownでもサポートされているHTMLの `<details><summary>` タグを活用し、AIが生成した詳細な解説文を折りたたんで隠す手法が提案されている。\n- PRの冒頭には人間が把握しやすい短い導入文やスクリーンショットを配置し、折りたたみ部分の概要には使用したAIモデル名（例：「Claude Opus 5.5 Medium」など）を記載する。\n- この方法を取り入れることで、AI生成の長文説明による圧倒感を和らげ、PR全体をすっきりと読みやすく改善することができる。",
+    "url": "https://simonwillison.net/2026/Nov/9/details-summary/"
+  },
+  {
+    "id": "4143de0e-c1c5-818c-8608-edbc688adf1c",
+    "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context ",
+    "site": "Hugging Face Blog",
+    "published": "2026-11-09T15:05:57.000Z",
+    "fetched": "2026-11-10T00:03:47.866Z",
+    "summary": "Nemotron-Personas-Finance-Japan: 日本の人口統計と金融文脈を捉えた合成データセット\n\n- 金融分野におけるAI活用は、厳格なプライバシー規制やコンプライアンス要件により実データの利用が制限されているという課題を抱えている。\n- 本データセットは、現実世界の分布に基づいた日本特有のペルソナを生成するために、コンパウンドAIアプローチを採用して構築された。\n- 日本の文化や金融の文脈に深く根ざしたデータを包含し、プライバシーに配慮した設計（プライベート・バイ・デザイン）となっている。\n- 金融業界におけるAIの導入障壁を低くし、プライバシーの壁を打ち破るためのオープンデータとして提供される。\n- 同時に発表・提供されている「Nemotron-PII-Japan」と組み合わせることで、より実用的かつ安全なAIアプリケーションの開発が可能となる。",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
+  },
+  {
+    "id": "4143de0e-c1c5-81af-b26d-ed7df0860a6b",
+    "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+    "site": "Hugging Face Blog",
+    "published": "2026-11-09T12:34:29.000Z",
+    "fetched": "2026-11-10T00:03:55.014Z",
+    "summary": "混合エキスパート（MoE）言語モデルの効率的な削減を実現する高次エキスパートプルーニング手法「HOPE」についての解説。\n\n- 混合エキスパート（MoE）モデルは優れた性能を持つ一方で、推論時に大多数のエキスパートがアイドル状態でありながらメモリを大量消費するという課題を抱えている。\n- 従来のエキスパートプルーニング手法は各エキスパートを独立して評価する「一次手法」であり、エキスパート間の協力関係を無視しているため最適とは言えなかった。\n- 新手法「HOPE（Higher-Order Pruning of Experts）」は、ペア単位のエキスパート間相互作用（協力関係）を考慮する「二次手法」である。\n- HOPEを50%のプルーニング率で適用した場合、エージェントコーディングタスクにおいて従来手法と比較して最大+6.1%の性能向上の達成や、全手法中で最高の平均順位を実現している。",
+    "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts"
+  },
+  {
+    "id": "4143de0e-c1c5-81de-9da8-f9b0b91ff1e8",
+    "title": "v0.40.16",
+    "site": "Ollama Blog",
+    "published": "2026-11-09T23:45:36.000Z",
+    "fetched": "2026-11-10T00:04:02.797Z",
+    "summary": "ollama/ollama v0.40.16 リリース\n\n- ollamaのGitHubリポジトリにおいて、バージョン「v0.40.16」が最新のリリースとして公開された。\n- リリース日は2024年11月9日（18:21）で、GitHub Actionsによって自動リリースされた。\n- このリリースには、メインブランチに対して2コミットが含まれている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16"
+  },
+  {
+    "id": "4143de0e-c1c5-81ab-afd5-eb9d23cbfe16",
+    "title": "Make a Robot Arm Feel Weightless with NVIDIA Holoscan 5",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-11-09T19:09:32.000Z",
+    "fetched": "2026-11-10T00:04:12.516Z",
+    "summary": "NVIDIA Holoscan 5を活用したロボットアームの重力補償システムの構築\n\n- NVIDIA Holoscan 5を用いることで、単一のプログラミングモデル上でCPUとGPUのワークロードを処理し、低遅延なロボット制御と高スループットな認識を実現できる。\n- Pinocchioを用いた逆動力学計算やSeeed Studio reBot Armへのトルク指令送信などを行う3つのカスタムオペレーターで構成される重力補償ループを構築し、400Hzで関節状態を読み取る。\n- ホロスカンのパーティション機能や古いサンプルを破棄するキューにより、スレッド間の手渡しを回避し、遅延の蓄積を防ぐ効率的なデータ処理を行う。\n- Nsight Systemsによるプロファイリング結果から、制御パーティションを特定のCPUコアに固定することで、p99.99の遅延をC++で約5倍、Pythonで約9.6倍削減できる。",
+    "url": "https://developer.nvidia.com/blog/make-a-robot-arm-feel-weightless-with-nvidia-holoscan-5/"
+  }
+]
