@@ -1,0 +1,218 @@
+[
+  {
+    "id": "4153de0e-c1c5-81c4-bb9b-e9edf0ff75a9",
+    "title": "OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions",
+    "site": "THE DECODER",
+    "published": "2026-11-10T20:17:00.000Z",
+    "fetched": "2026-11-11T04:48:15.965Z",
+    "summary": "OpenAI、ChatGPTをビジネスディレクトリ化しAIエージェントで顧客対応へ\n\n- OpenAIは、Googleの「MyBusiness」に対抗するベータ機能「Businesses in ChatGPT」を発表した。\n- 企業は「Business Hub」を通じて登録・情報更新を行い、商品フィードの追加や分析データの追跡が可能となる。\n- 米国の適格なEC・オンラインサービス事業者は、ChatGPT内で顧客の質問対応や商品比較を行う「Business Agents」を作成できるほか、Shopifyとの連携も可能である。\n- ユーザーとの会話内容は企業と共有されない仕組みになっており、ChatGPTの週刊アクティブユーザー1.2億人（※記事内記載に基づく）を基盤に、今後対象市場や業界を拡大していく予定である。",
+    "url": "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/"
+  },
+  {
+    "id": "4153de0e-c1c5-81e6-b480-eebbfbc72ac7",
+    "title": "Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes",
+    "site": "THE DECODER",
+    "published": "2026-11-10T19:48:40.000Z",
+    "fetched": "2026-11-11T04:48:28.728Z",
+    "summary": "AnthropicがClaudeをコラボレーション機能やプラグインを備えた本格的なワークスペースへと拡張\n\n- Claude Sheets：AIの支援を受けながら、数式や複数タブを活用したスプレッドシートの作成・編集が可能になった。\n- Claude Whiteboards：チームでのアイデア出しをサポートし、Claudeがその内容を要約する機能を提供する。\n- Claude Data：SnowflakeやSalesforceなどの外部ツールと連携し、ダッシュボードやデータビジュアル化を構築できる。\n- インタラクティブコネクター：AdobeやAtlassianなどのパートナー企業が、ChatGPTのプラグインのようにアプリをClaudeに埋め込めるようになった。\n- その他の機能強化：会議に参加して議事録を作成する「Claude Meetings」がまもなくリリースされるほか、企業向けには監査ログや隔離された仮想マシンなどの高度なセキュリティ制御が提供される。",
+    "url": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/"
+  },
+  {
+    "id": "4153de0e-c1c5-810a-80df-f7d2f964e4e1",
+    "title": "Nvidia's model GR00T 2 watches humans on video, then imagines itself as the robot",
+    "site": "THE DECODER",
+    "published": "2026-11-10T18:41:52.000Z",
+    "fetched": "2026-11-11T04:48:37.139Z",
+    "summary": "Nvidiaの新AIモデル「GR00T 2」が、人間の動画学習を通じてロボットの動作習得を効率化する仕組み\n\n- 従来のロボット訓練に必要な、手間のかかる遠隔操作（テレオペレーション）の労力を大幅に削減する。\n- カメラ画像と言語命令を直接モーターの動きに変換せず、次の動きと近未来の短い動画を同時に予測する「ワールド・アクション・モデル（WAM）」として機能する。\n- 1,000基以上のGB300チップと、頭部にカメラを装着した人間が作業する約40万時間の映像データを用いて訓練されている。\n- 人間がデータグローブ等を用いて実演したデモ動作の記録と、対象ロボットの一般的な動作データを組み合わせることで、効率的に新しいタスクを学習できる。",
+    "url": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/"
+  },
+  {
+    "id": "4153de0e-c1c5-816f-9fe0-d89242d48507",
+    "title": "Gemini 4 Carbon arrives just in time to feel like yesterday's news in the fastest model cycle yet",
+    "site": "THE DECODER",
+    "published": "2026-11-10T18:19:13.000Z",
+    "fetched": "2026-11-11T04:48:44.822Z",
+    "summary": "Googleの新しいAIモデル「Gemini 4 Carbon」は、開発者やビジネス顧客向けのテスト期間を経て一般提供が開始されました。しかし、AIモデルの開発競争が激化する中、他社がより優れた新モデルを発表したことで、早くも新鮮味が薄れつつあります。\n\n- Gemini 4 Carbonは、セキュリティ専門家による2週間テストを経て一般提供が開始された。\n- 複雑なマルチステップコーディング、デバッグ、オープンエンドな科学的研究などの高度なタスク向けに設計されている。\n- 既存の「Gemini 4 Argon」を置き換えるものではなく、補完する位置づけとなっている。\n- CarbonはArgonと同じトークン価格でありながらベンチマークで高いスコアを記録する一方、より深い推論を行うためにより多くのトークンを消費する。\n- Anthropicの「Fable 5.2」などの他社製モデルがすでに登場しており、現在のAIモデル開発サイクルは非常に高速化している。",
+    "url": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/"
+  },
+  {
+    "id": "4153de0e-c1c5-81e3-8c13-c1769469709f",
+    "title": "Google DeepMind's Gemini Robotics 2.5 scores 96 percent sorting metal parts in a Mercedes-Benz assembly pilot",
+    "site": "THE DECODER",
+    "published": "2026-11-10T17:11:10.000Z",
+    "fetched": "2026-11-11T04:48:52.542Z",
+    "summary": "Google DeepMindの「Gemini Robotics 2.5」がメルセデスの工場実証で96%の成功率を記録\n\n- Google DeepMindが新しい視覚・言語・行動モデル（VLA）「Gemini Robotics 2.5」を発表した。\n- メルセデス・ベンツのハンガリーおよびドイツの稼働中の生産ラインにおいて、人型ロボット「Apollo 2」が金属部品の仕分け作業で96%の成功率を記録した。\n- 従来モデルと比較して、タスクの種類に応じて30〜100%高い成功率を達成し、作業速度も20〜30%向上している。\n- 5本指を持つ人型ロボット「Apollo 2」や「Franka Duo」など、多様なタイプのロボットに対応するように設計されている。\n- Google DeepMindは、トレーニング用のシミュレーションエンジンとして言語モデル「Gemini 4 Argon」を活用し、安全性テスト用のオープンソースベンチマークも公開した。",
+    "url": "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/"
+  },
+  {
+    "id": "4153de0e-c1c5-8103-8399-cd9d5ec8b0c1",
+    "title": "Anthropic's Fable 5.2 completes 41 percent of real freelance jobs, up from 2.5 percent a year ago",
+    "site": "THE DECODER",
+    "published": "2026-11-10T14:07:47.000Z",
+    "fetched": "2026-11-11T04:49:00.906Z",
+    "summary": "Anthropic社の最新AIモデル「Fable 5.2」が、実際のフリーランス業務の41%以上を完了できるようになり、AIエージェントの実用性が劇的に向上している。\n\n- Scale LabsとCAISが提供する「リモート・ラボ・インデックス（RLI）」において、Anthropicの「Fable 5.2」が41.3%という高い達成率を記録し、首位を獲得した。\n- RLIは、AIエージェントが実際のフリーランスの仕事を、依頼主が受け入れるレベルの品質でどれだけ完了できるかを測定する指標である。\n- 約1年前のベンチマーク発足時は、当時の最高システム（Manus）でも2.5%にとどまっており、Fable 5.2はその16倍以上の成果を上げている。\n- 今年7月に16%だった旧モデル「Fable 5」や、直近の「Fable 5.1」を大きく引き離し、わずか数ヶ月で飛躍的な進化を遂げた。\n- 2位につけたAnthropicの「Opus 5.5」（21.25%）やOpenAIの「GPT 6 Astra」（20.83%）など他社の競合モデルと比較しても、約2倍の成功率を叩き出している。",
+    "url": "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/"
+  },
+  {
+    "id": "4153de0e-c1c5-8185-ada3-e22089ee58d0",
+    "title": "Eight countries and top AI labs agree to shutdown mechanisms in new Paris declaration",
+    "site": "THE DECODER",
+    "published": "2026-11-10T13:37:16.000Z",
+    "fetched": "2026-11-11T04:49:10.367Z",
+    "summary": "パリ平和フォーラムを前に、8カ国と主要なAI企業などが「AIの安全とセキュリティに関するパリ宣言」に署名し、AIモデルのシャットダウン機構の設置などに合意した。\n\n- フランスのエマニュエル・マクロン大統領の主導のもと、OpenAIやAnthropic、Microsoft、Mistral AIなどのトップや主要国政府の代表らがオンライン会合で宣言に署名した（ドイツは未署名）。\n- 本宣言は、サイバー攻撃や強力なAIシステム制御喪失のリスクを抑制するための政治的な自主コミットメントである。\n- 主な内容は、高性能AIモデルの評価手順の共有、開発者の責任明確化、重大なセキュリティインシデントに関する情報共有の3点に及ぶ。\n- 参加企業は、リスクに比例した独立した監査の支持に加え、自社で管理するAIモデルに対するシャットダウン機構の設置を約束した。\n- 現時点では制裁を伴う法的な拘束力を持つ監視システムではないが、将来的な国際的枠組みの構築に向けた共通基準や協力手順の策定を目指している。",
+    "url": "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/"
+  },
+  {
+    "id": "4153de0e-c1c5-81b2-8977-d2c47cb9d1f8",
+    "title": "Anthropic kicks off IPO roadshow, offering shares at $70 to $78 and targeting a trillion-dollar valuation",
+    "site": "THE DECODER",
+    "published": "2026-11-10T12:13:03.000Z",
+    "fetched": "2026-11-11T04:49:18.224Z",
+    "summary": "Anthropicがナスダック上場に向けたロードショーを開始、1兆ドル規模の評価額を目指す\n\n- Anthropicは、株式公開と第三者割当増資を合わせて最大904億ドルを調達し、評価額1兆200億ドルを目指してナスダックへの上場準備を進めている。\n- 同社はクラスA普通株式8億2,500万株を1株あたり70〜78ドルで発行する予定で、公開株に加えてGoogleやNvidiaなどの主要企業による260億ドルの非公開プレースメントも確保している。\n- 第3四半期の売上高は前期比47%増の約170億ドルとなり純損失を縮小させたものの、成長ペースは前四半期から鈍化している。\n- AmazonやGoogleなどのパートナーとの間で約9,000億ドル規模の計算インフラ投資の契約を抱えており、AIへの過剰投資に対するウォール街の懐疑的な見方が逆風となっている。",
+    "url": "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/"
+  },
+  {
+    "id": "4153de0e-c1c5-8177-b1c6-fb295747f359",
+    "title": "llm-gemini 0.36",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-11-10T20:09:44.000Z",
+    "fetched": "2026-11-11T04:49:26.564Z",
+    "summary": "llm-gemini 0.36のリリースと新モデル「Gemini 4 Carbon」の一般公開\n\n- Googleの最新モデル「Gemini 4 Carbon」が一般公開され、LLM pluginの「llm-gemini 0.36」からアクセス可能になった。\n- 利用料金は、発売時が入力100万トークンあたり2ドル、出力100万トークンあたり10ドルだが、12月1日には倍額に改定される予定である。\n- 思考の深さ（低・中・高）に応じた出力が得られ、デフォルトでは「中」に設定されている。\n- Google Antigravity IDEや/swarm機能を用いたテストでは、Three.jsを使った3Dアニメーションやオープンワールド3Dゲームの構築などの高度な生成能力が確認されている。",
+    "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/"
+  },
+  {
+    "id": "4153de0e-c1c5-81e1-9234-f3ce2d04cc94",
+    "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-11-10T07:28:21.000Z",
+    "fetched": "2026-11-11T04:49:35.791Z",
+    "summary": "Metaが発表した最新の軽量・高効率AIモデル「Muse Ember」は、複雑な推論やエージェントの繰り返し作業（ツール呼び出し、コーディング、長文解析など）に特化している。\n\n- Claude HaikuやGPT Lunaの競合として位置づけられ、短縮プロンプト時の価格は100万入力トークンあたり0.10ドル、出力あたり0.50ドルと同等である。\n- プロンプトが一定の閾値（200kトークン）を超えると価格が変動する仕組みで、競合モデルと比較しても効率的な価格設定となっている。\n- Artificial Analysisの指標においてパレート線上に位置し、同等のコストの中で非常に高いパフォーマンスと効率性を誇る。\n- 6段階の推論レベル（minimalからmaxまで）を備えており、上位モデルである「Muse Wonder」の40倍の価格差があるにもかかわらず、それに匹敵する品質のアウトプットを実現している。",
+    "url": "https://simonwillison.net/2026/Nov/10/muse-ember/"
+  },
+  {
+    "id": "4153de0e-c1c5-8153-b930-cbf6e03f3bd9",
+    "title": "Quoting Prompting Claude Fable 5.2",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-11-10T05:34:14.000Z",
+    "fetched": "2026-11-11T04:49:43.730Z",
+    "summary": "Claude Fable 5.2のプロンプト活用術とコード所有権の重要性\n\n- Claude Fable 5.2は、コードの所有権に関するプロンプトの指示によって出力結果やコードの扱い方が大きく変化する。\n- 所有権を指定しない場合や他者のコードとした場合、既存の構造やコードの重複をそのまま維持して追加する傾向がある。\n- プロンプトで「このコードベースはあなた自身のものです」と指示すると、モデルは構造の改善や重複コードの統合を積極的に行うようになる。\n- Anthropicのテストでは、所有権を明記したプロンプトを使用することで、コードの統合率が約10%未満から約50%へと大幅に向上した。\n- この特性を利用することで、AIにコードベースの構造改善やリファクタリングを効果的に行わせることが可能になる。",
+    "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/"
+  },
+  {
+    "id": "4153de0e-c1c5-8167-a637-e1ea64159c3d",
+    "title": "Yonkers Rises",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-11-10T03:53:04.000Z",
+    "fetched": "2026-11-11T04:49:51.867Z",
+    "summary": "Yonkers Rises\n\n- サイモン・ウィリソン氏が自身のブログで、ニューヨーク市を舞台にしたアニメーション3Dジオラマツール「Yonkers Rises」を紹介している。\n- このツールは、ニューヨーク州ヨンカースの境界線から切り出された巨大なメカが地面から立ち上がり、マンハッタンやブルックリンなどを歩き回る様子を描いたものである。\n- 作者であるウィリソン氏は、AIモデル「Claude Fable 5.2 Medium」を使用し、OpenStreetMapの地図データとThree.jsを活用したアニメーションの作成を指示した。\n- プロンプトに含まれていたモバイルキーボードの入力ミス（átomos）を、AIが正しく「stomps（踏みつける）」と推測して処理したことが特長として挙げられている。",
+    "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/"
+  },
+  {
+    "id": "4153de0e-c1c5-8195-ac4e-e7f2c2837c17",
+    "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+    "site": "Hugging Face Blog",
+    "published": "2026-11-10T00:00:00.000Z",
+    "fetched": "2026-11-11T04:49:59.670Z",
+    "summary": "Hugging Faceの支払いをGoogle Cloudアカウントで一括管理できるようになりました\n\n- Google Cloud Marketplace経由でHugging Faceの利用料金を既存のGoogle Cloudの請求書にまとめられ、新たなベンダー追加の手間やコーポレートクレジットカードの登録が不要になります。\n- チームやエンタープライズのサブスクリプションだけでなく、従量課金制のコンピュート（Jobs、Inference Endpoints、Inference Providers、GPU Spaces、ZeroGPU）や追加ストレージの費用もすべてカバーされます。\n- 設定手順の第一歩として、Google Cloud MarketplaceのHugging Faceページから対象プロジェクトを選んで「Subscribe（登録）」をクリックします。\n- 注文完了後に表示される「Sign up with Hugging Face」からHugging Faceへ移動し、Google Cloudアカウントと紐付けたい組織を選択することで設定が完了します。",
+    "url": "https://huggingface.co/blog/hub-gcp-marketplace"
+  },
+  {
+    "id": "4153de0e-c1c5-8196-bfe9-d8beeb04674d",
+    "title": "Decision Models in Hugging Face",
+    "site": "Hugging Face Blog",
+    "published": "2026-11-10T00:00:00.000Z",
+    "fetched": "2026-11-11T04:50:10.642Z",
+    "summary": "Hugging Faceにおける決定モデル（Decision Models）の概要と活用法\n\n- 大規模言語モデル（LLMs）はテキスト生成に優れているが、顧客サポートの振り分けなど、すべての問題でテキスト生成が必要なわけではない点に着目している。\n- 決定モデルは、テキストを生成する代わりに、利用可能な選択肢を直接評価して確率分布を出力する仕組みを持つ。\n- 従来の分類モデルやゼロショット分類とは異なり、「状態（State）」と「質問（Questions）」を入力することで、高精度かつ高信頼度な判断結果を得られる。\n- Transformersやllama.cppを通じたサービング、Hugging Face Hubでのモデル探索、専用のトレーニングツールなど、エコシステム全体でサポートされている。",
+    "url": "https://huggingface.co/blog/decision"
+  },
+  {
+    "id": "4153de0e-c1c5-8185-8946-cdccb497de70",
+    "title": "Fable 5.2 not only has guardrails against AI acceleration, its capabilities were capped in training too",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-10T10:23:52.000Z",
+    "fetched": "2026-11-11T04:50:18.635Z",
+    "summary": "Fable 5.2：AIの加速化を防ぐガードレール搭載とトレーニング段階での能力制限\n\n- 新型AI「Fable 5.2」は、AI技術の急激な加速化を防ぐためのガードレールが組み込まれている。\n- 単に出力時に対策するだけでなく、トレーニング（学習）の段階から能力が意図的に制限されている点が特徴である。\n- AI開発における安全性や制御可能性を重視した設計アプローチを採用している。\n- 急進的なAI進化に伴うリスクを軽減するための具体的な対策が講じられている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsjfwo/fable_52_not_only_has_guardrails_against_ai/"
+  },
+  {
+    "id": "4153de0e-c1c5-8145-b86f-d4e955280361",
+    "title": "MiniMax H3-Image Released, an Open-Weight Image Model built on H3",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-10T14:18:08.000Z",
+    "fetched": "2026-11-11T04:50:26.288Z",
+    "summary": "MiniMax H3-Image: H3基盤のオープンウェイト画像生成モデルの登場\n\n- ミニマックス（MiniMax）社が、最新の画像生成モデル「H3-Image」をオープンウェイト形式で一般公開した。\n- 本モデルは、同社の大規模言語・マルチモーダルモデルである「H3」アーキテクチャを基盤に構築されている。\n- 高い表現力と精度を持つオープンウェイトの画像モデルとして、AI研究者や開発者によるカスタマイズや応用利用が期待されている。\n- 画像生成AIの分野において、オープンソース・オープンウェイトの選択肢を広げ、コミュニティの発展に寄与するリリースとなっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xso1ie/minimax_h3image_released_an_openweight_image/"
+  },
+  {
+    "id": "4153de0e-c1c5-810d-a777-fdb50d0a1778",
+    "title": "Apple has new Mac app coming to make running local AI models easy",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-10T21:30:36.000Z",
+    "fetched": "2026-11-11T04:50:34.169Z",
+    "summary": "Appleがローカル環境でのAIモデルの実行を容易にする新しいMac向けアプリを開発中であるというニュースです。このアプリの登場により、開発者や一般ユーザーが複雑な設定を必要とせず、手元のMac上で手軽にAIモデルを動かせるようになると期待されています。\n\n- Appleがローカル環境でAIモデルを簡単に実行できる新しいMac用アプリを開発中である\n- 複雑な環境構築や専門的な知識を不要にし、ユーザーが手軽にAIを利用できるようにする狙いがある\n- 手元のデバイス上でAIを処理するため、クラウド依存のサービスと比較してプライバシーやセキュリティ面でのメリットが期待される\n- Macの強力なハードウェア性能を最大限に活用し、ローカルでのスムーズなAI処理を実現する設計となっている\n- AI機能の開発者や、ローカルAIの活用に興味を持つMacユーザーにとって、利便性を大きく向上させるツールになる",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xszbe7/apple_has_new_mac_app_coming_to_make_running/"
+  },
+  {
+    "id": "4153de0e-c1c5-81c5-bb17-e3bb6a1393bf",
+    "title": "The Surprising Effectiveness of Deleting Weights in LLM Post-Training",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-10T19:44:57.000Z",
+    "fetched": "2026-11-11T04:50:42.352Z",
+    "summary": "大規模言語モデル（LLM）のポストトレーニングにおいて、あえて重みを削除することが驚くほど高い効果をもたらすことが示されています。この手法は、モデルの効率化や特定性能の向上において従来の常識を覆すアプローチとして注目を集めています。\n\n- 大規模言語モデルのポストトレーニングにおいて、特定の重みを削除する手法が驚くべき有効性を示している。\n- 不要な重みを削ることで、モデルの軽量化だけでなく、パフォーマンスの維持や向上を同時に実現できる点が特徴である。\n- 従来の「モデルを大きくする・加算する」というアプローチとは異なり、「引き算」によって最適化を図る逆転の発想に基づいている。\n- 計算コストやメモリ使用量を削減しつつ、高い精度を維持できるため、今後のLLM開発において重要な技術となる可能性を秘めている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xswmb7/the_surprising_effectiveness_of_deleting_weights/"
+  },
+  {
+    "id": "4153de0e-c1c5-816b-a103-f2db31cfe8c1",
+    "title": "Nobody wondering why the US takes Nvidia CEO affair public?",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-10T12:23:33.000Z",
+    "fetched": "2026-11-11T04:50:50.421Z",
+    "summary": "NvidiaのCEOの私生活に関する報道をアメリカ政府が公開した背景について、その意図や疑問視される理由について考察されている。\n\n- アメリカ政府がNvidiaのCEOの私的なスキャンダルをあえて公にしたことに対し、世間で大きな疑問と憶測を呼んでいる。\n- AI半導体市場で圧倒的な覇権を握るNvidiaおよびそのトップに対する、政治的・規制的なプレッシャーの一環である可能性がある。\n- 個人のスキャンダルを公表するタイミングが、米中関係や半導体規制などの国家安全保障上の動きと関連しているのではないかと指摘されている。\n- メディアや市場関係者の間では、この情報の公開が同社の企業価値や今後の事業展開にどのような影響を与えるのか議論が交わされている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsljn6/nobody_wondering_why_the_us_takes_nvidia_ceo/"
+  },
+  {
+    "id": "4153de0e-c1c5-813b-ad29-f07cc0b7750f",
+    "title": "v0.40.17",
+    "site": "Ollama Blog",
+    "published": "2026-11-10T22:25:00.000Z",
+    "fetched": "2026-11-11T04:50:58.663Z",
+    "summary": "Ollama v0.40.17のリリース情報\n\n- AIプラットフォーム「Ollama」のGitHubリポジトリにおいて、バージョン「v0.40.17」がリリースされた。\n- リリース日は2024年11月10日の22時25分で、GitHub Actionsによって自動リリースされた。\n- 同時に、事前リリース版である「v0.40.17-rc0」なども確認されている。\n- メインブランチに対して直近のコミット（コミットハッシュ: 6140670）が含まれている。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0"
+  },
+  {
+    "id": "4153de0e-c1c5-8195-a0b9-d0a35baa1b4e",
+    "title": "Running AV Reasoning Models Within Onboard Compute and Latency Limits",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-11-10T16:00:00.000Z",
+    "fetched": "2026-11-11T04:51:06.442Z",
+    "summary": "NVIDIA、車載システム向けリアルタイム推論を実現する「Alpamayo 2 Edge」を発表\n\n- NVIDIA Alpamayo 2 Edgeは、NVIDIA DRIVE AGX Thor上でのリアルタイム動作を想定して設計された、2Bパラメータのアダプティブ推論ビジョン・言語・行動（VLA）モデルである。\n- 周囲のカメラ映像やナビゲーション入力に基づき、必要な時のみ「因果関係の連鎖（Chain-of-Causation）」による推論を行い、拡散行動エキスパートを用いて走行軌跡を生成する。\n- AlpaGymを用いた閉ループ強化学習により、従来比で48.9%の運転性能向上の実現が可能である。\n- AlpaJudgeを活用することで、人間と同等の基準に較正された推論品質の評価や、ポストトレーニングの報酬としての活用ができる。\n- TensorRTやDFlash2を用いた推論最適化により、DRIVE AGX Thor上で160〜190ミリ秒のピクセル・ツー・トラジェクトリ遅延を実現する。",
+    "url": "https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits/"
+  },
+  {
+    "id": "4153de0e-c1c5-817a-a04e-ef5278082aa5",
+    "title": "Agent Substrate: Advancing Kubernetes for Agents at Scale",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-11-10T15:00:00.000Z",
+    "fetched": "2026-11-11T04:51:14.580Z",
+    "summary": "Agent Substrate: 大規模なAIエージェント向けKubernetesの進化\n\n- オープンソースの「Agent Substrate」は、限られたKubernetesワーカーPod上で多数のエージェントセッションを多重化し、アイドル状態のセッションをメモリやファイルシステムの状態ごとチェックポイント保存・復元することで効率的な実行を実現します。\n- コーディングアシスタント、強化学習のポストトレーニング、短命なGPUサンドボックスという3種類の多様なワークロードに対応し、リクエストのキューイングやマイクロVM向けリソース制限などのアップストリーム貢献を行っています。\n- NVIDIA Dynamoとの連携により、セッションIDやKVキャッシュの位置、ツール呼び出し境界を活用して推論を効率化し、推論の待ち時間に応じてエージェントのサスペンドやレジュームを動的に制御します。\n- KAI SchedulerによりSubstrateのワーカーPodをGPUトレーナーや推論サーバーと適切に配置し、NVIDIA DSX AIファクトリープラットフォーム上で独立したCNCFサンドボックスプロジェクトとして動作します。\n- Kubernetesの動的リソース割当を利用したベンダーニュートラルなGPU状態の保存・復元機能を備え、大規模環境におけるエージェントの実行、推論、共有クラスターリソースの協調管理を高度化します。",
+    "url": "https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale/"
+  },
+  {
+    "id": "4153de0e-c1c5-81c8-840a-ca633a3df1f2",
+    "title": "Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-11-10T15:00:00.000Z",
+    "fetched": "2026-11-11T04:51:22.348Z",
+    "summary": "NVIDIA Snapshot：数秒でGPUワークロードを開始・復元する新技術\n\n- NVIDIA Snapshotは、Kubernetes上のGPUワークロード向けに開発されたオープンソースのチェックポイントおよび復元システムである。\n- CPUとGPUの初期化済みメモリ状態を保存し、推論レプリカを数秒（3.6〜42.7秒）で起動・復元することで、数分かかるコールドスタートと比較して8倍から36倍高速化する。\n- テンソル並列、データ・エキスパート並列、デコードコンテキスト並列を活用したマルチGPUワークロードをサポートし、最大1TB規模のチェックポイント処理に対応する。\n- チェックポイントの作成には15秒から5.5分かかるものの、作成と復元を合わせた合計時間は、すべてのテスト構成において1回のコールドスタートよりも短縮される。\n- NVIDIA B200 GPUとVAST NFSストレージを使用したベンチマークでは、GPU状態の復元が18〜29秒、CRIUベースのCPUプロセス復元が4.2〜10.8秒で完了することが示されている。",
+    "url": "https://developer.nvidia.com/blog/start-and-restore-gpu-workloads-in-seconds-with-nvidia-snapshot/"
+  },
+  {
+    "id": "4153de0e-c1c5-81a5-87c8-c75152fa1581",
+    "title": "Manage Kubernetes Clusters for GPU Infrastructure with NVIDIA Kubernetes Engine",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-11-10T15:00:00.000Z",
+    "fetched": "2026-11-11T04:51:30.445Z",
+    "summary": "NVIDIA、GPUインフラ向けのマネージドKubernetes構築・運用に向けた2つのオープンソースプロジェクトを発表\n\n- NVIDIAは、GPUインフラ上でマネージドKubernetesサービスを構築・運用するための新しいオープンソースプロジェクトとして、「NVIDIA Kubernetes Engine（NVKE）」と「NVIDIA Kubernetes Recipes（NVKR）」を発表し、パブリックプレビューとして公開した。\n- NVKRはバージョン固定されたソースから再現性の高いノードイメージやコンテナイメージ、パッケージを構築し、NVKEはそれらの成果物を活用してREST APIやコントローラー経由でKubernetesクラスターのプロビジョニングと管理を行う。\n- AIファクトリー事業者は機械イメージやクラスターリリースなどを含むリリースセットを提供し、利用者はOSイメージやcloud-initを直接扱うことなく検証済みのKubernetesバージョンを選択できる。\n- FirmusやSK TelecomなどのNVIDIAクラウドパートナーがAIファクトリーへNVKEとNVKRの統合を進めているほか、 MirantisやRafayなどのパートナーもマネージドKubernetesやネットワーク自動化への組み込みを行っている。\n- 両プロジェクトはApache 2.0ライセンスの下で公開されており、APIや挙動が変更される可能性があるため、現時点では本番ワークロードでの利用は推奨されていない。",
+    "url": "https://developer.nvidia.com/blog/manage-kubernetes-clusters-for-gpu-infrastructure-with-nvidia-kubernetes-engine/"
+  }
+]
