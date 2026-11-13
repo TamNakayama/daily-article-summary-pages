@@ -54,33 +54,6 @@
     "url": "https://the-decoder.com/stripping-safety-guardrails-from-open-weight-ai-models-is-now-a-turnkey-commercial-service/"
   },
   {
-    "id": "3d43de0e-c1c5-8151-b8eb-cf85ef60d42b",
-    "title": "Artificial Analysis overhauls its Intelligence Index after GPT-6 Astra scoring drew skepticism",
-    "site": "THE DECODER",
-    "published": "2026-09-05T18:21:02.000Z",
-    "fetched": "2026-09-07T09:31:44.744Z",
-    "summary": "人工分析、GPT-6 Astraの評価の混乱を受け知能指数を大幅改訂\n\nAIの性能評価を行うArtificial Analysisが、GPT-6 Astraなど最新モデルのスコアリングに懐疑的な声が高まったことを受け、Intelligence Indexのバージョン4.2を刷新しました。改訂の結果、GPT-6 Astraのスコアが前モデルから向上したほか、評価の透明性と実用性を高めるための複数の大幅な変更が加えられました。\n\n- **GPT-6 Astraのスコア向上:** 改定により、GPT-6 Astraは前バージョンから4ポイントのスコアアップを達成し、Claude Fable 5.1に次ぐ2位の座を維持しました。\n- **ランキング構造の明確化:** Claude Fable 5.1が依然としてトップを占める一方、Astraが2位、Metaが3位という明確なリーダーボードが確立されました。\n- **新しいベンチマークの導入:** 実世界の知識労働を測定する「AA-Briefcase」や、PDF文書分析のための「GDP.pdf」といった、より実用的な評価項目が追加されました。\n- **評価の難易度向上と安定性の確保:** 以前のベンチマーク（GPQA-Diamond）が廃止され、特にPrivate test dataの重みが40%に引き上げられたことで、モデルの性能評価がより厳格かつ困難になりました。\n- **効率性の評価:** Astraは他のフロンティアモデルと比較して少ないトークン数でタスクを完了できる点が高く評価されており、コスト効率の観点からも高い注目を集めています。",
-    "url": "https://the-decoder.com/artificial-analysis-overhauls-its-intelligence-index-after-gpt-6-astra-scoring-drew-skepticism/"
-  },
-  {
-    "id": "3d43de0e-c1c5-8168-83d7-e6b93000f57c",
-    "title": "Introducing GPT-6 Astra for developers",
-    "site": "Simon Willison’s Weblog (llms)",
-    "published": "2026-09-05T23:27:48.000Z",
-    "fetched": "2026-09-07T09:32:19.755Z",
-    "summary": "GPT-6 Astraの開発者向け機能紹介\n\nGPT-6 Astraは、全体的な精度の向上と、高度なマルチモーダルな出力を実現した最新のAIモデルであることが示されています。特に、ユーザーの意図を深く理解し、複雑なビジュアルコンテンツの生成において目覚ましい進歩を遂げています。\n\n- ユーザーのプロンプトに対する理解度が向上し、より的確で深いレベルで指示を解釈する能力が強化されています。\n- 全体的に注意深さが向上しており、詳細な描写や複雑な要求に対しても、高い精度で対応できます。\n- アウトプットの品質が飛躍的に向上し、単なるテキスト生成を超えた、洗練された高度な形式の出力が可能になっています。\n- 特に3Dモデルの構築能力に優れており、庭園、都市景観、船台、動物など、多岐にわたるジャンルでの高品質なレンダリングが可能です。\n- このモデルの登場は、開発者がより複雑で創造的なアプリケーションを構築するための強力な基盤を提供します。",
-    "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/"
-  },
-  {
-    "id": "3d43de0e-c1c5-818b-8cec-f3fb81f92b8a",
-    "title": "Using Blender with coding agents on macOS",
-    "site": "Simon Willison’s Weblog (llms)",
-    "published": "2026-09-05T15:51:09.000Z",
-    "fetched": "2026-09-07T09:32:58.133Z",
-    "summary": "コーディングエージェントによるmacOS環境でのBlender活用\n- 近年の最先端のLLM（大規模言語モデル）は、3DモデリングソフトウェアであるBlenderを高いレベルで使用できるようになったことが示されています。\n- エージェントを利用することで、単に画像を生成するだけでなく、編集可能な`.blend`ファイルや、一連の画像から動画をレンダリングする能力を持ちます。\n- macOS環境において、Blenderアプリケーションをインストールし、チャットGPT Codexなどのコーディングエージェントに指示を出すだけで具体的な操作が可能になります。\n- 実際のワークフローでは、単発のプロンプトだけでなく、「背景を追加」「より良くする」といった段階的な指示（ファインチューニング）を続けることで、より洗練されたクリエイティブな結果を得ることができます。\n- この事例は、AIが単なるテキスト生成に留まらず、実際の専門的なソフトウェア（3Dレンダリング、動画編集など）を操作し、複合的な成果物を生み出す「エージェント機能」の可能性を示しています。",
-    "url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/"
-  },
-  {
     "id": "3d43de0e-c1c5-81e7-a43a-cbaaae638cf6",
     "title": "8 uncensored Qwen 3.8 27B variants, one base, 167 GPU hours - Abliterlitics",
     "site": "r/LocalLLaMA (Reddit)",
@@ -97,14 +70,5 @@
     "fetched": "2026-09-07T09:34:15.256Z",
     "summary": "Qwen 3.8 27Bを用いたローカル環境での「Vibeblending」実現に関する技術解説とコミュニティでの議論のまとめです。\n\n- **目的と概要:** 本記事は、大規模言語モデル（LLM）の強力な機能である「Vibeblending（雰囲気やスタイルを混ぜ合わせる技術）」を、クラウドに依存せずローカル環境（ローカルGPUなど）で実行する具体的な方法論を提示しています。\n- **使用モデルと環境:** 具体的かつ高性能なQwen 3.8 27Bモデルを採用することで、高い処理能力を維持しつつ、データプライバシーの確保やネットワーク接続に依存しない運用を目指しています。\n- **Vibeblendingの実現:** この技術は、単なる文章生成に留まらず、複数の異なるトーンやスタイル、あるいは特定の「雰囲気（Vibe）」を意図的にブレンドし、独自性の高いコンテンツを創出することを可能にします。\n- **ローカル運用上の利点:** クラウドサービスを利用する際の制約（コスト、速度、プライバシー）を回避できる点が最大のメリットであり、ユーザーに高い自由度とセキュリティを提供します。\n\n要するに、強力なLLMを自宅やプライベートな環境で動かすことで、高度なクリエイティブな文章生成プロセスを再現する技術的進展について、コミュニティが議論を交わしているものです。",
     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8rxwg/vibeblending_locally_with_qwen_38_27b/"
-  },
-  {
-    "id": "3d43de0e-c1c5-8185-8612-c3cea3d23fdc",
-    "title": "v0.34.0",
-    "site": "Ollama Blog",
-    "published": "2026-09-05T23:59:41.000Z",
-    "fetched": "2026-09-07T09:34:55.697Z",
-    "summary": "Ollama v0.34.0のリリースについて\n- Ollamaがメジャーバージョンv0.34.0のリリースを実施しました。これは、ローカル環境での大規模言語モデル（LLM）の運用を継続的に進化させるためのアップデートです。\n- 本バージョンでは、安定性と機能性の向上に重点が置かれており、ユーザーはより効率的かつ安定したモデル管理と実行が期待できます。\n- GitHubの活動状況からもわかるように、Ollamaは活発なコミュニティによって支えられており、多くのフォークやスターを獲得するなど、LLMデプロイメントツールとして高い利用実績を持っています。\n- 新しいリリース情報が公開されたため、ユーザーは最新の変更点を確認し、お使いの環境でのアップデートを検討することが推奨されます。",
-    "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc1"
   }
 ]
