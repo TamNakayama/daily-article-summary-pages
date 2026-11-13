@@ -36,33 +36,6 @@
     "url": "https://the-decoder.com/apple-sues-openai-for-allegedly-running-a-coordinated-campaign-to-steal-trade-secrets-through-poached-employees/"
   },
   {
-    "id": "39b3de0e-c1c5-8144-8a84-cefb47f0bc5a",
-    "title": "OpenAI's GPT-5.6 Sol autonomously post-trained the smaller Luna model with a \"fairly underspecified prompt\"",
-    "site": "THE DECODER",
-    "published": "2026-07-10T21:12:47.000Z",
-    "fetched": "2026-07-12T02:46:06.000Z",
-    "summary": "タイトル：OpenAIのGPT-5.6 Solが小型モデルを自律的に事後学習\n\n・新開発された「GPT-5.6 Sol」は、非常に簡略化されたプロンプト（指示）から、より小さなモデルである「Luna」の最適化に向けたトレーニング構成の特定、GPUの選別、スクリプトの実行といった一連のプロセスを自律的に遂行した。\n・独自のベンチマークである再帰的自己改善（RSI）において、前世代のGPT-5.5よりも16.2ポイント高いスコアを記録し、システムの進化が証明された。\n・実際の運用では、既存の設定を活用しつつも「Luna」向けに最適化と実行を行うことで、通常であれば研究員数名で2週間以上要する作業を劇的に短縮した。\n・この成果は、AIが自らの開発プロセスやトレーニングを加速させるための技術として、これまでのモデルを凌駕する大きな進歩と評価されている。",
-    "url": "https://the-decoder.com/openais-gpt-5-6-sol-autonomously-post-trained-the-smaller-luna-model-with-a-fairly-underspecified-prompt/"
-  },
-  {
-    "id": "39b3de0e-c1c5-8166-b074-d883d4851fe6",
-    "title": "OpenAI staffer maps out which of GPT-5.6 Sol's five reasoning levels fits which task complexity",
-    "site": "THE DECODER",
-    "published": "2026-07-10T17:52:06.000Z",
-    "fetched": "2026-07-12T02:48:15.000Z",
-    "summary": "タイトル：GPT-5.6 Solの推論レベルとタスクの複雑さに関する最適な使い分け\n\nOpenAIのスタッフが、新モデル「GPT-5.6 Sol」における複数の推論レベルを、処理するタスクの難易度に応じてどのように選択すべきかの指針を明らかにしました。\n\n・**タスクに応じた適切なレベル選択**: 「Light」と「Low」は迅速な対応が必要な単純なタスク、「Medium」は計画や分析、「High」および「xhigh」は複雑で多段階の工程や厳密な検証が必要なタスクに最適です。\n・**高度な機能（Max/Ultra）の特長**: 「Max」は単一の問題に対してより多くの時間をかけて処理する際に使用し、「Ultra」は複数のサブエージェントを並列で動かし、複雑なタスクを分割して同時に処理する場合に使用します。\n・**リソースとコストの最適化**: 高い推論レベルほどトークン消費量と処理時間が増大するため、まずは低いレベルから開始し、必要に応じて段階的にスケールアップする手法が推奨されています。\n・**新旧モデルからの移行指針**: GPT-5.5から乗り換えるユーザーに対しては、同様のタスクにおいて通常よりも一段階低い推論レベルを選択することが推奨されています。",
-    "url": "https://the-decoder.com/openai-staffer-maps-out-which-of-gpt-5-6-sols-five-reasoning-levels-fits-which-task-complexity/"
-  },
-  {
-    "id": "39b3de0e-c1c5-8126-9900-dd5fe0a86c0d",
-    "title": "Tencent moves to buy majority stake in Manus after Beijing forced Meta to unwind its $2 billion deal",
-    "site": "THE DECODER",
-    "published": "2026-07-10T16:48:05.000Z",
-    "fetched": "2026-07-12T02:50:04.000Z",
-    "summary": "タイトル：テンセント、Metaの買収断念を受けAI企業「Manus」への多数派株式取得に向け交渉を開始\n\n・中国政府がMetaによる約20億ドルの買収を投資ルール違反として阻止したことを受け、中国のテック大手テンセントが同社（Manus）の過半数株式を取得するための交渉を開始しました。\n・テンセントは、自社のAI戦略、特にWeChatへのAIエージェント統合計画とManusの技術に高い相乗効果を見出しており、Metaとの取引時と同じ約20億ドルの評価額での合意を目指しています。\n・Manusはシンガポールを拠点とするAIスタートアップであり、直近の年間売上高は約5億ドルに達しています。交渉成立後も独立した運営体制を維持する計画です。\n・今回の事態は米中間の深刻なAI技術競争の影で起きており、高度なAI技術が「サイバー核兵器」と同等の戦略的価値を持つと見なされる中で、中国政府による厳格な規制が行われた背景があります。",
-    "url": "https://the-decoder.com/tencent-moves-to-buy-majority-stake-in-manus-after-beijing-forced-meta-to-unwind-its-2-billion-deal/"
-  },
-  {
     "id": "39b3de0e-c1c5-81d3-b5ca-e5ab9f83bc17",
     "title": "Qwen3.6 35B-A3B (Q8_0, no KV quant) single prompt in opencode: \"Create a beautiful, relaxing flight simulator in a single html file with mountains, clouds, and endless procedural terrain\"",
     "site": "r/LocalLLaMA (Reddit)",
