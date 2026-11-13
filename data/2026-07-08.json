@@ -45,15 +45,6 @@
     "url": "https://the-decoder.com/openais-gpt-5-6-launches-thursday-after-a-delay-forced-by-the-u-s-government/"
   },
   {
-    "id": "3983de0e-c1c5-81f3-ad53-e906a3e9f8cd",
-    "title": "sqlite-utils 4.0, now with database schema migrations",
-    "site": "Simon Willison’s Weblog (llms)",
-    "published": "2026-07-07T19:32:57.000Z",
-    "fetched": "2026-07-09T05:25:49.000Z",
-    "summary": "タイトル：sqlite-utils 4.0 リリース：スキーママイグレーション機能の統合\n\n・**メジャーアップデートによる主要な新機能**: sqlite-utils 4.0では、2020年以来の大きな更新として、「データベースのスキーママイグレーション」「ネストされたトランザクション（db.atomic()メソッド）」「複合外部キーへの対応」の3つの重要な新機能が導入されました。\n・**Pythonによる宣言的な移行管理**: Pythonライブラリを活用することで、テーブルの作成やカラムの追加、型の変更といった一連のデータベース構造の変化を定義する「マイグレーションファイル」を作成し、順次適用できるようになります。\n・**高度な table.transform() メソッドの実装**: SQLite標準のALTER TABLE文では対応が難しい複雑なスキーマ変更を可能にするため、`table.transform()`が提供されます。これは一時テーブルへのデータコピーと入れ替えを行う手法を自動で処理します。\n・**マイグレーション状況の自動追跡**: システムは内部的に専用の管理用テーブル（_sqlite_migrations）を使用しており、どのマイグレーションが適用済みかを正確に記録し、データベースの一貫性を保ちます。",
-    "url": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-tag"
-  },
-  {
     "id": "3983de0e-c1c5-8136-bf2a-fbbc4177169a",
     "title": "Native-speed vLLM transformers modeling backend",
     "site": "Hugging Face Blog",
@@ -61,24 +52,6 @@
     "fetched": "2026-07-09T05:27:20.000Z",
     "summary": "タイトル：vLLMにおけるtransformersバックエンドのネイティブ同等性能への進化\n\n・**高い互換性と性能の両立**: Hugging Faceの「transformers」ライブラリによる実装をそのまま活用しながら、vLLM独自の高度な最適化技術（連続バッチ処理やカスタムアテンションカーネルなど）を享受できるようになりました。\n・**ネイティブ実装に匹敵するスループット**: Qwen3シリーズの異なる規模・構造を持つモデルを用いた検証において、transformersバックエンドは手書きのネイティブ実装と同等、あるいはそれを上回る性能を記録しました。\n・**開発コストの大幅な削減**: モデル開発者は、独自のコードを個別のフレームワークへ移植する手間をかけることなく、Hugging Face上の既存モデルを高いパフォーマンスで提供できるようになります。\n・**シンプルな導入方法**: 推論実行時に`--model-impl transformers`というフラグを追加するだけで有効化され、従来の並列処理設定などを変更することなく高速な推論環境を利用できます。",
     "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend"
-  },
-  {
-    "id": "3983de0e-c1c5-819c-af75-c78a33e922d9",
-    "title": "From Hugging Face to Amazon SageMaker Studio in one click",
-    "site": "Hugging Face Blog",
-    "published": "2026-07-07T21:15:33.000Z",
-    "fetched": "2026-07-09T05:28:53.000Z",
-    "summary": "タイトル：Hugging FaceからAmazon SageMaker Studioへのワンクリック連携\n\nHugging FaceとAmazon SageMaker AIの統合が進み、ユーザーはHugging Face上で見つけたモデルをワンクリックでSageMaker Studioへ取り込み、即座に実験やデプロยイを開始できるようになります。この新機能により、開発者は複雑なインフラ設定や権限管理の手間をスキップし、モデルの発見から実用的な環境への展開までをスムーズに行えるようになります。\n\n重要なポイント：\n・Hugging FaceのモデルページからSageMaker Studioへ直接遷移する「ディープリンク」機能の導入\n・選択したモデルがあらかじめロードされ、適切な権限や設定済みの環境が自動的に用意される仕組み\n・従来必要だったAWSコンソールでの複数の手順（ドメイン作成、IAM権限の設定、GPUクォータの確認など）を大幅に削減\n・「Customize」または「Deploy」ボタンの選択により、開発者の思考を妨げないスムーズなワークフローを実現\n・オープンモデルの利便性と、企業が求めるコントロールされたクラウド環境の両立を促進",
-    "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio"
-  },
-  {
-    "id": "3983de0e-c1c5-811c-b58c-dbddc103248c",
-    "title": "Hugging Face Models on Foundry Managed Compute",
-    "site": "Hugging Face Blog",
-    "published": "2026-07-07T15:20:06.000Z",
-    "fetched": "2026-07-09T05:30:24.000Z",
-    "summary": "タイトル：Hugging FaceモデルのFoundryマネージド・コンピューターへの展開\n\n・**Hugging Faceとの連携と利便性**: Hugging Faceのオープンウェイトモデルを厳選したカタログとして提供し、Azure上でワンクリックでデプロイできる環境を実現。\n・**企業レベルの高度な管理機能**: 統合されたプラットフォームにより、すべてのモデルに対して一貫したセキュリティ、ガバンス、監視（モニタリング）、および請求管理を提供。\n・**運用負荷を抑えるインフラ構成**: モデルのウェイトは事前にAzureへ配置され、ランタイムはMicrosoftによって構築・スキャンされるため、迅速かつ安全な導入が可能。\n・**包括的な開発エコシステム**: マルチエージェントのオーケストレーション、ガードレール機能、統合SDKなどを通じて、企業が高度なAIアプリケーションを構築・運用するためのツール群を提供。",
-    "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute"
   },
   {
     "id": "3983de0e-c1c5-8110-9fac-e633190f457d",
