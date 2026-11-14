@@ -1,0 +1,83 @@
+[
+  {
+    "id": "4183de0e-c1c5-8188-b1ef-dc687b685679",
+    "title": "Claude Meetings lets Anthropic's AI join your video calls",
+    "site": "THE DECODER",
+    "published": "2026-11-12T20:26:50.000Z",
+    "fetched": "2026-11-14T00:01:07.965Z",
+    "summary": "Anthropic社がビデオ通話にAIを参加させる新機能「Claude Meetings」を発表\n\n- Claude Meetingsは、Anthropic社のAI「Claude」がビデオ通話に可視化された参加者として加わり、質問への回答、文書やホワイトボードの作成、議事録やアクションアイテムの記録を行う機能である。\n- 通話中はデフォルトでテキスト形式で応答し、許可を与えれば接続されたツールにアクセスすることが可能で、終了後にはすべてのノートやトランスクリプト、生成ドキュメントがclaude.aiの専用ページに保存される。\n- プライバシー保護のため、外部参加者のいる通話にはデフォルトで参加しない仕様になっており、セキュリティに配慮されている。\n- 現在はTeamおよびEnterpriseプラン向けのベータ版として提供されており、対応プラットフォームはGoogle Meetのみだが、今後他プラットフォームへの対応も予定されている。\n- HIPAA（医療保険の相互運用性と責任に関する法律）や顧客管理型暗号化を設定している組織では、現時点でこの機能を利用することはできない。",
+    "url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/"
+  },
+  {
+    "id": "4183de0e-c1c5-81ed-a488-c757255a0474",
+    "title": "llm-gemini 0.37",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-11-12T22:55:19.000Z",
+    "fetched": "2026-11-14T00:01:15.020Z",
+    "summary": "Gemini 4ファミリーの新モデル「Hydrogen」の登場に伴う、「llm-gemini 0.37」のリリースとGoogleの複雑な価格体系について報じた記事です。\n\n- GoogleがGemini 4ファミリーの最安モデル「Gemini 4 Hydrogen」をリリースした。\n- CarbonとArgonは同価格だが、Argonはより少ないトークンで応答する特長があり、両モデルは12月1日に価格が倍増する予定である。\n- Hydrogenは競合の他社廉価モデルと比較して割高だが、12月1日以降は75%オフとなり価格設定の意味合いが変わる。\n- Hydrogenはコーディングなどの日常的な作業向けであり、新しい無料枠モデルおよびGoogle検索のAI機能の動力源となる。",
+    "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/"
+  },
+  {
+    "id": "4183de0e-c1c5-8177-95aa-dad9a34a9d5b",
+    "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+    "site": "Hugging Face Blog",
+    "published": "2026-11-13T14:05:22.000Z",
+    "fetched": "2026-11-14T00:01:22.048Z",
+    "summary": "llama.cpp v1.0.0：ローカルAIエコシステムのためのより強固な基盤\n\n- llama.cppおよびggmlのバージョン1.0.0がリリースされ、ライブラリの安定性と柔軟性が向上した。\n- 消費者向けPCからエンタープライズサーバーまで幅広いハードウェアで、マルチモーダルLLMの実行を可能にする軽量かつ汎用性の高いプラットフォーム。\n- 今後はセマンティックバージョニングを採用し、パブリックC APIに互換性のない変更がある場合はメジャーバージョンを更新する方針。\n- リリースには「llama.cpp v1.0.0（libllama）」と「ggml v1.0.0（libggml）」が含まれる。\n- Linux、macOS、Windows、Android、iOS向けのプレリリース成果物やDockerなど、多様な配布チャネルの拡大を目指している。",
+    "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+  },
+  {
+    "id": "4183de0e-c1c5-8188-9fd9-c86a0fa56e08",
+    "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+    "site": "Hugging Face Blog",
+    "published": "2026-11-12T19:07:35.000Z",
+    "fetched": "2026-11-14T00:01:29.436Z",
+    "summary": "LLMON：LLM向けに開発されたネイティブマークアップ言語「Granite 4.1」の3Bおよび8Bモデルを発表\n\n- LLMON（LLM Object Notation）は、LLMへ構造や意味を明示的に伝えるために開発されたLLMネイティブのマークアップ言語であり、従来のJSONなどが抱えるコンテキスト理解の曖昧さを解消する。\n- 特殊なトークンデリミタで囲まれた意味のあるタグや一意のIDを使用することで、プログラミング言語のように指示とデータペイロードを正確に結びつけることが可能になる。\n- ユーザーデータに隠された間接的なプロンプトインジェクション攻撃に対し、指示とデータを明確に分離することで高い耐性を発揮する。\n- IBMのGranite 4.1ベースモデルを微調整した実験的なプレビュー版として、「granite-4.1-3b-LLMON-preview」と「granite-4.1-8b-LLMON-preview」の2モデルがリリースされた。\n- ワークフローの例やテンプレート、LLMONを扱うためのツールキットが含まれるGitHubリポジトリも同時に公開されている。",
+    "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
+  },
+  {
+    "id": "4183de0e-c1c5-81cb-891e-ccd3afa295cb",
+    "title": "Stories coming out about Jensen",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-13T01:58:53.000Z",
+    "fetched": "2026-11-14T00:01:36.558Z",
+    "summary": "ジェンセンに関する様々な証言やエピソードの浮上\n\n- ジェンセンに関する新しいストーリーやエピソードが次々と表面化している。\n- これまで知られていなかった彼の私生活や過去の経験に関する情報が含まれている。\n- 関係者や情報筋からの証言をもとに、彼の人物像に新たな光が当てられている。\n- 公表された内容について、ファンや業界関係者の間で大きな関心を集めている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuvexw/stories_coming_out_about_jensen/"
+  },
+  {
+    "id": "4183de0e-c1c5-818f-8c0f-d150d0511eef",
+    "title": "‘Bring Back THE Boss’: Nvidia Employees Petition for Jensen Huang’s Return",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-13T04:03:28.000Z",
+    "fetched": "2026-11-14T00:01:44.131Z",
+    "summary": "NVIDIAの従業員がジェンスン・フアン氏の完全なオフィス復帰を求めて署名運動を開始した\n\n- NVIDIAの従業員たちが、最高経営責任者（CEO）であるジェンスン・フアン氏に対し、完全なオフィス勤務への復帰を求める署名活動を行った。\n- リモートワークが普及する中でも、同社内では対面によるコミュニケーションや強いリーダーシップが企業文化の維持に不可欠であると考える社員が多いことが背景にある。\n- フアン氏はこれまでも従業員との直接的な対話を重視する経営スタイルをとっており、今回の署名運動は彼のカリスマ性と強い統率力に対する従業員の信頼の厚さを示している。\n- テック業界全体で柔軟な働き方が模索される中、NVIDIAの今回の動きは、トップダウン型の強い求心力を持つ企業文化のあり方について改めて注目を集めるものとなっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuxxmb/bring_back_the_boss_nvidia_employees_petition_for/"
+  },
+  {
+    "id": "4183de0e-c1c5-816c-8c07-ed2a72e682c1",
+    "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang's exit",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-13T00:11:18.000Z",
+    "fetched": "2026-11-14T00:01:51.418Z",
+    "summary": "Hugging FaceのCEOがオープンソースAIの擁護と継続を誓う\n\n- Hugging FaceのCEOであるクレメンット・ドゥラン氏は、オープンソースAIの存続と発展に向けて戦い続ける強い決意を表明した。\n- この発言は、NVIDIAのCEOであるジェンスン・フアン氏がオープンソースAI関連の議論や立場から退いたことを受けたものである。\n- テクノロジー業界においてオープンソースの重要性が問われる中、同社はAI技術の民主化と透明性の確保を最優先課題として掲げている。\n- ドゥラン氏は、一部の強力なクローズドAIモデルによる市場の独占を防ぐため、オープンソースコミュニティの団結と継続的な支援の必要性を強調した。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xut4o7/hugging_face_ceo_vows_to_keep_fighting_for_open/"
+  },
+  {
+    "id": "4183de0e-c1c5-8108-b808-c1cb2f78896d",
+    "title": "llama.cpp v1.0 is here 🦙",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-13T14:07:33.000Z",
+    "fetched": "2026-11-14T00:01:58.411Z",
+    "summary": "llama.cpp v1.0のリリース\n\n- ローカル環境での大規模言語モデル（LLM）実行を効率化する「llama.cpp」のバージョン1.0がリリースされた。\n- ハードウェアの最適化が進み、CPUやGPUを活用した高速かつ軽量な推論処理がさらに強化されている。\n- 多様な量子化モデルのサポートが拡充され、メモリ使用量を抑えつつ高精度な出力が可能になった。\n- APIや開発者向けのツール連携が向上し、さまざまなアプリケーションへの組み込みが容易になった。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xv8t2e/llamacpp_v10_is_here/"
+  },
+  {
+    "id": "4183de0e-c1c5-81ab-a798-d05c38673b45",
+    "title": "A100 prices down 20-30% since my post about them collapsing",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-13T03:31:32.000Z",
+    "fetched": "2026-11-14T00:02:05.342Z",
+    "summary": "NVIDIAの高性能AI向けGPU「A100」の価格が、前回の下落に関する投稿からさらに20〜30%下落している。\n\n- NVIDIAのAI向け半導体「A100」の市場価格が、前回の下落報告からさらに20%から30%ほど急落した。\n- 価格下落の背景には、AI開発ブームの一服や、供給体制の改善、次世代チップへの移行などが影響している可能性がある。\n- 高額で入手困難だったAI向けGPUの調達コストが低下することで、AI関連の開発企業やスタートアップにとって参入障壁が緩和されつつある。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuxbeb/a100_prices_down_2030_since_my_post_about_them/"
+  }
+]
