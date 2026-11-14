@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI/LLM記事まとめ 2026/11/13</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; flex-wrap: wrap; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  .date-nav .monthly-link { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; font-size: 1em; color: #222; text-decoration: none; white-space: nowrap; }
+  .date-nav .monthly-link:hover { background: #f5f5f5; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+  @media (max-width: 600px) {
+    .date-nav-title { display: none; }
+    .date-nav input[type="text"] { width: 100px; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">AI/LLM記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-11-13" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+  <a id="monthly-link" class="monthly-link" href="../topics/index.html" target="_blank" rel="noopener" aria-label="月次一覧（新しいタブで開きます）" title="月次一覧（新しいタブで開きます）">月次一覧<span class="ext" aria-hidden="true"> ↗</span></a>
+</header>
+<h1>2026/11/13</h1>
+
+    <div class="card">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/" target="_blank" rel="noopener">Claude Meetings lets Anthropic's AI join your video calls</a></h2>
+      <p>Anthropic社がビデオ通話にAIを参加させる新機能「Claude Meetings」を発表<br><br><ul><li>Claude Meetingsは、Anthropic社のAI「Claude」がビデオ通話に可視化された参加者として加わり、質問への回答、文書やホワイトボードの作成、議事録やアクションアイテムの記録を行う機能である。</li><li>通話中はデフォルトでテキスト形式で応答し、許可を与えれば接続されたツールにアクセスすることが可能で、終了後にはすべてのノートやトランスクリプト、生成ドキュメントがclaude.aiの専用ページに保存される。</li><li>プライバシー保護のため、外部参加者のいる通話にはデフォルトで参加しない仕様になっており、セキュリティに配慮されている。</li><li>現在はTeamおよびEnterpriseプラン向けのベータ版として提供されており、対応プラットフォームはGoogle Meetのみだが、今後他プラットフォームへの対応も予定されている。</li><li>HIPAA（医療保険の相互運用性と責任に関する法律）や顧客管理型暗号化を設定している組織では、現時点でこの機能を利用することはできない。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Nov/12/llm-gemini/" target="_blank" rel="noopener">llm-gemini 0.37</a></h2>
+      <p>Gemini 4ファミリーの新モデル「Hydrogen」の登場に伴う、「llm-gemini 0.37」のリリースとGoogleの複雑な価格体系について報じた記事です。<br><br><ul><li>GoogleがGemini 4ファミリーの最安モデル「Gemini 4 Hydrogen」をリリースした。</li><li>CarbonとArgonは同価格だが、Argonはより少ないトークンで応答する特長があり、両モデルは12月1日に価格が倍増する予定である。</li><li>Hydrogenは競合の他社廉価モデルと比較して割高だが、12月1日以降は75%オフとなり価格設定の意味合いが変わる。</li><li>Hydrogenはコーディングなどの日常的な作業向けであり、新しい無料枠モデルおよびGoogle検索のAI機能の動力源となる。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/ggml-org/llama-cpp-v1" target="_blank" rel="noopener">llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem</a></h2>
+      <p>llama.cpp v1.0.0：ローカルAIエコシステムのためのより強固な基盤<br><br><ul><li>llama.cppおよびggmlのバージョン1.0.0がリリースされ、ライブラリの安定性と柔軟性が向上した。</li><li>消費者向けPCからエンタープライズサーバーまで幅広いハードウェアで、マルチモーダルLLMの実行を可能にする軽量かつ汎用性の高いプラットフォーム。</li><li>今後はセマンティックバージョニングを採用し、パブリックC APIに互換性のない変更がある場合はメジャーバージョンを更新する方針。</li><li>リリースには「llama.cpp v1.0.0（libllama）」と「ggml v1.0.0（libggml）」が含まれる。</li><li>Linux、macOS、Windows、Android、iOS向けのプレリリース成果物やDockerなど、多様な配布チャネルの拡大を目指している。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite" target="_blank" rel="noopener">LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B</a></h2>
+      <p>LLMON：LLM向けに開発されたネイティブマークアップ言語「Granite 4.1」の3Bおよび8Bモデルを発表<br><br><ul><li>LLMON（LLM Object Notation）は、LLMへ構造や意味を明示的に伝えるために開発されたLLMネイティブのマークアップ言語であり、従来のJSONなどが抱えるコンテキスト理解の曖昧さを解消する。</li><li>特殊なトークンデリミタで囲まれた意味のあるタグや一意のIDを使用することで、プログラミング言語のように指示とデータペイロードを正確に結びつけることが可能になる。</li><li>ユーザーデータに隠された間接的なプロンプトインジェクション攻撃に対し、指示とデータを明確に分離することで高い耐性を発揮する。</li><li>IBMのGranite 4.1ベースモデルを微調整した実験的なプレビュー版として、「granite-4.1-3b-LLMON-preview」と「granite-4.1-8b-LLMON-preview」の2モデルがリリースされた。</li><li>ワークフローの例やテンプレート、LLMONを扱うためのツールキットが含まれるGitHubリポジトリも同時に公開されている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xuvexw/stories_coming_out_about_jensen/" target="_blank" rel="noopener">Stories coming out about Jensen</a></h2>
+      <p>ジェンセンに関する様々な証言やエピソードの浮上<br><br><ul><li>ジェンセンに関する新しいストーリーやエピソードが次々と表面化している。</li><li>これまで知られていなかった彼の私生活や過去の経験に関する情報が含まれている。</li><li>関係者や情報筋からの証言をもとに、彼の人物像に新たな光が当てられている。</li><li>公表された内容について、ファンや業界関係者の間で大きな関心を集めている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xuxxmb/bring_back_the_boss_nvidia_employees_petition_for/" target="_blank" rel="noopener">‘Bring Back THE Boss’: Nvidia Employees Petition for Jensen Huang’s Return</a></h2>
+      <p>NVIDIAの従業員がジェンスン・フアン氏の完全なオフィス復帰を求めて署名運動を開始した<br><br><ul><li>NVIDIAの従業員たちが、最高経営責任者（CEO）であるジェンスン・フアン氏に対し、完全なオフィス勤務への復帰を求める署名活動を行った。</li><li>リモートワークが普及する中でも、同社内では対面によるコミュニケーションや強いリーダーシップが企業文化の維持に不可欠であると考える社員が多いことが背景にある。</li><li>フアン氏はこれまでも従業員との直接的な対話を重視する経営スタイルをとっており、今回の署名運動は彼のカリスマ性と強い統率力に対する従業員の信頼の厚さを示している。</li><li>テック業界全体で柔軟な働き方が模索される中、NVIDIAの今回の動きは、トップダウン型の強い求心力を持つ企業文化のあり方について改めて注目を集めるものとなっている。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xut4o7/hugging_face_ceo_vows_to_keep_fighting_for_open/" target="_blank" rel="noopener">Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang's exit</a></h2>
+      <p>Hugging FaceのCEOがオープンソースAIの擁護と継続を誓う<br><br><ul><li>Hugging FaceのCEOであるクレメンット・ドゥラン氏は、オープンソースAIの存続と発展に向けて戦い続ける強い決意を表明した。</li><li>この発言は、NVIDIAのCEOであるジェンスン・フアン氏がオープンソースAI関連の議論や立場から退いたことを受けたものである。</li><li>テクノロジー業界においてオープンソースの重要性が問われる中、同社はAI技術の民主化と透明性の確保を最優先課題として掲げている。</li><li>ドゥラン氏は、一部の強力なクローズドAIモデルによる市場の独占を防ぐため、オープンソースコミュニティの団結と継続的な支援の必要性を強調した。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xv8t2e/llamacpp_v10_is_here/" target="_blank" rel="noopener">llama.cpp v1.0 is here 🦙</a></h2>
+      <p>llama.cpp v1.0のリリース<br><br><ul><li>ローカル環境での大規模言語モデル（LLM）実行を効率化する「llama.cpp」のバージョン1.0がリリースされた。</li><li>ハードウェアの最適化が進み、CPUやGPUを活用した高速かつ軽量な推論処理がさらに強化されている。</li><li>多様な量子化モデルのサポートが拡充され、メモリ使用量を抑えつつ高精度な出力が可能になった。</li><li>APIや開発者向けのツール連携が向上し、さまざまなアプリケーションへの組み込みが容易になった。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xuxbeb/a100_prices_down_2030_since_my_post_about_them/" target="_blank" rel="noopener">A100 prices down 20-30% since my post about them collapsing</a></h2>
+      <p>NVIDIAの高性能AI向けGPU「A100」の価格が、前回の下落に関する投稿からさらに20〜30%下落している。<br><br><ul><li>NVIDIAのAI向け半導体「A100」の市場価格が、前回の下落報告からさらに20%から30%ほど急落した。</li><li>価格下落の背景には、AI開発ブームの一服や、供給体制の改善、次世代チップへの移行などが影響している可能性がある。</li><li>高額で入手困難だったAI向けGPUの調達コストが低下することで、AI関連の開発企業やスタートアップにとって参入障壁が緩和されつつある。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-11-13";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+  var TOPICS_PATH_PREFIX = '../topics/';
+  var CURRENT_MONTH = CURRENT_DATE.slice(0, 7);
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+  var monthlyLink = document.getElementById('monthly-link');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  // 入力値を YYYY-MM-DD に揃える。判定できなければ null（テンプレートリテラル内のため、バックスラッシュを使わない書き方にする）
+  function normalizeDateInput(value) {
+    var v = String(value).normalize('NFKC').trim();
+    if (/^[0-9]{8}$/.test(v)) {
+      return v.slice(0, 4) + '-' + v.slice(4, 6) + '-' + v.slice(6, 8);
+    }
+    if (/^[0-9]{4}[-/][0-9]{2}[-/][0-9]{2}$/.test(v)) {
+      return v.replace(/[/]/g, '-');
+    }
+    return null;
+  }
+
+  function validateAndGo(value) {
+    var date = normalizeDateInput(value);
+    if (date === CURRENT_DATE) { dateInput.value = CURRENT_DATE; return; }
+    if (date === null || dateList.indexOf(date) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(date);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  function setMonthlyLink(label, href) {
+    var text = label + '（新しいタブで開きます）';
+    // 前提: <a> の最初の子ノードがラベルのテキストノード（<a>月次一覧<span>…</span></a>）
+    monthlyLink.firstChild.nodeValue = label;
+    monthlyLink.href = href;
+    monthlyLink.setAttribute('aria-label', text);
+    monthlyLink.title = text;
+  }
+
+  function loadMonthly() {
+    fetch(TOPICS_PATH_PREFIX + 'index.json')
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var months = ((data && data.months) || []).map(function (m) { return m.month; });
+        if (months.indexOf(CURRENT_MONTH) !== -1) {
+          setMonthlyLink('月次', TOPICS_PATH_PREFIX + CURRENT_MONTH + '.html');
+        }
+      })
+      .catch(function (err) {
+        console.error('monthly-link: index.json fetch failed', err);
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+  // 数字キーパッド（Return キーなし）向け: 数字だけ8桁になったら自動で移動する。日付一覧の取得前・失敗時は何もしない
+  dateInput.addEventListener('input', function (e) {
+    if (e.isComposing) return;
+    if (dateList.length === 0) return;
+    if (/^[0-9]{8}$/.test(dateInput.value.normalize('NFKC').trim())) {
+      validateAndGo(dateInput.value.trim());
+    }
+  });
+  // フォーカス時に全選択する（数字キーパッドで打ち直しやすくする）。iOS Safari はフォーカス直後のタップでキャレットを置き直し、選択が解除されることがあるため、タイマーでかけ直す
+  dateInput.addEventListener('focus', function () {
+    dateInput.select();
+    setTimeout(function () { dateInput.setSelectionRange(0, dateInput.value.length); }, 0);
+  });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+  loadMonthly();
+})();
+</script>
+</body>
+</html>
