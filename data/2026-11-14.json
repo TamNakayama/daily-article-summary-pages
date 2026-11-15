@@ -1,0 +1,164 @@
+[
+  {
+    "id": "4193de0e-c1c5-81d9-9da1-cbcc74bab8e5",
+    "title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary",
+    "site": "THE DECODER",
+    "published": "2026-11-14T11:40:51.000Z",
+    "fetched": "2026-11-15T00:01:22.904Z",
+    "summary": "OpenAIが汎用モデルによるロボット制御への移行を進め、ロボット研究チームを再編した\n\n- OpenAIはロボット研究者をメインの研究チームや応用組織へと異動させ、汎用モデルとロボット開発の連携を強化した\n- 専門特化したロボットAIよりも、汎用モデル（GPT-6 Astraなど）が直接ロボットを制御できるようになることで、専用モデルの必要性が薄れるという判断が背景にある\n- Nvidiaのシミュレーション研究では、Astraを搭載したAIエージェントがシミュレーション上のロボットタスクで専門モデルを上回る成功率を記録した\n- 新たなロボット用ベンチマーク（StationeryBench）のテストでも、Astraは他社の特化型モデルと比較して優れた作業遂行能力を示した",
+    "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/"
+  },
+  {
+    "id": "4193de0e-c1c5-8126-b1c8-d54744615854",
+    "title": "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon",
+    "site": "THE DECODER",
+    "published": "2026-11-14T11:21:41.000Z",
+    "fetched": "2026-11-15T00:01:30.965Z",
+    "summary": "元Anthropic研究者のジェイコブ・コクソン氏によれば、同社はAIモデル「Mythos」を、当初必要とした計算量のほんのわずかな一部で再訓練することがすでに可能になっているという。\n\n- コクソン氏は、AnthropicのIPOロードショーで公開された計算量の推移を示すスライドの急激な右肩上がりに驚き、これが退職の大きな理由になったと述べている。\n- このグラフは、アルゴリズムの効率性が急速かつ加速度的に向上していることを示しており、「Mythos」の性能向上もこの超指数関数的なトレンドの一部であると指摘されている。\n- コクソン氏は、アルゴリズムの改良が「自動化の寸前にある」と主張している。\n- こうした急速な進化への懸念から、同氏は他社が追いつくために、来年はフロンティアモデルの開発を一時停止することを求めている。",
+    "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/"
+  },
+  {
+    "id": "4193de0e-c1c5-81b2-ab16-d18d28ad6f55",
+    "title": "Runway's open-source Praxis-1 turns video AI into a robot controller",
+    "site": "THE DECODER",
+    "published": "2026-11-14T09:45:45.000Z",
+    "fetched": "2026-11-15T00:01:41.459Z",
+    "summary": "Runway社がオープンソースで公開したロボット制御モデル「Praxis-1」の概要と特徴\n\n- Runway社は、ロボット制御AIモデル「Praxis-1」のモデルウェイトとソースコードをApache 2.0ライセンスで一般公開した。\n- Praxis-1は、カメラ画像、テキスト指示、ロボットの位置データをもとに環境の変化を予測し、適切な動作をリアルタイムで計算・制御する。\n- 一般的な映像データを用いた事前学習をベースに、人間の行動映像やロボットデータを組み合わせてファインチューニングしているため、高価なロボット専用データの収集を減らせる可能性がある。\n- 追加トレーニングにより新しいロボットシステムへの適応が可能である一方、類似したオブジェクトの誤認や、複雑な一連のアクションの自律的な計画にはまだ課題がある。",
+    "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/"
+  },
+  {
+    "id": "4193de0e-c1c5-81c8-b91c-d1e4a3ade6b2",
+    "title": "Jensen Huang's ouster likely traces back to Nvidia's risky business practices more than his personal life",
+    "site": "THE DECODER",
+    "published": "2026-11-13T20:07:34.000Z",
+    "fetched": "2026-11-15T00:01:50.650Z",
+    "summary": "NVIDIAのジェンスン・フアン氏の解任は、私生活の問題よりも、同社が推進したリスクの高いビジネス手法が主な原因であると報じられています。\n\n- ジェンスン・フアン氏の主導の下、NVIDIAはAIクラウド事業者に対して、自社製チップ購入のための巨額な財務保証を行うハイリスクなクレジットプログラムを構築した。\n- このプログラムの推進にはフアン氏の義理の息子であるニコ・カプレズ氏が関与しており、最大規模の案件としてOpenAIとの間で2,500億ドル規模のデータセンター保証に関する交渉が行われた。\n- 当時CFOであった暫定CEOのコレット・クレッス氏は、保証の評価方法や見返りについて内部で疑問を呈し、OpenAIへのコミットメントを半分に削減した。\n- フアン氏は社内会合でクレッス氏を批判したが、リスクの高い営業・融資手法をめぐる社内の懸念や対立が、結果として今回の事態につながったとされている。",
+    "url": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/"
+  },
+  {
+    "id": "4193de0e-c1c5-81ba-b6ec-e6c66d50a500",
+    "title": "OpenAI rebuilt AI shopping from scratch with ChatGPT Wallet",
+    "site": "THE DECODER",
+    "published": "2026-11-13T18:55:21.000Z",
+    "fetched": "2026-11-15T00:01:58.655Z",
+    "summary": "OpenAIが「ChatGPT Wallet」を導入し、AIショッピング機能を刷新\n\n- OpenAIは、AIエージェントがユーザーに代わってオンラインショッピングの決済を行える「ChatGPT Wallet」を発表した。\n- 初回は米国在住のChatGPT Pro加入者（成人）を対象に提供され、利用には米国の対象銀行カードが必要となる。\n- すべての決済にはFace IDや指紋認証による承認が必須であり、VisaやMastercardなどと連携したトークンシステムにより、加盟店に実際のカード情報が渡らない仕組みになっている。\n- OpenAIは既存の「Instant Checkout」の柔軟性が不足していたため、これを破棄してゼロから今回の機能を再構築した。\n- 将来的には、ユーザーが設定した予算や商品カテゴリ、期間の制限内で、AIエージェントに買い物の全プロセスを完全に委任できるようになる計画である。",
+    "url": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/"
+  },
+  {
+    "id": "4193de0e-c1c5-8195-be56-cefeb801d2c5",
+    "title": "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls",
+    "site": "THE DECODER",
+    "published": "2026-11-13T18:01:53.000Z",
+    "fetched": "2026-11-15T00:02:05.964Z",
+    "summary": "AnthropicのIPOにおける中国および香港投資家の排除と背景\n\n- Anthropic社の新規株式公開（IPO）において、米国主導の輸出管理規制（ITARなど）を理由に、中国本土および香港からの投資家が買い注文を拒否されるなどの排除を受けている。\n- ゴールドマン・サックスやモルガン・スタンレーなどが主幹事を務めるこのIPOは、11月18日の価格決定後、ナスダックに「ANT」の銘柄コードで上場する予定である。\n- Anthropic社は中国企業によるAIサービスの利用をブロックしており、中国企業による「Claude Code」へのアクセス回避策への対抗や、DeepSeekなどの大規模なデータ蒸留攻撃の露呈など、中国側と対立的な関係にある。",
+    "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/"
+  },
+  {
+    "id": "4193de0e-c1c5-81ab-8127-f9aa15cc038e",
+    "title": "Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows",
+    "site": "THE DECODER",
+    "published": "2026-11-13T16:37:01.000Z",
+    "fetched": "2026-11-15T00:02:15.835Z",
+    "summary": "Anthropic社が、製造業向けAIプラグイン「Claude for Manufacturing」を発表し、工場ソフトウェアと直接連携して産業ワークフローを自動化する仕組みを提供開始した。\n\n- 「Claude for Manufacturing」は、Autodesk Fusion、Oracle NetSuite、Microsoft 365、Inforの4つの汎用インターフェースを介して産業用ソフトウェアと直接接続する。\n- 見積書のドラフト作成、サプライヤーの比較、品質レポートや設計バリエーションの生成、機械停止時のセンサーデータやマニュアル分析など、17の特定のスキルを備えている。\n- Inforプラグインを通じたバックアップサプライヤーへの発注や生産再スケジュールの提案機能を持つが、実行には人間の承認が必要であり、すべての結果は従業員の確認用に元のソースドキュメントにリンクされる。\n- TeamおよびEnterpriseの顧客向けに提供されているが、現時点で物理的な機械の制御は行えず、ロボットアームなどのデバイスとAIエージェントを接続する「Model Hardware Standard」の研究プレビューが別途進められている。",
+    "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/"
+  },
+  {
+    "id": "4193de0e-c1c5-8183-9e89-f2dae1f6dd57",
+    "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+    "site": "Hugging Face Blog",
+    "published": "2026-11-13T18:00:39.000Z",
+    "fetched": "2026-11-15T00:02:25.386Z",
+    "summary": "SimReadyアセットを活用したロボットのピックアンドプレースシミュレーションの構築方法\n\n- Hugging Faceの「SimReady Central」を活用することで、衝突判定、質量、関節などのシミュレーション用プロパティがあらかじめ設定されたOpenUSDアセットを再利用できる。\n- シミュレーション用の仕様である「SimReady Foundation」に基づき、プロファイル、機能、要件が検証され、ロボットがタスクを実行できるか確認される。\n- UR17Gロボットアーム、Robotiq 2F-140グリッパー、飲料缶の各パッケージにはモデルとシミュレーション設定が含まれており、Isaac Sim上でシーンを構築できる。\n- アセットの組み立てでは、作業面、初期位置の設定に加え、アームの移動やグリッパーの開閉を制御するタスクコードを追加する。\n- 検証済みのシミュレーション環境を用いることで、エージェント生成による制御を用いた正確なピックアンドプレース動作のテストが可能になる。",
+    "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"
+  },
+  {
+    "id": "4193de0e-c1c5-81c9-85f4-d01a62948a56",
+    "title": "XYBench: Helping with the problem behind the question",
+    "site": "Hugging Face Blog",
+    "published": "2026-11-13T17:02:35.000Z",
+    "fetched": "2026-11-15T00:02:33.583Z",
+    "summary": "XYBench：質問の背景にある真の課題解決を支援するベンチマーク\n\n- AIアシスタントの真の有用性を評価するため、誤った前提に基づく質問への対応力を測る8,000問以上のベンチマーク「XYBench」が公開され、EMNLP 2026でベストリソース論文賞を受賞した。\n- 「XY問題」と呼ばれる、真の目的（X）に対し誤ったアプローチ（Y）で質問してしまうケースにおいて、AIが潜在的な誤解を認識し、真の目的に向けた解決策へ軌道修正できるかを評価する。\n- カーネギーメロン大学、NVIDIA、ジョンズ・ホプキンス大学などの研究者と共同開発され、プログラミングや料理、家庭の修繕など、現実世界の8,115問の質問を網羅している。\n- Claude Sonnet 4.6やGPT-5などの主要モデルを評価した結果、人間による模範解答と比較して、AIは元の間違ったアプローチに固執しがちであり、ユーザーを適切な解決策へ導く能力に課題があることが明らかになった。\n- 本ベンチマークを通じて、モデルがユーザーの誤った思い込みを認識し、より効果的な代替案を提案できるよう性能向上の測定・促進に貢献することが期待されている。",
+    "url": "https://huggingface.co/blog/allenai/xybench"
+  },
+  {
+    "id": "4193de0e-c1c5-8119-9ba9-d4003c600c8f",
+    "title": "Instead Of Lowering GPU Prices, Former NVIDIA CEO Jensen Huang Reportedly Financed AI Startups To Absorb Excess Silicon, Shattering The Shortage Perception",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-14T03:40:06.000Z",
+    "fetched": "2026-11-15T00:02:41.426Z",
+    "summary": "NVIDIAの前CEOジェンセン・フアンはGPUの価格を下げる代わりにAIスタートアップに資金を提供して余剰シリコンを吸収させ、GPU不足の認識を崩壊させたと報じられている。\n\n- NVIDIAの前CEOであるジェンセン・フアンが、GPUの価格を意図的に下げることなく市場の安定を図った。\n- 余剰となったシリコン（GPU）を消費させるため、自らAIスタートアップへ資金提供を行っていたと報じられている。\n- この戦略により市場におけるGPUの供給不足という一般的な認識が覆され、需要と供給のバランスが保たれていた。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvsb5f/instead_of_lowering_gpu_prices_former_nvidia_ceo/"
+  },
+  {
+    "id": "4193de0e-c1c5-814e-b67c-e15452faab9c",
+    "title": "The lawyer who posts here about his V100s got his story picked up by Tom’s Hardware",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-14T13:41:12.000Z",
+    "fetched": "2026-11-15T00:02:54.863Z",
+    "summary": "RedditのV100に関する投稿がTom's Hardwareに取り上げられた話題\n\n- Redditの掲示板にNVIDIAのGPU「V100」に関する投稿を続けていた弁護士のストーリーが、著名なハードウェア情報サイト「Tom's Hardware」に取り上げられた。\n- この弁護士は、自身の仕事や趣味の文脈でV100を活用・言及するユニークな投稿をコミュニティ内で行っており、それが注目を集めるきっかけとなった。\n- 専門的なハードウェアコミュニティにおける個人のユニークな投稿が、大手テックメディアで記事化されるという、ネット特有の拡散事例として話題になっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xw2ogq/the_lawyer_who_posts_here_about_his_v100s_got_his/"
+  },
+  {
+    "id": "4193de0e-c1c5-8167-8f46-d161f925c05a",
+    "title": "How long are we gonna depend bunch of model creators (like Qwen, Gemma, NVIDIA, etc.,) for ~100B models?",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-14T12:10:50.000Z",
+    "fetched": "2026-11-15T00:03:03.777Z",
+    "summary": "QwenやGemma、NVIDIAなどの大規模モデルに約100B規模の開発を依存し続ける状況について、オープンソースの進化や分散型AI開発の可能性を問い直す議論が展開されています。\n\n- Qwen、Gemma、NVIDIAなどの大手モデルクリエイターが提供する約100B規模のモデルに依存し続ける現状に疑問を呈している。\n- 企業や開発者が外部の巨大モデルに頼り続けることの、コストやコントロール権におけるリスクを指摘している。\n- オープンソースコミュニティや小規模な組織による分散型のモデル開発が、この依存関係を打破する鍵になるとしている。\n- 自社に適したカスタムモデルを効率的に構築・運用するための新しいアプローチの必要性を訴えている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xw0xeu/how_long_are_we_gonna_depend_bunch_of_model/"
+  },
+  {
+    "id": "4193de0e-c1c5-8189-9dcb-df4c76431502",
+    "title": "ERNIE 5.5 Flash Base · ERNIE",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-14T05:31:24.000Z",
+    "fetched": "2026-11-15T00:03:11.118Z",
+    "summary": "ERNIE 5.5 Flash Baseの概要と特徴\n\n- ERNIE 5.5 Flash Baseは、効率性とパフォーマンスのバランスに優れたAIモデルである。\n- 高速な処理速度を実現しつつ、様々なタスクで高い精度を発揮する設計になっている。\n- 開発者や企業がアプリケーションに組み込みやすく、コストパフォーマンスに優れている。\n- 大規模言語モデルとしての高度な推論能力と、軽量・スピーディーな動作を両立している。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvuclv/ernie_55_flash_base_ernie/"
+  },
+  {
+    "id": "4193de0e-c1c5-810f-a030-f3668244b560",
+    "title": "Faster Scientific Simulations with New FP64 Algorithms in NVIDIA cuBLAS",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-11-13T22:13:51.000Z",
+    "fetched": "2026-11-15T00:03:19.189Z",
+    "summary": "NVIDIA cuBLASの新しいFP64アルゴリズムによる科学シミュレーションの高速化\n\n- CUDA Toolkit 13.4.2は、整数Tensor Cores上で倍精度行列乗算（DGEMM/ZGEMM）を加速する「Ozaki-II」および「2M」アルゴリズムを導入し、完全なFP64精度を維持しながら大幅な高速化を実現しています。\n- Ozaki-IIアルゴリズムは中国剰余定理の活用により整数乗算回数を削減し、2M法は複素数行列乗算を4回から2回の実数乗算に効率化しています。\n- NVIDIAプラットフォームにおいて、DGEMMでは最大5.5倍、ZGEMMでは5倍の高速化を達成し、CCSD量子化学計算やBerkeleyGW材料科学シミュレーションなど実際の科学技術計算で劇的なエンドツーエンドの性能向上を確認しています。\n- 次世代のNVIDIA Rubin GPUでは、新形式のTI16や専用命令（tcgen05.mma）により、Ozakiアルゴリズムの計算がさらに加速されます。",
+    "url": "https://developer.nvidia.com/blog/faster-scientific-simulations-with-new-fp64-algorithms-in-nvidia-cublas/"
+  },
+  {
+    "id": "4193de0e-c1c5-81da-882d-e0a8e136eea9",
+    "title": "Run GPU-Powered Black Hole Interferometry with NVIDIA cuPhoton",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-11-13T21:17:17.000Z",
+    "fetched": "2026-11-15T00:03:27.138Z",
+    "summary": "NVIDIA cuPhotonによるGPUを活用したブラックホール干渉計の高速化\n\n- NVIDIA cuPhotonの「xBeam」を用いることで、Event Horizon Telescope（EHT）の電波干渉計相関処理をGPU上で高速に実行できる。\n- NVIDIA Vera Rubin NVL72システム（64基のGPUとGPUDirect Storage）を使用した検証では、10TBのデータセットをわずか70秒で処理し、x86 CPUのベースラインと比較して460倍の圧倒的な高速化を実現した。\n- 本システムは、VDIFフレームの取り込み、遅延・フリンジ補正、FFTによるチャネル化、基線間のクロス乗算、可視光データの書き出しなどのFX相関処理パイプラインを効率的に実行する。\n- 観測時間は単一ノードまたは複数ノード間でGPUに分散・スケーリングでき、AIエージェントを活用することでメタデータの解析からジョブの実行までの一連のパイプラインを自動オーケストレーションすることが可能である。",
+    "url": "https://developer.nvidia.com/blog/run-gpu-powered-black-hole-interferometry-with-nvidia-cuphoton/"
+  },
+  {
+    "id": "4193de0e-c1c5-8188-8121-de3f6bba7306",
+    "title": "Run Native DLA Inference in Python on NVIDIA Jetson AGX Orin Using cuDLA",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-11-13T18:57:10.000Z",
+    "fetched": "2026-11-15T00:03:34.852Z",
+    "summary": "NVIDIA Jetson AGX OrinおよびcuDLAを用いたPythonによるネイティブDLA推論の実行\n\n- NVIDIA Jetson AGX OrinのDLA（Deep Learning Accelerator）を活用することで、電力効率を向上させつつGPUの負荷を軽減し、他のタスクへリソースを割り当てることが可能になる。\n- 新たに提供された`cuda.bindings.cudla`モジュールにより、C++用のcuDLA APIがPythonからも利用できるようになり、CUDAストリームを用いたGPUの前処理・後処理とDLA推論の連携が容易になる。\n- DLA推論のライフサイクルは、CUDAの初期化、ハイブリッドモードでのDLAデバイス作成、コンパイル済みモデルのロード、テンソル情報の取得、GPUバッファの割り当てと登録、データのコピー、タスクの実行、同期による結果の取得という9つのステップで構成される。\n- cuDLAのAPIはエラー時にPython例外を発生させるため、`try/finally`による確実なリソース解放や、`cudla.Status`を用いた詳細なエラーハンドリングが可能である。\n- このcuDLA Python APIはNVIDIA RTX Sparkにも適用可能であり、エッジデバイスだけでなくWindows AI開発者向けノートPCなどのプラットフォームへもDLA推論の活用範囲を広げることができる。",
+    "url": "https://developer.nvidia.com/blog/run-native-dla-inference-in-python-on-nvidia-jetson-agx-orin-using-cudla/"
+  },
+  {
+    "id": "4193de0e-c1c5-81e3-94f0-fe611dd394e1",
+    "title": "When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-11-13T17:00:00.000Z",
+    "fetched": "2026-11-15T00:03:42.548Z",
+    "summary": "NVIDIA DGX Station 2台とvLLMを用いた大規模モデル「GLM-5.3」の分散サービング手法\n\n- 7,530億パラメータを持つ量子化混合エキスパート（MoE）モデル「GLM-5.3 NVFP4」のチェックポイントは約464GBとなり、単体GPUのメモリ容量を超えるため、複数マシンの連携が必要になる。\n- ConnectX-8 RDMAで接続された2台のNVIDIA DGX Stationを用い、テンソル並列（TP=2）によってモデルの重みと計算を分割し、単一のOpenAI互換エンドポイントとして提供する。\n- vLLMを活用してマルチトークン予測、FP8 KVキャッシュ保存、プレフィックスキャッシュを有効化し、同時負荷時のスループットを最大化している。\n- SPEED-Bench Codingデータセットを用いたAIPerfのベンチマークでは、同時実行数16で出力スループットがピークの607.8トークン/秒を記録する。",
+    "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/"
+  },
+  {
+    "id": "4193de0e-c1c5-8141-8183-c7c6228a5e7d",
+    "title": "Adapt Human Motion for Robots with NVIDIA SOMA Retargeter",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-11-13T17:00:00.000Z",
+    "fetched": "2026-11-15T00:03:50.351Z",
+    "summary": "NVIDIA SOMA Retargeterによるヒューマノイドロボットへのモーション適応技術\n\n- NVIDIA SOMA Retargeterは、共通のSOMAスケルトン表現を利用して、人間の動作データを特定のヒューマノイドロボットのプロポーションや関節構造に適応させるオープンソースツールである。\n- モーションデータのソースとして、モーションキャプチャデータセット、映像再構築、生成AIモデルなどを活用し、ロボットの体型や可動域に合わせて動作を変換する。\n- 逆運動学（IK）の計算や、接地調整などの後処理補正を行うことで、より自然で滑らかなロボットの動作を実現している。\n- v0.2リリースでは、Unitree G1やBooster T1など5種類のヒューマノイドロボット向けの設定や変換例が提供されている。\n- 変換された軌跡はCSVファイルとしてエクスポートでき、ポリシー訓練ワークフローのモーションライブラリ形式に変換してシミュレーション評価に活用できる。",
+    "url": "https://developer.nvidia.com/blog/adapt-human-motion-for-robots-with-nvidia-soma-retargeter/"
+  }
+]
