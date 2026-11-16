@@ -1,0 +1,92 @@
+[
+  {
+    "id": "41a3de0e-c1c5-8166-822e-f26b7ac86ef8",
+    "title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+    "site": "THE DECODER",
+    "published": "2026-11-15T14:45:12.000Z",
+    "fetched": "2026-11-16T00:01:50.811Z",
+    "summary": "Nvidia製チップの中国向け迂回輸出疑惑とジェンスン・フアン氏の元恋人に関する報道\n\n- メガスピード社は、2024年3月から2025年6月の間に、中国企業向けに約120億ドル相当のNvidia製高性能AIチップの注文を仲介していたと報じられた。\n- 同社は、Nvidiaの元CEOであるジェンスン・フアン氏の元恋人であるアリス・フアン氏がかつて支配株主を務めていた企業である。\n- アリス・フアン氏は2025年8月に同社を離れており、メガスピード社は適法な事業を行っていたと主張しているが、米国による輸出規制対象のチップを中国顧客に入手させた疑いで調査を受けている。\n- メガスピード社はNvidiaのクラウドパートナーとして、主要顧客であるアリババなどの存在を背景に、入手困難なAIチップへの優遇アクセスを得ていたとされる。",
+    "url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/"
+  },
+  {
+    "id": "41a3de0e-c1c5-8108-9fa3-eaff58c8b4b8",
+    "title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
+    "site": "THE DECODER",
+    "published": "2026-11-15T10:45:58.000Z",
+    "fetched": "2026-11-16T00:01:58.334Z",
+    "summary": "オーストラリア準備銀行（RBA）の調査によると、AIの普及は全体的な失業をまだ引き起こしていないものの、ソフトウェア開発やカスタマーサービスといったAIの影響を受けやすい分野において、若年層の労働者に真っ先に打撃を与えていることが明らかになりました。\n\n- 2022年末のChatGPT登場以降、AIの影を受けやすい高露出分野では、若年層（15〜24歳）や新卒者の雇用率が低下し、失業率が上昇する傾向が見られる一方、同分野の高齢労働者の雇用はむしろ増加している。\n- 米国でも同様の傾向が確認されており、2025年8月のスタンフォード大学の研究によると、AIの影響を受ける職種における22〜25歳の若年層の雇用は相対的に13%減少し、若手ソフトウェア開発者に限っては20%近く減少している。\n- 現時点のデータでは直接的な因果関係や企業の実際のAI利用状況までは証明されておらず、パンデミック後の景気循環の変化やリモートワークの普及など、他の要因が影響している可能性もある。\n- 求人データサイトによると、AIは既存の業務を補完するだけでなく、新たなAIスキルの需要も生み出しているため、慎重な分析が必要とされている。",
+    "url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/"
+  },
+  {
+    "id": "41a3de0e-c1c5-8109-9be4-daf745c79432",
+    "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+    "site": "THE DECODER",
+    "published": "2026-11-15T10:06:06.000Z",
+    "fetched": "2026-11-16T00:02:06.076Z",
+    "summary": "中国のデリバリー大手「美団（Meituan）」が、Nvidia製GPUを一切使用せず、中国製ハードウェアのみでトレーニングされた1.6兆パラメータを持つAIエージェントモデル「LongCat-2.5」の重みを公開した。\n\n- 総パラメータ数1.6兆のうち、1トークンあたり約480億が稼働するMixture-of-Experts（専門家混合）モデルである。\n- API経由で最大100万トークンの入力と、最大12,800トークンの出力に対応し、テキスト、画像、動画を処理できる。\n- 画像を別個のエンコーダーではなく、テキストと同様にトークンへと直接変換する手法を採用し、ビジュアルコーディングやデザイン、3Dタスクの向上を目指している。\n- 強化学習にはGitHubのプルリクエストなどの実際のソフトウェアタスクや、エージェントの失敗事例が活用されている。\n- コーディングのベンチマークにおいて、数ヶ月前の米国のトップモデル（Claude Opus 5など）と同等の水準を発揮する。",
+    "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/"
+  },
+  {
+    "id": "41a3de0e-c1c5-8192-9808-f729755d8b73",
+    "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
+    "site": "THE DECODER",
+    "published": "2026-11-14T19:05:17.000Z",
+    "fetched": "2026-11-16T00:02:13.263Z",
+    "summary": "AnthropicのCEOが巨大IPOの直前にAI投資の不確実性を吐露\n\n- Anthropicのダリオ・アモデイCEOが、11月19日の歴史的なIPOを目前に控え、AIの計算資源（コンピュート）確保における大きな不確実性と事業的ジレンマを認めた。\n- 計算資源の購入は1〜2年先行して行う必要がある一方で、技術の急激な進歩がどのように経済的価値や収益につながるかは誰にも予測できないという課題を抱えている。\n- ブルームバーグによると、同社のコミットメント（約901億ドル相当）の大半はチップや計算資源に関連しており、2027年9月までに約71億ドルの支払いが迫っている。\n- 今回予定されているIPOは、巨額の支出と将来の収益との間に生じる可能性のあるギャップを乗り切るための十分なキャッシュバッファー（資金的な緩衝材）を構築することを目的としている。",
+    "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/"
+  },
+  {
+    "id": "41a3de0e-c1c5-816b-8ae8-e0fcfb3b6923",
+    "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
+    "site": "THE DECODER",
+    "published": "2026-11-14T16:48:01.000Z",
+    "fetched": "2026-11-16T00:02:20.863Z",
+    "summary": "Googleの「Gemini 4 Carbon」が数学ベンチマーク「MathArena」で首位を獲得したものの、OpenAIの「GPT-6.1 Sol」と比較して約15倍のコストがかかることが報じられています。\n\n- Googleの「Gemini 4 Carbon」が、数学ベンチマーク「MathArena」でOpenAIのモデルを抜き、非OpenAIモデルとして久しぶりに首位を獲得した。\n- 2位にはAnthropicの「Claude Fable 5.2」がランクインし、数学タスクにおいて非常に高い性能を示している。\n- Gemini 4 Carbonの主な弱点は制限時間を超過しやすい点で、途中で諦めずに11時間以上スクリプトを実行し続けたケースもあった。\n- テスト時の推論設定におけるコストは非常に高く、Gemini 4 CarbonはGPT-6.1 Solの約15倍、Claude Fable 5.2は約40倍の費用がかかる。\n- ベンチマーク結果では、Gemini 4 Carbonが正解率85.4%（コスト約15.70ドル）、GPT-6.1 Solが正解率80.6%（コスト約1.07ドル）となっている。",
+    "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/"
+  },
+  {
+    "id": "41a3de0e-c1c5-818c-a52f-d53a82edf2c3",
+    "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+    "site": "THE DECODER",
+    "published": "2026-11-14T16:42:56.000Z",
+    "fetched": "2026-11-16T00:02:28.298Z",
+    "summary": "Claude Opus 5.5を最大限に活用するには、古い世代のモデルから引き継いだ古いプロンプトの習慣を改める必要があるとAnthropicが述べています。\n\n- 「よく考えて」「深く考えて」といったフレーズは、モデルの応答を遅らせるだけで品質の向上にはつながらないため、削除することが推奨されています。現在のモデルはタスクに応じて自ら推論の深さを調整するため、こうした指示は不要です。\n- 推論の努力レベルは、デフォルトである「ミディアム（Medium）」から始めることが推奨されています。内部テストでは、ミディアム設定のOpus 5.5が前世代の「ハイ（High）」と同等のパフォーマンスを発揮し、コスト削減につながります。\n- 高い設定（High）は、ミディアムでは不十分な場合のみに使用するべきです。\n- Anthropicの推奨する効果的なプロンプトのコツには、ファイルやシステムの接続、望む最終結果の明確化、図表の直接共有、不要なデザインパターンの指定、独自のハウススタイルの共有などが含まれます。",
+    "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/"
+  },
+  {
+    "id": "41a3de0e-c1c5-818f-b53e-e81238d47156",
+    "title": "datasette-llm 0.1a11",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-11-14T23:59:28.000Z",
+    "fetched": "2026-11-16T00:02:35.524Z",
+    "summary": "datasette-llm 0.1a11のリリースと新機能\n\n- 「datasette-llm」のバージョン0.1a11がリリースされた。本プラグインは、他のDatasetteプラグインがLLMを利用するための設定をサポートする中間プラグインである。\n- 今回のリリースにより、OpenAI互換のエンドポイントへのサポートが追加された。これにより、OpenAIの疑似標準プロトコルに対応した任意の場所でホストされているLLMを設定して使用できる。\n- LM Studio、Ollama、v1.0.0を迎えたllama.cppなどのツールを用いてローカル環境でモデルを実行している場合でも、Datasette連携が可能となった。\n- `uvx`コマンドを使用し、プラグインの設定にローカルのモデル情報（APIベースやモデル名など）を指定することで、ローカルモデルで駆動するDatasette Agentのインスタンスを簡単に起動できる。",
+    "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/"
+  },
+  {
+    "id": "41a3de0e-c1c5-81cb-89a9-d523b2a8ab8d",
+    "title": "EUROPA, the EU's open AI model, is aiming for nearly 1 trillion parameters",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-15T09:24:57.000Z",
+    "fetched": "2026-11-16T00:02:42.682Z",
+    "summary": "EUのオープンAIモデル「EUROPA」：1兆パラメータ規模を目指す開発\n\n- 欧州連合（EU）が主導する大規模言語モデル「EUROPA」の開発計画が進行している。\n- 「EUROPA」はオープンソースのAIモデルとして設計されており、透明性とアクセスのしやすさを重視している。\n- 最大の目標として、約1兆パラメータという非常に大規模な構成を目指している。\n- この取り組みにより、欧州におけるAI技術の主権確立と、米中テック企業への依存低減を図る狙いがある。\n- 高い性能を持つオープンAIモデルの提供を通じて、学術研究や産業界におけるイノベーションの加速を期待されている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwr917/europa_the_eus_open_ai_model_is_aiming_for_nearly/"
+  },
+  {
+    "id": "41a3de0e-c1c5-81e4-ba43-fd0e0a484517",
+    "title": "RASA will cause total chaos to open LLMs and beyond",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-15T04:47:03.000Z",
+    "fetched": "2026-11-16T00:02:49.849Z",
+    "summary": "RASAがオープンな大規模言語モデル（LLM）をはじめとするAIエコシステム全体に、大きな変革と予測不能な影響をもたらすという見通しが示されています。\n\n- RASAの登場により、従来のオープンLLMの活用方法や開発体制に激しい競争と大きな変化が生じる。\n- AIのオープンソースコミュニティや開発者のエコシステムにおいて、予測不能な動向や混乱を引き起こす可能性がある。\n- これまでのルールやビジネスモデルが通用しなくなり、技術革新のスピードがさらに加速する。\n- オープンAIモデルの民主化が進む一方で、セキュリティや管理面での新たな課題が浮き彫りになる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwmnkw/rasa_will_cause_total_chaos_to_open_llms_and/"
+  },
+  {
+    "id": "41a3de0e-c1c5-81f0-9852-d8bb2846feb6",
+    "title": "Latest version of strata made my Qwen3.8-Flash-Next dumb and useless",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-15T12:02:35.000Z",
+    "fetched": "2026-11-16T00:02:57.074Z",
+    "summary": "ストラタの最新バージョン適用によりQwen3.8-Flash-Nextの性能が大幅に低下し、実用性を失ったという問題について述べている。\n\n- ストラタの最新バージョンを適用したことで、AIモデル「Qwen3.8-Flash-Next」のパフォーマンスが著しく低下した。\n- アップデート前は正常かつ有用であった処理能力が、適用後に大きく損なわれている。\n- ユーザーの間で、モデルの賢さや実用性が失われたことに対する不満や戸惑いが広がっている。\n- 具体的な原因や今後の修正パッチの配信予定については、現時点で明確に示されていない。\n- AIのバージョンアップに伴う挙動の変化や、安定性の検証の重要性が改めて浮き彫りとなっている。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwttcw/latest_version_of_strata_made_my_qwen38flashnext/"
+  }
+]
