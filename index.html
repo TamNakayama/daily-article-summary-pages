@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI/LLM記事まとめ 2026/11/15</title>
+<title>AI/LLM記事まとめ 2026/11/16</title>
 <style>
   body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
   h1 { font-size: 1.4em; }
@@ -36,7 +36,7 @@
 <header class="date-nav">
   <span class="date-nav-title">AI/LLM記事まとめ</span>
   <button id="prev-btn" aria-label="前日へ">◀</button>
-  <input id="date-input" type="text" value="2026-11-15" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <input id="date-input" type="text" value="2026-11-16" inputmode="numeric" placeholder="YYYY-MM-DD">
   <span class="date-nav-calendar-wrap">
     <span class="calendar-icon" aria-hidden="true">📅</span>
     <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
@@ -44,71 +44,53 @@
   <button id="next-btn" disabled aria-label="翌日へ">▶</button>
   <a id="monthly-link" class="monthly-link" href="topics/index.html" target="_blank" rel="noopener" aria-label="月次一覧（新しいタブで開きます）" title="月次一覧（新しいタブで開きます）">月次一覧<span class="ext" aria-hidden="true"> ↗</span></a>
 </header>
-<h1>2026/11/15</h1>
+<h1>2026/11/16</h1>
 
     <div class="card">
       <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/" target="_blank" rel="noopener">Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China</a></h2>
-      <p>Nvidia製チップの中国向け迂回輸出疑惑とジェンスン・フアン氏の元恋人に関する報道<br><br><ul><li>メガスピード社は、2024年3月から2025年6月の間に、中国企業向けに約120億ドル相当のNvidia製高性能AIチップの注文を仲介していたと報じられた。</li><li>同社は、Nvidiaの元CEOであるジェンスン・フアン氏の元恋人であるアリス・フアン氏がかつて支配株主を務めていた企業である。</li><li>アリス・フアン氏は2025年8月に同社を離れており、メガスピード社は適法な事業を行っていたと主張しているが、米国による輸出規制対象のチップを中国顧客に入手させた疑いで調査を受けている。</li><li>メガスピード社はNvidiaのクラウドパートナーとして、主要顧客であるアリババなどの存在を背景に、入手困難なAIチップへの優遇アクセスを得ていたとされる。</li></ul></p>
-    </div>
-
-    <div class="card">
-      <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/" target="_blank" rel="noopener">Australia's central bank finds AI hitting young workers first, especially in software and customer service</a></h2>
-      <p>オーストラリア準備銀行（RBA）の調査によると、AIの普及は全体的な失業をまだ引き起こしていないものの、ソフトウェア開発やカスタマーサービスといったAIの影響を受けやすい分野において、若年層の労働者に真っ先に打撃を与えていることが明らかになりました。<br><br><ul><li>2022年末のChatGPT登場以降、AIの影を受けやすい高露出分野では、若年層（15〜24歳）や新卒者の雇用率が低下し、失業率が上昇する傾向が見られる一方、同分野の高齢労働者の雇用はむしろ増加している。</li><li>米国でも同様の傾向が確認されており、2025年8月のスタンフォード大学の研究によると、AIの影響を受ける職種における22〜25歳の若年層の雇用は相対的に13%減少し、若手ソフトウェア開発者に限っては20%近く減少している。</li><li>現時点のデータでは直接的な因果関係や企業の実際のAI利用状況までは証明されておらず、パンデミック後の景気循環の変化やリモートワークの普及など、他の要因が影響している可能性もある。</li><li>求人データサイトによると、AIは既存の業務を補完するだけでなく、新たなAIスキルの需要も生み出しているため、慎重な分析が必要とされている。</li></ul></p>
-    </div>
-
-    <div class="card">
-      <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/" target="_blank" rel="noopener">Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU</a></h2>
-      <p>中国のデリバリー大手「美団（Meituan）」が、Nvidia製GPUを一切使用せず、中国製ハードウェアのみでトレーニングされた1.6兆パラメータを持つAIエージェントモデル「LongCat-2.5」の重みを公開した。<br><br><ul><li>総パラメータ数1.6兆のうち、1トークンあたり約480億が稼働するMixture-of-Experts（専門家混合）モデルである。</li><li>API経由で最大100万トークンの入力と、最大12,800トークンの出力に対応し、テキスト、画像、動画を処理できる。</li><li>画像を別個のエンコーダーではなく、テキストと同様にトークンへと直接変換する手法を採用し、ビジュアルコーディングやデザイン、3Dタスクの向上を目指している。</li><li>強化学習にはGitHubのプルリクエストなどの実際のソフトウェアタスクや、エージェントの失敗事例が活用されている。</li><li>コーディングのベンチマークにおいて、数ヶ月前の米国のトップモデル（Claude Opus 5など）と同等の水準を発揮する。</li></ul></p>
-    </div>
-
-    <div class="card">
-      <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/" target="_blank" rel="noopener">Anthropic CEO Amodei admits &quot;there's a huge uncertainty in what's going to happen next year&quot; days before a record IPO</a></h2>
-      <p>AnthropicのCEOが巨大IPOの直前にAI投資の不確実性を吐露<br><br><ul><li>Anthropicのダリオ・アモデイCEOが、11月19日の歴史的なIPOを目前に控え、AIの計算資源（コンピュート）確保における大きな不確実性と事業的ジレンマを認めた。</li><li>計算資源の購入は1〜2年先行して行う必要がある一方で、技術の急激な進歩がどのように経済的価値や収益につながるかは誰にも予測できないという課題を抱えている。</li><li>ブルームバーグによると、同社のコミットメント（約901億ドル相当）の大半はチップや計算資源に関連しており、2027年9月までに約71億ドルの支払いが迫っている。</li><li>今回予定されているIPOは、巨額の支出と将来の収益との間に生じる可能性のあるギャップを乗り切るための十分なキャッシュバッファー（資金的な緩衝材）を構築することを目的としている。</li></ul></p>
-    </div>
-
-    <div class="card">
-      <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/" target="_blank" rel="noopener">Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol</a></h2>
-      <p>Googleの「Gemini 4 Carbon」が数学ベンチマーク「MathArena」で首位を獲得したものの、OpenAIの「GPT-6.1 Sol」と比較して約15倍のコストがかかることが報じられています。<br><br><ul><li>Googleの「Gemini 4 Carbon」が、数学ベンチマーク「MathArena」でOpenAIのモデルを抜き、非OpenAIモデルとして久しぶりに首位を獲得した。</li><li>2位にはAnthropicの「Claude Fable 5.2」がランクインし、数学タスクにおいて非常に高い性能を示している。</li><li>Gemini 4 Carbonの主な弱点は制限時間を超過しやすい点で、途中で諦めずに11時間以上スクリプトを実行し続けたケースもあった。</li><li>テスト時の推論設定におけるコストは非常に高く、Gemini 4 CarbonはGPT-6.1 Solの約15倍、Claude Fable 5.2は約40倍の費用がかかる。</li><li>ベンチマーク結果では、Gemini 4 Carbonが正解率85.4%（コスト約15.70ドル）、GPT-6.1 Solが正解率80.6%（コスト約1.07ドル）となっている。</li></ul></p>
-    </div>
-
-    <div class="card">
-      <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/" target="_blank" rel="noopener">Anthropic says outdated prompting habits are slowing down Claude Opus 5.5</a></h2>
-      <p>Claude Opus 5.5を最大限に活用するには、古い世代のモデルから引き継いだ古いプロンプトの習慣を改める必要があるとAnthropicが述べています。<br><br><ul><li>「よく考えて」「深く考えて」といったフレーズは、モデルの応答を遅らせるだけで品質の向上にはつながらないため、削除することが推奨されています。現在のモデルはタスクに応じて自ら推論の深さを調整するため、こうした指示は不要です。</li><li>推論の努力レベルは、デフォルトである「ミディアム（Medium）」から始めることが推奨されています。内部テストでは、ミディアム設定のOpus 5.5が前世代の「ハイ（High）」と同等のパフォーマンスを発揮し、コスト削減につながります。</li><li>高い設定（High）は、ミディアムでは不十分な場合のみに使用するべきです。</li><li>Anthropicの推奨する効果的なプロンプトのコツには、ファイルやシステムの接続、望む最終結果の明確化、図表の直接共有、不要なデザインパターンの指定、独自のハウススタイルの共有などが含まれます。</li></ul></p>
+      <h2><a href="https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/" target="_blank" rel="noopener">Anthropic's Claude Fable 5.2 doesn't generate images, it paints them</a></h2>
+      <p>タイトル: Anthropic's Claude Fable 5.2 doesn't generate images, it paints them<br><br>結論：AnthropicのClaude Fable 5.2は、従来の画像生成AIとは異なり、コードを用いて数百万のブラシストロークを配置することで、まるで絵画のようにリアルな画像を生成する革新的なアプローチを採用しています。<br><br><ul><li>Claude Fable 5.2は、拡散モデルとは異なり、絵を描く物理的なプロセスをシミュレートすることで画像を生成します。</li><li>70万程度のブラシストロークを用いて、非常にフォトリアルな画像を生成可能。</li><li>外部の画像モデルやトレーシングされた画像を使用せず、Pythonコードを駆使して画像を生成します。</li><li>独自のアーティストのペルソナを開発し、スタイルを統一することで、単なる模倣ではない独自の芸術性を実現しています。</li><li>言語モデルが選択したツールと結果を評価する「エージェント型画像編集」の概念を取り入れています。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">Simon Willison’s Weblog (llms)</span>
-      <h2><a href="https://simonwillison.net/2026/Nov/14/datasette-llm/" target="_blank" rel="noopener">datasette-llm 0.1a11</a></h2>
-      <p>datasette-llm 0.1a11のリリースと新機能<br><br><ul><li>「datasette-llm」のバージョン0.1a11がリリースされた。本プラグインは、他のDatasetteプラグインがLLMを利用するための設定をサポートする中間プラグインである。</li><li>今回のリリースにより、OpenAI互換のエンドポイントへのサポートが追加された。これにより、OpenAIの疑似標準プロトコルに対応した任意の場所でホストされているLLMを設定して使用できる。</li><li>LM Studio、Ollama、v1.0.0を迎えたllama.cppなどのツールを用いてローカル環境でモデルを実行している場合でも、Datasette連携が可能となった。</li><li>`uvx`コマンドを使用し、プラグインの設定にローカルのモデル情報（APIベースやモデル名など）を指定することで、ローカルモデルで駆動するDatasette Agentのインスタンスを簡単に起動できる。</li></ul></p>
+      <h2><a href="https://simonwillison.net/2026/Nov/15/datasette-maplibre/" target="_blank" rel="noopener">datasette-maplibre 0.1a0</a></h2>
+      <p>タイトル: datasette-maplibre 0.1a0<br><br>このリリースは、Datasetteで地理空間データを可視化するための新しいプラグイン「datasette-maplibre」です。MapLibre GLライブラリとOpenFreeMapを組み合わせており、Zsolt Ero氏が運営する無料のベクターマップサーバーを活用します。<br><br><ul><li>  プラグインは、GeoJSONデータのSVGプレビューとWebGLプレビューを組み合わせ、スクロールに応じてWebGLプレビューのみを表示する機能を備えています。</li><li>  Claude Fable 5.2というAIモデルを用いて開発されており、他のDatasetteプラグインの機能を参考に、創造的なアイデアを取り入れています。</li><li>  最新のDatasette Liteで動作するデモページが提供されており、PyodideとWebAssemblyを使用してブラウザ上で試すことができます。</li><li>  OpenFreeMapの運営を支援するため、Zsolt Ero氏へのスポンサーシップが推奨されています。</li></ul></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/openrouter" target="_blank" rel="noopener">Hugging Face and OpenRouter join forces to make open-weight models easy to run</a></h2>
+      <p>タイトル: Hugging FaceとOpenRouterがオープンウェイトモデルの実行を容易にする<br><br><ul><li>Hugging FaceとOpenRouterが連携し、オープンウェイトモデルの実行を簡素化する。Hugging Face Hubに公開されたモデルを、OpenRouterが80以上のプロバイダーに分散してスケール実行する。</li><li>ユーザーはHugging Faceのトークンを使い、同じAPIを通じて最適なプロバイダーを選定できるため、コード変更は不要。</li><li>OpenRouterは、OpenAI、AnthropicのAPIに対応し、価格、速度、信頼性を考慮して最適なプロバイダーを選択する。</li><li>オープンウェイトモデルの利用割合は急増しており、September 2026時点で71.7%を占める。DeepSeek V4.1 Flash 1017が最も利用されている。</li><li>Hugging Face PRO、Team、Enterpriseプランでは、計算資源と推論インフラへの利用をサポートする月額クレジットが提供される。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">r/LocalLLaMA (Reddit)</span>
-      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xwr917/europa_the_eus_open_ai_model_is_aiming_for_nearly/" target="_blank" rel="noopener">EUROPA, the EU's open AI model, is aiming for nearly 1 trillion parameters</a></h2>
-      <p>EUのオープンAIモデル「EUROPA」：1兆パラメータ規模を目指す開発<br><br><ul><li>欧州連合（EU）が主導する大規模言語モデル「EUROPA」の開発計画が進行している。</li><li>「EUROPA」はオープンソースのAIモデルとして設計されており、透明性とアクセスのしやすさを重視している。</li><li>最大の目標として、約1兆パラメータという非常に大規模な構成を目指している。</li><li>この取り組みにより、欧州におけるAI技術の主権確立と、米中テック企業への依存低減を図る狙いがある。</li><li>高い性能を持つオープンAIモデルの提供を通じて、学術研究や産業界におけるイノベーションの加速を期待されている。</li></ul></p>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xxlich/the_beginning_of_the_becoming_of_the_beginning/" target="_blank" rel="noopener">The beginning of the becoming of the beginning begins</a></h2>
+      <p>タイトル: The beginning of the becoming of the beginning begins<br><br>要約：<br>このRedditの記事は、変化の根本的な始まりについて、哲学的な思考実験のように提示されています。単なる新しい始まりではなく、「始まりの始まり」という概念を表現することで、自身の思考プロセスや世界観を深く掘り下げようとしています。創造性や自己変革の源泉を探る上で、示唆に富む内容と言えるでしょう。<br><br>重要なポイント：<br><ul><li>「始まりの始まり」という概念は、従来の「始まり」という枠組みを超えた思考を促す。</li><li>変化の根本的な源泉は、単なる新しい始まりではなく、その始まりそのものにあると示唆する。</li><li>自己変革や創造性を探求する上で、この概念を応用することで新たな視点を得られる可能性がある。</li><li>哲学的な思考実験として、読者に自身の価値観や世界観について自問自答を促す。</li><li>Redditというプラットフォームにおける議論の出発点としての意味合いを持つ。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">r/LocalLLaMA (Reddit)</span>
-      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xwmnkw/rasa_will_cause_total_chaos_to_open_llms_and/" target="_blank" rel="noopener">RASA will cause total chaos to open LLMs and beyond</a></h2>
-      <p>RASAがオープンな大規模言語モデル（LLM）をはじめとするAIエコシステム全体に、大きな変革と予測不能な影響をもたらすという見通しが示されています。<br><br><ul><li>RASAの登場により、従来のオープンLLMの活用方法や開発体制に激しい競争と大きな変化が生じる。</li><li>AIのオープンソースコミュニティや開発者のエコシステムにおいて、予測不能な動向や混乱を引き起こす可能性がある。</li><li>これまでのルールやビジネスモデルが通用しなくなり、技術革新のスピードがさらに加速する。</li><li>オープンAIモデルの民主化が進む一方で、セキュリティや管理面での新たな課題が浮き彫りになる。</li></ul></p>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xxawbh/why_download_abliterated_flash_next_models_when/" target="_blank" rel="noopener">Why download abliterated Flash Next models when LoRA exists?</a></h2>
+      <p>タイトル: LoRAの存在下でAbliterated Flash Nextモデルをダウンロードする必要はない理由<br><br>LoRA（Low-Rank Adaptation）という手法の登場により、Abliterated Flash Nextのような大規模モデルをダウンロードする必要性が薄れているという議論がRedditで活発化している。<br><br><ul><li>LoRAは、元のモデル全体を再学習することなく、特定のタスクに合わせて微調整できる。</li><li>Flash Nextモデルは非常に大規模で、ダウンロード、ストレージ、計算リソースの点で大きな負担となる。</li><li>LoRAを用いることで、必要なリソースを大幅に削減し、より少ないハードウェアでも高品質な結果を得られる。</li><li>LoRAは、特定の用途に特化したモデルを効率的に作成・利用できるため、汎用的な大規模モデルの必要性を減らす。</li><li>したがって、LoRAの活用は、コスト効率と環境負荷の軽減に繋がる。</li></ul></p>
     </div>
 
     <div class="card">
       <span class="badge">r/LocalLLaMA (Reddit)</span>
-      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xwttcw/latest_version_of_strata_made_my_qwen38flashnext/" target="_blank" rel="noopener">Latest version of strata made my Qwen3.8-Flash-Next dumb and useless</a></h2>
-      <p>ストラタの最新バージョン適用によりQwen3.8-Flash-Nextの性能が大幅に低下し、実用性を失ったという問題について述べている。<br><br><ul><li>ストラタの最新バージョンを適用したことで、AIモデル「Qwen3.8-Flash-Next」のパフォーマンスが著しく低下した。</li><li>アップデート前は正常かつ有用であった処理能力が、適用後に大きく損なわれている。</li><li>ユーザーの間で、モデルの賢さや実用性が失われたことに対する不満や戸惑いが広がっている。</li><li>具体的な原因や今後の修正パッチの配信予定については、現時点で明確に示されていない。</li><li>AIのバージョンアップに伴う挙動の変化や、安定性の検証の重要性が改めて浮き彫りとなっている。</li></ul></p>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xxlgpb/introducing_hy4_flash/" target="_blank" rel="noopener">Introducing Hy4 flash</a></h2>
+      <p>タイトル: Hy4 flash を紹介<br><br>Hy4 flash は、Reddit で発表された新しいフラッシュストレージです。以下の点が重要なポイントです。<br><br><ul><li>Hy4 flash は、従来のフラッシュストレージよりも高いパフォーマンスを発揮する可能性があります。</li><li>この技術は、特定のニーズに合わせて設計されており、特にデータセンター向けの利用を想定しています。</li><li>開発元のコメントによると、既存のストレージシステムとの統合が容易です。</li><li>開発チームは、Hy4 flash の技術に関する詳細な情報公開を控える方針を示しています。</li><li>発表された内容はRedditでの議論の結果であり、最終的な製品として登場するかどうかは不明です。</li></ul></p>
     </div>
-<footer>要約モデル: gemini-3.5-flash-lite</footer>
+
+    <div class="card">
+      <span class="badge">r/LocalLLaMA (Reddit)</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xxqfqr/stop_worrying_about_qwen_4s_aa_index/" target="_blank" rel="noopener">Stop worrying about Qwen 4's AA index</a></h2>
+      <p>タイトル: Stop worrying about Qwen 4's AA index<br><br>Qwen 4のAAインデックス（アクセシビリティインデックス）への過度な懸念は不要であるというRedditでの議論を要約します。<br><br><ul><li>Qwen 4は、アクセシビリティに配慮した設計がされているものの、現時点ではまだ完璧ではない。</li><li>AAインデックスはあくまで指標の一つであり、Qwen 4の全体的な性能や可能性を測るものではない。</li><li>開発チームは継続的に改善に取り組んでおり、今後のアップデートでAAインデックスのスコアが向上する可能性がある。</li><li>ユーザーは、Qwen 4の他の優れた機能（大規模言語モデルとしての能力など）に焦点を当て、AAインデックスの変動に神経質になる必要はない。</li><li>重要なのは、Qwen 4の利用目的と、それが自身のニーズを満たすかどうかである。</li></ul></p>
+    </div>
+<footer>要約モデル: gemma3:4b</footer>
 <script>
 (function () {
-  var CURRENT_DATE = "2026-11-15";
+  var CURRENT_DATE = "2026-11-16";
   var ARTICLES_PATH_PREFIX = 'articles/';
   var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
   var CACHE_KEY = 'dateNavList';
