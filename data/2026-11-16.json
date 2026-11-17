@@ -1,0 +1,65 @@
+[
+  {
+    "id": "41b3de0e-c1c5-81c4-86cc-dcd501bfcd2d",
+    "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
+    "site": "THE DECODER",
+    "published": "2026-11-15T15:42:03.000Z",
+    "fetched": "2026-11-17T00:01:44.174Z",
+    "summary": "タイトル: Anthropic's Claude Fable 5.2 doesn't generate images, it paints them\n\n結論：AnthropicのClaude Fable 5.2は、従来の画像生成AIとは異なり、コードを用いて数百万のブラシストロークを配置することで、まるで絵画のようにリアルな画像を生成する革新的なアプローチを採用しています。\n\n- Claude Fable 5.2は、拡散モデルとは異なり、絵を描く物理的なプロセスをシミュレートすることで画像を生成します。\n- 70万程度のブラシストロークを用いて、非常にフォトリアルな画像を生成可能。\n- 外部の画像モデルやトレーシングされた画像を使用せず、Pythonコードを駆使して画像を生成します。\n- 独自のアーティストのペルソナを開発し、スタイルを統一することで、単なる模倣ではない独自の芸術性を実現しています。\n- 言語モデルが選択したツールと結果を評価する「エージェント型画像編集」の概念を取り入れています。",
+    "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/"
+  },
+  {
+    "id": "41b3de0e-c1c5-81b8-b23a-fe6a9722ad7e",
+    "title": "datasette-maplibre 0.1a0",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-11-15T23:58:36.000Z",
+    "fetched": "2026-11-17T00:01:56.611Z",
+    "summary": "タイトル: datasette-maplibre 0.1a0\n\nこのリリースは、Datasetteで地理空間データを可視化するための新しいプラグイン「datasette-maplibre」です。MapLibre GLライブラリとOpenFreeMapを組み合わせており、Zsolt Ero氏が運営する無料のベクターマップサーバーを活用します。\n\n-   プラグインは、GeoJSONデータのSVGプレビューとWebGLプレビューを組み合わせ、スクロールに応じてWebGLプレビューのみを表示する機能を備えています。\n-   Claude Fable 5.2というAIモデルを用いて開発されており、他のDatasetteプラグインの機能を参考に、創造的なアイデアを取り入れています。\n-   最新のDatasette Liteで動作するデモページが提供されており、PyodideとWebAssemblyを使用してブラウザ上で試すことができます。\n-   OpenFreeMapの運営を支援するため、Zsolt Ero氏へのスポンサーシップが推奨されています。",
+    "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/"
+  },
+  {
+    "id": "41b3de0e-c1c5-813a-a131-fcf0b214d00c",
+    "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+    "site": "Hugging Face Blog",
+    "published": "2026-11-16T00:00:00.000Z",
+    "fetched": "2026-11-17T00:02:09.453Z",
+    "summary": "タイトル: Hugging FaceとOpenRouterがオープンウェイトモデルの実行を容易にする\n\n- Hugging FaceとOpenRouterが連携し、オープンウェイトモデルの実行を簡素化する。Hugging Face Hubに公開されたモデルを、OpenRouterが80以上のプロバイダーに分散してスケール実行する。\n- ユーザーはHugging Faceのトークンを使い、同じAPIを通じて最適なプロバイダーを選定できるため、コード変更は不要。\n- OpenRouterは、OpenAI、AnthropicのAPIに対応し、価格、速度、信頼性を考慮して最適なプロバイダーを選択する。\n- オープンウェイトモデルの利用割合は急増しており、September 2026時点で71.7%を占める。DeepSeek V4.1 Flash 1017が最も利用されている。\n- Hugging Face PRO、Team、Enterpriseプランでは、計算資源と推論インフラへの利用をサポートする月額クレジットが提供される。",
+    "url": "https://huggingface.co/blog/openrouter"
+  },
+  {
+    "id": "41b3de0e-c1c5-811d-8d61-cdfcc1f1417a",
+    "title": "The beginning of the becoming of the beginning begins",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-16T09:55:51.000Z",
+    "fetched": "2026-11-17T00:02:21.407Z",
+    "summary": "タイトル: The beginning of the becoming of the beginning begins\n\n要約：\nこのRedditの記事は、変化の根本的な始まりについて、哲学的な思考実験のように提示されています。単なる新しい始まりではなく、「始まりの始まり」という概念を表現することで、自身の思考プロセスや世界観を深く掘り下げようとしています。創造性や自己変革の源泉を探る上で、示唆に富む内容と言えるでしょう。\n\n重要なポイント：\n- 「始まりの始まり」という概念は、従来の「始まり」という枠組みを超えた思考を促す。\n- 変化の根本的な源泉は、単なる新しい始まりではなく、その始まりそのものにあると示唆する。\n- 自己変革や創造性を探求する上で、この概念を応用することで新たな視点を得られる可能性がある。\n- 哲学的な思考実験として、読者に自身の価値観や世界観について自問自答を促す。\n- Redditというプラットフォームにおける議論の出発点としての意味合いを持つ。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxlich/the_beginning_of_the_becoming_of_the_beginning/"
+  },
+  {
+    "id": "41b3de0e-c1c5-81f0-bc0d-c6d1dd0d6c1c",
+    "title": "Why download abliterated Flash Next models when LoRA exists?",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-16T00:06:16.000Z",
+    "fetched": "2026-11-17T00:02:32.121Z",
+    "summary": "タイトル: LoRAの存在下でAbliterated Flash Nextモデルをダウンロードする必要はない理由\n\nLoRA（Low-Rank Adaptation）という手法の登場により、Abliterated Flash Nextのような大規模モデルをダウンロードする必要性が薄れているという議論がRedditで活発化している。\n\n- LoRAは、元のモデル全体を再学習することなく、特定のタスクに合わせて微調整できる。\n- Flash Nextモデルは非常に大規模で、ダウンロード、ストレージ、計算リソースの点で大きな負担となる。\n- LoRAを用いることで、必要なリソースを大幅に削減し、より少ないハードウェアでも高品質な結果を得られる。\n- LoRAは、特定の用途に特化したモデルを効率的に作成・利用できるため、汎用的な大規模モデルの必要性を減らす。\n- したがって、LoRAの活用は、コスト効率と環境負荷の軽減に繋がる。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxawbh/why_download_abliterated_flash_next_models_when/"
+  },
+  {
+    "id": "41b3de0e-c1c5-814e-9098-df0a1854f652",
+    "title": "Introducing Hy4 flash",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-16T09:52:44.000Z",
+    "fetched": "2026-11-17T00:02:41.679Z",
+    "summary": "タイトル: Hy4 flash を紹介\n\nHy4 flash は、Reddit で発表された新しいフラッシュストレージです。以下の点が重要なポイントです。\n\n- Hy4 flash は、従来のフラッシュストレージよりも高いパフォーマンスを発揮する可能性があります。\n- この技術は、特定のニーズに合わせて設計されており、特にデータセンター向けの利用を想定しています。\n- 開発元のコメントによると、既存のストレージシステムとの統合が容易です。\n- 開発チームは、Hy4 flash の技術に関する詳細な情報公開を控える方針を示しています。\n- 発表された内容はRedditでの議論の結果であり、最終的な製品として登場するかどうかは不明です。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxlgpb/introducing_hy4_flash/"
+  },
+  {
+    "id": "41b3de0e-c1c5-8120-b700-d97f4f7f1701",
+    "title": "Stop worrying about Qwen 4's AA index",
+    "site": "r/LocalLLaMA (Reddit)",
+    "published": "2026-11-16T14:16:10.000Z",
+    "fetched": "2026-11-17T00:02:52.526Z",
+    "summary": "タイトル: Stop worrying about Qwen 4's AA index\n\nQwen 4のAAインデックス（アクセシビリティインデックス）への過度な懸念は不要であるというRedditでの議論を要約します。\n\n- Qwen 4は、アクセシビリティに配慮した設計がされているものの、現時点ではまだ完璧ではない。\n- AAインデックスはあくまで指標の一つであり、Qwen 4の全体的な性能や可能性を測るものではない。\n- 開発チームは継続的に改善に取り組んでおり、今後のアップデートでAAインデックスのスコアが向上する可能性がある。\n- ユーザーは、Qwen 4の他の優れた機能（大規模言語モデルとしての能力など）に焦点を当て、AAインデックスの変動に神経質になる必要はない。\n- 重要なのは、Qwen 4の利用目的と、それが自身のニーズを満たすかどうかである。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxqfqr/stop_worrying_about_qwen_4s_aa_index/"
+  }
+]
