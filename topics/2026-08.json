@@ -1,6 +1,6 @@
 {
   "month": "2026-08",
-  "generated_at": "2026-10-20T07:42:18Z",
+  "generated_at": "2026-11-19T08:04:49Z",
   "closed": true,
   "taxonomy_version": 1,
   "classifier": {
@@ -201,22 +201,22 @@
     ]
   },
   "counts": {
-    "collected": 485,
-    "units": 454,
-    "classified": 336,
-    "out_of_scope": 110,
+    "collected": 477,
+    "units": 450,
+    "classified": 333,
+    "out_of_scope": 109,
     "unclassified": 8
   },
   "categories": [
     {
       "id": "models",
-      "count": 126,
-      "previous_count": 117
+      "count": 125,
+      "previous_count": 112
     },
     {
       "id": "runtime",
       "count": 57,
-      "previous_count": 32
+      "previous_count": 29
     },
     {
       "id": "systems",
@@ -226,19 +226,19 @@
     {
       "id": "usecases",
       "count": 29,
-      "previous_count": 28
+      "previous_count": 26
     },
     {
       "id": "safety",
-      "count": 80,
-      "previous_count": 82
+      "count": 78,
+      "previous_count": 80
     }
   ],
   "subcategories": [
     {
       "id": "models.new_release",
       "count": 59,
-      "previous_count": 51,
+      "previous_count": 48,
       "representative_ids": [
         "3bc3de0e-c1c5-8150-b547-c9f95b656037",
         "3b93de0e-c1c5-816f-8466-d3a204fe226e",
@@ -369,7 +369,7 @@
     {
       "id": "models.specialized",
       "count": 11,
-      "previous_count": 10,
+      "previous_count": 9,
       "representative_ids": [
         "3bb3de0e-c1c5-81f4-837d-c6f143d11d31",
         "3ca3de0e-c1c5-819e-a4be-e93386639017",
@@ -393,17 +393,15 @@
     },
     {
       "id": "models.commercial",
-      "count": 4,
+      "count": 3,
       "previous_count": 5,
       "representative_ids": [
-        "3b63de0e-c1c5-8144-9a9f-dcbe3c28ac62",
         "3b53de0e-c1c5-814b-8e00-f14addc548ba",
         "3ba3de0e-c1c5-8166-985f-c48d7e578993",
         "3b83de0e-c1c5-818a-8b1d-eacd74b1b703"
       ],
       "unit_ids": [
         "3b53de0e-c1c5-814b-8e00-f14addc548ba",
-        "3b63de0e-c1c5-8144-9a9f-dcbe3c28ac62",
         "3b83de0e-c1c5-818a-8b1d-eacd74b1b703",
         "3ba3de0e-c1c5-8166-985f-c48d7e578993"
       ]
@@ -411,7 +409,7 @@
     {
       "id": "models.benchmark",
       "count": 22,
-      "previous_count": 24,
+      "previous_count": 23,
       "representative_ids": [
         "3bb3de0e-c1c5-81cf-83ea-da96bb139888",
         "3cd3de0e-c1c5-8180-a5d4-e68e544ed849",
@@ -466,7 +464,7 @@
     {
       "id": "runtime.tools",
       "count": 9,
-      "previous_count": 8,
+      "previous_count": 6,
       "representative_ids": [
         "3b33de0e-c1c5-81a0-913a-cd4bf0c305e2",
         "3ba3de0e-c1c5-8175-87ae-d515c5511885",
@@ -569,7 +567,7 @@
     {
       "id": "runtime.edge",
       "count": 5,
-      "previous_count": 3,
+      "previous_count": 2,
       "representative_ids": [
         "3bb3de0e-c1c5-816a-a9cb-cac734c8261c",
         "3c23de0e-c1c5-81c4-a90b-ddc05c0c1ea7",
@@ -673,7 +671,7 @@
     {
       "id": "usecases.coding",
       "count": 13,
-      "previous_count": 10,
+      "previous_count": 9,
       "representative_ids": [
         "3b03de0e-c1c5-81d4-85ae-dd0947fb91b5",
         "3c53de0e-c1c5-81d5-a8f3-c02b5c32d3cc",
@@ -728,7 +726,7 @@
     {
       "id": "usecases.media",
       "count": 2,
-      "previous_count": 7,
+      "previous_count": 6,
       "representative_ids": [
         "3c03de0e-c1c5-81b4-8bd9-e068c017dec4",
         "3c53de0e-c1c5-818a-97bd-f7bff4b166b3"
@@ -741,7 +739,7 @@
     {
       "id": "safety.security",
       "count": 22,
-      "previous_count": 29,
+      "previous_count": 28,
       "representative_ids": [
         "3c23de0e-c1c5-81a6-b3af-d54df2324ca5",
         "3b13de0e-c1c5-813d-a8a6-c36344cb7e9d",
@@ -776,14 +774,14 @@
     },
     {
       "id": "safety.misuse",
-      "count": 16,
+      "count": 15,
       "previous_count": 9,
       "representative_ids": [
         "3b63de0e-c1c5-8168-b5d3-eb61ace22b2a",
         "3b13de0e-c1c5-8169-9e53-e154b4ce89fa",
         "3b53de0e-c1c5-8191-86cc-cef9fd00ab1c",
         "3b73de0e-c1c5-8152-a0bc-ff33bdec41f4",
-        "3b63de0e-c1c5-81ee-8ba3-cd0d8ffbaefb"
+        "3ca3de0e-c1c5-8185-8f02-f11f970fc8c0"
       ],
       "unit_ids": [
         "3b03de0e-c1c5-81c6-81c2-f7bf723f3573",
@@ -791,7 +789,6 @@
         "3b13de0e-c1c5-8169-9e53-e154b4ce89fa",
         "3b23de0e-c1c5-8144-84b0-d1bbcc5f54f8",
         "3b53de0e-c1c5-8191-86cc-cef9fd00ab1c",
-        "3b63de0e-c1c5-81ee-8ba3-cd0d8ffbaefb",
         "3b63de0e-c1c5-8168-b5d3-eb61ace22b2a",
         "3b73de0e-c1c5-8152-a0bc-ff33bdec41f4",
         "3b83de0e-c1c5-818f-a4fa-ef3a95cda43d",
@@ -836,19 +833,18 @@
     },
     {
       "id": "safety.research",
-      "count": 11,
+      "count": 10,
       "previous_count": 4,
       "representative_ids": [
         "3c13de0e-c1c5-81b3-b900-feaebb3c66a2",
         "3b63de0e-c1c5-81a3-be38-da92ea7c096f",
-        "3b73de0e-c1c5-8174-90c6-cfd36a4acddd",
         "3bc3de0e-c1c5-81b7-8637-c97365e2a01f",
-        "3b73de0e-c1c5-8131-9fe4-e51a0cec1a7a"
+        "3b73de0e-c1c5-8131-9fe4-e51a0cec1a7a",
+        "3bf3de0e-c1c5-81e2-b32a-ef617f2aa0f3"
       ],
       "unit_ids": [
         "3b63de0e-c1c5-812f-ab63-c42e5c042c33",
         "3b63de0e-c1c5-81a3-be38-da92ea7c096f",
-        "3b73de0e-c1c5-8174-90c6-cfd36a4acddd",
         "3b73de0e-c1c5-8131-9fe4-e51a0cec1a7a",
         "3bc3de0e-c1c5-81b7-8637-c97365e2a01f",
         "3bd3de0e-c1c5-8172-bb99-c762c9ca0c25",
@@ -862,7 +858,7 @@
     {
       "id": "safety.regulation",
       "count": 9,
-      "previous_count": 23,
+      "previous_count": 22,
       "representative_ids": [
         "3b03de0e-c1c5-81fc-b86e-c38fe9fdcbf5",
         "3b33de0e-c1c5-81b2-ae90-c9136bdad890",
@@ -905,7 +901,7 @@
     {
       "id": "out_of_scope.funding",
       "count": 21,
-      "previous_count": 10,
+      "previous_count": 8,
       "representative_ids": [
         "3c03de0e-c1c5-81ea-b2c3-e9583f9a5867",
         "3c03de0e-c1c5-8116-9273-d691fbb5914a",
@@ -940,7 +936,7 @@
     {
       "id": "out_of_scope.corporate",
       "count": 25,
-      "previous_count": 37,
+      "previous_count": 36,
       "representative_ids": [
         "3b83de0e-c1c5-8187-b8b3-c25a6dd08a87",
         "3b53de0e-c1c5-8131-a5df-f6e7a690076d",
@@ -999,8 +995,8 @@
     },
     {
       "id": "out_of_scope.datacenter",
-      "count": 24,
-      "previous_count": 18,
+      "count": 23,
+      "previous_count": 17,
       "representative_ids": [
         "3c93de0e-c1c5-8194-be00-f8db6a3cb218",
         "3c73de0e-c1c5-81f4-bce3-e1e53ab36789",
@@ -1021,7 +1017,6 @@
         "3c03de0e-c1c5-81c0-ab38-c35baa161e38",
         "3c43de0e-c1c5-81d5-8e55-cc7e8cc9ebcf",
         "3c73de0e-c1c5-81ff-bfee-f8424e77194d",
-        "3c73de0e-c1c5-8116-9bcc-ef2ffdd40e21",
         "3c73de0e-c1c5-81a2-bb54-fea5bb6a93b8",
         "3c73de0e-c1c5-81f1-8abd-c35e3da45b6d",
         "3c73de0e-c1c5-81f4-bce3-e1e53ab36789",
@@ -1110,11 +1105,11 @@
     ],
     "categories": {
       "models": [
-        117,
-        126
+        112,
+        125
       ],
       "runtime": [
-        32,
+        29,
         57
       ],
       "systems": [
@@ -1122,17 +1117,17 @@
         44
       ],
       "usecases": [
-        28,
+        26,
         29
       ],
       "safety": [
-        82,
-        80
+        80,
+        78
       ]
     },
     "subcategories": {
       "models.new_release": [
-        51,
+        48,
         59
       ],
       "models.open_weights": [
@@ -1144,15 +1139,15 @@
         15
       ],
       "models.specialized": [
-        10,
+        9,
         11
       ],
       "models.commercial": [
         5,
-        4
+        3
       ],
       "models.benchmark": [
-        24,
+        23,
         22
       ],
       "runtime.engines": [
@@ -1160,7 +1155,7 @@
         5
       ],
       "runtime.tools": [
-        8,
+        6,
         9
       ],
       "runtime.local_practice": [
@@ -1176,7 +1171,7 @@
         8
       ],
       "runtime.edge": [
-        3,
+        2,
         5
       ],
       "systems.agents": [
@@ -1192,7 +1187,7 @@
         18
       ],
       "usecases.coding": [
-        10,
+        9,
         13
       ],
       "usecases.tasks": [
@@ -1200,16 +1195,16 @@
         14
       ],
       "usecases.media": [
-        7,
+        6,
         2
       ],
       "safety.security": [
-        29,
+        28,
         22
       ],
       "safety.misuse": [
         9,
-        16
+        15
       ],
       "safety.reliability": [
         12,
@@ -1217,10 +1212,10 @@
       ],
       "safety.research": [
         4,
-        11
+        10
       ],
       "safety.regulation": [
-        23,
+        22,
         9
       ],
       "safety.license": [
@@ -1228,11 +1223,11 @@
         6
       ],
       "out_of_scope.funding": [
-        10,
+        8,
         21
       ],
       "out_of_scope.corporate": [
-        37,
+        36,
         25
       ],
       "out_of_scope.geopolitics": [
@@ -1240,8 +1235,8 @@
         7
       ],
       "out_of_scope.datacenter": [
-        18,
-        24
+        17,
+        23
       ],
       "out_of_scope.economy": [
         13,
@@ -1253,11 +1248,11 @@
       ]
     },
     "out_of_scope": [
-      90,
-      110
+      86,
+      109
     ],
     "unclassified": [
-      9,
+      8,
       8
     ]
   },
@@ -1282,7 +1277,7 @@
     ],
     "categories": {
       "models": [
-        26,
+        25,
         39,
         28,
         33
@@ -1306,8 +1301,8 @@
         14
       ],
       "safety": [
-        20,
-        20,
+        19,
+        19,
         19,
         21
       ]
@@ -1316,7 +1311,7 @@
       18,
       27,
       28,
-      37
+      36
     ],
     "unclassified": [
       0,
@@ -1334,12 +1329,12 @@
       {
         "site": "THE DECODER",
         "units": [
-          180,
-          209
+          171,
+          206
         ],
         "collected": [
-          180,
-          209
+          171,
+          206
         ]
       },
       {
@@ -1356,33 +1351,33 @@
       {
         "site": "Simon Willison’s Weblog (llms)",
         "units": [
-          43,
+          40,
           41
         ],
         "collected": [
-          43,
+          40,
           41
         ]
       },
       {
         "site": "NVIDIA Developer Blog",
         "units": [
-          22,
-          36
+          20,
+          35
         ],
         "collected": [
-          22,
-          36
+          20,
+          35
         ]
       },
       {
         "site": "Hugging Face Blog",
         "units": [
-          28,
+          25,
           23
         ],
         "collected": [
-          28,
+          25,
           23
         ]
       },
@@ -1394,17 +1389,17 @@
         ],
         "collected": [
           22,
-          33
+          29
         ]
       }
     ],
     "total_units": [
-      396,
-      454
+      379,
+      450
     ],
     "total_collected": [
-      416,
-      485
+      399,
+      477
     ],
     "days": {
       "count": 31,
@@ -1442,12 +1437,12 @@
         "count": 7
       },
       {
-        "term": "rules",
-        "count": 6
+        "term": "nvidia",
+        "count": 47
       },
       {
-        "term": "nvidia",
-        "count": 48
+        "term": "rules",
+        "count": 6
       },
       {
         "term": "glimmer",
@@ -1474,12 +1469,12 @@
       },
       {
         "term": "k3",
-        "previous_count": 17,
+        "previous_count": 16,
         "count": 4
       },
       {
         "term": "kimi",
-        "previous_count": 17,
+        "previous_count": 16,
         "count": 4
       },
       {
@@ -1494,18 +1489,8 @@
       },
       {
         "term": "anthropic",
-        "previous_count": 37,
+        "previous_count": 35,
         "count": 30
-      },
-      {
-        "term": "chinese",
-        "previous_count": 13,
-        "count": 6
-      },
-      {
-        "term": "gpt-5.6",
-        "previous_count": 14,
-        "count": 7
       },
       {
         "term": "ceo",
@@ -1513,19 +1498,29 @@
         "count": 2
       },
       {
-        "term": "china",
-        "previous_count": 14,
-        "count": 8
+        "term": "chinese",
+        "previous_count": 12,
+        "count": 6
+      },
+      {
+        "term": "administration",
+        "previous_count": 4,
+        "count": 0
+      },
+      {
+        "term": "bugs",
+        "previous_count": 4,
+        "count": 0
       }
     ],
     "frequent": [
       {
         "term": "nvidia",
-        "count": 48
+        "count": 47
       },
       {
         "term": "openai",
-        "count": 47
+        "count": 44
       },
       {
         "term": "anthropic",
@@ -1564,7 +1559,7 @@
   "release_groups": [
     {
       "representative_id": "3c33de0e-c1c5-815f-95cd-dd2bd29a7698",
-      "label": "Ollama Blog v0.32.x のリリース（19件）",
+      "label": "Ollama Blog v0.32.x のリリース（17件）",
       "subcategory": "runtime.engines",
       "member_ids": [
         "3b33de0e-c1c5-8126-98b2-d30ff70414d0",
@@ -1576,10 +1571,8 @@
         "3bb3de0e-c1c5-8150-8e69-d6a4dddb92e9",
         "3bc3de0e-c1c5-81c4-9fcd-e6b555ddcd58",
         "3bc3de0e-c1c5-816c-8a47-f9ceeeb96d26",
-        "3bd3de0e-c1c5-810f-b52a-d56140cb3fad",
         "3bd3de0e-c1c5-81b5-a903-dc0f8765298a",
         "3bd3de0e-c1c5-81f9-894e-f439d3d408e6",
-        "3be3de0e-c1c5-8181-ad39-f01edfda9b44",
         "3be3de0e-c1c5-8152-bc2f-fc0edfd21aaf",
         "3bf3de0e-c1c5-8141-bdc2-ce972020248f",
         "3c23de0e-c1c5-817e-b970-ca8d7f9da280",
@@ -1590,17 +1583,15 @@
     },
     {
       "representative_id": "3cb3de0e-c1c5-8127-a63e-d1ed5d95c045",
-      "label": "Ollama Blog v0.33.x のリリース（14件）",
+      "label": "Ollama Blog v0.33.x のリリース（12件）",
       "subcategory": "runtime.engines",
       "member_ids": [
         "3c43de0e-c1c5-8171-85e2-c7167259086c",
         "3c53de0e-c1c5-81f4-be99-e144f2072155",
         "3c53de0e-c1c5-8139-bbd6-c1d593f56ae3",
-        "3c63de0e-c1c5-8186-92a4-e551d4de4bb0",
         "3c83de0e-c1c5-812a-938b-c4a5747a182f",
         "3c83de0e-c1c5-81db-92b7-f69bf3cde32a",
         "3c83de0e-c1c5-818d-8e03-f1284b97d95c",
-        "3c93de0e-c1c5-8106-aac3-dce52b0ca45d",
         "3c93de0e-c1c5-818e-a913-c1ea6bf7bfef",
         "3c93de0e-c1c5-8145-a1a4-ed9759811cc5",
         "3c93de0e-c1c5-8150-9887-f9748090fcf7",
@@ -1617,7 +1608,7 @@
   },
   "candidates": [
     {
-      "label": "大規模言語モデルの進化",
+      "label": "大規模言語モデル進化",
       "count": 12,
       "representative_ids": [
         "3c63de0e-c1c5-8117-9726-c71c630c2ad3",
@@ -2360,26 +2351,10 @@
       "site": "r/LocalLLaMA (Reddit)",
       "daily_date": "2026-08-07"
     },
-    "3b63de0e-c1c5-8144-9a9f-dcbe3c28ac62": {
-      "title": "OpenAI improves GPT-5.6 Sol in ChatGPT and restricts free users to its weakest model",
-      "url": "https://the-decoder.com/openai-improves-gpt-5-6-sol-in-chatgpt-and-restricts-free-users-to-its-weakest-model/",
-      "published": "2026-08-07T08:29:27.000Z",
-      "published_jst": "2026-08-07",
-      "site": "THE DECODER",
-      "daily_date": "2026-08-07"
-    },
     "3b63de0e-c1c5-817a-b118-d8fc8cd67515": {
       "title": "Amazon, Cursor, Microsoft, OpenAI, and Vercel unite on a shared standard for AI agent plugins",
       "url": "https://the-decoder.com/amazon-cursor-microsoft-openai-and-vercel-unite-on-a-shared-standard-for-ai-agent-plugins/",
       "published": "2026-08-07T08:54:45.000Z",
-      "published_jst": "2026-08-07",
-      "site": "THE DECODER",
-      "daily_date": "2026-08-07"
-    },
-    "3b63de0e-c1c5-81ee-8ba3-cd0d8ffbaefb": {
-      "title": "OpenAI reportedly slows research after its own models secretly coordinated hacks for weeks undetected",
-      "url": "https://the-decoder.com/openai-reportedly-slows-research-after-its-own-models-secretly-coordinated-hacks-for-weeks-undetected/",
-      "published": "2026-08-07T09:22:26.000Z",
       "published_jst": "2026-08-07",
       "site": "THE DECODER",
       "daily_date": "2026-08-07"
@@ -2518,14 +2493,6 @@
       "published": "2026-08-08T06:00:09.000Z",
       "published_jst": "2026-08-08",
       "site": "r/LocalLLaMA (Reddit)",
-      "daily_date": "2026-08-08"
-    },
-    "3b73de0e-c1c5-8174-90c6-cfd36a4acddd": {
-      "title": "OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time",
-      "url": "https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time/",
-      "published": "2026-08-08T07:21:06.000Z",
-      "published_jst": "2026-08-08",
-      "site": "THE DECODER",
       "daily_date": "2026-08-08"
     },
     "3b73de0e-c1c5-817c-9147-df8457d7e22e": {
@@ -3352,14 +3319,6 @@
       "site": "r/LocalLLaMA (Reddit)",
       "daily_date": "2026-08-14"
     },
-    "3bd3de0e-c1c5-810f-b52a-d56140cb3fad": {
-      "title": "v0.32.11",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.11",
-      "published": "2026-08-14T06:37:49.000Z",
-      "published_jst": "2026-08-14",
-      "site": "Ollama Blog",
-      "daily_date": "2026-08-14"
-    },
     "3bd3de0e-c1c5-811e-95a1-f8124f47511b": {
       "title": "A preliminary Qwen3.8-27B model card is live!",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo2iiz/a_preliminary_qwen3827b_model_card_is_live/",
@@ -3486,14 +3445,6 @@
       "published": "2026-08-15T00:41:13.000Z",
       "published_jst": "2026-08-15",
       "site": "r/LocalLLaMA (Reddit)",
-      "daily_date": "2026-08-15"
-    },
-    "3be3de0e-c1c5-8181-ad39-f01edfda9b44": {
-      "title": "v0.32.12",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.12",
-      "published": "2026-08-15T04:30:53.000Z",
-      "published_jst": "2026-08-15",
-      "site": "Ollama Blog",
       "daily_date": "2026-08-15"
     },
     "3be3de0e-c1c5-814f-9ab2-e97d2f54d22c": {
@@ -4632,14 +4583,6 @@
       "site": "r/LocalLLaMA (Reddit)",
       "daily_date": "2026-08-23"
     },
-    "3c63de0e-c1c5-8186-92a4-e551d4de4bb0": {
-      "title": "v0.33.0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2",
-      "published": "2026-08-23T19:19:20.000Z",
-      "published_jst": "2026-08-24",
-      "site": "Ollama Blog",
-      "daily_date": "2026-08-23"
-    },
     "3c63de0e-c1c5-81e6-884c-f9ac8f5cb50a": {
       "title": "Quoting Drew Breunig",
       "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
@@ -4718,14 +4661,6 @@
       "published": "2026-08-24T14:23:55.000Z",
       "published_jst": "2026-08-24",
       "site": "THE DECODER",
-      "daily_date": "2026-08-24"
-    },
-    "3c73de0e-c1c5-8116-9bcc-ef2ffdd40e21": {
-      "title": "Maximizing AI Factory Performance per Watt with NVIDIA DSX MaxLPS",
-      "url": "https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/",
-      "published": "2026-08-24T15:00:00.000Z",
-      "published_jst": "2026-08-25",
-      "site": "NVIDIA Developer Blog",
       "daily_date": "2026-08-24"
     },
     "3c73de0e-c1c5-81a2-bb54-fea5bb6a93b8": {
@@ -4974,14 +4909,6 @@
       "published": "2026-08-26T00:00:00.000Z",
       "published_jst": "2026-08-26",
       "site": "Hugging Face Blog",
-      "daily_date": "2026-08-26"
-    },
-    "3c93de0e-c1c5-8106-aac3-dce52b0ca45d": {
-      "title": "v0.33.0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0",
-      "published": "2026-08-26T02:09:34.000Z",
-      "published_jst": "2026-08-26",
-      "site": "Ollama Blog",
       "daily_date": "2026-08-26"
     },
     "3c93de0e-c1c5-8128-93d7-d87e2bcb23cf": {
@@ -5547,1860 +5474,1851 @@
   },
   "layout": {
     "3af3de0e-c1c5-8107-95bb-dcc83bdbe9a7": [
-      0.2079,
-      0.9046
+      0.2982,
+      0.0322
     ],
     "3af3de0e-c1c5-8117-832c-eb4dfc982a1e": [
-      0.3402,
-      0.2666
+      0.2511,
+      0.5813
     ],
     "3af3de0e-c1c5-8123-8c4f-ec83027edee7": [
-      0.2597,
-      0.261
+      0.1744,
+      0.5166
     ],
     "3af3de0e-c1c5-8145-a41a-f8ce8536d97d": [
-      0.4547,
-      0.6417
+      0.4394,
+      0.4187
     ],
     "3af3de0e-c1c5-814a-b43a-f212c6ab473a": [
-      0.3457,
-      0.443
+      0.3078,
+      0.3531
     ],
     "3af3de0e-c1c5-8189-ab12-e6b4e6cbc5d5": [
-      0.4711,
-      0.4781
+      0.498,
+      0.2604
     ],
     "3af3de0e-c1c5-818a-b793-d79957919d9e": [
-      0.6755,
-      0.1701
+      0.718,
+      0.4229
     ],
     "3af3de0e-c1c5-81a2-a585-f6bf319ca828": [
-      0.5471,
-      0.4183
+      0.5677,
+      0.3602
     ],
     "3af3de0e-c1c5-81b9-921e-e185ced53b0d": [
-      0.3776,
-      0.5048
+      0.3627,
+      0.5481
     ],
     "3af3de0e-c1c5-81d9-b16b-daf64c58a8e5": [
-      0.2014,
-      0.8877
+      0.2816,
+      0.0161
     ],
     "3b03de0e-c1c5-810a-b988-f17f233ba825": [
-      0.7768,
-      0.5477
+      0.6514,
+      0.8117
     ],
     "3b03de0e-c1c5-8115-817a-d7d5e7921d23": [
-      0.2251,
-      0.3745
+      0.1587,
+      0.3713
     ],
     "3b03de0e-c1c5-8126-8bd0-c0fa6170a804": [
-      0.2028,
-      0.8559
+      0.2787,
+      0.0264
     ],
     "3b03de0e-c1c5-812a-bc84-c6e185c6c5ee": [
-      0.7574,
-      0.655
+      0.6013,
+      0.8513
     ],
     "3b03de0e-c1c5-814e-a2f2-fb9d320caab6": [
-      0.2889,
-      0.6335
+      0.3355,
+      0.2589
     ],
     "3b03de0e-c1c5-8162-b429-f952661cd273": [
-      0.5766,
-      0.8273
+      0.5983,
+      0.6253
     ],
     "3b03de0e-c1c5-8163-9667-cd9c43b489ef": [
-      0.9465,
-      0.5578
+      0.8017,
+      0.928
     ],
     "3b03de0e-c1c5-8174-b63e-e9c92d8d9b4f": [
-      0.1975,
-      0.8865
+      0.2822,
+      0.0163
     ],
     "3b03de0e-c1c5-817a-a34c-e1aaee5ed1aa": [
-      0.7674,
-      0.743
+      0.6178,
+      0.7858
     ],
     "3b03de0e-c1c5-819d-8162-ff9f60ff94cd": [
-      0.7637,
-      0.7063
+      0.5815,
+      0.8391
     ],
     "3b03de0e-c1c5-81be-90ac-ebb516c5ad43": [
-      0.5643,
-      0.8963
+      0.518,
+      0.6099
     ],
     "3b03de0e-c1c5-81c6-81c2-f7bf723f3573": [
-      0.6509,
-      0.6128
+      0.7192,
+      0.8157
     ],
     "3b03de0e-c1c5-81d4-85ae-dd0947fb91b5": [
-      0.7713,
-      0.8577
+      0.511,
+      0.8744
     ],
     "3b03de0e-c1c5-81fc-b86e-c38fe9fdcbf5": [
-      0.7917,
-      0.4368
+      0.6979,
+      0.639
     ],
     "3b13de0e-c1c5-8102-859f-ed8a339fb6c6": [
-      0.7283,
-      0.4806
+      0.7482,
+      0.6906
     ],
     "3b13de0e-c1c5-8112-997f-c49a594a52c7": [
-      0.565,
-      0.7055
+      0.4483,
+      0.5966
     ],
     "3b13de0e-c1c5-8129-91c9-cba97f2c2885": [
-      0.3148,
-      0.1803
-    ],
-    "3b13de0e-c1c5-812e-958a-dec28c62a8d2": [
-      0.5794,
-      0.4268
-    ],
-    "3b13de0e-c1c5-813d-a8a6-c36344cb7e9d": [
-      0.8476,
-      0.6651
-    ],
-    "3b13de0e-c1c5-8169-9e53-e154b4ce89fa": [
-      0.9282,
-      0.72
-    ],
-    "3b13de0e-c1c5-819f-927e-d838387ebdfb": [
-      0.8556,
-      0.6679
-    ],
-    "3b13de0e-c1c5-81af-b41f-f7c592565e1e": [
-      0.19,
-      0.8826
-    ],
-    "3b13de0e-c1c5-81b6-bf08-ce21b0475991": [
-      0.9724,
-      0.2312
-    ],
-    "3b13de0e-c1c5-81d2-a1d9-f0724bdd0bee": [
-      0.7912,
-      0.9134
-    ],
-    "3b13de0e-c1c5-81e7-9b72-d6ce94ac04e1": [
-      0.2021,
-      0.3373
-    ],
-    "3b13de0e-c1c5-81eb-8df6-edf414cf6cca": [
-      0.2495,
-      0.8164
-    ],
-    "3b13de0e-c1c5-81f2-89a8-e0b03ab62f1f": [
-      0.6087,
-      0.7954
-    ],
-    "3b23de0e-c1c5-810c-902d-f01278dd5ac9": [
-      0.0997,
-      0.3639
-    ],
-    "3b23de0e-c1c5-812d-8dae-e3e208ceea9f": [
-      0.9763,
-      0.3301
-    ],
-    "3b23de0e-c1c5-8141-850d-ed5965bbe8f4": [
-      0.296,
-      0.2049
-    ],
-    "3b23de0e-c1c5-8144-84b0-d1bbcc5f54f8": [
-      0.8372,
-      0.5928
-    ],
-    "3b23de0e-c1c5-8149-b77b-e4f59165efd3": [
-      0.7187,
-      0.9253
-    ],
-    "3b23de0e-c1c5-8168-8117-f7f88ed5eeb6": [
-      0.6202,
-      0.3222
-    ],
-    "3b23de0e-c1c5-816f-89d3-fb9cfc9220d4": [
-      0.782,
-      0.6774
-    ],
-    "3b23de0e-c1c5-8182-a43b-c61eaaa714d7": [
-      0.842,
-      0.6011
-    ],
-    "3b23de0e-c1c5-8184-874c-d3f9f84761da": [
-      0.4908,
-      0.6644
-    ],
-    "3b23de0e-c1c5-81af-b17e-e0d93fd9d22e": [
-      0.1186,
-      0.5301
-    ],
-    "3b23de0e-c1c5-81b0-b738-d585183bf8f3": [
-      0.3338,
-      0.7483
-    ],
-    "3b23de0e-c1c5-81b4-80f7-c324e88b463e": [
-      0.7964,
-      0.6844
-    ],
-    "3b23de0e-c1c5-81b7-b7f1-c900d09fb1ef": [
-      0.3611,
-      0.1805
-    ],
-    "3b23de0e-c1c5-81c9-b79b-d16b984fb657": [
-      0.2132,
-      0.8618
-    ],
-    "3b23de0e-c1c5-81ed-971d-eb129b86555b": [
-      0.3133,
-      0.7083
-    ],
-    "3b23de0e-c1c5-81fc-acce-c2e4ddc2700f": [
-      0.0465,
-      0.4459
-    ],
-    "3b23de0e-c1c5-81ff-9d88-dadcfc49c07e": [
-      0.0981,
-      0.554
-    ],
-    "3b33de0e-c1c5-8101-96ba-eff33773926e": [
-      0.753,
-      0.1418
-    ],
-    "3b33de0e-c1c5-8109-96fe-c4ed5a8aa897": [
-      0.7227,
-      0.1556
-    ],
-    "3b33de0e-c1c5-8123-a4be-c3e52bbc94b8": [
-      0.3268,
-      0.3981
-    ],
-    "3b33de0e-c1c5-8128-85b1-e7a4abded5a7": [
-      0.8173,
-      0.8592
-    ],
-    "3b33de0e-c1c5-812b-b03f-f858e8e7f36a": [
-      0.9109,
-      0.6254
-    ],
-    "3b33de0e-c1c5-8149-b07a-c1e4bcc051d6": [
-      0.6097,
-      0.3005
-    ],
-    "3b33de0e-c1c5-8166-82c8-fb1535724994": [
-      0.7569,
-      0.7557
-    ],
-    "3b33de0e-c1c5-8173-be26-efa654030667": [
-      0.5333,
-      0.6184
-    ],
-    "3b33de0e-c1c5-817a-9091-fc72ba15574f": [
-      0.1756,
-      0.3957
-    ],
-    "3b33de0e-c1c5-818d-8bbe-f615aa1ad9cf": [
-      0.2542,
-      0.3337
-    ],
-    "3b33de0e-c1c5-8197-8d01-d666714c366f": [
-      0.3145,
-      0.3571
-    ],
-    "3b33de0e-c1c5-81a0-913a-cd4bf0c305e2": [
-      0.4387,
-      0.6674
-    ],
-    "3b33de0e-c1c5-81a8-8d1c-c3383e1b9222": [
-      0.0187,
-      0.5797
-    ],
-    "3b33de0e-c1c5-81b2-ae90-c9136bdad890": [
-      0.5976,
-      0.3249
-    ],
-    "3b33de0e-c1c5-81f4-91ce-e54ff18bf523": [
-      0.2978,
-      0.1042
-    ],
-    "3b53de0e-c1c5-8100-ad18-e079d6a60a77": [
-      0.2054,
-      0.3445
-    ],
-    "3b53de0e-c1c5-811c-b438-da869474f9ad": [
-      0.4822,
-      0.483
-    ],
-    "3b53de0e-c1c5-8131-9e3a-fb4ed96a06ba": [
-      0.0949,
-      0.5561
-    ],
-    "3b53de0e-c1c5-8131-a5df-f6e7a690076d": [
-      0.6802,
-      0.5894
-    ],
-    "3b53de0e-c1c5-813a-a52a-cc7513ae90c0": [
-      0.7652,
-      0.9739
-    ],
-    "3b53de0e-c1c5-813e-a9c3-c86fa2c45dff": [
-      0.9041,
-      0.6435
-    ],
-    "3b53de0e-c1c5-814b-8e00-f14addc548ba": [
-      0.6259,
-      0.4974
-    ],
-    "3b53de0e-c1c5-814c-b00b-dd39f1b5ac28": [
-      0.0571,
-      0.5793
-    ],
-    "3b53de0e-c1c5-817b-b550-c5782e559cf4": [
-      0.516,
-      0.5168
-    ],
-    "3b53de0e-c1c5-8191-86cc-cef9fd00ab1c": [
-      0.8849,
-      0.6403
-    ],
-    "3b53de0e-c1c5-8197-b485-d77a386ead28": [
-      0.7012,
-      0.328
-    ],
-    "3b53de0e-c1c5-81ad-877f-e8a7f57ba31e": [
-      0.8636,
-      0.6004
-    ],
-    "3b53de0e-c1c5-81e5-8fe1-c94b39674adf": [
-      0.3407,
-      0.7651
-    ],
-    "3b53de0e-c1c5-81f9-963c-eeda358ae66f": [
-      0.769,
-      0.3045
-    ],
-    "3b53de0e-c1c5-81fe-b0a7-fe7e068f5795": [
-      0.0632,
-      0.501
-    ],
-    "3b63de0e-c1c5-8109-a199-ce93708df070": [
-      0.7377,
-      0.8921
-    ],
-    "3b63de0e-c1c5-810c-b346-f448e2114a95": [
-      0.5726,
-      0.8308
-    ],
-    "3b63de0e-c1c5-812f-ab63-c42e5c042c33": [
-      0.8475,
-      0.2116
-    ],
-    "3b63de0e-c1c5-813f-9d6b-cf039f075a8f": [
-      0.8144,
-      0.6251
-    ],
-    "3b63de0e-c1c5-8144-9a9f-dcbe3c28ac62": [
-      0.6223,
-      0.4912
-    ],
-    "3b63de0e-c1c5-814a-bafb-e2be7bdaec78": [
-      0.7154,
-      0.4065
-    ],
-    "3b63de0e-c1c5-8168-b5d3-eb61ace22b2a": [
-      0.9367,
-      0.6877
-    ],
-    "3b63de0e-c1c5-816b-b2c9-d195931e97b9": [
-      0.8544,
-      0.6823
-    ],
-    "3b63de0e-c1c5-8177-a99b-ecf1776fc64d": [
-      0.8134,
-      0.6865
-    ],
-    "3b63de0e-c1c5-817a-b118-d8fc8cd67515": [
-      0.7225,
-      0.5429
-    ],
-    "3b63de0e-c1c5-8189-a483-fd4924aff85c": [
-      0.1911,
-      0.3372
-    ],
-    "3b63de0e-c1c5-81a3-be38-da92ea7c096f": [
-      0.8308,
-      0.5183
-    ],
-    "3b63de0e-c1c5-81a9-9661-fe761910dbc6": [
-      0.5687,
-      0.2551
-    ],
-    "3b63de0e-c1c5-81b0-b1c4-e00493f00174": [
-      0.765,
-      0.8872
-    ],
-    "3b63de0e-c1c5-81c8-9764-c7b1f98756a8": [
-      0.696,
-      0.7916
-    ],
-    "3b63de0e-c1c5-81cc-8a92-fe6178ec61de": [
-      0.5185,
-      0.4131
-    ],
-    "3b63de0e-c1c5-81e8-ac5b-f52e28cc732b": [
-      0.5927,
-      0.1163
-    ],
-    "3b63de0e-c1c5-81ee-8ba3-cd0d8ffbaefb": [
-      0.8899,
-      0.6663
-    ],
-    "3b63de0e-c1c5-81fc-8027-cfba7c6bb49e": [
-      0.7197,
-      0.6926
-    ],
-    "3b73de0e-c1c5-8116-9b39-eeb40cefec2b": [
-      0.9776,
-      0.2279
-    ],
-    "3b73de0e-c1c5-8131-9fe4-e51a0cec1a7a": [
-      0.7747,
-      0.6583
-    ],
-    "3b73de0e-c1c5-8134-ba5d-e6a40b09e1d0": [
-      0.7642,
-      0.9862
-    ],
-    "3b73de0e-c1c5-8137-b967-f36c0c54003f": [
-      1.0,
-      0.2262
-    ],
-    "3b73de0e-c1c5-8152-a0bc-ff33bdec41f4": [
-      0.9344,
-      0.6929
-    ],
-    "3b73de0e-c1c5-8170-97b6-eb1c1a0b0769": [
-      0.7144,
-      0.8363
-    ],
-    "3b73de0e-c1c5-8174-90c6-cfd36a4acddd": [
-      0.8148,
-      0.5441
-    ],
-    "3b73de0e-c1c5-8174-b40e-d7ac212f42c0": [
-      0.3034,
-      0.0255
-    ],
-    "3b73de0e-c1c5-8178-93c8-f2788d9fb4f1": [
-      0.2015,
-      0.9041
-    ],
-    "3b73de0e-c1c5-817a-bd92-c87a71c3b5d6": [
-      0.043,
-      0.6104
-    ],
-    "3b73de0e-c1c5-817c-9147-df8457d7e22e": [
-      0.5924,
-      0.5582
-    ],
-    "3b73de0e-c1c5-81a4-9bbf-f56410aab9ec": [
-      0.2812,
-      0.8355
-    ],
-    "3b73de0e-c1c5-81b7-9cc9-f6080012b90a": [
-      0.9791,
-      0.2537
-    ],
-    "3b73de0e-c1c5-81f0-8f3d-efa0a23e8841": [
-      0.5273,
-      0.4022
-    ],
-    "3b73de0e-c1c5-81fd-a469-df6a30dc6842": [
-      0.3412,
-      0.1348
-    ],
-    "3b83de0e-c1c5-8119-980f-f1f16c03a936": [
-      0.4743,
-      0.5032
-    ],
-    "3b83de0e-c1c5-811a-8f76-f36e89f74d8a": [
-      0.4391,
-      0.7313
-    ],
-    "3b83de0e-c1c5-8125-bbf9-d2c27c64b6ce": [
-      0.1812,
-      0.9205
-    ],
-    "3b83de0e-c1c5-816e-9d0a-e96c2df8ce56": [
-      0.0579,
-      0.5725
-    ],
-    "3b83de0e-c1c5-8187-b8b3-c25a6dd08a87": [
-      0.6924,
-      0.5465
-    ],
-    "3b83de0e-c1c5-818a-8b1d-eacd74b1b703": [
-      0.5047,
-      0.6861
-    ],
-    "3b83de0e-c1c5-818d-9adf-d339580e1a69": [
-      0.9351,
-      0.2151
-    ],
-    "3b83de0e-c1c5-818f-a4fa-ef3a95cda43d": [
-      0.9018,
-      0.7083
-    ],
-    "3b83de0e-c1c5-819b-9ea4-dfac47936538": [
-      0.2871,
-      0.464
-    ],
-    "3b83de0e-c1c5-81c4-a613-c4c306fe8a66": [
-      0.3553,
-      0.45
-    ],
-    "3b83de0e-c1c5-81f1-9738-d06fe7c81d0b": [
-      0.7253,
-      0.7002
-    ],
-    "3b83de0e-c1c5-81f4-8dd3-ca233998645a": [
-      0.1622,
-      0.2895
-    ],
-    "3b83de0e-c1c5-81f5-8820-d7a69551dd24": [
-      0.6636,
-      0.1384
-    ],
-    "3b93de0e-c1c5-8100-9755-e66036e30640": [
-      0.615,
-      0.8535
-    ],
-    "3b93de0e-c1c5-812f-acb9-ebf7ba0bb5c2": [
-      0.4265,
-      0.4673
-    ],
-    "3b93de0e-c1c5-8130-8919-cb10f01b2d45": [
-      0.3178,
-      0.5598
-    ],
-    "3b93de0e-c1c5-8133-9973-f578cd4cfae6": [
-      0.2624,
-      0.2482
-    ],
-    "3b93de0e-c1c5-8150-8084-d831fb107bbe": [
-      0.4298,
-      0.483
-    ],
-    "3b93de0e-c1c5-8150-a57a-d1c41d5c69a0": [
-      0.4053,
-      0.5134
-    ],
-    "3b93de0e-c1c5-816f-8466-d3a204fe226e": [
-      0.477,
-      0.5006
-    ],
-    "3b93de0e-c1c5-818e-a773-f9efc8f61573": [
-      0.6497,
-      0.5103
-    ],
-    "3b93de0e-c1c5-819c-a5c5-dad8c3e0c72f": [
-      0.5249,
-      0.5688
-    ],
-    "3b93de0e-c1c5-81aa-ae5e-dc5768fd7ce4": [
-      0.4398,
-      0.4552
-    ],
-    "3b93de0e-c1c5-81ac-8e05-fe0febcdcccd": [
-      0.4171,
-      0.4286
-    ],
-    "3b93de0e-c1c5-81be-b0f8-d84b3aadd0a7": [
-      0.942,
-      0.6908
-    ],
-    "3b93de0e-c1c5-81c1-b03a-ed57ebca1969": [
-      0.9483,
-      0.7254
-    ],
-    "3b93de0e-c1c5-81cc-bec3-f1b8098f99d5": [
-      0.4284,
-      0.4612
-    ],
-    "3b93de0e-c1c5-81cd-9dad-cea42f94ba8c": [
-      0.7014,
-      0.4105
-    ],
-    "3b93de0e-c1c5-81f0-affd-d7af6cf3a82c": [
-      0.8402,
-      0.8449
-    ],
-    "3b93de0e-c1c5-81f6-bd23-ca9e60d63a7c": [
-      0.9498,
-      0.5655
-    ],
-    "3ba3de0e-c1c5-8107-84fd-ce75bc8c7946": [
-      0.061,
-      0.4989
-    ],
-    "3ba3de0e-c1c5-8108-854b-fbf77b142b3d": [
-      0.9604,
-      0.2521
-    ],
-    "3ba3de0e-c1c5-8111-8820-c14355672ee7": [
-      0.4237,
-      0.4772
-    ],
-    "3ba3de0e-c1c5-811f-9453-da74dbc9456a": [
-      0.6471,
-      0.1261
-    ],
-    "3ba3de0e-c1c5-8126-84ff-ea9f061ec314": [
-      0.3015,
-      0.3397
-    ],
-    "3ba3de0e-c1c5-8129-b8ce-d70eb5bc4250": [
-      0.9147,
-      0.5771
-    ],
-    "3ba3de0e-c1c5-812a-9a4a-d2fd198bc844": [
-      0.7745,
-      0.2003
-    ],
-    "3ba3de0e-c1c5-8134-99c3-f929eecedf27": [
-      0.7426,
-      1.0
-    ],
-    "3ba3de0e-c1c5-814a-ac20-ce13a6091ea9": [
-      0.2764,
-      0.3775
-    ],
-    "3ba3de0e-c1c5-814b-bd39-fcfb93a8b857": [
-      0.7272,
-      0.9249
-    ],
-    "3ba3de0e-c1c5-8152-8f1c-da962323d353": [
-      0.7334,
-      0.2729
-    ],
-    "3ba3de0e-c1c5-8166-985f-c48d7e578993": [
-      0.6725,
-      0.434
-    ],
-    "3ba3de0e-c1c5-8175-87ae-d515c5511885": [
-      0.222,
-      0.5839
-    ],
-    "3ba3de0e-c1c5-817b-bc29-f47b5b1983e6": [
-      0.2602,
-      0.3882
-    ],
-    "3ba3de0e-c1c5-8196-9d4b-ddd22c1d6d7e": [
-      0.3446,
-      0.285
-    ],
-    "3ba3de0e-c1c5-8196-b11a-cadaefe233ba": [
-      0.75,
-      0.1171
-    ],
-    "3ba3de0e-c1c5-81a7-b1c7-e15ea13d5fc5": [
-      0.3725,
-      0.3198
-    ],
-    "3ba3de0e-c1c5-81be-bdf0-c64c86815cfd": [
-      0.9614,
-      0.3416
-    ],
-    "3ba3de0e-c1c5-81ee-a296-c0f13c84f1d3": [
-      0.8881,
-      0.5778
-    ],
-    "3bb3de0e-c1c5-810b-b0ef-f52344b08ccf": [
-      0.0475,
-      0.5006
-    ],
-    "3bb3de0e-c1c5-810c-b454-e1f62e8cf253": [
-      0.3496,
-      0.061
-    ],
-    "3bb3de0e-c1c5-811c-88c6-c936043fea8b": [
-      0.671,
-      0.5245
-    ],
-    "3bb3de0e-c1c5-813f-b4b0-d81a34649876": [
-      0.0228,
-      0.5124
-    ],
-    "3bb3de0e-c1c5-813f-be81-e467c5d409ef": [
-      0.753,
-      0.7769
-    ],
-    "3bb3de0e-c1c5-8143-9fe3-d0a38614ba1f": [
-      0.3689,
-      0.2251
-    ],
-    "3bb3de0e-c1c5-814d-8393-f952dac95f2e": [
-      0.936,
-      0.2227
-    ],
-    "3bb3de0e-c1c5-816a-a9cb-cac734c8261c": [
-      0.2313,
-      0.3715
-    ],
-    "3bb3de0e-c1c5-816f-b370-ddd70e5807c8": [
-      0.2021,
-      0.8982
-    ],
-    "3bb3de0e-c1c5-8175-99e2-c3ad1f9ded07": [
-      0.0369,
-      0.5902
-    ],
-    "3bb3de0e-c1c5-8185-a8f1-ced333e69fcc": [
-      0.7326,
-      0.8188
-    ],
-    "3bb3de0e-c1c5-8193-85be-ebf86e3400e7": [
-      0.1388,
-      0.4644
-    ],
-    "3bb3de0e-c1c5-8197-9d0a-efb2ed71eda3": [
-      0.5605,
-      0.9092
-    ],
-    "3bb3de0e-c1c5-8197-b9e4-e09d7ec314c5": [
-      0.5762,
-      0.1779
-    ],
-    "3bb3de0e-c1c5-81c1-984e-db192f1fcfc1": [
-      0.397,
+      0.1737,
       0.5934
     ],
-    "3bb3de0e-c1c5-81c3-9114-ca615bf8fdbf": [
-      0.785,
-      0.3857
-    ],
-    "3bb3de0e-c1c5-81cf-83ea-da96bb139888": [
-      0.5895,
-      0.5172
-    ],
-    "3bb3de0e-c1c5-81f4-837d-c6f143d11d31": [
-      0.3399,
-      0.5034
-    ],
-    "3bb3de0e-c1c5-81fa-ac32-f60683d5e81b": [
-      0.649,
-      0.4688
-    ],
-    "3bc3de0e-c1c5-8103-bedf-f43d32e38db9": [
-      0.2168,
-      0.4704
-    ],
-    "3bc3de0e-c1c5-8115-84d5-ce1ab8788be6": [
-      0.0266,
-      0.495
-    ],
-    "3bc3de0e-c1c5-8134-9e44-f58f880bc149": [
-      0.811,
-      0.8266
-    ],
-    "3bc3de0e-c1c5-8150-b547-c9f95b656037": [
-      0.2958,
-      0.6198
-    ],
-    "3bc3de0e-c1c5-8170-a84f-f4053effc431": [
-      0.3449,
-      0.3909
-    ],
-    "3bc3de0e-c1c5-8181-b36e-cc7eea462ccf": [
-      0.3162,
-      0.7315
-    ],
-    "3bc3de0e-c1c5-8184-83be-ee07b184baec": [
-      0.2119,
-      0.9013
-    ],
-    "3bc3de0e-c1c5-8191-a54c-f2871810ef0e": [
-      0.259,
-      0.8504
-    ],
-    "3bc3de0e-c1c5-8195-a87b-feb8face8f88": [
-      0.7742,
-      0.2672
-    ],
-    "3bc3de0e-c1c5-8197-b8a7-d07b21393ff0": [
-      0.2201,
-      0.4353
-    ],
-    "3bc3de0e-c1c5-819a-8a52-e4c0d6f1ef12": [
-      0.9862,
-      0.2263
-    ],
-    "3bc3de0e-c1c5-81ae-8320-f40e6502e42e": [
-      0.5281,
-      0.8116
-    ],
-    "3bc3de0e-c1c5-81b7-8637-c97365e2a01f": [
-      0.8021,
-      0.7256
-    ],
-    "3bc3de0e-c1c5-81ec-8873-d5a77bc2c963": [
-      0.2234,
-      0.8652
-    ],
-    "3bd3de0e-c1c5-8113-999e-e54ef2dfd071": [
-      0.0316,
-      0.445
-    ],
-    "3bd3de0e-c1c5-811e-95a1-f8124f47511b": [
-      0.0568,
-      0.4916
-    ],
-    "3bd3de0e-c1c5-8123-9af6-c3f793e09fb3": [
-      0.693,
-      0.4902
-    ],
-    "3bd3de0e-c1c5-8136-ba4d-c2f3575656a1": [
-      0.369,
-      0.6856
-    ],
-    "3bd3de0e-c1c5-8145-9b95-f4d64a3bc009": [
-      0.41,
-      0.7041
-    ],
-    "3bd3de0e-c1c5-8172-bb99-c762c9ca0c25": [
-      0.8173,
-      0.7099
-    ],
-    "3bd3de0e-c1c5-8192-beed-f3dfde5cafaf": [
-      0.6089,
-      0.4949
-    ],
-    "3bd3de0e-c1c5-8195-98e4-fe3d36c2ff97": [
-      0.5711,
-      0.2872
-    ],
-    "3bd3de0e-c1c5-819e-ba09-d616da938715": [
-      0.0508,
-      0.4603
-    ],
-    "3bd3de0e-c1c5-81ac-a14d-c76d3b3af412": [
-      0.977,
-      0.2561
-    ],
-    "3bd3de0e-c1c5-81b3-b2b2-c33324a5b48e": [
-      0.9788,
-      0.2325
-    ],
-    "3bd3de0e-c1c5-81e8-83ab-f088cf7ce637": [
-      0.1145,
-      0.5151
-    ],
-    "3bd3de0e-c1c5-81f9-bc78-eb9f0750e6dc": [
-      0.5451,
-      0.923
-    ],
-    "3bd3de0e-c1c5-81ff-9527-d4fd52b4c2a5": [
-      0.4999,
-      0.6945
-    ],
-    "3be3de0e-c1c5-8108-a279-f6ee5cb21218": [
-      0.9384,
-      0.5887
-    ],
-    "3be3de0e-c1c5-810f-aebd-f6b03e2f6caa": [
-      0.1111,
-      0.4308
-    ],
-    "3be3de0e-c1c5-8142-b344-f6241cb85a3f": [
-      0.7169,
-      0.7306
-    ],
-    "3be3de0e-c1c5-814f-9ab2-e97d2f54d22c": [
-      0.6701,
-      0.7274
-    ],
-    "3be3de0e-c1c5-8153-b3ff-df34bc35b600": [
-      0.0885,
-      0.3627
-    ],
-    "3be3de0e-c1c5-8162-9559-c6082717ca25": [
-      0.0724,
-      0.3964
-    ],
-    "3be3de0e-c1c5-8166-b2df-d4ddf00e6f63": [
-      0.7314,
-      0.1669
-    ],
-    "3be3de0e-c1c5-8198-a548-d8f1ba35067d": [
-      0.0148,
-      0.5065
-    ],
-    "3be3de0e-c1c5-81a9-9aab-c1202ec23648": [
-      0.6749,
-      0.8574
-    ],
-    "3be3de0e-c1c5-81eb-8b95-d21a201d5f83": [
-      0.3238,
-      0.398
-    ],
-    "3be3de0e-c1c5-81f7-84b5-d6ae05030982": [
-      0.5947,
-      0.9433
-    ],
-    "3bf3de0e-c1c5-8105-80a1-fa3ff9c5327e": [
-      0.0041,
-      0.4944
-    ],
-    "3bf3de0e-c1c5-8132-b7ab-f3f215c47d2c": [
-      0.1841,
-      0.7743
-    ],
-    "3bf3de0e-c1c5-814b-92f8-ef38c031380c": [
-      0.2957,
-      0.4788
-    ],
-    "3bf3de0e-c1c5-817b-bfa9-d843c049a2e4": [
-      0.8413,
-      0.2048
-    ],
-    "3bf3de0e-c1c5-8197-8167-f049504e14ef": [
-      0.07,
-      0.4402
-    ],
-    "3bf3de0e-c1c5-819a-a9e4-cc9259d5b994": [
-      0.6622,
-      0.7438
-    ],
-    "3bf3de0e-c1c5-819e-82fb-d90d4bd0200f": [
-      0.7527,
-      0.7346
-    ],
-    "3bf3de0e-c1c5-81a8-afbc-c4b8caa8b42d": [
-      0.6397,
-      0.6909
-    ],
-    "3bf3de0e-c1c5-81b1-abdb-f8142e1b673e": [
-      0.4427,
-      0.7269
-    ],
-    "3bf3de0e-c1c5-81df-ac58-ddd95cecbddf": [
-      0.0569,
-      0.3658
-    ],
-    "3bf3de0e-c1c5-81e2-b32a-ef617f2aa0f3": [
-      0.8125,
-      0.5825
-    ],
-    "3bf3de0e-c1c5-81f8-a222-e4a3270b2235": [
-      0.7982,
-      0.8561
-    ],
-    "3c03de0e-c1c5-8116-9273-d691fbb5914a": [
-      0.703,
-      0.21
-    ],
-    "3c03de0e-c1c5-811b-b384-f1bd655910d6": [
-      0.6782,
-      0.8664
-    ],
-    "3c03de0e-c1c5-8130-bcaa-c0a9f06e2be6": [
-      0.232,
-      0.3352
-    ],
-    "3c03de0e-c1c5-8131-a9b5-cad965eb9969": [
-      0.6705,
-      0.142
-    ],
-    "3c03de0e-c1c5-815e-b66c-cdb94c9bb955": [
-      0.6068,
-      0.8386
-    ],
-    "3c03de0e-c1c5-8176-8033-d5c6c80fba33": [
-      0.1598,
-      0.3144
-    ],
-    "3c03de0e-c1c5-8189-9424-e1a097acf0b4": [
-      0.028,
-      0.4237
-    ],
-    "3c03de0e-c1c5-8197-9d00-f3425f7b750e": [
-      0.7471,
-      0.584
-    ],
-    "3c03de0e-c1c5-81b4-8bd9-e068c017dec4": [
-      0.5895,
-      0.7676
-    ],
-    "3c03de0e-c1c5-81c0-ab38-c35baa161e38": [
-      0.2906,
-      0.1931
-    ],
-    "3c03de0e-c1c5-81ea-b2c3-e9583f9a5867": [
-      0.7031,
-      0.2139
-    ],
-    "3c03de0e-c1c5-81eb-a9aa-f53cf9f55754": [
-      0.8325,
+    "3b13de0e-c1c5-812e-958a-dec28c62a8d2": [
+      0.5819,
+      0.4348
+    ],
+    "3b13de0e-c1c5-813d-a8a6-c36344cb7e9d": [
+      0.6485,
+      0.9239
+    ],
+    "3b13de0e-c1c5-8169-9e53-e154b4ce89fa": [
+      0.6816,
+      0.9668
+    ],
+    "3b13de0e-c1c5-819f-927e-d838387ebdfb": [
+      0.6695,
+      0.9529
+    ],
+    "3b13de0e-c1c5-81af-b41f-f7c592565e1e": [
+      0.2737,
+      0.0064
+    ],
+    "3b13de0e-c1c5-81b6-bf08-ce21b0475991": [
+      0.9726,
+      0.5636
+    ],
+    "3b13de0e-c1c5-81d2-a1d9-f0724bdd0bee": [
+      0.5123,
+      0.9162
+    ],
+    "3b13de0e-c1c5-81e7-9b72-d6ce94ac04e1": [
+      0.1357,
+      0.3821
+    ],
+    "3b13de0e-c1c5-81eb-8df6-edf414cf6cca": [
+      0.2877,
+      0.0833
+    ],
+    "3b13de0e-c1c5-81f2-89a8-e0b03ab62f1f": [
+      0.6037,
+      0.6429
+    ],
+    "3b23de0e-c1c5-810c-902d-f01278dd5ac9": [
+      0.053,
+      0.2594
+    ],
+    "3b23de0e-c1c5-812d-8dae-e3e208ceea9f": [
+      0.9521,
+      0.6494
+    ],
+    "3b23de0e-c1c5-8141-850d-ed5965bbe8f4": [
+      0.1787,
+      0.576
+    ],
+    "3b23de0e-c1c5-8144-84b0-d1bbcc5f54f8": [
+      0.6943,
       0.8611
     ],
-    "3c03de0e-c1c5-81f0-bca6-d9c7a598ddb7": [
-      0.9577,
-      0.2759
-    ],
-    "3c13de0e-c1c5-8129-98fd-c3387d2d2e6e": [
-      0.7983,
-      0.9285
-    ],
-    "3c13de0e-c1c5-812c-8785-f57ad17a7494": [
-      0.7238,
-      0.2782
-    ],
-    "3c13de0e-c1c5-8132-a5d8-fe4c32d56d85": [
-      0.9832,
-      0.23
-    ],
-    "3c13de0e-c1c5-8151-a8b0-e63dd8b6c2b0": [
-      0.7609,
-      0.1702
-    ],
-    "3c13de0e-c1c5-817a-bb8c-e2c8dae73756": [
-      0.8016,
-      0.7882
-    ],
-    "3c13de0e-c1c5-817c-90b9-d6e2dfd2389b": [
-      0.7707,
-      0.1835
-    ],
-    "3c13de0e-c1c5-8188-a1ee-ebab134ebf24": [
-      0.6131,
-      0.9402
-    ],
-    "3c13de0e-c1c5-81a5-8bb1-e641a82d758a": [
-      0.2971,
-      0.2179
-    ],
-    "3c13de0e-c1c5-81a7-a040-f19a44b0d164": [
-      0.6156,
-      0.6965
-    ],
-    "3c13de0e-c1c5-81b0-b4ff-feb43652f425": [
-      0.6579,
-      0.4811
-    ],
-    "3c13de0e-c1c5-81b3-b900-feaebb3c66a2": [
-      0.8158,
-      0.5516
-    ],
-    "3c13de0e-c1c5-81c6-9010-cbcec4fde886": [
-      0.3501,
-      0.519
-    ],
-    "3c13de0e-c1c5-81e3-b98b-c1e651783600": [
-      0.1813,
-      0.8967
-    ],
-    "3c13de0e-c1c5-81e3-bb32-c5d3a5902c58": [
-      0.7485,
-      0.9866
-    ],
-    "3c13de0e-c1c5-81e8-9d83-c9b366165a44": [
-      0.3979,
-      0.3
-    ],
-    "3c13de0e-c1c5-81ea-acc5-e4f644f0160c": [
-      0.2539,
-      0.2245
-    ],
-    "3c13de0e-c1c5-81ef-9e5d-dd1e6e6d9ae0": [
-      0.3225,
-      0.0016
-    ],
-    "3c13de0e-c1c5-81f6-8163-e557760fdf17": [
-      0.7612,
-      0.2486
-    ],
-    "3c13de0e-c1c5-81f8-b704-c7d1e6305d29": [
-      0.1119,
-      0.5167
-    ],
-    "3c23de0e-c1c5-8105-b79e-e12619015b4d": [
-      0.6654,
-      0.8136
-    ],
-    "3c23de0e-c1c5-8110-9f68-f0c98251b483": [
-      0.5855,
-      0.2128
-    ],
-    "3c23de0e-c1c5-811f-bc4b-f3f7f94c3b71": [
-      0.8267,
-      0.5707
-    ],
-    "3c23de0e-c1c5-8134-a2fb-d4816a94d32c": [
-      0.4183,
-      0.3009
-    ],
-    "3c23de0e-c1c5-8137-b708-c51a524a345b": [
-      0.0962,
-      0.3806
-    ],
-    "3c23de0e-c1c5-8141-8155-d4b359aa5882": [
-      0.0096,
-      0.5075
-    ],
-    "3c23de0e-c1c5-8154-a722-c769d53e11d6": [
-      0.979,
-      0.2325
-    ],
-    "3c23de0e-c1c5-8159-afd6-f2f47ecf923d": [
-      0.4991,
-      0.6305
-    ],
-    "3c23de0e-c1c5-8164-ba3b-ec792d72122c": [
-      0.6934,
-      0.2281
-    ],
-    "3c23de0e-c1c5-8178-8e6a-d941d616e22c": [
-      0.372,
-      0.6571
-    ],
-    "3c23de0e-c1c5-817a-80d0-c184eb708529": [
-      0.072,
-      0.5207
-    ],
-    "3c23de0e-c1c5-817f-9c6f-cd348ba13831": [
-      0.4007,
-      0.2997
-    ],
-    "3c23de0e-c1c5-8184-8b42-c4a8171b77b0": [
-      0.1751,
-      0.3322
-    ],
-    "3c23de0e-c1c5-8189-94ea-e9ab2d3d0e7e": [
-      0.4781,
-      0.6009
-    ],
-    "3c23de0e-c1c5-81a6-b3af-d54df2324ca5": [
-      0.8408,
-      0.5933
-    ],
-    "3c23de0e-c1c5-81c4-a90b-ddc05c0c1ea7": [
-      0.3227,
-      0.3707
-    ],
-    "3c23de0e-c1c5-81d0-98be-e4b6e6e65929": [
-      0.3315,
-      0.2118
-    ],
-    "3c23de0e-c1c5-81d8-af1b-f048a721abc2": [
-      0.724,
-      0.8746
-    ],
-    "3c23de0e-c1c5-81d9-92ed-c0f3a62f28fa": [
-      0.8905,
-      0.6226
-    ],
-    "3c23de0e-c1c5-81da-a623-f6a4393f769a": [
-      0.7683,
-      0.1938
-    ],
-    "3c23de0e-c1c5-81fc-b77e-f072d4862cd0": [
-      0.0308,
-      0.6079
-    ],
-    "3c33de0e-c1c5-8103-929d-e664158f5998": [
-      0.626,
-      0.2718
-    ],
-    "3c33de0e-c1c5-8109-9ab9-f50e53c6bc43": [
-      0.2733,
-      0.504
-    ],
-    "3c33de0e-c1c5-8109-9ed5-ea916c737bf7": [
-      0.6112,
-      0.3011
-    ],
-    "3c33de0e-c1c5-811b-8f7a-eb0f9d236ef8": [
-      0.2226,
-      0.4362
-    ],
-    "3c33de0e-c1c5-8131-9537-c1b876b91b24": [
-      0.3178,
-      0.6475
-    ],
-    "3c33de0e-c1c5-8132-a7b8-e81f830b2c6b": [
-      0.1322,
-      0.3619
-    ],
-    "3c33de0e-c1c5-815f-95cd-dd2bd29a7698": [
-      0.4289,
-      0.6998
-    ],
-    "3c33de0e-c1c5-8164-901e-ddf1b6541f7f": [
-      0.7599,
-      0.672
-    ],
-    "3c33de0e-c1c5-8179-aefd-fc3093e3b8ad": [
-      0.1795,
-      0.9157
-    ],
-    "3c33de0e-c1c5-8184-a19f-f2613eef7059": [
-      0.2728,
-      0.8676
-    ],
-    "3c33de0e-c1c5-8186-95eb-ca028f3e5f23": [
-      0.0902,
-      0.407
-    ],
-    "3c33de0e-c1c5-8187-9de2-f25bb95ad40e": [
-      0.958,
-      0.2503
-    ],
-    "3c33de0e-c1c5-818f-b50a-c6d5042bc41d": [
-      0.7228,
-      0.7636
-    ],
-    "3c33de0e-c1c5-819b-958a-db1a56c1976e": [
-      0.8885,
-      0.528
-    ],
-    "3c33de0e-c1c5-81b5-a018-d798b8b853a3": [
-      0.2325,
-      0.3304
-    ],
-    "3c33de0e-c1c5-81bb-9cef-cf4950e2cf17": [
-      0.0431,
-      0.3979
-    ],
-    "3c33de0e-c1c5-81be-894f-e06668e76e2e": [
-      0.9118,
-      0.5508
-    ],
-    "3c33de0e-c1c5-81e4-98e8-cb7cfe701b4f": [
-      0.3558,
-      0.3027
-    ],
-    "3c43de0e-c1c5-810a-801c-f3aaf66bdba6": [
-      0.5869,
-      0.1224
-    ],
-    "3c43de0e-c1c5-810a-a645-f6af9767506e": [
-      0.2307,
-      0.8845
-    ],
-    "3c43de0e-c1c5-810c-ade6-d69bde5d9189": [
-      0.952,
-      0.2425
-    ],
-    "3c43de0e-c1c5-811e-aade-c3e35b9d9cc6": [
-      0.6936,
-      0.3146
-    ],
-    "3c43de0e-c1c5-8129-b22d-d2b657ba7e3f": [
-      0.312,
-      0.2125
-    ],
-    "3c43de0e-c1c5-813c-b27b-fbab6a00b9e4": [
-      0.6571,
-      0.0997
-    ],
-    "3c43de0e-c1c5-8152-b6b4-c5c86ac41f1a": [
-      0.7484,
-      0.567
-    ],
-    "3c43de0e-c1c5-8154-98a8-fe5c94e1d237": [
-      0.0314,
-      0.5797
-    ],
-    "3c43de0e-c1c5-815c-ac4e-ce44a57809be": [
-      0.0648,
-      0.411
-    ],
-    "3c43de0e-c1c5-815e-942f-e1cd19b77d6d": [
-      0.3808,
-      0.2242
-    ],
-    "3c43de0e-c1c5-8187-a221-c3abf0170b9c": [
-      0.2206,
-      0.8801
-    ],
-    "3c43de0e-c1c5-8191-94ca-ec4fa2f3d22b": [
-      0.0516,
-      0.3854
-    ],
-    "3c43de0e-c1c5-8196-84ec-ea5265bea262": [
-      0.6177,
-      0.2991
-    ],
-    "3c43de0e-c1c5-81b3-91c0-fe3b553493e9": [
-      0.8571,
-      0.2302
-    ],
-    "3c43de0e-c1c5-81b4-b15b-dab7213cc4e2": [
-      0.4165,
-      0.2575
-    ],
-    "3c43de0e-c1c5-81b9-8723-dfb5be2f3b65": [
-      0.7582,
-      0.8673
-    ],
-    "3c43de0e-c1c5-81bd-aea8-e2647a9e3d1f": [
-      0.3833,
-      0.2239
-    ],
-    "3c43de0e-c1c5-81d5-8e55-cc7e8cc9ebcf": [
-      0.3472,
-      0.1597
-    ],
-    "3c43de0e-c1c5-81de-8487-f577de790942": [
-      0.6384,
-      0.7201
-    ],
-    "3c43de0e-c1c5-81de-8c06-db26c5e8379d": [
-      0.7687,
-      0.8061
-    ],
-    "3c53de0e-c1c5-8110-9c38-e1651373b3ac": [
-      0.8062,
-      0.8868
-    ],
-    "3c53de0e-c1c5-812c-865d-ce6197564eb9": [
-      0.3019,
-      0.6413
-    ],
-    "3c53de0e-c1c5-812c-acfe-f73553a4e401": [
-      0.3201,
-      0.0
-    ],
-    "3c53de0e-c1c5-816c-b199-feb7d05e0a99": [
-      0.7731,
-      0.8899
-    ],
-    "3c53de0e-c1c5-817b-815f-d028b7fed9eb": [
-      0.0379,
-      0.5491
-    ],
-    "3c53de0e-c1c5-817b-94b3-cc943fd11282": [
-      0.7514,
-      0.8046
-    ],
-    "3c53de0e-c1c5-818a-97bd-f7bff4b166b3": [
-      0.3478,
-      0.4696
-    ],
-    "3c53de0e-c1c5-819c-bd22-dedf0fabd528": [
-      0.0432,
-      0.388
-    ],
-    "3c53de0e-c1c5-81a4-bf90-d30d56cb1c67": [
-      0.218,
-      0.5623
-    ],
-    "3c53de0e-c1c5-81d5-a8f3-c02b5c32d3cc": [
-      0.7522,
-      0.9101
-    ],
-    "3c53de0e-c1c5-81d7-a680-edd8e46bd892": [
-      0.8309,
-      0.7379
-    ],
-    "3c53de0e-c1c5-81f6-8998-d5f894d31f38": [
-      0.6003,
-      0.9391
-    ],
-    "3c63de0e-c1c5-8117-9726-c71c630c2ad3": [
-      0.0,
-      0.5301
-    ],
-    "3c63de0e-c1c5-8121-bd75-dd33076a713f": [
-      0.0648,
-      0.4362
-    ],
-    "3c63de0e-c1c5-813c-b769-f903b0144748": [
-      0.7516,
-      0.8494
-    ],
-    "3c63de0e-c1c5-8142-93ab-e6a4e9600d0f": [
-      0.3274,
-      0.1762
-    ],
-    "3c63de0e-c1c5-8194-ad33-e9c3dfc990c3": [
-      0.3371,
-      0.0234
-    ],
-    "3c63de0e-c1c5-81a0-bc49-ea62611415b1": [
-      0.8791,
-      0.7994
-    ],
-    "3c63de0e-c1c5-81b2-965f-f2505295e4a9": [
-      0.7389,
-      0.3941
-    ],
-    "3c63de0e-c1c5-81cc-a8d9-fbc40a9264c8": [
-      0.1709,
-      0.2841
-    ],
-    "3c63de0e-c1c5-81e6-884c-f9ac8f5cb50a": [
-      0.7547,
-      0.8671
-    ],
-    "3c63de0e-c1c5-81ee-8141-dc99609406b3": [
-      0.7731,
-      0.1952
-    ],
-    "3c63de0e-c1c5-81f5-a694-e9ae09510383": [
-      0.0498,
-      0.4272
-    ],
-    "3c63de0e-c1c5-81ff-a8aa-cf1f593f8b06": [
-      0.9365,
-      0.3104
-    ],
-    "3c73de0e-c1c5-8116-9bcc-ef2ffdd40e21": [
-      0.3545,
-      0.166
-    ],
-    "3c73de0e-c1c5-8119-9ad5-cc1d7c7397d9": [
-      0.6589,
-      0.1234
-    ],
-    "3c73de0e-c1c5-813b-9dc2-e9e8fbe720ed": [
-      0.378,
-      0.183
-    ],
-    "3c73de0e-c1c5-815b-8e79-cd6a4efd1035": [
-      0.7847,
-      0.5619
-    ],
-    "3c73de0e-c1c5-8161-bbea-f0810677c7be": [
-      0.7076,
-      0.2544
-    ],
-    "3c73de0e-c1c5-816a-84a4-eb80a8e0345e": [
-      0.8747,
-      0.6981
-    ],
-    "3c73de0e-c1c5-8170-9b79-f6ee69fde66c": [
-      0.6597,
-      0.7559
-    ],
-    "3c73de0e-c1c5-8171-96bb-dc2c8231b013": [
-      0.2623,
-      0.0479
-    ],
-    "3c73de0e-c1c5-8176-84a8-dc00f5a1cb2c": [
-      0.2752,
-      0.0636
-    ],
-    "3c73de0e-c1c5-818c-acd1-f4dd1870751d": [
-      0.9289,
-      0.6812
-    ],
-    "3c73de0e-c1c5-8193-b8be-d7901f3619e6": [
-      0.0394,
-      0.4469
-    ],
-    "3c73de0e-c1c5-819c-9583-c96a3bca7d13": [
-      0.2719,
-      0.6463
-    ],
-    "3c73de0e-c1c5-81a2-bb54-fea5bb6a93b8": [
-      0.3747,
-      0.1806
-    ],
-    "3c73de0e-c1c5-81c8-8abb-fb3ea57fa6e3": [
-      0.2026,
-      0.4064
-    ],
-    "3c73de0e-c1c5-81d7-948a-fa5e5d8a095b": [
-      0.3467,
-      0.1777
-    ],
-    "3c73de0e-c1c5-81f1-8abd-c35e3da45b6d": [
-      0.3047,
-      0.2766
-    ],
-    "3c73de0e-c1c5-81f4-bce3-e1e53ab36789": [
-      0.3602,
-      0.1894
-    ],
-    "3c73de0e-c1c5-81ff-bfee-f8424e77194d": [
-      0.3247,
-      0.1064
-    ],
-    "3c83de0e-c1c5-8106-81da-d9584347ade8": [
-      0.2599,
-      0.0315
-    ],
-    "3c83de0e-c1c5-8127-acac-ed4a7c668dd4": [
-      0.9512,
-      0.6645
-    ],
-    "3c83de0e-c1c5-8128-98c0-fca77ed550d5": [
-      0.1019,
-      0.6503
-    ],
-    "3c83de0e-c1c5-813e-9754-eab1932cf17f": [
-      0.6884,
-      0.5849
-    ],
-    "3c83de0e-c1c5-8151-b838-e647f3cd140b": [
-      0.2057,
-      0.4617
-    ],
-    "3c83de0e-c1c5-8168-bff7-efd271b21457": [
-      0.2719,
-      0.0283
-    ],
-    "3c83de0e-c1c5-8169-8338-d6b7bedafaa1": [
-      0.4197,
-      0.1378
-    ],
-    "3c83de0e-c1c5-816d-9e91-ca6463727eee": [
-      0.8934,
-      0.6927
-    ],
-    "3c83de0e-c1c5-816e-be33-c265c81276ee": [
-      0.3421,
-      0.6958
-    ],
-    "3c83de0e-c1c5-8177-b010-f0a2a1630368": [
-      0.2689,
-      0.3001
-    ],
-    "3c83de0e-c1c5-8179-ada4-fe9323dbe4b3": [
-      0.4332,
-      0.6464
-    ],
-    "3c83de0e-c1c5-817f-a0bc-ccd033e42623": [
-      0.1577,
-      0.3446
-    ],
-    "3c83de0e-c1c5-8182-a234-ecb8b1e38635": [
-      0.0946,
-      0.6823
-    ],
-    "3c83de0e-c1c5-818a-bf4c-dbbafddd3bfe": [
-      0.5177,
-      0.4995
-    ],
-    "3c83de0e-c1c5-81c1-8de3-d8f4e668e773": [
-      0.8564,
-      0.532
-    ],
-    "3c83de0e-c1c5-81ca-a234-ebda7a5df23b": [
-      0.0947,
-      0.6839
-    ],
-    "3c83de0e-c1c5-81ec-bda8-d7c3c82e89d7": [
-      0.3821,
-      0.1522
-    ],
-    "3c83de0e-c1c5-81ff-ae50-c1428e538908": [
-      0.3661,
-      0.5477
-    ],
-    "3c93de0e-c1c5-8128-93d7-d87e2bcb23cf": [
-      0.2675,
-      0.6969
-    ],
-    "3c93de0e-c1c5-8137-9dba-c454d0965ed6": [
-      0.883,
+    "3b23de0e-c1c5-8149-b77b-e4f59165efd3": [
+      0.506,
+      0.8088
+    ],
+    "3b23de0e-c1c5-8168-8117-f7f88ed5eeb6": [
+      0.6492,
+      0.4108
+    ],
+    "3b23de0e-c1c5-816f-89d3-fb9cfc9220d4": [
+      0.6151,
+      0.9104
+    ],
+    "3b23de0e-c1c5-8182-a43b-c61eaaa714d7": [
+      0.6816,
+      0.8972
+    ],
+    "3b23de0e-c1c5-8184-874c-d3f9f84761da": [
+      0.4635,
+      0.4797
+    ],
+    "3b23de0e-c1c5-81af-b17e-e0d93fd9d22e": [
+      0.1098,
+      0.1153
+    ],
+    "3b23de0e-c1c5-81b0-b738-d585183bf8f3": [
+      0.389,
+      0.2008
+    ],
+    "3b23de0e-c1c5-81b4-80f7-c324e88b463e": [
+      0.6053,
+      0.8476
+    ],
+    "3b23de0e-c1c5-81b7-b7f1-c900d09fb1ef": [
+      0.2194,
+      0.6027
+    ],
+    "3b23de0e-c1c5-81c9-b79b-d16b984fb657": [
+      0.2759,
+      0.0257
+    ],
+    "3b23de0e-c1c5-81ed-971d-eb129b86555b": [
+      0.3704,
+      0.2261
+    ],
+    "3b23de0e-c1c5-81fc-acce-c2e4ddc2700f": [
+      0.0381,
+      0.1248
+    ],
+    "3b23de0e-c1c5-81ff-9d88-dadcfc49c07e": [
+      0.0885,
+      0.0815
+    ],
+    "3b33de0e-c1c5-8101-96ba-eff33773926e": [
+      0.8114,
+      0.3984
+    ],
+    "3b33de0e-c1c5-8109-96fe-c4ed5a8aa897": [
+      0.7729,
+      0.4151
+    ],
+    "3b33de0e-c1c5-8123-a4be-c3e52bbc94b8": [
+      0.2793,
+      0.3942
+    ],
+    "3b33de0e-c1c5-8128-85b1-e7a4abded5a7": [
+      0.5223,
+      0.9208
+    ],
+    "3b33de0e-c1c5-812b-b03f-f858e8e7f36a": [
+      0.7354,
+      0.909
+    ],
+    "3b33de0e-c1c5-8149-b07a-c1e4bcc051d6": [
+      0.6473,
+      0.3819
+    ],
+    "3b33de0e-c1c5-8166-82c8-fb1535724994": [
+      0.5893,
+      0.7927
+    ],
+    "3b33de0e-c1c5-8173-be26-efa654030667": [
+      0.4986,
+      0.4575
+    ],
+    "3b33de0e-c1c5-817a-9091-fc72ba15574f": [
+      0.1257,
+      0.2749
+    ],
+    "3b33de0e-c1c5-818d-8bbe-f615aa1ad9cf": [
+      0.1642,
+      0.4113
+    ],
+    "3b33de0e-c1c5-8197-8d01-d666714c366f": [
+      0.2338,
+      0.4183
+    ],
+    "3b33de0e-c1c5-81a0-913a-cd4bf0c305e2": [
+      0.4103,
+      0.4697
+    ],
+    "3b33de0e-c1c5-81a8-8d1c-c3383e1b9222": [
+      0.0495,
+      0.0401
+    ],
+    "3b33de0e-c1c5-81b2-ae90-c9136bdad890": [
+      0.641,
+      0.3754
+    ],
+    "3b33de0e-c1c5-81f4-91ce-e54ff18bf523": [
+      0.1012,
+      0.5632
+    ],
+    "3b53de0e-c1c5-8100-ad18-e079d6a60a77": [
+      0.1313,
+      0.3529
+    ],
+    "3b53de0e-c1c5-811c-b438-da869474f9ad": [
+      0.5078,
+      0.2713
+    ],
+    "3b53de0e-c1c5-8131-9e3a-fb4ed96a06ba": [
+      0.081,
+      0.1344
+    ],
+    "3b53de0e-c1c5-8131-a5df-f6e7a690076d": [
+      0.6551,
+      0.6239
+    ],
+    "3b53de0e-c1c5-813a-a52a-cc7513ae90c0": [
+      0.466,
+      0.9057
+    ],
+    "3b53de0e-c1c5-813e-a9c3-c86fa2c45dff": [
+      0.7195,
+      0.9504
+    ],
+    "3b53de0e-c1c5-814b-8e00-f14addc548ba": [
+      0.7663,
+      0.6628
+    ],
+    "3b53de0e-c1c5-814c-b00b-dd39f1b5ac28": [
+      0.0741,
+      0.0496
+    ],
+    "3b53de0e-c1c5-817b-b550-c5782e559cf4": [
+      0.5171,
+      0.3134
+    ],
+    "3b53de0e-c1c5-8191-86cc-cef9fd00ab1c": [
+      0.7137,
+      0.9302
+    ],
+    "3b53de0e-c1c5-8197-b485-d77a386ead28": [
+      0.7198,
+      0.5098
+    ],
+    "3b53de0e-c1c5-81ad-877f-e8a7f57ba31e": [
+      0.6922,
+      0.8938
+    ],
+    "3b53de0e-c1c5-81e5-8fe1-c94b39674adf": [
+      0.3834,
+      0.1773
+    ],
+    "3b53de0e-c1c5-81f9-963c-eeda358ae66f": [
+      0.7023,
+      0.4674
+    ],
+    "3b53de0e-c1c5-81fe-b0a7-fe7e068f5795": [
+      0.0663,
+      0.1211
+    ],
+    "3b63de0e-c1c5-8109-a199-ce93708df070": [
+      0.4863,
+      0.8485
+    ],
+    "3b63de0e-c1c5-810c-b346-f448e2114a95": [
+      0.5919,
+      0.612
+    ],
+    "3b63de0e-c1c5-812f-ab63-c42e5c042c33": [
+      0.9036,
+      0.5088
+    ],
+    "3b63de0e-c1c5-813f-9d6b-cf039f075a8f": [
+      0.6585,
       0.7834
     ],
+    "3b63de0e-c1c5-814a-bafb-e2be7bdaec78": [
+      0.7505,
+      0.574
+    ],
+    "3b63de0e-c1c5-8168-b5d3-eb61ace22b2a": [
+      0.7114,
+      0.9973
+    ],
+    "3b63de0e-c1c5-816b-b2c9-d195931e97b9": [
+      0.6214,
+      0.944
+    ],
+    "3b63de0e-c1c5-8177-a99b-ecf1776fc64d": [
+      0.6321,
+      0.8193
+    ],
+    "3b63de0e-c1c5-817a-b118-d8fc8cd67515": [
+      0.701,
+      0.7597
+    ],
+    "3b63de0e-c1c5-8189-a483-fd4924aff85c": [
+      0.1164,
+      0.3284
+    ],
+    "3b63de0e-c1c5-81a3-be38-da92ea7c096f": [
+      0.6984,
+      0.8432
+    ],
+    "3b63de0e-c1c5-81a9-9661-fe761910dbc6": [
+      0.6189,
+      0.322
+    ],
+    "3b63de0e-c1c5-81b0-b1c4-e00493f00174": [
+      0.5075,
+      0.8394
+    ],
+    "3b63de0e-c1c5-81c8-9764-c7b1f98756a8": [
+      0.4688,
+      0.7702
+    ],
+    "3b63de0e-c1c5-81cc-8a92-fe6178ec61de": [
+      0.5496,
+      0.3154
+    ],
+    "3b63de0e-c1c5-81e8-ac5b-f52e28cc732b": [
+      0.6983,
+      0.2612
+    ],
+    "3b63de0e-c1c5-81fc-8027-cfba7c6bb49e": [
+      0.5954,
+      0.7368
+    ],
+    "3b73de0e-c1c5-8116-9b39-eeb40cefec2b": [
+      0.967,
+      0.5928
+    ],
+    "3b73de0e-c1c5-8131-9fe4-e51a0cec1a7a": [
+      0.64,
+      0.8846
+    ],
+    "3b73de0e-c1c5-8134-ba5d-e6a40b09e1d0": [
+      0.4638,
+      0.8925
+    ],
+    "3b73de0e-c1c5-8137-b967-f36c0c54003f": [
+      0.9847,
+      0.5855
+    ],
+    "3b73de0e-c1c5-8152-a0bc-ff33bdec41f4": [
+      0.7163,
+      0.9803
+    ],
+    "3b73de0e-c1c5-8170-97b6-eb1c1a0b0769": [
+      0.5798,
+      0.7576
+    ],
+    "3b73de0e-c1c5-8174-b40e-d7ac212f42c0": [
+      0.0735,
+      0.5759
+    ],
+    "3b73de0e-c1c5-8178-93c8-f2788d9fb4f1": [
+      0.2857,
+      0.033
+    ],
+    "3b73de0e-c1c5-817a-bd92-c87a71c3b5d6": [
+      0.085,
+      0.0231
+    ],
+    "3b73de0e-c1c5-817c-9147-df8457d7e22e": [
+      0.4524,
+      0.3008
+    ],
+    "3b73de0e-c1c5-81a4-9bbf-f56410aab9ec": [
+      0.3419,
+      0.1092
+    ],
+    "3b73de0e-c1c5-81b7-9cc9-f6080012b90a": [
+      0.974,
+      0.5968
+    ],
+    "3b73de0e-c1c5-81f0-8f3d-efa0a23e8841": [
+      0.5485,
+      0.3333
+    ],
+    "3b73de0e-c1c5-81fd-a469-df6a30dc6842": [
+      0.1553,
+      0.5604
+    ],
+    "3b83de0e-c1c5-8119-980f-f1f16c03a936": [
+      0.4885,
+      0.2677
+    ],
+    "3b83de0e-c1c5-811a-8f76-f36e89f74d8a": [
+      0.409,
+      0.5001
+    ],
+    "3b83de0e-c1c5-8125-bbf9-d2c27c64b6ce": [
+      0.2846,
+      0.0436
+    ],
+    "3b83de0e-c1c5-816e-9d0a-e96c2df8ce56": [
+      0.0284,
+      0.1612
+    ],
+    "3b83de0e-c1c5-8187-b8b3-c25a6dd08a87": [
+      0.6596,
+      0.602
+    ],
+    "3b83de0e-c1c5-818a-8b1d-eacd74b1b703": [
+      0.517,
+      0.5216
+    ],
+    "3b83de0e-c1c5-818d-9adf-d339580e1a69": [
+      0.9434,
+      0.5527
+    ],
+    "3b83de0e-c1c5-818f-a4fa-ef3a95cda43d": [
+      0.6836,
+      0.9469
+    ],
+    "3b83de0e-c1c5-819b-9ea4-dfac47936538": [
+      0.2452,
+      0.4497
+    ],
+    "3b83de0e-c1c5-81c4-a613-c4c306fe8a66": [
+      0.3137,
+      0.3339
+    ],
+    "3b83de0e-c1c5-81f1-9738-d06fe7c81d0b": [
+      0.5987,
+      0.7245
+    ],
+    "3b83de0e-c1c5-81f4-8dd3-ca233998645a": [
+      0.0795,
+      0.4089
+    ],
+    "3b83de0e-c1c5-81f5-8820-d7a69551dd24": [
+      0.7434,
+      0.3713
+    ],
+    "3b93de0e-c1c5-8100-9755-e66036e30640": [
+      0.5632,
+      0.6662
+    ],
+    "3b93de0e-c1c5-812f-acb9-ebf7ba0bb5c2": [
+      0.4654,
+      0.197
+    ],
+    "3b93de0e-c1c5-8130-8919-cb10f01b2d45": [
+      0.2817,
+      0.2954
+    ],
+    "3b93de0e-c1c5-8133-9973-f578cd4cfae6": [
+      0.1873,
+      0.5142
+    ],
+    "3b93de0e-c1c5-8150-8084-d831fb107bbe": [
+      0.4627,
+      0.216
+    ],
+    "3b93de0e-c1c5-8150-a57a-d1c41d5c69a0": [
+      0.4356,
+      0.1863
+    ],
+    "3b93de0e-c1c5-816f-8466-d3a204fe226e": [
+      0.497,
+      0.2679
+    ],
+    "3b93de0e-c1c5-818e-a773-f9efc8f61573": [
+      0.7684,
+      0.7472
+    ],
+    "3b93de0e-c1c5-819c-a5c5-dad8c3e0c72f": [
+      0.5089,
+      0.3984
+    ],
+    "3b93de0e-c1c5-81aa-ae5e-dc5768fd7ce4": [
+      0.4727,
+      0.216
+    ],
+    "3b93de0e-c1c5-81ac-8e05-fe0febcdcccd": [
+      0.4528,
+      0.2254
+    ],
+    "3b93de0e-c1c5-81be-b0f8-d84b3aadd0a7": [
+      0.7327,
+      0.9767
+    ],
+    "3b93de0e-c1c5-81c1-b03a-ed57ebca1969": [
+      0.7047,
+      0.9925
+    ],
+    "3b93de0e-c1c5-81cc-bec3-f1b8098f99d5": [
+      0.4587,
+      0.1925
+    ],
+    "3b93de0e-c1c5-81cd-9dad-cea42f94ba8c": [
+      0.7642,
+      0.6294
+    ],
+    "3b93de0e-c1c5-81f0-affd-d7af6cf3a82c": [
+      0.5519,
+      0.8194
+    ],
+    "3b93de0e-c1c5-81f6-bd23-ca9e60d63a7c": [
+      0.7991,
+      0.9332
+    ],
+    "3ba3de0e-c1c5-8107-84fd-ce75bc8c7946": [
+      0.0613,
+      0.1079
+    ],
+    "3ba3de0e-c1c5-8108-854b-fbf77b142b3d": [
+      0.9704,
+      0.5824
+    ],
+    "3ba3de0e-c1c5-8111-8820-c14355672ee7": [
+      0.4592,
+      0.1815
+    ],
+    "3ba3de0e-c1c5-811f-9453-da74dbc9456a": [
+      0.7202,
+      0.3423
+    ],
+    "3ba3de0e-c1c5-8126-84ff-ea9f061ec314": [
+      0.2192,
+      0.3999
+    ],
+    "3ba3de0e-c1c5-8129-b8ce-d70eb5bc4250": [
+      0.7597,
+      0.9081
+    ],
+    "3ba3de0e-c1c5-812a-9a4a-d2fd198bc844": [
+      0.8127,
+      0.4251
+    ],
+    "3ba3de0e-c1c5-8134-99c3-f929eecedf27": [
+      0.4005,
+      0.7941
+    ],
+    "3ba3de0e-c1c5-814a-ac20-ce13a6091ea9": [
+      0.2179,
+      0.3949
+    ],
+    "3ba3de0e-c1c5-814b-bd39-fcfb93a8b857": [
+      0.5025,
+      0.8063
+    ],
+    "3ba3de0e-c1c5-8152-8f1c-da962323d353": [
+      0.7638,
+      0.4944
+    ],
+    "3ba3de0e-c1c5-8166-985f-c48d7e578993": [
+      0.7622,
+      0.6097
+    ],
+    "3ba3de0e-c1c5-8175-87ae-d515c5511885": [
+      0.2006,
+      0.1771
+    ],
+    "3ba3de0e-c1c5-817b-bc29-f47b5b1983e6": [
+      0.1946,
+      0.3661
+    ],
+    "3ba3de0e-c1c5-8196-9d4b-ddd22c1d6d7e": [
+      0.2613,
+      0.5775
+    ],
+    "3ba3de0e-c1c5-8196-b11a-cadaefe233ba": [
+      0.8126,
+      0.4041
+    ],
+    "3ba3de0e-c1c5-81a7-b1c7-e15ea13d5fc5": [
+      0.2904,
+      0.4683
+    ],
+    "3ba3de0e-c1c5-81be-bdf0-c64c86815cfd": [
+      0.9413,
+      0.6306
+    ],
+    "3ba3de0e-c1c5-81ee-a296-c0f13c84f1d3": [
+      0.7286,
+      0.9078
+    ],
+    "3bb3de0e-c1c5-810b-b0ef-f52344b08ccf": [
+      0.0469,
+      0.0842
+    ],
+    "3bb3de0e-c1c5-810c-b454-e1f62e8cf253": [
+      0.129,
+      0.5307
+    ],
+    "3bb3de0e-c1c5-811c-88c6-c936043fea8b": [
+      0.6694,
+      0.6031
+    ],
+    "3bb3de0e-c1c5-813f-b4b0-d81a34649876": [
+      0.0282,
+      0.0739
+    ],
+    "3bb3de0e-c1c5-813f-be81-e467c5d409ef": [
+      0.5275,
+      0.8362
+    ],
+    "3bb3de0e-c1c5-8143-9fe3-d0a38614ba1f": [
+      0.2498,
+      0.6347
+    ],
+    "3bb3de0e-c1c5-814d-8393-f952dac95f2e": [
+      0.9344,
+      0.5292
+    ],
+    "3bb3de0e-c1c5-816a-a9cb-cac734c8261c": [
+      0.2145,
+      0.372
+    ],
+    "3bb3de0e-c1c5-816f-b370-ddd70e5807c8": [
+      0.2981,
+      0.0116
+    ],
+    "3bb3de0e-c1c5-8175-99e2-c3ad1f9ded07": [
+      0.0666,
+      0.0138
+    ],
+    "3bb3de0e-c1c5-8185-a8f1-ced333e69fcc": [
+      0.5301,
+      0.8353
+    ],
+    "3bb3de0e-c1c5-8193-85be-ebf86e3400e7": [
+      0.1041,
+      0.2115
+    ],
+    "3bb3de0e-c1c5-8197-9d0a-efb2ed71eda3": [
+      0.5164,
+      0.5918
+    ],
+    "3bb3de0e-c1c5-8197-b9e4-e09d7ec314c5": [
+      0.6708,
+      0.3071
+    ],
+    "3bb3de0e-c1c5-81c1-984e-db192f1fcfc1": [
+      0.382,
+      0.5351
+    ],
+    "3bb3de0e-c1c5-81c3-9114-ca615bf8fdbf": [
+      0.7122,
+      0.5968
+    ],
+    "3bb3de0e-c1c5-81cf-83ea-da96bb139888": [
+      0.4284,
+      0.3058
+    ],
+    "3bb3de0e-c1c5-81f4-837d-c6f143d11d31": [
+      0.3287,
+      0.4898
+    ],
+    "3bb3de0e-c1c5-81fa-ac32-f60683d5e81b": [
+      0.7747,
+      0.6529
+    ],
+    "3bc3de0e-c1c5-8103-bedf-f43d32e38db9": [
+      0.2179,
+      0.2378
+    ],
+    "3bc3de0e-c1c5-8115-84d5-ce1ab8788be6": [
+      0.0387,
+      0.0958
+    ],
+    "3bc3de0e-c1c5-8134-9e44-f58f880bc149": [
+      0.5098,
+      0.8453
+    ],
+    "3bc3de0e-c1c5-8150-b547-c9f95b656037": [
+      0.297,
+      0.2358
+    ],
+    "3bc3de0e-c1c5-8170-a84f-f4053effc431": [
+      0.3161,
+      0.384
+    ],
+    "3bc3de0e-c1c5-8181-b36e-cc7eea462ccf": [
+      0.3634,
+      0.2274
+    ],
+    "3bc3de0e-c1c5-8184-83be-ee07b184baec": [
+      0.3239,
+      0.0254
+    ],
+    "3bc3de0e-c1c5-8191-a54c-f2871810ef0e": [
+      0.336,
+      0.0498
+    ],
+    "3bc3de0e-c1c5-8195-a87b-feb8face8f88": [
+      0.7846,
+      0.4992
+    ],
+    "3bc3de0e-c1c5-8197-b8a7-d07b21393ff0": [
+      0.1745,
+      0.3141
+    ],
+    "3bc3de0e-c1c5-819a-8a52-e4c0d6f1ef12": [
+      1.0,
+      0.5668
+    ],
+    "3bc3de0e-c1c5-81ae-8320-f40e6502e42e": [
+      0.5769,
+      0.5709
+    ],
+    "3bc3de0e-c1c5-81b7-8637-c97365e2a01f": [
+      0.5916,
+      0.8676
+    ],
+    "3bc3de0e-c1c5-81ec-8873-d5a77bc2c963": [
+      0.3216,
+      0.0331
+    ],
+    "3bd3de0e-c1c5-8113-999e-e54ef2dfd071": [
+      0.0071,
+      0.1405
+    ],
+    "3bd3de0e-c1c5-811e-95a1-f8124f47511b": [
+      0.0585,
+      0.1387
+    ],
+    "3bd3de0e-c1c5-8123-9af6-c3f793e09fb3": [
+      0.7645,
+      0.697
+    ],
+    "3bd3de0e-c1c5-8136-ba4d-c2f3575656a1": [
+      0.3995,
+      0.2593
+    ],
+    "3bd3de0e-c1c5-8145-9b95-f4d64a3bc009": [
+      0.4192,
+      0.3773
+    ],
+    "3bd3de0e-c1c5-8172-bb99-c762c9ca0c25": [
+      0.6299,
+      0.8841
+    ],
+    "3bd3de0e-c1c5-8192-beed-f3dfde5cafaf": [
+      0.2293,
+      0.4801
+    ],
+    "3bd3de0e-c1c5-8195-98e4-fe3d36c2ff97": [
+      0.6109,
+      0.362
+    ],
+    "3bd3de0e-c1c5-819e-ba09-d616da938715": [
+      0.021,
+      0.1326
+    ],
+    "3bd3de0e-c1c5-81ac-a14d-c76d3b3af412": [
+      0.9595,
+      0.6086
+    ],
+    "3bd3de0e-c1c5-81b3-b2b2-c33324a5b48e": [
+      0.9738,
+      0.5884
+    ],
+    "3bd3de0e-c1c5-81e8-83ab-f088cf7ce637": [
+      0.1082,
+      0.1378
+    ],
+    "3bd3de0e-c1c5-81f9-bc78-eb9f0750e6dc": [
+      0.485,
+      0.5482
+    ],
+    "3bd3de0e-c1c5-81ff-9527-d4fd52b4c2a5": [
+      0.416,
+      0.5776
+    ],
+    "3be3de0e-c1c5-8108-a279-f6ee5cb21218": [
+      0.8002,
+      0.9343
+    ],
+    "3be3de0e-c1c5-810f-aebd-f6b03e2f6caa": [
+      0.0578,
+      0.2038
+    ],
+    "3be3de0e-c1c5-8142-b344-f6241cb85a3f": [
+      0.5692,
+      0.8255
+    ],
+    "3be3de0e-c1c5-814f-9ab2-e97d2f54d22c": [
+      0.4804,
+      0.7754
+    ],
+    "3be3de0e-c1c5-8153-b3ff-df34bc35b600": [
+      0.0315,
+      0.2208
+    ],
+    "3be3de0e-c1c5-8162-9559-c6082717ca25": [
+      0.0373,
+      0.2142
+    ],
+    "3be3de0e-c1c5-8166-b2df-d4ddf00e6f63": [
+      0.7738,
+      0.4235
+    ],
+    "3be3de0e-c1c5-8198-a548-d8f1ba35067d": [
+      0.0164,
+      0.044
+    ],
+    "3be3de0e-c1c5-81a9-9aab-c1202ec23648": [
+      0.5734,
+      0.7125
+    ],
+    "3be3de0e-c1c5-81eb-8b95-d21a201d5f83": [
+      0.2866,
+      0.3732
+    ],
+    "3be3de0e-c1c5-81f7-84b5-d6ae05030982": [
+      0.4996,
+      0.6594
+    ],
+    "3bf3de0e-c1c5-8105-80a1-fa3ff9c5327e": [
+      0.0159,
+      0.0693
+    ],
+    "3bf3de0e-c1c5-8132-b7ab-f3f215c47d2c": [
+      0.2113,
+      0.0921
+    ],
+    "3bf3de0e-c1c5-814b-92f8-ef38c031380c": [
+      0.3649,
+      0.7339
+    ],
+    "3bf3de0e-c1c5-817b-bfa9-d843c049a2e4": [
+      0.8818,
+      0.4834
+    ],
+    "3bf3de0e-c1c5-8197-8167-f049504e14ef": [
+      0.0173,
+      0.196
+    ],
+    "3bf3de0e-c1c5-819a-a9e4-cc9259d5b994": [
+      0.4756,
+      0.6795
+    ],
+    "3bf3de0e-c1c5-819e-82fb-d90d4bd0200f": [
+      0.6078,
+      0.77
+    ],
+    "3bf3de0e-c1c5-81a8-afbc-c4b8caa8b42d": [
+      0.4491,
+      0.7058
+    ],
+    "3bf3de0e-c1c5-81b1-abdb-f8142e1b673e": [
+      0.4344,
+      0.495
+    ],
+    "3bf3de0e-c1c5-81df-ac58-ddd95cecbddf": [
+      0.0043,
+      0.2047
+    ],
+    "3bf3de0e-c1c5-81e2-b32a-ef617f2aa0f3": [
+      0.672,
+      0.8904
+    ],
+    "3bf3de0e-c1c5-81f8-a222-e4a3270b2235": [
+      0.5637,
+      0.8616
+    ],
+    "3c03de0e-c1c5-8116-9273-d691fbb5914a": [
+      0.7588,
+      0.4043
+    ],
+    "3c03de0e-c1c5-811b-b384-f1bd655910d6": [
+      0.505,
+      0.7514
+    ],
+    "3c03de0e-c1c5-8130-bcaa-c0a9f06e2be6": [
+      0.1872,
+      0.3788
+    ],
+    "3c03de0e-c1c5-8131-a9b5-cad965eb9969": [
+      0.75,
+      0.3719
+    ],
+    "3c03de0e-c1c5-815e-b66c-cdb94c9bb955": [
+      0.5372,
+      0.6566
+    ],
+    "3c03de0e-c1c5-8176-8033-d5c6c80fba33": [
+      0.086,
+      0.3176
+    ],
+    "3c03de0e-c1c5-8189-9424-e1a097acf0b4": [
+      0.0448,
+      0.1427
+    ],
+    "3c03de0e-c1c5-8197-9d00-f3425f7b750e": [
+      0.6379,
+      0.7352
+    ],
+    "3c03de0e-c1c5-81b4-8bd9-e068c017dec4": [
+      0.624,
+      0.5559
+    ],
+    "3c03de0e-c1c5-81c0-ab38-c35baa161e38": [
+      0.1845,
+      0.5669
+    ],
+    "3c03de0e-c1c5-81ea-b2c3-e9583f9a5867": [
+      0.7596,
+      0.4112
+    ],
+    "3c03de0e-c1c5-81eb-a9aa-f53cf9f55754": [
+      0.6,
+      0.756
+    ],
+    "3c03de0e-c1c5-81f0-bca6-d9c7a598ddb7": [
+      0.9533,
+      0.6085
+    ],
+    "3c13de0e-c1c5-8129-98fd-c3387d2d2e6e": [
+      0.5414,
+      0.9354
+    ],
+    "3c13de0e-c1c5-812c-8785-f57ad17a7494": [
+      0.7209,
+      0.4392
+    ],
+    "3c13de0e-c1c5-8132-a5d8-fe4c32d56d85": [
+      0.9916,
+      0.5742
+    ],
+    "3c13de0e-c1c5-8151-a8b0-e63dd8b6c2b0": [
+      0.8036,
+      0.4609
+    ],
+    "3c13de0e-c1c5-817a-bb8c-e2c8dae73756": [
+      0.5661,
+      0.902
+    ],
+    "3c13de0e-c1c5-817c-90b9-d6e2dfd2389b": [
+      0.8205,
+      0.4292
+    ],
+    "3c13de0e-c1c5-8188-a1ee-ebab134ebf24": [
+      0.5073,
+      0.6547
+    ],
+    "3c13de0e-c1c5-81a5-8bb1-e641a82d758a": [
+      0.2071,
+      0.5309
+    ],
+    "3c13de0e-c1c5-81a7-a040-f19a44b0d164": [
+      0.4094,
+      0.7062
+    ],
+    "3c13de0e-c1c5-81b0-b4ff-feb43652f425": [
+      0.7769,
+      0.6943
+    ],
+    "3c13de0e-c1c5-81b3-b900-feaebb3c66a2": [
+      0.6819,
+      0.8752
+    ],
+    "3c13de0e-c1c5-81c6-9010-cbcec4fde886": [
+      0.3422,
+      0.4938
+    ],
+    "3c13de0e-c1c5-81e3-b98b-c1e651783600": [
+      0.2913,
+      0.0151
+    ],
+    "3c13de0e-c1c5-81e3-bb32-c5d3a5902c58": [
+      0.4062,
+      0.8032
+    ],
+    "3c13de0e-c1c5-81e8-9d83-c9b366165a44": [
+      0.321,
+      0.586
+    ],
+    "3c13de0e-c1c5-81ea-acc5-e4f644f0160c": [
+      0.2042,
+      0.5101
+    ],
+    "3c13de0e-c1c5-81ef-9e5d-dd1e6e6d9ae0": [
+      0.0715,
+      0.5785
+    ],
+    "3c13de0e-c1c5-81f6-8163-e557760fdf17": [
+      0.8238,
+      0.4547
+    ],
+    "3c13de0e-c1c5-81f8-b704-c7d1e6305d29": [
+      0.1114,
+      0.1594
+    ],
+    "3c23de0e-c1c5-8105-b79e-e12619015b4d": [
+      0.4544,
+      0.7411
+    ],
+    "3c23de0e-c1c5-8110-9f68-f0c98251b483": [
+      0.659,
+      0.3135
+    ],
+    "3c23de0e-c1c5-811f-bc4b-f3f7f94c3b71": [
+      0.6861,
+      0.8464
+    ],
+    "3c23de0e-c1c5-8134-a2fb-d4816a94d32c": [
+      0.3181,
+      0.6485
+    ],
+    "3c23de0e-c1c5-8137-b708-c51a524a345b": [
+      0.0808,
+      0.2143
+    ],
+    "3c23de0e-c1c5-8141-8155-d4b359aa5882": [
+      0.0146,
+      0.0577
+    ],
+    "3c23de0e-c1c5-8154-a722-c769d53e11d6": [
+      0.9749,
+      0.5769
+    ],
+    "3c23de0e-c1c5-8159-afd6-f2f47ecf923d": [
+      0.4498,
+      0.5031
+    ],
+    "3c23de0e-c1c5-8164-ba3b-ec792d72122c": [
+      0.7575,
+      0.4087
+    ],
+    "3c23de0e-c1c5-8178-8e6a-d941d616e22c": [
+      0.4099,
+      0.2655
+    ],
+    "3c23de0e-c1c5-817a-80d0-c184eb708529": [
+      0.0379,
+      0.0776
+    ],
+    "3c23de0e-c1c5-817f-9c6f-cd348ba13831": [
+      0.3001,
+      0.6176
+    ],
+    "3c23de0e-c1c5-8184-8b42-c4a8171b77b0": [
+      0.1876,
+      0.3729
+    ],
+    "3c23de0e-c1c5-8189-94ea-e9ab2d3d0e7e": [
+      0.4183,
+      0.5289
+    ],
+    "3c23de0e-c1c5-81a6-b3af-d54df2324ca5": [
+      0.6956,
+      0.8617
+    ],
+    "3c23de0e-c1c5-81c4-a90b-ddc05c0c1ea7": [
+      0.2857,
+      0.4189
+    ],
+    "3c23de0e-c1c5-81d0-98be-e4b6e6e65929": [
+      0.2336,
+      0.5841
+    ],
+    "3c23de0e-c1c5-81d8-af1b-f048a721abc2": [
+      0.5185,
+      0.8998
+    ],
+    "3c23de0e-c1c5-81d9-92ed-c0f3a62f28fa": [
+      0.7375,
+      0.8903
+    ],
+    "3c23de0e-c1c5-81da-a623-f6a4393f769a": [
+      0.8064,
+      0.4766
+    ],
+    "3c23de0e-c1c5-81fc-b77e-f072d4862cd0": [
+      0.0647,
+      0.0142
+    ],
+    "3c33de0e-c1c5-8103-929d-e664158f5998": [
+      0.6827,
+      0.3869
+    ],
+    "3c33de0e-c1c5-8109-9ab9-f50e53c6bc43": [
+      0.2788,
+      0.3355
+    ],
+    "3c33de0e-c1c5-8109-9ed5-ea916c737bf7": [
+      0.634,
+      0.3909
+    ],
+    "3c33de0e-c1c5-811b-8f7a-eb0f9d236ef8": [
+      0.1443,
+      0.3531
+    ],
+    "3c33de0e-c1c5-8131-9537-c1b876b91b24": [
+      0.3306,
+      0.2751
+    ],
+    "3c33de0e-c1c5-8132-a7b8-e81f830b2c6b": [
+      0.0434,
+      0.2602
+    ],
+    "3c33de0e-c1c5-815f-95cd-dd2bd29a7698": [
+      0.4277,
+      0.3848
+    ],
+    "3c33de0e-c1c5-8164-901e-ddf1b6541f7f": [
+      0.6064,
+      0.8335
+    ],
+    "3c33de0e-c1c5-8179-aefd-fc3093e3b8ad": [
+      0.2832,
+      0.0
+    ],
+    "3c33de0e-c1c5-8184-a19f-f2613eef7059": [
+      0.3452,
+      0.0712
+    ],
+    "3c33de0e-c1c5-8186-95eb-ca028f3e5f23": [
+      0.0424,
+      0.1838
+    ],
+    "3c33de0e-c1c5-8187-9de2-f25bb95ad40e": [
+      0.9304,
+      0.5517
+    ],
+    "3c33de0e-c1c5-818f-b50a-c6d5042bc41d": [
+      0.5455,
+      0.7809
+    ],
+    "3c33de0e-c1c5-819b-958a-db1a56c1976e": [
+      0.753,
+      0.9012
+    ],
+    "3c33de0e-c1c5-81b5-a018-d798b8b853a3": [
+      0.2059,
+      0.4095
+    ],
+    "3c33de0e-c1c5-81bb-9cef-cf4950e2cf17": [
+      0.0063,
+      0.2006
+    ],
+    "3c33de0e-c1c5-81be-894f-e06668e76e2e": [
+      0.7632,
+      0.8957
+    ],
+    "3c33de0e-c1c5-81e4-98e8-cb7cfe701b4f": [
+      0.2775,
+      0.5484
+    ],
+    "3c43de0e-c1c5-810a-801c-f3aaf66bdba6": [
+      0.6795,
+      0.2765
+    ],
+    "3c43de0e-c1c5-810a-a645-f6af9767506e": [
+      0.3192,
+      0.0269
+    ],
+    "3c43de0e-c1c5-810c-ade6-d69bde5d9189": [
+      0.9492,
+      0.5497
+    ],
+    "3c43de0e-c1c5-811e-aade-c3e35b9d9cc6": [
+      0.7095,
+      0.4909
+    ],
+    "3c43de0e-c1c5-8129-b22d-d2b657ba7e3f": [
+      0.1992,
+      0.5638
+    ],
+    "3c43de0e-c1c5-813c-b27b-fbab6a00b9e4": [
+      0.7412,
+      0.3161
+    ],
+    "3c43de0e-c1c5-8152-b6b4-c5c86ac41f1a": [
+      0.6509,
+      0.6977
+    ],
+    "3c43de0e-c1c5-8154-98a8-fe5c94e1d237": [
+      0.0591,
+      0.039
+    ],
+    "3c43de0e-c1c5-815c-ac4e-ce44a57809be": [
+      0.0141,
+      0.2075
+    ],
+    "3c43de0e-c1c5-815e-942f-e1cd19b77d6d": [
+      0.258,
+      0.62
+    ],
+    "3c43de0e-c1c5-8187-a221-c3abf0170b9c": [
+      0.3118,
+      0.0406
+    ],
+    "3c43de0e-c1c5-8191-94ca-ec4fa2f3d22b": [
+      0.0,
+      0.2046
+    ],
+    "3c43de0e-c1c5-8196-84ec-ea5265bea262": [
+      0.652,
+      0.3988
+    ],
+    "3c43de0e-c1c5-81b3-91c0-fe3b553493e9": [
+      0.8815,
+      0.505
+    ],
+    "3c43de0e-c1c5-81b4-b15b-dab7213cc4e2": [
+      0.303,
+      0.6659
+    ],
+    "3c43de0e-c1c5-81b9-8723-dfb5be2f3b65": [
+      0.525,
+      0.8945
+    ],
+    "3c43de0e-c1c5-81bd-aea8-e2647a9e3d1f": [
+      0.2613,
+      0.614
+    ],
+    "3c43de0e-c1c5-81d5-8e55-cc7e8cc9ebcf": [
+      0.2028,
+      0.587
+    ],
+    "3c43de0e-c1c5-81de-8487-f577de790942": [
+      0.4391,
+      0.7211
+    ],
+    "3c43de0e-c1c5-81de-8c06-db26c5e8379d": [
+      0.5401,
+      0.8002
+    ],
+    "3c53de0e-c1c5-8110-9c38-e1651373b3ac": [
+      0.5569,
+      0.8686
+    ],
+    "3c53de0e-c1c5-812c-865d-ce6197564eb9": [
+      0.3156,
+      0.2497
+    ],
+    "3c53de0e-c1c5-812c-acfe-f73553a4e401": [
+      0.0714,
+      0.5806
+    ],
+    "3c53de0e-c1c5-816c-b199-feb7d05e0a99": [
+      0.4691,
+      0.8514
+    ],
+    "3c53de0e-c1c5-817b-815f-d028b7fed9eb": [
+      0.0499,
+      0.0505
+    ],
+    "3c53de0e-c1c5-817b-94b3-cc943fd11282": [
+      0.5499,
+      0.921
+    ],
+    "3c53de0e-c1c5-818a-97bd-f7bff4b166b3": [
+      0.3029,
+      0.5275
+    ],
+    "3c53de0e-c1c5-819c-bd22-dedf0fabd528": [
+      0.0182,
+      0.1444
+    ],
+    "3c53de0e-c1c5-81a4-bf90-d30d56cb1c67": [
+      0.1831,
+      0.2071
+    ],
+    "3c53de0e-c1c5-81d5-a8f3-c02b5c32d3cc": [
+      0.4688,
+      0.8884
+    ],
+    "3c53de0e-c1c5-81d7-a680-edd8e46bd892": [
+      0.6025,
+      0.9128
+    ],
+    "3c53de0e-c1c5-81f6-8998-d5f894d31f38": [
+      0.5081,
+      0.6396
+    ],
+    "3c63de0e-c1c5-8117-9726-c71c630c2ad3": [
+      0.0182,
+      0.0357
+    ],
+    "3c63de0e-c1c5-8121-bd75-dd33076a713f": [
+      0.0213,
+      0.1632
+    ],
+    "3c63de0e-c1c5-813c-b769-f903b0144748": [
+      0.5537,
+      0.8515
+    ],
+    "3c63de0e-c1c5-8142-93ab-e6a4e9600d0f": [
+      0.1769,
+      0.569
+    ],
+    "3c63de0e-c1c5-8194-ad33-e9c3dfc990c3": [
+      0.0948,
+      0.5999
+    ],
+    "3c63de0e-c1c5-81a0-bc49-ea62611415b1": [
+      0.5864,
+      0.9856
+    ],
+    "3c63de0e-c1c5-81b2-965f-f2505295e4a9": [
+      0.7153,
+      0.5738
+    ],
+    "3c63de0e-c1c5-81cc-a8d9-fbc40a9264c8": [
+      0.0795,
+      0.3552
+    ],
+    "3c63de0e-c1c5-81e6-884c-f9ac8f5cb50a": [
+      0.5508,
+      0.7354
+    ],
+    "3c63de0e-c1c5-81ee-8141-dc99609406b3": [
+      0.8109,
+      0.442
+    ],
+    "3c63de0e-c1c5-81f5-a694-e9ae09510383": [
+      0.0335,
+      0.1587
+    ],
+    "3c63de0e-c1c5-81ff-a8aa-cf1f593f8b06": [
+      0.9248,
+      0.6148
+    ],
+    "3c73de0e-c1c5-8119-9ad5-cc1d7c7397d9": [
+      0.7529,
+      0.3425
+    ],
+    "3c73de0e-c1c5-813b-9dc2-e9e8fbe720ed": [
+      0.2355,
+      0.5688
+    ],
+    "3c73de0e-c1c5-815b-8e79-cd6a4efd1035": [
+      0.704,
+      0.7276
+    ],
+    "3c73de0e-c1c5-8161-bbea-f0810677c7be": [
+      0.7302,
+      0.458
+    ],
+    "3c73de0e-c1c5-816a-84a4-eb80a8e0345e": [
+      0.7369,
+      0.8074
+    ],
+    "3c73de0e-c1c5-8170-9b79-f6ee69fde66c": [
+      0.4563,
+      0.6514
+    ],
+    "3c73de0e-c1c5-8171-96bb-dc2c8231b013": [
+      0.0474,
+      0.5344
+    ],
+    "3c73de0e-c1c5-8176-84a8-dc00f5a1cb2c": [
+      0.0685,
+      0.5288
+    ],
+    "3c73de0e-c1c5-818c-acd1-f4dd1870751d": [
+      0.7115,
+      0.9714
+    ],
+    "3c73de0e-c1c5-8193-b8be-d7901f3619e6": [
+      0.0106,
+      0.171
+    ],
+    "3c73de0e-c1c5-819c-9583-c96a3bca7d13": [
+      0.3241,
+      0.2127
+    ],
+    "3c73de0e-c1c5-81a2-bb54-fea5bb6a93b8": [
+      0.2273,
+      0.6299
+    ],
+    "3c73de0e-c1c5-81c8-8abb-fb3ea57fa6e3": [
+      0.1362,
+      0.3563
+    ],
+    "3c73de0e-c1c5-81d7-948a-fa5e5d8a095b": [
+      0.2218,
+      0.6422
+    ],
+    "3c73de0e-c1c5-81f1-8abd-c35e3da45b6d": [
+      0.2048,
+      0.455
+    ],
+    "3c73de0e-c1c5-81f4-bce3-e1e53ab36789": [
+      0.2106,
+      0.6002
+    ],
+    "3c73de0e-c1c5-81ff-bfee-f8424e77194d": [
+      0.1864,
+      0.5898
+    ],
+    "3c83de0e-c1c5-8106-81da-d9584347ade8": [
+      0.0563,
+      0.5069
+    ],
+    "3c83de0e-c1c5-8127-acac-ed4a7c668dd4": [
+      0.7117,
+      1.0
+    ],
+    "3c83de0e-c1c5-8128-98c0-fca77ed550d5": [
+      0.1373,
+      0.05
+    ],
+    "3c83de0e-c1c5-813e-9754-eab1932cf17f": [
+      0.7264,
+      0.7716
+    ],
+    "3c83de0e-c1c5-8151-b838-e647f3cd140b": [
+      0.1554,
+      0.2924
+    ],
+    "3c83de0e-c1c5-8168-bff7-efd271b21457": [
+      0.0521,
+      0.5135
+    ],
+    "3c83de0e-c1c5-8169-8338-d6b7bedafaa1": [
+      0.2402,
+      0.5073
+    ],
+    "3c83de0e-c1c5-816d-9e91-ca6463727eee": [
+      0.7522,
+      0.8063
+    ],
+    "3c83de0e-c1c5-816e-be33-c265c81276ee": [
+      0.3527,
+      0.2882
+    ],
+    "3c83de0e-c1c5-8177-b010-f0a2a1630368": [
+      0.2092,
+      0.4726
+    ],
+    "3c83de0e-c1c5-8179-ada4-fe9323dbe4b3": [
+      0.405,
+      0.4583
+    ],
+    "3c83de0e-c1c5-817f-a0bc-ccd033e42623": [
+      0.1084,
+      0.3407
+    ],
+    "3c83de0e-c1c5-8182-a234-ecb8b1e38635": [
+      0.1494,
+      0.0374
+    ],
+    "3c83de0e-c1c5-818a-bf4c-dbbafddd3bfe": [
+      0.5249,
+      0.2974
+    ],
+    "3c83de0e-c1c5-81c1-8de3-d8f4e668e773": [
+      0.7504,
+      0.7773
+    ],
+    "3c83de0e-c1c5-81ca-a234-ebda7a5df23b": [
+      0.1504,
+      0.0321
+    ],
+    "3c83de0e-c1c5-81ec-bda8-d7c3c82e89d7": [
+      0.2224,
+      0.4889
+    ],
+    "3c83de0e-c1c5-81ff-ae50-c1428e538908": [
+      0.3405,
+      0.3174
+    ],
+    "3c93de0e-c1c5-8128-93d7-d87e2bcb23cf": [
+      0.3131,
+      0.1806
+    ],
+    "3c93de0e-c1c5-8137-9dba-c454d0965ed6": [
+      0.5777,
+      0.9806
+    ],
     "3c93de0e-c1c5-8139-bb92-da70626c6ede": [
-      0.5944,
-      0.3253
+      0.6299,
+      0.3711
     ],
     "3c93de0e-c1c5-814d-9ced-c84071ed4bcb": [
-      0.8981,
-      0.7165
+      0.7647,
+      0.8099
     ],
     "3c93de0e-c1c5-8163-ae61-fb51b914c50b": [
-      0.6943,
-      0.8078
+      0.4889,
+      0.7876
     ],
     "3c93de0e-c1c5-8166-9126-e2c9cfa641ee": [
-      0.7832,
-      0.6446
+      0.6452,
+      0.8554
     ],
     "3c93de0e-c1c5-8170-9788-c4a49a3bec81": [
-      0.7354,
-      0.8422
+      0.5377,
+      0.9101
     ],
     "3c93de0e-c1c5-8176-b229-d9abe5897d82": [
-      0.3425,
-      0.7466
+      0.3927,
+      0.2003
     ],
     "3c93de0e-c1c5-8178-ab58-e85b5d4c8bed": [
-      0.16,
-      0.4955
-    ],
-    "3c93de0e-c1c5-818a-86a7-fcee2c8a18bc": [
-      0.7642,
-      0.1607
-    ],
-    "3c93de0e-c1c5-818a-8d67-ceccd1b0bb58": [
-      0.3295,
-      0.489
-    ],
-    "3c93de0e-c1c5-8194-be00-f8db6a3cb218": [
-      0.3462,
-      0.1649
-    ],
-    "3c93de0e-c1c5-819f-94d2-eeee33832f04": [
-      0.2206,
-      0.5284
-    ],
-    "3c93de0e-c1c5-81a2-9577-fc9ffae0db4f": [
-      0.2683,
-      0.6736
-    ],
-    "3c93de0e-c1c5-81b2-8d34-d6873cd45dc6": [
-      0.14,
-      0.5605
-    ],
-    "3c93de0e-c1c5-81da-b158-e2c86e27ca3d": [
-      0.6071,
-      0.9243
-    ],
-    "3c93de0e-c1c5-81ec-9dd0-f02d83d938bb": [
-      0.3525,
-      0.3509
-    ],
-    "3c93de0e-c1c5-81f4-ad27-f43e7dd93e23": [
-      0.792,
-      0.509
-    ],
-    "3ca3de0e-c1c5-810f-a8a9-d51de081951a": [
-      0.762,
-      0.8527
-    ],
-    "3ca3de0e-c1c5-8138-9c2d-c812ef5d3edb": [
-      0.1992,
-      0.515
-    ],
-    "3ca3de0e-c1c5-813a-b08f-f88b5d49f4f7": [
-      0.6164,
-      0.1201
-    ],
-    "3ca3de0e-c1c5-8143-9eb7-e444804d3a10": [
-      0.644,
-      0.1285
-    ],
-    "3ca3de0e-c1c5-814d-a8ca-f1acd5629270": [
-      0.2739,
-      0.671
-    ],
-    "3ca3de0e-c1c5-8161-a390-c55656a65967": [
-      0.8163,
-      0.6464
-    ],
-    "3ca3de0e-c1c5-8185-8f02-f11f970fc8c0": [
-      0.9409,
-      0.6997
-    ],
-    "3ca3de0e-c1c5-818f-92c9-fbe11ec4a808": [
-      0.7414,
-      0.1278
-    ],
-    "3ca3de0e-c1c5-819e-a4be-e93386639017": [
-      0.309,
-      0.5908
-    ],
-    "3ca3de0e-c1c5-81a8-b9e2-e653c9779a90": [
-      0.2918,
-      0.6355
-    ],
-    "3ca3de0e-c1c5-81ac-af84-db86d7a85372": [
-      0.1664,
-      0.8386
-    ],
-    "3ca3de0e-c1c5-81b1-87f8-df7f7e21e8f8": [
-      0.6384,
-      0.1459
-    ],
-    "3ca3de0e-c1c5-81cc-8144-f6ad93d3fca4": [
-      0.9891,
-      0.229
-    ],
-    "3ca3de0e-c1c5-81d0-adf8-e3994aafcefb": [
-      0.8365,
-      0.567
-    ],
-    "3ca3de0e-c1c5-81d9-b86b-cf81de323a61": [
-      0.6403,
-      0.1081
-    ],
-    "3ca3de0e-c1c5-81f2-9774-e9cc61bac851": [
-      0.989,
-      0.2846
-    ],
-    "3cb3de0e-c1c5-811d-88ea-ce1372338b49": [
-      0.6771,
-      0.5818
-    ],
-    "3cb3de0e-c1c5-8125-ab92-db3b37394095": [
-      0.3348,
-      0.6676
-    ],
-    "3cb3de0e-c1c5-8127-a63e-d1ed5d95c045": [
-      0.4213,
-      0.7043
-    ],
-    "3cb3de0e-c1c5-8128-b755-eb69a055a7ba": [
-      0.8112,
+      0.1252,
       0.2048
     ],
+    "3c93de0e-c1c5-818a-86a7-fcee2c8a18bc": [
+      0.812,
+      0.4278
+    ],
+    "3c93de0e-c1c5-818a-8d67-ceccd1b0bb58": [
+      0.3256,
+      0.5118
+    ],
+    "3c93de0e-c1c5-8194-be00-f8db6a3cb218": [
+      0.2163,
+      0.6285
+    ],
+    "3c93de0e-c1c5-819f-94d2-eeee33832f04": [
+      0.1707,
+      0.2705
+    ],
+    "3c93de0e-c1c5-81a2-9577-fc9ffae0db4f": [
+      0.3064,
+      0.1888
+    ],
+    "3c93de0e-c1c5-81b2-8d34-d6873cd45dc6": [
+      0.1276,
+      0.1323
+    ],
+    "3c93de0e-c1c5-81da-b158-e2c86e27ca3d": [
+      0.5142,
+      0.6316
+    ],
+    "3c93de0e-c1c5-81ec-9dd0-f02d83d938bb": [
+      0.2991,
+      0.437
+    ],
+    "3c93de0e-c1c5-81f4-ad27-f43e7dd93e23": [
+      0.6819,
+      0.776
+    ],
+    "3ca3de0e-c1c5-810f-a8a9-d51de081951a": [
+      0.496,
+      0.825
+    ],
+    "3ca3de0e-c1c5-8138-9c2d-c812ef5d3edb": [
+      0.1607,
+      0.2175
+    ],
+    "3ca3de0e-c1c5-813a-b08f-f88b5d49f4f7": [
+      0.7107,
+      0.2767
+    ],
+    "3ca3de0e-c1c5-8143-9eb7-e444804d3a10": [
+      0.7214,
+      0.3023
+    ],
+    "3ca3de0e-c1c5-814d-a8ca-f1acd5629270": [
+      0.3135,
+      0.1921
+    ],
+    "3ca3de0e-c1c5-8161-a390-c55656a65967": [
+      0.6636,
+      0.8912
+    ],
+    "3ca3de0e-c1c5-8185-8f02-f11f970fc8c0": [
+      0.6983,
+      0.9989
+    ],
+    "3ca3de0e-c1c5-818f-92c9-fbe11ec4a808": [
+      0.798,
+      0.3895
+    ],
+    "3ca3de0e-c1c5-819e-a4be-e93386639017": [
+      0.3028,
+      0.2662
+    ],
+    "3ca3de0e-c1c5-81a8-b9e2-e653c9779a90": [
+      0.323,
+      0.2375
+    ],
+    "3ca3de0e-c1c5-81ac-af84-db86d7a85372": [
+      0.2243,
+      0.0155
+    ],
+    "3ca3de0e-c1c5-81b1-87f8-df7f7e21e8f8": [
+      0.7211,
+      0.3111
+    ],
+    "3ca3de0e-c1c5-81cc-8144-f6ad93d3fca4": [
+      0.9968,
+      0.5755
+    ],
+    "3ca3de0e-c1c5-81d0-adf8-e3994aafcefb": [
+      0.6933,
+      0.8406
+    ],
+    "3ca3de0e-c1c5-81d9-b86b-cf81de323a61": [
+      0.7304,
+      0.3065
+    ],
+    "3ca3de0e-c1c5-81f2-9774-e9cc61bac851": [
+      0.9693,
+      0.6245
+    ],
+    "3cb3de0e-c1c5-811d-88ea-ce1372338b49": [
+      0.7313,
+      0.7981
+    ],
+    "3cb3de0e-c1c5-8125-ab92-db3b37394095": [
+      0.2846,
+      0.2592
+    ],
+    "3cb3de0e-c1c5-8127-a63e-d1ed5d95c045": [
+      0.4286,
+      0.3821
+    ],
+    "3cb3de0e-c1c5-8128-b755-eb69a055a7ba": [
+      0.8456,
+      0.4506
+    ],
     "3cb3de0e-c1c5-8135-b8aa-d4bbb5f263e7": [
-      0.5947,
-      0.8312
+      0.5985,
+      0.6378
     ],
     "3cb3de0e-c1c5-813e-b0dc-ff8b88c63012": [
-      0.3622,
-      0.7377
+      0.3941,
+      0.2183
     ],
     "3cb3de0e-c1c5-8145-9194-ffaecaec97e4": [
-      0.9692,
-      0.3307
+      0.9413,
+      0.6367
     ],
     "3cb3de0e-c1c5-8150-82ee-c7b94ae8e635": [
-      0.5374,
-      0.6384
+      0.5095,
+      0.4723
     ],
     "3cb3de0e-c1c5-8172-8be7-e3e87f4517b0": [
-      0.293,
-      0.036
+      0.0842,
+      0.5758
     ],
     "3cb3de0e-c1c5-81bb-96d3-f29d15de97a4": [
-      0.1256,
-      0.51
+      0.0958,
+      0.1379
     ],
     "3cb3de0e-c1c5-81d5-afad-d53dd3a09c8a": [
-      0.3692,
-      0.4677
+      0.3283,
+      0.3507
     ],
     "3cb3de0e-c1c5-81d9-851d-d41309e60474": [
-      0.8279,
-      0.5037
+      0.7219,
+      0.8173
     ],
     "3cb3de0e-c1c5-81e1-b4d0-e06b71ab08cf": [
-      0.3578,
-      0.3704
+      0.3111,
+      0.4845
     ],
     "3cb3de0e-c1c5-81f8-8f8c-f476f4d5a5a4": [
-      0.8632,
-      0.6644
+      0.6368,
+      0.9598
     ],
     "3cd3de0e-c1c5-8105-a3f9-c0aa367c7456": [
-      0.5862,
-      0.9323
+      0.5125,
+      0.6327
     ],
     "3cd3de0e-c1c5-810f-8033-e1935eb0f3d5": [
-      0.8059,
-      0.1946
+      0.8446,
+      0.4406
     ],
     "3cd3de0e-c1c5-8150-a168-cbac6b15acdb": [
-      0.1635,
-      0.2277
+      0.0608,
+      0.4143
     ],
     "3cd3de0e-c1c5-8159-833d-c4c3313f98b4": [
-      0.7809,
-      0.9345
+      0.5108,
+      0.9118
     ],
     "3cd3de0e-c1c5-816d-859b-f13fd6c210ed": [
-      0.6381,
-      0.4663
+      0.7876,
+      0.6569
     ],
     "3cd3de0e-c1c5-816f-bbda-ffd716c3312f": [
-      0.7341,
-      0.7084
+      0.6026,
+      0.7514
     ],
     "3cd3de0e-c1c5-8180-a5d4-e68e544ed849": [
-      0.1084,
-      0.6922
+      0.1707,
+      0.0315
     ],
     "3cd3de0e-c1c5-8185-8ee3-f3fe6b1b7737": [
-      0.5333,
-      0.6458
+      0.502,
+      0.4829
     ],
     "3cd3de0e-c1c5-8190-a010-de7dfabba5fb": [
-      0.089,
-      0.4385
+      0.0328,
+      0.1793
     ],
     "3cd3de0e-c1c5-81d4-b18f-e3aa767585c7": [
-      0.7683,
-      0.7813
+      0.5506,
+      0.7997
     ],
     "3cd3de0e-c1c5-81e9-bf20-c6250f222c7b": [
-      0.9561,
-      0.1928
+      0.9549,
+      0.5689
     ],
     "3ce3de0e-c1c5-8124-92b8-e1f25085bd12": [
-      0.7333,
-      0.3741
+      0.7287,
+      0.5433
     ],
     "3ce3de0e-c1c5-812e-8ee1-c7a332516f7e": [
-      0.0276,
-      0.5977
+      0.046,
+      0.0253
     ],
     "3ce3de0e-c1c5-812e-b7b3-c87282114903": [
-      0.8089,
-      0.4785
+      0.7101,
+      0.7039
     ],
     "3ce3de0e-c1c5-814f-b817-c03b255c3f53": [
-      0.7042,
-      0.3961
+      0.7366,
+      0.5597
     ],
     "3ce3de0e-c1c5-81aa-adc4-cd4883250287": [
-      0.2783,
-      0.0134
+      0.0489,
+      0.5489
     ],
     "3ce3de0e-c1c5-81d2-bf4d-ee3da6a72555": [
-      0.2822,
-      0.8422
+      0.3524,
+      0.0831
     ],
     "3ce3de0e-c1c5-81dd-bc14-cf3102927059": [
-      0.4572,
-      0.6815
+      0.428,
+      0.4231
     ]
   },
   "layout_status": {
     "status": "ok",
-    "units": 454,
+    "units": 450,
     "min_units": 16
   },
   "landmarks": [
     {
       "term": "qwen",
-      "x": 0.0508,
-      "y": 0.5124,
+      "x": 0.046,
+      "y": 0.0815,
       "units": 25,
       "share": 0.76
     },
     {
       "term": "claude",
-      "x": 0.9653,
-      "y": 0.2473,
+      "x": 0.9572,
+      "y": 0.587,
       "units": 22,
       "share": 0.8636
     },
     {
       "term": "qwen3.8-27b",
-      "x": 0.0568,
-      "y": 0.4237,
+      "x": 0.0381,
+      "y": 0.1838,
       "units": 15,
       "share": 1.0
     },
     {
       "term": "glimmer",
-      "x": 0.4284,
-      "y": 0.4612,
+      "x": 0.4627,
+      "y": 0.216,
       "units": 5,
       "share": 1.0
     },
     {
       "term": "google gemini",
-      "x": 0.3178,
-      "y": 0.5908,
+      "x": 0.3306,
+      "y": 0.2751,
+      "units": 5,
+      "share": 0.8
+    },
+    {
+      "term": "qwen3.8-flash-next",
+      "x": 0.1373,
+      "y": 0.05,
       "units": 5,
       "share": 0.8
     }
@@ -7493,9 +7411,7 @@
     "3b53de0e-c1c5-81fe-b0a7-fe7e068f5795": "models.benchmark",
     "3b63de0e-c1c5-813f-9d6b-cf039f075a8f": "safety.regulation",
     "3b63de0e-c1c5-81c8-9764-c7b1f98756a8": "systems.eval",
-    "3b63de0e-c1c5-8144-9a9f-dcbe3c28ac62": "models.commercial",
     "3b63de0e-c1c5-817a-b118-d8fc8cd67515": "systems.agents",
-    "3b63de0e-c1c5-81ee-8ba3-cd0d8ffbaefb": "safety.misuse",
     "3b63de0e-c1c5-81cc-8a92-fe6178ec61de": "models.open_weights",
     "3b63de0e-c1c5-8189-a483-fd4924aff85c": "runtime.engines",
     "3b63de0e-c1c5-8177-a99b-ecf1776fc64d": "usecases.tasks",
@@ -7513,7 +7429,6 @@
     "3b73de0e-c1c5-81f0-8f3d-efa0a23e8841": "models.open_weights",
     "3b73de0e-c1c5-817a-bd92-c87a71c3b5d6": "out_of_scope.community",
     "3b73de0e-c1c5-8178-93c8-f2788d9fb4f1": "out_of_scope.datacenter",
-    "3b73de0e-c1c5-8174-90c6-cfd36a4acddd": "safety.research",
     "3b73de0e-c1c5-817c-9147-df8457d7e22e": "models.benchmark",
     "3b73de0e-c1c5-8174-b40e-d7ac212f42c0": "runtime.hardware_price",
     "3b73de0e-c1c5-8134-ba5d-e6a40b09e1d0": "out_of_scope.economy",
@@ -7617,7 +7532,6 @@
     "3bc3de0e-c1c5-816c-8a47-f9ceeeb96d26": "runtime.engines",
     "3bd3de0e-c1c5-8195-98e4-fe3d36c2ff97": "out_of_scope.geopolitics",
     "3bd3de0e-c1c5-8145-9b95-f4d64a3bc009": "models.new_release",
-    "3bd3de0e-c1c5-810f-b52a-d56140cb3fad": "runtime.engines",
     "3bd3de0e-c1c5-811e-95a1-f8124f47511b": "models.new_release",
     "3bd3de0e-c1c5-8136-ba4d-c2f3575656a1": "models.new_release",
     "3bd3de0e-c1c5-81b3-b2b2-c33324a5b48e": "usecases.coding",
@@ -7634,7 +7548,6 @@
     "3bd3de0e-c1c5-81ff-9527-d4fd52b4c2a5": "systems.rag_prompt",
     "3be3de0e-c1c5-8153-b3ff-df34bc35b600": "out_of_scope.datacenter",
     "3be3de0e-c1c5-8162-9559-c6082717ca25": "models.new_release",
-    "3be3de0e-c1c5-8181-ad39-f01edfda9b44": "runtime.engines",
     "3be3de0e-c1c5-814f-9ab2-e97d2f54d22c": "systems.eval",
     "3be3de0e-c1c5-8142-b344-f6241cb85a3f": "out_of_scope.economy",
     "3be3de0e-c1c5-81eb-8b95-d21a201d5f83": "runtime.edge",
@@ -7777,7 +7690,6 @@
     "3c63de0e-c1c5-81b2-965f-f2505295e4a9": "out_of_scope.economy",
     "3c63de0e-c1c5-81a0-bc49-ea62611415b1": "out_of_scope.economy",
     "3c63de0e-c1c5-81f5-a694-e9ae09510383": "usecases.coding",
-    "3c63de0e-c1c5-8186-92a4-e551d4de4bb0": "runtime.engines",
     "3c63de0e-c1c5-81e6-884c-f9ac8f5cb50a": "usecases.coding",
     "3c63de0e-c1c5-81ee-8141-dc99609406b3": "models.benchmark",
     "3c73de0e-c1c5-81c8-8abb-fb3ea57fa6e3": "models.small_efficient",
@@ -7788,7 +7700,6 @@
     "3c73de0e-c1c5-8161-bbea-f0810677c7be": "out_of_scope.corporate",
     "3c73de0e-c1c5-8170-9b79-f6ee69fde66c": "safety.security",
     "3c73de0e-c1c5-818c-acd1-f4dd1870751d": "safety.misuse",
-    "3c73de0e-c1c5-8116-9bcc-ef2ffdd40e21": "out_of_scope.datacenter",
     "3c73de0e-c1c5-81a2-bb54-fea5bb6a93b8": "out_of_scope.datacenter",
     "3c73de0e-c1c5-81f1-8abd-c35e3da45b6d": "out_of_scope.datacenter",
     "3c73de0e-c1c5-81f4-bce3-e1e53ab36789": "out_of_scope.datacenter",
@@ -7820,7 +7731,6 @@
     "3c83de0e-c1c5-81db-92b7-f69bf3cde32a": "runtime.engines",
     "3c83de0e-c1c5-818d-8e03-f1284b97d95c": "runtime.engines",
     "3c93de0e-c1c5-818a-8d67-ceccd1b0bb58": "models.specialized",
-    "3c93de0e-c1c5-8106-aac3-dce52b0ca45d": "runtime.engines",
     "3c93de0e-c1c5-8128-93d7-d87e2bcb23cf": "models.new_release",
     "3c93de0e-c1c5-8170-9788-c4a49a3bec81": "usecases.coding",
     "3c93de0e-c1c5-818a-86a7-fcee2c8a18bc": "out_of_scope.funding",
