@@ -133,14 +133,5 @@
     "fetched": "2026-10-10T00:03:14.885Z",
     "summary": "Qwen3.8-27Bのハードウェア別推論速度：R9700で159 tok/s、Strix Haloで64 tok/s\n\n- Qwen3.8-27Bモデルにおけるハードウェアごとのトークン処理速度が比較されている。\n- AMDのR9700環境では、秒間159トークン（tok/s）という非常に高速な推論速度を記録している。\n- AMDのStrix Halo環境では、秒間64トークン（tok/s）の推論速度となっている。\n- 大規模言語モデルの実行において、利用するハードウェアによってパフォーマンスに大きな差が生じることを示している。",
     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x18e95/qwen3827b_159_toks_on_r9700_64_toks_on_strix_halo/"
-  },
-  {
-    "id": "3f53de0e-c1c5-8159-b717-c6e05c80a40f",
-    "title": "v0.40.2",
-    "site": "Ollama Blog",
-    "published": "2026-10-09T03:37:30.000Z",
-    "fetched": "2026-10-10T00:03:38.592Z",
-    "summary": "Ollama v0.40.2 リリースノート\n\n- OllamaのGitHubリポジトリにおいて、バージョン「v0.40.2」が最新のリリースとして公開された。\n- ページ内にはGitHubの標準的なナビゲーションメニューやコード、プルリクエスト、セキュリティ、インサイトなどのリポジトリ管理機能へのリンクが含まれている。\n- 読み込みエラーが発生したことを示すメッセージ（「Sorry, something went wrong.」や「Uh oh! There was an error while loading.」など）が表示されており、動的なコンテンツの読み込みに失敗している状態が確認できる。\n- リリース情報の詳細や変更点（チェンジログなど）を表示するための領域でエラーや読み込み待ちが発生しており、ページをリロードするよう促されている。",
-    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2"
   }
 ]

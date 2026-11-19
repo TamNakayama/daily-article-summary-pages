@@ -45,15 +45,6 @@
     "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/"
   },
   {
-    "id": "3f43de0e-c1c5-815e-9dd3-d03926871ea1",
-    "title": "Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over",
-    "site": "THE DECODER",
-    "published": "2026-10-08T10:30:23.000Z",
-    "fetched": "2026-10-09T00:01:50.515Z",
-    "summary": "Claude Haiku 5.5の大幅な価格引き下げとAI価格競争の激化\n\n- Anthropicが高速かつ手頃な小型モデル「Claude Haiku 5.5」をリリースし、データクエリやカスタマーサポートなどの大量処理向けに提供を開始した。\n- Haiku 5.5は、前モデルのHaiku 4.5を上回るベンチマーク性能を達成しながら、トークン価格を最大90%引き下げ、OpenAIの「GPT-6 Luna」などの競合予算モデルを凌駕している。\n- ベンチマークプラットフォーム「Artificial Analysis」のインテリジェンス指数において、Haiku 5.5は小型モデルクラスで最高スコアを記録した。\n- その一方で、Haiku 5.5は最高負荷レベルで競合モデルよりも多くの出力トークンを消費するため、リソース効率（パレート効率）の面ではOpenAIのモデルに軍配が上がるという指摘もある。\n- 本モデルはAWS、Google Cloud、Azureで利用可能であり、Anthropicは「Sonnet 5.5」のキャッシュ読み取りコストの半減や、APIサブスクライバー向けの月額クレジット提供も同時に実施している。",
-    "url": "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/"
-  },
-  {
     "id": "3f43de0e-c1c5-819c-8b5d-d603e7599dcb",
     "title": "Teen's AI-guided mountain hike ends with a helicopter rescue and a lesson in common sense",
     "site": "THE DECODER",
