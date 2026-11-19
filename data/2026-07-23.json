@@ -126,15 +126,6 @@
     "url": "https://github.com/ollama/ollama/releases/tag/v0.32.3-rc0"
   },
   {
-    "id": "3a73de0e-c1c5-818a-b94a-f14a1d48e705",
-    "title": "v0.32.2",
-    "site": "Ollama Blog",
-    "published": "2026-07-23T16:47:25.000Z",
-    "fetched": "2026-07-24T00:03:07.000Z",
-    "summary": "Ollama v0.32.2 リリース情報\n\nOllamaのバージョン0.32.2が公開されました。このアップデートでは、主にシステムの安定性向上やバグ修正が行われています。\n\n- バグ修正により、アプリケーション全体の安定性と信頼性が向上しました。\n- 特定のモデル実行環境における互換性が改善されました。\n- ユーザーからの報告に基づき、パフォーマンスに関連する細かな調整が実施されています。\n- 既存の機能の最適化が行われ、よりスムーズな操作体験を提供します。",
-    "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2"
-  },
-  {
     "id": "3a73de0e-c1c5-811e-b970-cb5993acbc2d",
     "title": "Debugging Ray Tracing Applications Using NVIDIA OptiX Toolkit",
     "site": "NVIDIA Developer Blog",
