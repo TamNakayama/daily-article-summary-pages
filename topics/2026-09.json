@@ -1,6 +1,6 @@
 {
   "month": "2026-09",
-  "generated_at": "2026-11-13T08:41:00Z",
+  "generated_at": "2026-11-19T07:31:22Z",
   "closed": true,
   "taxonomy_version": 1,
   "classifier": {
@@ -201,7 +201,7 @@
     ]
   },
   "counts": {
-    "collected": 503,
+    "collected": 502,
     "units": 476,
     "classified": 366,
     "out_of_scope": 89,
@@ -1121,12 +1121,12 @@
     ],
     "categories": {
       "models": [
-        117,
+        112,
         126,
         124
       ],
       "runtime": [
-        32,
+        29,
         57,
         62
       ],
@@ -1136,19 +1136,19 @@
         48
       ],
       "usecases": [
-        28,
+        26,
         29,
         17
       ],
       "safety": [
-        82,
+        80,
         80,
         115
       ]
     },
     "subcategories": {
       "models.new_release": [
-        51,
+        48,
         59,
         52
       ],
@@ -1163,7 +1163,7 @@
         7
       ],
       "models.specialized": [
-        10,
+        9,
         11,
         23
       ],
@@ -1173,7 +1173,7 @@
         5
       ],
       "models.benchmark": [
-        24,
+        23,
         22,
         27
       ],
@@ -1183,7 +1183,7 @@
         7
       ],
       "runtime.tools": [
-        8,
+        6,
         9,
         10
       ],
@@ -1203,7 +1203,7 @@
         10
       ],
       "runtime.edge": [
-        3,
+        2,
         5,
         6
       ],
@@ -1223,7 +1223,7 @@
         10
       ],
       "usecases.coding": [
-        10,
+        9,
         13,
         5
       ],
@@ -1233,12 +1233,12 @@
         10
       ],
       "usecases.media": [
-        7,
+        6,
         2,
         2
       ],
       "safety.security": [
-        29,
+        28,
         22,
         23
       ],
@@ -1258,7 +1258,7 @@
         28
       ],
       "safety.regulation": [
-        23,
+        22,
         9,
         21
       ],
@@ -1268,12 +1268,12 @@
         11
       ],
       "out_of_scope.funding": [
-        10,
+        8,
         21,
         17
       ],
       "out_of_scope.corporate": [
-        37,
+        36,
         25,
         18
       ],
@@ -1283,7 +1283,7 @@
         5
       ],
       "out_of_scope.datacenter": [
-        18,
+        17,
         24,
         16
       ],
@@ -1299,12 +1299,12 @@
       ]
     },
     "out_of_scope": [
-      90,
+      86,
       110,
       89
     ],
     "unclassified": [
-      9,
+      8,
       8,
       21
     ]
@@ -1383,12 +1383,12 @@
       {
         "site": "THE DECODER",
         "units": [
-          180,
+          171,
           209,
           221
         ],
         "collected": [
-          180,
+          171,
           209,
           221
         ]
@@ -1409,12 +1409,12 @@
       {
         "site": "NVIDIA Developer Blog",
         "units": [
-          22,
+          20,
           36,
           42
         ],
         "collected": [
-          22,
+          20,
           36,
           42
         ]
@@ -1422,12 +1422,12 @@
       {
         "site": "Simon Willison’s Weblog (llms)",
         "units": [
-          43,
+          40,
           41,
           39
         ],
         "collected": [
-          43,
+          40,
           41,
           39
         ]
@@ -1435,12 +1435,12 @@
       {
         "site": "Hugging Face Blog",
         "units": [
-          28,
+          25,
           23,
           22
         ],
         "collected": [
-          28,
+          25,
           23,
           22
         ]
@@ -1455,19 +1455,19 @@
         "collected": [
           22,
           33,
-          31
+          30
         ]
       }
     ],
     "total_units": [
-      396,
+      379,
       454,
       476
     ],
     "total_collected": [
-      416,
+      399,
       485,
-      503
+      502
     ],
     "days": {
       "count": 30,
@@ -1638,7 +1638,7 @@
     },
     {
       "representative_id": "3e63de0e-c1c5-8108-b4b3-e8f631a0698f",
-      "label": "Ollama Blog v0.34.x のリリース（23件）",
+      "label": "Ollama Blog v0.34.x のリリース（22件）",
       "subcategory": "runtime.engines",
       "member_ids": [
         "3d23de0e-c1c5-8125-a3bf-edbb9688bfd8",
@@ -1648,7 +1648,6 @@
         "3d73de0e-c1c5-81b8-bfc9-c443424dab41",
         "3d73de0e-c1c5-8126-b1cd-ef2dc1e83ad9",
         "3d73de0e-c1c5-81c7-9aa8-c0ecc5b41153",
-        "3d83de0e-c1c5-8122-9577-f42678856dcc",
         "3dc3de0e-c1c5-8191-9248-f26fa18c2b88",
         "3dc3de0e-c1c5-81e4-9d8e-ca4b0467b7f0",
         "3dd3de0e-c1c5-8171-9127-d82cc5470d5d",
@@ -3020,14 +3019,6 @@
       "published": "2026-09-10T05:57:07.000Z",
       "published_jst": "2026-09-10",
       "site": "r/LocalLLaMA (Reddit)",
-      "daily_date": "2026-09-10"
-    },
-    "3d83de0e-c1c5-8122-9577-f42678856dcc": {
-      "title": "v0.34.0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0",
-      "published": "2026-09-10T06:18:35.000Z",
-      "published_jst": "2026-09-10",
-      "site": "Ollama Blog",
       "daily_date": "2026-09-10"
     },
     "3d83de0e-c1c5-816c-9c40-c22f44486e62": {
@@ -7904,7 +7895,6 @@
     "3d83de0e-c1c5-8179-8b49-dcb2caf51c8f": "safety.security",
     "3d83de0e-c1c5-8119-ab8a-ff02cc99caf7": "out_of_scope.community",
     "3d83de0e-c1c5-8182-92cd-e32523e9f835": "models.open_weights",
-    "3d83de0e-c1c5-8122-9577-f42678856dcc": "runtime.engines",
     "3d83de0e-c1c5-816c-9c40-c22f44486e62": "models.new_release",
     "3d83de0e-c1c5-8117-b49d-fdbf316006c1": "models.new_release",
     "3d83de0e-c1c5-8128-95ef-c88e2ec4ff2a": "models.small_efficient",
