@@ -97,14 +97,5 @@
     "fetched": "2026-10-26T00:02:32.606Z",
     "summary": "Lean-QwenFlash: NVMe SSDの直接オフロードを活用した、16GB VRAMおよび8GB RAM環境での大規模言語モデルの高速動作\n\n- 約125Bの大規模な「Qwen3.8-Flash-Next」モデルを、一般的なPC構成である16GB VRAMと8GB RAMの制限下で動作させることに成功した。\n- 通常は大量のVRAMが必要となる超大型モデルを、ダイレクトNVMe SSDオフロード技術を活用して実行している。\n- 低スペックなハードウェア環境でありながら、約20トークン/秒という実用的な生成速度を実現している。\n- この技術により、高価なハイエンドGPUを複数用意しなくても、最先端の大規模言語モデルをローカル環境で手軽に利用できるようになる。",
     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xev6bo/leanqwenflash_qwen38flashnext_125b_running_at_20/"
-  },
-  {
-    "id": "4053de0e-c1c5-814e-a400-de39a9d32a5a",
-    "title": "v0.40.11",
-    "site": "Ollama Blog",
-    "published": "2026-10-25T18:06:57.000Z",
-    "fetched": "2026-10-26T00:02:39.528Z",
-    "summary": "Ollama v0.40.11 リリース情報\n\n- GitHub上のollama/ollamaリポジトリにおいて、最新バージョン「v0.40.11」がリリースされた。\n- 本バージョンは、GitHubのリリース・タグページで最新（Latest）として公開されている。\n- リポジトリのページでは、コード、Issues、Pull requests、セキュリティおよび品質に関するインサイトなどのナビゲーション機能が提供されている。",
-    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11"
   }
 ]
