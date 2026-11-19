@@ -126,15 +126,6 @@
     "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-and-blackwell-set-a-new-standard-for-agentic-ai-performance-per-watt/"
   },
   {
-    "id": "3c73de0e-c1c5-8116-9bcc-ef2ffdd40e21",
-    "title": "Maximizing AI Factory Performance per Watt with NVIDIA DSX MaxLPS",
-    "site": "NVIDIA Developer Blog",
-    "published": "2026-08-24T15:00:00.000Z",
-    "fetched": "2026-08-25T00:03:11.000Z",
-    "summary": "NVIDIA DSX MaxLPSによるAIファクトリーの電力効率最大化\n\n- NVIDIA DSX MaxLPSは、動的な電力配分や高度なワットあたり性能向上技術、45℃の温水冷サイト設計を統合し、固定された電力予算内でAIファクトリーの処理能力を最大化します。\n- 動的電力ソフトウェア（DPS）がリアルタイムで未使用の電力を再配分し、静的プロビジョニングによる埋没容量を回収することで、施設全体の電力枠を増やさずにVera Rubin NVL72のGPU容量を最大40%増加させます。\n- 従来のデータセンター設計における最悪のピーク需要を想定した静的なラックプロビジョニングによる電力の無駄を解消し、アプリケーションレベルのワットあたり性能を向上させます。\n- ワークロードプロファイルの電力ソリューション、NVIDIA Dynamoなどの最適化されたソフトウェアスタック、温水液体冷却インフラストラクチャを活用し、GB200 NVL72で1.5倍のワットあたり性能向上を実現しています。\n- 進化するAIワークロードの混在に対応し、スケーラブルで将来性のあるサイト設計を可能にします。",
-    "url": "https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/"
-  },
-  {
     "id": "3c73de0e-c1c5-81a2-bb54-fea5bb6a93b8",
     "title": "NVIDIA BlueField-4 Powers New Scale-In Network Infrastructure for Agentic AI Factories",
     "site": "NVIDIA Developer Blog",

@@ -162,15 +162,6 @@
     "url": "https://github.com/ollama/ollama/releases/tag/v0.33.1-rc0"
   },
   {
-    "id": "3c93de0e-c1c5-8106-aac3-dce52b0ca45d",
-    "title": "v0.33.0",
-    "site": "Ollama Blog",
-    "published": "2026-08-26T02:09:34.000Z",
-    "fetched": "2026-08-27T00:03:42.000Z",
-    "summary": "ollama/ollama v0.33.0 リリース情報\n\n- GitHub上のollamaリポジトリにおける「v0.33.0」のリリースに関するページである。\n- ページのヘッダーやナビゲーションメニューには、GitHubの機能（Copilot、Actions、Codespaces、セキュリティ機能など）や、企業のソリューション、ドキュメントへのリンクが含まれている。\n- リポジトリの基本情報として、パブリック公開されている「ollama/ollama」であり、フォーク数やスター数（180k）、コード、Issues、Pull requestsなどのタブが表示されている。\n- 閲覧時には、サインイン状態の変更や別タブでの操作に関するアラート、またはページの読み込みエラーに関するメッセージが表示される場合がある。",
-    "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0"
-  },
-  {
     "id": "3c93de0e-c1c5-8194-be00-f8db6a3cb218",
     "title": "NVIDIA NVLink Fusion Brings NVHBM to Next-Generation AI Infrastructure",
     "site": "NVIDIA Developer Blog",
