@@ -162,15 +162,6 @@
     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcdati/deepseekv41flash_surprised/"
   },
   {
-    "id": "3d83de0e-c1c5-8122-9577-f42678856dcc",
-    "title": "v0.34.0",
-    "site": "Ollama Blog",
-    "published": "2026-09-10T06:18:35.000Z",
-    "fetched": "2026-09-11T00:03:57.528Z",
-    "summary": "Ollama v0.34.0 リリース情報\n\n- GitHub上のOllamaプロジェクト（ollama/ollama）において、バージョン「v0.34.0」のリリースが公開された。\n- ページ内には、GitHubのプラットフォーム機能、開発者ワークフロー（Copilot、Actions、Codespacesなど）、セキュリティ対策に関する共通のナビゲーションメニューやリンクが多く含まれている。\n- リポジトリの統計情報として、スター数（約18.1万）やフォーク数（約1.78万）、多数のIssueやPull Requestが寄せられていることが確認できる。\n- 読み込みエラーが発生した場合のメッセージや、サインイン状態に関するアラート表示が含まれており、ページの一部が正常に表示されない状態のエラーログが混在している。",
-    "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0"
-  },
-  {
     "id": "3d83de0e-c1c5-81d5-9d3b-d2a7fc31b754",
     "title": "How Full-Stack NIM Optimizations Deliver 2.5x More Users on Nemotron 3 Ultra",
     "site": "NVIDIA Developer Blog",
