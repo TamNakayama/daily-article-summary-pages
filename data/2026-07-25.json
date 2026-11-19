@@ -18,15 +18,6 @@
     "url": "https://the-decoder.com/opus-5-may-have-solved-browser-based-prompt-injection-the-biggest-security-flaw-haunting-ai-agents/"
   },
   {
-    "id": "3a93de0e-c1c5-8158-afb4-ec84fbba0268",
-    "title": "Anthropic's Claude Opus 5 delivers near-Fable 5 performance at half the token price",
-    "site": "THE DECODER",
-    "published": "2026-07-25T10:04:42.000Z",
-    "fetched": "2026-07-26T00:01:44.000Z",
-    "summary": "Anthropicの最新モデル「Claude Opus 5」が、高性能な「Fable 5」に匹敵する性能を半額のコストで実現\n\n- Anthropicは、最新フラッグシップモデル「Claude Opus 5」を発表した。Fable 5に迫る高い性能を持ちながら、トークン価格を半額に抑えることで、コストパフォーマンスを大幅に向上させている。\n- エージェント型のコーディングやナレッジワークにおいてトップクラスのスコアを記録。特に未知の問題解決能力を測る「ARC-AGI-3」では30.2％を達成し、GPT-5.6 Solを大きく上回る成果を見せた。\n- 自己修正能力を備えており、反復的な試行を通じて自身の作業を改善するほか、必要に応じてコードを生成し、自らツールを構築する高度な自律性を持つ。\n- 入出力トークンの基本料金は前世代から据え置かれている。また、新たに「Fast Mode」が導入され、2.5倍の速度で動作させることが可能となった（価格は通常の2倍）。\n- 本モデルはClaude Maxのデフォルトモデルとして採用されるほか、Claude Proのユーザーも利用可能となり、競合他社との価格・性能競争において優位性を確立する狙いがある。",
-    "url": "https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/"
-  },
-  {
     "id": "3a93de0e-c1c5-81b6-8d06-c05f79c18da4",
     "title": "Anthropic's Claude Opus 5 costs well below Fable 5 while matching or beating it across most benchmarks",
     "site": "THE DECODER",

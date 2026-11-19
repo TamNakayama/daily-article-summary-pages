@@ -70,14 +70,5 @@
     "fetched": "2026-07-09T05:34:17.000Z",
     "summary": "タイトル：ローカルモデルの回答に対する信頼性について\n\n結論から述べると、提供された本文が「Reddit - Please wait for verification」というシステム上の通知メッセージのみであるため、記事の内容を具体的に要約・分析することができません。\n\n重要なポイント：\n・提供されたテキストに実質的な内容が含まれておらず、情報の不足により詳細な要約が不可能です。\n・タイトルからはローカルモデル（LLM等）の回答精度の信頼性に関する議論が想定されますが、本文がないため具体的な論点を確認できません。\n・現状では、対象となる記事の内容を特定するための情報が存在しない状態です。",
     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqpxgp/can_you_trust_local_models_to_answer_accurately/"
-  },
-  {
-    "id": "3983de0e-c1c5-811d-a240-cc27afbf5d65",
-    "title": "v0.31.2-rc2: llm: allow iGPU mmproj offload with fit padding (#16996)",
-    "site": "Ollama Blog",
-    "published": "2026-07-07T22:28:42.000Z",
-    "fetched": "2026-07-09T05:35:42.000Z",
-    "summary": "タイトル：Ollama v0.31.2-rc2 リリース：iGPUにおけるmmprojオフロードの対応\n\n・**iGPUにおけるマルチモーダル投影（mmproj）のオフロード対応**\n統合型グラフィックス（iGPU）を使用している環境において、マルチモーダルモデルで用いられる「mmproj」コンポーネントをオフロードできるようになりました。\n\n・**「fit padding」への対応による互換性の向上**\nパディング処理に関する制約を緩和する修正により、特定のハードウェア構成における技術的な課題が解決されました。\n\n・**リソース制限のある環境での利便性向上**\nこの更新により、高性能な専用GPUを持たないユーザーでも、iGPUを活用してマルチモーダルモデル（LLaVAなど）をより効率的に実行できる可能性が高まりました。",
-    "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc2"
   }
 ]

@@ -52,14 +52,5 @@
     "fetched": "2026-07-22T08:56:00.000Z",
     "summary": "オープンソースAIの制限が防衛側に与える深刻な影響\n\n- Hugging FaceのCEOは、オープンソースAIを禁止することは攻撃者よりも防御側に対して10倍以上の深刻な不利益をもたらし、世界をより危険なものにすると警告しています。\n- オープンソースを制限すると、正当な防衛者が利用できるツールや透明性が失われる一方で、悪意のあるアクターが技術を独占・隠蔽して利用することが可能になるためです。\n- 公開されたモデルはコミュニティによる監視や脆弱性の特定が可能であり、この「公開性」こそがサイバーセキュリティにおける重要な防御壁として機能していると主張しています。",
     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2g9bc/ceo_of_hugging_face_banning_opensource_ai_would/"
-  },
-  {
-    "id": "3a53de0e-c1c5-815b-96a4-e0da39b707d3",
-    "title": "v0.32.2-rc0: cuda: add CC 10.0 for linux in CUDA v12 (#17025)",
-    "site": "Ollama Blog",
-    "published": "2026-07-20T20:09:36.000Z",
-    "fetched": "2026-07-22T08:57:21.000Z",
-    "summary": "v0.32.2-rc0におけるLinux向けCUDA v12のCC 10.0サポート追加\n\n- ollamaのバージョンv0.32.2-rc0において、CUDAに関連する重要な機能拡張が行われました。\n- Linux環境でCUDA v12を使用する場合、計算能力（Compute Capability）「10.0」への対応が新たに追加されました。\n- この更新により、特定のハードウェア構成や最新のGPUアーキテクチャにおける互換性とサポート範囲が拡大します。\n- 本件はGitHub上のイシュー#17025に基づいた修正・追加です。",
-    "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc0"
   }
 ]
