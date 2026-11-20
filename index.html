@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI/LLM記事まとめ 2026/11/18</title>
+<title>AI/LLM記事まとめ 2026/11/19</title>
 <style>
   body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
   h1 { font-size: 1.4em; }
@@ -36,7 +36,7 @@
 <header class="date-nav">
   <span class="date-nav-title">AI/LLM記事まとめ</span>
   <button id="prev-btn" aria-label="前日へ">◀</button>
-  <input id="date-input" type="text" value="2026-11-18" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <input id="date-input" type="text" value="2026-11-19" inputmode="numeric" placeholder="YYYY-MM-DD">
   <span class="date-nav-calendar-wrap">
     <span class="calendar-icon" aria-hidden="true">📅</span>
     <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
@@ -44,47 +44,100 @@
   <button id="next-btn" disabled aria-label="翌日へ">▶</button>
   <a id="monthly-link" class="monthly-link" href="topics/index.html" target="_blank" rel="noopener" aria-label="月次一覧（新しいタブで開きます）" title="月次一覧（新しいタブで開きます）">月次一覧<span class="ext" aria-hidden="true"> ↗</span></a>
 </header>
-<h1>2026/11/18</h1>
+<h1>2026/11/19</h1>
+<section class="day-summary" id="day-summary" style="background: #eef2f8; border-radius: 8px; padding: 12px 16px; margin-bottom: 16px; font-size: 0.9em;">
+  <p style="margin: 4px 0;">全 14 件</p>
+  <p style="margin: 4px 0;">THE DECODER 7件 / Hugging Face Blog 3件 / NVIDIA Developer Blog 2件 / Simon Willison’s Weblog (llms) 2件</p>
+  <p style="margin: 4px 0;">よく出た語: google(3), cheaper(2), frontier(2)</p>
+</section>
 
-    <div class="card">
+    <div class="card" id="a-41e3de0e-c1c5-8165-b22b-db406cd764dd">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector/" target="_blank" rel="noopener">Anthropic's $81.3 billion IPO shatters SpaceX's record as rising rates and political headwinds shake the sector</a></h2>
+      <p>Anthropicが過去最大規模となる813億ドルのIPOを実施し、SpaceXの記録を更新<br><br><ul><li>AI企業のアンスロピックが新規公開株（IPO）で813億ドルを調達し、SpaceXの従来記録を更新しました。発行価格は1株83ドルで、完全希薄化後の時価総額は約1.5兆円規模に達しています。</li><li>コーディングツール「Claude Code」の普及に牽引され、2026年最初の9ヶ月間で売上高は332.4億ドルに急増したものの、負債の再評価などが主因となり純損失は1040億ドルへと膨らんでいます。</li><li>圧倒的な市場需要を背景に、公開企業および創業者らは当初の計画を上回る約9億8,000万株を売却し、ナスダックでの取引開始に向けて注目を集めています。</li><li>初期投資家であるダスティン・モスコヴィッツ氏は、野放しな競争や自律型AIエージェントがもたらす安全上のリスクに警鐘を鳴らし、自身の保有株を非営利団体に移転した上でIPOから距離を置いています。</li></ul></p>
+    </div>
+
+    <div class="card" id="a-41e3de0e-c1c5-814f-85af-d79e391684fd">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues/" target="_blank" rel="noopener">OpenAI's own researchers now say they value their AI tools more than nearly half their colleagues</a></h2>
+      <p>OpenAIの内部研究においてAIコーディングエージェントの利用が急速に拡大しており、AIエージェントの利用価値が人間の同僚のほぼ半数を超えるほどに高まっていることが報告されています。<br><br><ul><li>OpenAIの研究者によるAIツールの利用が急増しており、10月時点で中央値の研究者が1日あたり2,400ドル相当のトークンを消費し、上位10%では23,000ドルに達している。</li><li>エージェントの稼働時間は1人あたり1日平均5.7営業日相当（事前・事後トレーニングチームでは約8日）に及び、3分の2以上の研究者がピーク時に4つ以上のエージェントを並行稼働させている。</li><li>エージェントの理論上のAPIコストは、9月の研究者の基本給ベースの人件費を上回る規模に達している（ただし、総報酬の大部分を占める株式報酬は除く）。</li><li>AIの利用は主にコミュニケーションやコーディングに向けられており、ルーティン作業では高い成功率を誇る一方で、コードの土台作りなどの分野では依然として弱点も残されている。</li></ul></p>
+    </div>
+
+    <div class="card" id="a-41e3de0e-c1c5-81c8-b3c9-dc86b87f44c5">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/googles-latest-ai-model-is-faster-cheaper-and-smarter-than-its-flagship-predecessor-from-just-weeks-ago/" target="_blank" rel="noopener">Google's latest AI model is faster, cheaper and smarter than its flagship predecessor from just weeks ago</a></h2>
+      <p>Googleの最新AIモデル「Gemini 4 Neon」は、わずか数週間前に登場した前身モデル「Carbon」と比較して、より高速かつ安価でありながら優れた性能を発揮する。<br><br><ul><li>Google DeepMindが7週間で4番目となる新AIモデル「Gemini 4 Neon」を発表した。</li><li>処理速度は秒間約110トークンと「Carbon」のほぼ2倍で、基本料金の安さからコストパフォーマンスも向上している。</li><li>100万トークンのコンテキストウィンドウを持ち、テキスト、画像、音声、動画の処理に対応する。</li><li>コーディングタスクでは他社（Anthropic）の競合モデルを低コストで上回り、画像分析や安全性テストでも高い成果を示している。</li><li>「Artificial Analysis Index」では、上位の他社モデルに次ぐ世界第3位にランクインしている。</li></ul></p>
+    </div>
+
+    <div class="card" id="a-41e3de0e-c1c5-8104-afb6-eb61acab7a4a">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/" target="_blank" rel="noopener">OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months</a></h2>
+      <p>OCRモデルのコスト低下と性能向上に関するニュースの要約です。<br><br>AIを活用したOCRモデルによる文書のデジタル化コストが18ヶ月で5分の1に低下し、100万ページあたり130ドル未満で処理できるようになりました。<br><br><ul><li>Hugging Faceのダニエル・ファン・ストリーン氏が8つのAI製OCRモデルを比較検証した結果、コストが大幅に削減されていることが判明した。</li><li>1,000ページあたりの処理費用は、2025年4月のモデルの約51セントから、2026年10月の最新モデルでは10セント未満へと安価になった。</li><li>ソース資料によって異なるものの、現在では100万ページ分のGPUレンタル費用が65ドルから130ドルの間に収まる。</li><li>モデルの更新だけでなく、処理の効率化（ページの均等な入力、スキャンサイズの縮小、ソフトウェアのアップデートなど）を行うことでも多大なコスト削減が実現した。</li><li>最新モデルは古いモデルと同等以上の精度を維持しているが、一部のモデルでは空白ページでテキストをハルシネーション（幻覚）したり、同じ内容を繰り返したりする課題も見られた。</li></ul></p>
+    </div>
+
+    <div class="card" id="a-41e3de0e-c1c5-81ac-bfef-c87462e8f6d8">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/" target="_blank" rel="noopener">Google ships Gemini 4 Neon, its fourth new Gemini model in a month</a></h2>
+      <p>Googleが1ヶ月で4番目となる新しいAIモデル「Gemini 4 Neon」をリリースした。<br><br><ul><li>Gemini 4 Neonは、ソフトウェア開発や科学ワークフローなどの複雑なタスクにおいて、最先端の知性と高速な処理を実現するモデルである。</li><li>APIの利用料金は、入力100万トークンあたり3ドル、出力100万トークンあたり15ドルに設定されている。</li><li>コンテキストウィンドウは約100万トークンで、最大100万トークンの出力が可能であり、テキストや画像、動画、音声、PDFなど多様なデータ形式を処理できる。</li><li>コンピューター操作、コード実行、ファイル検索、Google検索やマップによるグラウンディングをサポートしているが、画像や音声の生成機能は搭載されていない。</li><li>過去4週間に発表された「Hydrogen」「Carbon」「Argon」に続く、GoogleのGemini 4シリーズの4番目のモデルとなる。</li></ul></p>
+    </div>
+
+    <div class="card" id="a-41e3de0e-c1c5-813f-9e11-c3ccd417ed09">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/" target="_blank" rel="noopener">Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing</a></h2>
+      <p>Google Deepmindの「Project Genie」アップデート：Genie 4、連鎖可能なワールド、リミックス用コミュニティギャラリーの登場<br><br><ul><li>Google Deepmindは、インタラクティブな3Dワールドを生成する最新のワールドモデル「Genie 4」を発表し、Google AI Ultra加入者向けに提供を開始した。</li><li>Genie 4では、テキスト入力によるリアルタイムでの世界の変化（天候やキャラクター、ストーリーの変更）が可能になり、シーンに適応するリアルタイムサウンドも生成される。</li><li>従来モデルのGenie 3もアップデートされ、最大3分のセッション、360度パノラマ対応、連鎖可能なワールド機能が追加された。</li><li>音声によるワールド構築を支援するAIエージェントや、作品を共有・リミックスできるコミュニティギャラリーが新たに導入された。</li><li>生成されるすべてのコンテンツには「SynthID」の透かしが入り、安全性のチェックも実施されるほか、Google AI Proメンバーはウェイティングリストへの登録が可能となっている。</li></ul></p>
+    </div>
+
+    <div class="card" id="a-41e3de0e-c1c5-8198-a025-d7fc08287abc">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives/" target="_blank" rel="noopener">Microsoft is replacing outside AI models in its own products with cheaper in-house alternatives</a></h2>
+      <p>Microsoftが自社製品で使用する外部のAIモデルを、より安価な自社製モデルに置き換えている。<br><br><ul><li>MicrosoftのAI部門が、コード、ITセキュリティ、画像編集、音声、ワークフロー決定に特化した7つの新しい自社製モデルを発表し、常時稼働するAIエージェントの運用コスト削減を図っている。</li><li>新モデルはOpenAIやAnthropicのシステムをターゲットにした安価な代替品であり、コーディングモデルの「MAI Code 2」は内部ベンチマークで上位モデルに匹敵する性能をわずかなコストで実現している。</li><li>セキュリティ向けの「MAI Cyber 2 Flash」は、脆弱性テストにおいて他社製モデルを上回る性能を見せている。</li><li>画像モデル、音声モデル、ルーティングモデルなども同時に発表され、企業顧客はAzureクラウド上で自社データを用いたモデルの微調整が可能になる。</li><li>企業顧客の間で24時間AIエージェントを稼働させることによるトークン費用の急増が問題となっており、今回の新モデルはコストパフォーマンスの高さを前面に押し出している。</li></ul></p>
+    </div>
+
+    <div class="card" id="a-41e3de0e-c1c5-81c7-aaf6-c370c04fd266">
       <span class="badge">Simon Willison’s Weblog (llms)</span>
-      <h2><a href="https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/" target="_blank" rel="noopener">External sandboxes for coding agents</a></h2>
-      <p>コーディングエージェントのための外部サンドボックス<br><br><ul><li>コーディングエージェントが実行するコードを安全に隔離するため、エージェント本体を外側に置き、コードのみを専用環境で実行する「外部サンドボックスパターン」が提案された。</li><li>AI研究ラボ「Prime Radiant」との共同プロジェクトとして、WebAssembly（v86）、Apple Containers、Microsoft's Quicksandを利用した3つのサンドボックスサーバー実装が公開された。</li><li>これらの実装はすべて同一のローカルホストAPIを提供しており、Pi、Claude Code、Codexなどのエージェントから利用するように設定できる。</li><li>サンドボックスには、エージェントが通信可能なホストを制限するHTTP/HTTPSのホワイトリストプロキシや、シークレットを共有せずに認証済みAPIコールを行う仕組みが備わっている。</li><li>信頼性の低いコードやローカルモデルを安全に実験・試行するための有効なアプローチとして、安全なコード実行環境の構築に貢献する。</li></ul></p>
+      <h2><a href="https://simonwillison.net/2026/Nov/18/llm-gemini/" target="_blank" rel="noopener">llm-gemini 0.38</a></h2>
+      <p>Googleの「Gemini 4 Neon」の発表と、LLM用Google Geminiプラグインのバージョン0.38リリースに関する記事の要約です。複雑な価格体系や新モデルの性能検証について解説しています。<br><br>Gemini 4 Neonのリリースと価格体系の複雑化<br><br><ul><li>Googleが新モデル「Gemini 4 Neon」を発表したことで、すでに複雑だったGemini 4シリーズ（Hydrogen、Argon、Carbon）の価格体系がさらに分かりにくくなったこと。</li><li>新発表されたNeonの参入により、モデルの価格順や現在の割引適用状況が一時的に逆転し、より複雑な料金構造になっていること。</li><li>著者のシモン・ウィリソン氏が、Neonの異なる推論レベル（低・中・高）でペリカンに関するテストを行い、モデル比較グリッドからArgonを除外して比較を行ったこと。</li><li>Google Antigravityを使い、「extra」の努力レベルでOpenStreetMapのデータを利用したThree.jsの複雑なアニメーション作成プロンプトをNeonに実行させ、その成果物を公開していること。</li></ul></p>
     </div>
 
-    <div class="card">
+    <div class="card" id="a-41e3de0e-c1c5-81fe-94f7-db0329653e97">
       <span class="badge">Simon Willison’s Weblog (llms)</span>
-      <h2><a href="https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/" target="_blank" rel="noopener">GPT‑6.2 Astra and GPT‑6.2 Sol</a></h2>
-      <p>OpenAIの新型モデル「GPT-6.2 Astra」と「GPT-6.2 Sol」のリリースに関する、サイモン・ウィリソン氏のブログ記事の要約です。<br><br><ul><li>OpenAIが最高難度プロジェクト向けのフロンティアモデル「GPT-6.2 Astra」と、日常業務向けの効率的なモデル「GPT-6.2 Sol」を発表した。</li><li>GPT-6.2 Astraの価格は前モデル（6 Astra）の80%に値下げされ、特に入力キャッシュの価格が大幅に引き下げられ長期のエージェントセッションに有利となった。一方、Solの価格は据え置きとなっている。</li><li>著者によるThree.jsを使ったマンハッタン等を舞台にするアニメーション作成のベンチマークテストでは、Claude Fable 5.2やGemini 4 Carbonと比較して、今回の新モデルは十分な成果を出せなかった。</li><li>Astra 6.2に対する評価は現時点で賛否両論であり、ベンチマークのスコアがFable 5.2に及ばない点や、長時間のタスク処理におけるコミュニケーションスタイルの分かりにくさに対する不満が指摘されている。</li></ul></p>
+      <h2><a href="https://simonwillison.net/2026/Nov/18/daniel-stenberg/" target="_blank" rel="noopener">Quoting Daniel Stenberg</a></h2>
+      <p>ダニエル・ステンバーグによるcurlプロジェクトのRust書き換えとAIコーディングエージェントに関する見解<br><br><ul><li>AIコーディングエージェントが約3週間で18万行のCコードを34万行のRustに書き換えた一方、本家のcurlプロジェクトでは同じ期間に300以上のコミットをマージし、200件以上のバグ修正と脆弱性の修正を行った。</li><li>本家のcurlプロジェクトで継続的に行われている多数のバグ修正や脆弱性対応は、AIによって生成されたRustの書き換え版（クローン）には含まれていない。</li><li>ダニエル・ステンバーグは、AIによる一時的な大規模コード変換に対し、活発にメンテナンスされる実プロジェクトの継続的な改善スピードと品質維持の重要性を指摘している。</li></ul></p>
     </div>
 
-    <div class="card">
+    <div class="card" id="a-41e3de0e-c1c5-8180-8ed8-eab5eb01ef4b">
       <span class="badge">Hugging Face Blog</span>
-      <h2><a href="https://huggingface.co/blog/moe-expert-streaming" target="_blank" rel="noopener">180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers</a></h2>
-      <p>180BパラメータのMoEモデル「Qwen3.8-Flash-Next」をTransformersを活用して32GBのメモリを搭載したMac上で動作させる試みについての記事です。<br><br><ul><li>SSDからMoEのエキスパートを直接ストリーミングする手法により、Strataエンジンと比較してトークン生成性能で6%以内の差に収まる効率性を実現した。</li><li>著者自宅のPC環境（RTX 4090×2）や仕事用のMacBook M5（32GBメモリ）といったハードウェア制限の中で、大規模なモデルをローカル環境で動かすことに挑戦している。</li><li>Strataなどの推論エンジンは、ホットなエキスパートのみをVRAMに保持し、残りをRAMやディスクにオフロードすることで、メモリ容量が少ないGPUやデバイスでも大規模なMoEモデルの実行を可能にする。</li><li>モバイル環境や自宅内での移動を重視する開発スタイル（RMD）にあわせ、オフラインでの大規模モデルのローカル運用環境構築を目指している。</li></ul></p>
+      <h2><a href="https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin" target="_blank" rel="noopener">DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency</a></h2>
+      <p>RadixArk初のAIモデル「DaisyRose-27B」の発表とポストトレーニング効率の向上<br><br><ul><li>Qwen3.8-27Bをベースに、強化学習フレームワーク「Miles」を用いて開発された、高効率なポストトレーニングモデルである。</li><li>144基のH200 GPUを使用し、厳選された1,200件のタスクによってわずか18日間でトレーニングが完了している。最大100万トークンのセッションを持つ長期エージェントタスクに対応する。</li><li>ターミナル操作のベンチマークであるTerminal-Bench 4.1のpass@1スコアを、ベースモデルの5.6%から12.0%へと大幅に向上させたほか、推論、指示追従、コーディングなどの多様なベンチマークで性能を向上させている。</li><li>アーキテクチャや256Kトークンのコンテキストウィンドウなどはベースモデルを継承し、重みはApache 2.0ライセンスの下でBF16、FP8、NVFP4の各形式が公開されている。</li><li>デフォルトで回答前に思考プロセス（reasoning_content）を出力する仕様になっており、SGLangやDSparkを用いた効率的な推論運用が推奨されている。</li></ul></p>
     </div>
 
-    <div class="card">
+    <div class="card" id="a-41e3de0e-c1c5-81e0-9244-f6601b778c14">
       <span class="badge">Hugging Face Blog</span>
-      <h2><a href="https://huggingface.co/blog/rumble-2-flash" target="_blank" rel="noopener">Rumble-2-Flash: an open 0.5B speech model for 40+ languages</a></h2>
-      <p>Rumble-2-Flash: 40以上の言語に対応するオープンな0.5B音声認識モデル<br><br><ul><li>40以上の言語に対応し、自動言語検出機能を備えたApache 2.0ライセンスの0.5Bパラメータの音声認識モデル「Rumble-2-Flash」がオープンソース化された。</li><li>TransformersやvLLMでネイティブサポートされ、カスタムコード不要であらゆる環境で実行可能である。</li><li>1時間の音声を約0.5秒で処理する極めて高い処理速度を誇り、大規模なモデルに匹敵する精度を実現している。</li><li>302時間のコールセンターベンチマークテストにおいて、NVIDIAの30Bモデルと同等の性能を示し、実際の電話音声でも高い認識力を発揮する。</li><li>大型モデルからの知識蒸留（オンポリシー蒸留）を活用して構築されており、効率的な学習が行われている。</li></ul></p>
+      <h2><a href="https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time" target="_blank" rel="noopener">Why your fine-tuning job takes longer than the FLOPs say</a></h2>
+      <p>LLMのファインチューニングにかかる実際の時間は、従来の計算量（FLOPs）ベースの予測よりも大幅に長くなる傾向があります。Hugging Faceチームの研究によると、従来の計算手法による予測誤差は大きいのに対し、機械学習モデル（CatBoost）を活用することで予測精度が劇的に向上することが示されました。<br><br><ul><li>従来のFLOPsに基づく予測手法は計算コストのみを対象としており、実際の完了時間との間に大きな乖離がある（決定係数 R²=0.31）。</li><li>NVIDIA H200 GPUを用いた272件の実際のファインチューニング運用データ（約7,382時間）を分析し、予測精度の改善に取り組んだ。</li><li>事前情報のみを入力としたCatBoost回帰モデルを用いることで、予測精度が大幅に向上し（R²=0.98）、平均絶対誤差を1.71時間にまで削減することに成功した。</li><li>予測誤差が生じる主な原因は、評価の頻度、チェックポイントの保存ポリシー、GPUごとの負荷、ファインチューニングの方式など、計算量以外の複雑な要素を従来の計算式が考慮できていない点にある。</li><li>精度の高い時間予測により、共有GPUクラスターのリソース配分最適化や、実験スケジュール管理の効率化が可能になる。</li></ul></p>
     </div>
 
-    <div class="card">
-      <span class="badge">NVIDIA Developer Blog</span>
-      <h2><a href="https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/" target="_blank" rel="noopener">Co-Designing Sparse Attention for Efficient Long-Context Inference</a></h2>
-      <p>効率的な長コンテキスト推論に向けたスパースアテンションの共同設計<br><br><ul><li>128Kトークンなどの長コンテキスト処理において最大のボトルネックとなるアテンションの計算コストを削減するため、クエリが参照するキーを制限するスパースアテンションの最適化手法について解説しています。</li><li>インデクサの効率化として、クロスヘッド削減によるロジット書き込みの最適化や、FP16を用いたエピローグとアキュムレーションの実行、128または256のヘッド次元によるTensor Coreの効率的活用を図っています。</li><li>トップK選択の高速化において、インデクサカーネルへのトップKの統合や、前回のデコードステップの選択結果を予測として再利用することで2.1倍から2.4倍の高速化を実現しています。</li><li>ブロック単位の選択と大きなグループサイズを採用することで、コアアテンションがキーをまとめて取得し、クエリヘッド間で効率的に共有する仕組みを構築しています。</li><li>関連する発展的なステップとして、「Guess-Verify-Refine Top-k」論文の参照や、TensorRT-LLMおよびFlashInferリポジトリにおけるオープンソースの実装探索が推奨されています。</li></ul></p>
+    <div class="card" id="a-41e3de0e-c1c5-81f5-b29f-cd8bbba0ecd2">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse" target="_blank" rel="noopener">Time-Series Models in the Streamhouse: A New Frontier and Use Cases</a></h2>
+      <p>IBMとConfluentの連携による、ストリーミングデータ向け時系列基盤モデルの活用と実用例<br><br><ul><li>IBMの時系列基盤モデルとConfluent（Apache Flink）が連携し、リアルタイムデータに対する予測、異常検知、最適化をクラウドやオンプレミスでネイティブに実行可能になる。</li><li>企業が生成する膨大な数値データ（時系列データ）から迅速にシグナルを捉え、遅延なく意思決定や次のアクションににつなげる「ストリームハウス」という新しいアプローチを提供する。</li><li>製造業の生産最適化、異常検知、サプライチェーン計画、不正検知、トレーディング、セマンティック検索など、ミッションクリティカルな実ビジネスのユースケースに対応する。</li><li>テキストや画像における基盤モデルと同様に、多様な過去データから一般的なパターンを学習した時系列モデルを、CPU上で効率的に稼働させることができる。</li></ul></p>
     </div>
 
-    <div class="card">
+    <div class="card" id="a-41e3de0e-c1c5-81f9-a817-d564ea02473e">
       <span class="badge">NVIDIA Developer Blog</span>
-      <h2><a href="https://developer.nvidia.com/blog/integrating-qpus-into-supercomputing-centers-using-slurm-hres-plugins/" target="_blank" rel="noopener">Integrating QPUs into Supercomputing Centers Using Slurm HRES Plugins</a></h2>
-      <p>Slurm HRESプラグインを用いたスーパーコンピューティングセンターへのQPU統合<br><br><ul><li>Slurm 26.11で導入された階層型リソース（HRES）プラグインにより、量子プロセッサ（QPU）をクラスタレベルのネイティブなスケジュールの対象としてモデル化することが可能になった。</li><li>HRESは、デバイスを個々のノードにバインドする従来の汎用リソース（GRES）の制限を克服し、QPUを特定のノードに関連付けることで効率的なリソース管理を実現する。</li><li>Luaプラグインを活用することで、デバイスのヘルスチェック、ノード割り当て前のジョブ受付、リソース解放を処理しつつ、サイト固有のポリシーを分離してポータビリティを維持できる。</li><li>オープンソースコミュニティであるQRMIおよびQDMIにより、Slurmクラスタを複数プロバイダの量子コンピュータに接続するHRESプラグインが既にリリースされている。</li><li>スーパーコンピューティングセンターにおけるハイブリッド量子古典システムの構築が進んでおり、科学技術分野のシミュレーションにおいてQPUをCPUやGPUと同様のアクセラレータとして利用できるようになる。</li></ul></p>
+      <h2><a href="https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos/" target="_blank" rel="noopener">Build Training-Ready Physical AI Datasets with Two Prompts in NVIDIA Cosmos</a></h2>
+      <p>NVIDIA Cosmos Data Factoryを活用した物理AI向けトレーニングデータセットの効率的な構築<br><br><ul><li>NVIDIA Cosmos Data Factoryは、物理AI向けのデータ curation、処理、合成データ生成を加速するクラウドネイティブなブループリントやスキルを提供するオープンプラットフォームである。</li><li>自動運転のシナリオ生成、画像・動画の拡張、異常検知など、5つの主要なユースケースに対応するワークフローを構築可能である。</li><li>自動ラベリング、アノマリー生成、拡張、シミュレーション、オーケストレーションなどのコアスキルを組み合わせて、カスタムワークフローを柔軟に作成できる。</li><li>8基のNVIDIA RTX PRO 6000 BlackwellシリーズGPUを搭載したクラウドサーバーでの測定では、従来手法と比較して最大60倍高速なデータセット構築と、最大45倍のコスト削減を実現している。</li><li>高品質かつ多様なトレーニングデータの収集・処理にかかるコストや手間を大幅に削減し、ワールドモデルの精度向上のためのデータセット作成を効率化する。</li></ul></p>
+    </div>
+
+    <div class="card" id="a-41e3de0e-c1c5-8176-bf43-d7b599ae5cfe">
+      <span class="badge">NVIDIA Developer Blog</span>
+      <h2><a href="https://developer.nvidia.com/blog/tackling-gpu-bottlenecks-in-plane-wave-dft-with-k-point-batching-and-mixed-precision/" target="_blank" rel="noopener">Tackling GPU Bottlenecks in Plane-Wave DFT with K-Point Batching and Mixed Precision</a></h2>
+      <p>平面波密度汎関数理論（DFT）におけるGPUのパフォーマンスボトルネックを解消するため、NVIDIAの新ライブラリ「Daviator」を用いたk点バッチ処理と混合精度演算の手法について解説しています。<br><br><ul><li>新しいGPUカーネルライブラリ「Daviator」により、VASPの逐次的なk点処理をバッチ処理化し、小規模システムにおけるGPUのボトルネックを解消する。</li><li>Daviatorを有効化したVASPは、CPU実行と比較して最大22倍の高速化と最大75%のコスト削減を実現する。</li><li>混合精度演算レイヤーの導入により、数値的に敏感なステップをFP64に維持しつつ、選択したコンポーネントでFP32を活用し、エンド-エンドで約2倍の高速化を達成する。</li><li>設定を変更することなく既存のVASP入力を使用可能であり、INCARファイルに特定のパラメータを設定するだけで、NVIDIA ALCHEMI VASPマイクロサービスから利用できる。</li></ul></p>
     </div>
 <footer>要約モデル: gemini-3.5-flash-lite</footer>
 <script>
 (function () {
-  var CURRENT_DATE = "2026-11-18";
+  var CURRENT_DATE = "2026-11-19";
   var ARTICLES_PATH_PREFIX = 'articles/';
   var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
   var CACHE_KEY = 'dateNavList';
