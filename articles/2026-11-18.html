@@ -46,37 +46,37 @@
 </header>
 <h1>2026/11/18</h1>
 
-    <div class="card">
+    <div class="card" id="a-41d3de0e-c1c5-81e4-92f9-f4ad105547ed">
       <span class="badge">Simon Willison’s Weblog (llms)</span>
       <h2><a href="https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/" target="_blank" rel="noopener">External sandboxes for coding agents</a></h2>
       <p>コーディングエージェントのための外部サンドボックス<br><br><ul><li>コーディングエージェントが実行するコードを安全に隔離するため、エージェント本体を外側に置き、コードのみを専用環境で実行する「外部サンドボックスパターン」が提案された。</li><li>AI研究ラボ「Prime Radiant」との共同プロジェクトとして、WebAssembly（v86）、Apple Containers、Microsoft's Quicksandを利用した3つのサンドボックスサーバー実装が公開された。</li><li>これらの実装はすべて同一のローカルホストAPIを提供しており、Pi、Claude Code、Codexなどのエージェントから利用するように設定できる。</li><li>サンドボックスには、エージェントが通信可能なホストを制限するHTTP/HTTPSのホワイトリストプロキシや、シークレットを共有せずに認証済みAPIコールを行う仕組みが備わっている。</li><li>信頼性の低いコードやローカルモデルを安全に実験・試行するための有効なアプローチとして、安全なコード実行環境の構築に貢献する。</li></ul></p>
     </div>
 
-    <div class="card">
+    <div class="card" id="a-41d3de0e-c1c5-8136-982a-c3f2d502f7f5">
       <span class="badge">Simon Willison’s Weblog (llms)</span>
       <h2><a href="https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/" target="_blank" rel="noopener">GPT‑6.2 Astra and GPT‑6.2 Sol</a></h2>
       <p>OpenAIの新型モデル「GPT-6.2 Astra」と「GPT-6.2 Sol」のリリースに関する、サイモン・ウィリソン氏のブログ記事の要約です。<br><br><ul><li>OpenAIが最高難度プロジェクト向けのフロンティアモデル「GPT-6.2 Astra」と、日常業務向けの効率的なモデル「GPT-6.2 Sol」を発表した。</li><li>GPT-6.2 Astraの価格は前モデル（6 Astra）の80%に値下げされ、特に入力キャッシュの価格が大幅に引き下げられ長期のエージェントセッションに有利となった。一方、Solの価格は据え置きとなっている。</li><li>著者によるThree.jsを使ったマンハッタン等を舞台にするアニメーション作成のベンチマークテストでは、Claude Fable 5.2やGemini 4 Carbonと比較して、今回の新モデルは十分な成果を出せなかった。</li><li>Astra 6.2に対する評価は現時点で賛否両論であり、ベンチマークのスコアがFable 5.2に及ばない点や、長時間のタスク処理におけるコミュニケーションスタイルの分かりにくさに対する不満が指摘されている。</li></ul></p>
     </div>
 
-    <div class="card">
+    <div class="card" id="a-41d3de0e-c1c5-816e-a5cb-c8da19efd8e0">
       <span class="badge">Hugging Face Blog</span>
       <h2><a href="https://huggingface.co/blog/moe-expert-streaming" target="_blank" rel="noopener">180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers</a></h2>
       <p>180BパラメータのMoEモデル「Qwen3.8-Flash-Next」をTransformersを活用して32GBのメモリを搭載したMac上で動作させる試みについての記事です。<br><br><ul><li>SSDからMoEのエキスパートを直接ストリーミングする手法により、Strataエンジンと比較してトークン生成性能で6%以内の差に収まる効率性を実現した。</li><li>著者自宅のPC環境（RTX 4090×2）や仕事用のMacBook M5（32GBメモリ）といったハードウェア制限の中で、大規模なモデルをローカル環境で動かすことに挑戦している。</li><li>Strataなどの推論エンジンは、ホットなエキスパートのみをVRAMに保持し、残りをRAMやディスクにオフロードすることで、メモリ容量が少ないGPUやデバイスでも大規模なMoEモデルの実行を可能にする。</li><li>モバイル環境や自宅内での移動を重視する開発スタイル（RMD）にあわせ、オフラインでの大規模モデルのローカル運用環境構築を目指している。</li></ul></p>
     </div>
 
-    <div class="card">
+    <div class="card" id="a-41d3de0e-c1c5-816a-97e6-c534e230bcde">
       <span class="badge">Hugging Face Blog</span>
       <h2><a href="https://huggingface.co/blog/rumble-2-flash" target="_blank" rel="noopener">Rumble-2-Flash: an open 0.5B speech model for 40+ languages</a></h2>
       <p>Rumble-2-Flash: 40以上の言語に対応するオープンな0.5B音声認識モデル<br><br><ul><li>40以上の言語に対応し、自動言語検出機能を備えたApache 2.0ライセンスの0.5Bパラメータの音声認識モデル「Rumble-2-Flash」がオープンソース化された。</li><li>TransformersやvLLMでネイティブサポートされ、カスタムコード不要であらゆる環境で実行可能である。</li><li>1時間の音声を約0.5秒で処理する極めて高い処理速度を誇り、大規模なモデルに匹敵する精度を実現している。</li><li>302時間のコールセンターベンチマークテストにおいて、NVIDIAの30Bモデルと同等の性能を示し、実際の電話音声でも高い認識力を発揮する。</li><li>大型モデルからの知識蒸留（オンポリシー蒸留）を活用して構築されており、効率的な学習が行われている。</li></ul></p>
     </div>
 
-    <div class="card">
+    <div class="card" id="a-41d3de0e-c1c5-81e2-ab72-d99c6104d417">
       <span class="badge">NVIDIA Developer Blog</span>
       <h2><a href="https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/" target="_blank" rel="noopener">Co-Designing Sparse Attention for Efficient Long-Context Inference</a></h2>
       <p>効率的な長コンテキスト推論に向けたスパースアテンションの共同設計<br><br><ul><li>128Kトークンなどの長コンテキスト処理において最大のボトルネックとなるアテンションの計算コストを削減するため、クエリが参照するキーを制限するスパースアテンションの最適化手法について解説しています。</li><li>インデクサの効率化として、クロスヘッド削減によるロジット書き込みの最適化や、FP16を用いたエピローグとアキュムレーションの実行、128または256のヘッド次元によるTensor Coreの効率的活用を図っています。</li><li>トップK選択の高速化において、インデクサカーネルへのトップKの統合や、前回のデコードステップの選択結果を予測として再利用することで2.1倍から2.4倍の高速化を実現しています。</li><li>ブロック単位の選択と大きなグループサイズを採用することで、コアアテンションがキーをまとめて取得し、クエリヘッド間で効率的に共有する仕組みを構築しています。</li><li>関連する発展的なステップとして、「Guess-Verify-Refine Top-k」論文の参照や、TensorRT-LLMおよびFlashInferリポジトリにおけるオープンソースの実装探索が推奨されています。</li></ul></p>
     </div>
 
-    <div class="card">
+    <div class="card" id="a-41d3de0e-c1c5-8145-b746-f67687406095">
       <span class="badge">NVIDIA Developer Blog</span>
       <h2><a href="https://developer.nvidia.com/blog/integrating-qpus-into-supercomputing-centers-using-slurm-hres-plugins/" target="_blank" rel="noopener">Integrating QPUs into Supercomputing Centers Using Slurm HRES Plugins</a></h2>
       <p>Slurm HRESプラグインを用いたスーパーコンピューティングセンターへのQPU統合<br><br><ul><li>Slurm 26.11で導入された階層型リソース（HRES）プラグインにより、量子プロセッサ（QPU）をクラスタレベルのネイティブなスケジュールの対象としてモデル化することが可能になった。</li><li>HRESは、デバイスを個々のノードにバインドする従来の汎用リソース（GRES）の制限を克服し、QPUを特定のノードに関連付けることで効率的なリソース管理を実現する。</li><li>Luaプラグインを活用することで、デバイスのヘルスチェック、ノード割り当て前のジョブ受付、リソース解放を処理しつつ、サイト固有のポリシーを分離してポータビリティを維持できる。</li><li>オープンソースコミュニティであるQRMIおよびQDMIにより、Slurmクラスタを複数プロバイダの量子コンピュータに接続するHRESプラグインが既にリリースされている。</li><li>スーパーコンピューティングセンターにおけるハイブリッド量子古典システムの構築が進んでおり、科学技術分野のシミュレーションにおいてQPUをCPUやGPUと同様のアクセラレータとして利用できるようになる。</li></ul></p>
