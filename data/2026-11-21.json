@@ -1,0 +1,110 @@
+[
+  {
+    "id": "4203de0e-c1c5-8172-9e01-ebf1485ecdae",
+    "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
+    "site": "THE DECODER",
+    "published": "2026-11-21T13:32:35.000Z",
+    "fetched": "2026-11-22T00:00:56.645Z",
+    "summary": "OpenAIが「GPT-6.2 Astra」および「Sol」に向けて公開した新しいプロンプティングのヒントや変更点に関する記事の要約です。\n\nGPT-6.2 AstraとSolにおける回答の簡潔さや不要な質問を改善するため、OpenAIが新しいシステムプロンプトやベストプラクティスを共有しました。\n\n- OpenAIは、GPT-6.2 AstraとSolのシステムプロンプトを更新するよう開発者にアドバイスしています。これらのモデルはデフォルトで回答がより簡潔になり、作業を中断して質問する代わりに自分で仮定を立てるべきだとされています。\n- コーディングにおいては、既存コードの再利用、不要な抽象化の回避、新しいテストは要請時または特定のエラー時のみ作成するよう指示するテンプレートが提供されています。\n- APIの仕様変更として、会話履歴の編集時にそれ以前の推論ステップが破棄されるため、トークンコストや応答品質に影響を与える可能性があります。また、「temperature」や「top_p」などのパラメータが削除されています。\n- Astraは最も要求の厳しいタスク向け、Solは低コストで複雑な作業を処理するために構築されており、デフォルトの簡潔さに合わせたプロンプトの調整が推奨されています。",
+    "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/"
+  },
+  {
+    "id": "4203de0e-c1c5-8158-b9a6-ea067c8c6d89",
+    "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
+    "site": "THE DECODER",
+    "published": "2026-11-21T11:19:49.000Z",
+    "fetched": "2026-11-22T00:01:04.419Z",
+    "summary": "AnthropicのAI「Claude」と数学者によるリーマン予想の証明と、スタンフォード大学による人間のみの競合するアプローチの発表\n\n- アンソロピックの数学者レヴェント・アルポゲとAIモデル「Claude」が、一般化リーマン予想の証明を発表し、コンピュータ検証用のLean言語で公開した。\n- アルポゲは長年の目標だったこの証明をAIの協力により実現し、さらに広い範囲を対象とする拡張リーマン予想の解決にも期待を示している。\n- AIが研究の最終局面で主導権を握り、数論の最も有名な未解決問題の解決に向けて大きな役割を果たしたことが示された。\n- そのわずか数時間後、スタンフォード大学の研究者アレッサンドロ・マスルによる、完全な人間による独自のアプローチのドラフトが公開された。\n- 1859年以来未解決であるリーマン予想は素数の理解に不可欠であり、今回の動向は数学界におけるAIの可能性と人間による研究の並行した進展を浮き彫りにしている。",
+    "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/"
+  },
+  {
+    "id": "4203de0e-c1c5-812e-a774-c95586407e08",
+    "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
+    "site": "THE DECODER",
+    "published": "2026-11-21T10:33:02.000Z",
+    "fetched": "2026-11-22T00:01:12.321Z",
+    "summary": "Thinking Machines社が発表したオープンモデル「Inkling 2 Mini」は、ループ処理によって効率的な推論を実現しつつ、ラップトップでも実行可能なAIモデルです。\n\n- 「ループ型トランスフォーマー」を採用し、24層のうち12層を3回繰り返すことで、テキストを過剰に出力せずに内部で深く推論し、少ないトークンで正確な回答を導き出す。\n- パラメータ数は総計264億で、ループ処理により1トークンあたり5.4億がアクティブになり、テキストと画像を処理可能で100万トークンのコンテキストウィンドウとApache 2.0ライセンスを持つ。\n- 100億パラメータ未満のオープンモデルにおけるエージェント型コーディングテスト（DeepSWE v1.1やVals Index v2.2など）でトップの性能を記録している。\n- 人工分析（Artificial Analysis）のインテリジェンス・インデックスで20ポイントを獲得し、Qwen3.8 27B等と同等の性能を、約6分の1のコストと4倍の速度で実現している。\n- 32GB以上のメモリを搭載したMacやNvidiaのDGX Sparkなどのローカル環境で実行可能であり、Hugging Faceからの重みのダウンロードやTinker Playgroundでの試用ができる。",
+    "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/"
+  },
+  {
+    "id": "4203de0e-c1c5-8124-9a36-d6eac879becb",
+    "title": "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
+    "site": "THE DECODER",
+    "published": "2026-11-21T10:27:44.000Z",
+    "fetched": "2026-11-22T00:01:19.604Z",
+    "summary": "米国ハイテク株がAIへの懐疑論や複数の悪材料が重なり、パンデミック期以来最大の下落率を記録しました。市場の混乱を引き起こした背景には、過熱するAI投資への懸念、NVIDIAをめぐる懸念、地政学リスクなど複数の要因が絡み合っています。\n\nAIに対する巨額投資への疑問や、景気循環的な半導体・メモリ関連株の高値に対する警戒感が強まっている。\nNVIDIAがSECの会計調査を受けているとの報道から急落し、半導体・メモリ関連株全体が大きく値を下げた。\nイラン戦争に伴う原油価格の高騰がインフレを長期化させ、高金利環境が維持されている。\n民主党が中間選挙で勝利したことによる政治的逆風も、株価下落に拍車をかけた。\nナスダック100指数が週間で10.4%下落し、10月のピークから20%下落してベアマーケット（弱気相場）に突入した。",
+    "url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/"
+  },
+  {
+    "id": "4203de0e-c1c5-8156-96d5-cd388777fb37",
+    "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
+    "site": "THE DECODER",
+    "published": "2026-11-21T09:17:24.000Z",
+    "fetched": "2026-11-22T00:01:26.949Z",
+    "summary": "Bytedanceが主張する、不要になった複雑なAIトレーニング段階と効率的な新モデル\n\n- TikTokの親会社であるByteDanceなどの研究チームが、現在のAIトレーニングにおける複雑で多段階な手法は多くの部分が不要であり、わずか3つのステップだけで十分であると主張している。\n- 近年のAI開発では、自律的なウェブ調査やコード実行などの高度な機能を持たせるために、多くのトレーニング段階を積み重ねる複雑なパイプラインが主流になっている。\n- このような複雑な手法の多層化により、どの工程が実際にモデルの性能向上に貢献しているのかを判別することが極めて困難になっており、研究の再現コストも高騰している。\n- ByteDanceらは、この複雑なプロセスをスリム化しつつ、競争力を持つオープンなAIモデルを実際に構築・公開することで、そのアプローチの有効性を実証している。",
+    "url": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/"
+  },
+  {
+    "id": "4203de0e-c1c5-8119-b049-eabe1ed947d4",
+    "title": "OpenAI makes it much harder for attackers to extract how its latest AI models think",
+    "site": "THE DECODER",
+    "published": "2026-11-20T20:31:50.000Z",
+    "fetched": "2026-11-22T00:01:34.175Z",
+    "summary": "OpenAIの最新AIモデルにおける内部推論の保護強化\n\n- OpenAIは、「GPT-6.2 Astra」および「GPT-6.2 Sol」において、モデルの内部推論プロセスを攻撃者から保護するためのセキュリティ対策を大幅に強化した。\n- 内部の自動テストでは、過去のリクエストから保護された推論を抽出する攻撃の成功率が、GPT-6 Astraの54.0％からGPT-6.2 Astraでは0.2％へと劇的に低下した。\n- また、アクティブなリクエストに対する抽出攻撃の成功率も、22.9％から0.9％へと大幅に減少している。\n- 防御策は、個別リクエストに対するモデルの訓練、入出力フィルター、APIブロックの組み合わせと、組織的な攻撃キャンペーンに対する数千から数万規模のアカウント停止措置という2つのレベルで機能する。\n- 競合するAnthropic社も同様に、内部推論の窃盗を防ぐために数万のアカウントを停止するなどの対策を実施しており、業界全体での協調が求められている。",
+    "url": "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/"
+  },
+  {
+    "id": "4203de0e-c1c5-8188-a3bb-ee17c3bcbe15",
+    "title": "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats",
+    "site": "THE DECODER",
+    "published": "2026-11-20T19:50:27.000Z",
+    "fetched": "2026-11-22T00:01:41.560Z",
+    "summary": "SignalがAIエージェントによるプライベートチャットの読み取りを防ぐため、iOSやAndroidでのスクリーンショットブロック機能を強化した。\n\n- Signalは、OSレベルのAIアシスタントが画面上の復号化されたメッセージを読み取り外部処理することを防ぐため、スクリーンショットの制限や保護機能を導入した。\n- MetaのAIエージェント「Muse」がアクセシビリティツールやスクリーンショット機能を用いてSignalのコンテンツにアクセスした事例が報告されている。\n- SignalはWindowsの「Recall」機能もすでにブロックしているが、macOSではスクリーンショットの完全なブロックが困難であり、ファイルシステムや通知へのAIアクセスなど依然としてリスクが残ると警告している。\n- Signalは、Apple、Google、Microsoftに対し、アプリからAIエージェントを完全にブロックしやすくする仕組みの提供を求めている。",
+    "url": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/"
+  },
+  {
+    "id": "4203de0e-c1c5-81f4-88a4-e537c4876c70",
+    "title": "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working",
+    "site": "THE DECODER",
+    "published": "2026-11-20T18:50:31.000Z",
+    "fetched": "2026-11-22T00:01:48.668Z",
+    "summary": "GoogleのGeminiがMacアプリの操作やデスクトップ作業をバックグラウンドで実行可能に\n\n- GoogleのMac向けGeminiアプリに、複数ステップのタスクを自動処理する新機能「Computer Use」が追加された。\n- ユーザーが目的を伝えるだけで、Geminiがローカルファイル、デスクトップアプリ、ウェブサイト間でのクリックや入力、メニュー操作を代行する。\n- すべて独立したバックグラウンドウィンドウで動作するため、ライブチャットプレビューを確認しつつ、ユーザー自身の画面やカーソルは作業用に空けたままにしておける。\n- 写真や3Dシーンのバッチ編集、ローカルPDFからの出荷フォーム入力、プレゼンテーション作成などの活用事例が挙げられている。\n- アクセス可能なアプリの選択、リアルタイムでの進捗確認、いつでも一時停止や重要アクションの事前承認が可能で、まず米国で英語からロールアウトされる。",
+    "url": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/"
+  },
+  {
+    "id": "4203de0e-c1c5-81d2-bffa-ec4acff6cd98",
+    "title": "Quoting Levent Alpöge",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-11-20T16:30:48.000Z",
+    "fetched": "2026-11-22T00:01:55.931Z",
+    "summary": "ルヴェント・アルポゲとClaudeによるリーマン予想の証明\n\n- ルヴェント・アルポゲは、AIのClaudeと共に数学の難問である「リーマン予想」の証明を発見したと主張している。\n- この手法は一般化リーマン予想や拡張リーマン予想にも拡張可能であり、仮定なしでの論証の形式化も完了しているという。\n- アルポゲは、終盤においてClaudeが人間の理解をはるかに超越したスピードと精度で飛躍した様子を称賛している。\n- この内容は、2026年11月20日にサイモン・ウィリソンのウェブロッグにおいて引用・紹介されたものである。",
+    "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
+  },
+  {
+    "id": "4203de0e-c1c5-81fa-a96e-e17664bb97f5",
+    "title": "v0.40.17",
+    "site": "Ollama Blog",
+    "published": "2026-11-21T04:05:14.000Z",
+    "fetched": "2026-11-22T00:02:03.203Z",
+    "summary": "v0.40.17\n\n- Thinking Machines製の26Bモデル「Inkling 2 Mini」に対応し、Mac上で動作可能になった（※現時点ではApple Siliconのみサポート）。\n- Apple Silicon搭載MacでのOllamaにおいて、複数リクエストの同時処理が可能になった。\n- `ollama launch`関連の各種コマンド（Claude、OpenCode、Pi、ChatGPT）が機能改善・拡張された。\n- Windowsおよび統合GPU（iGPUS）環境におけるメモリ割り当てやVulkanのエラーが修正され、安定性が向上した。\n- 非対話シェルでのヘルプ表示や複数行入力中の操作性の改善、コンテキストシフト時のモデル再ロード廃止など、細かな使い勝手が向上した。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17"
+  },
+  {
+    "id": "4203de0e-c1c5-8151-a3b4-fa588ca80bb1",
+    "title": "v0.40.17-rc4",
+    "site": "Ollama Blog",
+    "published": "2026-11-20T23:04:26.000Z",
+    "fetched": "2026-11-22T00:02:10.109Z",
+    "summary": "v0.40.17-rc4のリリースに向けた変更内容についてまとめたものです。\n\n- リモート追跡ブランチである「upstream/main」の変更内容を、「release_v0.40.17」ブランチへマージしました。\n- バージョン0.40.17のリリース候補版（rc4）における、最新のコード統合作業が行われています。",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc4"
+  },
+  {
+    "id": "4203de0e-c1c5-815d-ab8d-cdce08c09cb0",
+    "title": "v0.40.17-rc3",
+    "site": "Ollama Blog",
+    "published": "2026-11-20T18:37:07.000Z",
+    "fetched": "2026-11-22T00:02:16.880Z",
+    "summary": "v0.40.17-rc3\n\n- 新バージョン「v0.40.17-rc3」のリリース候補版に関する更新情報である\n- mlxrunnerコンポーネントに「Inkling 2 Mini」が新たに追加された\n- 機械学習やAIの実行環境・評価ツールとしての機能拡張が行われている\n- 最新のモデルやデータ形式への対応が進められている",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc3"
+  }
+]
