@@ -1,0 +1,74 @@
+[
+  {
+    "id": "4213de0e-c1c5-810d-a257-f3b1ecd91820",
+    "title": "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog",
+    "site": "THE DECODER",
+    "published": "2026-11-22T14:20:28.000Z",
+    "fetched": "2026-11-23T00:01:04.771Z",
+    "summary": "Perplexityの新「Monitor API」が変える、ウェブ検索の常時監視システム\n\n- Perplexityが発表した「Monitor API」は、スケジュール設定に基づいてウェブを継続的に検索し、関連する変更をWebhook経由でAIエージェントに直接通知するサービスである。\n- APIには、指定した検索クエリの最新動向を追う「ウェブモニター」と、価格ページや変更履歴などの特定ページを追跡して差分を検出する「ページモニター」の2つのモードが用意されている。\n- 独自開発の決定モデルが開発者の定義した目標に基づき、検索結果やページの変更点に対して関連性、信頼性、新規性、適時性などのフィルターをかけ、重要な情報のみを送信する。\n- 従来の開発手法のように自前で定期検索や重複削除、変更検知のコードを維持する必要がなくなり、数百ものトピックを効率的に監視できる。\n- すでに利用可能となっており、料金は1,000リクエストあたり1ドルで提供されている。",
+    "url": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/"
+  },
+  {
+    "id": "4213de0e-c1c5-819c-91ee-db76ef371b3b",
+    "title": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns",
+    "site": "THE DECODER",
+    "published": "2026-11-22T13:00:43.000Z",
+    "fetched": "2026-11-23T00:01:14.850Z",
+    "summary": "AIモデルの急速な進化スピードに専門家による安全性テストが追いついておらず、破滅的なリスクへの対応が困難になる恐れがあると、AI研究組織METRが警告しています。\n\n- AIモデルはAI研究タスクにおいて急速に向上しており、現在の公開データだけでは今後数年間の劇的な加速を否定できない状況にある。\n- 明確に定義されたコーディングや計算タスクではすでに大半の時間で経験豊富な人間のプロフェッショナルを凌駕しており、処理可能なタスクの長さは3.6か月ごとに倍増している。\n- 単純な外挿データによると、AIは200時間かかる最長タスクにおいても、2027年7月までに50%の成功率に達する予測となっている。\n- 一方で、即座のフィードバックがなく実際の判断力を要するオープンな質問や、訓練環境の再現が難しい状況では依然として苦戦している。\n- 開発者が類似したテスト環境で訓練を行うため、一般的に行われる簡易的なテストでは実世界でのパフォーマンスが過大評価される可能性があると指摘されている。",
+    "url": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/"
+  },
+  {
+    "id": "4213de0e-c1c5-8137-9523-f5d4fd7b8937",
+    "title": "Security researchers show how cheap AI inference providers steal keys and snoop on users",
+    "site": "THE DECODER",
+    "published": "2026-11-22T12:07:56.000Z",
+    "fetched": "2026-11-23T00:01:24.938Z",
+    "summary": "安価なAI推論プロバイダーや仲介業者における深刻なセキュリティ上の脆弱性と、ユーザーデータの盗難リスクが露呈した。\n\n- セキュリティ企業Dragosの調査により、安価なAIサービスにおいて攻撃者が認証情報やAPIキーを盗み見ていることが判明した。\n- 約200万件のテストリクエストを用いた検証の結果、侵害されたプロバイダーでは、ユーザーのAWSキーなどが数ヶ月にわたり検出されずに窃取されていた。\n- マーケットプレイスの仲介業者は、モデルを最安値で出品してログを有効にするだけで、脆弱性を突くことなく顧客のリクエストを傍受していた。\n- 「ゼロデータ retention（ZDR）」などのプライバシー設定が頻繁に無視され、米国のプロバイダーを経由した場合でも中国のAIラボなどが秘密のテストURLにアクセスしていた。\n- 窃取された情報が不正アクセスの試行に悪用される事例や、主要な米国のプロバイダーが自社のポリシーに反して長期間テストURLをクロールし続ける問題も確認された。",
+    "url": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/"
+  },
+  {
+    "id": "4213de0e-c1c5-8137-b0df-ecbc59d86cba",
+    "title": "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct",
+    "site": "THE DECODER",
+    "published": "2026-11-22T11:08:31.000Z",
+    "fetched": "2026-11-23T00:01:33.907Z",
+    "summary": "リーマン予想の証明が正しいことの確認について\n\n- スタンフォード大学の数学者レヴェント・アルポゲ氏が発表したリーマン予想の証明が、定理証明支援系「Lean」およびMathlibコミュニティによって正式に正しいと確認された。\n- 証明は1,700万行のLeanのコードとして書かれ、複数の人々による独立した検証で同じ結果が得られたため、コミュニティは完全な信頼を表明している。\n- リーマン予想は素数の分布に関する数学界の最も有名な未解決問題の一つであったが、Metaculusの予測や専門家の予想よりも大幅に早い段階で解決に至った。",
+    "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/"
+  },
+  {
+    "id": "4213de0e-c1c5-81d9-aaa7-cffa232ce96a",
+    "title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
+    "site": "THE DECODER",
+    "published": "2026-11-22T09:41:37.000Z",
+    "fetched": "2026-11-23T00:01:43.077Z",
+    "summary": "OpenAIの新モデル「GPT-6.2 Astra」と「Sol」のコミュニケーションスタイルの変化とAnthropicの「Claude」との比較\n\n- OpenAIのGPT-6.2 AstraとSolは、前モデルに比べて回答が34〜40%短くなり、質問に直接的かつ迅速に答えるようになった。\n- 両モデルとも回答の構造化が減り、見出しやダッシュの使用量が大幅に減少した一方で、「答えファースト」や自然な表現のスコアは向上した。\n- 不確実性を認める頻度が急減しており、Astraの該当スコアは96から24へ、Solは98から51へと低下し、Claudeと比較して透明性や構造の面で低い評価となった。\n- Claude（Fable 5.2やOpus 5.5）と比較して、AstraとSolは構造と透明性のスコアが低く、特にOpus 5.5は全モデルの中で最も高い情報量スコアを記録している。",
+    "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/"
+  },
+  {
+    "id": "4213de0e-c1c5-81a0-89d4-cae84069598c",
+    "title": "Nvidia researchers argue huge AI context windows are a dead end",
+    "site": "THE DECODER",
+    "published": "2026-11-21T16:23:45.000Z",
+    "fetched": "2026-11-23T00:01:53.139Z",
+    "summary": "Nvidiaの研究者が巨大なAIコンテキストウィンドウは行き止まりであると主張\n\n- 近年、AIのコンテキストウィンドウは急速に拡大し、モデル全体で小説一冊分をも一度に処理できるようになっているが、Nvidiaの研究チームは、これは多くの場合において過剰であり、コストがかかると指摘している。\n- 多くのテストにおいて、巨大なコンテキストを一度に読み込ませるよりも、定期的な要約とターゲットを絞った情報の検索を組み合わせた手法の方が、同等にうまく機能することが示されている。\n- コンテキストウィンドウの拡大はAIの作業記憶を飛躍的に向上させたが、すべての情報を一度に保持・処理する方法は効率性の面で限界があり、別のアプローチの必要性が浮き彫りになっている。",
+    "url": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/"
+  },
+  {
+    "id": "4213de0e-c1c5-8167-a45f-d71da73f78a7",
+    "title": "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion",
+    "site": "THE DECODER",
+    "published": "2026-11-21T16:04:29.000Z",
+    "fetched": "2026-11-23T00:02:02.394Z",
+    "summary": "シリコンバレーにおけるAI終末論への過度な執着が、一部のテック業界をカルト的な狂信へと変貌させている。\n\n- バーモント州の組織「メイプル」がテック業界の労働者を勧誘し、AI産業の精神的権威としての確立を目指している。\n- 元メンバーらは、リーダーの思考を模した「AIの神」を訓練するため、毎日の音声記録や常時監視などの組織的な操作が行われていたと告発している。\n- AI研究者の間で広がる絶滅への恐怖や強烈な心理的プレッシャーが、宗教的思考や言語モデルへのカルト的傾倒を加速させている。\n- メイプルは表面上AIの黙示録からの人類救済を謳う一方で、サンフランシスコ・ベイエリアでのイベントなどを通じて、疲弊したプログラマーやエンジニアを標的に取り込んでいる。",
+    "url": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/"
+  },
+  {
+    "id": "4213de0e-c1c5-818a-aff0-f84f892e5bbe",
+    "title": "Muru",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-11-21T23:56:28.000Z",
+    "fetched": "2026-11-23T00:02:11.759Z",
+    "summary": "Muru：AI支援によるRust製のPythonアプリ向けサーバー開発\n\n- 「mod_wsgi」の作者であるグレアム・ダムプレトン氏が、ASGIおよびWSGIのPythonアプリケーション向けに、AI支援を活用して開発している新しいRust製サーバー「Muru」を発表した。\n- 開発プロセスの一環として、設計思想や機能に関する詳細な記事が過去3週間にわたって連日公開されている。\n- HTTPS対応、WSGI/ASGIの統合、コンテナ・Kubernetesとの親和性、ゼロスケール、トレーディング機能など、本番・開発環境向けの多彩な機能を目指して構築が進められている。\n- 作者はAIを活用しつつも、mod_wsgiで培った20年間の経験を活かして品質の取捨選択を行い、信頼できるツールに仕上げるための地道な努力を続けている。",
+    "url": "https://simonwillison.net/2026/Nov/21/muru/"
+  }
+]
