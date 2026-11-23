@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI/LLM記事まとめ 2026/11/22</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; flex-wrap: wrap; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  .date-nav .monthly-link { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; font-size: 1em; color: #222; text-decoration: none; white-space: nowrap; }
+  .date-nav .monthly-link:hover { background: #f5f5f5; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+  @media (max-width: 600px) {
+    .date-nav-title { display: none; }
+    .date-nav input[type="text"] { width: 100px; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">AI/LLM記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-11-22" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+  <a id="monthly-link" class="monthly-link" href="../topics/index.html" target="_blank" rel="noopener" aria-label="月次一覧（新しいタブで開きます）" title="月次一覧（新しいタブで開きます）">月次一覧<span class="ext" aria-hidden="true"> ↗</span></a>
+</header>
+<h1>2026/11/22</h1>
+<section class="day-summary" id="day-summary" style="background: #eef2f8; border-radius: 8px; padding: 12px 16px; margin-bottom: 16px; font-size: 0.9em;">
+  <p style="margin: 4px 0;">全 8 件</p>
+  <p style="margin: 4px 0;">THE DECODER 7件 / Simon Willison’s Weblog (llms) 1件</p>
+  <p style="margin: 4px 0;">よく出た語: faster(2), researchers(2)</p>
+</section>
+
+    <div class="card" id="a-4213de0e-c1c5-810d-a257-f3b1ecd91820">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/" target="_blank" rel="noopener">Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog</a></h2>
+      <p>Perplexityの新「Monitor API」が変える、ウェブ検索の常時監視システム<br><br><ul><li>Perplexityが発表した「Monitor API」は、スケジュール設定に基づいてウェブを継続的に検索し、関連する変更をWebhook経由でAIエージェントに直接通知するサービスである。</li><li>APIには、指定した検索クエリの最新動向を追う「ウェブモニター」と、価格ページや変更履歴などの特定ページを追跡して差分を検出する「ページモニター」の2つのモードが用意されている。</li><li>独自開発の決定モデルが開発者の定義した目標に基づき、検索結果やページの変更点に対して関連性、信頼性、新規性、適時性などのフィルターをかけ、重要な情報のみを送信する。</li><li>従来の開発手法のように自前で定期検索や重複削除、変更検知のコードを維持する必要がなくなり、数百ものトピックを効率的に監視できる。</li><li>すでに利用可能となっており、料金は1,000リクエストあたり1ドルで提供されている。</li></ul></p>
+    </div>
+
+    <div class="card" id="a-4213de0e-c1c5-819c-91ee-db76ef371b3b">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/" target="_blank" rel="noopener">AI is getting better faster than experts can reliably test whether new systems are safe, METR warns</a></h2>
+      <p>AIモデルの急速な進化スピードに専門家による安全性テストが追いついておらず、破滅的なリスクへの対応が困難になる恐れがあると、AI研究組織METRが警告しています。<br><br><ul><li>AIモデルはAI研究タスクにおいて急速に向上しており、現在の公開データだけでは今後数年間の劇的な加速を否定できない状況にある。</li><li>明確に定義されたコーディングや計算タスクではすでに大半の時間で経験豊富な人間のプロフェッショナルを凌駕しており、処理可能なタスクの長さは3.6か月ごとに倍増している。</li><li>単純な外挿データによると、AIは200時間かかる最長タスクにおいても、2027年7月までに50%の成功率に達する予測となっている。</li><li>一方で、即座のフィードバックがなく実際の判断力を要するオープンな質問や、訓練環境の再現が難しい状況では依然として苦戦している。</li><li>開発者が類似したテスト環境で訓練を行うため、一般的に行われる簡易的なテストでは実世界でのパフォーマンスが過大評価される可能性があると指摘されている。</li></ul></p>
+    </div>
+
+    <div class="card" id="a-4213de0e-c1c5-8137-9523-f5d4fd7b8937">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/" target="_blank" rel="noopener">Security researchers show how cheap AI inference providers steal keys and snoop on users</a></h2>
+      <p>安価なAI推論プロバイダーや仲介業者における深刻なセキュリティ上の脆弱性と、ユーザーデータの盗難リスクが露呈した。<br><br><ul><li>セキュリティ企業Dragosの調査により、安価なAIサービスにおいて攻撃者が認証情報やAPIキーを盗み見ていることが判明した。</li><li>約200万件のテストリクエストを用いた検証の結果、侵害されたプロバイダーでは、ユーザーのAWSキーなどが数ヶ月にわたり検出されずに窃取されていた。</li><li>マーケットプレイスの仲介業者は、モデルを最安値で出品してログを有効にするだけで、脆弱性を突くことなく顧客のリクエストを傍受していた。</li><li>「ゼロデータ retention（ZDR）」などのプライバシー設定が頻繁に無視され、米国のプロバイダーを経由した場合でも中国のAIラボなどが秘密のテストURLにアクセスしていた。</li><li>窃取された情報が不正アクセスの試行に悪用される事例や、主要な米国のプロバイダーが自社のポリシーに反して長期間テストURLをクロールし続ける問題も確認された。</li></ul></p>
+    </div>
+
+    <div class="card" id="a-4213de0e-c1c5-8137-b0df-ecbc59d86cba">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/" target="_blank" rel="noopener">Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct</a></h2>
+      <p>リーマン予想の証明が正しいことの確認について<br><br><ul><li>スタンフォード大学の数学者レヴェント・アルポゲ氏が発表したリーマン予想の証明が、定理証明支援系「Lean」およびMathlibコミュニティによって正式に正しいと確認された。</li><li>証明は1,700万行のLeanのコードとして書かれ、複数の人々による独立した検証で同じ結果が得られたため、コミュニティは完全な信頼を表明している。</li><li>リーマン予想は素数の分布に関する数学界の最も有名な未解決問題の一つであったが、Metaculusの予測や専門家の予想よりも大幅に早い段階で解決に至った。</li></ul></p>
+    </div>
+
+    <div class="card" id="a-4213de0e-c1c5-81d9-aaa7-cffa232ce96a">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/" target="_blank" rel="noopener">GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude</a></h2>
+      <p>OpenAIの新モデル「GPT-6.2 Astra」と「Sol」のコミュニケーションスタイルの変化とAnthropicの「Claude」との比較<br><br><ul><li>OpenAIのGPT-6.2 AstraとSolは、前モデルに比べて回答が34〜40%短くなり、質問に直接的かつ迅速に答えるようになった。</li><li>両モデルとも回答の構造化が減り、見出しやダッシュの使用量が大幅に減少した一方で、「答えファースト」や自然な表現のスコアは向上した。</li><li>不確実性を認める頻度が急減しており、Astraの該当スコアは96から24へ、Solは98から51へと低下し、Claudeと比較して透明性や構造の面で低い評価となった。</li><li>Claude（Fable 5.2やOpus 5.5）と比較して、AstraとSolは構造と透明性のスコアが低く、特にOpus 5.5は全モデルの中で最も高い情報量スコアを記録している。</li></ul></p>
+    </div>
+
+    <div class="card" id="a-4213de0e-c1c5-81a0-89d4-cae84069598c">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/" target="_blank" rel="noopener">Nvidia researchers argue huge AI context windows are a dead end</a></h2>
+      <p>Nvidiaの研究者が巨大なAIコンテキストウィンドウは行き止まりであると主張<br><br><ul><li>近年、AIのコンテキストウィンドウは急速に拡大し、モデル全体で小説一冊分をも一度に処理できるようになっているが、Nvidiaの研究チームは、これは多くの場合において過剰であり、コストがかかると指摘している。</li><li>多くのテストにおいて、巨大なコンテキストを一度に読み込ませるよりも、定期的な要約とターゲットを絞った情報の検索を組み合わせた手法の方が、同等にうまく機能することが示されている。</li><li>コンテキストウィンドウの拡大はAIの作業記憶を飛躍的に向上させたが、すべての情報を一度に保持・処理する方法は効率性の面で限界があり、別のアプローチの必要性が浮き彫りになっている。</li></ul></p>
+    </div>
+
+    <div class="card" id="a-4213de0e-c1c5-8167-a45f-d71da73f78a7">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/" target="_blank" rel="noopener">Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion</a></h2>
+      <p>シリコンバレーにおけるAI終末論への過度な執着が、一部のテック業界をカルト的な狂信へと変貌させている。<br><br><ul><li>バーモント州の組織「メイプル」がテック業界の労働者を勧誘し、AI産業の精神的権威としての確立を目指している。</li><li>元メンバーらは、リーダーの思考を模した「AIの神」を訓練するため、毎日の音声記録や常時監視などの組織的な操作が行われていたと告発している。</li><li>AI研究者の間で広がる絶滅への恐怖や強烈な心理的プレッシャーが、宗教的思考や言語モデルへのカルト的傾倒を加速させている。</li><li>メイプルは表面上AIの黙示録からの人類救済を謳う一方で、サンフランシスコ・ベイエリアでのイベントなどを通じて、疲弊したプログラマーやエンジニアを標的に取り込んでいる。</li></ul></p>
+    </div>
+
+    <div class="card" id="a-4213de0e-c1c5-818a-aff0-f84f892e5bbe">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Nov/21/muru/" target="_blank" rel="noopener">Muru</a></h2>
+      <p>Muru：AI支援によるRust製のPythonアプリ向けサーバー開発<br><br><ul><li>「mod_wsgi」の作者であるグレアム・ダムプレトン氏が、ASGIおよびWSGIのPythonアプリケーション向けに、AI支援を活用して開発している新しいRust製サーバー「Muru」を発表した。</li><li>開発プロセスの一環として、設計思想や機能に関する詳細な記事が過去3週間にわたって連日公開されている。</li><li>HTTPS対応、WSGI/ASGIの統合、コンテナ・Kubernetesとの親和性、ゼロスケール、トレーディング機能など、本番・開発環境向けの多彩な機能を目指して構築が進められている。</li><li>作者はAIを活用しつつも、mod_wsgiで培った20年間の経験を活かして品質の取捨選択を行い、信頼できるツールに仕上げるための地道な努力を続けている。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-11-22";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+  var TOPICS_PATH_PREFIX = '../topics/';
+  var CURRENT_MONTH = CURRENT_DATE.slice(0, 7);
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+  var monthlyLink = document.getElementById('monthly-link');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  // 入力値を YYYY-MM-DD に揃える。判定できなければ null（テンプレートリテラル内のため、バックスラッシュを使わない書き方にする）
+  function normalizeDateInput(value) {
+    var v = String(value).normalize('NFKC').trim();
+    if (/^[0-9]{8}$/.test(v)) {
+      return v.slice(0, 4) + '-' + v.slice(4, 6) + '-' + v.slice(6, 8);
+    }
+    if (/^[0-9]{4}[-/][0-9]{2}[-/][0-9]{2}$/.test(v)) {
+      return v.replace(/[/]/g, '-');
+    }
+    return null;
+  }
+
+  function validateAndGo(value) {
+    var date = normalizeDateInput(value);
+    if (date === CURRENT_DATE) { dateInput.value = CURRENT_DATE; return; }
+    if (date === null || dateList.indexOf(date) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(date);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  function setMonthlyLink(label, href) {
+    var text = label + '（新しいタブで開きます）';
+    // 前提: <a> の最初の子ノードがラベルのテキストノード（<a>月次一覧<span>…</span></a>）
+    monthlyLink.firstChild.nodeValue = label;
+    monthlyLink.href = href;
+    monthlyLink.setAttribute('aria-label', text);
+    monthlyLink.title = text;
+  }
+
+  function loadMonthly() {
+    fetch(TOPICS_PATH_PREFIX + 'index.json')
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var months = ((data && data.months) || []).map(function (m) { return m.month; });
+        if (months.indexOf(CURRENT_MONTH) !== -1) {
+          setMonthlyLink('月次', TOPICS_PATH_PREFIX + CURRENT_MONTH + '.html');
+        }
+      })
+      .catch(function (err) {
+        console.error('monthly-link: index.json fetch failed', err);
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+  // 数字キーパッド（Return キーなし）向け: 数字だけ8桁になったら自動で移動する。日付一覧の取得前・失敗時は何もしない
+  dateInput.addEventListener('input', function (e) {
+    if (e.isComposing) return;
+    if (dateList.length === 0) return;
+    if (/^[0-9]{8}$/.test(dateInput.value.normalize('NFKC').trim())) {
+      validateAndGo(dateInput.value.trim());
+    }
+  });
+  // フォーカス時に全選択する（数字キーパッドで打ち直しやすくする）。iOS Safari はフォーカス直後のタップでキャレットを置き直し、選択が解除されることがあるため、タイマーでかけ直す
+  dateInput.addEventListener('focus', function () {
+    dateInput.select();
+    setTimeout(function () { dateInput.setSelectionRange(0, dateInput.value.length); }, 0);
+  });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+  loadMonthly();
+})();
+</script>
+</body>
+</html>
