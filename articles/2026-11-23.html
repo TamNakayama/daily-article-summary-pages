@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI/LLM記事まとめ 2026/11/23</title>
+<style>
+  body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
+  h1 { font-size: 1.4em; }
+  .card { background: #f5f5f5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .badge { display: inline-block; background: #4a6fa5; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .card h2 { font-size: 1.1em; margin: 4px 0; }
+  .card h2 a { color: #1a1a1a; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .card p { font-size: 0.95em; line-height: 1.6; color: #444; white-space: pre-line; }
+  footer { margin-top: 32px; font-size: 0.8em; color: #999; text-align: center; }
+  .date-nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px; background: #ffffff; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 16px; flex-wrap: wrap; }
+  .date-nav-title { font-weight: bold; margin-right: auto; }
+  .date-nav button { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; }
+  .date-nav input[type="text"] { width: 110px; text-align: center; border: 1px solid #ccc; border-radius: 4px; padding: 4px; font-size: 0.9em; }
+  .date-nav-calendar-wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; cursor: pointer; font-size: 1em; }
+  .date-nav-calendar-wrap .calendar-icon { pointer-events: none; }
+  .date-nav .monthly-link { border: 1px solid #ccc; background: #fff; border-radius: 4px; padding: 4px 10px; font-size: 1em; color: #222; text-decoration: none; white-space: nowrap; }
+  .date-nav .monthly-link:hover { background: #f5f5f5; }
+  @media (pointer: coarse) {
+    .date-nav-calendar-wrap { display: none; }
+  }
+  @media (max-width: 600px) {
+    .date-nav-title { display: none; }
+    .date-nav input[type="text"] { width: 100px; }
+  }
+</style>
+</head>
+<body>
+<header class="date-nav">
+  <span class="date-nav-title">AI/LLM記事まとめ</span>
+  <button id="prev-btn" aria-label="前日へ">◀</button>
+  <input id="date-input" type="text" value="2026-11-23" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <span class="date-nav-calendar-wrap">
+    <span class="calendar-icon" aria-hidden="true">📅</span>
+    <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
+  </span>
+  <button id="next-btn" aria-label="翌日へ">▶</button>
+  <a id="monthly-link" class="monthly-link" href="../topics/index.html" target="_blank" rel="noopener" aria-label="月次一覧（新しいタブで開きます）" title="月次一覧（新しいタブで開きます）">月次一覧<span class="ext" aria-hidden="true"> ↗</span></a>
+</header>
+<h1>2026/11/23</h1>
+<section class="day-summary" id="day-summary" style="background: #eef2f8; border-radius: 8px; padding: 12px 16px; margin-bottom: 16px; font-size: 0.9em;">
+  <p style="margin: 4px 0;">全 8 件</p>
+  <p style="margin: 4px 0;">THE DECODER 6件 / Hugging Face Blog 1件 / Simon Willison’s Weblog (llms) 1件</p>
+  <p style="margin: 4px 0;">よく出た語: chinese(2), could(2), nvidia(2)</p>
+</section>
+
+    <div class="card" id="a-4223de0e-c1c5-81e8-83e9-c05fe73d56dc">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles/" target="_blank" rel="noopener">Chinese military fears AI could let the US find and destroy its nuclear missiles</a></h2>
+      <p>中国軍が人工知能（AI）の急速な発展により、アメリカ軍が自国の核ミサイルを発見し破壊できるようになることを強く警戒しているという現状について述べる。<br><br><ul><li>中国の軍事研究者は、AIの活用によりアメリカ軍が中国の核ミサイルを探知・破壊しやすくなり、確実な二次攻撃能力に依存する中国の核抑止力が脅かされると懸念している。</li><li>北京の軍事科学アカデミーの研究者らは、AIの導入によりアメリカ側の意思決定時間が従来の15〜30分からわずか90秒に短縮される可能性があると指摘している。</li><li>中国は、極超音速ミサイルにAI制御の飛行経路を導入するなどして自国の武器を迎撃困難にする研究を進めている一方で、不正確なAIデータが危機時に危険な誤算を引き起こすリスクも指摘されている。</li><li>今年に入りアメリカ軍がAIによる誤った情報に基づいて中国船に搭乗しかける事案が発生するなどリスクが現実化しているものの、米中両国による核システムにおけるAIの安全策に関する対話はほとんど進展していない。</li></ul></p>
+    </div>
+
+    <div class="card" id="a-4223de0e-c1c5-818a-929b-f1ff38583d78">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks/" target="_blank" rel="noopener">Nvidia tried life without Jensen Huang and it lasted about two weeks</a></h2>
+      <p>Nvidia、ジェンスン・フアン氏がCEO等に復帰<br><br><ul><li>Nvidiaの取締役会は、満場一致でジェンスン・フアン氏を社長、CEO、取締役として即座に復帰させることを決定した。</li><li>フアン氏の不在期間中、CFOのコレット・クレレス氏が暫定的に経営を担っていたが、その間に株価は急落していた。</li><li>米国政府高官らとの協議や当局の調査の結果、フアン氏の復帰には国家安全保障上のリスクがないと結論づけられた。</li><li>ドナルド・トランプ大統領もSNS上でこの決定を称賛し、司法長官がフアン氏の不正の証拠を発見しなかったことに言及した。</li><li>フアン氏の復帰が発表されると、Nvidiaの株価は30%以上急騰した。</li></ul></p>
+    </div>
+
+    <div class="card" id="a-4223de0e-c1c5-81e4-ad0e-e14bd7e234ae">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/" target="_blank" rel="noopener">Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough</a></h2>
+      <p>Metaのアレクサンドル・ワン氏が、リーマン予想のAI補助による証明を契機に、超知能の到来が間近に迫っていると警告し、AI業界は今後の展開に対して十分に備えていないと指摘した。<br><br><ul><li>リーマン予想の証明においてAIが主要な役割を果たしたことは、もはや生得的な知性がボトルネックではないことを示している。</li><li>現行のモデルは、専門知識や実用インフラが不足しているものの、それが補われればほぼすべての分野で人間を凌駕し、AI研究そのものを自動化・自己改善する可能性がある。</li><li>生物学、兵器、経済などの分野の研究も、人間が追いつけないほどの圧倒的なスピードで加速すると予測される。</li><li>多くの業界関係者が超知能の到来を前提に安全性だけに注目しているが、それだけでは不十分であり、AIが社会を支配するのではなく人々の主体性を高めるよう積極的に確保する必要がある。</li></ul></p>
+    </div>
+
+    <div class="card" id="a-4223de0e-c1c5-8174-826c-f1cd488d8ae3">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/us-spies-tracked-nvidia-scandal-figures-ties-to-chinese-intelligence-for-over-a-year/" target="_blank" rel="noopener">US spies tracked Nvidia scandal figure's ties to Chinese intelligence for over a year</a></h2>
+      <p>NVIDIAの元CEOをめぐる中国スパイ疑惑と米情報機関の動向<br><br><ul><li>米情報機関の調査により、NVIDIAをめぐるスキャンダルの中心人物であるアリス・ファン氏が、2025年春から今秋にかけて中国国家安全部と接触していたことが判明した。</li><li>アリス・ファン氏は当時NVIDIAのCEOだったジェンスン・ファン氏と秘密裏に交際しており、米情報機関は1年以上にわたりこの接触を追跡していた。</li><li>連邦捜査官は、アリス・ファン氏の企業ネットワークが悪用され、米国の輸出管理を回避してNVIDIA製AIチップが中国へ不正に流出していたかどうかの調査を進めている。</li><li>このスキャンダルや別の関係の発覚を受けてジェンスン・ファン氏は今月初めにCEOを辞任し、Nvidiaの取締役会はトランプ大統領が示唆した同氏の復帰論を拒絶した。</li><li>スコット・ベッセント財務長官はNVIDIAに対し、将来の経営体制を決定する前に中国へのチップ販売実態を全容解明するよう求めており、ジェンスン・ファン氏は12月1日に米下院で非公開証言を行う予定である。</li></ul></p>
+    </div>
+
+    <div class="card" id="a-4223de0e-c1c5-81a8-a993-e7e485eb1577">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/" target="_blank" rel="noopener">GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy</a></h2>
+      <p>OpenAIの「GPT-6.2 Astra」が、他のAIでは解けなかった2006年の数学の定理「スモクトゥノヴィッチのギャップ定理」に対し、人間の手助けなしでLean言語による機械検証可能な証明を初めて完成させました。<br><br><ul><li>独自の証明戦略の構築：元の証明の主要な基礎が数学ライブラリに欠けていたため、Astraは既存研究の「キャパシティ」という指標を用いて独自の証明アプローチを発明した。</li><li>粘り強い問題解決プロセス：予算制限により一度は諦めかけたものの、探索を継続して94分後に1,800行におよぶ証明を完成させ、コストは21.58ドルだった。</li><li>ベンチマークでの首位獲得：Meta FAIRの難関タスク集「Autoform-Hard」において、他のトップモデルを抑えて49問を解き、リーダーボードの首位に立った。</li></ul></p>
+    </div>
+
+    <div class="card" id="a-4223de0e-c1c5-81ec-bf8b-f74d2cc57543">
+      <span class="badge">THE DECODER</span>
+      <h2><a href="https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/" target="_blank" rel="noopener">AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace</a></h2>
+      <p>AIコーディングエージェントの模擬職場における実態と課題<br><br><ul><li>AIコーディングエージェントは独立した標準テスト（SWE-benchなど）で最高スコアに近づいているが、実際の職場環境では性能が大きく低下することが明らかになった。</li><li>同僚、プロジェクトボード、チャット履歴を備えた模擬ソフトウェア企業内でAIをデジタル社員として初めて試験的に稼働させたところ、 Claude Opus 5.5やGPT-6 Astraといった先進モデルでも、タスクの完全完了率は10分の1未満にとどまった。</li><li>Anthropic社が自社プロダクションコードの80%以上をClaudeが記述していると主張するなど成功事例が相次ぐ一方で、制御されたテスト環境と複雑な実際の職場環境の間には大きな乖離があることが示されている。</li></ul></p>
+    </div>
+
+    <div class="card" id="a-4223de0e-c1c5-81b6-8fa1-e3152199f835">
+      <span class="badge">Simon Willison’s Weblog (llms)</span>
+      <h2><a href="https://simonwillison.net/2026/Nov/23/datasette-charts/" target="_blank" rel="noopener">datasette-charts 0.1a0</a></h2>
+      <p>Datasette用チャートプラグイン「datasette-charts 0.1a0」のリリース<br><br><ul><li>Claude Fable 5.2を活用して開発された、DatasetteのテーブルやSQLクエリに対応する新しいチャートプラグインの初期アルファ版。</li><li>D3、Observable Plot、topojson-clientを組み込み、データに適したチャートタイプの提案や手動での作成が可能。</li><li>従来のプラグインとは異なり、ページ内のデータだけでなく、数百万行に及ぶ全データ（GROUP BYやウィンドウ関数などを活用）を対象に集計・可視化できるのが最大の特徴。</li><li>チャートの状態はURLのフラグメントに保存されるため、ブックマークや他者との共有が容易。</li><li>大規模なテーブルに対してもサンプリングを用いて効率的にチャートの提案を行う。（464文字）</li></ul></p>
+    </div>
+
+    <div class="card" id="a-4223de0e-c1c5-813b-bca4-d8546d8885c8">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/agentic-evals" target="_blank" rel="noopener">How to build and maintain an agentic evaluation</a></h2>
+      <p>エージェンティック評価の構築と維持方法<br><br><ul><li>AIの進化に伴い、エージェンティック評価の設計も変化しており、ドメイン専門知識の反映や信頼性の高いスコアリング、結果の検証が重要である。</li><li>評価の構築では、既存のオープンなコンポーネントや環境を再利用・適応させ、検証に注力することで効率的な開発が可能となる。</li><li>ベンチマークの誤りを防ぐためには、公開レビューの実施やコードだけでなく主張の検証、コンタミネーション（データ汚染）やサチュレーションへの対策が不可欠である。</li><li>評価の戦略的なオープンソース化を通じて、他者による検証や改善、再利用が促進され、より信頼性の高い評価エコシステムが構築される。</li><li>Hugging Faceハブなどのプラットフォームを活用することで、評価データセットやリーダーボード、エージェンティックなトレース機能の共有・管理が容易になる。</li></ul></p>
+    </div>
+<footer>要約モデル: gemini-3.5-flash-lite</footer>
+<script>
+(function () {
+  var CURRENT_DATE = "2026-11-23";
+  var ARTICLES_PATH_PREFIX = '';
+  var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
+  var CACHE_KEY = 'dateNavList';
+  var TOPICS_PATH_PREFIX = '../topics/';
+  var CURRENT_MONTH = CURRENT_DATE.slice(0, 7);
+
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var dateInput = document.getElementById('date-input');
+  var datePicker = document.getElementById('date-picker');
+  var monthlyLink = document.getElementById('monthly-link');
+
+  var dateList = [];
+  var prevDate = null;
+  var nextDate = null;
+
+  function disableAllNav() {
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+  }
+
+  function goTo(date) {
+    location.href = ARTICLES_PATH_PREFIX + date + '.html';
+  }
+
+  // 入力値を YYYY-MM-DD に揃える。判定できなければ null（テンプレートリテラル内のため、バックスラッシュを使わない書き方にする）
+  function normalizeDateInput(value) {
+    var v = String(value).normalize('NFKC').trim();
+    if (/^[0-9]{8}$/.test(v)) {
+      return v.slice(0, 4) + '-' + v.slice(4, 6) + '-' + v.slice(6, 8);
+    }
+    if (/^[0-9]{4}[-/][0-9]{2}[-/][0-9]{2}$/.test(v)) {
+      return v.replace(/[/]/g, '-');
+    }
+    return null;
+  }
+
+  function validateAndGo(value) {
+    var date = normalizeDateInput(value);
+    if (date === CURRENT_DATE) { dateInput.value = CURRENT_DATE; return; }
+    if (date === null || dateList.indexOf(date) === -1) {
+      alert('指定した日付のページは存在しません');
+      dateInput.value = CURRENT_DATE;
+      return;
+    }
+    goTo(date);
+  }
+
+  function initNav(list) {
+    dateList = list.slice().sort();
+    var minDate = dateList[0];
+    var maxDate = dateList[dateList.length - 1];
+    prevDate = dateList.filter(function (d) { return d < CURRENT_DATE; }).pop() || null;
+    nextDate = dateList.filter(function (d) { return d > CURRENT_DATE; }).shift() || null;
+
+    prevBtn.disabled = !prevDate;
+    nextBtn.disabled = !nextDate;
+    if (datePicker && minDate && maxDate) {
+      datePicker.min = minDate;
+      datePicker.max = maxDate;
+    }
+  }
+
+  function loadDateList() {
+    var cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      try {
+        initNav(JSON.parse(cached));
+        return;
+      } catch (e) { /* キャッシュ破損時はfetchへフォールバック */ }
+    }
+    fetch(API_URL)
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var list = data
+          .filter(function (f) { return f && f.name && f.name.endsWith('.html'); })
+          .map(function (f) { return f.name.replace('.html', ''); });
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(list));
+        initNav(list);
+      })
+      .catch(function (err) {
+        console.error('date-nav: list fetch failed', err);
+        disableAllNav();
+      });
+  }
+
+  function setMonthlyLink(label, href) {
+    var text = label + '（新しいタブで開きます）';
+    // 前提: <a> の最初の子ノードがラベルのテキストノード（<a>月次一覧<span>…</span></a>）
+    monthlyLink.firstChild.nodeValue = label;
+    monthlyLink.href = href;
+    monthlyLink.setAttribute('aria-label', text);
+    monthlyLink.title = text;
+  }
+
+  function loadMonthly() {
+    fetch(TOPICS_PATH_PREFIX + 'index.json')
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var months = ((data && data.months) || []).map(function (m) { return m.month; });
+        if (months.indexOf(CURRENT_MONTH) !== -1) {
+          setMonthlyLink('月次', TOPICS_PATH_PREFIX + CURRENT_MONTH + '.html');
+        }
+      })
+      .catch(function (err) {
+        console.error('monthly-link: index.json fetch failed', err);
+      });
+  }
+
+  prevBtn.addEventListener('click', function () { if (prevDate) goTo(prevDate); });
+  nextBtn.addEventListener('click', function () { if (nextDate) goTo(nextDate); });
+
+  dateInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') validateAndGo(dateInput.value.trim());
+  });
+  dateInput.addEventListener('blur', function () { validateAndGo(dateInput.value.trim()); });
+  // 数字キーパッド（Return キーなし）向け: 数字だけ8桁になったら自動で移動する。日付一覧の取得前・失敗時は何もしない
+  dateInput.addEventListener('input', function (e) {
+    if (e.isComposing) return;
+    if (dateList.length === 0) return;
+    if (/^[0-9]{8}$/.test(dateInput.value.normalize('NFKC').trim())) {
+      validateAndGo(dateInput.value.trim());
+    }
+  });
+  // フォーカス時に全選択する（数字キーパッドで打ち直しやすくする）。iOS Safari はフォーカス直後のタップでキャレットを置き直し、選択が解除されることがあるため、タイマーでかけ直す
+  dateInput.addEventListener('focus', function () {
+    dateInput.select();
+    setTimeout(function () { dateInput.setSelectionRange(0, dateInput.value.length); }, 0);
+  });
+
+  datePicker.addEventListener('change', function () {
+    if (datePicker.value) validateAndGo(datePicker.value);
+  });
+
+  disableAllNav();
+  loadDateList();
+  loadMonthly();
+})();
+</script>
+</body>
+</html>
