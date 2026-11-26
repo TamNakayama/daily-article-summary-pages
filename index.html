@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI/LLM記事まとめ 2026/11/24</title>
+<title>AI/LLM記事まとめ 2026/11/25</title>
 <style>
   body { max-width: 800px; margin: 0 auto; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ffffff; color: #222; }
   h1 { font-size: 1.4em; }
@@ -36,7 +36,7 @@
 <header class="date-nav">
   <span class="date-nav-title">AI/LLM記事まとめ</span>
   <button id="prev-btn" aria-label="前日へ">◀</button>
-  <input id="date-input" type="text" value="2026-11-24" inputmode="numeric" placeholder="YYYY-MM-DD">
+  <input id="date-input" type="text" value="2026-11-25" inputmode="numeric" placeholder="YYYY-MM-DD">
   <span class="date-nav-calendar-wrap">
     <span class="calendar-icon" aria-hidden="true">📅</span>
     <input id="date-picker" type="date" aria-label="カレンダーで選択" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; margin:0; padding:0; border:0; opacity:0; cursor:pointer;">
@@ -44,100 +44,100 @@
   <button id="next-btn" disabled aria-label="翌日へ">▶</button>
   <a id="monthly-link" class="monthly-link" href="topics/index.html" target="_blank" rel="noopener" aria-label="月次一覧（新しいタブで開きます）" title="月次一覧（新しいタブで開きます）">月次一覧<span class="ext" aria-hidden="true"> ↗</span></a>
 </header>
-<h1>2026/11/24</h1>
+<h1>2026/11/25</h1>
 <section class="day-summary" id="day-summary" style="background: #eef2f8; border-radius: 8px; padding: 12px 16px; margin-bottom: 16px; font-size: 0.9em;">
   <p style="margin: 4px 0;">全 14 件</p>
-  <p style="margin: 4px 0;">THE DECODER 6件 / NVIDIA Developer Blog 3件 / Ollama Blog 2件 / Simon Willison’s Weblog (llms) 2件 / Hugging Face Blog 1件</p>
-  <p style="margin: 4px 0;">よく出た語: anthropic(4), first(2), nvidia(2)</p>
+  <p style="margin: 4px 0;">THE DECODER 6件 / Hugging Face Blog 3件 / NVIDIA Developer Blog 3件 / Simon Willison’s Weblog (llms) 2件</p>
+  <p style="margin: 4px 0;">よく出た語: anthropic(2), data(2), nvidia(2)</p>
 </section>
 
-    <div class="card" id="a-4233de0e-c1c5-81e1-87d4-f5b083e84576">
+    <div class="card" id="a-4243de0e-c1c5-8191-b037-fa6df248065e">
       <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/" target="_blank" rel="noopener">Anthropic researcher stands by his AI-assisted Riemann proof but owns up to &quot;stupid things&quot; in the rollout</a></h2>
-      <p>Anthropicの研究者がAI支援によるリーマン予想の証明の正当性を主張しつつも、公開プロセスの不手際を認める<br><br><ul><li>Anthropicの研究者レヴェント・アルポゲ氏が、AIを支援に用いた一般化リーマン予想の証明の数学的妥当性を維持する一方で、公開方法におけるいくつかの失敗を認めた。</li><li>アルポゲ氏自身が「愚かなこと」と題した投稿で、発表時の誤りや不手際を率直に告白している。</li><li>提出されたLeanコード自体は形式検証を通過しているものの、冗長な中間ステップや不要な補題が含まれており、コードの整理が行われていなかったと認めている。</li><li>コードの長さに関する発言は冗談であり、整理されていないコードをそのまま公開したことに対する批判は妥当であると受け入れている。</li><li>コンパイルに成功したという事実だけでは、コードが隠れた仮定なしに正しい定理を証明しているとは限らないという懸念も指摘されている。</li></ul></p>
+      <h2><a href="https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/" target="_blank" rel="noopener">AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant</a></h2>
+      <p>Google Deepmindが次期Geminiモデルの開発において、AIエージェントに実験の制御を一部委ねていることや、AIの現状と限界について報じられています。<br><br>次期Geminiモデルの実験において、Google Deepmindは計算リソースの一部制御をAIエージェントに任せ、独自に実験を行わせる戦略的な移行を進めている。<br>安全対策として、AIエージェントのトレーニング時には内部の思考プロセス（Chain of Thought）に対して報酬を与えておらず、行動前に意図が自然言語でフィルタリングされずに確認できるようにしている。<br>Deepmindの研究副社長であるコライ・カヴクチュオグル氏は、現在のAIは物理現象を視覚的に正確に描写できる一方で、正確な理解には至っていないと指摘している。<br>AIがいつ汎用人工知能（AGI）に到達するかを正確に示すテストやベンチマークは存在せず、AGIの到来は日常的な製品が人々から信頼を得て意思決定を任されるようになる時点であるとしている。<br>AIが自律的に自らを改良していく「再帰的自己改善」の実現は、現状ではまだ遠い先の話であるとされている。<br></p>
     </div>
 
-    <div class="card" id="a-4233de0e-c1c5-8151-b10c-f6ee5782f4f3">
+    <div class="card" id="a-4243de0e-c1c5-81c4-bf5b-d9dcd20afc63">
       <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/" target="_blank" rel="noopener">Dozens of insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures</a></h2>
-      <p>OpenAIとAnthropicの未公開AIモデルが人間の安全対策の限界を超えたという内部告発<br><br><ul><li>OpenAIやAnthropicの未公開フロンティアモデルの能力が非常に高くなり、多くの従業員の間で安全な制御がもはや不可能ではないかという懸念が高まっている。</li><li>20人以上の内部関係者の証言として、Axiosが報じたところによると、多くの従業員が次世代システムを安全に一般公開するには強力すぎると考えている。</li><li>社内では、これらの強力な未公開モデルのリリースを完全に中止すべきかどうかについての議論がすでに始まっている。</li></ul></p>
+      <h2><a href="https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/" target="_blank" rel="noopener">Anthropic study shows the hardest part of adopting AI at work has little to do with learning the tools</a></h2>
+      <p>Anthropicの調査：職場でAI導入する際の最大の難関はツールを学ぶことではない<br><br><ul><li>Anthropicが米国企業58社を対象に行った調査によると、職場におけるAI導入の最大の障壁はツール自体の学習ではなく、社内の人間関係や業務プロセスにあることが判明した。</li><li>調査対象となったAI活用のうち55%で成果や品質の向上が見られた一方で、約2割（19%）は社内のボトルネックやレビュー負担などが原因で、いまだにビジネス上の価値を生み出せていない。</li><li>導入の大きな障害として、人間によるレビューが追いつかないほどの膨大なAI出力（49件）、従業員の抵抗（43件）、専門家による必須レビュー（42件）が挙げられており、迅速な効率化への期待に対して現実的な課題が浮き彫りとなっている。</li></ul></p>
     </div>
 
-    <div class="card" id="a-4233de0e-c1c5-81d2-936a-e296b576fd58">
+    <div class="card" id="a-4243de0e-c1c5-8167-9fa7-cec2d1d505c0">
       <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/" target="_blank" rel="noopener">German researchers call for computer science to reinvent itself as &quot;Computer and AI Science&quot;</a></h2>
-      <p>ドイツの大学研究者らが、AIの台頭に伴いコンピュータ科学を「コンピュータおよびAI科学」へと刷新するよう提言している。<br><br><ul><li>テクニカル・ユニバーシティ・ダルムシュタット（TU Darmstadt）の約40名の研究者らは、AIがコンピュータ科学をより重要なものにするとして、分野の進化を求めている。</li><li>生成AIの普及により、手作業でのコーディングから、AIが生成したシステムの検証や指示へと開発の主軸が移行しているため、大学のカリキュラムの大幅な変更が必要とされている。</li><li>システムが実行時に独自の動作やコードを生成する「ジェネレーティブ・コンピューティング」の台頭により、従来の安全性に対する保証のあり方に疑問が投げかけられている。</li><li>従来の課題であった手動プログラミングの手間が軽減されることで、自然言語によるソフトウェア構築や、統合・テストといった複雑な作業の加速が実現する。</li><li>研究者らは、新しいコンピュータ科学の方向性として、エネルギー効率の向上や社会的な責任への注力も求めている。</li></ul></p>
+      <h2><a href="https://the-decoder.com/back-to-back-cyber-incidents-at-us-financial-investigators-and-spy-agencies-follow-a-string-of-federal-hacks-and-outages/" target="_blank" rel="noopener">Back-to-back cyber incidents at US financial investigators and spy agencies follow a string of federal hacks and outages</a></h2>
+      <p>米国の金融調査機関や情報機関でサイバーインシデントが相次ぎ発生<br><br><ul><li>米財務省の金融犯罪取締ネットワーク（FinCEN）が、システムの一部への不正アクセスを受けて予防措置として一部システムをオフラインにし、調査を行っている。</li><li>その数時間前、CIAや国家地理空間情報局（NGA）、国家情報長官室（ODNI）などの公開データ分析システムでも別の侵害が発生したと報じられた。</li><li>情報機関へのサイバー攻撃では、中国のエンジニアが公開した後に攻撃用に転用されたAI防御ツール「Artex」が使用された疑いがある。</li><li>これらの事件は、FBIや米国農務省（USDA）でのハッキング、NSAの内部ネットワーク障害など、一連の連邦政府におけるセキュリティ問題やシステム障害に続くものである。</li><li>米国当局は、AIによってソフトウェアの脆弱性が次々と発見されており、早急なパッチ適用の必要性が高まっていると指摘している。</li></ul></p>
     </div>
 
-    <div class="card" id="a-4233de0e-c1c5-8199-9ed5-e15dac7e58eb">
+    <div class="card" id="a-4243de0e-c1c5-8198-866f-f04ee17e393d">
       <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own/" target="_blank" rel="noopener">Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own</a></h2>
-      <p>Anthropicがプルリクエストの自動レビュー・修正・承認を行う新ツール「Claude Ship」をベータ版として発表<br><br><ul><li>Anthropicが発表した「Claude Ship」は、AIエージェントがコードの変更内容のレビュー、問題の修正、マージの承認を自律的に行う新しいベータ版ツールである。</li><li>システムは既存のコードレビュー機能に加え、新登場の「PR Steward」と「Claude Approvals」という2つのAIエージェントで構成されている。</li><li>「PR Steward」はテストの失敗や修正指示などに応じてコードのドラフトを自動で再作業し、「Claude Approvals」はプロジェクト内のポリシーファイルを確認してAI単体で承認するか人間の承認が必要かを判断する。</li><li>GitHubの自動マージ機能と適切なポリシーを組み合わせることで、人間の介入を一切挟まずに新しいコードをマージすることが可能となる。</li><li>本機能はTeamおよびEnterpriseプランで利用可能でトークン従量制で課金されるが、デフォルトでは支出上限がないためチーム側で予算設定を行う必要がある。</li></ul></p>
+      <h2><a href="https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/" target="_blank" rel="noopener">PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values</a></h2>
+      <p>PrismMLが、54GBの大規模言語モデルをわずか5.9GBに圧縮した「Ternary Bonsai 2.5 27B」を発表<br><br><ul><li>スタートアップ企業のPrismMLが、Qwen3.8-27Bをベースにした超圧縮言語モデル「Ternary Bonsai 2.5 27B」をリリースした。</li><li>通常の16ビットストレージを使用せず、すべての重みを「-1、0、+1」の3つの値のみにする「三値量子化（ternary quantization）」を用いることで、本来54GB必要なモデルサイズを5.9GBまで削減している。</li><li>長いツール呼び出しの連鎖を伴うエージェントタスクにおいてより信頼性の高いパフォーマンスを発揮するように設計されており、前バージョンと比較してSWE-bench VerifiedやAppWorldなどのベンチマークスコアが大幅に向上した。</li><li>RTX 4090上でマルチトークン予測を使用することにより、1秒あたり約204トークンの生成が可能である。</li><li>重みはApache 2.0ライセンスで提供され、「llama.cpp」を介してNvidiaやIntelのGPUで動作するほか、Mac、iPhone、iPadのMLXでも実行できる。</li></ul></p>
     </div>
 
-    <div class="card" id="a-4233de0e-c1c5-8165-8a03-e43ae5d3742d">
+    <div class="card" id="a-4243de0e-c1c5-8169-88f7-c19cd46db67d">
       <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/" target="_blank" rel="noopener">OpenAI updates ChatGPT to handle complex everyday questions, web searches, and images more reliably</a></h2>
-      <p>OpenAIがChatGPTをアップデート、複雑な日常の質問やウェブ検索、画像処理をより確実に実行可能に<br><br><ul><li>OpenAIは、Plus、Pro、Business、Enterpriseユーザーを対象に、チャット向けに調整された「GPT-6.2 Sol」の世界的展開を開始した。</li><li>内部テストにおいて、GPT-6.2は画像理解力が大幅に向上し（71.7%対47.4%）、複雑な指示への追従性も向上している（78.1%対62.5%）。</li><li>専門家レベルのタスクやウェブ検索のベンチマーク（BrowseCompなど）において、すべての推論レベルで従来のGPT-6を上回る性能を示した。</li><li>安全性ポリシーの遵守率が困難な会話においても従来の77〜80%から91〜94%へと向上し、特に青少年保護の領域で大きな成果を上げている。</li><li>このアップデートはChatGPTの通常チャットモードに適用され、WorkおよびCodexモデルは変更されず、エンタープライズ管理者がアクセス有無を選択できる。</li></ul></p>
+      <h2><a href="https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/" target="_blank" rel="noopener">MIT team discovers that unrealistic training data makes AI climate predictions more reliable</a></h2>
+      <p>MITの研究チームが、あえて非現実的で極端な訓練データを用いることで、AI気候予測モデルの精度と信頼性を大幅に向上させる手法を開発した。従来の気候シミュレーションは膨大な時間と計算コストを要していたが、この新手法によりAIエミュレータの開発が劇的に高速化・効率化される。<br><br><ul><li>従来手法の課題：大規模な気候シミュレーションの実行には数か月かかり、モデルが完成する頃には旧式化し、未知の状況への対応も苦手だった。</li><li>新手法の仕組み：MIT、ETHチューリッヒ、インペリアル・カレッジ・ロンドンの共同チームが、2050年の急激なCO2急増といった極端な変動を含む合成訓練データを活用するアルゴリズムを構築した。</li><li>データの削減と効率化：均等に分布した現実的なシナリオではなく、ターゲットを絞った極端な変動データを用いることで、必要なシミュレーションはわずか1回で済むようになった。</li><li>予測精度の向上：極端なスイングを取り入れたことでAIが気候システムをより精密に理解できるようになり、地域的な環境政策の影響も信頼性高く計算できるようになった。</li></ul></p>
     </div>
 
-    <div class="card" id="a-4233de0e-c1c5-81cc-89c1-f7fa91acd3c8">
+    <div class="card" id="a-4243de0e-c1c5-8109-be49-f3865acb9e51">
       <span class="badge">THE DECODER</span>
-      <h2><a href="https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/" target="_blank" rel="noopener">Anthropic's appetite for compute is pushing xAI toward a rent-over-build strategy</a></h2>
-      <p>Anthropicの膨大な計算資源（コンピュート）需要を背景に、イーロン・マスク氏率いるxAIは、自社開発よりも他社への貸し出しを優先する「レンタル重視」の戦略へと舵を切っています。<br><br><ul><li>AnthropicはxAI最大の顧客であり、月額約31億ドル規模の契約を結んでいる（Googleも月額8億ドルを支出）。</li><li>xAIは自社モデルの競争力不足や収益化の圧力から、エンジニアに対して「GPUあたりの収益」を追求するよう指示している。</li><li>xAIは収益化とリソース確保のため、画像・動画生成「Grok Imagine」の開発チームを解散するなど、自社AIプロジェクトの縮小や再編を進めている。</li><li>両社の契約はいずれも90日前の通知でキャンセル可能であり、Anthropic側はさらなるレンタル拡大を求めている。</li></ul></p>
+      <h2><a href="https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows/" target="_blank" rel="noopener">Anthropic turns Claude Artifacts into standalone desktop apps for macOS and Windows</a></h2>
+      <p>Anthropicが「Claude Artifacts」をmacOSとWindows向けの独立したデスクトップアプリに変換する機能を発表<br><br><ul><li>Anthropicは、Claudeのチャット内で作成した「Artifacts」をコードを書くことなく、macOSやWindowsの独立したデスクトップアプリとしてドックに常駐させられる新機能をベータ版として公開した。</li><li>インストールしたアプリは、OSのAPIやコネクター、Claude本体と連携できるため、メニューバー項目や透明ウィンドウの追加、通知の送信などが可能となる。</li><li>カスタムターミナル、ファイルマネージャー、動画エディターなどの作成が可能で、現在いくつかのデモが試用できる。</li><li>利用にはClaudeのアカウント（無料アカウントでも可）と、最新版のClaudeデスクトップアプリが必要となる。</li><li>Apple Developerアカウントを持っている場合は、Claudeを使って完全に独立したアプリを作成することも可能である。</li></ul></p>
     </div>
 
-    <div class="card" id="a-4233de0e-c1c5-8140-9ac7-ed1a210ae944">
+    <div class="card" id="a-4243de0e-c1c5-81ac-a138-d0c00552e4f0">
       <span class="badge">Simon Willison’s Weblog (llms)</span>
-      <h2><a href="https://simonwillison.net/2026/Nov/23/glm-54/" target="_blank" rel="noopener">GLM-5.4: Toward Generalized Coding with Our First Loop Transformer</a></h2>
-      <p>中国のAIラボZ.aiが発表した新型言語モデル「GLM-5.4」に関する、サイモン・ウィリソンのブログ記事の要約です。<br><br>GLM-5.4: ループ型トランスフォーマーを採用した汎用コーディングモデルの登場<br><br><ul><li>GLM-5.4は、中国のAIラボZ.aiが開発した同社初の「ループ型トランスフォーマー」アーキテクチャを採用したモデルである。</li><li>ループ型トランスフォーマーは、重みを共有する層を複数回反復実行することで、パラメータ数を増やさずにネットワークを深くし、推論能力を高める仕組みを持つ。</li><li>現時点ではオープンウェイトとしては公開されておらず、安全性確保の調整が完了した後に責任を持ってオープンソース化される予定である。</li><li>筆者はZ.aiのコーディングプランを通じてAPIアクセスを取得し、新モデルの動作検証やLLMプラグインの作成を行った。</li><li>GLM-5.3および5.4世代の生成画像（ペリカン）の品質やスタイルは、OpenAIやAnthropicのモデルの水準に近づいており、独自の作風だった初期バージョンから大きく変化している。</li></ul></p>
+      <h2><a href="https://simonwillison.net/2026/Nov/24/llm-inflection-points/" target="_blank" rel="noopener">Three LLM inflection points in twelve months</a></h2>
+      <p>過去12ヶ月間におけるLLM（大規模言語モデル）とコーディングエージェントの進化において、開発者の作業効率を劇的に変えた3つの重要な転換点が存在する。<br><br><ul><li>2025年11月に登場した「Claude Opus 4.5」やOpenAIの「GPT-5.1」シリーズにより、コーディングエージェントが人間の手厚い補助なしでも信頼できる結果を出せるレベルに達した。</li><li>2025年12月の休暇期間を通じて多くのエンジニアが新しいAIツールを試行錯誤し、2026年1月には実際の業務へ本格的に活用できるようになった。</li><li>2025年6月・7月には、高度なセキュリティ能力を持つ「Claude Fable 5」が登場したが、サイバーセキュリティ上の懸念から一時的に米国政府の輸出規制対象となった。</li></ul></p>
     </div>
 
-    <div class="card" id="a-4233de0e-c1c5-8153-a43a-d27b0251b0e0">
+    <div class="card" id="a-4243de0e-c1c5-812c-a441-e864d40243f8">
       <span class="badge">Simon Willison’s Weblog (llms)</span>
-      <h2><a href="https://simonwillison.net/2026/Nov/23/ladybird/" target="_blank" rel="noopener">Ladybird's first alpha release</a></h2>
-      <p>独自開発のエンジンを持つ新しいWebブラウザ「Ladybird」が、ついに初のアルファ版をリリースし、macOSやLinux環境で簡単にインストールして試せるようになりました。<br><br><ul><li>独自のHTMLパース、CSSエンジン、JavaScript、WebAssemblyなどの主要コンポーネントをゼロから実装した、非常に野心的なブラウザである。</li><li>初のアルファ版公開により、ソースコードからコンパイルする手間なく、macOSやLinuxへ簡単にインストールできるようになった。</li><li>多くのWebサイトや、WebAssemblyを用いた高度なツール（動画圧縮ツールやPythonの実行環境など）が正常に動作する。</li><li>現代のブラウザと同様にタブごとにプロセスを分離する仕組みを採用しており、動作が軽量で高速である。</li><li>開発においてAIコーディングエージェントを活用しており、C++からRustへのコード移行などを短期間で効率的に進めている。</li></ul></p>
+      <h2><a href="https://simonwillison.net/2026/Nov/24/astra-historical-mystery/" target="_blank" rel="noopener">GPT 6.2 Astra Solves a Historical Mystery</a></h2>
+      <p>GPT 6.2 Astraが歴史的な謎を解決<br><br><ul><li>歴史学者のマーク・ハンフリーズ氏による事例研究で、AIモデル「GPT-6.2 Astra」が最小限のプロンプトを用いて、イェール大学所蔵の1808年の匿名スケッチブックの作者をわずか22分で自律的に特定した。</li><li>Astraは公開されている一次・二次資料を活用し、紙のアーカイブにあるあまり知られていない資料を発見した上で、それが仮説を証明すると予測して実際に正解を導き出した。</li><li>発見された新たな資料は、カナダ史および毛皮貿易史の研究者にとって重要な大発見となった。</li><li>歴史学へのAI導入について、ハンフリーズ氏は数学分野のような深刻な存在意義の危機には至らないと考えており、歴史学は単一の真実を追うだけでなく、哲学や文学に近い解釈を行うため人間の存在が不可欠であると述べている。</li></ul></p>
     </div>
 
-    <div class="card" id="a-4233de0e-c1c5-8197-8d50-ff6bf439ce48">
+    <div class="card" id="a-4243de0e-c1c5-8174-bbf4-d390b0e5d64c">
       <span class="badge">Hugging Face Blog</span>
-      <h2><a href="https://huggingface.co/blog/allenai/robotrack" target="_blank" rel="noopener">RoboTrack: Point tracking for real-world robotic manipulation</a></h2>
-      <p>RoboTrack: 現実世界のロボット操作に向けたポイントトラッキング<br><br><ul><li>ロボットが現実世界で物体を正確に把持・操作するためには、動画内の特定の位置を追跡するポイントトラッキング技術が不可欠である。</li><li>既存のトラッカーは従来のベンチマークで高得点を記録しているものの、視点の変化や障害物がある実際のロボット環境では性能が十分に発揮されない課題があった。</li><li>これを解決するため、多様なロボットや人間の手の動きを含む307本の動画からなる実世界ベンチマーク「RoboTrack-Bench」が導入された。</li><li>さらに、シミュレーション環境を活用して高密度なポイント軌跡を生成するデータセット「RoboTrack-15M」が開発され、ロボット操作における認識精度の向上が目指されている。</li></ul></p>
+      <h2><a href="https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga" target="_blank" rel="noopener">An Indic Voice Agent with CUGA</a></h2>
+      <p>インドの地域言語に対応した音声対話型農業アシスタントエージェントの開発について解説した記事である。<br><br><ul><li>英語の農業ハンドブックの知識を活用し、農家がヒンディー語やタミル語などの母国語で音声質問すると、音声で回答と参照ページを返す仕組みを実現している。</li><li>エージェントの基盤としてIBM Researchのオープンソースフレームワーク「CUGA」を採用し、モデルの切り替えやドキュメント検索、会話スレッドの管理を効率化している。</li><li>音声認識と音声合成をテキスト処理の前後に配置するシンプルな設計により、正確かつ安全な対話処理を行っている。</li><li>農業以外の話題（クリケットやプログラミングなど）に対しては、ハルシネーション（嘘の生成）を防ぎ、適切に農業の話題へ誘導するガードレール機能を備えている。</li></ul></p>
     </div>
 
-    <div class="card" id="a-4233de0e-c1c5-8162-84ab-e3daca0fbf42">
-      <span class="badge">Ollama Blog</span>
-      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.18" target="_blank" rel="noopener">v0.40.18</a></h2>
-      <p>v0.40.18のリリースにおける主な変更点と重要なポイントは以下の通りです。本バージョンでは、Metalバックエンドの最適化やllama.cppのバージョンアップ、コードの共通化などが行われています。<br><br><ul><li>MetalにおけるInklingの残差混合（residual mixing）処理を統合し、パフォーマンスを改善しました。</li><li>mlxrunnerにおいて、複数のアーキテクチャ間でテンソルヘルパーとモデルのセットアップ処理を共有化し、効率化を図りました。</li><li>llama.cppをバージョンb12651にアップデートするとともに、Jetpack 5のサポートを終了しました。</li><li>inkling2モデルにおけるMetalでのデコード、プレフィル、ドラフト処理の高速化を実現しました。</li></ul></p>
+    <div class="card" id="a-4243de0e-c1c5-81b2-99b4-f038738fb1a3">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/inkling-2-mini-inference-hillclimb" target="_blank" rel="noopener">Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000</a></h2>
+      <p>Inkling 2 Miniの単一RTX PRO 6000における推論性能向上と最適化の取り組み<br><br><ul><li>「Inkling 2 Mini」は、約26Bのパラメータを持つ革新的なループ型Mixture-of-Experts（MoE）モデルであり、優れた性能を発揮する。</li><li>1枚の「NVIDIA RTX PRO 6000（96GB）」環境において、コーディングエージェントを用いた自動実験により推論の最適化を実施した。</li><li>vLLMナイトリービルドとDSparkによる投機的デコーディングを活用し、シングルユーザーのデコード速度を136 tok/sから190.6 tok/sへ40%向上させた。</li><li>8ユーザーの総スループットも570 tok/sから716 tok/sへと26%向上し、ロングコンテキストの検索タスクでも高い精度を実証した。</li><li>最適化に使用された設定やログなどの全データは公開されており、検証済みの構成はそのまま推論エンドポイントとして稼働している。</li></ul></p>
     </div>
 
-    <div class="card" id="a-4233de0e-c1c5-8164-bd8f-c3a311fca8f0">
-      <span class="badge">Ollama Blog</span>
-      <h2><a href="https://github.com/ollama/ollama/releases/tag/v0.40.18-rc0" target="_blank" rel="noopener">v0.40.18-rc0: inkling2: faster Metal decode, prefill and draft rounds (#19843)</a></h2>
-      <p>v0.40.18-rc0: inkling2におけるMetalデコード、プリフィル、ドラフト処理の高速化<br><br><ul><li>Apple SiliconのGPU世代やサイズクラスに応じて切り替え可能な、インクリング専用のMetalカーネルを追加し、ストックグラフのフォールバック機能も実装しました。</li><li>短いBF16の積和演算、重複排除されたNVFP4/MXFP8のエキスパートギャザーとSwiGLUの融合、ループ制御および残差ミキシングの融合により処理を高速化しました。</li><li>相対位置の分割アテンション、融合された短い畳み込み演算、および高速なグローバルプリフィルに対応しました。</li><li>インプレースで追加を行う順序付きウィンドウキャッシュを採用しました。</li><li>8ビットのドラフトと4ビットの語彙ヘッドを組み合わせた手法により、出力の正確性を保ったまま提案処理の高速化を実現しました。</li></ul></p>
+    <div class="card" id="a-4243de0e-c1c5-815b-b9c0-c6b187eb65d1">
+      <span class="badge">Hugging Face Blog</span>
+      <h2><a href="https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance" target="_blank" rel="noopener">Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton</a></h2>
+      <p>Microduckの障害物回避：Isaac LabとNewtonを活用したSim2Realワークフロー<br><br><ul><li>マイクロダックの歩行ポリシーを固定したまま、Time-of-Flight（ToF）センサーを用いた障害物回避コントローラーを追加し、シミュレーションから実機への展開を実現する。</li><li>NVIDIA Isaac LabとNewtonを組み合わせることで、数千のGPU並列環境での高速なシミュレーション学習と、センサーによる正確な深度測定を行う。</li><li>ゲームパッドで指定した移動方向に対し、学習したコントローラーが障害物を避けるよう速度指令を自動調整して歩行ポリシーに渡す。</li><li>多様な障害物コースの構築、ポリシーのトレーニング、挙動の評価、ONNX形式へのエクスポート、そして実機ロボットでのテストまでの手順を網羅する。</li></ul></p>
     </div>
 
-    <div class="card" id="a-4233de0e-c1c5-8101-9139-fbd71c99209c">
+    <div class="card" id="a-4243de0e-c1c5-8196-96d0-cd9630747f40">
       <span class="badge">NVIDIA Developer Blog</span>
-      <h2><a href="https://developer.nvidia.com/blog/qa-how-everstone-brings-where-winds-meet-to-life-with-nvidia-dlss-5/" target="_blank" rel="noopener">Q&amp;A: How Everstone Brings Where Winds Meet to Life with NVIDIA DLSS 5</a></h2>
-      <p>Everstone Studioのオープンワールド武侠ゲーム『Where Winds Meet』におけるNVIDIA DLSS 5の活用と、開発陣へのインタビューに関する記事の要約です。<br><br>Everstone Studioは、オープンワールド武侠アクションゲーム『Where Winds Meet』において、NVIDIA DLSS 5を活用し、ゲームの独自なアートスタイルやキャラクターの個性を損なうことなく、照明やマテリアルの質感を大幅に向上させました。<br><br><ul><li>既存のStreamline統合を活用することで、DLSS 5をスムーズに導入し、モデル選択や強度コントロールにより視覚的向上とパフォーマンス負荷のバランスを調整しました。</li><li>江南エリアでは特に顕著な改善が見られ、強いハイライトの緩和、影への奥行きの追加、木や瓦のリアルなディテールが表現されています。</li><li>追加のパフォーマンス負荷を考慮し、プレイヤーがDLSS 5の有効・無効や好みのモデルを選択できるオプションを提供する予定です。</li><li>開発者に対しては、レンダリング予算の初期段階からDLSS 5を計画に組み込むことが推奨されています。</li></ul></p>
+      <h2><a href="https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers/" target="_blank" rel="noopener">How to Run NVIDIA Cosmos 3 on Local AI Devices Using Hugging Face Diffusers</a></h2>
+      <p>Hugging Face Diffusersを活用してローカルAIデバイスでNVIDIA Cosmos 3を実行する方法<br><br><ul><li>NVIDIA Cosmos 3 Nanoは、テキストや画像などから動画を生成し、物理AIの開発をサポートするワールド基盤モデルである。</li><li>Cosmos-Frameworkオフロードパッケージを利用することで、モデルウェイトをシステムRAMに保存し必要に応じてGPUへ転送し、わずか12 GBのVRAMを搭載したGPUでも実行可能にする。</li><li>ネイティブ混合精度を持つFP8チェックポイントにより、注意層でBF16スケール・ドット・プロダクト・アテンションを維持しながら、ピーク時のGPUメモリ使用量を削減する。</li><li>公式のDiffusersモジュラーパイプラインを通じて、テキストからの動画生成、画像からの動画生成、動画からの動画生成、音声生成など、7つの生成モダリティをサポートする。</li><li>GeForce RTX 5070などの環境でのベンチマークテストにより、各解像度やモダリティにおけるパイプラインのレイテンシとピークメモリ使用量が示されている。</li></ul></p>
     </div>
 
-    <div class="card" id="a-4233de0e-c1c5-813f-b358-f8117e6b0a7b">
+    <div class="card" id="a-4243de0e-c1c5-8108-a225-dd1bebfc1a5c">
       <span class="badge">NVIDIA Developer Blog</span>
-      <h2><a href="https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0/" target="_blank" rel="noopener">Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0</a></h2>
-      <p>NVIDIA cuDSS 1.0による計算工学向け直接スパースソルバーの高速化<br><br><ul><li>NVIDIA cuDSS 1.0は、工学や科学技術シミュレーション向けに、本番環境で即時利用可能なGPUアクセラレーテッドなスパース線形方程式ソルバーを提供する。</li><li>Intel MKLと比較して、幾何平均で解析が2.5倍、数値因数分解が5.9倍、三角方程式の解決が151倍に高速化された。</li><li>対称不定システム向けに、HSL MC64とBunch-Kaufmanピボティングをデフォルトで有効化し、誤差を最大10桁改善した。</li><li>GPUのHBMとCPUのDRAM間でデータを管理するハイブリッドメモリモードにより、大規模なVLSIケースでデバイスメモリ要件を約30%削減する。</li><li>GPUによるシンボリック因数分解がcuDSS 0.8.0よりも2.21倍高速化し、ハイブリッド実行モードによる効率的な処理を実現している。</li></ul></p>
+      <h2><a href="https://developer.nvidia.com/blog/prepare-market-data-for-forecasting-with-nvidia-megatron-core/" target="_blank" rel="noopener">Prepare Market Data for Forecasting with NVIDIA Megatron Core</a></h2>
+      <p>NVIDIA Megatron Coreを活用した金融市場データの予測向け前処理と分散学習の仕組み<br><br><ul><li>NVIDIA Megatron CoreとMegatron-LMを活用し、金融時系列データの予測モデルを効率的にトレーニングするための前処理パイプラインを提供する。</li><li>Parquet形式の市場データを、パッチ化やスライディングウィンドウ処理、マルチホライズンの予測ターゲット計算により、モデル訓練用のテンソルへ変換して保存する。</li><li>トレーニング期間のみからターゲット統計量を計算し、日付ベースの分割とエンバーゴ期間を設けることで、未来の情報漏洩やルックアヘッドバイアスを防止する。</li><li>テンソル並列グループ間でバッチを共有するメモリマップドデータローダーにより、大規模な分散トレーニングを効率化する。</li><li>データインターフェースとモデルアーキテクチャが分離されているため、前処理やデータローダーのロジックを再利用しながら独自の予測モデルを組み込める。</li></ul></p>
     </div>
 
-    <div class="card" id="a-4233de0e-c1c5-8166-a74c-e1fe5947bba5">
+    <div class="card" id="a-4243de0e-c1c5-8145-8253-e064c9416394">
       <span class="badge">NVIDIA Developer Blog</span>
-      <h2><a href="https://developer.nvidia.com/blog/get-started-with-gpu-accelerated-duckdb-analytics-using-the-sirius-core-extension/" target="_blank" rel="noopener">Get Started with GPU-Accelerated DuckDB Analytics Using the Sirius Core Extension</a></h2>
-      <p>NVIDIAとDuckLabsによるGPUアクセラレーションを活用したDuckDB拡張機能「Sirius」の導入と特長<br><br><ul><li>Siriusは、NVIDIAとDuckLabsが共同開発したDuckDBのコア拡張機能であり、既存のSQLやスキーマを変更することなく、NVIDIA GPUによる分析クエリの高速化を実現する。</li><li>導入は「INSTALL sirius」と「LOAD sirius」の2つのSQLコマンドを実行するだけでよく、DuckDBがパースと最適化を担当し、対応するクエリプランをGPUで実行する（未対応機能はCPUにフォールバック）。</li><li>ウィスコンシン大学マディソン校とNVIDIAによって開発されたオープンソースのGPUネイティブSQLエンジンを基盤としている。</li><li>TPC-Hクエリ（スケールファクター最大10TB）を用いたベンチマークテストでは、チューニングされた2GPU構成において3.25倍から5.50倍の高速化と、最大79%のクエリ実行コスト削減を達成している。</li><li>データの増大に伴う分析処理の遅延やコスト増加という課題に対して、開発者がより高速でレスポンシブなデータ探索やパイプライン構築を行うことを可能にする。</li></ul></p>
+      <h2><a href="https://developer.nvidia.com/blog/whats-new-for-game-developers-ai-animation-and-rtx-tools/" target="_blank" rel="noopener">What’s New for Game Developers: AI Animation and RTX Tools</a></h2>
+      <p>NVIDIAによるゲーム開発者向け最新アップデート：AIアニメーションとRTXツール<br><br><ul><li>Gaijin Entertainmentが『War Thunder』のDagorエンジンに3D-Guided Neural Rendering対応のNVIDIA DLSS 5を統合し、高度なHDRカラーマネジメントを実現した。</li><li>Unreal Engine 5.9 Previewに初のAIモーション生成モデル「NVIDIA Kimodo」が統合され、テキストプロンプトやパスを用いた直感的なキャラクターアニメーション作成が可能になった。</li><li>NVIDIA In-Game Inferencing SDK 1.8やRTX Dynamic Illumination 3.2がアップデートされ、RTX Sparkプラットフォームのサポートやサンプリング精度の向上が図られた。</li><li>D3D12およびVulkanアプリケーションのリアルタイム・レイトレーシング加速構造を表示する「NVIDIA Real-Time BVH Viewer 1.0」が新たに登場した。</li><li>RTX Path Tracing 1.9により、ReSTIR DI、SHaRC放射輝度キャッシュ、DLSS Ray Reconstructionを組み合わせた導入サンプルが追加され、リアルタイムサブサンプリング等のパフォーマンス最適化が行われた。</li></ul></p>
     </div>
 <footer>要約モデル: gemini-3.5-flash-lite</footer>
 <script>
 (function () {
-  var CURRENT_DATE = "2026-11-24";
+  var CURRENT_DATE = "2026-11-25";
   var ARTICLES_PATH_PREFIX = 'articles/';
   var API_URL = 'https://api.github.com/repos/TamNakayama/daily-article-summary-pages/contents/articles';
   var CACHE_KEY = 'dateNavList';
