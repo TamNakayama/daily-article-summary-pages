@@ -1,0 +1,128 @@
+[
+  {
+    "id": "4243de0e-c1c5-8191-b037-fa6df248065e",
+    "title": "AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant",
+    "site": "THE DECODER",
+    "published": "2026-11-25T13:23:36.000Z",
+    "fetched": "2026-11-26T00:00:39.496Z",
+    "summary": "Google Deepmindが次期Geminiモデルの開発において、AIエージェントに実験の制御を一部委ねていることや、AIの現状と限界について報じられています。\n\n次期Geminiモデルの実験において、Google Deepmindは計算リソースの一部制御をAIエージェントに任せ、独自に実験を行わせる戦略的な移行を進めている。\n安全対策として、AIエージェントのトレーニング時には内部の思考プロセス（Chain of Thought）に対して報酬を与えておらず、行動前に意図が自然言語でフィルタリングされずに確認できるようにしている。\nDeepmindの研究副社長であるコライ・カヴクチュオグル氏は、現在のAIは物理現象を視覚的に正確に描写できる一方で、正確な理解には至っていないと指摘している。\nAIがいつ汎用人工知能（AGI）に到達するかを正確に示すテストやベンチマークは存在せず、AGIの到来は日常的な製品が人々から信頼を得て意思決定を任されるようになる時点であるとしている。\nAIが自律的に自らを改良していく「再帰的自己改善」の実現は、現状ではまだ遠い先の話であるとされている。",
+    "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/"
+  },
+  {
+    "id": "4243de0e-c1c5-81c4-bf5b-d9dcd20afc63",
+    "title": "Anthropic study shows the hardest part of adopting AI at work has little to do with learning the tools",
+    "site": "THE DECODER",
+    "published": "2026-11-25T13:14:27.000Z",
+    "fetched": "2026-11-26T00:00:49.238Z",
+    "summary": "Anthropicの調査：職場でAI導入する際の最大の難関はツールを学ぶことではない\n\n- Anthropicが米国企業58社を対象に行った調査によると、職場におけるAI導入の最大の障壁はツール自体の学習ではなく、社内の人間関係や業務プロセスにあることが判明した。\n- 調査対象となったAI活用のうち55%で成果や品質の向上が見られた一方で、約2割（19%）は社内のボトルネックやレビュー負担などが原因で、いまだにビジネス上の価値を生み出せていない。\n- 導入の大きな障害として、人間によるレビューが追いつかないほどの膨大なAI出力（49件）、従業員の抵抗（43件）、専門家による必須レビュー（42件）が挙げられており、迅速な効率化への期待に対して現実的な課題が浮き彫りとなっている。",
+    "url": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/"
+  },
+  {
+    "id": "4243de0e-c1c5-8167-9fa7-cec2d1d505c0",
+    "title": "Back-to-back cyber incidents at US financial investigators and spy agencies follow a string of federal hacks and outages",
+    "site": "THE DECODER",
+    "published": "2026-11-25T13:07:44.000Z",
+    "fetched": "2026-11-26T00:01:00.695Z",
+    "summary": "米国の金融調査機関や情報機関でサイバーインシデントが相次ぎ発生\n\n- 米財務省の金融犯罪取締ネットワーク（FinCEN）が、システムの一部への不正アクセスを受けて予防措置として一部システムをオフラインにし、調査を行っている。\n- その数時間前、CIAや国家地理空間情報局（NGA）、国家情報長官室（ODNI）などの公開データ分析システムでも別の侵害が発生したと報じられた。\n- 情報機関へのサイバー攻撃では、中国のエンジニアが公開した後に攻撃用に転用されたAI防御ツール「Artex」が使用された疑いがある。\n- これらの事件は、FBIや米国農務省（USDA）でのハッキング、NSAの内部ネットワーク障害など、一連の連邦政府におけるセキュリティ問題やシステム障害に続くものである。\n- 米国当局は、AIによってソフトウェアの脆弱性が次々と発見されており、早急なパッチ適用の必要性が高まっていると指摘している。",
+    "url": "https://the-decoder.com/back-to-back-cyber-incidents-at-us-financial-investigators-and-spy-agencies-follow-a-string-of-federal-hacks-and-outages/"
+  },
+  {
+    "id": "4243de0e-c1c5-8198-866f-f04ee17e393d",
+    "title": "PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values",
+    "site": "THE DECODER",
+    "published": "2026-11-25T11:51:49.000Z",
+    "fetched": "2026-11-26T00:01:13.273Z",
+    "summary": "PrismMLが、54GBの大規模言語モデルをわずか5.9GBに圧縮した「Ternary Bonsai 2.5 27B」を発表\n\n- スタートアップ企業のPrismMLが、Qwen3.8-27Bをベースにした超圧縮言語モデル「Ternary Bonsai 2.5 27B」をリリースした。\n- 通常の16ビットストレージを使用せず、すべての重みを「-1、0、+1」の3つの値のみにする「三値量子化（ternary quantization）」を用いることで、本来54GB必要なモデルサイズを5.9GBまで削減している。\n- 長いツール呼び出しの連鎖を伴うエージェントタスクにおいてより信頼性の高いパフォーマンスを発揮するように設計されており、前バージョンと比較してSWE-bench VerifiedやAppWorldなどのベンチマークスコアが大幅に向上した。\n- RTX 4090上でマルチトークン予測を使用することにより、1秒あたり約204トークンの生成が可能である。\n- 重みはApache 2.0ライセンスで提供され、「llama.cpp」を介してNvidiaやIntelのGPUで動作するほか、Mac、iPhone、iPadのMLXでも実行できる。",
+    "url": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/"
+  },
+  {
+    "id": "4243de0e-c1c5-8169-88f7-c19cd46db67d",
+    "title": "MIT team discovers that unrealistic training data makes AI climate predictions more reliable",
+    "site": "THE DECODER",
+    "published": "2026-11-25T10:47:51.000Z",
+    "fetched": "2026-11-26T00:01:21.525Z",
+    "summary": "MITの研究チームが、あえて非現実的で極端な訓練データを用いることで、AI気候予測モデルの精度と信頼性を大幅に向上させる手法を開発した。従来の気候シミュレーションは膨大な時間と計算コストを要していたが、この新手法によりAIエミュレータの開発が劇的に高速化・効率化される。\n\n- 従来手法の課題：大規模な気候シミュレーションの実行には数か月かかり、モデルが完成する頃には旧式化し、未知の状況への対応も苦手だった。\n- 新手法の仕組み：MIT、ETHチューリッヒ、インペリアル・カレッジ・ロンドンの共同チームが、2050年の急激なCO2急増といった極端な変動を含む合成訓練データを活用するアルゴリズムを構築した。\n- データの削減と効率化：均等に分布した現実的なシナリオではなく、ターゲットを絞った極端な変動データを用いることで、必要なシミュレーションはわずか1回で済むようになった。\n- 予測精度の向上：極端なスイングを取り入れたことでAIが気候システムをより精密に理解できるようになり、地域的な環境政策の影響も信頼性高く計算できるようになった。",
+    "url": "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/"
+  },
+  {
+    "id": "4243de0e-c1c5-8109-be49-f3865acb9e51",
+    "title": "Anthropic turns Claude Artifacts into standalone desktop apps for macOS and Windows",
+    "site": "THE DECODER",
+    "published": "2026-11-24T20:42:29.000Z",
+    "fetched": "2026-11-26T00:01:29.273Z",
+    "summary": "Anthropicが「Claude Artifacts」をmacOSとWindows向けの独立したデスクトップアプリに変換する機能を発表\n\n- Anthropicは、Claudeのチャット内で作成した「Artifacts」をコードを書くことなく、macOSやWindowsの独立したデスクトップアプリとしてドックに常駐させられる新機能をベータ版として公開した。\n- インストールしたアプリは、OSのAPIやコネクター、Claude本体と連携できるため、メニューバー項目や透明ウィンドウの追加、通知の送信などが可能となる。\n- カスタムターミナル、ファイルマネージャー、動画エディターなどの作成が可能で、現在いくつかのデモが試用できる。\n- 利用にはClaudeのアカウント（無料アカウントでも可）と、最新版のClaudeデスクトップアプリが必要となる。\n- Apple Developerアカウントを持っている場合は、Claudeを使って完全に独立したアプリを作成することも可能である。",
+    "url": "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows/"
+  },
+  {
+    "id": "4243de0e-c1c5-81ac-a138-d0c00552e4f0",
+    "title": "Three LLM inflection points in twelve months",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-11-24T23:02:07.000Z",
+    "fetched": "2026-11-26T00:01:39.637Z",
+    "summary": "過去12ヶ月間におけるLLM（大規模言語モデル）とコーディングエージェントの進化において、開発者の作業効率を劇的に変えた3つの重要な転換点が存在する。\n\n- 2025年11月に登場した「Claude Opus 4.5」やOpenAIの「GPT-5.1」シリーズにより、コーディングエージェントが人間の手厚い補助なしでも信頼できる結果を出せるレベルに達した。\n- 2025年12月の休暇期間を通じて多くのエンジニアが新しいAIツールを試行錯誤し、2026年1月には実際の業務へ本格的に活用できるようになった。\n- 2025年6月・7月には、高度なセキュリティ能力を持つ「Claude Fable 5」が登場したが、サイバーセキュリティ上の懸念から一時的に米国政府の輸出規制対象となった。",
+    "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/"
+  },
+  {
+    "id": "4243de0e-c1c5-812c-a441-e864d40243f8",
+    "title": "GPT 6.2 Astra Solves a Historical Mystery",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-11-24T16:53:59.000Z",
+    "fetched": "2026-11-26T00:01:47.745Z",
+    "summary": "GPT 6.2 Astraが歴史的な謎を解決\n\n- 歴史学者のマーク・ハンフリーズ氏による事例研究で、AIモデル「GPT-6.2 Astra」が最小限のプロンプトを用いて、イェール大学所蔵の1808年の匿名スケッチブックの作者をわずか22分で自律的に特定した。\n- Astraは公開されている一次・二次資料を活用し、紙のアーカイブにあるあまり知られていない資料を発見した上で、それが仮説を証明すると予測して実際に正解を導き出した。\n- 発見された新たな資料は、カナダ史および毛皮貿易史の研究者にとって重要な大発見となった。\n- 歴史学へのAI導入について、ハンフリーズ氏は数学分野のような深刻な存在意義の危機には至らないと考えており、歴史学は単一の真実を追うだけでなく、哲学や文学に近い解釈を行うため人間の存在が不可欠であると述べている。",
+    "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/"
+  },
+  {
+    "id": "4243de0e-c1c5-8174-bbf4-d390b0e5d64c",
+    "title": "An Indic Voice Agent with CUGA",
+    "site": "Hugging Face Blog",
+    "published": "2026-11-25T10:22:09.000Z",
+    "fetched": "2026-11-26T00:01:55.725Z",
+    "summary": "インドの地域言語に対応した音声対話型農業アシスタントエージェントの開発について解説した記事である。\n\n- 英語の農業ハンドブックの知識を活用し、農家がヒンディー語やタミル語などの母国語で音声質問すると、音声で回答と参照ページを返す仕組みを実現している。\n- エージェントの基盤としてIBM Researchのオープンソースフレームワーク「CUGA」を採用し、モデルの切り替えやドキュメント検索、会話スレッドの管理を効率化している。\n- 音声認識と音声合成をテキスト処理の前後に配置するシンプルな設計により、正確かつ安全な対話処理を行っている。\n- 農業以外の話題（クリケットやプログラミングなど）に対しては、ハルシネーション（嘘の生成）を防ぎ、適切に農業の話題へ誘導するガードレール機能を備えている。",
+    "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+  },
+  {
+    "id": "4243de0e-c1c5-81b2-99b4-f038738fb1a3",
+    "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+    "site": "Hugging Face Blog",
+    "published": "2026-11-25T00:00:00.000Z",
+    "fetched": "2026-11-26T00:02:03.656Z",
+    "summary": "Inkling 2 Miniの単一RTX PRO 6000における推論性能向上と最適化の取り組み\n\n- 「Inkling 2 Mini」は、約26Bのパラメータを持つ革新的なループ型Mixture-of-Experts（MoE）モデルであり、優れた性能を発揮する。\n- 1枚の「NVIDIA RTX PRO 6000（96GB）」環境において、コーディングエージェントを用いた自動実験により推論の最適化を実施した。\n- vLLMナイトリービルドとDSparkによる投機的デコーディングを活用し、シングルユーザーのデコード速度を136 tok/sから190.6 tok/sへ40%向上させた。\n- 8ユーザーの総スループットも570 tok/sから716 tok/sへと26%向上し、ロングコンテキストの検索タスクでも高い精度を実証した。\n- 最適化に使用された設定やログなどの全データは公開されており、検証済みの構成はそのまま推論エンドポイントとして稼働している。",
+    "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+  },
+  {
+    "id": "4243de0e-c1c5-815b-b9c0-c6b187eb65d1",
+    "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+    "site": "Hugging Face Blog",
+    "published": "2026-11-24T16:34:13.000Z",
+    "fetched": "2026-11-26T00:02:14.647Z",
+    "summary": "Microduckの障害物回避：Isaac LabとNewtonを活用したSim2Realワークフロー\n\n- マイクロダックの歩行ポリシーを固定したまま、Time-of-Flight（ToF）センサーを用いた障害物回避コントローラーを追加し、シミュレーションから実機への展開を実現する。\n- NVIDIA Isaac LabとNewtonを組み合わせることで、数千のGPU並列環境での高速なシミュレーション学習と、センサーによる正確な深度測定を行う。\n- ゲームパッドで指定した移動方向に対し、学習したコントローラーが障害物を避けるよう速度指令を自動調整して歩行ポリシーに渡す。\n- 多様な障害物コースの構築、ポリシーのトレーニング、挙動の評価、ONNX形式へのエクスポート、そして実機ロボットでのテストまでの手順を網羅する。",
+    "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance"
+  },
+  {
+    "id": "4243de0e-c1c5-8196-96d0-cd9630747f40",
+    "title": "How to Run NVIDIA Cosmos 3 on Local AI Devices Using Hugging Face Diffusers",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-11-24T18:44:05.000Z",
+    "fetched": "2026-11-26T00:02:25.138Z",
+    "summary": "Hugging Face Diffusersを活用してローカルAIデバイスでNVIDIA Cosmos 3を実行する方法\n\n- NVIDIA Cosmos 3 Nanoは、テキストや画像などから動画を生成し、物理AIの開発をサポートするワールド基盤モデルである。\n- Cosmos-Frameworkオフロードパッケージを利用することで、モデルウェイトをシステムRAMに保存し必要に応じてGPUへ転送し、わずか12 GBのVRAMを搭載したGPUでも実行可能にする。\n- ネイティブ混合精度を持つFP8チェックポイントにより、注意層でBF16スケール・ドット・プロダクト・アテンションを維持しながら、ピーク時のGPUメモリ使用量を削減する。\n- 公式のDiffusersモジュラーパイプラインを通じて、テキストからの動画生成、画像からの動画生成、動画からの動画生成、音声生成など、7つの生成モダリティをサポートする。\n- GeForce RTX 5070などの環境でのベンチマークテストにより、各解像度やモダリティにおけるパイプラインのレイテンシとピークメモリ使用量が示されている。",
+    "url": "https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers/"
+  },
+  {
+    "id": "4243de0e-c1c5-8108-a225-dd1bebfc1a5c",
+    "title": "Prepare Market Data for Forecasting with NVIDIA Megatron Core",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-11-24T17:00:00.000Z",
+    "fetched": "2026-11-26T00:02:34.850Z",
+    "summary": "NVIDIA Megatron Coreを活用した金融市場データの予測向け前処理と分散学習の仕組み\n\n- NVIDIA Megatron CoreとMegatron-LMを活用し、金融時系列データの予測モデルを効率的にトレーニングするための前処理パイプラインを提供する。\n- Parquet形式の市場データを、パッチ化やスライディングウィンドウ処理、マルチホライズンの予測ターゲット計算により、モデル訓練用のテンソルへ変換して保存する。\n- トレーニング期間のみからターゲット統計量を計算し、日付ベースの分割とエンバーゴ期間を設けることで、未来の情報漏洩やルックアヘッドバイアスを防止する。\n- テンソル並列グループ間でバッチを共有するメモリマップドデータローダーにより、大規模な分散トレーニングを効率化する。\n- データインターフェースとモデルアーキテクチャが分離されているため、前処理やデータローダーのロジックを再利用しながら独自の予測モデルを組み込める。",
+    "url": "https://developer.nvidia.com/blog/prepare-market-data-for-forecasting-with-nvidia-megatron-core/"
+  },
+  {
+    "id": "4243de0e-c1c5-8145-8253-e064c9416394",
+    "title": "What’s New for Game Developers: AI Animation and RTX Tools",
+    "site": "NVIDIA Developer Blog",
+    "published": "2026-11-24T17:00:00.000Z",
+    "fetched": "2026-11-26T00:02:42.952Z",
+    "summary": "NVIDIAによるゲーム開発者向け最新アップデート：AIアニメーションとRTXツール\n\n- Gaijin Entertainmentが『War Thunder』のDagorエンジンに3D-Guided Neural Rendering対応のNVIDIA DLSS 5を統合し、高度なHDRカラーマネジメントを実現した。\n- Unreal Engine 5.9 Previewに初のAIモーション生成モデル「NVIDIA Kimodo」が統合され、テキストプロンプトやパスを用いた直感的なキャラクターアニメーション作成が可能になった。\n- NVIDIA In-Game Inferencing SDK 1.8やRTX Dynamic Illumination 3.2がアップデートされ、RTX Sparkプラットフォームのサポートやサンプリング精度の向上が図られた。\n- D3D12およびVulkanアプリケーションのリアルタイム・レイトレーシング加速構造を表示する「NVIDIA Real-Time BVH Viewer 1.0」が新たに登場した。\n- RTX Path Tracing 1.9により、ReSTIR DI、SHaRC放射輝度キャッシュ、DLSS Ray Reconstructionを組み合わせた導入サンプルが追加され、リアルタイムサブサンプリング等のパフォーマンス最適化が行われた。",
+    "url": "https://developer.nvidia.com/blog/whats-new-for-game-developers-ai-animation-and-rtx-tools/"
+  }
+]
