@@ -1,0 +1,56 @@
+[
+  {
+    "id": "4263de0e-c1c5-8154-bf19-f1f1b70dca50",
+    "title": "SAP plans to cut at least 10,000 jobs as it pivots to AI",
+    "site": "THE DECODER",
+    "published": "2026-11-27T14:57:25.000Z",
+    "fetched": "2026-11-28T00:00:38.483Z",
+    "summary": "SAPがAIへの移行に伴い少なくとも10,000人の人員削減を計画\n\n- SAPはAIを中心とした大規模な組織再編の一環として、全世界で110,000人以上いる従業員の少なくとも9％にあたる10,000人以上の削減を計画している。\n- 削減対象はすべての部署に及び、特に製品開発、エンジニアリング、営業部門が大きな打撃を受ける見込みだが、最終的な人数は従業員代表との交渉によって変更される可能性がある。\n- 本拠地であるドイツでは、全体の約4分の1の従業員が勤務しており、2028年まで雇用保証が適用されている。\n- クリスチャン・クラインCEOはAIツールを製品群全体に組み込む方針を示しており、同社は2024年にも約10,000人の人員削減を行っている。\n- 競合他社も同様の動きを見せており、オラクルやマイクロソフトも大規模な人員削減や早期退職の募集を実施している。",
+    "url": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/"
+  },
+  {
+    "id": "4263de0e-c1c5-8113-ac16-ff7e9174fbba",
+    "title": "Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it",
+    "site": "THE DECODER",
+    "published": "2026-11-26T19:31:46.000Z",
+    "fetched": "2026-11-28T00:00:45.994Z",
+    "summary": "元OpenAI研究者であるスコット・アーロンソン氏のブログ記事に基づき、AIによる数学的証明の達成とその意味合いについて結論から要約します。\n\nAIがリーマン予想などの数学的証明を成し遂げた場合、その証明自体の内容よりも、「AIがそのような高度な作業を実行できたという事実」こそが、グローバル経済の変革や地球上の生命への脅威を含め、私たちの日常生活に計り知れない影響をもたらす重要な意味を持っています。\n\n- アーロンソン氏は、リーマン予想のような数学的証明自体が人々の日常生活をすぐに変えるわけではないが、それをAIが達成した事実こそが最大の問題であると指摘している。\n- AIの能力向上は、世界経済の再構築から人類の存亡に関わる脅威まで、日常の生活に対して「驚異的な影響」をもたらす可能性がある。\n- OpenAIが達成した行列乗算やフーリエ変換に関する証明では、新しい計算方法の発見だけでなく、性能向上の限界を示す「下界（lower bound）」が示された点が重要視されている。\n- 今後は、複雑性に関する単発の解決策だけでなく、計算の限界や可能性を示す高度な成果がAIによって継続的にもたらされることが確実視されている。",
+    "url": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/"
+  },
+  {
+    "id": "4263de0e-c1c5-818e-a3e5-e236867ba7c8",
+    "title": "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error",
+    "site": "THE DECODER",
+    "published": "2026-11-26T17:28:56.000Z",
+    "fetched": "2026-11-28T00:00:53.246Z",
+    "summary": "OpenAIが料金設定の計算ミスを修正したことにより、「GPT-6.2 Astra」の利用制限に達する速度が従来より40%早くなりました。\n\n- OpenAIの請求関連のバグ修正により、「GPT-6.2 Astra」は40%、「Sol」は25%早く利用制限に達するようになった。\n- ただし、これらのクォータ（割当枠）は旧モデル（GPT-6 AstraやGPT-6.1 Sol）と比べれば依然として長持ちする。\n- 差額の遡及請求は行われず、補填としてGo、Plus、Pro、Businessの全加入者に追加のリセット回数が付与される。さらにBusinessユーザーには年末までFast modeが無料提供される。\n- OpenAIは、Proユーザーの一部を対象に、チャットモードと、よりエージェント的で高度なワークモードの統合テストを開始している。",
+    "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/"
+  },
+  {
+    "id": "4263de0e-c1c5-8191-9596-c45333862a24",
+    "title": "After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead",
+    "site": "THE DECODER",
+    "published": "2026-11-26T15:45:08.000Z",
+    "fetched": "2026-11-28T00:01:00.469Z",
+    "summary": "中国のAI開発企業が、OpenAIやAnthropicによるデータアクセス制限を受け、GoogleやMetaの最新モデルを活用する動きを見せている。米国による規制強化や計算資源の不足も重なり、次世代フラグシップモデルのリリースに遅れが生じている。\n\n- 中国のAI企業であるZ.AIやMoonshot AIは、次世代フラグシップモデルの公開延期を余儀なくされている。\n- 米国企業によるデータスクレイピングやモデル蒸留の制限、Nvidia製チップの輸出規制などが背景にある。\n- Z.AIは約3兆パラメータの「GLM-5.5」の公開が2027年第1四半期にずれ込む見込みであり、代替として中小規模のモデルを公開してしのいでいる。\n- Moonshot AIは開発サイクルが倍増する可能性があり、主力モデル「Kimi K4」の登場が2027年中頃に遅れるとみられている。\n- OpenAIやAnthropicからのデータ収集が難しくなったため、Moonshot AIはトレーニング用データとしてGoogleやMetaの最新モデルに頼る方針へ転換している。",
+    "url": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/"
+  },
+  {
+    "id": "4263de0e-c1c5-8172-9e5b-c869c9ee8eb2",
+    "title": "Quoting Jack Despain Zhou",
+    "site": "Simon Willison’s Weblog (llms)",
+    "published": "2026-11-26T15:09:31.000Z",
+    "fetched": "2026-11-28T00:01:07.713Z",
+    "summary": "AIによる表現の画一化と個性の喪失\n\n- ジャック・デスペイン・ズーの言葉として、AI（Claude）の普及による「脱個性化（de-individualization）」が指摘されている\n- YouTubeの動画やカンファレンスのプレゼン、さらには有識者からのメールや記事に至るまで、あらゆる場所でClaudeのようなAI生成の文章や声があふれている様子が批判的に述べられている\n- 本記事はサイモン・ウィリソン（Simon Willison）のウェブロッグに掲載された引用であり、生成AIやAIの誤用に関するタグが付けられている",
+    "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/"
+  },
+  {
+    "id": "4263de0e-c1c5-8153-8cb0-c64822ec1cfa",
+    "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+    "site": "Hugging Face Blog",
+    "published": "2026-11-27T00:00:00.000Z",
+    "fetched": "2026-11-28T00:01:14.925Z",
+    "summary": "AWS Trainium3を活用した動画生成モデル「LTX-2.5」の検証\n\n- Hugging FaceチームがAWSとのパートナーシップにより、Trainium3マシンを使用して動画・音声同時生成モデル「LTX-2.5」の動作検証を実施した。\n- スクリプト形式のJSONデータから短編映画のような動画を生成することと、CUDAや公式APIに匹敵するパフォーマンスの達成という2つの目標を掲げて取り組んだ。\n- わずかな最適化期間にもかかわらず、マシンの半分を使用することで、10秒間の高品質なクリップ（2048×1024解像度）を22〜23秒で生成することに成功した。\n- この生成速度は、Lightricks社が提供する公式オンラインAPIの処理速度（10秒の1080pクリップで23.7秒）と同等、あるいはそれを上回る成果となった。\n- 限られた期間の中での検証であったが、Trainium3環境におけるDiffusersを活用した動画生成の実用性と高いパフォーマンスが証明された。",
+    "url": "https://huggingface.co/blog/video-trainium3"
+  }
+]
